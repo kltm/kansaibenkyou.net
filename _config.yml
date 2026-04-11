@@ -11,6 +11,20 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+# Read canonical YAML data from data/ instead of the Jekyll default
+# _data/. This keeps the path matching the LinkML schema authoring
+# convention. site.data.<dirname>.<filename> still works as usual.
+data_dir: data
+
+# Collection of conversation pages — one stub per chapter under
+# _conversations/. The actual conversation content lives in
+# data/conversations/ and is referenced from each stub via the
+# data_id frontmatter key.
+collections:
+  conversations:
+    output: true
+    permalink: /conversations/:name/
+
 # Files and directories not part of the site output. The mothball
 # mirror is gitignored, but is also excluded here so a local
 # `bundle exec jekyll serve` won't try to copy 300+ MiB of archived

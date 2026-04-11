@@ -1,0 +1,67 @@
+---
+layout: default
+---
+{%- assign conv = site.data.conversations[page.data_id] -%}
+{%- if conv == nil -%}
+  <p class="error">
+    No conversation data found for <code>{{ page.data_id }}</code>.
+    Check that <code>data/conversations/{{ page.data_id }}.yaml</code> exists.
+  </p>
+{%- else -%}
+
+<article class="conversation-example">
+
+  <header class="conversation-header">
+    <h1 class="conversation-title">
+      {{ conv.title }}
+      {%- if conv.title_en %} <span class="conversation-title-en">/ {{ conv.title_en }}</span>{% endif -%}
+    </h1>
+    {%- if conv.summary %}
+      <p class="conversation-summary">{{ conv.summary }}</p>
+    {%- endif %}
+  </header>
+
+  {%- if conv.audio.path %}
+    <p class="conversation-audio">
+      <audio controls preload="metadata"
+             src="{{ '/assets/audio/' | append: conv.audio.path | relative_url }}">
+        Your browser does not support inline audio. Download the file
+        <a href="{{ '/assets/audio/' | append: conv.audio.path | relative_url }}">here</a>.
+      </audio>
+    </p>
+  {%- endif %}
+
+  <div class="skit">
+
+    <div class="skit-controls">
+      <button type="button" class="skit-toggle" data-layer="s">Show standard</button>
+      <button type="button" class="skit-toggle" data-layer="e">Show English</button>
+      <button type="button" class="skit-toggle" data-layer="g">Show grammar</button>
+      <button type="button" class="skit-toggle" data-layer="w">Show words</button>
+    </div>
+
+    <table class="skit-table">
+      <tbody>
+      {%- for stanza in conv.stanzas %}
+        <tr class="skit-stanza">
+          <td class="skit-name">{{ stanza.speaker }}：</td>
+          <td class="skit-line-container">
+            <ul class="skit-lines">
+              <li class="skit-line skit-k">{{ stanza.kansai }}</li>
+              <li class="skit-line skit-g">{{ stanza.kansai_grammar | default: stanza.kansai }}</li>
+              <li class="skit-line skit-w">{{ stanza.kansai_word | default: stanza.kansai }}</li>
+              <li class="skit-line skit-s">{{ stanza.standard }}</li>
+              <li class="skit-line skit-e">{{ stanza.english }}</li>
+            </ul>
+          </td>
+        </tr>
+      {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</article>
+
+<script src="{{ '/assets/js/skit.js' | relative_url }}" defer></script>
+
+{%- endif -%}
