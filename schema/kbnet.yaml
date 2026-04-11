@@ -1,0 +1,467 @@
+id: https://w3id.org/kbnet
+name: kbnet
+title: Kansaibenkyou.net Site Schema
+description: >-
+  A LinkML data model for kansaibenkyou.net, a learning resource for
+  Kansai-ben (関西弁). Models the eight Drupal 7 content types of the
+  original site (page, conversation_example, real_conversation,
+  grammar_point, word, phonology_topic, blog, and a deprecated
+  feedback webform) as canonical YAML, plus the supporting reference
+  entities (characters, function types, grammar types, word types,
+  audio refs).
+
+  Authoring convention: each content item lives as a single YAML file
+  under data/<type_plural>/<id>.yaml, validated against the relevant
+  class via `linkml-validate --target-class <ClassName> <file>`.
+  The Site class exists as an optional manifest root tying everything
+  together; data/site.yaml is the manifest entry point.
+
+prefixes:
+  linkml: https://w3id.org/linkml/
+  kbnet: https://w3id.org/kbnet/
+  schema: http://schema.org/
+  skos: http://www.w3.org/2004/02/skos/core#
+  dcterms: http://purl.org/dc/terms/
+
+imports:
+  - linkml:types
+
+default_range: string
+default_prefix: kbnet
+
+classes:
+
+  # ----------------------------------------------------------------
+  # Top-level container (manifest root)
+  # ----------------------------------------------------------------
+
+  Site:
+    tree_root: true
+    description: >-
+      The kansaibenkyou.net site as a whole. Acts as a manifest tying
+      together every content item and reference entity. Individual
+      content items can also be validated standalone against their
+      respective classes.
+    attributes:
+      title:
+        required: true
+        slot_uri: schema:name
+        description: Site title.
+      description:
+        slot_uri: schema:description
+        description: Site description.
+      author:
+        required: true
+        description: >-
+          Site author (e.g. "Keiko Yukawa"). Distinct from per-content
+          contributors and from the code author.
+      content_license:
+        required: true
+        description: >-
+          SPDX license expression for the site CONTENT (lessons,
+          audio, images, text, translations). The site CODE is
+          licensed separately under BSD 3-Clause; see the repo
+          LICENSE file.
+      pages:
+        range: Page
+        multivalued: true
+        inlined_as_list: true
+        description: All Page content items.
+      conversation_examples:
+        range: ConversationExample
+        multivalued: true
+        inlined_as_list: true
+        description: All ConversationExample content items.
+      real_conversations:
+        range: RealConversation
+        multivalued: true
+        inlined_as_list: true
+        description: All RealConversation content items.
+      grammar_points:
+        range: GrammarPoint
+        multivalued: true
+        inlined_as_list: true
+        description: All GrammarPoint content items.
+      words:
+        range: Word
+        multivalued: true
+        inlined_as_list: true
+        description: All Word vocabulary entries.
+      phonology_topics:
+        range: PhonologyTopic
+        multivalued: true
+        inlined_as_list: true
+        description: All PhonologyTopic content items.
+      blog_posts:
+        range: BlogPost
+        multivalued: true
+        inlined_as_list: true
+        description: All BlogPost content items.
+      characters:
+        range: Character
+        multivalued: true
+        inlined_as_list: true
+        description: All named characters used as conversation speakers.
+      function_types:
+        range: FunctionType
+        multivalued: true
+        inlined_as_list: true
+        description: All FunctionType reference entities.
+      grammar_types:
+        range: GrammarType
+        multivalued: true
+        inlined_as_list: true
+        description: All GrammarType reference entities.
+      word_types:
+        range: WordType
+        multivalued: true
+        inlined_as_list: true
+        description: All WordType reference entities.
+
+  # ----------------------------------------------------------------
+  # Mixin: shared metadata for every content item
+  # ----------------------------------------------------------------
+
+  ContentItem:
+    abstract: true
+    description: >-
+      Common fields shared by every content item. All concrete
+      content type classes inherit from this.
+    attributes:
+      id:
+        identifier: true
+        description: >-
+          Stable string identifier (slug-style). For items
+          imported from the original Drupal site, by convention
+          this is the content type name + the original Drupal
+          node ID, e.g. "conversation_264", "word_10",
+          "grammar_309".
+      drupal_node_id:
+        range: integer
+        description: >-
+          Original Drupal node ID, retained for cross-reference
+          and for resolving inline (NNN ...) links from imported
+          content. Not present for content authored after the
+          rebuild.
+      title:
+        required: true
+        slot_uri: schema:name
+        description: Display title.
+      title_kana:
+        description: >-
+          Kana reading of the title, for Japanese titles that
+          include kanji. Used for sort and search.
+      title_en:
+        description: English translation of the title, when applicable.
+
+  # ----------------------------------------------------------------
+  # The 8 content types
+  # ----------------------------------------------------------------
+
+  Page:
+    is_a: ContentItem
+    description: >-
+      A basic informational page (Home, Introduction, About,
+      Resources, Bibliography, Copyright, etc.). Body-only.
+    attributes:
+      slug:
+        description: >-
+          Static URL slug for the page (e.g. "about", "intro").
+          Distinct from id; multiple ids can in principle map to
+          the same slug across history, but new content uses one.
+      body:
+        description: Page body content. Markdown preferred.
+
+  ConversationExample:
+    is_a: ContentItem
+    description: >-
+      An example conversation between named characters, with
+      audio and per-stanza standard / English / grammar / word
+      annotation layers. The signature pedagogical unit of the
+      site.
+    attributes:
+      summary:
+        description: One-paragraph summary of the conversation context.
+      characters:
+        range: Character
+        multivalued: true
+        description: >-
+          References to character entities (taxonomy terms in the
+          original Drupal site). Each character also appears as
+          the speaker on individual stanzas.
+      audio:
+        range: AudioRef
+        inlined: true
+        description: Reference to the full-conversation audio recording.
+      stanzas:
+        range: Stanza
+        multivalued: true
+        inlined_as_list: true
+        required: true
+        description: >-
+          The conversation as an ordered list of spoken turns.
+      function_types:
+        range: FunctionType
+        multivalued: true
+        description: >-
+          Functional categories present in this conversation
+          (Assertion, Negation, Honorifics, etc.).
+      grammar_types:
+        range: GrammarType
+        multivalued: true
+        description: >-
+          Grammatical categories present in this conversation
+          (Conditional, Imperative, Progressive, etc.).
+
+  RealConversation:
+    is_a: ContentItem
+    description: >-
+      A natural conversation transcribed from native Kansai-ben
+      speakers. Less structured than ConversationExample — has
+      audio and a description, but typically no per-stanza
+      grammar / word annotations.
+    attributes:
+      summary:
+        description: Context for the conversation.
+      hint:
+        description: >-
+          Listening hint, vocabulary preview, or focus instructions
+          for the listener.
+      audio:
+        range: AudioRef
+        inlined: true
+      speakers:
+        range: Character
+        multivalued: true
+        description: >-
+          References to the characters speaking in this conversation.
+
+  GrammarPoint:
+    is_a: ContentItem
+    description: >-
+      A specific Kansai-ben grammar point or pattern, with
+      explanation, formation rules, examples, and contrast with
+      standard Japanese.
+    attributes:
+      body:
+        description: Main explanation.
+      commentary:
+        description: Additional notes and discussion.
+      example:
+        description: >-
+          Example sentences in Kansai-ben using this grammar point.
+      formation:
+        description: How to form this construction in Kansai-ben.
+      formation_from_standard:
+        description: >-
+          How this construction relates to or is derived from its
+          standard Japanese equivalent.
+      kansai_vs_standard:
+        description: >-
+          Direct contrast with the standard Japanese equivalent.
+      function_types:
+        range: FunctionType
+        multivalued: true
+      grammar_types:
+        range: GrammarType
+        multivalued: true
+
+  Word:
+    is_a: ContentItem
+    description: >-
+      A vocabulary entry in Kansai-ben, with standard Japanese
+      equivalent (kana and kanji), English meaning, and notes.
+    attributes:
+      body:
+        description: Definition / English meaning.
+      commentary:
+        description: Additional usage notes.
+      standard_kana:
+        description: Standard Japanese equivalent in kana.
+      standard_kanji:
+        description: >-
+          Standard Japanese equivalent in kanji, when applicable.
+      word_types:
+        range: WordType
+        multivalued: true
+
+  PhonologyTopic:
+    is_a: ContentItem
+    description: >-
+      A pronunciation or phonology topic (vowels, consonants,
+      pitch accent patterns, etc.). Body-only with optional
+      audio examples.
+    attributes:
+      body:
+        description: Main explanation.
+      audio_examples:
+        range: AudioRef
+        multivalued: true
+        inlined_as_list: true
+        description: Audio examples for this topic.
+
+  BlogPost:
+    is_a: ContentItem
+    description: A blog post.
+    attributes:
+      body:
+        description: Post body.
+      published_date:
+        range: date
+        description: Date of original publication.
+
+  # ----------------------------------------------------------------
+  # Stanza — the per-line model used inside ConversationExample
+  # ----------------------------------------------------------------
+
+  Stanza:
+    description: >-
+      One spoken turn in an example conversation. Stores the
+      same line in five layered representations: bare Kansai-ben,
+      Kansai-ben with inline grammar-point links, Kansai-ben
+      with inline word-entry links, standard Japanese
+      translation, and English translation. The five layers are
+      what the rendered conversation widget toggles between.
+
+      The "with links" layers use the `(NNN surface_text)` inline
+      marker convention inherited from the original bazaar text
+      dumps: NNN is the integer Drupal node ID of the referenced
+      GrammarPoint or Word, and surface_text is the span of the
+      Kansai line that should be wrapped as a link. Multiple
+      markers per line are common; markers can be adjacent.
+      Example: `そや(309ねん)` means "wrap `ねん` as a link to
+      grammar_point node 309".
+    attributes:
+      speaker:
+        required: true
+        description: >-
+          Speaker name as it appears in the original transcript
+          (typically Japanese, e.g. "大家", "あつし"). For named
+          characters, this should match a Character.display_name.
+      kansai:
+        required: true
+        description: >-
+          Bare Kansai-ben line. The canonical surface form, with
+          no inline annotations.
+      standard:
+        required: true
+        description: Standard Japanese translation.
+      english:
+        required: true
+        description: English translation.
+      kansai_grammar:
+        description: >-
+          Kansai-ben line with inline grammar-point reference
+          markers `(NNN surface_text)`. Optional; if absent,
+          equivalent to `kansai` (no grammar links in this stanza).
+      kansai_word:
+        description: >-
+          Kansai-ben line with inline word-entry reference
+          markers `(NNN surface_text)`. Optional; if absent,
+          equivalent to `kansai` (no word links in this stanza).
+
+  # ----------------------------------------------------------------
+  # Reference / lookup entities
+  # ----------------------------------------------------------------
+
+  Character:
+    is_a: ContentItem
+    description: >-
+      A named character that appears as a speaker in
+      conversations. In the original Drupal site, characters
+      were taxonomy terms (term IDs 214–232).
+    attributes:
+      display_name:
+        required: true
+        description: >-
+          Short name as used in conversation transcripts
+          (e.g. "あつし", "大家", "Junko"). Stanza.speaker
+          values reference this.
+      gender:
+        range: Gender
+        description: >-
+          Character gender, used as pedagogical context.
+      age:
+        range: integer
+        description: >-
+          Character age in years, used as pedagogical context.
+      role:
+        description: >-
+          Brief role description (e.g. "The Landlord",
+          "Mori's coworker").
+
+  FunctionType:
+    description: >-
+      A grammatical / pragmatic functional category that
+      classifies grammar points and example conversations
+      (e.g. "Question", "Negation", "Honorifics", "Assertion",
+      "Connecting sentences").
+    attributes:
+      id:
+        identifier: true
+      label:
+        required: true
+        slot_uri: skos:prefLabel
+        description: Human-readable label.
+      description:
+        slot_uri: schema:description
+
+  GrammarType:
+    description: >-
+      A grammatical category that classifies grammar points
+      and example conversations (e.g. "Conditional",
+      "Imperative", "Progressive", "Honorifics").
+    attributes:
+      id:
+        identifier: true
+      label:
+        required: true
+        slot_uri: skos:prefLabel
+        description: Human-readable label.
+      description:
+        slot_uri: schema:description
+
+  WordType:
+    description: >-
+      A part-of-speech or lexical category for vocabulary
+      entries.
+    attributes:
+      id:
+        identifier: true
+      label:
+        required: true
+        slot_uri: skos:prefLabel
+        description: Human-readable label.
+      description:
+        slot_uri: schema:description
+
+  AudioRef:
+    description: >-
+      Reference to an audio asset stored under assets/audio/.
+    attributes:
+      path:
+        required: true
+        description: >-
+          Path under assets/audio/, e.g. "ex_conv_oya.mp3".
+      duration_s:
+        range: float
+        description: Duration in seconds, when known.
+      caption:
+        description: Optional human-readable caption.
+
+# --------------------------------------------------------------------
+# Enumerations
+# --------------------------------------------------------------------
+
+enums:
+
+  Gender:
+    description: >-
+      Gender of a Character. Used purely for pedagogical context
+      (the original site notes age and gender so learners can see
+      how speech varies across speakers).
+    permissible_values:
+      male:
+      female:
+      other:
+      unspecified:
