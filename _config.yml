@@ -1,0 +1,29 @@
+title: Kansaibenkyou.net
+description: >-
+  A learning resource for Kansai-ben (関西弁), the family of Japanese
+  dialects spoken in the Kansai region. Authored by Keiko Yukawa.
+author: Keiko Yukawa
+lang: ja
+baseurl: ""
+url: "https://kansaibenkyou.net"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Files and directories not part of the site output. The mothball
+# mirror is gitignored, but is also excluded here so a local
+# `bundle exec jekyll serve` won't try to copy 300+ MiB of archived
+# Drupal pages into _site/. The schema and canonical data live
+# alongside the site but are processed by build tools, not by Jekyll.
+exclude:
+  - _mothball/
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - data/
+  - schema/
+  - tools/
+  - vendor/
+  - .bundle/

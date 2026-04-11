@@ -1,0 +1,90 @@
+This repository contains both site content and software code, licensed
+separately:
+
+  - The site CONTENT (lessons, audio, images, text, translations,
+    grammar and vocabulary annotations, conversation scripts, and any
+    other material derived from the original kansaibenkyou.net site)
+    is licensed under the Creative Commons Attribution-ShareAlike 3.0
+    Unported License (CC BY-SA 3.0). See "Content license" below.
+
+  - The site CODE (Jekyll layouts and includes, build tools, importers,
+    schemas, JavaScript, CSS, and any other software written for this
+    repository) is licensed under the BSD 3-Clause License. See
+    "Code license" below.
+
+When in doubt, treat anything under data/, assets/, or _data/ as
+CONTENT, and anything under _layouts/, _includes/, assets/js/,
+assets/css/, schema/, or tools/ as CODE.
+
+================================================================================
+Content license
+================================================================================
+
+Copyright (c) Keiko Yukawa.
+
+This content is licensed under the Creative Commons Attribution-
+ShareAlike 3.0 Unported License (CC BY-SA 3.0).
+
+You are free to:
+
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material
+            for any purpose, even commercially.
+
+Under the following terms:
+
+  - Attribution — You must give appropriate credit, provide a link
+                  to the license, and indicate if changes were made.
+                  You may do so in any reasonable manner, but not in
+                  any way that suggests the licensor endorses you or
+                  your use.
+
+  - ShareAlike  — If you remix, transform, or build upon the material,
+                  you must distribute your contributions under the
+                  same license as the original.
+
+  - No additional restrictions — You may not apply legal terms or
+                  technological measures that legally restrict others
+                  from doing anything the license permits.
+
+The full legal code of the CC BY-SA 3.0 Unported license is available
+at:
+
+  https://creativecommons.org/licenses/by-sa/3.0/legalcode
+
+A human-readable summary (the "deed") is available at:
+
+  https://creativecommons.org/licenses/by-sa/3.0/
+
+================================================================================
+Code license
+================================================================================
+
+BSD 3-Clause License
+
+Copyright (c) 2026, kltm
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

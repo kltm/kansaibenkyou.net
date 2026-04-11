@@ -1,0 +1,41 @@
+# local mothball mirror — never committed, never deployed
+_mothball/
+
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler
+vendor/
+.bundle/
+*.gem
+
+# secrets — never commit any of these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.secrets/
+secrets/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# editor junk
+*~
+.#*
+\#*\#
+*.swp
+*.swo
+*.bak
+*.orig
+.idea/
+
+# per-developer Claude Code local overrides (settings.json itself can
+# be committed if/when a shared team config emerges)
+.claude/settings.local.json
