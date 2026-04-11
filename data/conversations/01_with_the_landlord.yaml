@@ -1,0 +1,126 @@
+id: conversation_264
+drupal_node_id: 264
+title: 大家さんと
+title_en: With the Landlord
+summary: Atsushi leaves his apartment for work in the morning and meets his landlord cleaning out front.
+characters:
+- character_214
+- character_232
+audio:
+  path: ex_conv_oya.mp3
+stanzas:
+- speaker: 大家
+  kansai: おはようさん。
+  standard: おはようございます。
+  english: Good morning.
+  kansai_grammar: (313おはようさん)。
+- speaker: あつし
+  kansai: おはようございます。
+  standard: おはようございます。
+  english: Good morning.
+- speaker: 大家
+  kansai: 早いなあ、兄ちゃん。まだ６時半やで。もう仕事行くんか？
+  standard: 早いねえ、お兄さん。まだ６時半だよ。もう仕事行くの？
+  english: Aren't you up early--it's still 6:30am. Already going to work?
+  kansai_grammar: 早いなあ、兄ちゃん。まだ６時半(330や)(307で)。もう仕事行く(309ん)(308か)？
+- speaker: あつし
+  kansai: ええ。今日、かいぎあるんで、準備せなあかんのです。
+  standard: ええ。今日、かいぎあるので、準備しなければならないんです。
+  english: Yeah. I have a meeting today and I still have to get ready.
+  kansai_grammar: ええ。今日、かいぎある(309ん)で、(323準備せなあかん)のです。
+  kansai_word: ええ。今日、かいぎあるんで、準備せな(39あかん)のです。
+- speaker: 大家
+  kansai: ご苦労さんやなあ。新しい仕事どうや？もう慣れたか？
+  standard: ご苦労さま。新しい仕事どう？もう慣れた？
+  english: Working hard...how's the new job? Already settled in?
+  kansai_grammar: (313ご苦労さん)(330や)なあ。新しい仕事どう(330や)？もう慣れた(308か)？
+  kansai_word: (280ご苦労さん)やなあ。新しい仕事どうや？もう慣れたか？
+- speaker: あつし
+  kansai: ぼちぼちですわ。そやけど、会社の人、みんなええ人ばっかりで助けてもうてるんですわ。
+  standard: まあまあですね。でも、会社の人、みんないい人ばかりで助けてもらっているんですよ。
+  english: It's alright, but the other people are really nice and help out a lot.
+  kansai_grammar: ぼちぼちです(304わ)。そやけど、会社の人、みんなええ人ばっかりで(320助けてもうてる)んです(304わ)。
+  kansai_word: (74ぼちぼち)ですわ。(165そやけど)、会社の人、みんな(45ええ)人ばっかりで助けてもうてるんですわ。
+- speaker: 大家
+  kansai: そらええわ。ええ人と一緒に仕事するんが一番や。
+  standard: それはよかったよ。いい人と一緒に仕事するのが一番だ。
+  english: 'That''s the most important thing: working with good people'
+  kansai_grammar: そらええ(304わ)。ええ人と一緒に仕事する(309ん)が一番(330や)。
+  kansai_word: (205そら)(45ええ)わ。(45ええ)人と一緒に仕事するんが一番や。
+- speaker: あつし
+  kansai: ほんまにそう思いますわ。ほやけど、大家さんも朝早よから仕事しはるんですねえ。
+  standard: 本当にそう思いますよ。だけど、大家さんも朝早くから仕事なさるんですねえ。
+  english: Yeah, I think so too. You're up working pretty early yourself.
+  kansai_grammar: ほんまにそう思います(304わ)。ほやけど、大家さんも朝早よから(355仕事しはる)んですねえ。
+  kansai_word: ほんまにそう思いますわ。(166ほやけど)、大家さんも朝早よから仕事しはるんですねえ。
+- speaker: 大家
+  kansai: そやねん。わしとこ犬おんねんけどな。そいつが朝６時頃からさんぽ連れていけてうるさいねん。ほんで６時ごろさんぽ連れていったって、帰ってきて暑ならんうちにそうじだけやってまうねん。
+  standard: そうなんだ。私の家、犬がいるんだけどね。そいつが朝６時頃からさんぽに連れていけってうるさいんだ。それで６時ごろさんぽに連れていってあげて、帰ってきて暑くならないうちにそうじだけやってしまうんだ。
+  english: Yeah, I am. My dog gets noisy if I don't take her for a walk. Since I'm out at around 6 anyways,
+    I'm able to get the cleaning done while it's still not hot.
+  kansai_grammar: そや(309ねん)。わしとこ犬おん(309ねん)けど(305な)。そいつが朝６時頃からさんぽ連れていけてうるさい(309ねん)。(316ほんで)６時ごろさんぽ(319連れていったって)、帰ってきて(296暑ならん)うちにそうじだけ(326やってまう)(309ねん)。
+  kansai_word: (161そや)ねん。(193わし)(242とこ)犬(149おん)ねんけどな。そいつが朝６時頃からさんぽ連れていけてうるさいねん。(168ほんで)６時ごろさんぽ連れていったって、帰ってきて暑ならんうちにそうじだけやってまうねん。
+- speaker: あつし
+  kansai: あー、そらええですわ。最近、昼間どえらい暑いでっさかいねえ。
+  standard: あー、それはいいですよ。最近、昼間とても暑いですからねえ。
+  english: Yeah, good idea. It's been getting really hot in the afternoons.
+  kansai_grammar: あー、そらええです(304わ)。最近、昼間(312どえらい)暑いでっ(315さかい)ねえ。
+  kansai_word: あー、(205そら)(45ええ)ですわ。最近、昼間ど(37えらい)暑いでっ(285さかい)ねえ。
+- speaker: 大家
+  kansai: ほんま、これ異常やで。わしら兄ちゃんぐらいんとき、いくら８月ちゅうても、こない暑なかったで。兄ちゃん、仕事で外歩きまわるんやろ？大変やな。
+  standard: 本当に、これは異常だよ。私たちがお兄さんぐらいのとき、いくら８月といっても、こんなに暑くなかったよ。お兄さん、仕事で外歩きまわるんだろう？大変だね。
+  english: Yeah, too hot. When I was your age, even a scorching August wouldn't be this hot. You go out
+    on the job a lot, right? It must be awful.
+  kansai_grammar: ほんま、これ異常(330や)(307で)。わしら兄ちゃんぐらい(309ん)とき、いくら(302８月ちゅう)ても、こない(297暑なかった)(307で)。兄ちゃん、仕事で外歩きまわるん(330やろ)？大変(330や)(305な)。
+  kansai_word: ほんま、これ異常やで。(193わし)ら兄ちゃんぐらいんとき、いくら８月ちゅうても、(157こない)暑なかったで。兄ちゃん、仕事で外歩きまわるんやろ？大変やな。
+- speaker: あつし
+  kansai: ええ。ほんまに外で仕事してたら、とけるんちゃうか思いますわ。そやけど、会社の中はどえらいクーラー効いてまっさかい、寒いくらいですけど。
+  standard: ええ。ほんとうに外で仕事していたら、とけるんじゃないかと思いますよ。だけど、会社の中はすごくクーラー効いてますから、寒いくらいですけど。
+  english: Yeah, when I'm out I think I'm gunna melt. But at least the office has the air conditioner
+    turned way up.
+  kansai_grammar: ええ。ほんまに外で(328仕事してたら)、とけるん(298ちゃう)(302か思います)(304わ)。そやけど、会社の中は(312どえらい)クーラー(315効いてまっさかい)、寒いくらいですけど。
+  kansai_word: ええ。ほんまに外で仕事してたら、とけるん(178ちゃう)か思いますわ。(165そやけど)、会社の中はど(37えらい)クーラー効いてまっ(285さかい)、寒いくらいですけど。
+- speaker: 大家
+  kansai: そんなん体こわしてまうで。かぜひかんように気ぃつけや。
+  standard: そんなの体こわしてまうよ。かぜひかないように気をつけてよ。
+  english: You'll get sick doing that; try and stay well.
+  kansai_grammar: そんなん体(326こわしてまう)(307で)。(296かぜひかん)ように気ぃつけ(306や)。
+  kansai_word: そんなん体こわしてまうで。かぜひかんように(153気ぃつけ)や。
+- speaker: あつし
+  kansai: ありがとうございます。大家さんも、気ぃつけてください。
+  standard: ありがとうございます。大家さんも、気をつけてください。
+  english: Thank you. You stay well too.
+  kansai_word: ありがとうございます。大家さんも、(153気ぃつけて)ください。
+- speaker: 大家
+  kansai: おおきに。ほな、いってらっしゃい。
+  standard: ありがとう。それじゃあ、いってらっしゃい。
+  english: Thanks. We'll, I'll see you later.
+  kansai_word: (78おおきに)。(169ほな)、いってらっしゃい。
+- speaker: あつし
+  kansai: いってきます。
+  standard: いってきます。
+  english: See you later.
+function_types:
+- function_57
+- function_111
+- function_118
+- function_119
+- function_120
+- function_121
+- function_122
+- function_123
+- function_126
+- function_127
+- function_128
+- function_131
+- function_132
+- function_137
+grammar_types:
+- grammar_19
+- grammar_20
+- grammar_23
+- grammar_24
+- grammar_29
+- grammar_33
+- grammar_36
+- grammar_38
