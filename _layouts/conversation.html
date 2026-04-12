@@ -66,8 +66,8 @@ layout: default
       <ul class="tag-cloud">
         {%- for ft in conv.function_types %}
           {%- assign ft_id = ft | split: "_" | last %}
-          {%- assign ft_data = site.data.words[ft] %}
-          <li><a href="{{ '/grammar_points/' | append: ft_id | append: '/' | relative_url }}">{{ ft }}</a></li>
+          {%- assign ft_label = site.data.taxonomy_labels[ft_id] | default: ft %}
+          <li><span class="tag-label">{{ ft_label }}</span></li>
         {%- endfor %}
       </ul>
     </section>
@@ -79,7 +79,8 @@ layout: default
       <ul class="tag-cloud">
         {%- for gt in conv.grammar_types %}
           {%- assign gt_id = gt | split: "_" | last %}
-          <li><a href="{{ '/grammar_points/' | append: gt_id | append: '/' | relative_url }}">{{ gt }}</a></li>
+          {%- assign gt_label = site.data.taxonomy_labels[gt_id] | default: gt %}
+          <li><span class="tag-label">{{ gt_label }}</span></li>
         {%- endfor %}
       </ul>
     </section>

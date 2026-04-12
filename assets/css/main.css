@@ -596,6 +596,16 @@ h1, h2, h3 { color: var(--color-header-dark); }
   border-color: var(--color-header);
 }
 
+.tag-label {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.82rem;
+  background: var(--color-stanza-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+}
+
 /* ----------------------------------------------------------------
    Responsive
    ---------------------------------------------------------------- */

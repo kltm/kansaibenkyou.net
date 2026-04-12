@@ -30,11 +30,18 @@ NODE_DIR = REPO / "_mothball" / "snapshot" / "node"
 
 NODE_URL_MAP: dict[int, str] = {
     1: '/what/', 2: '/about/', 3: '/resources/', 4: '/',
-    353: '/phonology/353/', 354: '/phonology/354/',
-    357: '/conversations/', 358: '/grammar/',
-    359: '/pronunciation/', 360: '/phonology/360/',
-    366: '/bibliography/', 387: '/real-conversations-list/',
-    396: '/copyright/', 398: '/development/', 414: '/intro/',
+    340: '/phonology/340/', 349: '/phonology/349/',
+    350: '/phonology/350/', 351: '/phonology/351/',
+    352: '/phonology/352/', 353: '/phonology/353/',
+    354: '/phonology/354/', 357: '/conversations/',
+    358: '/grammar/', 359: '/pronunciation/',
+    360: '/phonology/360/', 366: '/bibliography/',
+    387: '/real-conversations-list/', 388: '/phonology/388/',
+    389: '/phonology/389/', 390: '/phonology/390/',
+    391: '/phonology/391/', 392: '/phonology/392/',
+    393: '/phonology/393/', 394: '/phonology/394/',
+    395: '/phonology/395/', 396: '/copyright/',
+    398: '/development/', 414: '/intro/',
 }
 
 CONTENT_TYPE_CLASSES = {
