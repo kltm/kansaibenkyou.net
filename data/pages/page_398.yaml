@@ -2,33 +2,43 @@ id: page_398
 drupal_node_id: 398
 title: Development
 slug: development
-body: 'Development
+body: '## Development
+
 
   This page is a discussion of the nuts and bolts development of this website for those who have an interest
   in building a similar site or wish to contribute to this one.
+
 
   This site was produced using Drupal (the 7.x series), a free and open source content management system
   (CMS). The theme used is a slightly modified (see below) version of Pixture Reloaded 7.x-2.1. Other
   important modules employed on this site are:
 
+
   Footnotes, to provide automatic footnote functionality
+
 
   Lexicon, to provide hover text and easy definitions for technical vocabulary
 
+
   Views, to help aggregate content and expose it to the user in intuitive ways
 
+
   Google Analytics, to help track page usage
+
 
   In addition to these Drupal modules, this site makes use of the standalone version of the WordPress
   Audio Player for audio playback. There is also custom JavaScript and CSS files delivered through a slightly
   modified version of the theme to generally tweak the user interface and provide the text highlight and
-  line expansion features on the conversation example pages (kb.js and kb.css in the source).
+  line expansion features on the [conversation example](357) pages (kb.js and kb.css in the source).
+
 
   All audio on this site was captured using a Zoom H2 Handy Recorder in WAV format. The audio was edited
   and encoded using GarageBand on a MacBook.
 
+
   All media delivery on this site is handled through the Amazon CloudFront content delivery network (CDN)
   using Amazon S3 for storage.
+
 
   The site itself (the Drupal installation) is currently self-hosted on a version of Ubuntu using the
   Apache 2 web server.'

@@ -13,8 +13,10 @@ layout: default
   </header>
 
   {%- if pg.body %}
-    <section>
-      <div class="gp-preformatted">{{ pg.body | newline_to_br }}</div>
+    {%- assign asset_base = site.baseurl | append: '/assets/' %}
+    {%- assign body_fixed = pg.body | replace: '/assets/', asset_base %}
+    <section class="page-body">
+      {{ body_fixed | markdownify }}
     </section>
   {%- endif %}
 

@@ -2,12 +2,16 @@ id: page_357
 drupal_node_id: 357
 title: Example conversations
 slug: example-conversations
-body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may be hard to understand conversations
+body: '![/assets/images/kb-dinner_160.jpg](/assets/images/kb-dinner_160.jpg)
+
+
+  Even with a familiarity of the vocabulary and grammar of Kansai, it may be hard to understand conversations
   between speakers of the dialect. To help build towards this goal, we have created twelve conversations
   based on real conversations--each conversation includes an audio track in Kansai-ben and the text in
   Kansai-ben, standard Japanese (in translation), and English (in translation). In addition, the grammar
   and vocabulary from the conversations are explained in detail from the linked pages on individual lines.
   Use the buttons to toggle between all of these.
+
 
   The topics of these conversations were chosen to be situations that you could realistically encounter
   when starting to live or work in Kansai. Since dialect usage is not as common in formal settings like
@@ -16,15 +20,18 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
   in these conversations come from a variety of backgrounds. When you listen to and read the conversations,
   please note these differences. Below is the current list of example conversations.
 
+
   After you have gone over some of the features of Kansai-ben from the example conversations, you will
   be ready to tackle actual Kansai-ben conversations spoken by natives in context. These can be found
-  in the real conversations section.
+  in the [real conversations](387) section.
+
 
   Topic
 
   Description
 
   Characters
+
 
   大家さんと
 
@@ -35,6 +42,7 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
   Atsushi (25)
 
   The Landlord (65)
+
 
   歓迎会で
 
@@ -49,6 +57,7 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
 
   Kimura (35)
 
+
   街で
 
   (In the City)
@@ -58,6 +67,7 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
   Junko (26)
 
   Noriko (27)
+
 
   魚屋で
 
@@ -69,6 +79,7 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
 
   The Fishmonger (50)
 
+
   道を聞く
 
   (Asking Directions)
@@ -78,6 +89,7 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
   Atsushi (25)
 
   The Passerby (65)
+
 
   カラオケで
 
@@ -91,6 +103,7 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
 
   Sakagami (35)
 
+
   電車で
 
   (On a Train)
@@ -101,6 +114,7 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
 
   The Old Man (70)
 
+
   同じアパートの住人と
 
   (With a Neighbor)
@@ -110,6 +124,7 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
   Atsushi (25)
 
   The Neighbor (60)
+
 
   会社で
 
@@ -126,6 +141,7 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
 
   Oshima (35)
 
+
   会社の昼休み
 
   (During Lunch)
@@ -138,6 +154,7 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
 
   Natsuko (35)
 
+
   居酒屋で
 
   (At an Izakaya)
@@ -147,6 +164,7 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
   Junko (26)
 
   Noriko (27)
+
 
   お好み焼屋で
 
@@ -159,5 +177,6 @@ body: 'Even with a familiarity of the vocabulary and grammar of Kansai, it may b
   The Friend (26)
 
   The Owner (46)
+
 
   -->'

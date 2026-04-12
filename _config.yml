@@ -50,6 +50,56 @@ collections:
 # `bundle exec jekyll serve` won't try to copy 300+ MiB of archived
 # Drupal pages into _site/. The schema and canonical data live
 # alongside the site but are processed by build tools, not by Jekyll.
+nav_menu:
+  - title: Home
+    url: /
+  - title: Introduction
+    url: /intro/
+    children:
+      - title: Why learn Kansai-ben?
+        url: /intro/#why
+      - title: How to learn!
+        url: /intro/#how
+  - title: Kansai-ben is...?
+    url: /what/
+    children:
+      - title: What is Kansai-ben?
+        url: /what/#what
+      - title: Where is Kansai?
+        url: /what/#where
+      - title: Who speaks Kansai-ben?
+        url: /what/#who
+      - title: When to use Kansai-ben?
+        url: /what/#when
+  - title: Example conversations
+    url: /conversations/
+  - title: Grammar
+    url: /grammar/
+    children:
+      - title: Grammar point list
+        url: /grammar-points/
+      - title: Common use list
+        url: /common-use-list/
+  - title: Vocabulary
+    url: /vocabulary/
+  - title: Pronunciation
+    url: /pronunciation/
+    children:
+      - title: Accent Patterns
+        url: /phonology/353/
+      - title: Vowels
+        url: /phonology/340/
+      - title: Sound Switching
+        url: /phonology/349/
+  - title: Real conversations
+    url: /real-conversations-list/
+  - title: Resources
+    url: /resources/
+  - title: About
+    url: /about/
+  - title: Feedback
+    url: /feedback/
+
 exclude:
   - _mothball/
   - CLAUDE.md

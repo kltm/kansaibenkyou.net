@@ -71,19 +71,44 @@
       <div class="sidebar-section">
         <h3 class="sidebar-heading">Navigation</h3>
         <ul class="sidebar-nav">
-          <li><a href="{{ '/' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/intro/' | relative_url }}">Introduction</a></li>
-          <li><a href="{{ '/what/' | relative_url }}">Kansai-ben is...?</a></li>
-          <li><a href="{{ '/conversations/' | relative_url }}">Example conversations</a></li>
-          <li><a href="{{ '/grammar/' | relative_url }}">Grammar</a></li>
-          <li><a href="{{ '/grammar-points/' | relative_url }}">Grammar list</a></li>
-          <li><a href="{{ '/vocabulary/' | relative_url }}">Vocabulary</a></li>
-          <li><a href="{{ '/pronunciation/' | relative_url }}">Pronunciation</a></li>
-          <li><a href="{{ '/real-conversations-list/' | relative_url }}">Real conversations</a></li>
-          <li><a href="{{ '/resources/' | relative_url }}">Resources</a></li>
-          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-          <li><a href="{{ '/feedback/' | relative_url }}">Feedback</a></li>
+          {%- for item in site.nav_menu %}
+            {%- assign item_url = item.url | relative_url %}
+            {%- assign is_active = false %}
+            {%- assign is_section = false %}
+            {%- if page.url == item.url %}{% assign is_active = true %}{% endif %}
+            {%- if item.children %}
+              {%- for child in item.children %}
+                {%- if page.url == child.url or page.url contains item.url and item.url != "/" %}
+                  {%- assign is_section = true %}
+                {%- endif %}
+              {%- endfor %}
+            {%- endif %}
+            <li>
+              <a href="{{ item_url }}"{% if is_active %} class="active"{% endif %}>{{ item.title }}</a>
+              {%- if item.children and is_section or is_active and item.children %}
+                <ul class="sidebar-sub">
+                  {%- for child in item.children %}
+                    <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                  {%- endfor %}
+                </ul>
+              {%- endif %}
+            </li>
+          {%- endfor %}
         </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <h3 class="sidebar-heading">Search</h3>
+        <div class="sidebar-search">
+          <div id="search"></div>
+          <link href="{{ '/pagefind/pagefind-ui.css' | relative_url }}" rel="stylesheet">
+          <script src="{{ '/pagefind/pagefind-ui.js' | relative_url }}"></script>
+          <script>
+            window.addEventListener('DOMContentLoaded', function() {
+              new PagefindUI({ element: "#search", showSubResults: false, showImages: false });
+            });
+          </script>
+        </div>
       </div>
     </aside>
   </div>

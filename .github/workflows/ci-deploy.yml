@@ -62,6 +62,13 @@ jobs:
           source: ./
           destination: ./_site
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Index site with Pagefind
+        run: npx pagefind@latest --site _site
+
       - uses: actions/upload-pages-artifact@v3
 
   deploy:

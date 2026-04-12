@@ -62,13 +62,58 @@ def extract_title(html: str) -> tuple[str, str]:
     return parts[0].strip(), parts[1].strip() if len(parts) > 1 else ""
 
 
-def extract_text_field(html: str, field_name: str) -> str:
-    """Extract a text field's content, stripping HTML to plain text."""
+def extract_text_field(html: str, field_name: str, preserve_headings: bool = False) -> str:
+    """Extract a text field's content.
+
+    With preserve_headings=False (default), strips all HTML to plain text.
+    With preserve_headings=True, converts headings to Markdown and
+    preserves image references as Markdown image syntax.
+    """
     pattern = rf'field-name-{re.escape(field_name)}[^>]*>.*?<div class="field-items">(.*?)</div>\s*</div>'
     m = re.search(pattern, html, re.DOTALL)
     if not m:
         return ""
     raw = m.group(1)
+
+    if preserve_headings:
+        text = raw
+        text = re.sub(
+            r'<h2[^>]*(?:id="([^"]*)")?[^>]*>(.*?)</h2>',
+            lambda m: f'\n\n## {re.sub(r"<[^>]+>", "", m.group(2)).strip()}'
+                       + (f' {{#{m.group(1)}}}' if m.group(1) else '') + '\n\n',
+            text, flags=re.DOTALL,
+        )
+        text = re.sub(
+            r'<h3[^>]*>(.*?)</h3>',
+            lambda m: f'\n\n### {re.sub(r"<[^>]+>", "", m.group(1)).strip()}\n\n',
+            text, flags=re.DOTALL,
+        )
+        def fix_img(m):
+            src = m.group(1)
+            src = re.sub(r'\.\./external/', '/assets/images/', src)
+            return f'\n\n![{src}]({src})\n\n'
+        text = re.sub(r'<img[^>]+src="([^"]+)"[^>]*/?\s*>', fix_img, text)
+        text = re.sub(r'<a\s+href="(\d+)"[^>]*>([^<]+)</a>',
+                       lambda m: f'[{m.group(2)}]({m.group(1)})', text)
+        text = re.sub(r"<br\s*/?>", "\n", text)
+        text = re.sub(r"</(?:p|div|tr|li)>", "\n", text)
+        text = re.sub(r"</?(?:td|th)>", "\t", text)
+        text = re.sub(r"<[^>]+>", "", text)
+        text = html_mod.unescape(text)
+        lines = [ln.rstrip() for ln in text.splitlines()]
+        result_lines: list[str] = []
+        for ln in lines:
+            if ln.startswith('#') or ln.startswith('!'):
+                if result_lines and result_lines[-1] != '':
+                    result_lines.append('')
+                result_lines.append(ln)
+                result_lines.append('')
+            elif ln.strip():
+                result_lines.append(ln.strip())
+            elif result_lines and result_lines[-1] != '':
+                result_lines.append('')
+        return '\n'.join(result_lines).strip()
+
     text = re.sub(r"<br\s*/?>", "\n", raw)
     text = re.sub(r"</(?:p|div|tr|li|h[1-6])>", "\n", text)
     text = re.sub(r"</?(?:td|th)>", "\t", text)
@@ -216,7 +261,7 @@ def import_phonology_topic(node_id: int) -> dict:
 def import_page(node_id: int) -> dict:
     html = (NODE_DIR / str(node_id)).read_text(errors="replace")
     title_ja, title_en = extract_title(html)
-    body = extract_text_field(html, "body")
+    body = extract_text_field(html, "body", preserve_headings=True)
 
     m = re.search(r'<link rel="canonical" href="[^"]*?/([^/"]+)"', html)
     slug = m.group(1) if m else ""
