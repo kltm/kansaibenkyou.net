@@ -29,8 +29,8 @@ body: '## Development
   In addition to these Drupal modules, this site makes use of the standalone version of the WordPress
   Audio Player for audio playback. There is also custom JavaScript and CSS files delivered through a slightly
   modified version of the theme to generally tweak the user interface and provide the text highlight and
-  line expansion features on the [conversation example](/conversations/) pages (kb.js and kb.css in the
-  source).
+  line expansion features on the [conversation example](/example-conversations/) pages (kb.js and kb.css
+  in the source).
 
 
   All audio on this site was captured using a Zoom H2 Handy Recorder in WAV format. The audio was edited

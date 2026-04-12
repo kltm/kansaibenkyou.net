@@ -33,7 +33,7 @@ NODE_URL_MAP: dict[int, str] = {
     340: '/phonology/340/', 349: '/phonology/349/',
     350: '/phonology/350/', 351: '/phonology/351/',
     352: '/phonology/352/', 353: '/phonology/353/',
-    354: '/phonology/354/', 357: '/conversations/',
+    354: '/phonology/354/', 357: '/example-conversations/',
     358: '/grammar/', 359: '/pronunciation/',
     360: '/phonology/360/', 366: '/bibliography/',
     387: '/real-conversations-list/', 388: '/phonology/388/',

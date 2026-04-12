@@ -26,7 +26,7 @@ permalink: /example-conversations/
       {%- assign c = pair[1] %}
       <tr>
         <td>
-          <a href="{{ '/conversations/' | append: pair[0] | replace: '_', '-' | append: '/' | relative_url }}">
+          <a href="{{ '/example-conversations/' | append: pair[0] | replace: '_', '-' | append: '/' | relative_url }}">
             {{ c.title }}
             {%- if c.title_en %}<br><small>{{ c.title_en }}</small>{% endif %}
           </a>

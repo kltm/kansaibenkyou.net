@@ -28,7 +28,7 @@ data_dir: data
 collections:
   conversations:
     output: true
-    permalink: /conversations/:name/
+    permalink: /example-conversations/:name/
   words:
     output: true
     permalink: /words/:name/

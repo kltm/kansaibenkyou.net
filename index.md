@@ -16,7 +16,7 @@ Wakayama, Shiga. Authored by Keiko Yukawa.
 
 ## Learn
 
-- [Example conversations]({{ "/conversations/" | relative_url }}) — 12 conversations with audio, grammar and vocabulary annotations, and standard Japanese / English translations
+- [Example conversations]({{ "/example-conversations/" | relative_url }}) — 12 conversations with audio, grammar and vocabulary annotations, and standard Japanese / English translations
 - [Grammar points]({{ "/grammar-points/" | relative_url }}) — 45 Kansai-ben grammar patterns with formation rules and examples
 - [Vocabulary]({{ "/vocabulary/" | relative_url }}) — 280 Kansai-ben words with definitions and standard Japanese equivalents
 - [Pronunciation]({{ "/pronunciation/" | relative_url }}) — phonology topics covering vowels, consonants, pitch accent, and more
