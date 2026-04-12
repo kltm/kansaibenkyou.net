@@ -1,0 +1,37 @@
+---
+layout: default
+title: Real Conversations
+permalink: /real-conversations-list/
+---
+
+<h1>Real Conversations</h1>
+
+<p>
+  Natural conversations spoken by native Kansai-ben speakers. Listen
+  to hear how different people speak with variation in their age,
+  gender, and region.
+</p>
+
+<table class="conversation-list">
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- assign rcs = site.data.real_conversations | sort %}
+    {%- for pair in rcs %}
+      {%- assign rc = pair[1] %}
+      {%- assign node_id = rc.drupal_node_id %}
+      <tr>
+        <td>
+          <a href="{{ '/real_conversations/' | append: node_id | append: '/' | relative_url }}">
+            {{ rc.title }}
+          </a>
+        </td>
+        <td>{{ rc.summary | default: rc.hint | truncate: 100 }}</td>
+      </tr>
+    {%- endfor %}
+  </tbody>
+</table>

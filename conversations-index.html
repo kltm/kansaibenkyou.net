@@ -1,0 +1,38 @@
+---
+layout: default
+title: Example Conversations
+permalink: /conversations/
+---
+
+<h1>Example Conversations</h1>
+
+<p>
+  Twelve conversations based on real situations you could encounter
+  when starting to live or work in Kansai. Each includes an audio
+  track in Kansai-ben and the text in Kansai-ben, standard Japanese,
+  and English. Use the toggle buttons to switch between these layers.
+</p>
+
+<table class="conversation-list">
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- assign convs = site.data.conversations | sort %}
+    {%- for pair in convs %}
+      {%- assign c = pair[1] %}
+      <tr>
+        <td>
+          <a href="{{ '/conversations/' | append: pair[0] | replace: '_', '-' | append: '/' | relative_url }}">
+            {{ c.title }}
+            {%- if c.title_en %}<br><small>{{ c.title_en }}</small>{% endif %}
+          </a>
+        </td>
+        <td>{{ c.summary }}</td>
+      </tr>
+    {%- endfor %}
+  </tbody>
+</table>

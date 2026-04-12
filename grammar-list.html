@@ -1,0 +1,33 @@
+---
+layout: default
+title: Grammar Points
+permalink: /grammar-points/
+---
+
+<h1>Grammar Points</h1>
+
+<p>
+  All Kansai-ben grammar points currently explained on the site.
+  Each entry includes formation rules, examples, and contrast with
+  standard Japanese.
+</p>
+
+<table class="grammar-table">
+  <thead>
+    <tr>
+      <th>Grammar point</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- assign gps = site.data.grammar_points | sort %}
+    {%- for pair in gps %}
+      {%- assign gp = pair[1] %}
+      {%- assign node_id = gp.drupal_node_id %}
+      <tr>
+        <td><a href="{{ '/grammar_points/' | append: node_id | append: '/' | relative_url }}">{{ gp.title }}</a></td>
+        <td>{{ gp.body | truncate: 80 }}</td>
+      </tr>
+    {%- endfor %}
+  </tbody>
+</table>

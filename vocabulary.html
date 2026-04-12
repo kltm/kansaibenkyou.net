@@ -1,0 +1,36 @@
+---
+layout: default
+title: Vocabulary
+permalink: /vocabulary/
+---
+
+<h1>Vocabulary</h1>
+
+<p>
+  All Kansai-ben vocabulary currently explained on the site. Click any
+  word to see its definition, standard Japanese equivalent, and usage notes.
+</p>
+
+<table class="vocab-table">
+  <thead>
+    <tr>
+      <th>Word</th>
+      <th>Meaning</th>
+      <th>Standard (kana)</th>
+      <th>Standard (kanji)</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- assign words = site.data.words | sort %}
+    {%- for pair in words %}
+      {%- assign w = pair[1] %}
+      {%- assign node_id = w.drupal_node_id %}
+      <tr>
+        <td><a href="{{ '/words/' | append: node_id | append: '/' | relative_url }}">{{ w.title }}</a></td>
+        <td>{{ w.body | truncate: 60 }}</td>
+        <td>{{ w.standard_kana }}</td>
+        <td>{{ w.standard_kanji }}</td>
+      </tr>
+    {%- endfor %}
+  </tbody>
+</table>

@@ -166,3 +166,49 @@ a { color: var(--color-link); }
   border-bottom: 1px dashed var(--color-link);
 }
 .skit-link:hover { background: #fff8c5; }
+
+/* ---------------- Index tables (vocab, grammar, conversations) ---- */
+
+.vocab-table,
+.grammar-table,
+.conversation-list {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+.vocab-table th,
+.grammar-table th,
+.conversation-list th {
+  text-align: left;
+  border-bottom: 2px solid var(--color-border);
+  padding: 0.5rem 0.6rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.vocab-table td,
+.grammar-table td,
+.conversation-list td {
+  padding: 0.45rem 0.6rem;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+.vocab-table tr:hover,
+.grammar-table tr:hover,
+.conversation-list tr:hover {
+  background: var(--color-stanza-alt);
+}
+.conversation-list small {
+  color: var(--color-muted);
+}
+
+/* ---------------- Preformatted content blocks -------------------- */
+
+.gp-preformatted {
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
