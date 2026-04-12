@@ -1,0 +1,227 @@
+id: conversation_275
+drupal_node_id: 275
+title: お好み焼き屋で
+title_en: At an Okonomiyaki Restaurant
+summary: Atsushi brings his friend to his usual okonomiyaki (a style of savory pancake) restaurant.
+characters:
+- character_214
+- character_216
+- character_217
+audio:
+  path: ex_conv_okonomi.mp3
+stanzas:
+- speaker: 店員
+  kansai: いらっしゃい。あれ、あっちゃんやんか、久しぶりやなあ。
+  standard: いらっしゃい。あれ、あっちゃんじゃない、久しぶりだねえ。
+  english: Welcome! Hey, A'chan! Long time no see.
+  kansai_grammar: いらっしゃい。あれ、あっちゃん(311やんか)、久しぶり(330や)なあ。
+- speaker: あつし
+  kansai: おばちゃん、いっつも元気やなあ。二人いける？
+  standard: おばさん、いつも元気だね。二人いける？
+  english: You're always so full of energy. Can you do two?
+  kansai_grammar: おばちゃん、いっつも元気(330や)なあ。二人いける？
+  kansai_word: (257おばちゃん)、(42いっつも)元気やなあ。二人いける？
+- speaker: 店員
+  kansai: いけるで。空いてるとこ、どこでも好きなとこ座り。
+  standard: いけるよ。空いてるところ、どこでも好きなところに座って。
+  english: Of course! You can take any empty seats you want.
+  kansai_grammar: いける(307で)。(331空いてる)とこ、どこでも好きなとこ(139座り)。
+  kansai_word: いけるで。空いてる(242とこ)、どこでも好きな(242とこ)座り。
+- speaker: ''
+  kansai: (Atsushi and his friend sit down.)
+  standard: (Atsushi and his friend sit down.)
+  english: (Atsushi and his friend sit down.)
+- speaker: 店員
+  kansai: あ、いすの上に荷物おいてや。
+  standard: あ、いすの上に荷物おいてよ。
+  english: You can put your bags on a chair.
+  kansai_grammar: あ、いすの上(303に)荷物おいて(306や)。
+- speaker: あつし
+  kansai: ありがとう。
+  standard: ありがとう。
+  english: Thank you.
+- speaker: 店員
+  kansai: お水でええ？ビールにする？
+  standard: お水でいい？ビールにする？
+  english: Is water okay? Beer maybe?
+  kansai_word: お水で(45ええ)？ビールにする？
+- speaker: あつし
+  kansai: どないする？　お前飲むか？
+  standard: どうする？　お前飲む？
+  english: What do you want to do? Drink?
+  kansai_grammar: どないする？　お前飲む(308か)？
+  kansai_word: (182どないする)？　お前飲むか？
+- speaker: 友達
+  kansai: せやなあ、今日、まだ仕事せなあかんから、やめとくわ。
+  standard: そうだなあ、今日、まだ仕事しなくちゃいけないから、やめておくよ。
+  english: Well, I gotta work later today so I'm gunna pass.
+  kansai_grammar: せやなあ、今日、まだ(323仕事せなあかん)から、(333やめとく)(304わ)。
+  kansai_word: (162せや)なあ、今日、まだ仕事せな(39あかん)から、やめとくわ。
+- speaker: あつし
+  kansai: おばちゃん、水ちょうだい。
+  standard: おばさん、水ちょうだい。
+  english: Could we get water?
+- speaker: 店員
+  kansai: はいよ。メニュー決まったら言うてな。
+  standard: はい。メニュー決まったら言ってね。
+  english: Sure. Let me know when you're ready to order.
+  kansai_grammar: はいよ。メニュー(328決まったら)(301言うて)(305な)。
+- speaker: あつし
+  kansai: ここな、ブタ玉にキムチ入れたやつ、めっちゃうまいねん。
+  standard: ここね、ブタ玉にキムチ入れたやつ、すごくうまいんだ。
+  english: The pork okonomiyaki with kimchee is really good here.
+  kansai_grammar: ここ(305な)、ブタ玉にキムチ入れたやつ、めっちゃうまい(309ねん)。
+  kansai_word: ここな、ブタ玉にキムチ入れたやつ、(160めっちゃ)うまいねん。
+- speaker: 友達
+  kansai: へえ。ほんなら、おれ、それにするわ。
+  standard: へえ。それじゃあ、おれ、それにするよ。
+  english: Oh, okay. I'll do that then.
+  kansai_grammar: へえ。ほんなら、おれ、それにする(304わ)。
+  kansai_word: へえ。(171ほんなら)、おれ、それにするわ。
+- speaker: あつし
+  kansai: おばちゃん、ブタ玉のキムチ入り二枚ちょうだい。
+  standard: おばさん、ブタ玉のキムチ入り二枚ちょうだい。
+  english: Could we get two pork okonomiyaki with kimchee?
+- speaker: 店員
+  kansai: はいよ。ちょっと時間かかるけどええか？
+  standard: はい。ちょっと時間かかるけどいい？
+  english: Sure. It'll take little time. Is that okay?
+  kansai_grammar: はいよ。ちょっと時間かかるけどええ(308か)？
+  kansai_word: はいよ。ちょっと時間かかるけど(45ええ)か？
+- speaker: あつし
+  kansai: かめへんで。
+  standard: かまわないよ。
+  english: No problem.
+  kansai_grammar: かめへん(307で)。
+  kansai_word: (125かめへん)で。
+- speaker: ''
+  kansai: (Atsushi and his friend for their order.)
+  standard: (Atsushi and his friend for their order.)
+  english: (Atsushi and his friend for their order.)
+- speaker: 店員
+  kansai: はい、おまたせ〜。遅なってもうてごめんな。熱いさかい気ぃつけて食べや。
+  standard: はい、おまたせ〜。遅くなってしまってごめんね。熱いから気をつけて食べてね。
+  english: Here you go. I'm sorry about the wait. They're still hot so be careful.
+  kansai_grammar: はい、おまたせ〜。(327遅なってもうて)ごめん(305な)。熱い(315さかい)気ぃつけて(139食べ)(306や)。
+  kansai_word: はい、おまたせ〜。遅なってもうてごめんな。熱い(285さかい)(153気ぃつけて)食べや。
+- speaker: 友達
+  kansai: うわ〜、うまそやなあ。ええにおいしてるわ。
+  standard: うわ〜、うまそうだねえ。いいにおいしてるよ。
+  english: Wow! It looks delicious. And smells great.
+  kansai_grammar: うわ〜、うまそ(330や)なあ。ええにおい(331してる)(304わ)。
+  kansai_word: うわ〜、うまそやなあ。(45ええ)においしてるわ。
+- speaker: あつし
+  kansai: ここのはうまいでえ。昔からずっとここ来てるけど、味もねだんもいっこも変われへんねん。いっぺんここのお好み食べたら、もう他んとこで食べられへんで。
+  standard: ここのはうまいよ。昔からずっとここ来てるけど、味もねだんも全然変わらないんだ。一回ここのお好み焼き食べたら、もう他のところで食べられないよ。
+  english: The okonomiyaki here is so good. I've coming here since forever and the taste and price have
+    never changed. Once you eat okonomiyaki here, you can't eat it anywhere else.
+  kansai_grammar: ここのはうまい(307でえ)。昔からずっとここ(331来てる)けど、味もねだんも(299いっこも)変われへん(309ねん)。いっぺんここのお好み(328食べたら)、もう他(309ん)とこで(296食べられへん)(307で)。
+  kansai_word: ここのはうまいでえ。昔からずっとここ来てるけど、味もねだんもいっこも変われへんねん。(145いっぺん)ここのお好み食べたら、もう他ん(242とこ)で食べられへんで。
+- speaker: ''
+  kansai: (Atsushi and his friend finish their okonomiyaki.)
+  standard: (Atsushi and his friend finish their okonomiyaki.)
+  english: (Atsushi and his friend finish their okonomiyaki.)
+- speaker: あつし
+  kansai: おばちゃん、おあいそ頼むわ。
+  standard: おばさん、おあいそ頼むよ。
+  english: Check please.
+  kansai_grammar: おばちゃん、おあいそ頼む(304わ)。
+  kansai_word: おばちゃん、(276おあいそ)頼むわ。
+- speaker: 店員
+  kansai: はいよ。一緒でええか？
+  standard: はい。一緒でいい？
+  english: Okay. Together?
+  kansai_grammar: はいよ。一緒でええ(308か)？
+  kansai_word: はいよ。一緒で(45ええ)か？
+- speaker: あつし
+  kansai: うん、かめへんよ。
+  standard: うん、かまわないよ。
+  english: Yep.
+  kansai_word: うん、(125かめへん)よ。
+- speaker: 店員
+  kansai: ほな、ちょうど千円。
+  standard: じゃ、ちょうど千円。
+  english: Then exactly 1000 yen.
+  kansai_word: (169ほな)、ちょうど千円。
+- speaker: 友達
+  kansai: え、ほんまに？
+  standard: え、本当に？
+  english: What, really?
+  kansai_word: え、(41ほんま)に？
+- speaker: あつし
+  kansai: びっくりするやろ。ここ、安うてうまいねん。今日はおごったるわ。
+  standard: びっくりするだろ。ここ、安くてうまいいんだ。今日はおごってあげるよ。
+  english: Surprising, right? This restaurant is so cheap and delicious. I'll treat today.
+  kansai_grammar: びっくりする(330やろ)。ここ、(337安うて)うまい(309ねん)。今日は(319おごったる)(304わ)。
+- speaker: 友達
+  kansai: ほんまに？ありがとう。おばちゃん、ごちそうさんでした。めっちゃうまかったわ。
+  standard: 本当に？ありがとう。おばさん、ごちそうさまでした。すごくうまかったよ。
+  english: Really? Thank you. [To 店員] Thank you so much--it was really good.
+  kansai_grammar: ほんまに？ありがとう。おばちゃん、(313ごちそうさん)でした。めっちゃうまかった(304わ)。
+  kansai_word: (41ほんま)に？ありがとう。おばちゃん、ごちそうさんでした。(160めっちゃ)うまかったわ。
+- speaker: 店員
+  kansai: そらよかった。また、いつでも来てや。あっちゃん、おっちゃん、おばちゃんにもよろしゅう言うといてな。
+  standard: それはよかった。また、いつでも来てよ。あっちゃん、おじさん、おばさんにもよろしく言っておいてね。
+  english: Good good. Come again. A'chan, say "hi" to your mom and dad for me.
+  kansai_grammar: そらよかった。また、いつでも来て(306や)。あっちゃん、おっちゃん、おばちゃんにもよろしゅう(333言うといて)(305な)。
+  kansai_word: (205そら)よかった。また、いつでも来てや。あっちゃん、(256おっちゃん)、(257おばちゃん)にも(201よろしゅう)言うといてな。
+- speaker: あつし
+  kansai: うん、言うとくわ。ほな、おばちゃん、また来るわ。ごちそうさん。
+  standard: うん、言っておくよ。じゃあ、おばさん、また来るよ。ごちそうさま。
+  english: Will do. We'll be back. Thank you again.
+  kansai_grammar: うん、(333言うとく)(304わ)。ほな、おばちゃ(304ん)、また来るわ。(313ごちそうさん)。
+  kansai_word: うん、言うとくわ。(169ほな)、(257おばちゃん)、また来るわ。ごちそうさん。
+- speaker: 店員
+  kansai: おおきに。仕事がんばりや。
+  standard: ありがとう。仕事がんばってね。
+  english: Thanks. Work hard!
+  kansai_grammar: おおきに。(139仕事がんばり)(306や)。
+  kansai_word: (78おおきに)。仕事がんばりや。
+function_types:
+- function_131
+- function_119
+- function_122
+- function_137
+- function_120
+- function_125
+- function_123
+- function_118
+- function_113
+- function_111
+- function_57
+- function_58
+- function_38
+- function_39
+- function_34
+- function_37
+- function_23
+- function_24
+- function_30
+- function_29
+- function_20
+grammar_types:
+- grammar_76
+- grammar_78
+- grammar_65
+- grammar_67
+- grammar_85
+- grammar_87
+- grammar_75
+- grammar_86
+- grammar_84
+- grammar_69
+- grammar_88
+- grammar_106
+- grammar_95
+- grammar_63
+- grammar_46
+- grammar_99
+- grammar_105
+- grammar_73
+- grammar_142
+- grammar_47
+- grammar_71
+- grammar_61
+- grammar_93
+- grammar_82
+- grammar_92

@@ -1,0 +1,153 @@
+id: conversation_266
+drupal_node_id: 266
+title: 街で
+title_en: In the City
+summary: Junko runs into a coworker, Noriko, while on her way to a belly dance lesson...
+characters:
+- character_218
+- character_219
+audio:
+  path: ex_conv_city.mp3
+stanzas:
+- speaker: のり子
+  kansai: あ、じゅん子やん！
+  standard: あ、じゅん子じゃない！
+  english: Hey, Junko!
+  kansai_grammar: あ、じゅん子(311やん)！
+- speaker: じゅん子
+  kansai: わあ、のり子やんか。びっくりしたわあ。めっちゃ偶然やなぁ。
+  standard: わあ、のり子じゃないの。びっくりしたよ。すごい偶然だね。
+  english: Oh hey! Noriko! You surprised me. What are the chances?
+  kansai_grammar: わあ、のり子(311やんか)。びっくりした(304わあ)。めっちゃ偶然(330や)なぁ。
+  kansai_word: わあ、のり子やんか。びっくりしたわあ。(160めっちゃ)偶然やなぁ。
+- speaker: のり子
+  kansai: ほんまやなあ。じゅんこってこの辺に住んでるん？
+  standard: 本当だね。じゅん子ってこの辺に住んでるの？
+  english: Yeah, really. Do you live around here?
+  kansai_grammar: ほんま(330や)なあ。じゅんこってこの辺に(331住んでる)(309ん)？
+  kansai_word: (41ほんま)やなあ。じゅんこってこの辺に住んでるん？
+- speaker: じゅん子
+  kansai: ううん、うっとこ、京橋やねんけど、今日友達に会うから天王寺に来てん。でも、早よ来てもうたから、ちょっと買いもんしよかな思て。
+  standard: ううん、私の家、京橋なんだけど、今日友達に会うから天王寺に来たんだ。でも、早く来てしまったから、ちょっと買い物しようかなと思って。
+  english: No, I live in Kyobashi, but I came to Tennouji to see a friend. I got here a little too early
+    so I was thinking about doing some shopping.
+  kansai_grammar: ううん、(302うっとこ)、京橋(330や)(309ねん)けど、今日友達に会うから天王寺に来(309てん)。でも、早よ(327来てもうた)から、ちょっと(336買いもんしよ)かな(302思て)。
+  kansai_word: ううん、(203うっとこ)、京橋やねんけど、今日友達に会うから天王寺に来てん。でも、早よ来てもうたから、ちょっと(151買いもん)しよかな思て。
+- speaker: のり子
+  kansai: そうなんや。
+  standard: そうなんだ。
+  english: Yeah.
+  kansai_grammar: そうなん(330や)。
+- speaker: じゅん子
+  kansai: あんたとこはこの辺なん？
+  standard: じゅん子の家はこの辺なの？
+  english: Do you live around here?
+  kansai_grammar: (302あんたとこ)はこの辺な(309ん)？
+  kansai_word: (214あんた)(242とこ)はこの辺なん？
+- speaker: のり子
+  kansai: ううん、うっとこは住吉やねんけど、今、ベリーダンス習てて、その教室が天王寺やねん。
+  standard: ううん、私の家は住吉なんだけど、今、ベリーダンス習っていて、その教室が天王寺なんだ。
+  english: No, I live in Sumiyoshi, but I'm learning belly dance at a studio here in Tennouji.
+  kansai_grammar: ううん、(302うっとこ)は住吉(330や)(309ねん)けど、今、ベリーダンス(311習てて)、その教室が天王寺(330や)(309ねん)。
+  kansai_word: ううん、(293うっとこ)は住吉やねんけど、今、ベリーダンス習てて、その教室が天王寺やねん。
+- speaker: じゅん子
+  kansai: えー、ベリーダンスやってるんや？すごいやん。あれってけっこうええ運動なんやろ？うちの友達もやりよるんやけど、めっちゃやせた言うてたもん。
+  standard: えー、ベリーダンスやってるんだ？すごいじゃない。あれってけっこういい運動なんでしょ？私の友達もやっているけど、すごくやせたって言ってたもん。
+  english: Wow, you're belly dancing? That's great! It's supposed to be good exercise, right? I have a
+    friend who's belly dancing and she said that she lost a lot of weight.
+  kansai_grammar: えー、ベリーダンス(311やってる)ん(330や)？すごい(311やん)。あれってけっこうええ運動なん(330やろ)？うちの友達も(338やりよる)ん(330や)けど、めっちゃやせた(302言うてた)もん。
+  kansai_word: えー、ベリーダンスやってるんや？すごいやん。あれってけっこう(45ええ)運動なんやろ？(155うち)の友達もやりよるんやけど、(160めっちゃ)やせた言うてたもん。
+- speaker: のり子
+  kansai: うん、レッスンの後、めっちゃ気持ちええで。あ、せや、今度発表会あるんやけど、見に来えへん？
+  standard: うん、レッスンの後、すごく気持ちいいよ。あ、そうだ、今度発表会あるんだけど、見に来ない？
+  english: I think it's true--I feel so good after class. You know what, we're going to have a show. Would
+    you like to come by and check it out?
+  kansai_grammar: うん、レッスンの後、めっちゃ気持ちええ(307で)。あ、せや、今度発表会あるん(330や)けど、見に(296来えへん)？
+  kansai_word: うん、レッスンの後、(160めっちゃ)気持ち(45ええ)で。あ、(162せや)、今度発表会あるんやけど、見に来えへん？
+- speaker: じゅん子
+  kansai: 見たいわ。いつなん？
+  standard: 見たいわ。いつなの？
+  english: I'd love to. When is it?
+  kansai_grammar: 見たい(304わ)。いつな(309ん)？
+- speaker: のり子
+  kansai: 来月の１５日やねん。
+  standard: 来月の１５日なんだ。
+  english: The 15th of next month.
+  kansai_grammar: 来月の１５日(330や)(309ねん)。
+- speaker: じゅん子
+  kansai: それって何曜日？
+  standard: それって何曜日？
+  english: What day is that?.
+- speaker: のり子
+  kansai: 土曜やった思うわ。
+  standard: 土曜だったと思うよ。
+  english: I think it's a Saturday.
+  kansai_grammar: 土曜(330やった)(302思う)(304わ)。
+- speaker: じゅん子
+  kansai: 土曜日やったら行けるわ。友達も誘ってええ？
+  standard: 土曜日だったら行けるよ。友達も誘っていい？
+  english: If it's Saturday, I'll be able to go. Would you mind if I invited some friends?
+  kansai_grammar: 土曜日(330やったら)行ける(304わ)。友達も誘ってええ？
+  kansai_word: 土曜日やったら行けるわ。友達も誘って(45ええ)？
+- speaker: のり子
+  kansai: もちろんかめへんよ。ほな、チケット用意しとくから、人数決まったら教えてな。
+  standard: もちろんかまわないよ。じゃ、チケット用意しておくから、人数決まったら教えてね。
+  english: Of course, no problem. Let me know how many so I can get you the tickets.
+  kansai_grammar: もちろんかめへんよ。ほな、チケット(333用意しとく)から、人数(328決まったら)教えて(305な)。
+  kansai_word: もちろん(125かめへん)よ。(169ほな)、チケット用意しとくから、人数決まったら教えてな。
+- speaker: じゅん子
+  kansai: うん、ありがと。楽しみやわあ。
+  standard: うん、ありがと。楽しみだよ。
+  english: Will do. Thank you. I'm looking forward to it.
+  kansai_grammar: うん、ありがと。楽しみ(330や)(304わあ)。
+- speaker: のり子
+  kansai: あかん！もうこんな時間や。レッスン始まってまう。行かなあかんわ。ほな、また明日会社でな。
+  standard: いけない！もうこんな時間だ。レッスン始まってしまう。行かなくちゃ。じゃ、また明日会社でね。
+  english: Agh! Look at the time! My class is going start soon, I've got to go. I'll see you at work then.
+  kansai_grammar: あかん！もうこんな時間(330や)。レッスン(326始まってまう)。(323行かなあかん)(304わ)。ほな、また明日会社で(305な)。
+  kansai_word: (39あかん)！もうこんな時間や。レッスン始まってまう。行かな(39あかん)わ。(169ほな)、また明日会社でな。
+- speaker: じゅん子
+  kansai: うん、ほな。
+  standard: うん、それじゃ。
+  english: Yeah, see you!
+  kansai_word: うん、(169ほな)。
+function_types:
+- function_131
+- function_119
+- function_137
+- function_128
+- function_127
+- function_125
+- function_118
+- function_141
+- function_111
+- function_57
+- function_36
+- function_38
+- function_34
+- function_37
+- function_26
+- function_23
+- function_29
+- function_20
+grammar_types:
+- grammar_76
+- grammar_77
+- grammar_65
+- grammar_67
+- grammar_85
+- grammar_87
+- grammar_86
+- grammar_80
+- grammar_88
+- grammar_106
+- grammar_95
+- grammar_46
+- grammar_105
+- grammar_104
+- grammar_73
+- grammar_47
+- grammar_140
+- grammar_93
+- grammar_103
+- grammar_68

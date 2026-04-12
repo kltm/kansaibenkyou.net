@@ -1,0 +1,160 @@
+id: conversation_268
+drupal_node_id: 268
+title: 道を聞く
+title_en: Asking Directions
+summary: Atsushi asks directions on the street for the Takashimaya department store in Namba.
+characters:
+- character_214
+- character_215
+audio:
+  path: ex_conv_direction.mp3
+stanzas:
+- speaker: あつし
+  kansai: すんません、難波の高島屋この近くですか？
+  standard: すみません、難波の高島屋この近くですか？
+  english: Excuse me. Is the Namba Takashimaya around here?
+  kansai_word: (341すんません)、難波の高島屋この近くですか？
+- speaker: 通行人
+  kansai: 高島屋かあ、だいぶ遠いで。兄ちゃん、歩いて行くんか？
+  standard: 高島屋かあ、だいぶ遠いよ。お兄さん、歩いて行くの？
+  english: Takashimaya? That's pretty far. Were you going to walk there?
+  kansai_grammar: 高島屋かあ、だいぶ遠い(307で)。兄ちゃん、歩いて行く(309ん)(308か)？
+- speaker: あつし
+  kansai: ええ、歩こ思てるんですけど。
+  standard: ええ、歩こうと思っているんですけど。
+  english: Yeah, I thought I would.
+  kansai_grammar: ええ、(336歩こ)(302思てる)んですけど。
+- speaker: 通行人
+  kansai: 電車の方が早いで。
+  standard: 電車の方が早いよ。
+  english: Taking a train would be faster.
+  kansai_grammar: 電車の方が早い(307で)。
+- speaker: あつし
+  kansai: 今日、ええ天気やから歩いて行こかな思て。
+  standard: 今日、いい天気だから歩いて行こうかなと思って。
+  english: The weather is so nice today I thought I'd walk.
+  kansai_grammar: 今日、ええ天気(330や)から歩いて(336行こ)かな(302思て)。
+  kansai_word: 今日、(45ええ)天気やから歩いて行こかな思て。
+- speaker: 通行人
+  kansai: そら、ご苦労さんやな。難波行くんやったら、どない行ったらええんかな。せやな、そこに大きい交差点あるやろ？
+  standard: それは、ご苦労さまだね。難波に行くんだったら、どう行ったらいいのかな。そうだな、そこに大きい交差点があるだろう？
+  english: It'll take a bit of work then. Lemme see, getting to Namba... Well, do you see that big intersection
+    there?
+  kansai_grammar: そら、(313ご苦労さん)(330や)(305な)。難波行くん(330やったら)、どない(328行ったら)ええんかな。せやな、そこに大きい交差点ある(330やろ)？
+  kansai_word: (295そら)、(280ご苦労さん)やな。難波行くんやったら、(258どない)行ったら(45ええ)んかな。(162せや)な、そこに大きい交差点あるやろ？
+- speaker: あつし
+  kansai: あれですか。
+  standard: あれですか。
+  english: That one?
+- speaker: ''
+  kansai: (Atsushi points.)
+  standard: (Atsushi points.)
+  english: (Atsushi points.)
+- speaker: 通行人
+  kansai: ちゃうちゃう、その交差点やのうて、もういっこ先のんや。あっこのスーパーのかどんとこにもっと大っきい交差点見えてるやろ？
+  standard: ちがうちがう、その交差点じゃなくて、もうひとつ先の。あそこのスーパーのかどのところにもっと大きい交差点が見えているだろう？
+  english: No no, not that one, but the next farther. You see an even bigger intersection at the corner
+    of that grocery?
+  kansai_grammar: ちゃうちゃう、その(298交差点やのうて)、もういっこ先(309のん)(330や)。あっこのスーパーのかど(309ん)とこにもっと大っきい交差点(331見えてる)(330やろ)？
+  kansai_word: (178ちゃう)(178ちゃう)、その交差点やのうて、もういっこ先のんや。(210あっこ)のスーパーのかどんとこにもっと大っきい交差点見えてるやろ？
+- speaker: あつし
+  kansai: ああ、あれですね。
+  standard: ああ、あれですね。
+  english: Yeah, that one?
+- speaker: ''
+  kansai: (Atsushi points.)
+  standard: (Atsushi points.)
+  english: (Atsushi points.)
+- speaker: 通行人
+  kansai: そや、それ左へまがったら、動物園の横に出るんや。それをずーっと動物園にそうて歩いて行ったら、堺筋へ出るんや。
+  standard: そうだ、それを左にまがると、動物園の横に出るんだ。それをずーっと動物園にそって歩いて行くと、堺筋へ出るんだ。
+  english: Yeah, when you turn to the left at that corner, you'll come out next to a zoo. Walk by the
+    zoo for a while and you'll get to Sakai Avenue.
+  kansai_grammar: そや、それ左へ(331まがったら)、動物園の横に出るん(330や)。それをずーっと動物園に(258そうて)歩いて(328行ったら)、堺筋へ出るん(330や)。
+  kansai_word: (161そや)、それ左へまがったら、動物園の横に出るんや。それをずーっと動物園にそうて歩いて行ったら、堺筋へ出るんや。
+- speaker: あつし
+  kansai: はい。
+  standard: はい。
+  english: Okay.
+- speaker: 通行人
+  kansai: ほんなら「でんでんタウン」ちゅうてにぎやかなとこがあるわ。たいくつせえへんわ。
+  standard: そうすれば「でんでんタウン」といってにぎやかなところがあるよ。たいくつしないよ。
+  english: You'll get to a busy area called "Denden Town". You won't get bored.
+  kansai_grammar: ほんなら「でんでんタウン」(302ちゅう)てにぎやかなとこがある(304わ)。たいくつ(296せえへん)(304わ)。
+  kansai_word: (171ほんなら)「でんでんタウン」ちゅうてにぎやかな(242とこ)があるわ。たいくつせえへんわ。
+- speaker: あつし
+  kansai: はは。
+  standard: はは。
+  english: Ha ha.
+- speaker: 通行人
+  kansai: ほんで、また真っすぐ行ったら、道頓堀の右はしへ出るさかいに、その辺を左へまがったら、高島屋の方に出るわ。高島屋のマーク知ってるやろ？あれ見えてくるさかい分かるはずや。
+  standard: そして、また真っすぐ行くと、道頓堀の右はしに出るから、その辺を左にまがると、高島屋の方に出るよ。高島屋のマーク知っているだろう？あれが見えてくるから分かるはずだよ。
+  english: From there, keep going straight; you'll get to the right edge of Dotonbori. Turn left at there
+    and you'll be at Takashimaya. You know Takashimaya's symbol, right? You'll know it when you see the
+    symbol.
+  kansai_grammar: (316ほんで)、また真っすぐ(328行ったら)、道頓堀の右はしへ出る(315さかい)に、その辺を左へ(328まがったら)、高島屋の方に出る(304わ)。高島屋のマーク(331知ってる)(330やろ)？あれ見えてくる(315さかい)分かるはず(330や)。
+  kansai_word: (168ほんで)、また真っすぐ行ったら、道頓堀の右はしへ出る(285さかい)に、その辺を左へまがったら、高島屋の方に出るわ。高島屋のマーク知ってるやろ？あれ見えてくる(285さかい)分かるはずや。
+- speaker: あつし
+  kansai: 分かりました。ありがとうございました。
+  standard: 分かりました。ありがとうございました。
+  english: I got it. Thank you.
+- speaker: 通行人
+  kansai: 堺筋へ出たら、またその辺でだれぞに聞いたらええわ。
+  standard: 堺筋へ出たら、またその辺でだれかに聞くといいよ。
+  english: You should ask someone when you get to Sakai Avenue.
+  kansai_grammar: 堺筋へ(328出たら)、またその辺でだれぞに(328聞いたら)ええ(304わ)。
+  kansai_word: 堺筋へ出たら、またその辺で(284だれぞ)に聞いたら(45ええ)わ。
+- speaker: あつし
+  kansai: そうします。歩いてどんぐらいですかねえ？
+  standard: そうします。歩いてどのくらいですか？。
+  english: I'll do that. Would you know how long it'll take on foot?
+  kansai_word: そうします。歩いて(347どんぐらい)ですかねえ？
+- speaker: 通行人
+  kansai: まあ、かなりきょりあるけど、兄ちゃん若いさかい、半時間もかかれへんのちゃうか。車多い道ばっかりやよって気ぃつけて行きや。
+  standard: まあ、かなりきょりあるけど、お兄さん若いから、30分もかからないんじゃないか。車多い道ばかりだから気をつけて行くんだよ。
+  english: Well, it's far, but you're young. I think it could take less than half an hour. The streets
+    are full of cars so be careful.
+  kansai_grammar: まあ、かなりきょりあるけど、兄ちゃん若い(315さかい)、半時間も(296かかれへん)のちゃうか。車多い道ばっかり(330や)(315よって)気ぃつけて行き(306や)。
+  kansai_word: まあ、かなりきょりあるけど、兄ちゃん若い(285さかい)、(27半時間)もかかれへんの(178ちゃう)か。車多い道ばっかりや(286よって)(153気ぃつけて)行きや。
+- speaker: あつし
+  kansai: ありがとうございます。助かりました。
+  standard: ありがとうございます。助かりました。
+  english: Thank you for your help.
+function_types:
+- function_131
+- function_119
+- function_121
+- function_132
+- function_137
+- function_120
+- function_127
+- function_123
+- function_118
+- function_141
+- function_111
+- function_112
+- function_57
+- function_38
+- function_39
+- function_33
+- function_23
+grammar_types:
+- grammar_76
+- grammar_78
+- grammar_65
+- grammar_67
+- grammar_85
+- grammar_87
+- grammar_75
+- grammar_86
+- grammar_84
+- grammar_69
+- grammar_106
+- grammar_109
+- grammar_46
+- grammar_73
+- grammar_47
+- grammar_140
+- grammar_81
+- grammar_68
+- grammar_82

@@ -1,0 +1,177 @@
+id: conversation_272
+drupal_node_id: 272
+title: 会社で
+title_en: At a Company
+summary: Mori has a presentation, but isn't feeling well. His coworker notices that he's pushing himself
+  too hard and probably shouldn't be at work...
+characters:
+- character_214
+- character_222
+- character_223
+- character_224
+audio:
+  path: ex_conv_work.mp3
+stanzas:
+- speaker: 森
+  kansai: おはようございます。
+  standard: おはようございます。
+  english: Good morning.
+- speaker: 岸本
+  kansai: おはようさん。あれ？お前、目ぇ死んだあるで。どないしてん？
+  standard: おはよう。あれ？お前、目、死んでいるよ。どうしたんだ？
+  english: Morning. Geez! Your eyes look dead. What happened to you?
+  kansai_grammar: (313おはようさん)。あれ？お前、目ぇ(332死んだある)(307で)。どないし(309てん)？
+  kansai_word: (279おはようさん)。あれ？お前、目ぇ死んだあるで。(258どない)してん？
+- speaker: 森
+  kansai: え、分かります？実はかぜひいてもうて、週末ずっと寝てたんですわ。まだ熱あるんですけど、今日のかいぎでプレゼンせなあかんから来たんです。
+  standard: え、分かります？実はかぜひいてしまって、週末ずっと寝ていたんですよ。まだ熱あるんですけど、今日のかいぎでプレゼンしなくちゃいけないから来たんです。
+  english: You noticed? Actually, I got a cold and slept all weekend. I still have a little temperature
+    but I have to do a presentation today so I came in.
+  kansai_grammar: え、分かります？実は(327かぜひいてもうて)、週末ずっと寝て(309たん)です(304わ)。まだ熱あるんですけど、今日のかいぎで(323プレゼンせなあかん)から来たんです。
+  kansai_word: え、分かります？実はかぜひいてもうて、週末ずっと寝てたんですわ。まだ熱あるんですけど、今日のかいぎでプレゼンせな(39あかん)から来たんです。
+- speaker: 杉本
+  kansai: おはようございます。うわっ、森くん、めっちゃしんどそうやん。どないしたん？
+  standard: おはようございます。うわっ、森くん、すごく苦しそうじゃない。どうしたの？
+  english: Good morning. Wow! What's happened to you, Mori? You look pretty wrung out.
+  kansai_grammar: おはようございます。うわっ、森くん、めっちゃしんどそう(311やん)。どないし(309たん)？
+  kansai_word: おはようございます。うわっ、森くん、(160めっちゃ)(72しんどそう)やん。(180どないした)ん？
+- speaker: 岸本
+  kansai: こいつ、かぜひいてもうてんて。まだ熱あんのにプレゼンせなあかんいうて会社来とんねん。
+  standard: こいつ、かぜひいてしまったんだって。まだ熱あるのにプレゼンしなくちゃいけないといって会社に来たんだ。
+  english: He got a cold, but came to work anyways for a presentation in spite of a fever.
+  kansai_grammar: こいつ、(327かぜひいてもうてん)て。まだ熱あんのに(323プレゼンせなあかん)(302いうて)会社(331来とん)(309ねん)。
+  kansai_word: こいつ、かぜひいてもうてんて。まだ熱あんのにプレゼンせな(39あかん)いうて会社来とんねん。
+- speaker: 杉本
+  kansai: ええ〜、それ、だれかに代わってもらわれへんの？
+  standard: ええ〜、それ、だれかに代わってもらえないの？
+  english: Ugh! Is there anybody you can switch with?
+  kansai_grammar: ええ〜、それ、だれかに(320代わってもらわれへん)の？
+- speaker: 岸本
+  kansai: ほんまや、お前、だれぞ頼めるやつおらんのか？
+  standard: 本当だ、お前、だれか頼めるやついないのか？
+  english: Yeah, don't you have someone you could ask?
+  kansai_grammar: ほんまや、お前、だれぞ頼めるやつおらんの(308か)？
+  kansai_word: (41ほんま)や、お前、(284だれぞ)頼めるやつ(149おらん)のか？
+- speaker: 森
+  kansai: う〜ん、大島さんは同じチームやし、きいてみよかな。
+  standard: う〜ん、大島さんは同じチームだし、きいてみようかな。
+  english: Well, Oshima is on the same team. I guess I can ask him.
+  kansai_grammar: う〜ん、大島さんは同じチーム(330や)し、きいて(336みよ)かな。
+- speaker: 岸本
+  kansai: それがええわ。お〜い、大島、ちょっとこっち来ぃ。
+  standard: それがいいよ。お〜い、大島、ちょっとこっち来て。
+  english: That's good. Hey, Oshima! Could you come over here?.
+  kansai_grammar: それがええ(304わ)。お〜い、大島、ちょっとこっち(139来ぃ)。
+  kansai_word: それが(45ええ)わ。お〜い、大島、ちょっとこっち来ぃ。
+- speaker: 大島
+  kansai: うわつ、森、どないしてん？
+  standard: うわつ、森、どうしたんだ？
+  english: Wow, what happened to you, Mori?
+  kansai_grammar: うわつ、森、どないし(309てん)？
+  kansai_word: うわつ、森、(180どないしてん)？
+- speaker: 岸本
+  kansai: こいつ、かぜひいて、熱あんのにプレゼンあるいうて会社来たんやて。
+  standard: こいつ、かぜひいて、熱あるのにプレゼンあるっていって会社に来たんだって。
+  english: He has a cold but came to work with a fever for a presentation.
+  kansai_grammar: こいつ、かぜひいて、熱あんのにプレゼンある(302いうて)会社来たん(330や)て。
+- speaker: 大島
+  kansai: そんなん俺、やっとくさかい早よかぜ治し。一緒にパワーポイント作ったから、大体分かるし。
+  standard: そんなの俺、やっとくから早くかぜ治してよ。一緒にパワーポイント作ったから、大体分かるし。
+  english: I can do it for you. You should take care of your cold and try to get better fast. We made
+    the PowerPoint together, so I understand most of it.
+  kansai_grammar: そんなん俺、やっとく(315さかい)早よかぜ(139治し)。一緒にパワーポイント作ったから、大体分かるし。
+  kansai_word: そんなん俺、やっとく(285さかい)早よかぜ治し。一緒にパワーポイント作ったから、大体分かるし。
+- speaker: 森
+  kansai: ほんまですか。ほんなら頼んでもええですか。こない急にすんません。
+  standard: 本当ですか。それじゃ頼んでもいいですか。こんなに急にすみません。
+  english: Is it really okay to ask this? I'm sorry this is so sudden.
+  kansai_grammar: ほんまですか。ほんなら(325頼んでもええ)ですか。こない急にすんません。
+  kansai_word: (41ほんま)ですか。(171ほんなら)頼んでも(45ええ)ですか。(157こない)急に(341すんません)。
+- speaker: 大島
+  kansai: かめへん、かめへん。お前にはいっつも助けてもうてるさかい。それにな、実は今日、そない忙しないねん。
+  standard: いいよ、いいよ。お前にはいつも助けてもらってるから。それにね、実は今日、そんなに忙しくないんだ。
+  english: Don't worry about it. You're always helping me. Anyways, frankly, I'm not that busy today.
+  kansai_grammar: かめへん、かめへん。お前にはいっつも(320助けてもうてる)(315さかい)。それにな、実は今日、そない(297忙しない)(309ねん)。
+  kansai_word: (125かめへん)、(125かめへん)。お前には(42いっつも)助けてもうてる(285さかい)。それにな、実は今日、(173そない)忙しないねん。
+- speaker: 森
+  kansai: ほんなら、すんませんけどおねがいします。ちょっと部長に言うてきますわ。
+  standard: それじゃあ、すみませんけどおねがいします。ちょっと部長に言ってきます。
+  english: Thank you so much for doing this for me. I'll let the boss know about it.
+  kansai_grammar: ほんなら、すんませんけどおねがいします。ちょっと部長に(301言うて)きます(304わ)。
+  kansai_word: (171ほんなら)、(341すんません)けどおねがいします。ちょっと部長に言うてきますわ。
+- speaker: ''
+  kansai: (Mori goes to inform his boss, but his boss postpones the presentation.)
+  standard: (Mori goes to inform his boss, but his boss postpones the presentation.)
+  english: (Mori goes to inform the boss, but the boss completely postpones the presentation.)
+- speaker: 森
+  kansai: あの〜、大島さん、実はプレゼン、来週でもええって部長言うてくれはったんで、僕、来週しますわ。
+  standard: あの〜、大島さん、実はプレゼン、来週でもいいって部長がおっしゃってくれたんで、僕、来週しますよ。
+  english: Umm, Oshima? It turns out that the boss told me I can do the presentation next week.
+  kansai_grammar: あの〜、大島さん、実はプレゼン、来週でもええって部長(355言うてくれはった)んで、僕、来週します(304わ)。
+  kansai_word: あの〜、大島さん、実はプレゼン、来週でも(45ええ)って部長言うてくれはったんで、僕、来週しますわ。
+- speaker: 大島
+  kansai: そうか。それやったら、そうさしてもらい。良かったなあ。部長、今日はえらいやさしいねんな。
+  standard: そうか。それだったら、そうさせてもらいなさい。良かったね。部長、今日はすごくやさしいんだね。
+  english: Oh, really? If that's the case, do what he said. That's great. He's being very nice today.
+  kansai_grammar: そうか。それ(330やったら)、そう(139さしてもらい)。良かったなあ。部長、今日はえらいやさしい(309ねん)な。
+  kansai_word: そうか。それやったら、そうさしてもらい。良かったなあ。部長、今日は(37えらい)やさしいねんな。
+- speaker: 森
+  kansai: はい、部長も僕の顔見て心配してくれはりましたわ。僕、そないひどい顔してます？
+  standard: はい、部長も僕の顔見て心配してくださりましたよ。僕、そんなにひどい顔してます？
+  english: Yeah, even he was worried when he saw my face. Is it really that bad?
+  kansai_grammar: はい、部長も僕の顔見て(355心配してくれはりました)(304わ)。僕、そないひどい顔してます？
+  kansai_word: はい、部長も僕の顔見て心配してくれはりましたわ。僕、(173そない)ひどい顔してます？
+- speaker: 大島
+  kansai: うん、お前、顔、真っかっかやで。早よ、家帰って休みぃ。
+  standard: うん、お前、顔、真っかっかだよ。早く、家帰って休みなさい。
+  english: Yeah, your face is completely red. Go home and get some rest.
+  kansai_grammar: うん、お前、顔、真っかっか(330や)(307で)。早よ、家帰って(139休みぃ)。
+- speaker: 森
+  kansai: はい、そうしますわ。心配かけてすんませんでした。
+  standard: はい、そうします。心配かけてすみませんでした。
+  english: Yes, I will. Sorry about the worry.
+  kansai_grammar: はい、そうします(304わ)。心配かけてすんませんでした。
+  kansai_word: はい、そうしますわ。心配かけて(341すんません)でした。
+function_types:
+- function_131
+- function_119
+- function_122
+- function_132
+- function_137
+- function_120
+- function_127
+- function_123
+- function_118
+- function_111
+- function_57
+- function_38
+- function_34
+- function_33
+- function_37
+- function_19
+- function_29
+- function_20
+- function_28
+grammar_types:
+- grammar_76
+- grammar_67
+- grammar_85
+- grammar_87
+- grammar_75
+- grammar_86
+- grammar_80
+- grammar_88
+- grammar_106
+- grammar_95
+- grammar_107
+- grammar_46
+- grammar_105
+- grammar_96
+- grammar_73
+- grammar_47
+- grammar_74
+- grammar_61
+- grammar_93
+- grammar_139
+- grammar_82
+- grammar_92

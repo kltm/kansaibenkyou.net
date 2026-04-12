@@ -1,0 +1,194 @@
+id: conversation_273
+drupal_node_id: 273
+title: 会社の昼休み
+title_en: During Lunch
+summary: Junko is chatting with her coworkers, Noriko and Natsuko, during lunch.
+characters:
+- character_218
+- character_219
+- character_223
+audio:
+  path: ex_lunch_revised.mp3
+stanzas:
+- speaker: 夏子
+  kansai: あ〜、月曜の仕事しんどいなあ。
+  standard: あ〜、月曜の仕事くたびれるねえ。
+  english: Ugh...work on Monday is so draining...
+  kansai_word: あ〜、月曜の仕事(72しんどい)なあ。
+- speaker: じゅん子
+  kansai: ほんまに。せんぱい週末、何してはったんですか。
+  standard: 本当に。せんぱい、週末、何してたんですか。
+  english: Totally. What did you do over the weekend?
+  kansai_grammar: ほんまに。せんぱい、週末、(355何してはった)んですか。
+  kansai_word: (41ほんま)に。せんぱい週末、何してはったんですか。
+- speaker: 夏子
+  kansai: 忙しかったわ。昨日な、子供の学校の運動会やってん。ほんで、だんなと見に行ってきてん。
+  standard: 忙しかったよ。昨日ね、子供の学校の運動会だったんだ。それで、だんなと見に行ってきたんだ。
+  english: I was busy. Yesterday, my kids had a track meet at school and we went to see it.
+  kansai_grammar: 忙しかった(304わ)。昨日(305な)、子供の学校の運動会(330や)っ(309てん)。(316ほんで)、だんなと見に行ってき(309てん)。
+  kansai_word: 忙しかったわ。昨日な、子供の学校の運動会やってん。(168ほんで)、だんなと見に行ってきてん。
+- speaker: じゅん子
+  kansai: え〜、もしかして、おべんとう作りはったんですか？
+  standard: え〜、もしかして、おべんとう作ったんですか？
+  english: Huhh. By any chance, did you make bento?
+  kansai_grammar: え〜、もしかして、おべんとう(355作りはった)んですか？
+- speaker: 夏子
+  kansai: 作ったでぇ。朝、五時に起きてんで。
+  standard: 作ったよ。朝、五時に起きたんだよ。
+  english: Sure did. I woke up at five.
+  kansai_grammar: 作った(307でぇ)。朝、五時に起き(309てん)(307で)。
+- speaker: のり子
+  kansai: わ〜、すごいなあ。そんなん絶対ようせんわ。
+  standard: わ〜、すごいなあ。そんなの絶対できないよ。
+  english: Wow, that's dedication. I can't do that.
+  kansai_grammar: わ〜、すごいなあ。そんなん絶対(334ようせん)(304わ)。
+- speaker: じゅん子
+  kansai: うちも。仕事あれへん日ぃはいっつも10時ぐらいまで寝てるわ。
+  standard: 私も。仕事無い日はいつも10時ぐらいまで寝ているよ。
+  english: The same for me. Whenever I don't have work, I always sleep until around ten.
+  kansai_grammar: うちも。仕事(296あれへん)日ぃはいっつも10時ぐらいまで(331寝てる)(301わ)。
+  kansai_word: (155うち)も。仕事あれへん日ぃは(42いっつも)10時ぐらいまで寝てるわ。
+- speaker: 夏子
+  kansai: うちも昔はそうやってんけど、子供おると寝てられへんねん。週末でも朝7時ぐらいに起こされんもん。たまには死ぬほど寝たいわ。
+  standard: 私も昔はそうだったんだけど、子供いると寝ていられないんだ。週末でも朝7時ぐらいに起こされるもん。たまには死ぬほど寝たいよ。
+  english: I was the same, but with kids I can't sleep like that anymore. They wake me up around seven
+    on weekends. Once in a while I just want to sleep like the dead.
+  kansai_grammar: うちも昔はそう(330や)っ(309てん)けど、子供おると(334寝てられへん)(309ねん)。週末でも朝7時ぐらいに起こされんもん。たまには死ぬほど寝たい(304わ)。
+  kansai_word: (155うち)も昔はそうやってんけど、子供(149おる)と寝てられへんねん。週末でも朝7時ぐらいに起こされんもん。たまには死ぬほど寝たいわ。
+- speaker: のり子
+  kansai: でも、にぎやかでええやないですか。お子さん今いくつですか。
+  standard: でも、にぎやかでいいじゃないですか。お子さん今いくつですか。
+  english: But it's nice to be in a lively environment. How old are they now?
+  kansai_word: でも、にぎやかで(45ええ)やないですか。お子さん今いくつですか。
+- speaker: 夏子
+  kansai: 9歳と7歳やねん。にぎやかちゅうよりうるさいけどな。どっちも男やからけんかばっかりしよるわ。
+  standard: 9歳と7歳だよ。にぎやかというよりうるさいけどね。どっちも男だからけんかばっかりしているんだ。
+  english: They're nine and seven. They're more noisy than lively. They're both boys so it's nothing but
+    fights.
+  kansai_grammar: 9歳と7歳(330や)(309ねん)。にぎやかちゅうよりうるさいけど(305な)。どっちも男やからけんかばっかり(338しよる)わ。
+- speaker: じゅん子
+  kansai: せんぱい、写メ見せてくださいよ。
+  standard: せんぱい、写メ見せてくださいよ。
+  english: Do you have any pictures on your phone?
+- speaker: 夏子
+  kansai: 笑たらあかんで。これ、昨日の運動会の写真。こっちが上でこっちが下。
+  standard: 笑ったらだめだよ。これ、昨日の運動会の写真。こっちが上でこっちが下。
+  english: Don't laugh, okay? I took this yesterday. This is the older one and this is the younger one.
+  kansai_grammar: (324笑たらあかん)(307で)。これ、昨日の運動会の写真。こっちが上でこっちが下。
+  kansai_word: 笑たら(39あかん)で。これ、昨日の運動会の写真。こっちが上でこっちが下。
+- speaker: ''
+  kansai: (Natsuko shows them the picture on her cell phone.)
+  standard: (Natsuko shows them the picture on her cell phone.)
+  english: (Natsuko shows them the picture on her cell phone.)
+- speaker: のり子・じゅん子
+  kansai: ははは。
+  standard: ははは。
+  english: Hahaha...
+- speaker: のり子
+  kansai: どっちもせんぱいにそっくりや！
+  standard: どっちもせんぱいにそっくりだ！
+  english: They're both dead ringers you!
+  kansai_grammar: どっちもせんぱいにそっくり(306や)！
+- speaker: 夏子
+  kansai: ちょっと、笑たらあかん言うたやんか。
+  standard: ちょっと、笑ったらだめって言ったじゃない。
+  english: Hey! I said don't laugh.
+  kansai_grammar: ちょっと、(324笑たらあかん)(302言うた)(311やんか)。
+  kansai_word: ちょっと、笑たら(39あかん)言うたやんか。
+- speaker: じゅん子
+  kansai: せやかて、二人ともせんぱいにめっちゃ似てるんですもん。
+  standard: だって、二人ともせんぱいにすごく似てるんですもん。
+  english: But they're exactly like you.
+  kansai_word: (290せやかて)、二人ともせんぱいに(160めっちゃ)似てるんですもん。
+- speaker: 夏子
+  kansai: せやねんな。二人ともうちによう似てんねん。性格は二人ともだんなに似てんねんけどな。だんなも子供もすること、言うこと一緒やから、おもろいで。
+  standard: そうなんだよね。二人とも私によく似てるんだ。性格は二人ともだんなに似てるんだけどね。だんなも子供もすること、言うこと一緒だから、おもしろいよ。
+  english: That's true, both of them look a lot like me. But they act just like my husband. My husband
+    and kids do and say the same things at the same time--it hilarious.
+  kansai_grammar: せやねん(358な)。二人ともうちによう(311似てん)(309ねん)。性格は二人ともだんなに(311似てん)(309ねん)けど(358な)。だんなも子供もすること、言うこと一緒(330や)から、おもろい(307で)。
+  kansai_word: (162せや)ねんな。二人ともうちに(200よう)似てんねん。性格は二人ともだんなに似てんねんけどな。だんなも子供もすること、言うこと一緒やから、おもろいで。
+- speaker: のり子
+  kansai: ははは。でもやっぱ子どもはかいらしいなあ。うちも欲しいわあ。
+  standard: ははは。でもやっぱり子どもはかわいらしいなあ。私も欲しいなあ。
+  english: Hahaha...kids are so cute. I want one too.
+  kansai_grammar: ははは。でもやっぱ子どもはかいらしいなあ。うちも欲しい(304わあ)。
+  kansai_word: ははは。でもやっぱ子どもは(47かいらしい)なあ。(155うち)も欲しいわあ。
+- speaker: じゅん子
+  kansai: あんた、その前に相手探さなあかんやん。
+  standard: のり子、その前に相手探さなくちゃだめじゃない。
+  english: Noriko, you're going to have to find somebody first.
+  kansai_grammar: あんた、その前に相手(323探さなあかん)(311やん)。
+  kansai_word: あんた、その前に相手探さな(39あかん)やん。
+- speaker: のり子
+  kansai: うるさいわ。今、探してんねんやんか。せんぱい、だれかええ人いてません？
+  standard: うるさいよ。今、探しているんだよ。せんぱい、だれかいい人いません？
+  english: Shut up. I'm looking now. Natsuko, do you know anyone nice?
+  kansai_grammar: うるさいわ。今、(311探してん)(309ねん)(311やんか)。せんぱい、だれかええ人いてません？
+  kansai_word: うるさいわ。今、探してんねんやんか。せんぱい、だれか(45ええ)人いてません？
+- speaker: 夏子
+  kansai: ああ、こないだ、入って来た子おるやん。あの子けっこうええやん。
+  standard: ああ、こないだ、入って来た子いるじゃない。あの子けっこういいんじゃない？
+  english: Oh, how about that new boy? I think he's pretty good looking.
+  kansai_grammar: ああ、こないだ、入って来た子おる(311やん)。あの子けっこうええ(311やん)。
+  kansai_word: ああ、こないだ、入って来た子(149おる)やん。あの子けっこう(45ええ)やん。
+- speaker: のり子
+  kansai: 森くんですか？　あんまタイプとちゃうねんなあ。
+  standard: 森くんですか？　あんまりタイプじゃないんだよねえ。
+  english: Are you talking about Mori? Not really my type.
+  kansai_grammar: 森くんですか？　あんま(298タイプとちゃう)(309ねん)なあ。
+  kansai_word: 森くんですか？　(143あんま)タイプと(178ちゃう)ねんなあ。
+- speaker: じゅん子
+  kansai: ほな、あんたどんなんがええん？
+  standard: じゃあ、どんなのがいいの？
+  english: Well, what is your type?
+  kansai_grammar: ほな、あんたどんなんがええ(309ん)？
+  kansai_word: ほな、あんたどんなんが(45ええ)ん？
+- speaker: のり子
+  kansai: ジョニーデップみたいな人がええねんけどな。
+  standard: ジョニーデップみたいな人がいいんだけどな。
+  english: I'd like someone like Johnny Depp.
+  kansai_grammar: ジョニーデップみたいな人がええ(309ねん)けど(305な)。
+  kansai_word: ジョニーデップみたいな人が(45ええ)ねんけどな。
+- speaker: じゅん子
+  kansai: そんな人おるわけないやん！
+  standard: そんな人いるわけないじゃん！
+  english: There is not going to be anybody like him!
+  kansai_grammar: そんな人おるわけない(311やん)！
+  kansai_word: そんな人(149おる)わけないやん！
+function_types:
+- function_131
+- function_119
+- function_121
+- function_132
+- function_137
+- function_123
+- function_118
+- function_111
+- function_57
+- function_41
+- function_38
+- function_33
+- function_25
+- function_26
+- function_19
+- function_29
+- function_20
+grammar_types:
+- grammar_43
+- grammar_97
+- grammar_67
+- grammar_85
+- grammar_87
+- grammar_86
+- grammar_80
+- grammar_88
+- grammar_106
+- grammar_95
+- grammar_109
+- grammar_46
+- grammar_73
+- grammar_47
+- grammar_70
+- grammar_103
+- grammar_139
+- grammar_81

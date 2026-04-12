@@ -1,102 +1,114 @@
 #!/usr/bin/env python3
-"""Bazaar text → ConversationExample YAML porter (phase 1.2 PoC).
+"""Bazaar text + mothball HTML → ConversationExample YAML porter.
 
-Reads the five per-layer bazaar text files for one example
-conversation and emits a ConversationExample YAML conforming to
-schema/kbnet.yaml.
-
-Bazaar text format
-------------------
-
-Each example conversation lives in five files under
-``/home/sjcarbon/local/src/bazaar/kb.net.shared/`` named
-``NN.<title>.<layer>.txt`` where layer is one of ``kansai``,
-``standard``, ``english``, ``grammar``, ``word``. Every line is a
-single stanza in ``speaker|text`` format. The five files are aligned
-row-by-row: row N in every layer is the same stanza, with the same
-speaker, expressed in a different layer. The grammar and word layers
-use ``(NNN surface_text)`` inline markers to wrap spans that link to
-GrammarPoint or Word nodes (NNN is the original Drupal node ID).
-
-PoC scope
----------
-
-This script handles **chapter 1 only**. Generalization to all 12
-example conversations and to extracting metadata directly from the
-mothball Drupal node HTML is tracked in issue #4. The chapter 1
-metadata (title, summary, audio path, character refs, function and
-grammar type tags) is hardcoded below; in the full version it will
-be parsed from ``_mothball/snapshot/node/264``.
+Reads the five per-layer bazaar text files for each example
+conversation (kansai/standard/english/grammar/word) and extracts
+metadata (title, summary, audio, characters, function and grammar
+type tags) from the corresponding mothball Drupal node HTML. Outputs
+a ConversationExample YAML conforming to schema/kbnet.yaml.
 
 Usage
 -----
 
-    python3 tools/import_conversation.py
+    python3 tools/import_conversation.py          # all 12 chapters
+    python3 tools/import_conversation.py 1        # chapter 1 only
+    python3 tools/import_conversation.py 3 7 12   # specific chapters
 
-Writes ``data/conversations/01_with_the_landlord.yaml``. Validate
-the output with:
+Writes to ``data/conversations/<base>.yaml``. Validate with:
 
     linkml-validate --schema schema/kbnet.yaml \\
         --target-class ConversationExample \\
-        data/conversations/01_with_the_landlord.yaml
+        data/conversations/<base>.yaml
 """
 
 from __future__ import annotations
 
+import html as html_mod
+import re
+import sys
 from pathlib import Path
 
 import yaml
 
 REPO = Path(__file__).resolve().parent.parent
 BAZAAR = Path("/home/sjcarbon/local/src/bazaar/kb.net.shared")
+MOTHBALL_NODES = REPO / "_mothball" / "snapshot" / "node"
 LAYERS = ("kansai", "standard", "english", "grammar", "word")
 
-CHAPTER_1: dict = {
-    "id": "conversation_264",
-    "drupal_node_id": 264,
-    "base": "01.with_the_landlord",
-    "title": "大家さんと",
-    "title_en": "With the Landlord",
-    "summary": (
-        "Atsushi leaves his apartment for work in the morning and "
-        "meets his landlord cleaning out front."
-    ),
-    "audio_path": "ex_conv_oya.mp3",
-    "characters": [
-        "character_214",  # Mori Atsushi
-        "character_232",  # The Landlord
-    ],
-    "function_types": [
-        "function_57",   # Question
-        "function_111",  # Negation
-        "function_118",  # Supplying new information
-        "function_119",  # Attentiveness
-        "function_120",  # Providing reasons
-        "function_121",  # Connecting sentences
-        "function_122",  # Honorific titles
-        "function_123",  # Soliciting and demonstrating agreement
-        "function_126",  # Emphasis
-        "function_127",  # Quotation
-        "function_128",  # Possession
-        "function_131",  # Assertion
-        "function_132",  # Nominalization
-        "function_137",  # Non-functional
-    ],
-    "grammar_types": [
-        "grammar_19",    # Honorifics
-        "grammar_20",    # Obligation
-        "grammar_23",    # Conditional
-        "grammar_24",    # Giving and receiving
-        "grammar_29",    # Imperative
-        "grammar_33",    # Progressive
-        "grammar_36",    # Completion
-        "grammar_38",    # Condition/State
-    ],
-}
+CHAPTERS: list[tuple[int, int, str]] = [
+    (1,  264, "01.with_the_landlord"),
+    (2,  265, "02.at_the_welcome_party"),
+    (3,  266, "03.at_the_shops"),
+    (4,  267, "04.at_the_fish_monger"),
+    (5,  268, "05.asking_directions"),
+    (6,  269, "06.at_karaoke"),
+    (7,  270, "07.on_a_train"),
+    (8,  271, "08.with_a_neighbor"),
+    (9,  272, "09.at_work"),
+    (10, 273, "10.on_a_break"),
+    (11, 274, "11.at_a_pub"),
+    (12, 275, "12.at_okonomiyaki"),
+]
+
+
+def extract_metadata(node_id: int) -> dict:
+    """Parse metadata from a mothball Drupal conversation node HTML."""
+    raw = (MOTHBALL_NODES / str(node_id)).read_text(
+        encoding="utf-8", errors="replace"
+    )
+
+    m = re.search(r"<title>(.+?) \| Kansaibenkyou", raw)
+    full_title = html_mod.unescape(m.group(1)) if m else ""
+    parts = full_title.split(" / ", 1)
+    title_ja = parts[0].strip()
+    title_en = parts[1].strip() if len(parts) > 1 else ""
+
+    m = re.search(
+        r'field-name-field-conv-exp-desc.*?field-item even">(.*?)\n',
+        raw, re.DOTALL,
+    )
+    desc = html_mod.unescape(re.sub(r"<[^>]+>", "", m.group(1))).strip() if m else ""
+
+    m = re.search(
+        r'field-name-field-conv-exp-audio.*?href="[^"]*?/([^/"]+\.mp3)"',
+        raw, re.DOTALL,
+    )
+    audio = m.group(1) if m else ""
+
+    def extract_term_ids(field_name: str) -> list[str]:
+        section = re.search(
+            rf"field-name-{field_name}(.*?)</section>", raw, re.DOTALL,
+        )
+        if not section:
+            return []
+        return re.findall(r"taxonomy/term/(\d+)", section.group(1))
+
+    char_ids = extract_term_ids("field-conv-exp-tags")
+    func_ids = extract_term_ids("field-function-type")
+    gram_ids = extract_term_ids("field-grammar-type")
+
+    return {
+        "title": title_ja,
+        "title_en": title_en,
+        "summary": desc,
+        "audio_path": audio,
+        "characters": [f"character_{i}" for i in char_ids],
+        "function_types": [f"function_{i}" for i in func_ids],
+        "grammar_types": [f"grammar_{i}" for i in gram_ids],
+    }
 
 
 def parse_layer(path: Path) -> list[tuple[str, str]]:
-    """Parse a bazaar layer text file into [(speaker, text), ...]."""
+    """Parse a bazaar layer text file into [(speaker, text), ...].
+
+    Lines without a ``|`` separator are treated as stage directions
+    (e.g. ``(Drinking begins...)``). These get an empty-string speaker.
+
+    Handles a known data errata in the bazaar files where a ``(NNN``
+    annotation marker appears before the ``|`` separator instead of
+    after it (e.g. ``のり子(166|ほやけど)`` should be
+    ``のり子|(166ほやけど)``).
+    """
     rows: list[tuple[str, str]] = []
     for raw in path.read_text(encoding="utf-8").splitlines():
         line = raw.rstrip()
@@ -104,15 +116,22 @@ def parse_layer(path: Path) -> list[tuple[str, str]]:
             continue
         speaker, sep, text = line.partition("|")
         if not sep:
-            raise ValueError(
-                f"missing '|' separator in {path.name}: {raw!r}"
-            )
-        rows.append((speaker, text))
+            rows.append(("", line))
+        else:
+            m = re.match(r"^(.+?)(\(\d+)$", speaker)
+            if m:
+                speaker = m.group(1)
+                text = m.group(2) + text
+            rows.append((speaker, text))
     return rows
 
 
-def build_conversation(meta: dict) -> dict:
-    base = meta["base"]
+def build_conversation(
+    ch_num: int, node_id: int, base: str
+) -> tuple[dict, Path]:
+    """Build a ConversationExample dict from bazaar text + mothball HTML."""
+    meta = extract_metadata(node_id)
+
     layer_rows: dict[str, list[tuple[str, str]]] = {
         layer: parse_layer(BAZAAR / f"{base}.{layer}.txt")
         for layer in LAYERS
@@ -122,14 +141,14 @@ def build_conversation(meta: dict) -> dict:
     for layer, rows in layer_rows.items():
         if len(rows) != n:
             raise ValueError(
-                f"layer {layer!r} has {len(rows)} stanzas, "
+                f"ch{ch_num} layer {layer!r} has {len(rows)} stanzas, "
                 f"expected {n} (from kansai layer)"
             )
     for i in range(n):
         speakers = {layer: rows[i][0] for layer, rows in layer_rows.items()}
         if len(set(speakers.values())) > 1:
             raise ValueError(
-                f"row {i + 1}: speakers differ across layers: {speakers}"
+                f"ch{ch_num} row {i + 1}: speakers differ: {speakers}"
             )
 
     stanzas: list[dict] = []
@@ -150,9 +169,9 @@ def build_conversation(meta: dict) -> dict:
             stanza["kansai_word"] = word_text
         stanzas.append(stanza)
 
-    return {
-        "id": meta["id"],
-        "drupal_node_id": meta["drupal_node_id"],
+    conv: dict = {
+        "id": f"conversation_{node_id}",
+        "drupal_node_id": node_id,
         "title": meta["title"],
         "title_en": meta["title_en"],
         "summary": meta["summary"],
@@ -163,22 +182,37 @@ def build_conversation(meta: dict) -> dict:
         "grammar_types": meta["grammar_types"],
     }
 
+    slug = base.replace(".", "_", 1)
+    out = REPO / "data" / "conversations" / f"{slug}.yaml"
+    return conv, out
+
 
 def main() -> None:
-    conv = build_conversation(CHAPTER_1)
-    out = REPO / "data" / "conversations" / "01_with_the_landlord.yaml"
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(
-        yaml.safe_dump(
-            conv,
-            allow_unicode=True,
-            sort_keys=False,
-            indent=2,
-            width=100,
-        ),
-        encoding="utf-8",
-    )
-    print(f"wrote {out.relative_to(REPO)} ({len(conv['stanzas'])} stanzas)")
+    if len(sys.argv) > 1:
+        requested = {int(a) for a in sys.argv[1:]}
+        chapters = [(n, nid, b) for n, nid, b in CHAPTERS if n in requested]
+    else:
+        chapters = CHAPTERS
+
+    out_dir = REPO / "data" / "conversations"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    for ch_num, node_id, base in chapters:
+        conv, out = build_conversation(ch_num, node_id, base)
+        out.write_text(
+            yaml.safe_dump(
+                conv,
+                allow_unicode=True,
+                sort_keys=False,
+                indent=2,
+                width=100,
+            ),
+            encoding="utf-8",
+        )
+        print(
+            f"ch{ch_num:>2d}  node/{node_id}  "
+            f"{len(conv['stanzas']):>3d} stanzas  → {out.name}"
+        )
 
 
 if __name__ == "__main__":

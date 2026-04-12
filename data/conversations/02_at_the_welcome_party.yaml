@@ -1,0 +1,170 @@
+id: conversation_265
+drupal_node_id: 265
+title: 歓迎会で
+title_en: At the Welcome Party
+summary: The new man at the company, Mori, is at his welcome party. He is chatting with his boss and new
+  coworker, Kimura.
+characters:
+- character_214
+- character_231
+- character_227
+audio:
+  path: ex_conv_welcome.mp3
+stanzas:
+- speaker: 部長
+  kansai: 森君、今週は新しいことばっかりで疲れたやろ。今日はしっかり飲み。
+  standard: 森君、今週は新しいことばかりで疲れただろう。今日はしっかり飲みなさい。
+  english: Mori, you've been dealing with new things all week--you must be exhausted. You should drink
+    up tonight.
+  kansai_grammar: 森君、今週は新しいことばっかりで疲れた(330やろ)。今日はしっかり(139飲み)。
+- speaker: 森
+  kansai: ほな、えんりょなく
+  standard: じゃ、えんりょなく。
+  english: Thanks, I will.
+  kansai_word: (169ほな)、えんりょなく
+- speaker: ''
+  kansai: (Drinking begins...)
+  standard: (Drinking begins...)
+  english: (Drinking begins...)
+- speaker: 部長
+  kansai: おお、お前、ええ飲みっぷりやんか。その調子で仕事もがんばり。
+  standard: おお、お前、いい飲みっぷりじゃない。その調子で仕事もがんばりなさい。
+  english: You're a good drinker. I hope you work as well as you can throw them back.
+  kansai_grammar: おお、お前、ええ飲みっぷり(311やんか)。その調子で仕事も(139がんばり)。
+  kansai_word: おお、お前、(45ええ)飲みっぷりやんか。その調子で仕事もがんばり。
+- speaker: 木村
+  kansai: あれ？部長、いっこも飲んでないですやん。部長が飲まんと、おれら飲みにくいですやん。
+  standard: あれ？部長、全然飲んでないじゃないですか。部長が飲まないと、おれたち飲みにくいじゃないですか。
+  english: You haven't even started yet. We're not going to feel comfortable drinking when our manager
+    isn't helping out.
+  kansai_grammar: あれ？部長、(299いっこも)(331飲んでない)です(311やん)。部長が(296飲まん)と、おれら飲みにくいです(311やん)。
+- speaker: 部長
+  kansai: そない言うて、わしをよわすつもりやな。そうはささへんで。ところで、森君、どや？この仕事、慣れてきたか？
+  standard: そんなこと言って、おれをよわすつもりだな。そうはさせないぞ。ところで、森君、どうだ？この仕事、慣れてきたかい？
+  english: Come on! You're trying to make me drunk, right? I'm not gunna let you do that. By the way,
+    how's it going so far, Mori? Settling in?
+  kansai_grammar: そない(301言うて)、わしをよわすつもり(306や)(305な)。そうは(335ささへん)(307で)。ところで、森君、ど(330や)？この仕事、慣れてきた(308か)？
+  kansai_word: (173そない)言うて、(193わし)をよわすつもりやな。そうはささへんで。ところで、森君、(183どや)？この仕事、慣れてきたか？
+- speaker: 森
+  kansai: いやー、まだ分からんことばっかりですけど、みなさんに助けてもうてます。
+  standard: いやー、まだ分からないことばかりですけど、みなさんに助けてもらってます。
+  english: Well, I don't think I know what's going on yet, but everyone is helping me out.
+  kansai_grammar: いやー、まだ(296分からん)ことばっかりですけど、みなさんに(320助けてもうて)ます。
+- speaker: 部長
+  kansai: そうか。まあぼちぼち分かってくるわ。うち、仕事はえらいけど、皆仲ええからな、困ったことあったら何でも聞きや、木村に。
+  standard: そうか。まあそのうちに分かってくるよ。この会社、仕事は大変だけど、皆仲いいからね、困ったことあったら何でも聞きな、木村に。
+  english: Well, you'll get used to it all soon. Our job is pretty tough, but we're all in it together.
+    Don't hesitate asking about anything to Kimura.
+  kansai_grammar: そうか。まあぼちぼち分かってくる(304わ)。うち、仕事はえらいけど、皆仲ええから(305な)、困ったことあったら何でも(139聞き)(306や)、木村に。
+  kansai_word: そうか。まあ(74ぼちぼち)分かってくるわ。(155うち)、仕事は(37えらい)けど、皆仲(45ええ)からな、困ったことあったら何でも聞きや、木村に。
+- speaker: 木村
+  kansai: 部長、なんでおれですの？
+  standard: 部長、どうしておれなんですか？
+  english: Hey, why me?
+  kansai_word: 部長、(293なんで)おれですの？
+- speaker: 部長
+  kansai: お前、いっつもひまやろ。
+  standard: お前、いつもひまだろ。
+  english: You're always free, right?
+  kansai_grammar: お前、いっつもひま(330やろ)。
+  kansai_word: お前、(42いっつ)もひまやろ。
+- speaker: 木村
+  kansai: 何言うてはるんですか、おれめっちゃ忙しいですよ。昨日もほとんど寝てへんのに。
+  standard: 何おっしゃってるんですか、おれすごく忙しいですよ。昨日もほとんど寝ていないのに。
+  english: What are you talking about? I'm real busy. I barely slept last night.
+  kansai_grammar: 何(355言うてはる)んですか、おれめっちゃ忙しいですよ。昨日もほとんど(296寝てへん)のに。
+  kansai_word: 何言うてはるんですか、おれ(160めっちゃ)忙しいですよ。昨日もほとんど寝てへんのに。
+- speaker: 部長
+  kansai: そら、お前、遊びすぎて忙しかったんやろ。またあの姉ちゃんとこ行ったんかいな。かなわんなあ。
+  standard: それは、お前、遊びすぎて忙しかったんだろう。またあのお姉さんのところに行ったのかい。かなわないねえ。
+  english: You were probably just playing around too much. Did you see that girl again? You're hopeless.
+  kansai_grammar: そら、お前、遊びすぎて忙しかったん(330やろ)。またあの(302姉ちゃんとこ)行っ(309たん)(310かいな)。かなわんなあ。
+  kansai_word: (205そら)、お前、遊びすぎて忙しかったんやろ。またあの姉ちゃん(242とこ)行ったんかいな。(122かなわん)なあ。
+- speaker: 木村
+  kansai: ちゃいますよ、ずっと仕事してましたよ。部長、それより、あの姉ちゃんてだれでっか？
+  standard: ちがいますよ、ずっと仕事していましたよ。部長、それより、あのお姉さんてだれですか？
+  english: Nah, I really was working all night. More importantly, who's the girl that you're talking about?
+  kansai_grammar: ちゃいますよ、ずっと(331仕事してました)よ。部長、それより、あの姉ちゃんてだれでっか？
+  kansai_word: (178ちゃいます)よ、ずっと仕事してましたよ。部長、それより、あの姉ちゃんてだれでっか？
+- speaker: 部長
+  kansai: スナックMの姉ちゃんやがな。森君、こいつ、毎晩スナック行って、姉ちゃんらと遊んどんねん。給料全部スナックに使てまうねん。あほやろ？こないなったらあかんで。
+  standard: スナックMのお姉さんじゃないか。森君、こいつ、毎晩スナック行って、お姉さんたちと遊んでいるんだ。給料全部スナックに使ってしまうんだよ。ばかだろ？こんなになったらだめだよ。
+  english: The girl who works at Club M, of course. Mori, Kimura goes to that club every night and parties
+    with the girls. He spends all his money on it. Not too bright, right? Don't be like him.
+  kansai_grammar: スナックMの姉ちゃん(330や)(311がな)。森君、こいつ、毎晩スナック行って、姉ちゃんらと(311遊んどん)(309ねん)。給料全部スナックに(264使てまう)(309ねん)。あほやろ？こない(324なったらあかん)で。
+  kansai_word: スナックMの姉ちゃんやがな。森君、こいつ、毎晩スナック行って、姉ちゃんらと遊んどんねん。給料全部スナックに使てまうねん。(69あほ)やろ？(157こない)なったら(39あかん)で。
+- speaker: 木村
+  kansai: めちゃくちゃ言わんといてくださいよ。あっこ行ったん、前に部長と一緒に行った一回だけですやん。部長こそ毎晩行ってはるんちゃいますか？
+  standard: めちゃくちゃ言わないでくださいよ。あそこ行ったの、前に部長と一緒に行った一回だけじゃないですか。部長こそ毎晩行ってるんじゃないですか?
+  english: What are you talking about? I've been there only once, and that was when I went with you. I'm
+    thinking that you must be the one who goes there every night.
+  kansai_grammar: めちゃくちゃ(324言わんといて)くださいよ。あっこ行っ(309たん)、前に部長と一緒に行った一回だけです(311やん)。部長こそ毎晩(355行ってはる)んちゃいますか？
+  kansai_word: めちゃくちゃ言わんといてくださいよ。(210あっこ)行ったん、前に部長と一緒に行った一回だけですやん。部長こそ毎晩行ってはるん(178ちゃいます)か？
+- speaker: 部長
+  kansai: わし、そんなとこ行ったことないわ。スナックって何や？そらうまいんか？
+  standard: おれ、そんなところに行ったことないよ。スナックって何だ？それうまいの？
+  english: I've never been to any such place. What's club? Does it taste good?
+  kansai_grammar: わし、そんなとこ行ったことない(304わ)。スナックって何(330や)？そらうまい(309ん)(308か)？
+  kansai_word: (193わし)、そんな(242とこ)行ったことないわ。スナックって何や？(205そら)うまいんか？
+- speaker: 木村
+  kansai: あほくさ。森、ほんまにこない会社でええんか？部長こんなんやで。
+  standard: ばからしい。森、本当にこんな会社でいいの？部長こんなんだよ。
+  english: Whatever. Mori, are you really sure that you want work at this kind of company? This is our
+    department manager.
+  kansai_grammar: あほくさ。森、ほんまにこない会社でええん(338か)？部長こんなん(330や)(307で)。
+  kansai_word: (43あほくさ)。森、ほんまに(157こない)会社で(45ええ)んか？部長こんなんやで。
+- speaker: 部長
+  kansai: お前、いらんこと言いな。今日の飲み代、払いたいんか？
+  standard: お前、よけいなこと言うな。今日の飲み代、払いたいのか？
+  english: Don't give him any ideas. Do you want to pay for our drinks?
+  kansai_grammar: お前、いらんこと(322言いな)。今日の飲み代、払いたい(309ん)(308か)？
+  kansai_word: お前、(251いらんこと)言いな。今日の飲み代、払いたいんか？
+- speaker: 木村
+  kansai: あかん、部長、おれ金無いんですわ。
+  standard: だめです、部長、おれ金無いんですよ。
+  english: Nope--I don't have any money!
+  kansai_grammar: あかん、部長、おれ金無いんです(304わ)。
+function_types:
+- function_131
+- function_119
+- function_132
+- function_137
+- function_128
+- function_123
+- function_118
+- function_111
+- function_117
+- function_57
+- function_58
+- function_41
+- function_36
+- function_39
+- function_33
+- function_27
+- function_24
+- function_19
+- function_30
+- function_29
+grammar_types:
+- grammar_77
+- grammar_97
+- grammar_67
+- grammar_85
+- grammar_87
+- grammar_75
+- grammar_86
+- grammar_79
+- grammar_80
+- grammar_69
+- grammar_88
+- grammar_106
+- grammar_63
+- grammar_46
+- grammar_72
+- grammar_104
+- grammar_73
+- grammar_47
+- grammar_61
+- grammar_62
+- grammar_102
+- grammar_139

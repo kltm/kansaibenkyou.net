@@ -1,0 +1,157 @@
+id: conversation_269
+drupal_node_id: 269
+title: カラオケで
+title_en: At Karaoke
+summary: Mori, and his coworkers Kimura and Sakagami, go to karaoke on the way home from work...
+characters:
+- character_214
+- character_227
+- character_228
+audio:
+  path: ex_conv_karaoke.mp3
+stanzas:
+- speaker: 坂上
+  kansai: お前、次、何か歌て。
+  standard: お前、次、何か歌って。
+  english: You sing something next.
+  kansai_grammar: お前、次、何か(301歌て)。
+- speaker: 木村
+  kansai: おれ、もうよう歌わんわ。さっきから歌い過ぎてのど痛いねん。
+  standard: おれ、もう歌えないよ。さっきから歌い過ぎてのど痛いんだ。
+  english: I can't sing anymore. My throat hurts I've been singing so much.
+  kansai_grammar: おれ、もう(334よう歌わん)(304わ)。さっきから歌い過ぎてのど痛い(309ねん)。
+- speaker: 坂上
+  kansai: 何言うてんねん。今日、お前いっぺんしか歌てへんやないか。
+  standard: 何言ってんだよ。今日、お前一回しか歌っていないじゃないか。
+  english: What are you talking about? You only sang once today.
+  kansai_grammar: 何言う(309てんねん)。今日、お前いっぺんしか(296歌てへん)やないか。
+  kansai_word: 何言うてんねん。今日、お前(145いっぺん)しか歌てへんやないか。
+- speaker: 木村
+  kansai: ちゃうねん、お前ら歌てる時に一緒に歌ててん。あかん、、、のど痛い、、、死ぬ、、、
+  standard: ちがうんだよ、お前たちが歌っている時に一緒に歌ってたんだよ。だめだ、、、のどが痛い、、、死ぬ、、、
+  english: No, when you were singing, I was singing with you too. I can't do it...it hurts...I gunna die...
+  kansai_grammar: ちゃう(309ねん)、お前ら(331歌てる)時に一緒に(296歌て)(309てん)。あかん、、、のど痛い、、、死ぬ、、、
+  kansai_word: (178ちゃう)ねん、お前ら歌てる時に一緒に歌ててん。(39あかん)、、、のど痛い、、、死ぬ、、、
+- speaker: 坂上
+  kansai: あかんたれやなあ。ほな、森、お前歌い。
+  standard: 弱虫だなあ。じゃ、森、お前歌って。
+  english: You're such a wuss. Mori, you sing then.
+  kansai_grammar: あかんたれ(330や)なあ。ほな、森、お前(139歌い)。
+  kansai_word: (94あかんたれ)やなあ。ほな、森、お前歌い。
+- speaker: 森
+  kansai: ええ？今歌たとこやないですか。かんにんしてくださいよ。
+  standard: ええ？今歌ったところじゃないですか。ゆるしてくださいよ。
+  english: Say what? Didn't I just sing? Please let me off.
+  kansai_grammar: ええ？今(301歌た)とこ(330や)ないですか。かんにんしてくださいよ。
+  kansai_word: ええ？今歌たとこやないですか。(199かんにん)してくださいよ。
+- speaker: 木村
+  kansai: よっしゃ、ほんならわしが歌たろか。
+  standard: よし、じゃあおれが歌ってあげようか。
+  english: Alright then, I'm gonna sing.
+  kansai_grammar: よっしゃ、ほんならわしが(319歌たろ)か。
+  kansai_word: (287よっしゃ)、(171ほんなら)(193わし)が歌たろか。
+- speaker: 坂上
+  kansai: お前はもう歌いな。まあ、座っとき。
+  standard: お前はもう歌うな。まあ、座って。
+  english: No more for you. You can sit.
+  kansai_grammar: お前はもう(322歌いな)。まあ、(333座っとき)。
+- speaker: 木村
+  kansai: なんでやねん。
+  standard: なんでだよ。
+  english: Why?
+  kansai_grammar: なんでや(309ねん)。
+  kansai_word: (293なんで)やねん。
+- speaker: 坂上
+  kansai: お前の歌はもうあきたわ。お前、「やしきたかじん」しか歌わんからなあ。なんか最近のんが聞きたいねん。
+  standard: お前の歌はもうあきたよ。お前、「やしきたかじん」しか歌わないからね。何か最近のが聞きたいんだ。
+  english: We're sick of your singing 'cause you only sing Takajin Yashiki songs. I want to listen something
+    more recent.
+  kansai_grammar: お前の歌はもうあきた(304わ)。お前、「やしきたかじん」しか(296歌わん)からなあ。なんか最近(309のん)が聞きたい(309ねん)。
+- speaker: 森
+  kansai: あれ、この歌、だれんやろ。
+  standard: あれ、この歌、だれのだろう。
+  english: Well, who's song is this?
+  kansai_grammar: あれ、この歌、だれ( 309ん)(330やろ)。
+- speaker: 坂上
+  kansai: また「たかじん」やんけ、これ絶対木村のんや。な、そやろ。
+  standard: また「たかじん」じゃないか、これ絶対木村のだ。ね、そうだろ？
+  english: Isn't this Takajin again? It's gotta be Kimura's then, right?
+  kansai_grammar: また「たかじん」(311やんけ)、これ絶対木村(309のん)(330や)。な、そ(330やろ)。
+  kansai_word: また「たかじん」やんけ、これ絶対木村のんや。な、(161そや)ろ。
+- speaker: 木村
+  kansai: 文句あるんやったらお前、何か歌いや。
+  standard: 文句あるんだったらお前、何か歌えよ。
+  english: If you're gunna complain you have to sing something.
+  kansai_grammar: 文句あるん(330やったら)お前、何か(139歌い)(306や)。
+- speaker: 坂上
+  kansai: しゃあないな。ほな、わし選んだるから、森、お前、歌い。
+  standard: 仕方ないね。じゃあ、おれが選んであげるから、森、お前、歌え。
+  english: I guess we have no choice then. I'll tell you what, I'll choose a song, and you sing it, Mori.
+  kansai_grammar: しゃあないな。ほな、わし(319選んだる)から、森、お前、(139歌い)。
+  kansai_word: (159しゃあない)な。(169ほな)、(193わし)選んだるから、森、お前、歌い。
+- speaker: 森
+  kansai: え〜。かなわんなあ。ほな、これで最後にしてくださいよ。
+  standard: え〜。かなわないなあ。じゃあ、これで最後にしてくださいよ。
+  english: Fine, I can't escape. This is the last one, right?
+  kansai_word: え〜。(122かなわん)なあ。(169ほな)、これで最後にしてくださいよ。
+- speaker: 坂上
+  kansai: よっしゃ。ごっつええやつ選んだるわ。
+  standard: よし。すごくいいの選んであげるよ。
+  english: Sure. I'll pick something great.
+  kansai_grammar: よっしゃ。ごっつええやつ(319選んだる)(304わ)。
+  kansai_word: (287よっしゃ)。(52ごっつ)(45ええ)やつ選んだるわ。
+- speaker: ''
+  kansai: (The music starts.)
+  standard: (The music starts.)
+  english: (The music starts.)
+- speaker: 森
+  kansai: うわっ！これ「モーニング娘」やないですか。しゃあないなあ。
+  standard: うわっ！これ「モーニング娘」じゃないですか。仕方ないなあ。
+  english: Hey! Isn't this Morning Musume? Oh well...
+  kansai_grammar: うわっ！これ(298「モーニング娘」やない)ですか。しゃあないなあ。
+  kansai_word: うわっ！これ「モーニング娘」やないですか。(159しゃあない)なあ。
+- speaker: ''
+  kansai: (Mori sings.)
+  standard: (Mori sings.)
+  english: (Mori sings.)
+- speaker: 木村
+  kansai: ははは、こらええわ。今度の社員旅行のえんかいの出しもんはこれで決まりやな。
+  standard: ははは、これはいいよ。今度の社員旅行のえんかいの出しものはこれで決まりだね。
+  english: Ha ha ha! This is great! We're gunna have this for the party on our next company trip.
+  kansai_grammar: ははは、こらええ(304わ)。今度の社員旅行のえんかいの出しもんはこれで決まり(330や)(305な)。
+  kansai_word: ははは、(204こら)(45ええ)わ。今度の社員旅行のえんかいの出し(197もん)はこれで決まりやな。
+function_types:
+- function_131
+- function_119
+- function_132
+- function_123
+- function_111
+- function_57
+- function_41
+- function_39
+- function_33
+- function_35
+- function_25
+- function_23
+- function_24
+- function_30
+- function_29
+grammar_types:
+- grammar_77
+- grammar_67
+- grammar_85
+- grammar_87
+- grammar_75
+- grammar_80
+- grammar_84
+- grammar_69
+- grammar_88
+- grammar_106
+- grammar_46
+- grammar_99
+- grammar_47
+- grammar_71
+- grammar_93
+- grammar_62
+- grammar_70
+- grammar_68

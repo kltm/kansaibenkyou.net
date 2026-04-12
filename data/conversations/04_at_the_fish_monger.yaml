@@ -1,0 +1,131 @@
+id: conversation_267
+drupal_node_id: 267
+title: 魚屋で
+title_en: At a Seafood Stall
+summary: Hanako is doing a little shopping at a seafood stall.
+characters:
+- character_229
+- character_230
+audio:
+  path: ex_at_fish.mp3
+stanzas:
+- speaker: 店員
+  kansai: いらっしゃい。今日は何しましょ。
+  standard: いらっしゃい。今日は何にしましょう。
+  english: Welcome! What would you like today?
+- speaker: 花子
+  kansai: せやなあ。今日、寒いさかいなべしよ思てるんやけど、何かええんない？
+  standard: そうだねえ。今日、寒いからなべしようと思ってるんだけど、何かいいのない？
+  english: Well, it's cold today, so I'm thinking about hot pot. Would you have anything good for that?
+  kansai_grammar: せやなあ。今日、寒い(315さかい)なべ(336しよ)(302思てる)ん(330や)けど、何かええ(309ん)ない？
+  kansai_word: (162せや)なあ。今日、寒い(285さかい)なべしよ思てるんやけど、何か(45ええ)んない？
+- speaker: 店員
+  kansai: なべするんやったら、てっちりどないでっか？今日ええフグあるで。
+  standard: なべするんだったら、てっちりどうですか？今日いいフグあるよ。
+  english: If you're doing hot pot, how about "tecchiri"? We have good blow fish today.
+  kansai_grammar: なべするん(330やったら)、てっちりどないでっか？今日ええフグある(307で)。
+  kansai_word: なべするんやったら、(21てっちり)(258どない)でっか？今日(45ええ)フグあるで。
+- speaker: 花子
+  kansai: フグなあ。そら、おいしいやろけど高いんやろ。なんぼぐらいすんのん？
+  standard: フグねえ。それは、おいしいだろうけど高いんでしょ。いくらぐらいするの？
+  english: Blow fish, huh? I know it's gunna taste good, but it must be expensive, right? How much?
+  kansai_grammar: フグなあ。そら、おいしい(330やろ)けど高いん(330やろ)。なんぼぐらいすん(309のん)？
+  kansai_word: フグなあ。(205そら)、おいしいやろけど高いんやろ。(79なんぼ)ぐらいすんのん？
+- speaker: 店員
+  kansai: これで四千八百円。
+  standard: これで四千八百円。
+  english: This one is 4800 yen.
+- speaker: 花子
+  kansai: あかん、あかん、うっとこびんぼうやさかいそんな高いもんよう買わんわ。何か他のもんないん？
+  standard: だめ、だめ、私の家びんぼうだからそんな高いもの買えないよ。何か他のものない？
+  english: No, no, no--we're too poor to buy something that expensive. Don't you have anything else?
+  kansai_grammar: あかん、あかん、(302うっとこ)びんぼう(330や)(315さかい)そんな高いもん(334よう買わん)(304わ)。何か他のもんない(309ん)？
+  kansai_word: (39あかん)、(39あかん)、(203うっとこ)びんぼうや(285さかい)そんな高い(197もん)よう買わんわ。何か他の(197もん)ないん？
+- speaker: 店員
+  kansai: そやなあ。ほな、このサケどないでっか？安いで。これ、九百八十円。
+  standard: そうだねえ。じゃあ、このサケどうですか？安いよ。これ、九百八十円。
+  english: Well, how about the salmon then? It's not too expensive--this one is 980 yen.
+  kansai_grammar: そやなあ。ほな、このサケどないでっか？安い(307で)。これ、九百八十円。
+  kansai_word: (161そや)なあ。(169ほな)、このサケ(258どない)でっか？安いで。これ、九百八十円。
+- speaker: 花子
+  kansai: ああ、それええなあ。ほんなら、それもらうわ。それから、ホタテある？
+  standard: ああ、それいいねえ。じゃあ、それもらうよ。それから、ホタテある？
+  english: Oh, that'll do it--I'll take it. Do you have any scallops?
+  kansai_grammar: ああ、それええなあ。ほんなら、それもらう(304わ)。それから、ホタテある？
+  kansai_word: ああ、それ(45ええ)なあ。(171ほんなら)、それもらうわ。それから、ホタテある？
+- speaker: 店員
+  kansai: ええのありまっせ。一つ二百円やけどなんぼしましょ？
+  standard: いいのありますよ。一つ二百円だけどいくつしましょう？
+  english: We have good ones. They're 200 yen each. How many would you like?
+  kansai_grammar: ええのありまっせ。一つ二百円(330や)けどなんぼしましょ？
+  kansai_word: (45ええ)のありまっせ。一つ二百円やけど(79なんぼ)しましょ？
+- speaker: 花子
+  kansai: せやなあ、ほんなら五つちょうだい。
+  standard: そうだねえ、じゃあ五つちょうだい。
+  english: Well, could you give me five?
+  kansai_word: (162せや)なあ、(171ほんなら)五つちょうだい。
+- speaker: 店員
+  kansai: はいよ。ほんなら、サケとホタテで千九百八十円やけど、おくさん、いっつも来てくれるよって、ちょっと勉強しとくわ。せやな、千九百円でええわ。
+  standard: はい。じゃあ、サケとホタテで千九百八十円だけど、おくさん、いつも来てくれるから、ちょっと負けておくよ。そうだな、千九百円でいいよ。
+  english: Sure. Okay, it comes to 1980 yen for the salmon and scallops, but you're in here all the time
+    so I'll take a little off. Let's make it 1900 yen.
+  kansai_grammar: はいよ。ほんなら、サケとホタテで千九百八十円(330や)けど、おくさん、いっつも来てくれる(315よって)、ちょっと(333勉強しとく)(304わ)。せやな、千九百円でええ(304わ)。
+  kansai_word: はいよ。(171ほんなら)、サケとホタテで千九百八十円やけど、おくさん、(42いっつも)来てくれる(286よって)、ちょっと(213勉強しとく)わ。(162せやな)、千九百円で(45ええ)わ。
+- speaker: 花子
+  kansai: わ、うれしいわあ。ありがとう。
+  standard: わ、うれしいなあ。ありがとう。
+  english: Great! Thanks.
+  kansai_grammar: わ、うれしい(304わあ)。ありがとう。
+- speaker: ''
+  kansai: (Hanako pays ¥2000.)
+  standard: (Hanako pays ¥2000.)
+  english: (Hanako pays ¥2000.)
+- speaker: 店員
+  kansai: ほんなら、これ、百円のおつりと、サケとホタテ。
+  standard: じゃあ、これ、百円のおつりと、サケとホタテ。
+  english: Here, your change is 100 yen. And here are your salmon and scallops.
+  kansai_word: (171ほんなら)、これ、百円のおつりと、サケとホタテ。
+- speaker: 花子
+  kansai: おおきに。また来るわな。
+  standard: ありがとう。また来るわね。
+  english: Thank you as always.
+  kansai_grammar: おおきに。また来る(304わ)(305な)。
+  kansai_word: (78おおきに)。また来るわな。
+- speaker: 店員
+  kansai: 毎度おおきに。
+  standard: いつもありがとう。
+  english: Always a pleasure.
+  kansai_word: (229毎度)(78おおきに)。
+function_types:
+- function_131
+- function_119
+- function_132
+- function_137
+- function_120
+- function_127
+- function_123
+- function_118
+- function_141
+- function_57
+- function_39
+- function_33
+- function_35
+- function_25
+- function_23
+grammar_types:
+- grammar_76
+- grammar_67
+- grammar_85
+- grammar_87
+- grammar_75
+- grammar_86
+- grammar_80
+- grammar_69
+- grammar_46
+- grammar_73
+- grammar_47
+- grammar_140
+- grammar_93
+- grammar_70
+- grammar_68
+- grammar_82

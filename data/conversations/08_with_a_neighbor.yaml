@@ -1,0 +1,120 @@
+id: conversation_271
+drupal_node_id: 271
+title: 同じアパートの住人と
+title_en: With a Neighbor
+summary: A neighbor complains to Atsushi.
+characters:
+- character_214
+- character_225
+audio:
+  path: ex_conv_neighboor.mp3
+stanzas:
+- speaker: おばさん
+  kansai: ちょっと、あんた202号室に住んでる人か？
+  standard: ちょっと、あなた202号室に住んでいる人？
+  english: Excuse, do you live in room 202?
+  kansai_grammar: ちょっと、あんた202号室に(331住んでる)人(308か)？
+  kansai_word: ちょっと、(214あんた)202号室に住んでる人か？
+- speaker: あつし
+  kansai: そうですけど。
+  standard: そうですけど。
+  english: Yes, I do.
+- speaker: おばさん
+  kansai: あんな、わたし、あんたの部屋の下に住んでんねんけど、夜、せんたくするんやめてくれへんか？うるそうて寝られへんねん。
+  standard: あのね、わたし、あなたの部屋の下に住んいるんだけど、夜、せんたくするのやめてくれない？うるさくて寝られないのよ。
+  english: You know, I live right under your apartment. Could you stop using the washing machine at night?
+    The noise keeps me up.
+  kansai_grammar: あんな、わたし、あんたの部屋の下に住ん(309でんねん)けど、夜、せんたくする(309ん)(318やめてくれへん)か？(337うるそうて)(296寝られへん)(309ねん)。
+  kansai_word: (288あんな)、わたし、(214あんた)の部屋の下に住んでんねんけど、夜、せんたくするんやめてくれへんか？うるそうて寝られへんねん。
+- speaker: あつし
+  kansai: すんません。いっつも帰るん遅いんで。
+  standard: すみません。いつも帰るの遅いので。
+  english: I'm sorry. I always get home late.
+  kansai_grammar: すんません。いっつも帰るん遅い(309ん)で。
+  kansai_word: (341すんません)。(42いっつ)も帰るん遅いんで。
+- speaker: おばさん
+  kansai: そら分かんねんけどな、わたしら、年よりやよって、10時ごろには寝たいねん。
+  standard: それは分かるんだけどね、わたしたち、年よりだから、10時ごろには寝たいのよ。
+  english: I understand that, we're old and we want to go to sleep around 10.
+  kansai_grammar: そら分かん(309ねん)けどな、わたしら、年よりや(315よって)、10時ごろには寝たい(309ねん)。
+  kansai_word: (205そら)分かんねんけどな、わたしら、年よりや(286よって)、10時ごろには寝たいねん。
+- speaker: あつし
+  kansai: ほんますんません。できるだけ朝するようにします。
+  standard: 本当にすみません。できるだけ朝するようにします。
+  english: I'm really sorry. I'll try to do my laundry in the morning whenever I can.
+  kansai_word: (41ほんま)(341すんません)。できるだけ朝するようにします。
+- speaker: おばさん
+  kansai: ちゃうねん。10時までやったら、夜にしてくれてもええねんで。
+  standard: 違うのよ。10時までだったら、夜にしてくれてもいいのよ。
+  english: I didn't mean that. If you could do it before 10, doing it at night would be fine.
+  kansai_grammar: ちゃう(309ねん)。10時まで(330やったら)、夜にしてくれてもええ(309ねん)(307で)。
+  kansai_word: (178ちゃう)ねん。10時までやったら、夜にしてくれても(45ええ)ねんで。
+- speaker: あつし
+  kansai: せやけど、10時までに帰らんことも多いんで。
+  standard: だけど、10時までに帰らないことも多いので。
+  english: Well, yeah, but I often get home after 10.
+  kansai_grammar: せやけど、10時までに(296帰らん)ことも多い(309ん)で。
+  kansai_word: (164せやけど)、10時までに帰らんことも多いんで。
+- speaker: おばさん
+  kansai: ええっ、そうなんかい。毎日、そない遅うまで働かなあかんのかい。
+  standard: ええっ、そうなの。毎日、そんなに遅くまで働かなくちゃいけないの？
+  english: Really? Do you really have to work that late everyday?
+  kansai_grammar: ええっ、そうなん(310かい)。毎日、そない遅うまで(323働かなあかん)の(310かい)。
+  kansai_word: ええっ、そうなんかい。毎日、(173そない)遅うまで働かな(39あかん)のかい。
+- speaker: あつし
+  kansai: 毎日やないんですけど、まあ、ほとんど、、、
+  standard: 毎日じゃないんですけど、まあ、ほとんど、、、
+  english: Not everyday, but mostly...
+  kansai_grammar: (298毎日やない)んですけど、まあ、ほとんど、、、
+- speaker: おばさん
+  kansai: へえ。お兄ちゃんも大変なんやなあ。そんなんやったら、わたしらもちょっとがまんするわ。１１時くらいまでやったらかまへんさかい。
+  standard: へえ。お兄さんも大変なんだねえ。それだったら、わたしたちもちょっとがまんするよ。１１時くらいまでだったらいいから。
+  english: It looks like you have it pretty rough too. If that's the case, we'll see what we can do. If
+    you can finish by 11.
+  kansai_grammar: へえ。お兄ちゃんも大変なん(330や)なあ。そんなん(330やったら)、わたしらもちょっとがまんする(304わ)。１１時くらいまで(330やったら)かまへん(315さかい)。
+  kansai_word: へえ。お兄ちゃんも大変なんやなあ。そんなんやったら、わたしらもちょっとがまんするわ。１１時くらいまでやったら(124かまへん)さかい。
+- speaker: あつし
+  kansai: すんません、ありがうございます。できるだけ早よするようにします。
+  standard: すみません、ありがうございます。できるだけ早くするようにします。
+  english: I'm sorry about the noise, thank you. I'll try to do it as early as I can.
+  kansai_word: (341すんません)、ありがうございます。できるだけ早よするようにします。
+- speaker: おばさん
+  kansai: お兄ちゃん、一人暮らしなんやろ？困ったことあったら、がまんせんと何でも言うてや。うっとこ、お兄ちゃんの部屋のすぐ下やよって。だいたいいっつも家におるさかい。
+  standard: お兄さん、一人暮らしなんでしょう？困ったことあったら、がまんしないで何でも言ってね。私の家、お兄さんの部屋のすぐ下だから。だいたいいつも家にいるから。
+  english: You're living by yourself right? If you have a problem, you'll let us know, right? You're right
+    under us and we're always around.
+  kansai_grammar: お兄ちゃん、一人暮らしなん(330やろ)？困ったこと(328あったら)、(329がまんせんと)何でも(301言うて)(306や)。(302うっとこ)、お兄ちゃんの部屋のすぐ下(330や)(315よって)。だいたいいっつも家におる(315さかい)。
+  kansai_word: お兄ちゃん、一人暮らしなんやろ？困ったことあったら、がまんせんと何でも言うてや。(203うっとこ)、お兄ちゃんの部屋のすぐ下や(286よって)。だいたい(42いっつも)家に(149おる)(285さかい)。
+- speaker: あつし
+  kansai: ありがとうございます。
+  standard: ありがとうございます。
+  english: Thank you.
+function_types:
+- function_131
+- function_119
+- function_132
+- function_137
+- function_128
+- function_120
+- function_123
+- function_113
+- function_111
+- function_57
+- function_38
+- function_23
+- function_30
+- function_29
+- function_20
+- function_28
+grammar_types:
+- grammar_65
+- grammar_67
+- grammar_66
+- grammar_95
+- grammar_46
+- grammar_99
+- grammar_101
+- grammar_96
+- grammar_73
+- grammar_47
+- grammar_68

@@ -1,0 +1,137 @@
+id: conversation_270
+drupal_node_id: 270
+title: 電車で
+title_en: On a Train
+summary: Atsushi is on a train and gives up his seat to an old man...
+characters:
+- character_214
+- character_226
+audio:
+  path: ex_conv_train.mp3
+stanzas:
+- speaker: あつし
+  kansai: あの〜、ここ、よかったらどうぞ。
+  standard: あの〜、ここ、よければどうぞ。
+  english: Excuse me. If you'd like to sit here...?
+  kansai_grammar: あの〜、ここ、(328よかったら)どうぞ。
+- speaker: おじいさん
+  kansai: いや〜、わしすぐ降りるよって、かまへんで。
+  standard: いや〜、私すぐ降りるから、かまわないよ。
+  english: Don't worry about it. I'm getting off soon.
+  kansai_grammar: いや〜、わしすぐ降りる(315よって)、かまへん(307で)。
+  kansai_word: いや〜、(193わし)すぐ降りる(286よって)、(124かまへん)で。
+- speaker: あつし
+  kansai: いや、僕もすぐ降りるんで、座ってください。
+  standard: いや、僕もすぐ降りるので、座ってください。
+  english: I'm also getting off soon--please go ahead and sit.
+- speaker: おじいさん
+  kansai: そうかい。すんまへんなあ。ほな、座らせてもらおかな。
+  standard: そうですか。すみませんねえ。それじゃあ、座らせてもらおうかな。
+  english: Really? Thank you then, I'll have a seat.
+  kansai_grammar: そう(310かい)。すんまへん(305なあ)。ほな、(336座らせてもらお)かな。
+  kansai_word: そうかい。(167すんまへん)なあ。(169ほな)、座らせてもらおかな。
+- speaker: ''
+  kansai: (Atsushi gives up his seat to the old man.)
+  standard: (Atsushi gives up his seat to the old man.)
+  english: (Atsushi gives up his seat to the old man.)
+- speaker: おじいさん
+  kansai: 兄ちゃん、おおきに。若いのにえらい気ぃきくなあ。わし、次の高槻で降りるよって、その後また座ったらええわ。
+  standard: お兄さん、ありがとう。若いのにとても気がきくねえ。私、次の高槻で降りるから、その後また座ればいいよ。
+  english: Thank you. Young but thoughtful. I'm gonna get off next at Takatsuki, so you can have the seat
+    again after that.
+  kansai_grammar: 兄ちゃん、おおきに。若いのにえらい気ぃきく(305なあ)。わし、次の高槻で降りる(315よって)、その後また(328座ったら)ええ(304わ)。
+  kansai_word: 兄ちゃん、(78おおきに)。若いのに(37えらい)(282気ぃきく)なあ。わし、次の高槻で降りる(286よって)、その後また座ったら(45ええ)わ。
+- speaker: あつし
+  kansai: 僕も高槻で降りるんですわ。
+  standard: 僕も高槻で降りるんですよ。
+  english: Actually, I'm gonna get of at Takastuki too.
+  kansai_grammar: 僕も高槻で降りるんです(304わ)。
+- speaker: おじいさん
+  kansai: あれ、さよか。兄ちゃんも高槻に住んでるんか？
+  standard: あら、そう。お兄さんも高槻に住んでいるの？
+  english: Really? Do you also live in Takastuki?
+  kansai_grammar: あれ、さよか。兄ちゃんも高槻に(331住んでる)(309ん)(308か)？
+  kansai_word: あれ、(278さよか)。兄ちゃんも高槻に住んでるんか？
+- speaker: あつし
+  kansai: いや、今日は仕事で行くんですわ。
+  standard: いや、今日は仕事で行くんですよ。
+  english: No, I'm going in to work today.
+  kansai_grammar: いや、今日は仕事で行くんです(304わ)。
+- speaker: おじいさん
+  kansai: そうかい。暑いのに、ご苦労さんやなあ。ほやけど、昔は高槻もいなかやってんけど、今は駅のまわりにマンションやらホテルやら大っきい建物いっぱい建ってにぎやかになったわ。まあ、兄ちゃんら昔の高槻いうても知らんやろなあ。
+  standard: そう。暑いのに、ご苦労さまだねえ。それにしても、昔は高槻もいなかだったけど、今は駅のまわりにマンションやらホテルやら大きい建物がいっぱい建ってにぎやかになったよ。まあ、お兄さんは昔の高槻といっても知らないだろうねえ。
+  english: Oh. Tough in this kind of heat. You know, Takastuki used to be rural, but now it's a busy town
+    with all sorts of big apartments, hotels, and things around the station. Well, you probably don't
+    know much about the old Takastuki...
+  kansai_grammar: そう(310かい)。暑いのに、(313ご苦労さん)(330や)なあ。ほやけど、昔は高槻もいなかやっ(309てん)けど、今は駅のまわりにマンションやらホテルやら大っきい建物いっぱい建ってにぎやかになった(304わ)。まあ、兄ちゃんら昔の高槻(301いうて)も(296知らん)(330やろ)なあ。
+  kansai_word: そうかい。暑いのに、(280ご苦労さん)やなあ。(166ほやけど)、昔は高槻もいなかやってんけど、今は駅のまわりにマンションやらホテルやら大っきい建物いっぱい建ってにぎやかになったわ。まあ、兄ちゃんら昔の高槻いうても知らんやろなあ。
+- speaker: あつし
+  kansai: そうですねえ。昔は駅のまわりも静かやったんですか？
+  standard: そうですねえ。昔は駅のまわりも静かだったんですか？
+  english: Yeah, no really. Did it also used to be quiet around the station?
+  kansai_grammar: そうですねえ。昔は駅のまわりも静か(330やった)んですか？
+- speaker: おじいさん
+  kansai: まぁ、ちっさい店はなんぼかあったけど、今みたいなおっきい建物はいっこもなかったなあ。高槻は梅田にも京都にも近いよって便利やろ？ほいで、街で働く若い人らがようさん住みだしたんや。
+  standard: まぁ、小さい店はいくつかあったけど、今みたいな大きい建物は全然なかったねえ。高槻は梅田にも京都にも近いから便利だろう？それで、街で働く若い人たちがたくさん住みだしたんだ。
+  english: Well, there were some small stores, but nothing like the tall buildings there are now. Since
+    Takatsuki is close to Umeda and Kyoto, it's pretty convenient, right? Because of that, more and more
+    young people started to live there.
+  kansai_grammar: まぁ、ちっさい店はなんぼかあったけど、今みたいなおっきい建物は(299いっこも)なかったなあ。高槻は梅田にも京都にも近い(315よって)便利(330やろ)？(316ほいで)、街で働く若い人らがようさん住みだし(309たん)(330や)。
+  kansai_word: まぁ、ちっさい店は(79なんぼ)かあったけど、今みたいなおっきい建物はいっこもなかったなあ。高槻は梅田にも京都にも近い(286よって)便利やろ？ほいで、街で働く若い人らが(147ようさん)住みだしたんや。
+- speaker: あつし
+  kansai: ああ、そういうたら、僕の友達も高槻に引っ越す言うてましたわ。今は梅田に住んでるんやけど、家賃は高いし、うるさいし、いっこもええことない言うて。今、高槻、人気あるみたいですね。
+  standard: ああ、そういえば、僕の友達も高槻に引っ越すと言ってましたよ。今は梅田に住んでいるんだけど、家賃は高いし、うるさいし、全然いいことないと言って。今、高槻、人気あるみたいですね。
+  english: You know, speaking of which, my friend told me that he is going to move to Takastuki. He's
+    living in Umeda now, he said that the rent is high and he can't get any peace; nothing good to say
+    about the place. Takastuki seems like it's getting popular these days.
+  kansai_grammar: ああ、(328そういうたら)、僕の友達も高槻に引っ越す(301言うて)ました(304わ)。今は梅田に(311住んでる)ん(330や)けど、家賃は高いし、うるさいし、(299いっこも)ええことない(302言う)て。今、高槻、人気あるみたいですね。
+  kansai_word: ああ、そういうたら、僕の友達も高槻に引っ越す言うてましたわ。今は梅田に住んでるんやけど、家賃は高いし、うるさいし、いっこも(45ええ)ことない言うて。今、高槻、人気あるみたいですね。
+- speaker: おじいさん
+  kansai: そやねん。若い人らが増えてきて、わしら喜んどるんや。おっ、駅へ着いたみたいやな。兄ちゃん、仕事がんばりや。
+  standard: そうなんだ。若い人たちが増えてきて、私たち喜んでいるんだ。おっ、駅に着いたみたいだね。お兄さん、仕事がんばってね。
+  english: Yeah, it is. We're happy that more young people are moving into town. Well, it looks like we're
+    getting into Takastuki. Good luck at work.
+  kansai_grammar: そや(309ねん)。若い人らが増えてきて、わしら(311喜んどる)ん(330や)。おっ、駅(303へ)着いたみたい(330や)(305な)。兄ちゃん、仕事(139がんばり)(306や)。
+  kansai_word: (161そや)ねん。若い人らが増えてきて、(193わし)ら喜んどるんや。おっ、駅へ着いたみたいやな。兄ちゃん、仕事がんばりや。
+- speaker: あつし
+  kansai: ありがとうございます。ほな、気ぃつけて。
+  standard: ありがとうございます。それじゃ、気をつけて。
+  english: Thank you. Take care.
+  kansai_word: ありがとうございます。(169ほな)、(153気ぃつけて)。
+function_types:
+- function_131
+- function_119
+- function_121
+- function_122
+- function_132
+- function_137
+- function_120
+- function_118
+- function_111
+- function_112
+- function_57
+- function_58
+- function_38
+- function_39
+- function_23
+- function_29
+grammar_types:
+- grammar_78
+- grammar_65
+- grammar_67
+- grammar_87
+- grammar_75
+- grammar_86
+- grammar_79
+- grammar_80
+- grammar_84
+- grammar_69
+- grammar_106
+- grammar_63
+- grammar_46
+- grammar_73
+- grammar_47
+- grammar_61
+- grammar_81
+- grammar_82
+- grammar_92

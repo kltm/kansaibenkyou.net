@@ -1,0 +1,122 @@
+id: conversation_274
+drupal_node_id: 274
+title: 居酒屋で
+title_en: At an Izakaya
+summary: Junko and Noriko are drinking and chatting at an izakaya after work.
+characters:
+- character_218
+- character_219
+audio:
+  path: ex_com_izakaya.mp3
+stanzas:
+- speaker: のり子
+  kansai: あ〜、もう毎日残業ばっかりでやってられへんわ。
+  standard: あ〜、もう毎日残業ばかりでやってられないよ。
+  english: Ugh...I can't do overtime every day.
+  kansai_grammar: あ〜、もう毎日残業ばっかりで(296やってられへん)(304わ)。
+- speaker: じゅん子
+  kansai: ほんまやで。給料安いのに、なんでこない毎日遅うまで働かなあかんのやろ。仕事ばっかりで、どっこも行かれへん。いっこもおもんないわ。
+  standard: 本当に。給料安いのに、なぜこんなに毎日遅くまで働かなきゃいけないんだろう。仕事ばかりで、どこにも行けない。全然おもしろくないよ。
+  english: I know. I don't understand why we have to work so long for so little. I can never go anywhere
+    because I have work. It gets so boring.
+  kansai_grammar: ほんま(330や)(307で)。給料安いのに、なんでこない毎日遅うまで(323働かなあかん)の(330やろ)。仕事ばっかりで、(299どっこも)(296行かれへん)。(299いっこも)(297おもんない)(304わ)。
+  kansai_word: (41ほんま)やで。給料安いのに、なんで(157こない)毎日遅うまで働かな(39あかん)のやろ。仕事ばっかりで、どっこも行かれへん。いっこも(46おもんない)わ。
+- speaker: のり子
+  kansai: でも、あんた、かれしおるからええやん。
+  standard: でも、じゅん子、かれしいるからいいじゃない。
+  english: Well, at least you have a boyfriend.
+  kansai_grammar: でも、あんた、かれしおるからええ(311やん)。
+  kansai_word: でも、(214あんた)、かれし(149おる)から(45ええ)やん。
+- speaker: じゅん子
+  kansai: あんな、実はな、さとしと別れよ思てんねん。
+  standard: あのね、実はね、さとしと別れようと思ってるんだ。
+  english: Um, you know, I'm actually thinking about breaking up with Satoshi.
+  kansai_grammar: あんな、実は(305な)、さとしと(258別れよ)(331思てん)(309ねん)。
+  kansai_word: (288あんな)、実はな、さとしと別れよ思てんねん。
+- speaker: のり子
+  kansai: え、うそやん。こないだ会うたとき二人ともめっちゃ仲良かったやん。
+  standard: え、うそ。このあいだ会ったとき二人ともすごく仲良かったじゃない。
+  english: You're kidding! The last time we met, you looked so happy together.
+  kansai_grammar: え、うそ(311やん)。こないだ(258会うた)とき二人ともめっちゃ仲良かった(311やん)。
+  kansai_word: え、うそやん。(289こないだ)会うたとき二人とも(160めっちゃ)仲良かったやん。
+- speaker: じゅん子
+  kansai: あん時はな、まだよかってんけど、うち最近、仕事めっちゃ忙しかったやろ。ほんで、あんまさとしと会われへんかってんな。ほんなら、あいつ、うわきしよってん。うちがいっしょうけんめい働いてるっちゅうのに、あっちはほかの女んとこ行とってんで。ひどない？
+  standard: あの時はね、まだよかったんだけど、私、最近、仕事すごく忙しかったでしょ。それで、あんまりさとしと会えなかったんだ。そしたら、あいつ、うわきしたの。私がいっしょうけんめい働いてるというのに、あっちはほかの女のところに行ってたんだよ。ひどくない？
+  english: We were still okay then, but after I got so busy we couldn't see each other much. That's when
+    he cheated on me. While I was working hard, he off at another girl's place. Isn't that awful?
+  kansai_grammar: あん時は(305な)、まだよかっ(309てん)けど、うち最近、仕事めっちゃ忙しかった(330やろ)。(316ほんで)、あんまさとしと(296会われへん)かっ(309てん)(305な)。ほんなら、あいつ、(338うわきしよってん)。うちがいっしょうけんめい(331働いてる)(302っちゅう)のに、あっちはほかの女んとこ(331行とってん)(307で)。ひどない？
+  kansai_word: あん時はな、まだよかってんけど、うち最近、仕事(160めっちゃ)忙しかったやろ。(169ほんで)、(143あんま)さとしと会われへんかってんな。(171ほんなら)、あいつ、うわきしよってん。(155うち)がいっしょうけんめい働いてるっちゅうのに、あっちはほかの女んとこ行とってんで。ひどない？
+- speaker: のり子
+  kansai: めちゃくちゃやなあ。
+  standard: めちゃくちゃだねえ。
+  english: It's terrible.
+- speaker: じゅん子
+  kansai: 時々、メール来んねんけどな、むかつくからいっこも返事してへんねん。
+  standard: 時々、メール来るんだけどね、むかつくから全然返事していないんだ。
+  english: I sometimes get messages from him, but I'm still pretty angry don't even acknowledge them.
+  kansai_grammar: 時々、メール来ん(309ねん)けど(305な)、むかつくから(299いっこも)(296返事してへん)(309ねん)。
+- speaker: のり子
+  kansai: えー、むこうはまだ気ぃあるんちゃうん？どんなメール来んの？
+  standard: えー、むこうはまだ気があるんじゃないの？どんなメールが来るの？
+  english: Really? He might still have feelings for you. What kind of messages?
+  kansai_grammar: えー、むこうはまだ気ぃあるんちゃう(309ん)？どんなメール来んの？
+  kansai_word: えー、むこうはまだ(283気ぃある)ん(178ちゃう)ん？どんなメール来んの？
+- speaker: じゅん子
+  kansai: 「もうあいつと別れたからもっかい会うてくれへん？」とか「ごめん、かんにんして。まだおこってんか？」とか。もう、ほんまむかつくで。
+  standard: 「もうあいつと別れたからもう一回会ってくれない？」とか「ごめん、ゆるして。まだおこってる？」とか。もう、本当にむかつくよ。
+  english: 'I got ones like: "I''m not seeing that girl anymore, could we meet just one more time?" and
+    "I''m so sorry, please forgive me. Are you still mad?". It really gets me cranked up.'
+  kansai_grammar: 「もうあいつと別れたからもっかい(318会うてくれへん)？」とか「ごめん、かんにんして。まだ(309おこってん)(308か)？」とか。もう、ほんまむかつく(307で)。
+  kansai_word: 「もうあいつと別れたから(196もっかい)会うてくれへん？」とか「ごめん、(199かんにんして)。まだおこってんか？」とか。もう、(41ほんま)むかつくで。
+- speaker: のり子
+  kansai: ほやけど、あんた、ほんまに別れてええん？あんたもまだ気ぃあるんちゃうん？
+  standard: そうだけど、じゅん子、本当に別れてもいいの？じゅん子もまだ気があるんじゃない？
+  english: But are you really sure that you want to break up with him? I think that you're still interested
+    in him.
+  kansai_grammar: ほやけど、あんた、ほんまに別れてええ(309ん)？あんたもまだ気ぃあるんちゃう(309ん)？
+  kansai_word: (166ほやけど)、(214あんた)、(41ほんま)に別れて(45ええ)ん？(214あんた)もまだ(283気ぃある)ん(178ちゃう)ん？
+- speaker: じゅん子
+  kansai: そら、ちょっとはな。ほやけど、いっぺんうわきされたらもう信じられへんわ。
+  standard: それは、ちょっとはね。だけど、一回うわきされたらもう信じられないよ。
+  english: Yeah, a little bit. But he cheated on me and I just can't trust him anymore.
+  kansai_grammar: そら、ちょっとは(305な)。ほやけど、いっぺんうわきされたらもう(296信じられへん)(304わ)。
+  kansai_word: (205そら)、ちょっとはな。(166ほやけど)、(145いっぺん)うわきされたらもう信じられへんわ。
+- speaker: のり子
+  kansai: まあ、そらそやなあ。ほやけど、むこうもそないあやまってんやったら、いっぺん、会うだけ会うてみぃや。
+  standard: まあ、それはそうだね。だけど、むこうもそんなにあやまっているんだったら、一回、会うだけ会ってみたら？
+  english: That's true. But if he's apologizing that much you might want to consider seeing him one more
+    time.
+  kansai_grammar: まあ、そらそやなあ。ほやけど、むこうもそない(331あやまってん)(330やったら)、いっぺん、会うだけ(321会うてみぃ)(306や)。
+  kansai_word: まあ、(205そら)(161そや)なあ。(166ほやけど)、むこうも(173そない)あやまってんやったら、(145いっぺん)、会うだけ会うてみぃや。
+- speaker: じゅん子
+  kansai: う〜ん、考えてみるわ。
+  standard: う〜ん、考えてみるよ。
+  english: Well, I'll think about it.
+  kansai_grammar: う〜ん、考えてみる(304わ)。
+function_types:
+- function_131
+- function_119
+- function_121
+- function_128
+- function_123
+- function_111
+- function_57
+- function_58
+- function_39
+- function_33
+- function_35
+- function_26
+- function_23
+- function_30
+- function_29
+- function_20
+grammar_types:
+- grammar_67
+- grammar_95
+- grammar_99
+- grammar_101
+- grammar_98
+- grammar_103
+- grammar_139
+- grammar_81
+- grammar_68
