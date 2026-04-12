@@ -1,0 +1,14 @@
+id: real_conversation_405
+drupal_node_id: 405
+title: 料理とくいそうやなぁ。
+summary: Shinichi and Sachiko talk about cooking.
+hint: ぐつぐつ  = simmer
+audio:
+  path: real_shin_ryori.mp3
+speakers:
+- character_194
+- character_196
+- character_200
+- character_197
+- character_212
+- character_213

@@ -1,0 +1,16 @@
+id: real_conversation_417
+drupal_node_id: 417
+title: 最近いそがしいの？
+summary: Mori asks Yamada if she's been busy recently.
+hint: '声楽(せいがく) = singing
+
+  裏声(うらごえ) = falsetto'
+audio:
+  path: real_mo_isogasii.mp3
+speakers:
+- character_194
+- character_196
+- character_200
+- character_197
+- character_207
+- character_208

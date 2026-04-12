@@ -1,0 +1,16 @@
+id: real_conversation_402
+drupal_node_id: 402
+title: 昨日何食べたん？
+summary: Shinichi talks about what he ate yesterday.
+hint: 'キムチなべ = Kimchi hot pot
+
+  糸こん = noodles made of a kind of potato'
+audio:
+  path: real_shin_dinner.mp3
+speakers:
+- character_194
+- character_196
+- character_200
+- character_197
+- character_212
+- character_213

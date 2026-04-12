@@ -1,0 +1,22 @@
+id: real_conversation_376
+drupal_node_id: 376
+title: 梅田までどうやって行くん？
+summary: Alisa and Mika are talking about how they get to Umeda from their respective parents' house.
+hint: '梅田(うめだ) = Umeda, a neighborhood in Osaka
+
+  実家(じっか) = parent''s house
+
+  垂水(たるみ) = Tarumi, a neighborhood Kobe
+
+  JR(ジェイアール) = the Japanese national rail
+
+  東岸和田(ひだしきしわだ) = Higashikishiwada, an area south of Osaka'
+audio:
+  path: real_m_s_umeda.mp3
+speakers:
+- character_195
+- character_196
+- character_197
+- character_198
+- character_204
+- character_205

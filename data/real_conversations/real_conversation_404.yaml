@@ -1,0 +1,13 @@
+id: real_conversation_404
+drupal_node_id: 404
+title: かぜひいたらどうやって治す？
+summary: Sachiko asks Shinichi about what he does when he has a cold.
+audio:
+  path: real_shin_kaze.mp3
+speakers:
+- character_194
+- character_196
+- character_200
+- character_197
+- character_212
+- character_213

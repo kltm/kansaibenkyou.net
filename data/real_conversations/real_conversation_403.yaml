@@ -1,0 +1,16 @@
+id: real_conversation_403
+drupal_node_id: 403
+title: その服どこで買うたん？
+summary: Sachiko talks about her shirt.
+hint: 'ユニクロ = UNIQLO, a Japanese clothing store
+
+  キャップ = GAP, an American clothing store'
+audio:
+  path: real_shin_huku.mp3
+speakers:
+- character_194
+- character_196
+- character_200
+- character_197
+- character_212
+- character_213

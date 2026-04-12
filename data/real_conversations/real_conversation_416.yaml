@@ -1,0 +1,14 @@
+id: real_conversation_416
+drupal_node_id: 416
+title: しゅみ何？
+summary: Yamada asks Mori about his hobbies.
+hint: 洋(よう)ラン = orchid
+audio:
+  path: real_mo_hobby.mp3
+speakers:
+- character_194
+- character_196
+- character_200
+- character_197
+- character_207
+- character_208

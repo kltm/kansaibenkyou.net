@@ -1,0 +1,16 @@
+id: real_conversation_412
+drupal_node_id: 412
+title: 犬とねこどっちが好き？
+summary: Nobu asks his wife Fumi which she likes better between dogs and cats.
+hint: 'あなた自体 = yourself
+
+  たたずまい = appearance/have the feeling of'
+audio:
+  path: real_i_inutoneko.mp3
+speakers:
+- character_194
+- character_196
+- character_209
+- character_197
+- character_210
+- character_211

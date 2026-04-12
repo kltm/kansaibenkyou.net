@@ -30,6 +30,15 @@ collections:
   grammar_points:
     output: true
     permalink: /grammar_points/:name/
+  real_conversations:
+    output: true
+    permalink: /real_conversations/:name/
+  phonology_topics:
+    output: true
+    permalink: /phonology/:name/
+  pages:
+    output: true
+    permalink: /:name/
 
 # Files and directories not part of the site output. The mothball
 # mirror is gitignored, but is also excluded here so a local

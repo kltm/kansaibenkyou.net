@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{%- assign rc = site.data.real_conversations[page.data_id] -%}
+{%- if rc == nil -%}
+  <p class="error">No data for <code>{{ page.data_id }}</code>.</p>
+{%- else -%}
+
+<article class="real-conversation">
+
+  <header>
+    <h1>{{ rc.title }}</h1>
+    {%- if rc.summary %}
+      <p class="conversation-summary">{{ rc.summary }}</p>
+    {%- endif %}
+  </header>
+
+  {%- if rc.hint %}
+    <section class="rc-hint">
+      <h2>Listening hints</h2>
+      <div class="gp-preformatted">{{ rc.hint | newline_to_br }}</div>
+    </section>
+  {%- endif %}
+
+  {%- if rc.audio.path %}
+    <p class="conversation-audio">
+      <audio controls preload="metadata"
+             src="{{ '/assets/audio/' | append: rc.audio.path | relative_url }}">
+        <a href="{{ '/assets/audio/' | append: rc.audio.path | relative_url }}">Download audio</a>
+      </audio>
+    </p>
+  {%- endif %}
+
+</article>
+
+{%- endif -%}

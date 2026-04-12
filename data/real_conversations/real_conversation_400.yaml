@@ -1,0 +1,12 @@
+id: real_conversation_400
+drupal_node_id: 400
+title: 運動しはります？
+summary: Keiko asks Yuko if she exercises.
+audio:
+  path: real_y_sports.mp3
+speakers:
+- character_196
+- character_200
+- character_201
+- character_202
+- character_203

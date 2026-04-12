@@ -1,0 +1,18 @@
+id: real_conversation_422
+drupal_node_id: 422
+title: 最近読んだ本
+summary: Date talks about a book that he read recently.
+hint: '度忘れ(どわすれ) = on the tip of your tongue/slip your mind
+
+  ベストセラー = bestseller
+
+  映画化(えいがか) = film adaptation'
+audio:
+  path: real_d_hon.mp3
+speakers:
+- character_194
+- character_196
+- character_193
+- character_201
+- character_206
+- character_203

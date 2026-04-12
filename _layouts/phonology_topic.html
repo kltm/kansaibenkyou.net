@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{%- assign pt = site.data.phonology_topics[page.data_id] -%}
+{%- if pt == nil -%}
+  <p class="error">No data for <code>{{ page.data_id }}</code>.</p>
+{%- else -%}
+
+<article class="phonology-topic">
+
+  <header>
+    <h1>{{ pt.title }}</h1>
+  </header>
+
+  {%- if pt.body %}
+    <section class="pt-body">
+      <div class="gp-preformatted">{{ pt.body | newline_to_br }}</div>
+    </section>
+  {%- endif %}
+
+</article>
+
+{%- endif -%}

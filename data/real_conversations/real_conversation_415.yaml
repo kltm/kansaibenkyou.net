@@ -1,0 +1,14 @@
+id: real_conversation_415
+drupal_node_id: 415
+title: 運動してる？
+summary: Yamada asks Mori if he exercises.
+hint: ビール腹(ばら) = beer belly
+audio:
+  path: real_mo_undou.mp3
+speakers:
+- character_194
+- character_196
+- character_200
+- character_197
+- character_207
+- character_208

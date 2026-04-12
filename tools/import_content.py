@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mothball HTML → YAML importer for word and grammar_point content types.
+"""Mothball HTML → YAML importer for multiple content types.
 
 Scans _mothball/snapshot/node/ for nodes matching the requested content
 type, extracts fields from the Drupal HTML, and writes LinkML-conforming
@@ -8,17 +8,12 @@ YAML to data/<type_plural>/.
 Usage
 -----
 
-    python3 tools/import_content.py words           # 280 word entries
-    python3 tools/import_content.py grammar_points   # 45 grammar points
-    python3 tools/import_content.py all              # both
-
-Validate with:
-
-    linkml-validate --schema schema/kbnet.yaml \\
-        --target-class Word data/words/*.yaml
-
-    linkml-validate --schema schema/kbnet.yaml \\
-        --target-class GrammarPoint data/grammar_points/*.yaml
+    python3 tools/import_content.py words              # 280 word entries
+    python3 tools/import_content.py grammar_points      # 45 grammar points
+    python3 tools/import_content.py real_conversations   # 36 real conversations
+    python3 tools/import_content.py phonology_topics     # 16 phonology topics
+    python3 tools/import_content.py pages                # 12 basic pages
+    python3 tools/import_content.py all                  # everything
 """
 
 from __future__ import annotations
@@ -36,6 +31,9 @@ NODE_DIR = REPO / "_mothball" / "snapshot" / "node"
 CONTENT_TYPE_CLASSES = {
     "words": "article-type-word",
     "grammar_points": "article-grammar-point",
+    "real_conversations": "article-real-conversation",
+    "phonology_topics": "article-phonology-topic",
+    "pages": "article-type-page",
 }
 
 
@@ -163,6 +161,81 @@ def import_grammar_point(node_id: int) -> dict:
     return entry
 
 
+def import_real_conversation(node_id: int) -> dict:
+    html = (NODE_DIR / str(node_id)).read_text(errors="replace")
+    title_ja, title_en = extract_title(html)
+
+    desc = extract_text_field(html, "field-real-conv-desc")
+    hint = extract_text_field(html, "field-real-conv-hint")
+
+    m = re.search(
+        r'field-name-field-real-conv-audio.*?href="[^"]*?/([^/"]+\.mp3)"',
+        html, re.DOTALL,
+    )
+    audio_path = m.group(1) if m else ""
+
+    speaker_ids = extract_term_ids(html, "field-real-conv-tags")
+
+    entry: dict = {
+        "id": f"real_conversation_{node_id}",
+        "drupal_node_id": node_id,
+        "title": title_ja,
+    }
+    if title_en:
+        entry["title_en"] = title_en
+    if desc:
+        entry["summary"] = desc
+    if hint:
+        entry["hint"] = hint
+    if audio_path:
+        entry["audio"] = {"path": audio_path}
+    if speaker_ids:
+        entry["speakers"] = [f"character_{i}" for i in speaker_ids]
+
+    return entry
+
+
+def import_phonology_topic(node_id: int) -> dict:
+    html = (NODE_DIR / str(node_id)).read_text(errors="replace")
+    title_ja, title_en = extract_title(html)
+    body = extract_text_field(html, "body")
+
+    entry: dict = {
+        "id": f"phonology_{node_id}",
+        "drupal_node_id": node_id,
+        "title": title_ja,
+    }
+    if title_en:
+        entry["title_en"] = title_en
+    if body:
+        entry["body"] = body
+
+    return entry
+
+
+def import_page(node_id: int) -> dict:
+    html = (NODE_DIR / str(node_id)).read_text(errors="replace")
+    title_ja, title_en = extract_title(html)
+    body = extract_text_field(html, "body")
+
+    m = re.search(r'<link rel="canonical" href="[^"]*?/([^/"]+)"', html)
+    slug = m.group(1) if m else ""
+
+    entry: dict = {
+        "id": f"page_{node_id}",
+        "drupal_node_id": node_id,
+        "title": title_ja if title_ja else title_en,
+    }
+    if title_en:
+        entry["title_en"] = title_en
+    if slug:
+        entry["slug"] = slug
+    if body:
+        entry["body"] = body
+
+    return entry
+
+
 def write_yaml(data: dict, path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
@@ -180,15 +253,18 @@ def run_import(content_type: str) -> None:
 
     out_dir = REPO / "data" / content_type
 
+    type_to_handler = {
+        "words": (import_word, "word"),
+        "grammar_points": (import_grammar_point, "grammar"),
+        "real_conversations": (import_real_conversation, "real_conversation"),
+        "phonology_topics": (import_phonology_topic, "phonology"),
+        "pages": (import_page, "page"),
+    }
+
+    handler, prefix = type_to_handler[content_type]
     for node_id in node_ids:
-        if content_type == "words":
-            entry = import_word(node_id)
-            out = out_dir / f"word_{node_id}.yaml"
-        elif content_type == "grammar_points":
-            entry = import_grammar_point(node_id)
-            out = out_dir / f"grammar_{node_id}.yaml"
-        else:
-            raise ValueError(f"unknown type: {content_type}")
+        entry = handler(node_id)
+        out = out_dir / f"{prefix}_{node_id}.yaml"
 
         write_yaml(entry, out)
 

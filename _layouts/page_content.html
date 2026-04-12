@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{%- assign pg = site.data.pages[page.data_id] -%}
+{%- if pg == nil -%}
+  <p class="error">No data for <code>{{ page.data_id }}</code>.</p>
+{%- else -%}
+
+<article class="page-content">
+
+  <header>
+    <h1>{{ pg.title }}</h1>
+  </header>
+
+  {%- if pg.body %}
+    <section>
+      <div class="gp-preformatted">{{ pg.body | newline_to_br }}</div>
+    </section>
+  {%- endif %}
+
+</article>
+
+{%- endif -%}

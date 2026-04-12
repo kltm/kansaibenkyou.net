@@ -1,0 +1,14 @@
+id: real_conversation_420
+drupal_node_id: 420
+title: よう日本行きますか？
+summary: Keiko asks Date if he goes to Japan often.
+hint: 時期(じき) = season
+audio:
+  path: real_d_nihon.mp3
+speakers:
+- character_194
+- character_196
+- character_193
+- character_201
+- character_206
+- character_203
