@@ -7,6 +7,11 @@ lang: ja
 baseurl: "/kansaibenkyou.net"
 url: "https://kltm.github.io"
 
+# GoatCounter analytics (privacy-friendly, no cookies).
+# Create an account at https://www.goatcounter.com/ and set your site
+# code here. Leave blank to disable analytics.
+goatcounter_site: kansaibenkyou
+
 markdown: kramdown
 kramdown:
   input: GFM

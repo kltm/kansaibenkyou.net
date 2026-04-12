@@ -41,5 +41,10 @@
       Site code © kltm, licensed under BSD 3-Clause.
     </p>
   </footer>
+
+  {%- if site.goatcounter_site %}
+    <script data-goatcounter="https://{{ site.goatcounter_site }}.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+  {%- endif %}
 </body>
 </html>
