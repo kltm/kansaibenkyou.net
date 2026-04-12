@@ -4,8 +4,8 @@ description: >-
   dialects spoken in the Kansai region. Authored by Keiko Yukawa.
 author: Keiko Yukawa
 lang: ja
-baseurl: ""
-url: "https://kansaibenkyou.net"
+baseurl: "/kansaibenkyou.net"
+url: "https://kltm.github.io"
 
 markdown: kramdown
 kramdown:
