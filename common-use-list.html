@@ -8,8 +8,8 @@ permalink: /common-use-list/
 
 <p>
   Kansai-ben grammar and vocabulary organized by communicative function.
-  These categories describe the pragmatic uses of grammar points
-  found throughout the example conversations.
+  Click any category to see all grammar points and conversations that
+  use it.
 </p>
 
 <table class="grammar-table">
@@ -17,45 +17,16 @@ permalink: /common-use-list/
     <tr><th>Function</th></tr>
   </thead>
   <tbody>
-    <tr><td>Assertion</td></tr>
-    <tr><td>Attentiveness</td></tr>
-    <tr><td>Causative</td></tr>
-    <tr><td>Complete negation</td></tr>
-    <tr><td>Completion</td></tr>
-    <tr><td>Condition/State</td></tr>
-    <tr><td>Conditional</td></tr>
-    <tr><td>Conjecture</td></tr>
-    <tr><td>Connecting sentences</td></tr>
-    <tr><td>Emphasis</td></tr>
-    <tr><td>Giving and receiving</td></tr>
-    <tr><td>Honorific titles</td></tr>
-    <tr><td>Honorifics</td></tr>
-    <tr><td>Imperative</td></tr>
-    <tr><td>Location marker</td></tr>
-    <tr><td>Negation</td></tr>
-    <tr><td>Nominalization</td></tr>
-    <tr><td>Non-functional</td></tr>
-    <tr><td>Obligation</td></tr>
-    <tr><td>Parallel marker</td></tr>
-    <tr><td>Permission</td></tr>
-    <tr><td>Possession</td></tr>
-    <tr><td>Potential</td></tr>
-    <tr><td>Preparation</td></tr>
-    <tr><td>Progressive</td></tr>
-    <tr><td>Prohibition</td></tr>
-    <tr><td>Providing reasons</td></tr>
-    <tr><td>Question</td></tr>
-    <tr><td>Quotation</td></tr>
-    <tr><td>Regret</td></tr>
-    <tr><td>Reminder</td></tr>
-    <tr><td>Request</td></tr>
-    <tr><td>Soliciting and demonstrating agreement</td></tr>
-    <tr><td>Suggestion</td></tr>
-    <tr><td>Supplying new information</td></tr>
-    <tr><td>Suppositional paradox</td></tr>
-    <tr><td>Target marker</td></tr>
-    <tr><td>Third-person expressive</td></tr>
-    <tr><td>Volitional</td></tr>
-    <tr><td>Warning</td></tr>
+    {%- assign sorted_labels = site.data.taxonomy_labels | sort %}
+    {%- for pair in sorted_labels %}
+      {%- assign tid = pair[0] %}
+      {%- assign label = pair[1] %}
+      {%- assign term_data = site.data.taxonomy_index[tid] %}
+      {%- if term_data.conversations.size > 0 or term_data.grammar_points.size > 0 %}
+        <tr>
+          <td><a href="{{ '/taxonomy/term/' | append: tid | append: '/' | relative_url }}">{{ label }}</a></td>
+        </tr>
+      {%- endif %}
+    {%- endfor %}
   </tbody>
 </table>

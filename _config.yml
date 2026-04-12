@@ -44,6 +44,9 @@ collections:
   pages:
     output: true
     permalink: /:name/
+  taxonomy_terms:
+    output: true
+    permalink: /taxonomy/term/:name/
 
 # Files and directories not part of the site output. The mothball
 # mirror is gitignored, but is also excluded here so a local

@@ -1,0 +1,60 @@
+---
+layout: default
+---
+{%- assign tid = page.term_id %}
+{%- assign label = site.data.taxonomy_labels[tid] | default: tid %}
+{%- assign term_data = site.data.taxonomy_index[tid] %}
+
+<article class="taxonomy-term">
+
+  <header>
+    <h1>{{ label }}</h1>
+  </header>
+
+  {%- if term_data.grammar_points.size > 0 %}
+    <section>
+      <h2>Grammar points</h2>
+      <ul>
+        {%- for gp in term_data.grammar_points %}
+          <li><a href="{{ '/grammar_points/' | append: gp.node_id | append: '/' | relative_url }}">{{ gp.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </section>
+  {%- endif %}
+
+  {%- if term_data.conversations.size > 0 %}
+    <section>
+      <h2>Example conversations</h2>
+      <ul>
+        {%- for c in term_data.conversations %}
+          {%- assign conv_slug = "" %}
+          {%- for conv_page in site.conversations %}
+            {%- assign conv_data = site.data.conversations[conv_page.data_id] %}
+            {%- if conv_data.drupal_node_id == c.node_id %}
+              {%- assign conv_slug = conv_page.url %}
+            {%- endif %}
+          {%- endfor %}
+          <li>
+            {%- if conv_slug != "" %}
+              <a href="{{ conv_slug | relative_url }}">{{ c.title }}</a>
+            {%- else %}
+              {{ c.title }}
+            {%- endif %}
+          </li>
+        {%- endfor %}
+      </ul>
+    </section>
+  {%- endif %}
+
+  {%- if term_data.words.size > 0 %}
+    <section>
+      <h2>Vocabulary</h2>
+      <ul>
+        {%- for w in term_data.words %}
+          <li><a href="{{ '/words/' | append: w.node_id | append: '/' | relative_url }}">{{ w.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </section>
+  {%- endif %}
+
+</article>
