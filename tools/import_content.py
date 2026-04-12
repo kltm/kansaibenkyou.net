@@ -28,6 +28,15 @@ import yaml
 REPO = Path(__file__).resolve().parent.parent
 NODE_DIR = REPO / "_mothball" / "snapshot" / "node"
 
+NODE_URL_MAP: dict[int, str] = {
+    1: '/what/', 2: '/about/', 3: '/resources/', 4: '/',
+    353: '/phonology/353/', 354: '/phonology/354/',
+    357: '/conversations/', 358: '/grammar/',
+    359: '/pronunciation/', 360: '/phonology/360/',
+    366: '/bibliography/', 387: '/real-conversations-list/',
+    396: '/copyright/', 398: '/development/', 414: '/intro/',
+}
+
 CONTENT_TYPE_CLASSES = {
     "words": "article-type-word",
     "grammar_points": "article-grammar-point",
@@ -93,8 +102,12 @@ def extract_text_field(html: str, field_name: str, preserve_headings: bool = Fal
             src = re.sub(r'\.\./external/', '/assets/images/', src)
             return f'\n\n![{src}]({src})\n\n'
         text = re.sub(r'<img[^>]+src="([^"]+)"[^>]*/?\s*>', fix_img, text)
-        text = re.sub(r'<a\s+href="(\d+)"[^>]*>([^<]+)</a>',
-                       lambda m: f'[{m.group(2)}]({m.group(1)})', text)
+        def resolve_node_link(m):
+            node_id = m.group(1)
+            text = m.group(2)
+            url = NODE_URL_MAP.get(int(node_id), f'/node/{node_id}/')
+            return f'[{text}]({url})'
+        text = re.sub(r'<a\s+href="(\d+)"[^>]*>([^<]+)</a>', resolve_node_link, text)
         text = re.sub(r"<br\s*/?>", "\n", text)
         text = re.sub(r"</(?:p|div|tr|li)>", "\n", text)
         text = re.sub(r"</?(?:td|th)>", "\t", text)

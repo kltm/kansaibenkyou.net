@@ -13,8 +13,11 @@ layout: default
   </header>
 
   {%- if pg.body %}
-    {%- assign asset_base = site.baseurl | append: '/assets/' %}
-    {%- assign body_fixed = pg.body | replace: '/assets/', asset_base %}
+    {%- assign body_fixed = pg.body %}
+    {%- if site.baseurl != "" %}
+      {%- assign link_prefix = '](' | append: site.baseurl | append: '/' %}
+      {%- assign body_fixed = body_fixed | replace: '](/', link_prefix %}
+    {%- endif %}
     <section class="page-body">
       {{ body_fixed | markdownify }}
     </section>
