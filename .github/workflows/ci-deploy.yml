@@ -67,7 +67,9 @@ jobs:
           node-version: "20"
 
       - name: Index site with Pagefind
-        run: npx pagefind@latest --site _site
+        run: |
+          chmod -R u+w _site
+          npx pagefind@latest --site _site
 
       - uses: actions/upload-pages-artifact@v3
 
