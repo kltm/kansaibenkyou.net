@@ -68,7 +68,7 @@ jobs:
 
       - name: Index site with Pagefind
         run: |
-          chmod -R u+w _site
+          sudo chmod -R a+w _site
           npx pagefind@latest --site _site
 
       - uses: actions/upload-pages-artifact@v3
