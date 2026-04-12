@@ -1,30 +1,41 @@
 title: Kansaibenkyou.net
+subtitle: A learning resource for Kansai-ben (関西弁)
 description: >-
   A learning resource for Kansai-ben (関西弁), the family of Japanese
   dialects spoken in the Kansai region. Authored by Keiko Yukawa.
-author: Keiko Yukawa
+logo: /assets/images/takkun.png
 lang: ja
 baseurl: "/kansaibenkyou.net"
 url: "https://kltm.github.io"
 
-# GoatCounter analytics (privacy-friendly, no cookies).
-# Create an account at https://www.goatcounter.com/ and set your site
-# code here. Leave blank to disable analytics.
+# Minimal Mistakes theme
+theme: minimal-mistakes-jekyll          # local builds
+remote_theme: mmistakes/minimal-mistakes # GitHub Pages builds
+minimal_mistakes_skin: "default"
+
+# GoatCounter analytics
 goatcounter_site: kansaibenkyou
+
+# Author sidebar
+author:
+  name: Keiko Yukawa
+  bio: >-
+    A learning resource for Kansai-ben, the family of Japanese dialects
+    spoken in the Kansai region.
+  avatar: /assets/images/takkun.png
 
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Read canonical YAML data from data/ instead of the Jekyll default
-# _data/. This keeps the path matching the LinkML schema authoring
-# convention. site.data.<dirname>.<filename> still works as usual.
 data_dir: data
 
-# Collection of conversation pages — one stub per chapter under
-# _conversations/. The actual conversation content lives in
-# data/conversations/ and is referenced from each stub via the
-# data_id frontmatter key.
+# MM plugins (allowlisted on GH Pages)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Collections
 collections:
   conversations:
     output: true
@@ -48,11 +59,74 @@ collections:
     output: true
     permalink: /taxonomy/term/:name/
 
-# Files and directories not part of the site output. The mothball
-# mirror is gitignored, but is also excluded here so a local
-# `bundle exec jekyll serve` won't try to copy 300+ MiB of archived
-# Drupal pages into _site/. The schema and canonical data live
-# alongside the site but are processed by build tools, not by Jekyll.
+# MM defaults — apply sidebar and breadcrumbs to all pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      sidebar:
+        nav: "site-nav"
+      breadcrumbs: true
+  - scope:
+      path: ""
+      type: "conversations"
+    values:
+      layout: conversation
+      sidebar:
+        nav: "site-nav"
+      breadcrumbs: true
+  - scope:
+      path: ""
+      type: "words"
+    values:
+      layout: word
+      sidebar:
+        nav: "site-nav"
+      breadcrumbs: true
+  - scope:
+      path: ""
+      type: "grammar_points"
+    values:
+      layout: grammar_point
+      sidebar:
+        nav: "site-nav"
+      breadcrumbs: true
+  - scope:
+      path: ""
+      type: "real_conversations"
+    values:
+      layout: real_conversation
+      sidebar:
+        nav: "site-nav"
+      breadcrumbs: true
+  - scope:
+      path: ""
+      type: "phonology_topics"
+    values:
+      layout: phonology_topic
+      sidebar:
+        nav: "site-nav"
+      breadcrumbs: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page_content
+      sidebar:
+        nav: "site-nav"
+      breadcrumbs: true
+  - scope:
+      path: ""
+      type: "taxonomy_terms"
+    values:
+      layout: taxonomy_term
+      sidebar:
+        nav: "site-nav"
+      breadcrumbs: true
+
+# Keep our nav_menu for now (used by custom sidebar) — will migrate
+# to MM's navigation.yml once layouts stabilize
 nav_menu:
   - title: Home
     url: /

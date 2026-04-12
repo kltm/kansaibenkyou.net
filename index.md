@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: single
+sidebar:
+  nav: "site-nav"
 title: Kansaibenkyou.net
 ---
 

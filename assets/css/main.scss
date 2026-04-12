@@ -1,0 +1,12 @@
+---
+# MM's main stylesheet entry point. The empty front matter tells
+# Jekyll to process this file through Sass.
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* ---- Kansaibenkyou.net custom overrides ---- */
+
+/* Import our custom styles */
+@import url("custom.css");

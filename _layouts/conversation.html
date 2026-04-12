@@ -1,21 +1,20 @@
 ---
-layout: default
+layout: single
 ---
 {%- assign conv = site.data.conversations[page.data_id] -%}
 {%- if conv == nil -%}
   <p class="error">
     No conversation data found for <code>{{ page.data_id }}</code>.
-    Check that <code>data/conversations/{{ page.data_id }}.yaml</code> exists.
   </p>
 {%- else -%}
 
 <article class="conversation-example">
 
   <header class="conversation-header">
-    <h1 class="conversation-title">
+    <h2 class="conversation-title">
       {{ conv.title }}
       {%- if conv.title_en %} <span class="conversation-title-en">/ {{ conv.title_en }}</span>{% endif -%}
-    </h1>
+    </h2>
     {%- if conv.summary %}
       <p class="conversation-summary">{{ conv.summary }}</p>
     {%- endif %}
@@ -23,10 +22,10 @@ layout: default
 
   {%- if conv.audio.path %}
     <p class="conversation-audio">
+      <strong>Audio (click &#9654; to play):</strong><br>
       <audio controls preload="metadata"
              src="{{ '/assets/audio/' | append: conv.audio.path | relative_url }}">
-        Your browser does not support inline audio. Download the file
-        <a href="{{ '/assets/audio/' | append: conv.audio.path | relative_url }}">here</a>.
+        <a href="{{ '/assets/audio/' | append: conv.audio.path | relative_url }}">Download audio</a>
       </audio>
     </p>
   {%- endif %}

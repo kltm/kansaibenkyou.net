@@ -1,0 +1,51 @@
+site-nav:
+  - title: Home
+    url: /
+  - title: Introduction
+    url: /intro/
+    children:
+      - title: Why learn Kansai-ben?
+        url: /intro/#why
+      - title: How to learn!
+        url: /intro/#how
+  - title: Kansai-ben is...?
+    url: /what/
+    children:
+      - title: What is Kansai-ben?
+        url: /what/#what
+      - title: Where is Kansai?
+        url: /what/#where
+      - title: Who speaks Kansai-ben?
+        url: /what/#who
+      - title: When to use Kansai-ben?
+        url: /what/#when
+  - title: Example conversations
+    url: /example-conversations/
+  - title: Grammar
+    url: /grammar/
+    children:
+      - title: Grammar point list
+        url: /grammar-points/
+      - title: Common use list
+        url: /common-use-list/
+  - title: Vocabulary
+    url: /vocabulary/
+  - title: Pronunciation
+    url: /pronunciation/
+    children:
+      - title: Accent Patterns
+        url: /phonology/353/
+      - title: Vowels
+        url: /phonology/340/
+      - title: Sound Switching
+        url: /phonology/349/
+  - title: Real conversations
+    url: /real-conversations-list/
+  - title: Resources
+    url: /resources/
+  - title: About
+    url: /about/
+  - title: Feedback
+    url: /feedback/
+  - title: Search
+    url: /search/
