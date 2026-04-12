@@ -21,10 +21,9 @@
   "use strict";
 
   var MARKER_RE = /\((\d+)([^)]+)\)/g;
+  var BASE = (document.querySelector('meta[name="baseurl"]') || {}).content || "";
 
   function renderLinks(li, kind) {
-    // kind === "g" → grammar_points/<id>/
-    // kind === "w" → words/<id>/
     var dest = kind === "g" ? "grammar_points" : "words";
     var raw = li.textContent;
     if (raw.indexOf("(") === -1) return;
@@ -38,7 +37,7 @@
       var text = match[2];
       html +=
         '<a class="skit-link skit-link-' + kind +
-        '" href="/' + dest + "/" + id + '/">' +
+        '" href="' + BASE + '/' + dest + "/" + id + '/">' +
         escapeHtml(text) + "</a>";
       lastIndex = MARKER_RE.lastIndex;
     }
