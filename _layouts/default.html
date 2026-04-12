@@ -17,19 +17,17 @@
       </a>
       <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
     </div>
-    <nav class="site-nav" id="site-nav">
+    <nav class="site-nav-top" id="site-nav">
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/intro/' | relative_url }}">Introduction</a>
       <a href="{{ '/what/' | relative_url }}">Kansai-ben is...?</a>
       <a href="{{ '/conversations/' | relative_url }}">Example conversations</a>
       <a href="{{ '/grammar/' | relative_url }}">Grammar</a>
-      <a href="{{ '/grammar-points/' | relative_url }}">Grammar list</a>
       <a href="{{ '/vocabulary/' | relative_url }}">Vocabulary</a>
       <a href="{{ '/pronunciation/' | relative_url }}">Pronunciation</a>
       <a href="{{ '/real-conversations-list/' | relative_url }}">Real conversations</a>
       <a href="{{ '/resources/' | relative_url }}">Resources</a>
       <a href="{{ '/about/' | relative_url }}">About</a>
-      <a href="{{ '/feedback/' | relative_url }}">Feedback</a>
     </nav>
     <div class="banner-container">
       <img id="banner-image" src="" alt="" class="banner-image">
@@ -37,9 +35,58 @@
   </header>
   <script src="{{ '/assets/js/banner-carousel.js' | relative_url }}"></script>
 
-  <main class="site-main">
-    {{ content }}
-  </main>
+  <div class="site-columns">
+    <main class="site-main">
+      {%- if page.url != "/" %}
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          {%- if page.collection %}
+            {%- case page.collection %}
+              {%- when "conversations" %}
+                <span class="bc-sep">&rsaquo;</span>
+                <a href="{{ '/conversations/' | relative_url }}">Example conversations</a>
+              {%- when "words" %}
+                <span class="bc-sep">&rsaquo;</span>
+                <a href="{{ '/vocabulary/' | relative_url }}">Vocabulary</a>
+              {%- when "grammar_points" %}
+                <span class="bc-sep">&rsaquo;</span>
+                <a href="{{ '/grammar-points/' | relative_url }}">Grammar points</a>
+              {%- when "real_conversations" %}
+                <span class="bc-sep">&rsaquo;</span>
+                <a href="{{ '/real-conversations-list/' | relative_url }}">Real conversations</a>
+              {%- when "phonology_topics" %}
+                <span class="bc-sep">&rsaquo;</span>
+                <a href="{{ '/pronunciation/' | relative_url }}">Pronunciation</a>
+            {%- endcase %}
+          {%- endif %}
+          <span class="bc-sep">&rsaquo;</span>
+          <span class="bc-current">{{ page.title | truncate: 40 }}</span>
+        </nav>
+      {%- endif %}
+
+      {{ content }}
+    </main>
+
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-section">
+        <h3 class="sidebar-heading">Navigation</h3>
+        <ul class="sidebar-nav">
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/intro/' | relative_url }}">Introduction</a></li>
+          <li><a href="{{ '/what/' | relative_url }}">Kansai-ben is...?</a></li>
+          <li><a href="{{ '/conversations/' | relative_url }}">Example conversations</a></li>
+          <li><a href="{{ '/grammar/' | relative_url }}">Grammar</a></li>
+          <li><a href="{{ '/grammar-points/' | relative_url }}">Grammar list</a></li>
+          <li><a href="{{ '/vocabulary/' | relative_url }}">Vocabulary</a></li>
+          <li><a href="{{ '/pronunciation/' | relative_url }}">Pronunciation</a></li>
+          <li><a href="{{ '/real-conversations-list/' | relative_url }}">Real conversations</a></li>
+          <li><a href="{{ '/resources/' | relative_url }}">Resources</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="{{ '/feedback/' | relative_url }}">Feedback</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
 
   <footer class="site-footer">
     <div class="footer-inner">

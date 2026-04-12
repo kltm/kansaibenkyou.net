@@ -60,6 +60,31 @@ layout: default
     </table>
   </div>
 
+  {%- if conv.function_types.size > 0 %}
+    <section class="conv-tags">
+      <h2>Common uses</h2>
+      <ul class="tag-cloud">
+        {%- for ft in conv.function_types %}
+          {%- assign ft_id = ft | split: "_" | last %}
+          {%- assign ft_data = site.data.words[ft] %}
+          <li><a href="{{ '/grammar_points/' | append: ft_id | append: '/' | relative_url }}">{{ ft }}</a></li>
+        {%- endfor %}
+      </ul>
+    </section>
+  {%- endif %}
+
+  {%- if conv.grammar_types.size > 0 %}
+    <section class="conv-tags">
+      <h2>Grammar elements</h2>
+      <ul class="tag-cloud">
+        {%- for gt in conv.grammar_types %}
+          {%- assign gt_id = gt | split: "_" | last %}
+          <li><a href="{{ '/grammar_points/' | append: gt_id | append: '/' | relative_url }}">{{ gt }}</a></li>
+        {%- endfor %}
+      </ul>
+    </section>
+  {%- endif %}
+
 </article>
 
 <script src="{{ '/assets/js/skit.js' | relative_url }}" defer></script>
