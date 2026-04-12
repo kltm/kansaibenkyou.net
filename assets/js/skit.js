@@ -38,7 +38,13 @@
 
   function setLayerVisible(skit, cls, visible) {
     skit.querySelectorAll("." + cls).forEach(function (el) {
-      el.style.display = visible ? "list-item" : "none";
+      if (cls === "skit-k") {
+        if (visible) { el.classList.remove("skit-hidden"); }
+        else { el.classList.add("skit-hidden"); }
+      } else {
+        if (visible) { el.classList.add("skit-visible"); }
+        else { el.classList.remove("skit-visible"); }
+      }
     });
   }
 
