@@ -36,7 +36,7 @@
   <script src="{{ '/assets/js/banner-carousel.js' | relative_url }}"></script>
 
   <div class="site-columns">
-    <main class="site-main">
+    <main class="site-main" data-pagefind-body>
       {%- if page.url != "/" %}
         <nav class="breadcrumb" aria-label="Breadcrumb">
           <a href="{{ '/' | relative_url }}">Home</a>
@@ -100,14 +100,10 @@
       <div class="sidebar-section">
         <h3 class="sidebar-heading">Search</h3>
         <div class="sidebar-search">
-          <div id="search"></div>
-          <link href="{{ '/pagefind/pagefind-ui.css' | relative_url }}" rel="stylesheet">
-          <script src="{{ '/pagefind/pagefind-ui.js' | relative_url }}"></script>
-          <script>
-            window.addEventListener('DOMContentLoaded', function() {
-              new PagefindUI({ element: "#search", showSubResults: false, showImages: false });
-            });
-          </script>
+          <form action="{{ '/search/' | relative_url }}" method="get" class="sidebar-search-form">
+            <input type="search" name="q" placeholder="Search..." aria-label="Search the site">
+            <button type="submit">Go</button>
+          </form>
         </div>
       </div>
     </aside>

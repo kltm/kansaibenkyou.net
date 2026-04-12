@@ -1,0 +1,28 @@
+---
+layout: default
+title: Search
+permalink: /search/
+---
+
+<h1>Search</h1>
+
+<div id="search-results"></div>
+
+<link href="{{ '/pagefind/pagefind-ui.css' | relative_url }}" rel="stylesheet">
+<script src="{{ '/pagefind/pagefind-ui.js' | relative_url }}"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    var pf = new PagefindUI({
+      element: "#search-results",
+      showSubResults: true,
+      showImages: false,
+      baseUrl: "{{ site.baseurl }}/"
+    });
+
+    var params = new URLSearchParams(window.location.search);
+    var q = params.get("q");
+    if (q) {
+      pf.triggerSearch(q);
+    }
+  });
+</script>
