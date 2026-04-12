@@ -8,9 +8,8 @@ lang: ja
 baseurl: "/kansaibenkyou.net"
 url: "https://kltm.github.io"
 
-# Minimal Mistakes theme
-theme: minimal-mistakes-jekyll          # local builds
-remote_theme: mmistakes/minimal-mistakes # GitHub Pages builds
+# Minimal Mistakes theme (via remote_theme for GH Pages compatibility)
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "default"
 
 # GoatCounter analytics
