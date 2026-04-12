@@ -1,0 +1,10 @@
+{% comment %}Render a word as a teaser card. Pass: w_data (the full YAML record).{% endcomment %}
+<div class="teaser teaser-word">
+  <h3><a href="{{ '/words/' | append: w_data.drupal_node_id | append: '/' | relative_url }}">{{ w_data.title }}</a></h3>
+  {%- if w_data.body %}
+    <span class="teaser-def">{{ w_data.body | truncate: 80 }}</span>
+  {%- endif %}
+  {%- if w_data.standard_kana %}
+    <span class="teaser-meta">Standard: {{ w_data.standard_kana }}{% if w_data.standard_kanji %} ({{ w_data.standard_kanji }}){% endif %}</span>
+  {%- endif %}
+</div>

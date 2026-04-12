@@ -1,0 +1,8 @@
+{% comment %}Render a grammar point as a teaser card. Pass: gp_data (the full YAML record).{% endcomment %}
+<div class="teaser teaser-grammar">
+  <h3><a href="{{ '/grammar_points/' | append: gp_data.drupal_node_id | append: '/' | relative_url }}">{{ gp_data.title }}</a></h3>
+  {%- if gp_data.body %}
+    <p class="teaser-excerpt">{{ gp_data.body | truncate: 200 }}</p>
+  {%- endif %}
+  <a href="{{ '/grammar_points/' | append: gp_data.drupal_node_id | append: '/' | relative_url }}" class="teaser-more">Read more</a>
+</div>

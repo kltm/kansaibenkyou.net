@@ -1,0 +1,26 @@
+{% comment %}Render a conversation as a teaser card. Pass: conv_data (the full YAML record), conv_url.{% endcomment %}
+<div class="teaser teaser-conversation">
+  <h3>
+    {%- if conv_url %}
+      <a href="{{ conv_url | relative_url }}">{{ conv_data.title }}{% if conv_data.title_en %} / {{ conv_data.title_en }}{% endif %}</a>
+    {%- else %}
+      {{ conv_data.title }}{% if conv_data.title_en %} / {{ conv_data.title_en }}{% endif %}
+    {%- endif %}
+  </h3>
+  {%- if conv_data.summary %}
+    <p class="teaser-excerpt">{{ conv_data.summary }}</p>
+  {%- endif %}
+  {%- if conv_data.characters.size > 0 %}
+    <p class="teaser-meta">
+      Characters:
+      {%- for char_ref in conv_data.characters %}
+        {%- assign cid = char_ref | split: "_" | last %}
+        {%- assign char_label = site.data.taxonomy_labels[cid] | default: char_ref %}
+        <a href="{{ '/taxonomy/term/' | append: cid | append: '/' | relative_url }}">{{ char_label }}</a>{%- unless forloop.last %}, {% endunless %}
+      {%- endfor %}
+    </p>
+  {%- endif %}
+  {%- if conv_url %}
+    <a href="{{ conv_url | relative_url }}" class="teaser-more">Read more</a>
+  {%- endif %}
+</div>

@@ -596,6 +596,54 @@ h1, h2, h3 { color: var(--color-header-dark); }
   border-color: var(--color-header);
 }
 
+/* ----------------------------------------------------------------
+   Teasers (Drupal Views equivalent — compact content cards)
+   ---------------------------------------------------------------- */
+
+.teaser {
+  margin-bottom: 1.2rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.teaser h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.05rem;
+  color: var(--color-header-dark);
+}
+
+.teaser h3 a { text-decoration: none; }
+.teaser h3 a:hover { text-decoration: underline; }
+
+.teaser-excerpt {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.teaser-def {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.teaser-meta {
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  margin: 0.3rem 0 0;
+}
+
+.teaser-meta a { color: var(--color-link); }
+
+.teaser-more {
+  font-size: 0.82rem;
+  display: inline-block;
+  margin-top: 0.3rem;
+}
+
 .tag-label {
   display: inline-block;
   padding: 0.2rem 0.5rem;
