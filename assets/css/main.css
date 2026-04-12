@@ -48,6 +48,22 @@ a { color: var(--color-link); }
 }
 .site-nav a:hover { text-decoration: underline; }
 
+.banner-container {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  overflow: hidden;
+  max-height: 200px;
+}
+.banner-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: block;
+}
+
 .site-main {
   max-width: var(--max-content-width);
   margin: 0 auto;
