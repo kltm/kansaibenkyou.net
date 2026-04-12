@@ -1,123 +1,252 @@
-/* Kansaibenkyou.net — minimal phase 1.3 stylesheet.
-   Just enough to demonstrate the skit toggle widget end-to-end.
-   Visual refresh is tracked separately in issue #13. */
+/* Kansaibenkyou.net — visual refresh
+   Spirit: warm, approachable, educational. Inspired by the original
+   pixture_reloaded Drupal theme's steel-blue + cream palette. */
 
 :root {
-  --color-text: #222;
+  --color-header: #3d6186;
+  --color-header-dark: #2c4a66;
+  --color-accent: #4a7ab5;
+  --color-link: #2a6496;
+  --color-link-hover: #1a4a6e;
+  --color-text: #333;
   --color-muted: #666;
-  --color-link: #0a4f8c;
-  --color-bg: #fafaf7;
-  --color-border: #ddd;
-  --color-stanza-alt: #f4f1ea;
-  --font-body: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
-               "Yu Gothic", "Meiryo", sans-serif;
-  --max-content-width: 52rem;
+  --color-bg: #f5f0e8;
+  --color-content-bg: #fff;
+  --color-border: #d4cfc5;
+  --color-stanza-alt: #f8f5ef;
+  --color-nav-bg: #e8e2d6;
+  --color-footer: #3d6186;
+  --font-body: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo",
+               -apple-system, BlinkMacSystemFont, sans-serif;
+  --max-content-width: 56rem;
+  --radius: 4px;
 }
 
 * { box-sizing: border-box; }
 
-html, body {
+html {
+  background: var(--color-bg);
+}
+
+body {
   margin: 0;
-  padding: 0;
   font-family: var(--font-body);
   color: var(--color-text);
-  background: var(--color-bg);
-  line-height: 1.55;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 a { color: var(--color-link); }
+a:hover { color: var(--color-link-hover); }
+
+h1, h2, h3 { color: var(--color-header-dark); }
+
+/* ----------------------------------------------------------------
+   Header
+   ---------------------------------------------------------------- */
 
 .site-header {
-  border-bottom: 1px solid var(--color-border);
-  background: #fff;
+  background: var(--color-header);
+  color: #fff;
 }
-.site-header-inner {
+
+.site-header-top {
   max-width: var(--max-content-width);
   margin: 0 auto;
-  padding: 1rem 1.25rem;
+  padding: 0.7rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.takkun {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 1px solid rgba(255,255,255,0.4);
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+/* ----------------------------------------------------------------
+   Navigation
+   ---------------------------------------------------------------- */
+
+.site-nav {
+  background: var(--color-header-dark);
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  gap: 1rem 2rem;
+  gap: 0;
 }
-.site-title { margin: 0; font-size: 1.4rem; }
-.site-title a { text-decoration: none; color: var(--color-text); }
+
 .site-nav a {
-  margin-right: 1rem;
+  color: rgba(255,255,255,0.85);
   text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.88rem;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.15s, color 0.15s;
 }
-.site-nav a:hover { text-decoration: underline; }
+
+.site-nav a:hover {
+  color: #fff;
+  border-bottom-color: rgba(255,255,255,0.6);
+}
+
+/* ----------------------------------------------------------------
+   Banner carousel
+   ---------------------------------------------------------------- */
 
 .banner-container {
   max-width: var(--max-content-width);
   margin: 0 auto;
   overflow: hidden;
-  max-height: 200px;
+  max-height: 180px;
+  background: var(--color-header-dark);
 }
+
 .banner-image {
   width: 100%;
-  height: 200px;
+  height: 180px;
   object-fit: cover;
   object-position: center;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.4s ease;
   display: block;
 }
+
+/* ----------------------------------------------------------------
+   Main content
+   ---------------------------------------------------------------- */
 
 .site-main {
   max-width: var(--max-content-width);
   margin: 0 auto;
-  padding: 2rem 1.25rem 4rem;
+  padding: 2rem 1.25rem 3rem;
+  background: var(--color-content-bg);
+  min-height: 60vh;
+  border-left: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
 }
 
+/* ----------------------------------------------------------------
+   Footer
+   ---------------------------------------------------------------- */
+
 .site-footer {
-  border-top: 1px solid var(--color-border);
+  background: var(--color-footer);
+  color: rgba(255,255,255,0.8);
   padding: 1.5rem 1.25rem;
-  font-size: 0.9rem;
-  color: var(--color-muted);
+  font-size: 0.85rem;
   text-align: center;
 }
 
-/* ---------------- Conversation page ---------------- */
+.site-footer a {
+  color: rgba(255,255,255,0.9);
+}
+
+.footer-inner {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-takkun {
+  width: 40px;
+  height: auto;
+  opacity: 0.7;
+}
+
+.footer-inner p { margin: 0; }
+
+/* ----------------------------------------------------------------
+   Conversation page
+   ---------------------------------------------------------------- */
 
 .conversation-header { margin-bottom: 1.5rem; }
-.conversation-title { margin: 0 0 0.5rem 0; font-size: 1.7rem; }
-.conversation-title-en { color: var(--color-muted); font-weight: normal; font-size: 1.1rem; }
-.conversation-summary { color: var(--color-muted); margin: 0; }
-.conversation-audio { margin: 1.5rem 0; }
-.conversation-audio audio { width: 100%; max-width: 32rem; }
-
-/* ---------------- Skit toggle widget ---------------- */
-
-.skit {
-  margin-top: 1.5rem;
+.conversation-title {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.6rem;
 }
+.conversation-title-en {
+  color: var(--color-muted);
+  font-weight: normal;
+  font-size: 1rem;
+}
+.conversation-summary {
+  color: var(--color-muted);
+  margin: 0;
+  font-style: italic;
+}
+.conversation-audio { margin: 1.5rem 0; }
+.conversation-audio audio { width: 100%; max-width: 28rem; }
+
+/* ----------------------------------------------------------------
+   Skit toggle widget
+   ---------------------------------------------------------------- */
+
+.skit { margin-top: 1.5rem; }
 
 .skit-controls {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.4rem;
   margin-bottom: 1rem;
 }
 
 .skit-toggle {
-  padding: 0.4rem 0.8rem;
-  border: 1px solid var(--color-border);
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--color-accent);
   background: #fff;
-  border-radius: 0.25rem;
-  font-size: 0.9rem;
+  color: var(--color-accent);
+  border-radius: var(--radius);
+  font-size: 0.85rem;
   cursor: pointer;
+  transition: background 0.15s, color 0.15s;
 }
-.skit-toggle:hover { background: var(--color-stanza-alt); }
+
+.skit-toggle:hover {
+  background: var(--color-stanza-alt);
+}
+
 .skit-toggle.is-active {
-  background: var(--color-link);
+  background: var(--color-accent);
   color: #fff;
-  border-color: var(--color-link);
 }
 
 .skit-table {
   border-collapse: collapse;
   width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
 }
 
 .skit-stanza:nth-child(even) {
@@ -126,15 +255,16 @@ a { color: var(--color-link); }
 
 .skit-name {
   vertical-align: top;
-  padding: 0.6rem 0.6rem 0.6rem 0.8rem;
-  font-weight: bold;
+  padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+  font-weight: 600;
   white-space: nowrap;
   width: 1%;
+  color: var(--color-header-dark);
 }
 
 .skit-line-container {
   vertical-align: top;
-  padding: 0.6rem 0.8rem 0.6rem 0.6rem;
+  padding: 0.5rem 0.75rem 0.5rem 0.4rem;
 }
 
 .skit-lines {
@@ -143,31 +273,37 @@ a { color: var(--color-link); }
   padding: 0;
 }
 
-.skit-line {
-  margin: 0.1rem 0;
-}
+.skit-line { margin: 0.15rem 0; }
 
-/* By default only the bare Kansai line is visible. The other four
-   layers reveal individually when the corresponding show-* class is
-   added to the .skit container by skit.js. */
 .skit-line.skit-g,
 .skit-line.skit-w,
 .skit-line.skit-s,
-.skit-line.skit-e {
-  display: none;
-}
+.skit-line.skit-e { display: none; }
+
 .skit.show-g .skit-line.skit-g { display: list-item; }
 .skit.show-w .skit-line.skit-w { display: list-item; }
-.skit.show-s .skit-line.skit-s { display: list-item; color: #444; }
-.skit.show-e .skit-line.skit-e { display: list-item; color: var(--color-muted); }
+.skit.show-s .skit-line.skit-s {
+  display: list-item;
+  color: #555;
+  font-size: 0.95em;
+}
+.skit.show-e .skit-line.skit-e {
+  display: list-item;
+  color: var(--color-muted);
+  font-size: 0.93em;
+  font-style: italic;
+}
 
 .skit-link {
+  color: var(--color-link);
   text-decoration: none;
-  border-bottom: 1px dashed var(--color-link);
+  border-bottom: 1px dashed var(--color-accent);
 }
-.skit-link:hover { background: #fff8c5; }
+.skit-link:hover { background: #fef9e7; }
 
-/* ---------------- Index tables (vocab, grammar, conversations) ---- */
+/* ----------------------------------------------------------------
+   Index tables (vocab, grammar, conversations)
+   ---------------------------------------------------------------- */
 
 .vocab-table,
 .grammar-table,
@@ -175,40 +311,113 @@ a { color: var(--color-link); }
   border-collapse: collapse;
   width: 100%;
   margin: 1.5rem 0;
-  font-size: 0.95rem;
+  font-size: 0.93rem;
 }
+
 .vocab-table th,
 .grammar-table th,
 .conversation-list th {
   text-align: left;
-  border-bottom: 2px solid var(--color-border);
+  border-bottom: 2px solid var(--color-header);
   padding: 0.5rem 0.6rem;
   font-weight: 600;
-  color: var(--color-muted);
-  font-size: 0.85rem;
+  color: var(--color-header-dark);
+  font-size: 0.82rem;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
 }
+
 .vocab-table td,
 .grammar-table td,
 .conversation-list td {
-  padding: 0.45rem 0.6rem;
+  padding: 0.4rem 0.6rem;
   border-bottom: 1px solid var(--color-border);
   vertical-align: top;
 }
+
 .vocab-table tr:hover,
 .grammar-table tr:hover,
 .conversation-list tr:hover {
   background: var(--color-stanza-alt);
 }
+
 .conversation-list small {
   color: var(--color-muted);
 }
 
-/* ---------------- Preformatted content blocks -------------------- */
+/* ----------------------------------------------------------------
+   Content pages (grammar points, phonology, pages)
+   ---------------------------------------------------------------- */
 
 .gp-preformatted {
   white-space: pre-wrap;
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+.word-entry h2,
+.grammar-point h2,
+.phonology-topic h2,
+.real-conversation h2 {
+  font-size: 1.15rem;
+  color: var(--color-header);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 0.3rem;
+  margin-top: 1.5rem;
+}
+
+.word-entry dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 1rem;
+}
+
+.word-entry dt {
+  font-weight: 600;
+  color: var(--color-header-dark);
+}
+
+.word-entry dd { margin: 0; }
+
+/* ----------------------------------------------------------------
+   Responsive
+   ---------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .nav-toggle { display: block; }
+
+  .site-nav {
+    display: none;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .site-nav.is-open { display: flex; }
+
+  .site-nav a {
+    padding: 0.6rem 1.25rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .site-main {
+    border-left: none;
+    border-right: none;
+  }
+
+  .footer-inner { flex-direction: column; }
+
+  .skit-table, .skit-table tbody,
+  .skit-table tr, .skit-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .skit-name {
+    padding: 0.4rem 0.75rem 0;
+    font-size: 0.85rem;
+  }
+
+  .skit-line-container {
+    padding: 0.2rem 0.75rem 0.5rem;
+  }
 }

@@ -4,28 +4,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="icon" href="{{ '/assets/images/takkun.ico' | relative_url }}" type="image/x-icon">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
   <header class="site-header">
-    <div class="site-header-inner">
-      <h1 class="site-title">
-        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      </h1>
-      <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/intro/' | relative_url }}">Intro</a>
-        <a href="{{ '/what/' | relative_url }}">What is Kansai-ben?</a>
-        <a href="{{ '/conversations/' | relative_url }}">Conversations</a>
-        <a href="{{ '/grammar/' | relative_url }}">Grammar</a>
-        <a href="{{ '/grammar-points/' | relative_url }}">Grammar list</a>
-        <a href="{{ '/vocabulary/' | relative_url }}">Vocabulary</a>
-        <a href="{{ '/pronunciation/' | relative_url }}">Pronunciation</a>
-        <a href="{{ '/real-conversations-list/' | relative_url }}">Real conversations</a>
-        <a href="{{ '/resources/' | relative_url }}">Resources</a>
-        <a href="{{ '/about/' | relative_url }}">About</a>
-      </nav>
+    <div class="site-header-top">
+      <a href="{{ '/' | relative_url }}" class="site-logo">
+        <img src="{{ '/assets/images/takkun.png' | relative_url }}" alt="Takkun" class="takkun">
+        <span class="site-title">Kansaibenkyou.net</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
     </div>
+    <nav class="site-nav" id="site-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/intro/' | relative_url }}">Introduction</a>
+      <a href="{{ '/what/' | relative_url }}">Kansai-ben is...?</a>
+      <a href="{{ '/conversations/' | relative_url }}">Example conversations</a>
+      <a href="{{ '/grammar/' | relative_url }}">Grammar</a>
+      <a href="{{ '/grammar-points/' | relative_url }}">Grammar list</a>
+      <a href="{{ '/vocabulary/' | relative_url }}">Vocabulary</a>
+      <a href="{{ '/pronunciation/' | relative_url }}">Pronunciation</a>
+      <a href="{{ '/real-conversations-list/' | relative_url }}">Real conversations</a>
+      <a href="{{ '/resources/' | relative_url }}">Resources</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/feedback/' | relative_url }}">Feedback</a>
+    </nav>
     <div class="banner-container">
       <img id="banner-image" src="" alt="" class="banner-image">
     </div>
@@ -37,12 +41,26 @@
   </main>
 
   <footer class="site-footer">
-    <p>
-      Site content © Keiko Yukawa, licensed under
-      <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.
-      Site code © kltm, licensed under BSD 3-Clause.
-    </p>
+    <div class="footer-inner">
+      <img src="{{ '/assets/images/takkun.png' | relative_url }}" alt="" class="footer-takkun">
+      <p>
+        Unless otherwise noted on the <a href="{{ '/copyright/' | relative_url }}">copyright</a> page,
+        this site and its contents are licensed under a
+        <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+        Attribution-ShareAlike 3.0 Unported License</a>
+        by <a href="{{ '/about/' | relative_url }}">Keiko Yukawa</a>.
+      </p>
+    </div>
   </footer>
+
+  <script>
+    document.querySelector('.nav-toggle').addEventListener('click', function() {
+      var nav = document.getElementById('site-nav');
+      var expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !expanded);
+      nav.classList.toggle('is-open');
+    });
+  </script>
 
   {%- if site.goatcounter_site %}
     <script data-goatcounter="https://{{ site.goatcounter_site }}.goatcounter.com/count"
