@@ -1,15 +1,33 @@
 ---
 layout: single
+title: Welcome to Kansaibenkyou.net!
 sidebar:
   nav: "site-nav"
-title: Kansaibenkyou.net
+header:
+  overlay_image: /assets/banner/242.jpg
+  overlay_filter: 0.3
+  caption: "Welcome to Kansai!"
 ---
 
-# Kansaibenkyou.net
+This website has been made to ease your frustration with Kansai-ben —
+the dialect of Japanese spoken in Kansai, the south-central region of
+Japan's main island Honshu.
 
-A learning resource for Kansai-ben (関西弁), the family of Japanese
-dialects spoken in the Kansai region — Osaka, Kyoto, Hyogo, Nara,
-Wakayama, Shiga. Authored by Keiko Yukawa.
+Whether you are living in, working in, visiting, or just thinking
+about Kansai, Kansaibenkyou.net is a site for Japanese learners and
+teachers who want to learn about the Japanese dialect spoken in the
+Kansai region of Japan. Here you will find materials on
+[pronunciation]({{ "/pronunciation/" | relative_url }}),
+[grammar]({{ "/grammar/" | relative_url }}),
+[vocabulary]({{ "/vocabulary/" | relative_url }}),
+[example conversations]({{ "/example-conversations/" | relative_url }}),
+audio examples, and
+[real conversations]({{ "/real-conversations-list/" | relative_url }})
+by Kansai natives.
+
+With all of that, the best place to probably start is the
+[introduction]({{ "/intro/" | relative_url }}) page — we hope you
+have fun Kansai-benkyouing!
 
 ## Getting started
 

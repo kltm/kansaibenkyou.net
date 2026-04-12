@@ -1,3 +1,21 @@
+# Top masthead nav — keep this short (5-7 items)
+main:
+  - title: Introduction
+    url: /intro/
+  - title: Example conversations
+    url: /example-conversations/
+  - title: Grammar
+    url: /grammar/
+  - title: Vocabulary
+    url: /vocabulary/
+  - title: Pronunciation
+    url: /pronunciation/
+  - title: Real conversations
+    url: /real-conversations-list/
+  - title: About
+    url: /about/
+
+# Sidebar nav — full hierarchical navigation
 site-nav:
   - title: Home
     url: /
