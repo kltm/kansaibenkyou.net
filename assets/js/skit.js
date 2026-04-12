@@ -1,30 +1,13 @@
-/* Kansaibenkyou.net — skit toggle widget.
- *
- * Replaces the original Drupal pixture_reloaded theme's kb.js. Two
- * jobs:
- *
- *   1. Wire up the four "Show standard / English / grammar / words"
- *      buttons to toggle a corresponding `show-{s,e,g,w}` class on
- *      the parent .skit container. CSS handles the actual visibility.
- *
- *   2. On page load, walk every .skit-g and .skit-w line and convert
- *      `(NNN surface_text)` inline markers (inherited from the bazaar
- *      text format) into <a> links pointing at the relevant grammar
- *      point or word entry page. Multiple markers per line are
- *      supported.
- *
- * Vanilla JS, no dependencies. The original used jQuery + jQuery UI;
- * neither is needed.
- */
-
 (function () {
   "use strict";
 
   var MARKER_RE = /\((\d+)([^)]+)\)/g;
   var BASE = (document.querySelector('meta[name="baseurl"]') || {}).content || "";
+  var SHOW_RE = /^show/i;
 
   function renderLinks(li, kind) {
     var dest = kind === "g" ? "grammar_points" : "words";
+    var linkClass = kind === "g" ? "conv-link-emph-one" : "conv-link-emph-two";
     var raw = li.textContent;
     if (raw.indexOf("(") === -1) return;
     var html = "";
@@ -36,7 +19,7 @@
       var id = match[1];
       var text = match[2];
       html +=
-        '<a class="skit-link skit-link-' + kind +
+        '<a class="' + linkClass +
         '" href="' + BASE + '/' + dest + "/" + id + '/">' +
         escapeHtml(text) + "</a>";
       lastIndex = MARKER_RE.lastIndex;
@@ -53,19 +36,87 @@
       .replace(/"/g, "&quot;");
   }
 
-  function wireSkit(skit) {
-    // Wire toggle buttons.
-    var buttons = skit.querySelectorAll(".skit-toggle");
-    buttons.forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        var layer = btn.dataset.layer;
-        if (!layer) return;
-        skit.classList.toggle("show-" + layer);
-        btn.classList.toggle("is-active");
-      });
+  function setLayerVisible(skit, cls, visible) {
+    skit.querySelectorAll("." + cls).forEach(function (el) {
+      el.style.display = visible ? "list-item" : "none";
     });
+  }
 
-    // Render the (NNN ...) markers in grammar and word layers.
+  function setBtnLabel(btn, label) {
+    btn.textContent = label;
+  }
+
+  function wireSkit(skit) {
+    var btnS = skit.querySelector(".skit-toggle-s");
+    var btnE = skit.querySelector(".skit-toggle-e");
+    var btnG = skit.querySelector(".skit-toggle-g");
+    var btnW = skit.querySelector(".skit-toggle-w");
+
+    // Standard toggle — independent
+    if (btnS) {
+      btnS.addEventListener("click", function () {
+        if (SHOW_RE.test(btnS.textContent)) {
+          setLayerVisible(skit, "skit-s", true);
+          setBtnLabel(btnS, "Hide Standard");
+        } else {
+          setLayerVisible(skit, "skit-s", false);
+          setBtnLabel(btnS, "Show Standard");
+        }
+      });
+    }
+
+    // English toggle — independent
+    if (btnE) {
+      btnE.addEventListener("click", function () {
+        if (SHOW_RE.test(btnE.textContent)) {
+          setLayerVisible(skit, "skit-e", true);
+          setBtnLabel(btnE, "Hide English");
+        } else {
+          setLayerVisible(skit, "skit-e", false);
+          setBtnLabel(btnE, "Show English");
+        }
+      });
+    }
+
+    // Grammar toggle — mutually exclusive with Words, replaces bare Kansai
+    if (btnG) {
+      btnG.addEventListener("click", function () {
+        if (SHOW_RE.test(btnG.textContent)) {
+          setLayerVisible(skit, "skit-g", true);
+          setLayerVisible(skit, "skit-k", false);
+          setLayerVisible(skit, "skit-w", false);
+          setBtnLabel(btnG, "Hide Grammar");
+          if (btnW) setBtnLabel(btnW, "Show Words");
+        } else {
+          setLayerVisible(skit, "skit-k", true);
+          setLayerVisible(skit, "skit-g", false);
+          setLayerVisible(skit, "skit-w", false);
+          setBtnLabel(btnG, "Show Grammar");
+          if (btnW) setBtnLabel(btnW, "Show Words");
+        }
+      });
+    }
+
+    // Words toggle — mutually exclusive with Grammar, replaces bare Kansai
+    if (btnW) {
+      btnW.addEventListener("click", function () {
+        if (SHOW_RE.test(btnW.textContent)) {
+          setLayerVisible(skit, "skit-w", true);
+          setLayerVisible(skit, "skit-k", false);
+          setLayerVisible(skit, "skit-g", false);
+          setBtnLabel(btnW, "Hide Words");
+          if (btnG) setBtnLabel(btnG, "Show Grammar");
+        } else {
+          setLayerVisible(skit, "skit-k", true);
+          setLayerVisible(skit, "skit-w", false);
+          setLayerVisible(skit, "skit-g", false);
+          setBtnLabel(btnW, "Show Words");
+          if (btnG) setBtnLabel(btnG, "Show Grammar");
+        }
+      });
+    }
+
+    // Render inline markers as links
     skit.querySelectorAll(".skit-g").forEach(function (li) { renderLinks(li, "g"); });
     skit.querySelectorAll(".skit-w").forEach(function (li) { renderLinks(li, "w"); });
   }

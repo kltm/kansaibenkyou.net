@@ -364,6 +364,13 @@ h1, h2, h3 { color: var(--color-header-dark); }
    Conversation page
    ---------------------------------------------------------------- */
 
+.conversation-example {
+  background: #eaf9f2;
+  padding: 1.5em;
+  border: 1px solid #999;
+  margin-top: 0.5em;
+}
+
 .conversation-header { margin-bottom: 1.5rem; }
 .conversation-title {
   margin: 0 0 0.3rem 0;
@@ -396,23 +403,17 @@ h1, h2, h3 { color: var(--color-header-dark); }
 }
 
 .skit-toggle {
-  padding: 0.35rem 0.75rem;
-  border: 1px solid var(--color-accent);
-  background: #fff;
-  color: var(--color-accent);
+  padding: 0.3rem 0.6rem;
+  border: 1px solid #3a6db5;
+  background: #5283ff;
+  color: #fff;
   border-radius: var(--radius);
   font-size: 0.85rem;
   cursor: pointer;
-  transition: background 0.15s, color 0.15s;
 }
 
 .skit-toggle:hover {
-  background: var(--color-stanza-alt);
-}
-
-.skit-toggle.is-active {
-  background: var(--color-accent);
-  color: #fff;
+  background: #1c44a9;
 }
 
 .skit-table {
@@ -448,31 +449,33 @@ h1, h2, h3 { color: var(--color-header-dark); }
 
 .skit-line { margin: 0.15rem 0; }
 
+/* Initially hidden — JS controls visibility via inline display */
 .skit-line.skit-g,
 .skit-line.skit-w,
 .skit-line.skit-s,
 .skit-line.skit-e { display: none; }
 
-.skit.show-g .skit-line.skit-g { display: list-item; }
-.skit.show-w .skit-line.skit-w { display: list-item; }
-.skit.show-s .skit-line.skit-s {
-  display: list-item;
-  color: #555;
-  font-size: 0.95em;
-}
-.skit.show-e .skit-line.skit-e {
-  display: list-item;
-  color: var(--color-muted);
-  font-size: 0.93em;
-  font-style: italic;
-}
+/* Layer text colors — matching the original pixture_reloaded theme */
+.skit-line.skit-s { color: blue; }
+.skit-line.skit-e { color: green; }
+.skit-line.skit-g { color: grey; }
+.skit-line.skit-w { color: grey; }
 
-.skit-link {
-  color: var(--color-link);
+/* Grammar annotation links — purple bold (original: .conv-link-emph-one) */
+.conv-link-emph-one {
+  color: purple;
+  font-weight: bold;
   text-decoration: none;
-  border-bottom: 1px dashed var(--color-accent);
 }
-.skit-link:hover { background: #fef9e7; }
+.conv-link-emph-one:hover { background: #f3e8f3; }
+
+/* Word annotation links — brown bold (original: .conv-link-emph-two) */
+.conv-link-emph-two {
+  color: brown;
+  font-weight: bold;
+  text-decoration: none;
+}
+.conv-link-emph-two:hover { background: #fef3e8; }
 
 /* ----------------------------------------------------------------
    Index tables (vocab, grammar, conversations)

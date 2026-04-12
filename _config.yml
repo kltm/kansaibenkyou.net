@@ -75,7 +75,7 @@ nav_menu:
       - title: When to use Kansai-ben?
         url: /what/#when
   - title: Example conversations
-    url: /conversations/
+    url: /example-conversations/
   - title: Grammar
     url: /grammar/
     children:
