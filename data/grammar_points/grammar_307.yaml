@@ -1,0 +1,70 @@
+id: grammar_307
+drupal_node_id: 307
+title: Particles “で” and “ど”
+body: The Kansai-ben final particles で and ど have a function that draws attention to something that the
+  listener might not know. In addition, they can also be used for assertion, question, admonition, and
+  occasionally warning. These final particles are like よ and ぜ in standard Japanese.
+commentary: 'で vs. ど
+
+  Some people may use ど instead of で; ど has a more masculine and rough feeling.
+
+  ＿＿ど
+
+  Standard
+
+  いいかげんにしないと、怒るぜ。
+
+  Kansai-ben
+
+  ええかげんにせんと、怒るど。
+
+  English
+
+  I''m gunna get angry if you don''t start behaving yourself.
+
+  で vs. がな
+
+  で has a is similar, but weaker, meaning when compared to がな. Please see the がな page for more details.'
+example: '＿＿で (assertion)
+
+  Standard
+
+  ちがうよ。今日は水曜だよ。
+
+  Kansai-ben
+
+  ちゃうで。今日は水曜やで。
+
+  English
+
+  No, today is Wednesday.
+
+  ＿＿で (admonition)
+
+  Standard
+
+  宿題は家でしないとだめだよ。
+
+  Kansai-ben
+
+  宿題は家でせなあかんで。
+
+  English
+
+  You should do your homework at home.'
+kansai_vs_standard: 'Standard
+
+  ＿＿＿よ
+
+  ＿＿＿ぜ
+
+  Kansai-ben
+
+  ＿＿＿で
+
+  ＿＿＿ど'
+function_types:
+- function_131
+- function_117
+grammar_types:
+- grammar_86

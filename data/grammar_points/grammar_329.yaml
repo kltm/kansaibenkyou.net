@@ -1,0 +1,64 @@
+id: grammar_329
+drupal_node_id: 329
+title: Vんと
+body: 'Although Kansai-ben has the conditional clause __と__ like in standard Japanese, the negative form
+  Vんと can have a different function depending on the intonation.
+
+  While Vんと without a downstep? is the normal conditional clause, Vんと with a downstep can mean "do not
+  V?" or "without doing V", similar to Vないで(ください) and Vせずに in standard Japanese.'
+example: 'Vないと (conditional clause)
+
+  Standard
+
+  そろそろ行かないと遅刻するよ。
+
+  Kansai-ben
+
+  そろそろ行かんと遅刻するで。
+
+  English
+
+  If you don''t leave soon you''ll be late.
+
+  Vないで (negative imperative)
+
+  Standard
+
+  仕事ばっかりしないでたまには私と遊んでよ。
+
+  Kansai-ben
+
+  仕事ばっかりせんとたまにはうちと遊んでや。
+
+  English
+
+  You shouldn''t just work, you know—every once in a while you should come out with me.
+
+  Vせずに
+
+  Standard
+
+  あいつ、全然仕事せずに携帯ばっかりさわってるよ。
+
+  Kansai-ben
+
+  あいつ、いっこも仕事せんと携帯ばっかりいじっとるわ。
+
+  English
+
+  He''s always fiddling with his cell phone and not doing any work.'
+kansai_vs_standard: 'Standard
+
+  Vないと
+
+  Vないで(ください)
+
+  Vせずに
+
+  Kansai-ben
+
+  Vんと'
+function_types:
+- function_23
+grammar_types:
+- grammar_66

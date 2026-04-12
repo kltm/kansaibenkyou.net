@@ -1,0 +1,171 @@
+id: grammar_333
+drupal_node_id: 333
+title: Vとく／Vんとく
+body: 'The standard Vておく, when used in a sentence to indicate preparation, may become Vとく in Kansai-ben.
+  Similarly, Vないでおく may become Vんとく.
+
+  It should be noted that Vんとく may be also used as a suggestion and warning, in addition its usual "preparation"
+  meaning.'
+commentary: 'Vとけへん, Vといて／Vとって
+
+  The Vておかない in standard Japanese may become Vとけへん in Kansai-ben. Similarly for Vておいて becoming Vといて or
+  Vとって in Kansai-ben.
+
+  Vとけへん
+
+  Standard
+
+  週末、パーティーするから、飲み物買っておかない？
+
+  Kansai-ben
+
+  週末、パーティーするから、飲み物買うとけへん？
+
+  English
+
+  There''s a party this weekend, so should we buy some drinks?
+
+  Vといて／Vとって
+
+  Standard
+
+  まだ準備できていないんだ。先に行っておいて。
+
+  Kansai-ben
+
+  まだ準備できてないねん。先に行っといて。
+
+  まだ準備できてないねん。先に行っといて。
+
+  English
+
+  I''m not ready yet. You can go ahead.
+
+  Request: Vんといて
+
+  Kansai-ben''s Vんといて can be used like standard Japanese''s Vないで(ください).
+
+  Vんといて
+
+  Standard
+
+  私の部屋に勝手に入らないで。
+
+  Kansai-ben
+
+  うちの部屋に勝手に入らんといて。
+
+  English
+
+  Don''t come in my room.
+
+  Giving advice: Vとき, Vんとき
+
+  Vとき and Vんとき are used when giving advice and suggestions.
+
+  Vとき
+
+  Standard
+
+  今日、帰り遅くなるから、先に寝てね。
+
+  Kansai-ben
+
+  今日、帰り遅なるよって、先に寝とき。
+
+  English
+
+  I''m going to come home late today, so don''t wait up.
+
+  Vんとき
+
+  Standard
+
+  もう飲まないほうがいいよ。明日、二日酔いになるよ。
+
+  Kansai-ben
+
+  もう飲まんとき。明日、二日酔いになるで。
+
+  English
+
+  If you don''t stop drinking, you''ll have a hangover tomorrow.'
+example: 'Vとく
+
+  Standard
+
+  今日、エリのたんじょうびだからケーキ買っておくよ。
+
+  Kansai-ben
+
+  今日、エリのたんじょうびやよってケーキ買うとくわ。
+
+  English
+
+  Today is Eri''s birthday, so I''ll buy a cake.
+
+  Vんとく
+
+  Standard
+
+  今日は疲れているから飲みに行かないでおくよ。
+
+  Kansai-ben
+
+  今日はしんどいから飲みに行かんとくわ。
+
+  English
+
+  I''m tired so I''ll pass on going out for drinks today.'
+formation: 'Vとく
+
+  V? (te-form? but use と instead of final て) +く
+
+  Vんとく
+
+  V? (short negative form?) +とく'
+formation_from_standard: 'Vとく
+
+  Standard
+
+  行って　おく
+
+  Kansai-ben
+
+  行っ と く
+
+  Vんとく
+
+  Standard
+
+  行かないで　おく
+
+  Kansai-ben
+
+  行かん と く'
+kansai_vs_standard: 'Vとく (affirmative)
+
+  Standard
+
+  Vておく
+
+  Kansai-ben
+
+  Vとく
+
+  Vんとく (negative)
+
+  Standard
+
+  Vないでおく
+
+  Kansai-ben
+
+  Vんとく'
+function_types:
+- function_117
+- function_34
+- function_35
+- function_30
+grammar_types:
+- grammar_93

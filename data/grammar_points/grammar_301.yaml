@@ -1,0 +1,209 @@
+id: grammar_301
+drupal_node_id: 301
+title: Te-form and ta-form (verbs)
+body: 'Looking from standard Japanese to Kansai-ben, there are some differences in the final vowels of
+  the te-form? and ta-form? when the verb ends with [au], [ou], or [uu] sounds.
+
+  The first case is for verbs where the dictionary form? is just two characters (かう, すう, etc.). In this
+  case the sound before the う extends (vowel extension).
+
+  The second case is for the other verbs. In this case the sound before the う can extend (vowel extension),
+  but not necessarily.'
+example: 'The two character case
+
+  -au
+
+  -ou
+
+  -uu
+
+  Standard
+
+  Kansai-ben
+
+  Standard
+
+  Kansai-ben
+
+  Standard
+
+  Kansai-ben
+
+  dictionary form?
+
+  かう
+
+  かう
+
+  (kau)
+
+  よう
+
+  よう
+
+  (you)
+
+  すう
+
+  すう
+
+  (suu)
+
+  te-form?
+
+  かって
+
+  こうて
+
+  (koote)
+
+  よって
+
+  ようて
+
+  (yoote)
+
+  すって
+
+  すうて
+
+  (suute)
+
+  ta-form?
+
+  かった
+
+  こうた
+
+  (koota)
+
+  よった
+
+  ようた
+
+  (yoota)
+
+  すった
+
+  すうた
+
+  (suuta)
+
+  The general case
+
+  -au
+
+  -ou
+
+  -uu
+
+  Standard
+
+  Kansai-ben
+
+  Standard
+
+  Kansai-ben
+
+  Standard
+
+  Kansai-ben
+
+  dictionary form?
+
+  うたう
+
+  うたう
+
+  (utau)
+
+  さそう
+
+  さそう
+
+  (sasou)
+
+  ふるう
+
+  ふるう
+
+  (furuu)
+
+  te-form?
+
+  (long)
+
+  うたって
+
+  うとうて
+
+  (utoote)
+
+  さそって
+
+  さそうて
+
+  (sasoote)
+
+  ふるって
+
+  ふるうて
+
+  (furuute)
+
+  te-form
+
+  (short)
+
+  うとて
+
+  (uto_te)
+
+  さそて
+
+  (saso_te)
+
+  ふるて
+
+  (furu_te)
+
+  ta-form?
+
+  (long)
+
+  うたった
+
+  うとうた
+
+  (utoota)
+
+  さそった
+
+  さそうた
+
+  (sasoota)
+
+  ふるった
+
+  ふるうた
+
+  (furuuta)
+
+  ta-form
+
+  (short)
+
+  うとた
+
+  (uto_ta)
+
+  さそた(saso_ta)
+
+  ふるた
+
+  (furu_ta)'
+function_types:
+- function_137
+grammar_types:
+- grammar_46
+- grammar_47

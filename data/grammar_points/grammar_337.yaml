@@ -1,0 +1,123 @@
+id: grammar_337
+drupal_node_id: 337
+title: Te-form (i-adjectives)
+body: There are some cases where the te-form? of i-adjectives in Kansai-ben is different from those in
+  standard Japanese. Please pay attention to the sound before the final い--when it is [a], [i],  [u],
+  or [o] it may change.
+formation: 'When the sound before the final い is [a]
+
+  Replace the [a] with [o] and add うて to the end.
+
+  ら
+
+  や
+
+  ま
+
+  は
+
+  な
+
+  た
+
+  さ
+
+  か
+
+  あ
+
+  ↓
+
+  ↓
+
+  ↓
+
+  ↓
+
+  ↓
+
+  ↓
+
+  ↓
+
+  ↓
+
+  ↓
+
+  ろ
+
+  よ
+
+  も
+
+  ほ
+
+  の
+
+  と
+
+  そ
+
+  こ
+
+  お
+
+  Basic form
+
+  はやい
+
+  いたい
+
+  あかい
+
+  Te-form?
+
+  はようて
+
+  いとうて
+
+  あこうて
+
+  When the sound before the final い is [i]
+
+  There are two cases: -しい becomes -しゅう and -きい becomes  -きゅう before adding the て.
+
+  Basic form
+
+  たのしい
+
+  おおきい
+
+  Te-form?
+
+  たのしいて
+
+  たのしゅうて
+
+  おおきいて
+
+  おおきゅうて
+
+  When the sound before the final い is [u] or [o]
+
+  Replace the final い with an う and add て. It should be noted that the う is often omitted (dropping "う").
+
+  Basic form
+
+  あつい
+
+  おおい
+
+  Te-form?
+
+  あつうて
+
+  あつて
+
+  おおうて
+
+  おおて'
+function_types:
+- function_137
+grammar_types:
+- grammar_142

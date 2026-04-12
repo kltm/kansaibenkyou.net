@@ -1,0 +1,53 @@
+id: grammar_303
+drupal_node_id: 303
+title: Particles “へ” and “に”
+body: In most Japanese textbooks, the destination particle (i.e., 学校に行く) can be either に or へ. However,
+  in Kansai, most people just use へ. Similarly, while In standard Japanese the objective particle (i.e.,
+  買い物に行く) has to be に, へ can also be used in Kansai-ben. However, for the location partical (i.e., いすの下に),
+  only に can used both in standard Japanese and Kansai-ben.
+example: 'Destination particle へ
+
+  Standard
+
+  ３時ごろ、学校に行くよ。
+
+  Kansai-ben
+
+  ３時ごろ、学校へ行くわ。
+
+  English
+
+  I''m going to school around 3 o''clock.
+
+  Objective particle へ
+
+  Standard
+
+  買い物に行ってきたんだ。
+
+  Kansai-ben
+
+  買いもんへ行ってきてん。
+
+  English
+
+  I went shopping.
+
+  Location particle に
+
+  Standard
+
+  いすの下にねこがいる。
+
+  Kansai-ben
+
+  いすの下にねこがおる。
+
+  English
+
+  There''s a cat under the chair.'
+function_types:
+- function_113
+- function_112
+grammar_types:
+- grammar_78

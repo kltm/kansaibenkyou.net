@@ -1,0 +1,93 @@
+id: grammar_336
+drupal_node_id: 336
+title: Vよ
+body: In Kansai-ben, the final う sound of the volitional form? is often omitted (Dropping "う"), so the
+  volitional form may become V?(よ).
+example: 'Standard
+
+  明日、学校休もうと思っているんだ。
+
+  Kansai-ben
+
+  明日、学校休も思てるねん。
+
+  English
+
+  I''m thinking about not going to school tomorrow.'
+formation: '食べる (ru-verb?)
+
+  行く
+
+  (u-verb?)
+
+  くる
+
+  (irregular verb?)
+
+  する
+
+  (irregular verb)
+
+  Standard
+
+  食べよう
+
+  行こう
+
+  こよう
+
+  しよう
+
+  Kansai-ben
+
+  食べよ＿
+
+  行こ＿
+
+  こよ＿
+
+  しよ＿'
+formation_from_standard: '食べる (ru-verb?)
+
+  行く
+
+  (u-verb?)
+
+  くる
+
+  (irregular verb?)
+
+  する
+
+  (irregular verb)
+
+  Standard
+
+  食べよう
+
+  行こう
+
+  こよう
+
+  しよう
+
+  Kansai-ben
+
+  食べよ＿
+
+  行こ＿
+
+  こよ＿
+
+  しよ＿'
+kansai_vs_standard: 'Standard
+
+  V?(よ)う
+
+  Kansai-ben
+
+  V(よ)'
+function_types:
+- function_141
+grammar_types:
+- grammar_140

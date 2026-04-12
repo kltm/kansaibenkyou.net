@@ -1,0 +1,170 @@
+id: grammar_313
+drupal_node_id: 313
+title: Suffix “さん” and “ちゃん”
+body: 'In Kansai-ben, the honorific title さん and ちゃん can be used for non-humans, such as for food or greetings.
+  This usage my originate with the polite words and phrases from court language1.
+
+  1. Maeda, I. (1977) Osakaben, Tokyo: Asahi Shinbunsha Asahisensyo'
+example: '〜さん
+
+  Word list (food)
+
+  Standard
+
+  Kansai-ben
+
+  English
+
+  あげ
+
+  おあげさん
+
+  deep fried tofu skin
+
+  いなりずし
+
+  おいなりさん
+
+  inari
+
+  いも
+
+  おいもさん
+
+  potato
+
+  かゆ
+
+  おかいさん
+
+  porridge
+
+  まめ
+
+  おまめさん
+
+  beans
+
+  おかいさん
+
+  Standard
+
+  今日のお昼ごはん、おかゆでいい？
+
+  Kansai-ben
+
+  今日のお昼、おかいさんでええか。
+
+  English
+
+  Can we have porridge for lunch?
+
+  Word list (greetings)
+
+  Standard
+
+  Kansai-ben
+
+  English
+
+  ありがとう
+
+  ありがと(う)さん
+
+  Thank you.
+
+  おせわさま
+
+  おせわさん
+
+  As always, thank you for your help. [Used when meeting in certain social contexts.]
+
+  おはよう
+
+  おはようさん
+
+  Good morning.
+
+  おめでとう
+
+  おめでと(う)さん
+
+  Congratulations.
+
+  ごきげんよう
+
+  ごきげんさん
+
+  Take care.
+
+  ごくろうさま
+
+  ごくろうさん
+
+  Good job, thank you for your work.
+
+  おはようさん
+
+  Standard
+
+  おはよう。今日も寒いねえ。
+
+  Kansai-ben
+
+  おはようさん。今日も寒いなあ。
+
+  English
+
+  Good morning. It sure is cold again today, isn''t it?
+
+  Word list (other)
+
+  Standard
+
+  Kansai-ben
+
+  English
+
+  お日様
+
+  おひぃさん
+
+  the Sun
+
+  かまど
+
+  おくどさん
+
+  kitchen
+
+  〜ちゃん
+
+  Standard
+
+  Kansai-ben
+
+  English
+
+  飴(あめ)
+
+  あめちゃん
+
+  candy
+
+  あめちゃん
+
+  Standard
+
+  あめ食べる？
+
+  Kansai-ben
+
+  あめちゃん食べるかあ？
+
+  English
+
+  Would you like some candy?'
+function_types:
+- function_122
+grammar_types:
+- grammar_92

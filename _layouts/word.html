@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{%- assign w = site.data.words[page.data_id] -%}
+{%- if w == nil -%}
+  <p class="error">No word data for <code>{{ page.data_id }}</code>.</p>
+{%- else -%}
+
+<article class="word-entry">
+
+  <header>
+    <h1 class="word-title">{{ w.title }}</h1>
+  </header>
+
+  {%- if w.body %}
+    <section class="word-definition">
+      <h2>Definition</h2>
+      <p>{{ w.body }}</p>
+    </section>
+  {%- endif %}
+
+  {%- if w.standard_kana or w.standard_kanji %}
+    <section class="word-standard">
+      <h2>Standard Japanese</h2>
+      <dl>
+        {%- if w.standard_kana %}
+          <dt>Kana</dt><dd>{{ w.standard_kana }}</dd>
+        {%- endif %}
+        {%- if w.standard_kanji %}
+          <dt>Kanji</dt><dd>{{ w.standard_kanji }}</dd>
+        {%- endif %}
+      </dl>
+    </section>
+  {%- endif %}
+
+  {%- if w.commentary %}
+    <section class="word-commentary">
+      <h2>Notes</h2>
+      <p>{{ w.commentary }}</p>
+    </section>
+  {%- endif %}
+
+</article>
+
+{%- endif -%}

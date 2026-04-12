@@ -1,0 +1,99 @@
+id: grammar_339
+drupal_node_id: 339
+title: Short forms of verbs
+body: As in standard Japanese, there are many short forms for verbs in Kansai-ben.
+kansai_vs_standard: 'Standard
+
+  (long)
+
+  Standard
+
+  (short)
+
+  Kansai-ben
+
+  (long)
+
+  Kansai-ben
+
+  (short)
+
+  Example
+
+  Vておかなければ
+
+  Vておかなきゃ
+
+  Vておかな／
+
+  Vておかんと
+
+  Vとかな／
+
+  Vとかんと
+
+  食べとかなあかん／
+
+  食べとかんとあかん
+
+  Vていなければ
+
+  (Vておらなければ)
+
+  Vていなきゃ
+
+  (Vておらなきゃ)
+
+  ×
+
+  Vておらな／
+
+  Vておらんと
+
+  Vてな／Vてんと
+
+  Vとらな／
+
+  Vとらんと
+
+  食べてなあかん／
+
+  食べてんとあかん
+
+  食べとらなあかん／
+
+  食べとらんとあかん
+
+  Vてあげなければ
+
+  Vてあげなきゃ
+
+  Vてあげな／
+
+  Vてあげんと
+
+  Vたげな／Vたげんと
+
+  食べたげなあかん／
+
+  食べたげんとあかん
+
+  Vてしまわなければ
+
+  Vてしまわなきゃ
+
+  Vてしまわな／
+
+  Vてしまわんと
+
+  Vてまわな／
+
+  Vてまわんと
+
+  食べてまわなあかん／
+
+  食べてまわんとあかん'
+function_types:
+- function_137
+grammar_types:
+- grammar_145

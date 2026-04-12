@@ -1,0 +1,174 @@
+id: grammar_319
+drupal_node_id: 319
+title: Vたげる／Vたる
+body: The standard Vてあげる and Vてやる may become Vたげる and Vたる in Kansai-ben.
+commentary: 'When to use たる
+
+  Vたる is commonly used with somebody you''re on good terms with, such as between friends or a parent and
+  a  child.
+
+  Request Vたって and report Vたって
+
+  In Kansai-ben, depending on the intonation, Vたって can be used as either a request or to report something.
+  Vたって with a flat intonation is used as a request; with falling intonation it is used as to report something.
+
+  Vたって
+
+  request
+
+  田中さん、この写真見たって。
+
+  Hey Tanaka, would you look at this picture?
+
+  report
+
+  田中さん、この写真見たって。
+
+  I heard that Tanaka looked at this picture.
+
+  Vたって and requests for the speaker''s own sake
+
+  Unlike the analogous for in standard Japanese, in Kansai-ben Vたって can be used in requests for the speaker''s
+  own sake.
+
+  Vたって
+
+  Standard
+
+  もう許してくださいよ。
+
+  Kansai-ben
+
+  もう許したってや。
+
+  English
+
+  Won''t you forgive me?'
+example: 'Vたげる
+
+  Standard
+
+  この本、貸してあげるよ。
+
+  Kansai-ben
+
+  この本、貸したげるわ。
+
+  English
+
+  You can borrow this book from me.
+
+  Vたる
+
+  Standard
+
+  今日、昼ごはんおごってやるよ。
+
+  Kansai-ben
+
+  今日、昼めしおごったるわ。
+
+  English
+
+  I''ll buy you lunch today.'
+formation: 'Vたげる
+
+  The てあ in the standard Japanese Vてあげる can become た in Kansai-ben.
+
+  Standard
+
+  V?て　あげる
+
+  Kansai-ben
+
+  V　た　げる
+
+  Standard
+
+  書いて　あげる
+
+  Kansai-ben
+
+  書い　た　げる
+
+  Vたる
+
+  The てや in the standard Japanese Vてやる can become た in Kansai-ben.
+
+  Standard
+
+  V?て　やる
+
+  Kansai-ben
+
+  V　た　る
+
+  Standard
+
+  書いて　やる
+
+  Kansai-ben
+
+  書い　た　る'
+formation_from_standard: 'Vたげる
+
+  The てあ in the standard Japanese Vてあげる can become た in Kansai-ben.
+
+  Standard
+
+  V?て　あげる
+
+  Kansai-ben
+
+  V　た　げる
+
+  Standard
+
+  書いて　あげる
+
+  Kansai-ben
+
+  書い　た　げる
+
+  Vたる
+
+  The てや in the standard Japanese Vてやる can become た in Kansai-ben.
+
+  Standard
+
+  V?て　やる
+
+  Kansai-ben
+
+  V　た　る
+
+  Standard
+
+  書いて　やる
+
+  Kansai-ben
+
+  書い　た　る'
+kansai_vs_standard: 'Vたげる
+
+  Standard
+
+  Vてあげる
+
+  Kansai-ben
+
+  Vたげる
+
+  Vたる
+
+  Standard
+
+  Vてやる
+
+  Kansai-ben
+
+  Vたる'
+function_types:
+- function_24
+grammar_types:
+- grammar_71

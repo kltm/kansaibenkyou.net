@@ -1,0 +1,60 @@
+id: grammar_332
+drupal_node_id: 332
+title: Vたある
+body: Vてある in standard Japanese, when used in the sense of preparation or state, may become Vたある in Kansai-ben
+commentary: 'Describing the state of something
+
+  Vたある in Kansai-ben can also be used like Vている in standard Japanese when describing the state of something.
+
+  Standard
+
+  あ、このパソコンこわれているよ。
+
+  Kansai-ben
+
+  あ、このパソコンこわれたあるで。
+
+  English
+
+  Well, this computer is broken.'
+example: 'Standard
+
+  ここに書いてあるじゃない。ちゃんと見てよ。
+
+  Kansai-ben
+
+  ここに書いたあるやん。ちゃんと見ぃや。
+
+  English
+
+  Look, it''s written here. Take another look.'
+formation: 'Vたある
+
+  V? (ta-form?) +ある'
+formation_from_standard: 'V? (non-past)
+
+  V (past)
+
+  Standard
+
+  書いて　ある
+
+  書いて　あった
+
+  Kansai-ben
+
+  書いた　ある
+
+  書いた　あった'
+kansai_vs_standard: 'Standard
+
+  Vてある
+
+  Kansai-ben
+
+  Vたある'
+function_types:
+- function_38
+- function_34
+grammar_types:
+- grammar_74

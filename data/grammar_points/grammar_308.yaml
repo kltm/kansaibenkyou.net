@@ -1,0 +1,54 @@
+id: grammar_308
+drupal_node_id: 308
+title: Particles “か”and “け” feeling
+body: 'In Kansai-ben, when the question particles か and け are added to the end of a sentence, whereas
+  they are often dropped in casual speech in
+
+  standard Japanese. It should be additionally noted that they are pronounced with  a rising intonation.'
+commentary: 'Reminding with かい
+
+  かい can be used as a questioning reminder.
+
+  もう宿題したの？
+
+  Kansai-ben
+
+  もう宿題したんかい。
+
+  English
+
+  Did you already finish your homework?
+
+  The further addition of a な, giving かいな can add an additional feeling of surprise, confusion, anger,
+  or others. See the かいな page for more details.'
+example: '＿＿か。
+
+  Standard
+
+  ケーキ、あと一つあるんだけど、食べない？
+
+  Kansai-ben
+
+  ケーキ、あと一つあんねんけど、食べへんか。
+
+  English
+
+  There is only one piece of cake left, would you like it?'
+kansai_vs_standard: 'Standard
+
+  ＿＿＿？(↑)
+
+  Kansai-ben
+
+  ＿＿＿？(↑)
+
+  ＿＿＿か
+
+  ＿＿＿け*
+
+  *The question particle け is most commonly used some parts of Kawachi (an eastern part of Osaka) and
+  Wakayama.'
+function_types:
+- function_57
+grammar_types:
+- grammar_75

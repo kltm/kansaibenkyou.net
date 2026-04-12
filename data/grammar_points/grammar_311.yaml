@@ -1,0 +1,254 @@
+id: grammar_311
+drupal_node_id: 311
+title: やん／やんか／やんけ／がな
+body: 'The standard Japanese endings __じゃないか,  __ではないか, and __じゃん can become __やん, __やんか/やんけ, and __がな
+  respectively in Kansai-ben.
+
+  These Kansai sentence endings can also be used in the same way as __んだよ in standard Japanese.
+
+  There are many uses for these sentence endings; common ones are confirmation, excuses, accusation, notification,
+  and persuasion. The function changes depending on the situation and tone. The __がな ending is used more
+  often by older people.'
+commentary: 'Combinations of sentence endings
+
+  やん, やんか, やんけ, and がな are often attached to other sentence endings for asking and explanations (e.g.,
+  ねん, てん, ん, のん and たん). In those cases, they are used in the same way as んだよ in standard Japanese.
+
+  ＿＿ねんやん(か)
+
+  Standard
+
+  夏休み、ハワイ行くんだよ。
+
+  Kansai-ben
+
+  夏休み、ハワイ行くねんやん(か)。
+
+  English
+
+  On summer vacation, I''m going to Hawaii.
+
+  ＿＿たんやん
+
+  Standard
+
+  あの人、実は彼女(が)いたんだよ。
+
+  Kansai-ben
+
+  あの人、実は彼女おったんやん(か)。
+
+  English
+
+  Actually, he has a girlfriend.
+
+  ＿＿んやがな
+
+  Standard
+
+  明日、まごが来るんだよ。
+
+  Kansai-ben
+
+  明日、まご来るんやがな。
+
+  English
+
+  My grandkid is coming tomorrow.
+
+  Polite Expressions
+
+  やん, やんか, やんけ, and がな can be used with ですor ます for politeness, but are rarely used in a formal setting.
+
+  ＿＿ましたやんか
+
+  Standard
+
+  昨日、電話すると言ったじゃないですか。
+
+  Kansai-ben
+
+  昨日、電話する言いましたやんか。
+
+  English
+
+  Didn''t I say that I was going to call you yesterday?
+
+  politeness level
+
+  high
+
+  昨日、電話すると言ったじゃないですか。
+
+  ↑
+
+  ↓
+
+  昨日、電話する言いましたやんか。
+
+  low
+
+  昨日、電話する言うたやんか。'
+example: '＿＿やんか (confirmation, accusation)
+
+  Standard
+
+  さっき、言ったじゃない。
+
+  Kansai-ben
+
+  さっき、言うたやんか。
+
+  English
+
+  Didn''t I just said that?
+
+  ＿＿やんか (excuse)
+
+  Standard
+
+  だって、あなた教えてくれなかったじゃない。
+
+  Kansai-ben
+
+  だって、あんた教えてくれへんかったやんか。
+
+  English
+
+  It''s because you didn''t let me know.
+
+  ＿＿やんか and ＿＿やわ (notification)
+
+  Standard
+
+  あ、もうこんな時間じゃない。
+
+  あ、もうこんな時間だわ。
+
+  Kansai-ben
+
+  あ、もうこんな時間やんか。
+
+  あ、もうこんな時間やわ*。
+
+  English
+
+  Ugh, it''s that time already?
+
+  *When やん, やんか, やんけ and がな are used as notification, they are used the same as the final particle わ.
+
+  ＿＿がな (persuasion)
+
+  Standard
+
+  きちんと説明したら分かってくれるんじゃないの。
+
+  きちんと説明したら分かってくれるよ。
+
+  Kansai-ben
+
+  ちゃんと説明したら分かってくれるがな。
+
+  English
+
+  They would understand if you explained it properly.'
+formation: '＿＿やん／やんか／やんけ
+
+  V? and i-Adj?
+
+  short form?+やん／やんか／やんけ*
+
+  na-Adj? and N?
+
+  stem?+やん／やんか／やんけ*
+
+  *やんけ is used more often by people in Kawachi (east of Osaka) and Wakayama.
+
+  ＿＿がな
+
+  V? and i-Adj?
+
+  short form?+がな
+
+  na-Adj? and N?
+
+  stem?+やがな'
+formation_from_standard: '＿＿やん／やんか／やんけ
+
+  V? (short-form)
+
+  i-Adj? (short-form)
+
+  na-Adj? (short-form)
+
+  N? (short-form)
+
+  Standard
+
+  行く　じゃないか
+
+  大きい　じゃないか
+
+  しずか　じゃないか
+
+  学生　じゃないか
+
+  Kansai-ben
+
+  行く　やん
+
+  行く　やんか
+
+  行く　やんけ
+
+  大きい　やん
+
+  大きい　やんか
+
+  大きい　やんけ
+
+  しずか　やん
+
+  しずか　やんか
+
+  しずか　やんけ
+
+  学生　やん
+
+  学生　やんか
+
+  学生　やんけ
+
+  ＿＿がな
+
+  V? (short-form)
+
+  i-Adj? (short-form)
+
+  na-Adj? (short-form)
+
+  N? (short-form)
+
+  Standard
+
+  行く　じゃないか
+
+  大きい　じゃないか
+
+  しずか　じゃないか
+
+  学生　じゃないか
+
+  Kansai-ben
+
+  行く　がな
+
+  大きい　がな
+
+  しずか　やがな
+
+  学生　やがな'
+function_types:
+- function_131
+grammar_types:
+- grammar_88

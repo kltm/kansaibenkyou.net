@@ -1,0 +1,53 @@
+id: grammar_326
+drupal_node_id: 326
+title: Vてまう
+body: The Vてしまう of standard Japanese, when used to indicate completion, can become Vてまう in Kansai-ben
+commentary: 'Question forms: Vて(し)まえへん and Vて(し)まわん
+
+  The question form of Vてまう is Vて(し)まえへん or Vて(し)まわん, with the choice up to the speaker.
+
+  Both are pronounced with a rising intonation.
+
+  Vて(し)まえへん
+
+  Standard
+
+  お父さん帰ってこないうちに食べてしまわない？
+
+  Kansai-ben
+
+  お父ちゃん帰ってこんまに食べて(し)まえへん？
+
+  English
+
+  Should we finish eating before dad gets home?'
+example: 'Standard
+
+  まだ時間あるから、おさら洗ってしまうよ。
+
+  Kansai-ben
+
+  まだ時間あるから、おさら洗ってまうわ。
+
+  English
+
+  There''s still a little time, I''ll finish up the dishes.'
+formation: V? (te-form?) +まう
+formation_from_standard: 'Standard
+
+  行って　しまう
+
+  Kansai-ben
+
+  行って　　まう'
+kansai_vs_standard: 'Standard
+
+  Vてしまう
+
+  Kansai-ben
+
+  Vてまう'
+function_types:
+- function_36
+grammar_types:
+- grammar_104

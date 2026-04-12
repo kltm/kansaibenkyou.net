@@ -1,0 +1,63 @@
+id: grammar_304
+drupal_node_id: 304
+title: Particle “わ”
+body: The final particle わ in Kansai-ben is basically like the よ final particle in standard Japanese.
+commentary: 'The Standard Japanese わ vs. the Kansai-ben わ
+
+  While the  Kansai-ben わ has the same form as the standard Japanese わ, unlike in standard Japanese, it
+  is used by both men and women. In addition, the Kansai-ben わ is pronounced with falling intonation.
+
+  Standard
+
+  この魚すごく安いわ。↑
+
+  [↓]
+
+  Kansai-ben
+
+  この魚めっちゃ安いわ。↓
+
+  [↓]
+
+  English
+
+  This fish is really cheap.
+
+  The わい of adding emphasis
+
+  Adding い after the final わ (making わい) can further emphasize the meaning.
+
+  Standard
+
+  もう何回も聞いたよ。
+
+  Kansai-ben
+
+  もう何べんも聞いたわい。
+
+  English
+
+  I already heard you.'
+example: 'Standard
+
+  これ、もういらないからあげるよ。
+
+  Kansai-ben
+
+  これ、もういらんからあげるわ。
+
+  English
+
+  I don''t need this anymore, so you can have it.'
+kansai_vs_standard: 'Standard
+
+  ＿＿＿よ
+
+  Kansai-ben
+
+  ＿＿＿わ'
+function_types:
+- function_119
+- function_118
+grammar_types:
+- grammar_87

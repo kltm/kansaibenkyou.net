@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{%- assign gp = site.data.grammar_points[page.data_id] -%}
+{%- if gp == nil -%}
+  <p class="error">No grammar point data for <code>{{ page.data_id }}</code>.</p>
+{%- else -%}
+
+<article class="grammar-point">
+
+  <header>
+    <h1 class="gp-title">{{ gp.title }}</h1>
+  </header>
+
+  {%- if gp.body %}
+    <section class="gp-body">
+      <p>{{ gp.body }}</p>
+    </section>
+  {%- endif %}
+
+  {%- if gp.kansai_vs_standard %}
+    <section class="gp-contrast">
+      <h2>Kansai-ben vs. Standard</h2>
+      <div class="gp-preformatted">{{ gp.kansai_vs_standard | newline_to_br }}</div>
+    </section>
+  {%- endif %}
+
+  {%- if gp.formation %}
+    <section class="gp-formation">
+      <h2>Formation</h2>
+      <div class="gp-preformatted">{{ gp.formation | newline_to_br }}</div>
+    </section>
+  {%- endif %}
+
+  {%- if gp.formation_from_standard %}
+    <section class="gp-formation-std">
+      <h2>From Standard Japanese</h2>
+      <div class="gp-preformatted">{{ gp.formation_from_standard | newline_to_br }}</div>
+    </section>
+  {%- endif %}
+
+  {%- if gp.example %}
+    <section class="gp-example">
+      <h2>Examples</h2>
+      <div class="gp-preformatted">{{ gp.example | newline_to_br }}</div>
+    </section>
+  {%- endif %}
+
+  {%- if gp.commentary %}
+    <section class="gp-commentary">
+      <h2>Notes</h2>
+      <div class="gp-preformatted">{{ gp.commentary | newline_to_br }}</div>
+    </section>
+  {%- endif %}
+
+</article>
+
+{%- endif -%}

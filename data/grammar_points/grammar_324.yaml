@@ -1,0 +1,67 @@
+id: grammar_324
+drupal_node_id: 324
+title: Vたらあかん／Vんといて／Vんとって
+body: The prohibition expression Vてはいけない can become Vたらあかん in Kansai-ben. Similarly, the Vないで in standard
+  Japanese can become either Vんといて or Vんとって in Kansai-ben. Paralleling standard Japanese, Vたらあかん expresses
+  strong prohibition while Vんといて and Vんとって express a request for prohibition.
+example: 'Vた(ら)あかん
+
+  Standard
+
+  あぶないから、こっちに来てはいけないよ。
+
+  Kansai-ben
+
+  あぶないよって、こっち来た(ら)あかんで。
+
+  English
+
+  It''s dangerous, so don''t come in.
+
+  Vんといて
+
+  Standard
+
+  これ、私のだから食べないでね。
+
+  Kansai-ben
+
+  これ、私のやから食べんといてや。
+
+  English
+
+  This is mine, so don''t eat it.'
+formation: 'Vたらあかん
+
+  V? (ta-form?) + (ら) +あかん
+
+  Vんといて／Vんとって
+
+  V? (short negative form?) +といて／とって'
+kansai_vs_standard: 'Vたらあかん
+
+  Standard
+
+  Vてはいけない
+
+  Kansai-ben
+
+  Vた(ら)*あかん
+
+  *ら is often omitted.
+
+  Vんといて／Vんとって
+
+  Standard
+
+  Vないで
+
+  Kansai-ben
+
+  Vんといて
+
+  Vんとって'
+function_types:
+- function_41
+grammar_types:
+- grammar_97

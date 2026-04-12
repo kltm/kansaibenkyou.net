@@ -1,0 +1,284 @@
+id: grammar_314
+drupal_node_id: 314
+title: かて／かって
+body: The standard particle も, when used as a marker for supplements (e.g., "I'd also like an apple.")
+  or surprise, may become かて and かって in Kansai-ben.
+commentary: 'Euphonic change in i-Adjecive sounds
+
+  Some people use the standard も instead of かて. When older people use も, a euphonic change often occur
+  in i-adjectives.
+
+  i-Adj? (affirmative)
+
+  i-Adj (negative)
+
+  Standard
+
+  大きくて　も
+
+  大きくなくて　も
+
+  Kansai-ben
+
+  大きゅうて　も
+
+  大きゅうのうて　も
+
+  そやかて, そうかて, and せやかて
+
+  The standard conjunctions for showing disagreement (それでも and でも) may become そやかて, そうかて, or せやかて.
+
+  Standard
+
+  いつまで食べているんだ。また太るよ。
+
+  え〜、でもおいしいんだもん。やめられないよ。
+
+  Kansai-ben
+
+  いつまで食べてんねん。また太るで。
+
+  え〜、そやかておいしいねんもん。やめられへんわ。
+
+  English
+
+  You''re still eating? You''re gunna get fat.
+
+  But it tastes sooo good. I can''t stop.'
+example: 'V? (affirmative) かて
+
+  Standard
+
+  ちょっとぐらい練習しても、どうせ負けるよ。
+
+  Kansai-ben
+
+  ちょっとぐらい練習したかて、どうせ負けるわ*。
+
+  English
+
+  It doesn''t matter if we practice a little, I know that we''re still gonna lose.
+
+  * かて can also express a speaker''s resignation, anxiousness, or "so‐what" attitude.
+
+  V? (negative)かて
+
+  Standard
+
+  一日ぐらい食べなくても、死なないよ。
+
+  Kansai-ben
+
+  一日ぐらい食べんかて、死ねへんわ。
+
+  English
+
+  You won''t die if you don''t eat for a day.
+
+  i-Adj? (affirmative) かて
+
+  Standard
+
+  いくらかわいくても、性格悪かったらだめだよ。
+
+  Kansai-ben
+
+  いくらかわいかったかて、性格悪かったらあかんで。
+
+  English
+
+  It doesn''t matter how cute she it if her personality is bad.
+
+  i-Adj? (negative) かて
+
+  Standard
+
+  おいしくなくても食べられたらいいじゃない。
+
+  Kansai-ben
+
+  おいしなかったかて食べられたらええやん。
+
+  English
+
+  Even if it''s not good, you should be happy you can eat at all.
+
+  na-Adj? (affirmative) かて
+
+  Standard
+
+  いくらしずかであったとしても、こんな不便な所はちょっとね。
+
+  Kansai-ben
+
+  いくらしずかやったかて、こんな不便なとこはちょっとな。
+
+  English
+
+  It doesn''t matter how quiet it is, the location isn''t really very convenient.
+
+  na-Adj? (negative) かて
+
+  Standard
+
+  便利じゃなかったとしても、しずかでいいところだね。
+
+  Kansai-ben
+
+  便利やなかったかて、しずかでええとこやな。
+
+  English
+
+  Even though it''s not convenient, it is really nice and quiet.
+
+  Nかて (parallel)
+
+  Standard
+
+  アメリカとカナダに*も住んだことあるんだ。
+
+  Kansai-ben
+
+  アメリカとカナダにかて住んだことあんねん。
+
+  English
+
+  I''ve lived in both America and Canada.
+
+  *Like standard Japanese, かて can be used with other particles such as に, から, で, and と.
+
+  Nやったかて (degree)
+
+  Standard
+
+  学生で(あって)も、割引ないんだよ。
+
+  Kansai-ben
+
+  学生やったかて、割引*あらへんのや。
+
+  English
+
+  Even if you''re a student, there is no discount.
+
+  *割引 = discount'
+formation: 'V?
+
+  affirmative
+
+  V (ta-form?) +かて／かって
+
+  negative
+
+  V (short negative) +かて／かって
+
+  i-Adj?
+
+  i-Adj (ta-form?) +かて／かって
+
+  na-Adj?
+
+  na-Adj (stem?) +やった+かて／かって
+
+  N?.
+
+  N (stem?) +やった+かて／かって
+
+  N (stem) +かて／かって'
+formation_from_standard: 'V?
+
+  V (affirmative)
+
+  V (negative)
+
+  Standard
+
+  食べて　も
+
+  食べなくて　も
+
+  Kansai-ben
+
+  食べた　かて
+
+  食べた　かって
+
+  食べん　かて
+
+  食べん　かって
+
+  i-Adj?
+
+  i-Adj (affirmative)
+
+  i-Adj (negative)
+
+  Standard
+
+  大きくて　も
+
+  大きくなくて　も
+
+  Kansai-ben
+
+  大きかった　かて
+
+  大きかった　かって
+
+  大きなかった　かて
+
+  大きなかった　かって
+
+  na-Adj?.
+
+  na-Adj (affirmative)
+
+  na-Adj (negative)
+
+  Standard
+
+  しずかであって　も
+
+  しずかでなくて　も
+
+  Kansai-ben
+
+  しずかやった　かて
+
+  しずかやなかった　かて
+
+  しずかやのうた*　かて
+
+  *のうたかて can be old‐fashioned.
+
+  N?
+
+  N+も
+
+  N+で(あって)も
+
+  Standard
+
+  学生　も
+
+  学生で(あって)　も
+
+  Kansai-ben
+
+  学生　かて
+
+  学生やった　かて'
+kansai_vs_standard: 'Standard
+
+  ＿＿も
+
+  Kansai-ben
+
+  ＿＿かて
+
+  ＿＿かって'
+function_types:
+- function_130
+- function_129
+grammar_types:
+- grammar_83

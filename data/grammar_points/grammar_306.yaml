@@ -1,0 +1,39 @@
+id: grammar_306
+drupal_node_id: 306
+title: Particle “や”
+body: Standard Japanese's final particle よ can become や in Kansai-ben, often in the sense of making a
+  demand.
+example: 'Standard
+
+  ちゃんと聞いてよ。
+
+  Kansai-ben
+
+  ちゃんと聞いてや。
+
+  English
+
+  Really listen to me.
+
+  Standard
+
+  あたらしいくつ、買ってよ。
+
+  Kansai-ben
+
+  あたらしくつ、買うてや。
+
+  English
+
+  Buy me some new shoes.'
+kansai_vs_standard: 'Standard
+
+  ＿＿＿や
+
+  Kansai-ben
+
+  ＿＿＿よ'
+function_types:
+- function_131
+grammar_types:
+- grammar_84

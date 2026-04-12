@@ -1,0 +1,56 @@
+id: grammar_320
+drupal_node_id: 320
+title: Vてもろた／Vてもうた
+body: 'Vてもらう in Kansai-ben is the same as standard Japanese, but the past tense from the dictionary form?
+  is different. The standard Japanese Vてもらった becomes Vてもろた or Vてもうた in Kansai-ben. もろた is the base for
+  in Kansai-ben, but may become もうた in use.
+
+  Please be aware that there is another, completely separate, Vてもうた that expresses repentance and regret.'
+example: 'Vてもろた
+
+  Standard
+
+  これ、彼に買ってもらった服なんだ。
+
+  Kansai-ben
+
+  これ、彼に買うてもろた服やねん。
+
+  English
+
+  My boyfriend bought these clothes for me.'
+formation: 'replace らっ in the standard Vてもらった by ろ or う.
+
+  Standard
+
+  Vて　もらった
+
+  Kansai-ben
+
+  Vて　も ろ た
+
+  Vて　も う た'
+formation_from_standard: 'replace らっ in the standard Vてもらった by ろ or う.
+
+  Standard
+
+  Vて　もらった
+
+  Kansai-ben
+
+  Vて　も ろ た
+
+  Vて　も う た'
+kansai_vs_standard: 'Standard
+
+  Vてもらった
+
+  Kansai-ben
+
+  Vてもろた
+
+  Vてもうた'
+function_types:
+- function_24
+grammar_types:
+- grammar_72

@@ -1,0 +1,60 @@
+id: grammar_305
+drupal_node_id: 305
+title: Particle  “な”
+body: The standard Japanese final particle ね can become な in Kansai-ben.
+commentary: 'Strong requests using Vてぇな
+
+  Extending the final え sound of the て-form of the verb makes the request stronger.
+
+  Vてえな (strong request)
+
+  Standard
+
+  明日、車貸してよね(ー)。
+
+  Kansai-ben
+
+  明日、車貸してぇな(あ)。
+
+  English
+
+  Would you please let me use your car tomorrow?'
+example: 'Demanding agreement
+
+  Standard
+
+  いい天気だね。
+
+  Kansai-ben
+
+  ええ天気やな。
+
+  English
+
+  The weather is nice, isn''t it?
+
+  Request confirmation
+
+  Standard
+
+  明日、車貸してね。
+
+  Kansai-ben
+
+  明日、車貸してな。
+
+  English
+
+  Tomorrow, you''re going to let me use the car, right?'
+kansai_vs_standard: 'Standard
+
+  ＿＿＿ね
+
+  Kansai-ben
+
+  ＿＿＿な'
+function_types:
+- function_125
+- function_123
+grammar_types:
+- grammar_85

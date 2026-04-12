@@ -1,0 +1,276 @@
+id: grammar_334
+drupal_node_id: 334
+title: ようV／ようVへん／ようVん
+body: 'Unlike standard Japanese, there are two types of potential form? depending on the situation: ability
+  potential and situational potential.  The ability potential, ようV, is often used with question and negative
+  (the negative form is ようVへん and ようV). The situational potential is the same as in standard Japanese.'
+commentary: 'The difference between ようVへん and ようVん
+
+  While ようVへん is used when the subject is third person (he/she/it), ようVん is mainly used when the subject
+  is first person (I). It should be noted that ようVん can be used with questions when the subject is the
+  second person (you).
+
+  Subjectivity with ようV and ようVん
+
+  ようVん is used not only with the ability negative potential but also when expressing disgust, blame, and
+  surprise. In the latter case, the よう in ようVん is the same meaning of よく in standard Japanese.
+
+  disgust/blame
+
+  Standard
+
+  そんな恥ずかしいことよくできるね。
+
+  Kansai-ben
+
+  そんな恥ずかしいことようするなあ。
+
+  English
+
+  I can''t do that--it would be so embarrassing.
+
+  surprise
+
+  Standard
+
+  君、よく食べるねえ。
+
+  Kansai-ben
+
+  あんた、よう食べるなあ。
+
+  English
+
+  You sure do eat a lot.
+
+  disgust/blame
+
+  Standard
+
+  そんなひどいことできないよ。
+
+  Kansai-ben
+
+  そんなえげつないことようせんわ。
+
+  English
+
+  I couldn''t do something that awful.
+
+  よう言わんわ
+
+  The common phrase "よう言わんわ" does not just mean to "not have much to say", but implies that the speaker
+  is strongly disgusted and they have nothing to say about the topic.
+
+  Standard
+
+  あいつ、またうわきしたのか。もう、何も言う言葉がないよ。
+
+  Kansai-ben
+
+  あいつ、またうわき*しよったんか。もう、よう言わんわ。
+
+  English
+
+  Has he been cheating again? I don''t have anything more to say (about that).
+
+  *うわき = unfaithful; cheat on someone
+
+  When to use V? (potential) へん and V (potential) ん
+
+  Only V (potential) へん and V (potential) ん can be used when the speaker wants to do something but they
+  are unable to. ようVへん and ようVん cannot be used in that case.
+
+  V (potential) へん
+
+  Standard
+
+  今、ダイエット中だから、甘いもの食べられないんだ。
+
+  Kansai-ben
+
+  今、ダイエット中やから、甘いもん食べられへんねん。
+
+  English
+
+  Since I''m on a diet, I can''t have anything sweet.'
+example: 'Ability potential
+
+  ようV
+
+  Standard
+
+  英語、話せる？
+
+  Kansai-ben
+
+  英語、よう話すか？
+
+  English
+
+  Can you speak in English?
+
+  ようVへん
+
+  Standard
+
+  うちの弟、よう泳がへんねん。
+
+  Kansai-ben
+
+  私の弟、泳げないんだ。
+
+  English
+
+  My younger brother can''t swim.
+
+  ようVん
+
+  Standard
+
+  足痛いから、走れないよ。
+
+  Kansai-ben
+
+  足痛いよって、よう走らんわ。
+
+  English
+
+  I can''t run because my legs hurt.
+
+  Situational potential
+
+  ようVん
+
+  Standard
+
+  それはひみつだから、言えないんだ。
+
+  Kansai-ben
+
+  それはひみつやから、言えへんねん。
+
+  English
+
+  I can''t tell you because it''s a secret.'
+formation: 'Ability potential
+
+  Affirmative
+
+  Negative
+
+  Standard
+
+  言える
+
+  言えない
+
+  Kansai-ben
+
+  よう言う
+
+  よう言わへん
+
+  よう言わん
+
+  Situational potential
+
+  Affirmative
+
+  Negative
+
+  Standard
+
+  言える
+
+  言えない
+
+  Kansai-ben
+
+  言える
+
+  言えへん
+
+  言えん'
+formation_from_standard: 'Ability potential
+
+  Affirmative
+
+  Negative
+
+  Standard
+
+  言える
+
+  言えない
+
+  Kansai-ben
+
+  よう言う
+
+  よう言わへん
+
+  よう言わん
+
+  Situational potential
+
+  Affirmative
+
+  Negative
+
+  Standard
+
+  言える
+
+  言えない
+
+  Kansai-ben
+
+  言える
+
+  言えへん
+
+  言えん'
+kansai_vs_standard: 'Ability potential
+
+  Affirmative
+
+  Negative
+
+  Standard
+
+  V? (potential)
+
+  V (potential) ない
+
+  Kansai-ben
+
+  ようV (dictionary)
+
+  ようV (negative stem?) へん
+
+  ようV (negative stem) ん
+
+  Situational potential
+
+  Affirmative
+
+  Negative
+
+  Standard
+
+  V? (potential)
+
+  V (potential) ない
+
+  Kansai-ben
+
+  V (potential)
+
+  V (potential) へん
+
+  V (potential) ん'
+function_types:
+- function_25
+grammar_types:
+- grammar_70

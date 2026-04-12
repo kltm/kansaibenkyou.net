@@ -1,0 +1,175 @@
+id: grammar_322
+drupal_node_id: 322
+title: Vな
+body: Like standard Japanese, Vな is also used in Kansai-ben for strong prohibition. However, instead of
+  the dictionary form? as in standard Japanese, the stem? form is used.
+commentary: 'Final るand Vんな
+
+  In the verbs that end with る, that final る often changes into ん.
+
+  Standard
+
+  食べるな
+
+  寝るな
+
+  Kansai-ben
+
+  食べんな
+
+  寝んな
+
+  Kansai-ben
+
+  (basic form)
+
+  食べな
+
+  寝ぇな
+
+  Vんな
+
+  Standard
+
+  こんなところで寝るなよ。
+
+  Kansai-ben
+
+  こんなとこで寝んなや。
+
+  English
+
+  You can''t sleep here.
+
+  The function of Vな can depend on the accent
+
+  Vな can have different function depending on the accent.
+
+  Vな with a downstep? = negative imperative (prohibition)
+
+  Vな without a downstep = affirmative imperative (giving advice)
+
+  (LHL) 飲みな
+
+  (LLL) 飲みな
+
+  Standard
+
+  もう、さけ飲むなよ。
+
+  あついからゆっくり飲むんだよ。
+
+  Kansai-ben
+
+  もう、さけ飲みなや。
+
+  [↓]
+
+  あついからゆっくり飲みな。
+
+  [↓]
+
+  English
+
+  You shouldn''t drink anymore.
+
+  It''s hot so drink it slowly.
+
+  L = low pitch?
+
+  H = high pitch
+
+  Other phrases of prohibition: Vたらあかん and Vんとき
+
+  Besides Vな, there are other phrases for prohibition such as Vたらあかん and Vんとき. The differences between
+  these three are in the degree of prohibition.
+
+  Standard
+
+  Kansai-ben
+
+  English
+
+  Vな
+
+  Vな
+
+  Don''t V?
+
+  Vたらだめ
+
+  Vたらあかん
+
+  You shouldn''t...
+
+  V しないで
+
+  from shinaide okinasai
+
+  Vんとき
+
+  Don''t V [fairly low key]
+
+  Vんとき
+
+  Standard
+
+  明日、二日よいになるから、もう飲まないで。
+
+  Kansai-ben
+
+  明日、二日よいになるよって、もう飲まんとき。
+
+  English
+
+  If you don''t stop drinking you''ll have a hangover tomorrow.'
+example: 'With u-verbs and ru-verbs that have stem? with two or more characters.
+
+  Standard
+
+  寝る　な
+
+  する　な
+
+  くる　な
+
+  Kansai-ben
+
+  寝ぇ　な
+
+  しぃ　な
+
+  きぃ　な
+
+  With ru-verbs that have single character stem? and irregular verbs.
+
+  Standard
+
+  行く　な
+
+  食べる　な
+
+  Kansai-ben
+
+  行き　な
+
+  食べ　　な'
+formation: 'u-verbs and ru-verbs that have stem? with two or more characters
+
+  V? (stem)
+
+  ru-verbs that have single character stem and irregular verbs
+
+  V (stem) with the final vowel extended'
+kansai_vs_standard: 'Standard
+
+  V? (dictionary form?) な
+
+  Kansai-ben
+
+  V (stem?) な'
+function_types:
+- function_41
+- function_29
+grammar_types:
+- grammar_62

@@ -1,0 +1,106 @@
+id: grammar_300
+drupal_node_id: 300
+title: どっこも／だぁれも／いっつも
+body: The standard Japanese どこ(へ)も, だれも, and いつも can become どっこも, だぁれも, and いっつも respectively in Kansai-ben.
+  The usage is the same as standard Japanese.
+commentary: 'The usage of いっつも
+
+  Like いつも in standard Japanese, いっつも can be used in affirmative sentences.
+
+  いっつも (affirmative)
+
+  Standard
+
+  ここ、いつもこんでるねえ。
+
+  Kansai-ben
+
+  ここ、いっつもこんでるなあ。
+
+  English
+
+  This place is always packed.'
+example: 'どっこもVへん
+
+  Standard
+
+  A:　夏休みどこか行くの？
+
+  B:　ううん、どこへも行かないんだ。
+
+  Kansai-ben
+
+  A:　夏休みどっか行くん？
+
+  B:　ううん、どっこも行けへんねん。
+
+  English
+
+  A:　Are you going to go to somewhere over summer break?
+
+  B:　No, I''m not going anywhere.
+
+  だぁれもVへん
+
+  Standard
+
+  今日はだれも来ないねえ。もう店しめようか。
+
+  Kansai-ben
+
+  今日はだぁれもけえへんなあ。もう店しめよか。
+
+  English
+
+  Nobody''s coming in today. Should we close up early?
+
+  いっつもVへん
+
+  Standard
+
+  あいつ、いつも来ないなあ。付き合いの悪いやつだ。
+
+  Kansai-ben
+
+  あいつ、いっつもけえへんなあ。付き合いの悪いやっちゃ。
+
+  English
+
+  She never comes, does she. So unsociable.'
+kansai_vs_standard: 'どっこも＋ (negative)
+
+  Standard
+
+  どこ(へ)もVない
+
+  Kansai-ben
+
+  どっこもVへん
+
+  だぁれも＋ (negative)
+
+  Standard
+
+  だれも__ない
+
+  Kansai-ben
+
+  だぁれもVへん
+
+  だぁれもAない
+
+  いっつも＋ (negative)
+
+  Standard
+
+  いつも__ない
+
+  Kansai-ben
+
+  いっつもVへん
+
+  いっつもAない'
+function_types:
+- function_58
+grammar_types:
+- grammar_64

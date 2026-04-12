@@ -1,0 +1,91 @@
+id: grammar_299
+drupal_node_id: 299
+title: いっこも／なんも
+body: The standard Japanese 全然 and なにも (please see your favorite textbook or teaching resource), when
+  used for complete negation, may become いっこも and なんも respectively in Kansai-ben.
+example: 'Standard
+
+  あの人の言っていること全然(なにも)分からないよ。
+
+  Kansai-ben
+
+  あの人の言うてることいっこも(なんも)分かれへんわ。
+
+  English
+
+  I have no idea what that person is saying.
+
+  Standard
+
+  このまんざい、全然(なにも)おもしろくないよ。
+
+  Kansai-ben
+
+  このまんざい、いっこも(なんも)おもろないわ。
+
+  English
+
+  This comedy team isn''t funny at all.
+
+  Standard
+
+  最近、全然(いっこうに)雨降らないねえ。
+
+  Kansai-ben
+
+  最近、いっこも雨降らへんなあ。
+
+  English
+
+  We haven''t had any rain recently.
+
+  Standard
+
+  今日は朝からなにも食べていないんだ。
+
+  Kansai-ben
+
+  今日は朝からなんも食べてへんねん。
+
+  English
+
+  I haven''t eaten anything since this morning.
+
+  Standard
+
+  たんじょうびといってもなにもほしくないよ。
+
+  Kansai-ben
+
+  たんじょうびいうてもなんもほしないわ。
+
+  English
+
+  I don''t want anything for my birthday.'
+kansai_vs_standard: 'Verb
+
+  Adjective
+
+  Standard
+
+  全然Vない
+
+  なにもVない
+
+  全然Aない
+
+  なにもAない
+
+  Kansai-ben
+
+  いっこもVへん
+
+  なんもVへん
+
+  いっこもAない
+
+  なんもAない'
+function_types:
+- function_58
+grammar_types:
+- grammar_63

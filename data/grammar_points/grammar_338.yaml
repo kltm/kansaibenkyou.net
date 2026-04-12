@@ -1,0 +1,117 @@
+id: grammar_338
+drupal_node_id: 338
+title: Vやる／Vよる
+body: Vやる and Vよる are used to express a speaker's strong feelings, such as surprise or contempt, when
+  the subject is neither the speaker nor the listener (a third-person subject). There is no such a grammar
+  point in standard Japanese.
+commentary: 'やる vs. よる
+
+  In general, Vやる is used by women and Vよる is used by men, but women could use Vよる if they want to show
+  stronger emotion.
+
+  やる/よる vs. はる
+
+  You may notice that the usage of Vやる and Vよる is similar to Vはる. However, it should be noted that Vはる
+  is usually used when referring to strangers, people of higher status, or people you respect, while Vやる
+  and Vよる are used for family members, close friends, or inferiors.
+
+  The feelings that Vやる and Vよる can express
+
+  While Vやる and Vよる can express speaker''s feelings such as surprise and contempt, there are cases where
+  they do not imply any strong feelings.
+
+  Standard
+
+  昨日、あなたのおばあさん、公園で寝ていたよ。
+
+  Kansai-ben
+
+  昨日、あんたのおばあちゃん、公園で寝てやったで。
+
+  English
+
+  Yesterday, your grandma was sleeping in the park.'
+example: 'Surprise
+
+  Standard
+
+  あいつ、とうとう結婚したよ。
+
+  Kansai-ben
+
+  あいつ、とうとう結婚しよったで。
+
+  English
+
+  He got married finally.
+
+  Contempt
+
+  Standard
+
+  あいつ、またふられたらしいよ。
+
+  Kansai-ben
+
+  あいつ、またふられよったらしいで。
+
+  English
+
+  She was dumped again.
+
+  Suspicion
+
+  Standard
+
+  あいつ、ここで何していたんだ。
+
+  Kansai-ben
+
+  あいつ、ここで何してやったんや。
+
+  English
+
+  I wonder what he was doing here.'
+formation: 'Dictionary form?
+
+  V? (stem?) +やる／よる
+
+  行く
+
+  →
+
+  行きやる
+
+  行きよる
+
+  寝る
+
+  →
+
+  寝やる
+
+  寝よる
+
+  来る
+
+  →
+
+  きやる
+
+  きよる
+
+  する
+
+  →
+
+  しやる
+
+  しよる
+
+  Vている／ていた form
+
+  V? (te-form?) +やる／やった'
+function_types:
+- function_26
+grammar_types:
+- grammar_103

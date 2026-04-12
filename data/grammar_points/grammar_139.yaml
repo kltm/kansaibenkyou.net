@@ -1,0 +1,202 @@
+id: grammar_139
+drupal_node_id: 139
+title: V (stem)
+body: The standard verb stem? form V? (stem)なさい can become just V (stem) in Kansai-ben. While this is
+  a strong imperative or command, it can also be used as a suggestion on occasion.
+commentary: 'V? (stem?) な and V (stem) や
+
+  By adding な or や to the end of the command/imperative form, you can create more subtle nuances.
+
+  Basic
+
+  Basic+な
+
+  Basic+や
+
+  Kansai-ben
+
+  早よ寝ぇ
+
+  早よ寝ぇな
+
+  早よ寝ぇや
+
+  Englishi
+
+  Go to bed.
+
+  Shouldn''t you be going to bed soon?
+
+  You should go to bed soon.
+
+  V? (stem?) よし
+
+  By adding よし to the end of the command/imperative form, you can soften it somewhat. This is mostly done
+  in female speech, and commonly done in the area of Kyoto.
+
+  When using this form, there is never and final vowel extension.
+
+  Standard
+
+  疲れたでしょ。お風呂に入れば？
+
+  Kansai-ben
+
+  疲れたやろ。お風呂入りよし。
+
+  English
+
+  You look beat. How does taking a bath sound?
+
+  Strong command/imperative
+
+  In Standard Japanese, one can strengthen the command/imperative by adding ろ (i.e. V? (stem?) ろ). This
+  is not, however, done in Kansai-ben. When you want to add the same kind of strength in Kansai-ben, intonation
+  and delivery are changed. The following examples give some demonstration, but please be warned: if you
+  try to use these, your first use could be your last.
+
+  Standard
+
+  とっとと立て！
+
+  立たないかコラ！
+
+  てめえ、立たないかコラ！
+
+  立てと言っているのが分からないのかコラ！
+
+  Kansai-ben
+
+  とっとと立て！
+
+  立たないかコラ！
+
+  てめえ、立たないかコラ！
+
+  立てっちゅうんが分からんのかワレ！
+
+  English
+
+  Stand up!
+
+  Stand the !”#$ up!
+
+  Stand the #$%& up you $%&''!
+
+  Stand the #$%& up you $%&''!!!!!'
+example: 'V? (stem?) as a strong imperative or command
+
+  Standard
+
+  またちこくするよ。早く起きなさい。
+
+  Kansai-ben
+
+  またちこくするで。早よ起き。
+
+  English
+
+  You''re going to be late again. Get up!
+
+  V? (stem?) as a suggestion
+
+  Standard
+
+  カレー作ったから食べなよ。
+
+  Kansai-ben
+
+  カレー作ったから食べ。
+
+  English
+
+  I made curry. You can eat it if you want.
+
+  V? (stem?) without final vowel extension
+
+  Standard
+
+  今日は雨降りそうだから、かさ持って行きなさい。
+
+  Kansai-ben
+
+  今日は雨降りそうやよって、かさ持って行き。
+
+  English
+
+  It looks like it''s gonna rain today--take your umbrella.
+
+  V? (stem?) with final vowel extension
+
+  Standard
+
+  まだ起きているの。早く寝なさい。
+
+  Kansai-ben
+
+  まだ起きてんのかいな。早よ寝ぇ。
+
+  English
+
+  Are you still up? Go to bed.'
+formation: 'u-verbs and ru-verbs that have stem? forms with two or more characters
+
+  V? (stem)
+
+  ru-verbs that have single character stem forms and irregular verbs
+
+  V (stem) , but with the final vowel extended'
+formation_from_standard: 'Cases where the final vowel is not extended
+
+  u-verbs
+
+  ru-verbs where the stem? form has two or more characters
+
+  Standard
+
+  行きなさい
+
+  食べなさい
+
+  Kansai-ben
+
+  行き＿＿＿
+
+  食べ＿＿＿
+
+  Cases where the final vowel is extended
+
+  ru-verbs where the stem? form is on character
+
+  する
+
+  来る
+
+  Standard
+
+  寝なさい
+
+  しなさい
+
+  きなさい
+
+  Kansai-ben
+
+  寝ぇ ＿＿＿
+
+  しぃ ＿＿＿
+
+  きぃ ＿＿＿'
+kansai_vs_standard: 'Standard
+
+  V? (stem?) なさい
+
+  Kansai-ben
+
+  V (stem)'
+function_types:
+- function_29
+grammar_types:
+- grammar_42
+- grammar_136
+- grammar_61

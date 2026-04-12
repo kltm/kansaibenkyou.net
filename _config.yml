@@ -24,6 +24,12 @@ collections:
   conversations:
     output: true
     permalink: /conversations/:name/
+  words:
+    output: true
+    permalink: /words/:name/
+  grammar_points:
+    output: true
+    permalink: /grammar_points/:name/
 
 # Files and directories not part of the site output. The mothball
 # mirror is gitignored, but is also excluded here so a local

@@ -1,0 +1,174 @@
+id: grammar_310
+drupal_node_id: 310
+title: かいな
+body: The standard Japanese sentence ending か(な), used in questions and strong negatives, may become かい(な)
+  in Kansai-ben. かいな is also used as in back-channel? communication (aizuchi) and imperatives.
+commentary: 'Differences in meaning depending on accent
+
+  The meaning of かいな can change depending on the accent.
+
+  LLL = question/suspicion
+
+  Standard
+
+  このまんじゅうおいしいのかな。食べてみよう。
+
+  Kansai-ben
+
+  このまんじゅうおいしんかいな。食べてみよ。
+
+  [↓]
+
+  English
+
+  I wonder if this manju tastes good. I''ll try it.
+
+  HLL = surprise
+
+  Standard
+
+  そのまんじゅうおいしかったのか。安かったのに。
+
+  Kansai-ben
+
+  そのまんじゅうおいしかったんかいな。安かったのに。
+
+  [↓]
+
+  English
+
+  That manju tasted good? It was so cheap.
+
+  L = low pitch?
+
+  H = high pitch
+
+  Once more, with feeling
+
+  かいな without な can strengthen the feeling.
+
+  Imperative (a little stronger)
+
+  Standard
+
+  もっと早く起きないか。また遅刻だぞ。
+
+  Kansai-ben
+
+  もっと早よ起きんかい。また遅刻やぞ。
+
+  English
+
+  You should be getting up earlier. You''re going to be late again!'
+example: 'Question
+
+  Standard
+
+  あいつ、ほんとうにどこ行ったのかな。
+
+  Kansai-ben
+
+  あいつ、ほんまにどこ行ったんかいな。
+
+  English
+
+  Where on earth did she go?
+
+  Strong negative
+
+  Standard
+
+  お父さんがそんな事許すものか。
+
+  Kansai-ben
+
+  お父ちゃんがそんな事許すかい(な)。
+
+  English
+
+  There is no way that my dad is going to forgive me.
+
+  Anger
+
+  Standard
+
+  こんなまずい飯、食えるか！
+
+  Kansai-ben
+
+  こんなまずい飯、食えるかい！
+
+  English
+
+  There is no way I''m going to eat food this nasty.
+
+  Back-channel? (aizuchi)
+
+  Standard
+
+  そうかあ。
+
+  Kansai-ben
+
+  そうかい(な)。
+
+  English
+
+  [eye contact, bobbing of head]
+
+  Imperative
+
+  Standard
+
+  もっと早く起きないか。また遅刻だぞ。
+
+  Kansai-ben
+
+  もっと早よ起きんかいな。また遅刻やぞ。
+
+  English
+
+  You should be getting up earlier. You''re going to be late again.'
+formation: ＿＿+(ん)+かい(な)
+formation_from_standard: 'V?
+
+  i-Adj?
+
+  na-Adj?*
+
+  N?*
+
+  Standard
+
+  行く　(の)　かな
+
+  大きい　(の)　かな
+
+  しずかな　(の)　かな
+
+  学生な　(の)　かな
+
+  Kansai-ben
+
+  行く　(ん)　かいな
+
+  大きい　(ん)　かいな
+
+  しずかな　(ん)　かいな
+
+  学生な　(ん)　かいな
+
+  *The standard Japanese past tense だったのかな may become やったんかいな. (Example: 静かやったんかいな、学生やったんかいな。)'
+kansai_vs_standard: 'Standard
+
+  ＿＿＿か(な)
+
+  Kansai-ben
+
+  ＿＿＿かい(な)'
+function_types:
+- function_111
+- function_57
+- function_29
+grammar_types:
+- grammar_79

@@ -1,0 +1,57 @@
+id: grammar_298
+drupal_node_id: 298
+title: N(と)ちゃう／Nやない
+body: 'In Kansai-ben, ちゃう can be used when negating nouns, originally deriving from ちがう.
+
+  Nやない, which corresponds to the standard Nで(は)ない, can be used the same way, but is less common than N?(と)ちゃう.'
+example: 'ちゃう
+
+  Standard
+
+  A:　あれ、あなたの彼氏じゃない？
+
+  B:　違う違う、私の彼氏もっと背が高いよ。
+
+  Kansai-ben
+
+  A:　あれ、あんたの彼氏ちゃう？
+
+  B:　ちゃうちゃう*、うちの彼氏もっと背え高いわ。
+
+  English
+
+  A:　Isn''t that your boyfriend?
+
+  B:　No, he''s taller.
+
+  *It should be noted that ちゃう is often repeated twice (ちゃうちゃう) in conversation as a response to somebody
+  else''s statement.'
+kansai_vs_standard: 'Standard
+
+  Nで(は)ない
+
+  Nじゃない
+
+  学生で(は)ない
+
+  学生じゃない
+
+  Kansai-ben
+
+  Nとちゃう
+
+  Nやない
+
+  学生とちゃう
+
+  学生やない
+
+  English
+
+  ...is not N?
+
+  ...is not a student'
+function_types:
+- function_111
+grammar_types:
+- grammar_109

@@ -1,0 +1,427 @@
+id: grammar_309
+drupal_node_id: 309
+title: ねん／てん／ん／のん／たん
+body: 'In Kansai-ben, ねん, てん, ん, のん, and たん are used in queries, asking for reasons, and giving explanations.
+
+  The standard sentence endings のだ and んだ may become ねん and てん in Kansai-ben. The main difference between
+  the two is that while ねん is mainly used in the non-past tense, てん is always used in the past tense.
+
+  Similarly, the standard sentence ending の may become ん, のん, or たん in Kansai-ben. It should be noted
+  that ん and のん have essentially the same meaning, with the difference decided by region or speaker preference.
+  Again, similar to the above, while ん and のん are used in the non-past tense, たん is only used in the past-tense
+  (the た in たん is considered to be a part in ta-form? of the verbs, adjectives, and nouns that comes in
+  front of たん).
+
+  It should be highlighted that just like their counterparts in standard Japanese, ねん and てん are used
+  to express a more emphatic feeling than ん, のん, and たん.
+
+  It should also be noted that the てん mentioned here is not related to the てる／てん of verb conjugation.'
+commentary: 'Past tense + ねん
+
+  ねん can also used with the past tense. In that case, just add ねん to the past tense of words.
+
+  ＿＿ねん (past)
+
+  Standard
+
+  昨日、テストあったんだ。
+
+  Kansai-ben
+
+  昨日、テストあったねん。
+
+  English
+
+  We had a quiz yesterday.
+
+  When to use ねん, てん, ん, のん, and たん
+
+  WH - question
+
+  Yes/No question
+
+  Response sentence
+
+  ＿＿ねん
+
+  どこ行くねん？
+
+  ×
+
+  コンビニ行くねん。
+
+  ＿＿てん
+
+  いつ、大阪来てん？
+
+  ×
+
+  昨日、大阪来てん。
+
+  ＿＿ん
+
+  だれ、来るん？
+
+  田中も来るん？
+
+  田中も来るんや。*
+
+  ＿＿のん
+
+  何、食べてんのん？
+
+  まだ、食べてんのん？
+
+  ×
+
+  ＿＿たん
+
+  どこ、行ったん？
+
+  学校へ行ったん？
+
+  学校へ行ったんや。*
+
+  × should not be used
+
+  * can only be used with final particles such as や.'
+example: '＿＿ねん (non-past)
+
+  Standard
+
+  明日、テストあるんだ。
+
+  Kansai-ben
+
+  明日、テストあるねん。
+
+  English
+
+  We''ll have a quiz tomorrow.
+
+  ＿＿てん (past)
+
+  Standard
+
+  昨日の晩ご飯、カレーだったんだ。
+
+  Kansai-ben
+
+  昨日の晩ご飯、カレーやってん。
+
+  English
+
+  We had curry for dinner last night.
+
+  ＿＿ん
+
+  Standard
+
+  どうするの？
+
+  Kansai-ben
+
+  どうするん？
+
+  English
+
+  What are you going to do?
+
+  ＿＿のん
+
+  Standard
+
+  どこ行くの？
+
+  Kansai-ben
+
+  どこ行くのん？
+
+  English
+
+  Where are you going?
+
+  ＿＿たん
+
+  Standard
+
+  昨日、学校行ったの？
+
+  Kansai-ben
+
+  昨日、学校行ったん？
+
+  English
+
+  Did you go to school yesterday?'
+formation: '＿＿ねん
+
+  V? and i-Adj?
+
+  short form?+ねん
+
+  na-Adj? and N?
+
+  stem?+やねん
+
+  ＿＿てん
+
+  V? and i-Adj?
+
+  ta-form? without the final た+てん
+
+  na-Adj? and N?
+
+  stem?+やってん
+
+  ＿＿ん
+
+  V?, i-Adj?, na-Adj?, and N?
+
+  short form?+ん
+
+  ＿＿のん
+
+  V? and i-Adj?
+
+  short form?+のん
+
+  na-Adj? and N?
+
+  stem?+や+のん
+
+  ＿＿たん
+
+  V? and i-Adj?
+
+  ta-form?+ん
+
+  na-Adj? and N?
+
+  stem?+やった+ん'
+formation_from_standard: '＿＿ねん
+
+  verbs that end with る*
+
+  verbs that do not end with る
+
+  (including the past tense of verbs that end with る)
+
+  i-Adj?
+
+  na-Adj?
+
+  N?
+
+  Standard
+
+  帰る　のだ
+
+  帰る　んだ
+
+  行く　のだ
+
+  行く　んだ
+
+  大きい　のだ
+
+  大きい　んだ
+
+  しずかな　のだ
+
+  しずかな　んだ
+
+  学生な　のだ
+
+  学生な　んだ
+
+  Kansai-ben
+
+  帰ん　ねん
+
+  帰る　ねん
+
+  行く　ねん
+
+  大きい　ねん
+
+  しずかや　ねん
+
+  学生や　ねん
+
+  *These are not only ru-verbs but also u-verbs end with る. (Example: 帰る、取る)
+
+  ＿＿てん
+
+  V? (ta-form?)
+
+  i-Adj? (ta-form)
+
+  na-Adj? (ta-form)
+
+  N? (ta-form)
+
+  Standard
+
+  行った　のだ
+
+  行った　んだ
+
+  大きかった　のだ
+
+  大きかった　んだ
+
+  しずかだった　のだ
+
+  しずかだった　んだ
+
+  学生だった　のだ
+
+  学生だった　んだ
+
+  Kansai-ben
+
+  行って　ん
+
+  大きかって　ん
+
+  しずかやって　ん
+
+  学生やって　ん
+
+  ＿＿ん
+
+  V? (ta-form?)
+
+  i-Adj? (ta-form)
+
+  na-Adj? (ta-form)
+
+  N? (ta-form)
+
+  Standard
+
+  行く　の
+
+  大きい　の
+
+  しずかな　の
+
+  学生な　の
+
+  Kansai-ben
+
+  行く　ん
+
+  大きい　ん
+
+  しずかな*　ん
+
+  学生な　ん
+
+  *with a na-Adj.+の, the な part can become や. (Example: しずかやの)
+
+  ＿＿のん
+
+  verbs that end with る*
+
+  verbs that do not end with る
+
+  (including the past tense of verbs that end with る)
+
+  i-Adj?
+
+  na-Adj?
+
+  N?
+
+  Standard
+
+  帰る　の
+
+  行く　の
+
+  大きい　の
+
+  しずかな　の
+
+  学生な　の
+
+  Kansai-ben
+
+  帰ん　のん
+
+  帰る　のん
+
+  行く　のん
+
+  大きい　のん
+
+  しずかや　のん
+
+  学生や　のん
+
+  *These are not only ru-verbs but also u-verbs end with る. (Example: 帰る、取る)
+
+  ＿＿たん
+
+  V? (ta-form?)
+
+  i-Adj? (ta-form)
+
+  na-Adj? (ta-form)
+
+  N? (ta-form)
+
+  Standard
+
+  行った　の
+
+  大きかった　の
+
+  しずかだった　の
+
+  学生だった　の
+
+  Kansai-ben
+
+  行った　ん
+
+  大きかった　ん
+
+  しずかやった　ん
+
+  学生やった　ん'
+kansai_vs_standard: 'ねん／てん
+
+  Standard
+
+  ＿＿＿のだ
+
+  ＿＿＿んだ
+
+  Kansai-ben
+
+  ＿＿＿ねん
+
+  ＿＿＿てん
+
+  ん／のん／たん
+
+  Standard
+
+  ＿＿＿の
+
+  Kansai-ben
+
+  ＿＿＿ん
+
+  ＿＿＿のん
+
+  ＿＿＿たん'
+function_types:
+- function_131
+- function_132
+- function_57
+grammar_types:
+- grammar_80

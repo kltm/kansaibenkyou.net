@@ -1,0 +1,74 @@
+id: grammar_327
+drupal_node_id: 327
+title: Vてしもた／Vても(う)た
+body: The Vてしまった of standard Japanese, when used as an expression of completion and/or regret, can become
+  Vてしもた or Vても(う)た in Kansai-ben. As the have very much the same feel, the word choice is left to the
+  speaker.
+commentary: 'The function of Vてもうた
+
+  Vてもうた has another function that expresses receiving a favor (see: Vてもろた／Vてもうた). Please compare the different
+  very different meaning and tone of the two:
+
+  Vてもらった (receiving a favor)
+
+  Standard
+
+  にんじん、きらいだから田中に食べてもらったよ。
+
+  Kansai-ben
+
+  にんじん、きらいやから田中に食べてもうたわ。
+
+  English
+
+  I don''t like carrots so Tanaka ate mine for me.
+
+  Vてしまった (completion/regret)
+
+  Standard
+
+  もう、おにぎり全部食べてしまったよ。ひとつも残っていないよ。
+
+  Kansai-ben
+
+  もう、おにぎり全部食べてもうたで。いっこも残ってないわ。
+
+  English
+
+  I already ate all the onigiri. There is nothing left.'
+example: 'Vてしもた
+
+  Standard
+
+  あー、おさら割ってしまった。
+
+  Kansai-ben
+
+  あー、おさら割ってしもた。
+
+  English
+
+  Ack! I broke a plate.'
+formation: V? (te-form?) +しもた／も(う)た
+formation_from_standard: 'Standard
+
+  行って　しまった
+
+  Kansai-ben
+
+  行って　しもた
+
+  行って　も(う)た'
+kansai_vs_standard: 'Standard
+
+  Vてしまった
+
+  Kansai-ben
+
+  Vてしもた
+
+  Vても(う)た'
+function_types:
+- function_37
+grammar_types:
+- grammar_105

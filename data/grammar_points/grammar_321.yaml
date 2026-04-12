@@ -1,0 +1,55 @@
+id: grammar_321
+drupal_node_id: 321
+title: Vてみ(ぃ)
+body: The standard Japanese Vてみなさい, when used as an imperative, may become Vてみ in Kansai-ben. Vてみ can
+  be also used to make a suggestion.
+commentary: 'When (not) to use Vてみ(ぃ)
+
+  Vてみ(ぃ) should not be used with people who are in a superior or respected position.
+
+  Stirring up trouble with Vてみ(ぃ)
+
+  When Vてみ(ぃ) is pronounced with a rising tone, it can be perceived as a challenge, something along the
+  lines of "just try and see".
+
+  Challenging
+
+  Standard
+
+  なぐれるものならなぐってみろよ。
+
+  Kansai-ben
+
+  なぐれるもんならなぐってみぃ。
+
+  English
+
+  Do you think you can punch me? (Try and see.)'
+example: 'Standard
+
+  これ、おいしいよ。食べてみれば？
+
+  Kansai-ben
+
+  これ、おいしいで。食べてみぃ。
+
+  English
+
+  This is good. Try some.'
+formation: V? (te-form?) +み(ぃ)
+kansai_vs_standard: 'Standard
+
+  Vてみなさい
+
+  Vてみれば？
+
+  Kansai-ben
+
+  Vてみ(ぃ)*
+
+  *Vowel extension often occurs with the final み.'
+function_types:
+- function_35
+- function_30
+grammar_types:
+- grammar_98

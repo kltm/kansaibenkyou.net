@@ -1,0 +1,161 @@
+id: grammar_330
+drupal_node_id: 330
+title: や／やろ(う)／やったら
+body: The standard Japanese だ, when used as an assertion, may become や in Kansai-ben. With this, the standard
+  Japanese conditional だったら may become やったら in Kansai-ben, and similarly the conjecture だろう may become
+  やろ(う).
+commentary: 'じゃ
+
+  Sometimes men may use じゃ is used instead of や. For example: こいつ、ワシのまごじゃ。
+
+  Expressing yourself formally
+
+  In formal settings, expressions other than や and じゃ are used. These more formal expression very by speaker
+  and region in Kansai, but grossly:
+
+  Region
+
+  Example
+
+  Tokyo
+
+  〜です
+
+  いい天気ですね。
+
+  いいですね。
+
+  Osaka
+
+  〜だす
+
+  〜おます
+
+  ええ天気だすな。
+
+  よろしおますな。
+
+  Kyoto
+
+  〜どす
+
+  〜おす
+
+  ええ天気どすな
+
+  よろしおすな。
+
+  やから, やけど
+
+  The だ in the standard Japanese だから and だけど may become や.
+
+  Standard
+
+  だから
+
+  だけど
+
+  Kansai-ben
+
+  やから*
+
+  やけど
+
+  Negative form やない
+
+  The standard Japanese negative form じゃない may become やない in Kansai-ben. For more information, please
+  see the Nやない page.'
+example: '＿＿や (assertion)
+
+  Standard
+
+  あれ、私の車だ。
+
+  Kansai-ben
+
+  あれ、うちの車や。
+
+  English
+
+  That''s my car.
+
+  ＿＿や (assertion)
+
+  Standard
+
+  今日もいい天気だなあ。
+
+  Kansai-ben
+
+  今日もええ天気やなあ。
+
+  English
+
+  It''s such a nice day again.
+
+  ＿＿やったら (conditional)
+
+  Standard
+
+  明日、いい天気だったら海に行かない？
+
+  Kansai-ben
+
+  明日、ええ天気やったら海行けへん？
+
+  English
+
+  If the weather''s nice tomorrow, do you wanna go to the beach?
+
+  ＿＿やろ(う) (Conjecture)
+
+  Standard
+
+  吉田はインフルエンザだから、今日も学校来ないだろう。
+
+  Kansai-ben
+
+  吉田はインフルエンザやから、今日も学校けえへんやろ(う)。
+
+  English
+
+  Yoshida still has the flu, so he won''t be coming to school today.'
+kansai_vs_standard: 'や (assertion)
+
+  Standard
+
+  ＿＿＿だ
+
+  Kansai-ben
+
+  ＿＿＿や
+
+  やったら (conditional)
+
+  Standard
+
+  ＿＿＿だったら
+
+  Kansai-ben
+
+  ＿＿＿やったら
+
+  やろう (conjecture)
+
+  Standard
+
+  ＿＿＿だろう
+
+  Kansai-ben
+
+  ＿＿＿やろ(う)*
+
+  *The final う sound is often devoiced (see dropping "う").'
+function_types:
+- function_131
+- function_39
+- function_23
+grammar_types:
+- grammar_67
+- grammar_69
+- grammar_68

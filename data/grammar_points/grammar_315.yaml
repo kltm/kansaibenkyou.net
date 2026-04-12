@@ -1,0 +1,123 @@
+id: grammar_315
+drupal_node_id: 315
+title: よって／さかい
+body: 'The standard Japanese conjunctions for providing a reason, から and ので, may become よって and さかい in
+  Kansai-ben (with the choice depending on the area or personal background such as age).
+
+  よって is mostly used by older people while さかい is used by a wider range of ages. In addition, younger
+  people may opt to just use から and ので with a Kansai-ben intonation.
+
+  It should also be noted that さかい may become さかいに, さかいで, or さけ, with the difference depending on the
+  region or speaker preference.'
+commentary: 'Negative: へんよって, へんさかい
+
+  Like  the standard から and ので, negative marker comes before よって and さかい.
+
+  へんよって
+
+  Standard
+
+  明日は会社ないからいっぱい寝られるよ。
+
+  Kansai-ben
+
+  明日は会社あらへんよってごっつう寝られるわ。
+
+  English
+
+  I don''t have work tomorrow, so I can sleep in.
+
+  Polite form (long form?): でっさかい, まっさかい
+
+  Adding です or ます in front of よって and さかい can make the sentence more polite. In the case of さかい, devoicing?
+  may occur before さかい. ですさかい may becomes でっさかい and ますさかい may become まっさかい.
+
+  まっさかい
+
+  Standard
+
+  ３時ごろ出ますので、４時ごろ着くと思いますよ。
+
+  Kansai-ben
+
+  ３時ごろ出まっさかい、４時ごろ着くと思いますわ。
+
+  English
+
+  I''ll be leaving around three, so I think I''ll get there around four.'
+example: '(reason) よって (consequence)
+
+  Standard
+
+  このおせんべいおいしいから、食べてみて。
+
+  Kansai-ben
+
+  このおせんべいおいしいよって、食べてみ。
+
+  English
+
+  Try this rice cracker--it''s good.
+
+  (reason) さかい (consequence)
+
+  Standard
+
+  明日、先生のところに行くから、わたしておくよ。
+
+  Kansai-ben
+
+  明日、先生とこ行くさかい、わたしとくわ。
+
+  English
+
+  I''ll be seeing the teacher tomorrow, so I''ll give it to them.'
+formation: 'V? and i-Adj?
+
+  short form?+よって／さかい
+
+  na-Adj? and N?
+
+  stem?+や+よって／さかい'
+formation_from_standard: 'V?
+
+  i-Adj?
+
+  na-Adj?
+
+  N?
+
+  Standard
+
+  行く　から／ので
+
+  大きい　から／ので
+
+  しずかだ　から／ので
+
+  学生だ　から／ので
+
+  Kansai-ben
+
+  行く　よって／さかい
+
+  大きい　よって／さかい
+
+  しずかや　よって／さかい
+
+  学生や　よって／さかい'
+kansai_vs_standard: 'Standard
+
+  (reason) から (consequence)
+
+  (reason) ので (consequence)
+
+  Kansai-ben
+
+  (reason) よって (consequence)
+
+  (reason) さかい (consequence)'
+function_types:
+- function_120
+grammar_types:
+- grammar_82
