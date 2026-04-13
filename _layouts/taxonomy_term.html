@@ -5,11 +5,19 @@ layout: single
 {%- assign label = site.data.taxonomy_labels[tid] | default: tid %}
 {%- assign term_data = site.data.taxonomy_index[tid] %}
 
+{%- assign term_desc = site.data.taxonomy_descriptions[tid] %}
+
 <article class="taxonomy-term">
 
-  <header>
-    <h1>{{ label }}</h1>
-  </header>
+  {%- if term_desc %}
+    <div class="gp-body-section" style="margin-bottom: 1.5rem;">
+      <p>{{ term_desc }}</p>
+    </div>
+  {%- endif %}
+
+  {%- if term_data == nil %}
+    <p>There is currently no content classified with this term.</p>
+  {%- endif %}
 
   {%- if term_data.grammar_points.size > 0 %}
     <section>

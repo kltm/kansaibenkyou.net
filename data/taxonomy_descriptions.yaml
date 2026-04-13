@@ -1,0 +1,89 @@
+'154': 'Any verb besides a ru-verb? or an irregular verb?. Also known as a Yodan or
+  Group 1 verb. For example: 行く, 書く, and 読む.'
+'155': Abbreviation for verb.
+'156': 'Abbreviation for adjective. For example: 大きい, 高い, 静かな, きれいな.'
+'157': Abbreviation for noun.
+'158': Words or morphemes? that attach to the beginning of a word to change its meaning
+  or grammatical (e.g., "大" in 大好き).
+'159': Words or morphemes? that attach to the end of a word to change its meaning
+  or grammatical function (e.g., "さん" in 田中さん).
+'160': 'Verbs that ends with る but are not u-verbs (such as 走る and 帰る) or irregular
+  verbs. Also known as Ichidan or Group 2 verbs. For example: 食べる, 寝る, and 着る.'
+'161': Suru-verbs (e.g., する, 勉強する) and 来る.
+'162': Verbs that end with す, such as 話す and ためす.
+'163': Verbs that ends with する (in the sense of "do"). (e.g., する, 勉強する, 料理する)
+'164': The affirmative short non-past form for a verb.
+'165': Also known as the "nai" form in standard Japanese.
+'166': A collective term for the dictionary, simple past tense, and negative form.
+  Also known as the plain form. For example 行く, 行かない, 行った, and 行かなかった.
+'167': 'Also known as the polite form or masu-form.  For example: 行きます, 行きません, 行きました,
+  and 行きませんでした.'
+'168': 'The long (masu) verb form without the final "masu". This is also known as
+  the pre-masu form. For example: 食べ, 行き, し, and き.'
+'169': 'The short negative form? without the final "nai" in standard Japanese or "ん"
+  in Kansai-ben. For example: 食べ, 行か, し, and こ in standard Japanese and 食べ, 行か, せ,
+  and こ in Kansai-ben.'
+'170': 'The short past tense form. For example: 食べた, 行った, した, and 来た.'
+'171': 'For example: 食べて, 行って, して, and 来て.'
+'172': 'For example: 食べている.'
+'174': 'For example: 行こう in standard Japanese and 行こ in Kansai-ben.'
+'175': 'For example: 食べられる, 行ける, できる, and 来られる.'
+'176': 'For example: 食べられる, 行かれる, される, and 来られる.'
+'177': 'For example: 食べさせる, 行かさせる, させる, and 来させる.'
+'178': 'For example: 食べさせられる, 行かせられる, させられる, and 来させられる.'
+'179': 'Abbreviation for i-adjective--an adjective that ends with an い. For example:
+  大きい, 高い, 新しい.'
+'180': 'Abbreviation for na-adjective--and adjective that ends with a な. For example:
+  静かな, 便利な, きれいな.'
+'181': 'In Japanese, essentially all of the "hiragana sounds" are one mora (with things
+  like しゃ, きょ, and ん also counting as one). For example: いぬ has two moras and かんさいべんきょう
+  has 8 moras.'
+'182': The relative tone of a sound.
+'183': Where the pitch? of a word starts to fall.
+'184': 'When a voiced sound becomes voiceless. For example: the word です ("desu") is
+  pronounced as "des" in standard Japanese.'
+'185': For our purposes, when a vowel sound in a word exerts influence on the preceding
+  vowel sound and makes it similar to itself.
+'187': Verbal and non-verbal responses by a listener, such as "へえ〜" and eye contact.
+'191': The units of meaning that comprise a word.
+'193': At least one of the people participating in the conversation is old.
+'194': At least one of the people participating in the conversation is male.
+'195': At least one of the people participating in the conversation is young.
+'196': At least one of the people participating in the conversation is female.
+'197': A casual/relaxed conversation style.
+'198': A casual conversation between friends.
+'199': A formal conversation style.
+'2': 教材の提供などご自由にどうぞ。
+'200': At least one of the people participating in the conversation is middle aged.
+'201': A mixture of formal and casual speech due to the mixed status of the speakers.
+'202': Yuko is a 40ish female from the northern part of Osaka.
+'203': A 30ish female from Wakayama.
+'204': A 20ish female from Kishiwada.
+'205': A 20ish female from Kobe.
+'206': A 70ish male from Toyonaka, in the northern part of Osaka prefecture.
+'207': A 40ish female from Osaka City.
+'208': A middle age male from Hyogo prefecture, near Himeji
+'209': The participants are a couple or partners.
+'210': A 40ish male from near Himeji, in the western part of Kansai.
+'211': A 30ish female Takatsuki, Osaka (between Osaka City and Kyoto).
+'212': A 40ish female from the eastern part of Osaka prefecture, near Nara.
+'213': A 40ish male from Osaka City.
+'214': A 25 year old male who has just started working in Osaka. Depending on his
+  context (e.g., work, out with friends, etc.), he will be known by either his first
+  name (Atsushi) or last name (Mori).
+'215': A 65 year old male.
+'216': A 26 year old male.
+'217': A 46 year old male.
+'218': A 26 year old woman.
+'219': A 27 year old female.
+'222': A 37 year old company man.
+'223': A 35 year old company woman.
+'224': A 35 year old company man.
+'225': A 60 year old female.
+'226': A 70 year old male.
+'227': A 35 year old company man.
+'228': A 35 year old company man.
+'229': A 45 year old woman.
+'230': A 50 year old male.
+'231': A 48 year old male.
+'232': A 65 year old female.
