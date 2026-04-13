@@ -1,3 +1,30 @@
 <link rel="icon" href="{{ '/assets/images/takkun.ico' | relative_url }}" type="image/x-icon">
 <meta name="baseurl" content="{{ site.baseurl }}">
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var base = (document.querySelector('meta[name="baseurl"]') || {}).content || "";
+  fetch(base + "/assets/banner/manifest.json")
+    .then(function(r) { return r.json(); })
+    .then(function(images) {
+      if (!images.length) return;
+      var pick = images[Math.floor(Math.random() * images.length)];
+      var url = base + "/assets/banner/" + pick;
+
+      // Update hero overlay if present (home page)
+      var hero = document.querySelector(".page__hero--overlay");
+      if (hero) {
+        hero.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(" + url + ")";
+      }
+
+      // Add banner strip after masthead on inner pages (no hero)
+      var masthead = document.querySelector(".masthead");
+      if (masthead && !hero) {
+        var strip = document.createElement("div");
+        strip.className = "site-banner";
+        strip.innerHTML = '<img src="' + url + '" alt="Welcome to Kansai!" class="site-banner__img">';
+        masthead.parentNode.insertBefore(strip, masthead.nextSibling);
+      }
+    });
+});
+</script>
