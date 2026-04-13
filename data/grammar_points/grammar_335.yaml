@@ -6,156 +6,26 @@ body: There are some differences between the causative forms of standard Japanes
   the short form can be used in Kansai-ben. This is also true for the short causative passive form in
   Kansai-ben (while it should not be used in the standard). In general, the causative long form is rarely
   used in Kansai-ben.
-commentary: '考えとく vs. 考えさしてもらう
-
-  In business, instead of directly saying "no", 考えときます is often used to indicate that negotiations are
-  over (loosely) or to indicate that the speaker is not interested. However, the causative 考えさせてもらいます
-  is different; in this case, there is a chance that speaker is actually going to respond positively.
-
-  考えときます
-
-  Standard
-
-  A:　どうですか？
-
-  B:　そうですね。すみませんが、やめておきます。
-
-  A:　そうですか。じゃ、またよろしくおねがいします。
-
-  Kansai-ben
-
-  A:　どうでっか？
-
-  B:　うーん。すまんけど、考えとくわ。
-
-  A:　そうでっか。じゃ、また頼んます。
-
-  English
-
-  A:　So, what do you think?
-
-  B:　Sorry, but I think we''ll pass this time.
-
-  A:　Ah, that''s too bad. Maybe next time?
-
-  考えさせてもらう
-
-  Standard
-
-  A:　どうですか？
-
-  B:　そうですね。一週間ほど考えさせてもらいます。
-
-  A:　そうですか。よろしくおねがいします。
-
-  Kansai-ben
-
-  A:　どうでっか？
-
-  B:　そうやなあ。一週間ほど考えさせてもらうわ。
-
-  A:　そうでっか。よろしゅうおねがいします。
-
-  English
-
-  A:　So, what do you think?
-
-  B:　Well, we''ll need to think about it for about week.
-
-  A:　Oh, okay. I hope it will work for you.'
-kansai_vs_standard: 'Causative negative short form? of su-verbs and suru-verbs
-
-  dictionary form?
-
-  causative short form
-
-  causative negative short form
-
-  Standard
-
-  Kansai-ben
-
-  食べる
-
-  食べさす
-
-  食べささない
-
-  食べささへん
-
-  話す
-
-  話さす
-
-  話ささない
-
-  話ささへん
-
-  する
-
-  さす
-
-  ささない
-
-  ささへん
-
-  Causative passive short form? of su-verbs and suru-verbs
-
-  dictionary form?
-
-  causative short form
-
-  causative passive short form
-
-  Standard
-
-  Kansai-ben
-
-  食べる
-
-  食べさす
-
-  食べさされる
-
-  食べさされる
-
-  話す
-
-  話さす
-
-  話さされる
-
-  話さされる
-
-  する
-
-  さす
-
-  さされる
-
-  さされる
-
-  imperative and request with causative
-
-  Standard
-
-  V?(causative)[-e]＋てください
-
-  Kansai-ben
-
-  V(causative)[-i]＋てください
-
-  Standard
-
-  考えさせてください。
-
-  [kangaesase]
-
-  Kansai-ben
-
-  考えさしてください。
-
-  [kangaesashi]'
+commentary: '<h2>考えとく vs. 考えさしてもらう</h2><p>In business, instead of directly saying "no", 考えときます is often
+  used to indicate that negotiations are over (loosely) or to indicate that the speaker is not interested.
+  However, the causative 考えさせてもらいます is different; in this case, there is a chance that speaker is actually
+  going to respond positively.</p><table><caption>考えときます</caption><tbody><tr><th>Standard</th><td>A: どうですか？<br
+  /> B: そうですね。すみませんが、<em>やめておきます</em>。<br /> A: そうですか。じゃ、またよろしくおねがいします。</td></tr><tr><th>Kansai-ben</th><td>A:
+  どうでっか？<br /> B: うーん。すまんけど、<em>考えとく</em>わ。<br /> A: そうでっか。じゃ、また頼んます。</td></tr><tr><th>English</th><td>A:
+  So, what do you think?<br /> B: Sorry, but I think we''ll pass this time.<br /> A: Ah, that''s too bad.
+  Maybe next time?</td></tr></tbody></table><table><caption>考えさせてもらう</caption><tbody><tr><th>Standard</th><td>A:
+  どうですか？<br /> B: そうですね。一週間ほど考えさせてもらいます。<br /> A: そうですか。よろしくおねがいします。</td></tr><tr><th>Kansai-ben</th><td>A:
+  どうでっか？<br /> B: そうやなあ。一週間ほど考えさせてもらうわ。<br /> A: そうでっか。よろしゅうおねがいします。</td></tr><tr><th>English</th><td>A:
+  So, what do you think?<br /> B: Well, we''ll need to think about it for about week.<br /> A: Oh, okay.
+  I hope it will work for you.</td></tr></tbody></table>'
+kansai_vs_standard: <h2>Causative negative short form of su-verbs and suru-verbs</h2><table class="full-grid-table"><tr><th>dictionary
+  form</th><th><span class="quiet">causative short form</span></th><th colspan="2"><span class="quiet">causative
+  negative short form</span></th></tr><tr><th></th><th></th><th>Standard</th><th>Kansai-ben</th></tr><tr><th>食べる</th><td>食べさす</td><td><strike>食べささない</strike></td><td>食べささへん</td></tr><tr><th>話す</th><td>話さす</td><td><strike>話ささない</strike></td><td>話ささへん</td></tr><tr><th>する</th><td>さす</td><td><strike>ささない</strike></td><td>ささへん</td></tr></table></div><h2>Causative
+  passive short form of su-verbs and suru-verbs</h2><table class="full-grid-table"><tr><th>dictionary
+  form</th><th><span class="quiet">causative short form</span></th><th colspan="2"><span class="quiet">causative
+  passive short form</span></th></tr><tr><th></th><th></th><th>Standard</th><th>Kansai-ben</th></tr><tr><th>食べる</th><td>食べさす</td><td><strike>食べさされる</strike></td><td>食べさされる</td></tr><tr><th>話す</th><td>話さす</td><td><strike>話さされる</strike></td><td>話さされる</td></tr><tr><th>する</th><td>さす</td><td><strike>さされる</strike></td><td>さされる</td></tr></table></div><h2>imperative
+  and request with causative</h2><table><tr><th>Standard</th><td>V(causative)[-<em>e</em>]＋てください</td></tr><tr><th>Kansai-ben</th><td>V(causative)[-<em>i</em>]＋てください</td></tr><tr></tr></table><table><tr><th>Standard</th><td>考えさ<em>せ</em>てください。<br
+  /> [kangaesas<em>e</em>]</td></tr><tr><th>Kansai-ben</th><td>考えさ<em>し</em>てください。<br /> [kangaesash<em>i</em>]</td></tr><tr></tr></table>
 function_types:
 - function_27
 grammar_types:

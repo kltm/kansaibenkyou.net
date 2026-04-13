@@ -4,153 +4,24 @@ title: や／やろ(う)／やったら
 body: The standard Japanese だ, when used as an assertion, may become や in Kansai-ben. With this, the standard
   Japanese conditional だったら may become やったら in Kansai-ben, and similarly the conjecture だろう may become
   やろ(う).
-commentary: 'じゃ
-
-  Sometimes men may use じゃ is used instead of や. For example: こいつ、ワシのまごじゃ。
-
-  Expressing yourself formally
-
-  In formal settings, expressions other than や and じゃ are used. These more formal expression very by speaker
-  and region in Kansai, but grossly:
-
-  Region
-
-  Example
-
-  Tokyo
-
-  〜です
-
-  いい天気ですね。
-
-  いいですね。
-
-  Osaka
-
-  〜だす
-
-  〜おます
-
-  ええ天気だすな。
-
-  よろしおますな。
-
-  Kyoto
-
-  〜どす
-
-  〜おす
-
-  ええ天気どすな
-
-  よろしおすな。
-
-  やから, やけど
-
-  The だ in the standard Japanese だから and だけど may become や.
-
-  Standard
-
-  だから
-
-  だけど
-
-  Kansai-ben
-
-  やから*
-
-  やけど
-
-  Negative form やない
-
-  The standard Japanese negative form じゃない may become やない in Kansai-ben. For more information, please
-  see the Nやない page.'
-example: '＿＿や (assertion)
-
-  Standard
-
-  あれ、私の車だ。
-
-  Kansai-ben
-
-  あれ、うちの車や。
-
-  English
-
-  That''s my car.
-
-  ＿＿や (assertion)
-
-  Standard
-
-  今日もいい天気だなあ。
-
-  Kansai-ben
-
-  今日もええ天気やなあ。
-
-  English
-
-  It''s such a nice day again.
-
-  ＿＿やったら (conditional)
-
-  Standard
-
-  明日、いい天気だったら海に行かない？
-
-  Kansai-ben
-
-  明日、ええ天気やったら海行けへん？
-
-  English
-
-  If the weather''s nice tomorrow, do you wanna go to the beach?
-
-  ＿＿やろ(う) (Conjecture)
-
-  Standard
-
-  吉田はインフルエンザだから、今日も学校来ないだろう。
-
-  Kansai-ben
-
-  吉田はインフルエンザやから、今日も学校けえへんやろ(う)。
-
-  English
-
-  Yoshida still has the flu, so he won''t be coming to school today.'
-kansai_vs_standard: 'や (assertion)
-
-  Standard
-
-  ＿＿＿だ
-
-  Kansai-ben
-
-  ＿＿＿や
-
-  やったら (conditional)
-
-  Standard
-
-  ＿＿＿だったら
-
-  Kansai-ben
-
-  ＿＿＿やったら
-
-  やろう (conjecture)
-
-  Standard
-
-  ＿＿＿だろう
-
-  Kansai-ben
-
-  ＿＿＿やろ(う)*
-
-  *The final う sound is often devoiced (see dropping "う").'
+commentary: '<h2>じゃ</h2><p>Sometimes men may use じゃ is used instead of や. For example: こいつ、ワシのまご<em>じゃ</em>。</p></div><h2>Expressing
+  yourself formally</h2><p>In formal settings, expressions other than や and じゃ are used. These more formal
+  expression very by speaker and region in Kansai, but grossly:</p><table class="full-grid-table"><tr><th>Region</th><th></th><th>Example</th></tr><tr><th>Tokyo</th><td>〜です</td><td>いい天気<em>です</em>ね。<br
+  /> いい<em>です</em>ね。</td></tr><tr><th>Osaka</th><td>〜だす<br /> 〜おます</td><td>ええ天気<em>だす</em>な。<br /> よろし<em>おます</em>な。</td></tr><tr><th>Kyoto</th><td>〜どす<br
+  /> 〜おす</td><td>ええ天気<em>どす</em>な<br /> よろし<em>おす</em>な。</td></tr></table></div><h2>やから, やけど</h2><p>The
+  だ in the standard Japanese だから and だけど may become や.</p><table><tr><th>Standard</th><td><em>だ</em>から</td><td><em>だ</em>けど</td></tr><tr><th>Kansai-ben</th><td><em>や</em>から*</td><td><em>や</em>けど</td></tr><tr></tr></table></div><h2>Negative
+  form やない</h2><p>The standard Japanese negative form じゃない may become やない in Kansai-ben. For more information,
+  please see the <a href="298">Nやない</a> page.</p>'
+example: <table><caption>＿＿や (assertion)</caption><tbody><tr><th>Standard</th><td>あれ、私の車<em>だ</em>。</td></tr><tr><th>Kansai-ben</th><td>あれ、うちの車<em>や</em>。</td></tr><tr><th>English</th><td>That's
+  my car.</td></tr></tbody></table></div><table><caption>＿＿や (assertion)</caption><tbody><tr><th>Standard</th><td>今日もいい天気<em>だ</em>なあ。</td></tr><tr><th>Kansai-ben</th><td>今日もええ天気<em>や</em>なあ。</td></tr><tr><th>English</th><td>It's
+  such a nice day again.</td></tr></tbody></table></div><table><caption>＿＿やったら (conditional)</caption><tbody><tr><th>Standard</th><td>明日、いい天気<em>だったら</em>海に行かない？</td></tr><tr><th>Kansai-ben</th><td>明日、ええ天気<em>やったら</em>海行けへん？</td></tr><tr><th>English</th><td>If
+  the weather's nice tomorrow, do you wanna go to the beach?</td></tr></tbody></table></div><table><caption>＿＿やろ(う)
+  (Conjecture)</caption><tbody><tr><th>Standard</th><td>吉田はインフルエンザだから、今日も学校来ない<em>だろう</em>。</td></tr><tr><th>Kansai-ben</th><td>吉田はインフルエンザやから、今日も学校けえへん<em>やろ(う)</em>。</td></tr><tr><th>English</th><td>Yoshida
+  still has the flu, so he won't be coming to school today.</td></tr></tbody></table>
+kansai_vs_standard: <h2>や (assertion)</h2><table><tr><th>Standard</th><td><em>＿＿＿だ</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿＿や</em></td></tr><tr></tr></table></div><h2>やったら
+  (conditional)</h2><table><tr><th>Standard</th><td><em>＿＿＿だったら</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿＿やったら</em></td></tr><tr></tr></table></div><h2>やろう
+  (conjecture)</h2><table><tr><th>Standard</th><td><em>＿＿＿だろう</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿＿やろ(う)*</em></td></tr><tr></tr></table><p>*The
+  final う sound is often devoiced (see <a href="350">dropping "う"</a>).</p>
 function_types:
 - function_131
 - function_39

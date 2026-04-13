@@ -6,162 +6,25 @@ body: 'The standard Vておく, when used in a sentence to indicate preparation,
 
   It should be noted that Vんとく may be also used as a suggestion and warning, in addition its usual "preparation"
   meaning.'
-commentary: 'Vとけへん, Vといて／Vとって
-
-  The Vておかない in standard Japanese may become Vとけへん in Kansai-ben. Similarly for Vておいて becoming Vといて or
-  Vとって in Kansai-ben.
-
-  Vとけへん
-
-  Standard
-
-  週末、パーティーするから、飲み物買っておかない？
-
-  Kansai-ben
-
-  週末、パーティーするから、飲み物買うとけへん？
-
-  English
-
-  There''s a party this weekend, so should we buy some drinks?
-
-  Vといて／Vとって
-
-  Standard
-
-  まだ準備できていないんだ。先に行っておいて。
-
-  Kansai-ben
-
-  まだ準備できてないねん。先に行っといて。
-
-  まだ準備できてないねん。先に行っといて。
-
-  English
-
-  I''m not ready yet. You can go ahead.
-
-  Request: Vんといて
-
-  Kansai-ben''s Vんといて can be used like standard Japanese''s Vないで(ください).
-
-  Vんといて
-
-  Standard
-
-  私の部屋に勝手に入らないで。
-
-  Kansai-ben
-
-  うちの部屋に勝手に入らんといて。
-
-  English
-
-  Don''t come in my room.
-
-  Giving advice: Vとき, Vんとき
-
-  Vとき and Vんとき are used when giving advice and suggestions.
-
-  Vとき
-
-  Standard
-
-  今日、帰り遅くなるから、先に寝てね。
-
-  Kansai-ben
-
-  今日、帰り遅なるよって、先に寝とき。
-
-  English
-
-  I''m going to come home late today, so don''t wait up.
-
-  Vんとき
-
-  Standard
-
-  もう飲まないほうがいいよ。明日、二日酔いになるよ。
-
-  Kansai-ben
-
-  もう飲まんとき。明日、二日酔いになるで。
-
-  English
-
-  If you don''t stop drinking, you''ll have a hangover tomorrow.'
-example: 'Vとく
-
-  Standard
-
-  今日、エリのたんじょうびだからケーキ買っておくよ。
-
-  Kansai-ben
-
-  今日、エリのたんじょうびやよってケーキ買うとくわ。
-
-  English
-
-  Today is Eri''s birthday, so I''ll buy a cake.
-
-  Vんとく
-
-  Standard
-
-  今日は疲れているから飲みに行かないでおくよ。
-
-  Kansai-ben
-
-  今日はしんどいから飲みに行かんとくわ。
-
-  English
-
-  I''m tired so I''ll pass on going out for drinks today.'
-formation: 'Vとく
-
-  V? (te-form? but use と instead of final て) +く
-
-  Vんとく
-
-  V? (short negative form?) +とく'
-formation_from_standard: 'Vとく
-
-  Standard
-
-  行って　おく
-
-  Kansai-ben
-
-  行っ と く
-
-  Vんとく
-
-  Standard
-
-  行かないで　おく
-
-  Kansai-ben
-
-  行かん と く'
-kansai_vs_standard: 'Vとく (affirmative)
-
-  Standard
-
-  Vておく
-
-  Kansai-ben
-
-  Vとく
-
-  Vんとく (negative)
-
-  Standard
-
-  Vないでおく
-
-  Kansai-ben
-
-  Vんとく'
+commentary: '<h2>Vとけへん, Vといて／Vとって</h2><p>The Vておかない in standard Japanese may become Vとけへん in Kansai-ben.
+  Similarly for Vておいて becoming Vといて or Vとって in Kansai-ben.</p><table><caption>Vとけへん</caption><tbody><tr><th>Standard</th><td>週末、パーティーするから、飲み物<em>買っておかない</em>？</td></tr><tr><th>Kansai-ben</th><td>週末、パーティーするから、飲み物<em>買うとけへん</em>？</td></tr><tr><th>English</th><td>There''s
+  a party this weekend, so should we buy some drinks?</td></tr></tbody></table><table><caption>Vといて／Vとって</caption><tbody><tr><th>Standard</th><td>まだ準備できていないんだ。先に<em>行っておいて</em>。</td></tr><tr><th>Kansai-ben</th><td>まだ準備できてないねん。先に<em>行っといて</em>。<br
+  /> まだ準備できてないねん。<em>先に行っといて</em>。</td></tr><tr><th>English</th><td>I''m not ready yet. You can go ahead.</td></tr></tbody></table></div><h2>Request:
+  Vんといて</h2><p>Kansai-ben''s Vんといて can be used like standard Japanese''s Vないで(ください).</p><table><caption>Vんといて</caption><tbody><tr><th>Standard</th><td>私の部屋に勝手に<em>入らないで</em>。</td></tr><tr><th>Kansai-ben</th><td>うちの部屋に勝手に<em>入らんといて</em>。</td></tr><tr><th>English</th><td>Don''t
+  come in my room.</td></tr></tbody></table></div><h2>Giving advice: Vとき, Vんとき</h2><p>Vとき and Vんとき are
+  used when giving advice and suggestions.</p><table><caption>Vとき</caption><tbody><tr><th>Standard</th><td>今日、帰り遅くなるから、先に<em>寝てね</em>。</td></tr><tr><th>Kansai-ben</th><td>今日、帰り遅なるよって、先に<em>寝とき</em>。</td></tr><tr><th>English</th><td>I''m
+  going to come home late today, so don''t wait up.</td></tr></tbody></table><table><caption>Vんとき</caption><tbody><tr><th>Standard</th><td>もう<em>飲まないほうがいいよ</em>。明日、二日酔いになるよ。</td></tr><tr><th>Kansai-ben</th><td>もう<em>飲まんとき</em>。明日、二日酔いになるで。</td></tr><tr><th>English</th><td>If
+  you don''t stop drinking, you''ll have a hangover tomorrow.</td></tr></tbody></table>'
+example: <table><caption>Vとく</caption><tbody><tr><th>Standard</th><td>今日、エリのたんじょうびだからケーキ<em>買っておく</em>よ。</td></tr><tr><th>Kansai-ben</th><td>今日、エリのたんじょうびやよってケーキ<em>買うとく</em>わ。</td></tr><tr><th>English</th><td>Today
+  is Eri's birthday, so I'll buy a cake.</td></tr></tbody></table></div><table><caption>Vんとく</caption><tbody><tr><th>Standard</th><td>今日は疲れているから飲みに<em>行かないでおく</em>よ。</td></tr><tr><th>Kansai-ben</th><td>今日はしんどいから飲みに<em>行かんとく</em>わ。</td></tr><tr><th>English</th><td>I'm
+  tired so I'll pass on going out for drinks today.</td></tr></tbody></table>
+formation: <h2>Vとく</h2><table><tr><td>V (te-form but use と instead of final て) +く</td></tr></table></div><h2>Vんとく</h2><table><tr><td>V
+  (short negative form) +とく</td></tr></table>
+formation_from_standard: <h2>Vとく</h2><table><tr><th>Standard</th><td>行っ<em>て おく</em></td></tr><tr><th>Kansai-ben</th><td>行っ<em>
+  と く</em></td></tr></table></div><h2>Vんとく</h2><table><tr><th>Standard</th><td>行か<em>ないで おく</em></td></tr><tr><th>Kansai-ben</th><td>行か<em>ん
+  と く</em></td></tr></table>
+kansai_vs_standard: <h2>Vとく (affirmative)</h2><table><tr><th>Standard</th><td><em>Vておく</em></td></tr><tr><th>Kansai-ben</th><td><em>Vとく</em></td></tr><tr></tr></table></div><h2>Vんとく
+  (negative)</h2><table><tr><th>Standard</th><td><em>Vないでおく</em></td></tr><tr><th>Kansai-ben</th><td><em>Vんとく</em></td></tr><tr></tr></table>
 function_types:
 - function_117
 - function_34

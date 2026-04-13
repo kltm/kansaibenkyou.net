@@ -3,36 +3,10 @@ drupal_node_id: 306
 title: Particle “や”
 body: Standard Japanese's final particle よ can become や in Kansai-ben, often in the sense of making a
   demand.
-example: 'Standard
-
-  ちゃんと聞いてよ。
-
-  Kansai-ben
-
-  ちゃんと聞いてや。
-
-  English
-
-  Really listen to me.
-
-  Standard
-
-  あたらしいくつ、買ってよ。
-
-  Kansai-ben
-
-  あたらしくつ、買うてや。
-
-  English
-
-  Buy me some new shoes.'
-kansai_vs_standard: 'Standard
-
-  ＿＿＿や
-
-  Kansai-ben
-
-  ＿＿＿よ'
+example: <table><tr><th>Standard</th><td>ちゃんと聞いて<em>よ</em>。</td></tr><tr><th>Kansai-ben</th><td>ちゃんと聞いて<em>や</em>。</td></tr><tr><th>English</th><td>Really
+  listen to me.</td></tr></table></div><table><tr><th>Standard</th><td>あたらしいくつ、買って<em>よ</em>。</td></tr><tr><th>Kansai-ben</th><td>あたらしくつ、買うて<em>や</em>。</td></tr><tr><th>English</th><td>Buy
+  me some new shoes.</td></tr></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>＿＿＿や</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿＿よ</em></td></tr><tr></tr></table>
 function_types:
 - function_131
 grammar_types:

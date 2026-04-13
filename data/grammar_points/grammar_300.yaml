@@ -3,103 +3,18 @@ drupal_node_id: 300
 title: どっこも／だぁれも／いっつも
 body: The standard Japanese どこ(へ)も, だれも, and いつも can become どっこも, だぁれも, and いっつも respectively in Kansai-ben.
   The usage is the same as standard Japanese.
-commentary: 'The usage of いっつも
-
-  Like いつも in standard Japanese, いっつも can be used in affirmative sentences.
-
-  いっつも (affirmative)
-
-  Standard
-
-  ここ、いつもこんでるねえ。
-
-  Kansai-ben
-
-  ここ、いっつもこんでるなあ。
-
-  English
-
-  This place is always packed.'
-example: 'どっこもVへん
-
-  Standard
-
-  A:　夏休みどこか行くの？
-
-  B:　ううん、どこへも行かないんだ。
-
-  Kansai-ben
-
-  A:　夏休みどっか行くん？
-
-  B:　ううん、どっこも行けへんねん。
-
-  English
-
-  A:　Are you going to go to somewhere over summer break?
-
-  B:　No, I''m not going anywhere.
-
-  だぁれもVへん
-
-  Standard
-
-  今日はだれも来ないねえ。もう店しめようか。
-
-  Kansai-ben
-
-  今日はだぁれもけえへんなあ。もう店しめよか。
-
-  English
-
-  Nobody''s coming in today. Should we close up early?
-
-  いっつもVへん
-
-  Standard
-
-  あいつ、いつも来ないなあ。付き合いの悪いやつだ。
-
-  Kansai-ben
-
-  あいつ、いっつもけえへんなあ。付き合いの悪いやっちゃ。
-
-  English
-
-  She never comes, does she. So unsociable.'
-kansai_vs_standard: 'どっこも＋ (negative)
-
-  Standard
-
-  どこ(へ)もVない
-
-  Kansai-ben
-
-  どっこもVへん
-
-  だぁれも＋ (negative)
-
-  Standard
-
-  だれも__ない
-
-  Kansai-ben
-
-  だぁれもVへん
-
-  だぁれもAない
-
-  いっつも＋ (negative)
-
-  Standard
-
-  いつも__ない
-
-  Kansai-ben
-
-  いっつもVへん
-
-  いっつもAない'
+commentary: <h2>The usage of いっつも</h2><p>Like いつも in standard Japanese, いっつも can be used in affirmative
+  sentences.</p><table><caption>いっつも (affirmative)</caption><tbody><tr><th>Standard</th><td>ここ、<em>いつも</em>こんでるねえ。</td></tr><tr><th>Kansai-ben</th><td>ここ、<em>いっつも</em>こんでるなあ。</td></tr><tr><th>English</th><td>This
+  place is always packed.</td></tr></tbody></table>
+example: '<table><caption>どっこもVへん</caption><tbody><tr><th>Standard</th><td>A: 夏休みどこか行くの？<br /> B: ううん、<em>どこへも</em>行か<em>ない</em>んだ。</td></tr><tr><th>Kansai-ben</th><td>A:
+  夏休みどっか行くん？<br /> B: ううん、<em>どっこも</em>行け<em>へん</em>ねん。</td></tr><tr><th>English</th><td>A: Are you going
+  to go to somewhere over summer break?<br /> B: No, I''m not going anywhere.</td></tr></tbody></table></div><table><caption>だぁれもVへん</caption><tbody><tr><th>Standard</th><td>今日は<em>だれも</em>来<em>ない</em>ねえ。もう店しめようか。</td></tr><tr><th>Kansai-ben</th><td>今日は<em>だぁれも</em>けえ<em>へん</em>なあ。もう店しめよか。</td></tr><tr><th>English</th><td>Nobody''s
+  coming in today. Should we close up early?</td></tr></tbody></table></div><table><caption>いっつもVへん</caption><tbody><tr><th>Standard</th><td>あいつ、<em>いつも</em>来<em>ない</em>なあ。付き合いの悪いやつだ。</td></tr><tr><th>Kansai-ben</th><td>あいつ、<em>いっつも</em>けえ<em>へん</em>なあ。付き合いの悪いやっちゃ。</td></tr><tr><th>English</th><td>She
+  never comes, does she. So unsociable.</td></tr></tbody></table>'
+kansai_vs_standard: <h2>どっこも＋ (negative)</h2><table><tr><th>Standard</th><td><em>どこ(へ)もVない</em></td></tr><tr><th>Kansai-ben</th><td><em>どっこもVへん</em></td></tr><tr></tr></table><h2>だぁれも＋
+  (negative)</h2><table><tr><th>Standard</th><td><em>だれも__ない</em></td></tr><tr><th>Kansai-ben</th><td><em>だぁれもVへん<br
+  /> だぁれもAない</em></td></tr><tr></tr></table><h2>いっつも＋ (negative)</h2><table><tr><th>Standard</th><td><em>いつも__ない</em></td></tr><tr><th>Kansai-ben</th><td><em>いっつもVへん<br
+  /> いっつもAない</em></td></tr><tr></tr></table>
 function_types:
 - function_58
 grammar_types:

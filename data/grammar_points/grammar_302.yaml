@@ -3,73 +3,14 @@ drupal_node_id: 302
 title: Particle omission of “と” and “の”
 body: Like standard Japanese, particles are tend to be omitted, especially in casual speech. However,
   there are some differences in the ways that they are dropped in Kansai-ben and standard Japanese.
-example: 'quotation particle と
-
-  the omission of と
-
-  Standard
-
-  弟(が)、彼女(が)できたと言って(い)たよ。
-
-  Kansai-ben
-
-  弟、彼女できたいうてたで。
-
-  弟、彼女できた(っ)ちゅう*てたで。
-
-  English
-
-  My (younger) brother said that he got a girlfriend.
-
-  * 〜いう and 〜(っ)ちゅう have the same meaning.
-
-  と omission
-
-  Standard
-
-  王将というレストラン(を)知って(い)る？
-
-  Kansai-ben
-
-  王将いうレストラン知ってる？
-
-  王将(っ)ちゅうレストラン知ってる？
-
-  English
-
-  Have you heard of a restaurant called Ousho?
-
-  possessive particle の
-
-  The possessive marker の is often omitted in front of the noun とこ (所).
-
-  the omission of の
-
-  Standard
-
-  あなたの所／家
-
-  先生の所／家
-
-  私の家
-
-  Kansai-ben
-
-  あんたとこ
-
-  先生とこ
-
-  うっとこ*
-
-  English
-
-  your place/house
-
-  teacher''s place/house
-
-  my house
-
-  *The meaning of うっ in うっとこ is the same as うち (私／家).'
+example: <h2>quotation particle と</h2><table><caption>the omission of と</caption><tbody><tr><th>Standard</th><td>弟(が)、彼女(が)できた<em>と</em>言って(い)たよ。</td></tr><tr><th>Kansai-ben</th><td>弟、彼女できたいうてたで。<br
+  /> 弟、彼女できた(っ)ちゅう*てたで。</td></tr><tr><th>English</th><td>My (younger) brother said that he got a girlfriend.</td></tr></tbody></table><p>*
+  〜いう and 〜(っ)ちゅう have the same meaning.</p><table><caption>と omission</caption><tbody><tr><th>Standard</th><td>王将<em>と</em>いうレストラン(を)知って(い)る？</td></tr><tr><th>Kansai-ben</th><td>王将いうレストラン知ってる？<br
+  /> 王将(っ)ちゅうレストラン知ってる？</td></tr><tr><th>English</th><td>Have you heard of a restaurant called Ousho?</td></tr></tbody></table></div><h2>possessive
+  particle の</h2><p>The possessive marker の is often omitted in front of the noun とこ (所).</p><table class="full-grid-table"><caption>the
+  omission of の</caption><tbody><tr><th>Standard</th><td>あなたの所／家</td><td>先生の所／家</td><td>私の家</td></tr><tr><th>Kansai-ben</th><td>あんたとこ</td><td>先生とこ</td><td><a
+  href="203">うっとこ</a>*</td></tr><tr><th>English</th><td>your place/house</td><td>teacher's place/house</td><td>my
+  house</td></tr></tbody></table><p>*The meaning of うっ in うっとこ is the same as <a href="155">うち</a> (私／家).</p>
 function_types:
 - function_128
 - function_127

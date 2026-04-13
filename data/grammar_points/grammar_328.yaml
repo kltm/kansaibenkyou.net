@@ -4,60 +4,16 @@ title: たら
 body: In Kansai-ben, the conditional clause (れ)ば is rarely used. Instead, the conditional clause たら is
   heavily used--to the extent that it is often used in cases where it would be not consider appropriate
   in standard Japanese.
-commentary: 'Kansai people and (れ)ば
-
-  For most Kansai people, (れ)ば sounds too formal, so たら is used for most any case where one wants to use
-  a conditional expression.
-
-  The negative form of たら
-
-  Since there are various negative forms in Kansai-ben (Vへん／Vん), the negative form of たら clauses are also
-  varied. For example, there are: Vなかったら, Vなんだら, Vんかったら, Vへんかったら, Vへんなんだら, and more...
-
-  Vなかったら
-
-  Vなんだら
-
-  Vんかったら
-
-  Vへんかったら
-
-  Vへんなんだら
-
-  食べる
-
-  食べなかったら
-
-  食べなんだら
-
-  食べんかったら
-
-  食べへんかったら
-
-  食べへんなんだら'
-example: 'Standard
-
-  昨日もっと勉強すればよかった。
-
-  Kansai-ben
-
-  昨日もっと勉強したらよかった。
-
-  English
-
-  I should have studied more yesterday.
-
-  Standard
-
-  電話してくれれば迎えに行くよ。
-
-  Kansai-ben
-
-  電話してくれたら迎えに行くで。
-
-  English
-
-  If you call me, I''ll come and pick you up.'
+commentary: '<h2>Kansai people and (れ)ば</h2><p>For most Kansai people, (れ)ば sounds too formal, so たら is
+  used for most any case where one wants to use a conditional expression.</p></div><h2>The negative form
+  of たら</h2><p>Since there are various negative forms in Kansai-ben (<a href="296">Vへん／Vん</a>), the negative
+  form of たら clauses are also varied. For example, there are: Vなかったら, Vなんだら, Vんかったら, Vへんかったら, Vへんなんだら,
+  and more...</p><table class="full-grid-table"><tr><th></th><th>Vなかったら</th><th>Vなんだら</th><th>Vんかったら</th><th>Vへんかったら</th><th>Vへんなんだら</th></tr><tr><th><span
+  class="nowrap">食べる</span></th><td><span class="nowrap">食べなかったら</span></td><td><span class="nowrap">食べなんだら</span></td><td><span
+  class="nowrap">食べんかったら</span></td><td><span class="nowrap">食べへんかったら</span></td><td><span class="nowrap">食べへんなんだら</span></td></tr></table>'
+example: <table><tr><th>Standard</th><td>昨日もっと勉強す<em>れば</em>よかった。</td></tr><tr><th>Kansai-ben</th><td>昨日もっと勉強し<em>たら</em>よかった。</td></tr><tr><th>English</th><td>I
+  should have studied more yesterday.</td></tr></table></div><table><tr><th>Standard</th><td>電話してくれ<em>れば</em>迎えに行くよ。</td></tr><tr><th>Kansai-ben</th><td>電話してくれ<em>たら</em>迎えに行くで。</td></tr><tr><th>English</th><td>If
+  you call me, I'll come and pick you up.</td></tr></table>
 function_types:
 - function_23
 grammar_types:

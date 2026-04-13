@@ -4,118 +4,23 @@ title: Vはる
 body: While there are several ways to express honorifics in standard Japanese (such as using おVになる／なさる,
   Vれる／られる, and special honorific words like めしあがる), just adding はる to the verb can be used as an honorific
   in Kansai-ben.
-commentary: 'Honorifics in Osaka
-
-  In Osaka, the affirmative stem? form is used instead of the negative stem? form.
-
-  Kansai
-
-  V? (negative stem) +はる
-
-  行かはる
-
-  Kansai
-
-  (Osaka)
-
-  V (affirmative stem) +はる
-
-  行きはる
-
-  Vやはる
-
-  The honorifics expression of the irregular verbs 来る and する are きはる and しはる respectively. There is also
-  a Vやはる form that can be used with the preceding verbs as well as いる.
-
-  Vはる
-
-  Vやはる
-
-  来る
-
-  きはる
-
-  きやはる
-
-  する
-
-  しはる
-
-  しやはる
-
-  いる
-
-  いはる
-
-  いやはる
-
-  Vている + はる
-
-  When はる is used with the ている form, Vたはる is used instead of Vてはる.
-
-  Vてはる
-
-  Vたはる
-
-  見ている
-
-  見てはる
-
-  見たはる
-
-  It should be noted that since おる is used instead of いる in the area of Kobe, there is no Vている, but instead
-  Vておる is used. In addition, in this case, です is used instead of ます.
-
-  Kansai
-
-  いてはりますか。
-
-  知ってはりますか
-
-  Kansai
-
-  (Kobe)
-
-  おってですか。
-
-  知っとってですか。
-
-  Other functions of Vはる
-
-  Vはる is used not only as an honorific expression, but also can be used to increase politeness or when
-  trying to describe something objectively.
-
-  Standard
-
-  あの子、なんで泣いてはるんやろ。
-
-  Kansai
-
-  あの子、どうして泣いているんだろう。
-
-  English
-
-  I wonder why the kid is crying.'
-formation: V? (negative stem?) +はる
-kansai_vs_standard: 'Standard
-
-  Vになる／なさる
-
-  Vれる／られる
-
-  special honorific words
-
-  お食べになる
-
-  食べられる
-
-  召し上がる
-
-  Kansai
-
-  Vはる
-
-  食べはる'
+commentary: <h2>Honorifics in Osaka</h2><p>In Osaka, the affirmative stem form is used instead of the
+  negative stem form.</p><table class="full-grid-table"><tbody><tr><th>Kansai</th><td>V (<em>negative</em>
+  stem) +はる</td><td>行<em>か</em>はる</td></tr><tr><th>Kansai<br /> (Osaka)</th><td>V (<em>affirmative</em>
+  stem) +はる</td><td>行<em>き</em>はる</td></tr></tbody></table></div><h2>Vやはる</h2><p>The honorifics expression
+  of the irregular verbs 来る and する are きはる and しはる respectively. There is also a Vやはる form that can be
+  used with the preceding verbs as well as いる.</p><table class="full-grid-table"><tr><th></th><th>Vはる</th><th>Vやはる</th></tr><tr><th>来る</th><td>きはる</td><td>きやはる</td></tr><tr><th>する</th><td>しはる</td><td>しやはる</td></tr><tr><th>いる</th><td>いはる</td><td>いやはる</td></tr></table></div><h2>Vている
+  + はる</h2><p>When はる is used with the <a href="331">ている form</a>, Vたはる is used instead of Vてはる.</p><table
+  class="full-grid-table"><tr><th></th><th>Vてはる</th><th>Vたはる</th></tr><tr><th>見ている</th><td>見てはる</td><td>見たはる</td></tr></table><p>It
+  should be noted that since おる is used instead of いる in the area of Kobe, there is no Vている, but instead
+  Vておる is used. In addition, in this case, です is used instead of ます.</p><table class="full-grid-table"><tr><th>Kansai</th><td>いてはりますか。</td><td>知ってはりますか</td></tr><tr><th>Kansai<br
+  /> (Kobe)</th><td>おってですか。</td><td>知っとってですか。</td></tr></table></div><h2>Other functions of Vはる</h2><p>Vはる
+  is used not only as an honorific expression, but also can be used to increase politeness or when trying
+  to describe something objectively.</p><table><tr><th>Standard</th><td>あの子、なんで<em>泣いてはる</em>んやろ。</td></tr><tr><th>Kansai</th><td>あの子、どうして<em>泣いている</em>んだろう。</td></tr><tr><th>English</th><td>I
+  wonder why the kid is crying.</td></tr></table>
+formation: <p>V (negative stem) +はる</p>
+kansai_vs_standard: <table class="full-grid-table"><tr><th>Standard</th><td><em>Vになる／なさる<br /> Vれる／られる<br
+  /> special honorific words</em></td><td><em>お食べになる<br /> 食べられる<br /> 召し上がる</em></td></tr><tr><th>Kansai</th><td><em>Vはる</em></td><td><em>食べはる</em></td></tr><tr></tr></table>
 function_types:
 - function_19
 grammar_types:

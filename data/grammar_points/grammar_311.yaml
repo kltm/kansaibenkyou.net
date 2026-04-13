@@ -9,245 +9,36 @@ body: 'The standard Japanese endings __じゃないか,  __ではないか, and 
   There are many uses for these sentence endings; common ones are confirmation, excuses, accusation, notification,
   and persuasion. The function changes depending on the situation and tone. The __がな ending is used more
   often by older people.'
-commentary: 'Combinations of sentence endings
-
-  やん, やんか, やんけ, and がな are often attached to other sentence endings for asking and explanations (e.g.,
-  ねん, てん, ん, のん and たん). In those cases, they are used in the same way as んだよ in standard Japanese.
-
-  ＿＿ねんやん(か)
-
-  Standard
-
-  夏休み、ハワイ行くんだよ。
-
-  Kansai-ben
-
-  夏休み、ハワイ行くねんやん(か)。
-
-  English
-
-  On summer vacation, I''m going to Hawaii.
-
-  ＿＿たんやん
-
-  Standard
-
-  あの人、実は彼女(が)いたんだよ。
-
-  Kansai-ben
-
-  あの人、実は彼女おったんやん(か)。
-
-  English
-
-  Actually, he has a girlfriend.
-
-  ＿＿んやがな
-
-  Standard
-
-  明日、まごが来るんだよ。
-
-  Kansai-ben
-
-  明日、まご来るんやがな。
-
-  English
-
-  My grandkid is coming tomorrow.
-
-  Polite Expressions
-
-  やん, やんか, やんけ, and がな can be used with ですor ます for politeness, but are rarely used in a formal setting.
-
-  ＿＿ましたやんか
-
-  Standard
-
-  昨日、電話すると言ったじゃないですか。
-
-  Kansai-ben
-
-  昨日、電話する言いましたやんか。
-
-  English
-
-  Didn''t I say that I was going to call you yesterday?
-
-  politeness level
-
-  high
-
-  昨日、電話すると言ったじゃないですか。
-
-  ↑
-
-  ↓
-
-  昨日、電話する言いましたやんか。
-
-  low
-
-  昨日、電話する言うたやんか。'
-example: '＿＿やんか (confirmation, accusation)
-
-  Standard
-
-  さっき、言ったじゃない。
-
-  Kansai-ben
-
-  さっき、言うたやんか。
-
-  English
-
-  Didn''t I just said that?
-
-  ＿＿やんか (excuse)
-
-  Standard
-
-  だって、あなた教えてくれなかったじゃない。
-
-  Kansai-ben
-
-  だって、あんた教えてくれへんかったやんか。
-
-  English
-
-  It''s because you didn''t let me know.
-
-  ＿＿やんか and ＿＿やわ (notification)
-
-  Standard
-
-  あ、もうこんな時間じゃない。
-
-  あ、もうこんな時間だわ。
-
-  Kansai-ben
-
-  あ、もうこんな時間やんか。
-
-  あ、もうこんな時間やわ*。
-
-  English
-
-  Ugh, it''s that time already?
-
-  *When やん, やんか, やんけ and がな are used as notification, they are used the same as the final particle わ.
-
-  ＿＿がな (persuasion)
-
-  Standard
-
-  きちんと説明したら分かってくれるんじゃないの。
-
-  きちんと説明したら分かってくれるよ。
-
-  Kansai-ben
-
-  ちゃんと説明したら分かってくれるがな。
-
-  English
-
-  They would understand if you explained it properly.'
-formation: '＿＿やん／やんか／やんけ
-
-  V? and i-Adj?
-
-  short form?+やん／やんか／やんけ*
-
-  na-Adj? and N?
-
-  stem?+やん／やんか／やんけ*
-
-  *やんけ is used more often by people in Kawachi (east of Osaka) and Wakayama.
-
-  ＿＿がな
-
-  V? and i-Adj?
-
-  short form?+がな
-
-  na-Adj? and N?
-
-  stem?+やがな'
-formation_from_standard: '＿＿やん／やんか／やんけ
-
-  V? (short-form)
-
-  i-Adj? (short-form)
-
-  na-Adj? (short-form)
-
-  N? (short-form)
-
-  Standard
-
-  行く　じゃないか
-
-  大きい　じゃないか
-
-  しずか　じゃないか
-
-  学生　じゃないか
-
-  Kansai-ben
-
-  行く　やん
-
-  行く　やんか
-
-  行く　やんけ
-
-  大きい　やん
-
-  大きい　やんか
-
-  大きい　やんけ
-
-  しずか　やん
-
-  しずか　やんか
-
-  しずか　やんけ
-
-  学生　やん
-
-  学生　やんか
-
-  学生　やんけ
-
-  ＿＿がな
-
-  V? (short-form)
-
-  i-Adj? (short-form)
-
-  na-Adj? (short-form)
-
-  N? (short-form)
-
-  Standard
-
-  行く　じゃないか
-
-  大きい　じゃないか
-
-  しずか　じゃないか
-
-  学生　じゃないか
-
-  Kansai-ben
-
-  行く　がな
-
-  大きい　がな
-
-  しずか　やがな
-
-  学生　やがな'
+commentary: <h2>Combinations of sentence endings</h2><p>やん, やんか, やんけ, and がな are often attached to other
+  sentence endings for asking and explanations (e.g., <a href="309">ねん, てん, ん, のん and たん</a>). In those
+  cases, they are used in the same way as んだよ in standard Japanese.</p><table><caption>＿＿ねんやん(か)</caption><tbody><tr><th>Standard</th><td>夏休み、ハワイ行く<em>んだよ</em>。</td></tr><tr><th>Kansai-ben</th><td>夏休み、ハワイ行く<em>ねんやん(か)</em>。</td></tr><tr><th>English</th><td>On
+  summer vacation, I'm going to Hawaii.</td></tr></tbody></table><table><caption>＿＿たんやん</caption><tbody><tr><th>Standard</th><td>あの人、実は彼女(が)い<em>たんだよ</em>。</td></tr><tr><th>Kansai-ben</th><td>あの人、実は彼女おっ<em>たんやん(か)</em>。</td></tr><tr><th>English</th><td>Actually,
+  he has a girlfriend.</td></tr></tbody></table><table><caption>＿＿んやがな</caption><tbody><tr><th>Standard</th><td>明日、まごが来る<em>んだよ</em>。</td></tr><tr><th>Kansai-ben</th><td>明日、まご来る<em>んやがな</em>。</td></tr><tr><th>English</th><td>My
+  grandkid is coming tomorrow.</td></tr></tbody></table></div><h2>Polite Expressions</h2><p>やん, やんか, やんけ,
+  and がな can be used with ですor ます for politeness, but are rarely used in a formal setting.</p><table><caption>＿＿ましたやんか</caption><tbody><tr><th>Standard</th><td>昨日、電話すると<em>言ったじゃないですか</em>。</td></tr><tr><th>Kansai-ben</th><td>昨日、電話する<em>言いましたやんか</em>。</td></tr><tr><th>English</th><td>Didn't
+  I say that I was going to call you yesterday?</td></tr></tbody></table><table><caption>politeness level</caption><tr><th>high</th><td>昨日、電話すると<em>言ったじゃないですか。</em></td></tr><tr><th>↑<br
+  /> ↓</th><td>昨日、電話する<em>言いましたやんか。</em></td></tr><tr><th>low</th><td>昨日、電話する<em>言うたやんか</em>。</td></tr></table>
+example: <table><caption>＿＿やんか (confirmation, accusation)</caption><tbody><tr><th>Standard</th><td>さっき、言った<em>じゃない</em>。</td></tr><tr><th>Kansai-ben</th><td>さっき、言うた<em>やんか</em>。</td></tr><tr><th>English</th><td>Didn't
+  I just said that?</td></tr></tbody></table></div><table><caption>＿＿やんか (excuse)</caption><tbody><tr><th>Standard</th><td>だって、あなた教えてくれなかった<em>じゃない</em>。</td></tr><tr><th>Kansai-ben</th><td>だって、あんた教えてくれへんかった<em>やんか</em>。</td></tr><tr><th>English</th><td>It's
+  because you didn't let me know.</td></tr></tbody></table></div><table><caption>＿＿やんか and ＿＿やわ (notification)</caption><tbody><tr><th>Standard</th><td>あ、もうこんな時間<em>じゃない</em>。<br
+  /> あ、もうこんな時間<em>だわ</em>。</td></tr><tr><th>Kansai-ben</th><td>あ、もうこんな時間<em>やんか</em>。<br /> あ、もうこんな時間<em>やわ</em>*。</td></tr><tr><th>English</th><td>Ugh,
+  it's that time already?</td></tr></tbody></table><p>*When やん, やんか, やんけ and がな are used as notification,
+  they are used the same as the final particle <a href="304">わ</a>.</p></div><table><caption>＿＿がな (persuasion)</caption><tbody><tr><th>Standard</th><td>きちんと説明したら分かってくれる<em>んじゃないの</em>。<br
+  /> きちんと説明したら分かってくれる<em>よ</em>。 </td></tr><tr><th>Kansai-ben</th><td>ちゃんと説明したら分かってくれる<em>がな</em>。</td></tr><tr><th>English</th><td>They
+  would understand if you explained it properly.</td></tr></tbody></table>
+formation: <h2>＿＿やん／やんか／やんけ</h2><table><tr><th>V and i-Adj</th><td><em>short form+やん／やんか／やんけ*<em></em></em></td></tr><tr><th>na-Adj
+  and N</th><td><em>stem+やん／やんか／やんけ*</em></td></tr></table><p>*やんけ is used more often by people in Kawachi
+  (east of Osaka) and Wakayama.</p></div><h2>＿＿がな</h2><table><tr><th>V and i-Adj</th><td><em>short form+がな<em></em></em></td></tr><tr><th>na-Adj
+  and N</th><td><em>stem+やがな</em></td></tr></table>
+formation_from_standard: <h2>＿＿やん／やんか／やんけ</h2><table class="full-grid-table"><tr><th></th><th>V (short-form)</th><th>i-Adj
+  (short-form)</th><th>na-Adj (short-form)</th><th>N (short-form)</th></tr><tr><th>Standard</th><td>行く<em>
+  じゃないか</em></td><td>大きい<em> じゃないか</em></td><td>しずか<em> じゃないか</em></td><td>学生<em> じゃないか</em></td></tr><tr><th>Kansai-ben</th><td>行く<em>
+  やん</em><br /> 行く<em> やんか</em><br /> 行く<em> やんけ</em></td><td>大きい<em> やん</em><br /> 大きい<em> やんか</em><br
+  /> 大きい<em> やんけ</em></td><td>しずか<em> やん</em><br /> しずか<em> やんか</em><br /> しずか<em> やんけ</em></td><td>学生<em>
+  やん</em><br /> 学生<em> やんか</em><br /> 学生<em> やんけ</em></td></tr></table></div><h2>＿＿がな</h2><table class="full-grid-table"><tr><th></th><th>V
+  (short-form)</th><th>i-Adj (short-form)</th><th>na-Adj (short-form)</th><th>N (short-form)</th></tr><tr><th>Standard</th><td>行く<em>
+  じゃないか</em></td><td>大きい<em> じゃないか</em></td><td>しずか<em> じゃないか</em></td><td>学生<em> じゃないか</em></td></tr><tr><th>Kansai-ben</th><td>行く<em>
+  がな</em></td><td>大きい<em> がな</em></td><td>しずか<em> やがな</em></td><td>学生<em> やがな</em></td></tr></table>
 function_types:
 - function_131
 grammar_types:

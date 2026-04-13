@@ -2,97 +2,13 @@ id: grammar_339
 drupal_node_id: 339
 title: Short forms of verbs
 body: As in standard Japanese, there are many short forms for verbs in Kansai-ben.
-kansai_vs_standard: 'Standard
-
-  (long)
-
-  Standard
-
-  (short)
-
-  Kansai-ben
-
-  (long)
-
-  Kansai-ben
-
-  (short)
-
-  Example
-
-  Vておかなければ
-
-  Vておかなきゃ
-
-  Vておかな／
-
-  Vておかんと
-
-  Vとかな／
-
-  Vとかんと
-
-  食べとかなあかん／
-
-  食べとかんとあかん
-
-  Vていなければ
-
-  (Vておらなければ)
-
-  Vていなきゃ
-
-  (Vておらなきゃ)
-
-  ×
-
-  Vておらな／
-
-  Vておらんと
-
-  Vてな／Vてんと
-
-  Vとらな／
-
-  Vとらんと
-
-  食べてなあかん／
-
-  食べてんとあかん
-
-  食べとらなあかん／
-
-  食べとらんとあかん
-
-  Vてあげなければ
-
-  Vてあげなきゃ
-
-  Vてあげな／
-
-  Vてあげんと
-
-  Vたげな／Vたげんと
-
-  食べたげなあかん／
-
-  食べたげんとあかん
-
-  Vてしまわなければ
-
-  Vてしまわなきゃ
-
-  Vてしまわな／
-
-  Vてしまわんと
-
-  Vてまわな／
-
-  Vてまわんと
-
-  食べてまわなあかん／
-
-  食べてまわんとあかん'
+kansai_vs_standard: <table class="full-grid-table"><tr><th>Standard<br /> (long)</th><th>Standard<br />
+  (short)</th><th>Kansai-ben<br /> (long)</th><th>Kansai-ben<br /> (short)</th><th>Example</th></tr><tr><td>Vておかなければ</td><td>Vておかなきゃ</td><td>Vておかな／<br
+  /> Vておかんと</td><td>Vとかな／<br /> Vとかんと</td><td>食べとかなあかん／<br /> 食べとかんとあかん</td></tr><tr><td>Vていなければ<br />
+  (Vておらなければ)</td><td>Vていなきゃ<br /><span class="nowrap">(Vておらなきゃ)</span></td><td>×<br /> Vておらな／<br /> Vておらんと</td><td>Vてな／Vてんと<br
+  /> Vとらな／<br /> Vとらんと</td><td>食べてなあかん／<br /> 食べてんとあかん<br /> 食べとらなあかん／<br /> 食べとらんとあかん</td></tr><tr><td>Vてあげなければ</td><td>Vてあげなきゃ</td><td>Vてあげな／<br
+  /> Vてあげんと</td><td>Vたげな／Vたげんと</td><td>食べたげなあかん／<br /> 食べたげんとあかん</td></tr><tr><td><span class="nowrap">Vてしまわなければ</span></td><td>Vてしまわなきゃ</td><td>Vてしまわな／<br
+  /> Vてしまわんと</td><td>Vてまわな／<br /> Vてまわんと</td><td>食べてまわなあかん／<br /><span class="nowrap">食べてまわんとあかん</span></td></tr></table>
 function_types:
 - function_137
 grammar_types:

@@ -8,48 +8,70 @@ layout: single
 
 <article class="grammar-point">
 
-  <header>
-    <h1 class="gp-title">{{ gp.title }}</h1>
-  </header>
-
   {%- if gp.body %}
-    <section class="gp-body">
+    <section class="gp-section gp-body-section">
       <p>{{ gp.body }}</p>
     </section>
   {%- endif %}
 
   {%- if gp.kansai_vs_standard %}
-    <section class="gp-contrast">
+    <section class="gp-section">
       <h2>Kansai-ben vs. Standard</h2>
-      <div class="gp-preformatted">{{ gp.kansai_vs_standard | newline_to_br }}</div>
+      <div class="gp-html-content">{{ gp.kansai_vs_standard }}</div>
     </section>
   {%- endif %}
 
   {%- if gp.formation %}
-    <section class="gp-formation">
+    <section class="gp-section">
       <h2>Formation</h2>
-      <div class="gp-preformatted">{{ gp.formation | newline_to_br }}</div>
+      <div class="gp-html-content">{{ gp.formation }}</div>
     </section>
   {%- endif %}
 
   {%- if gp.formation_from_standard %}
-    <section class="gp-formation-std">
+    <section class="gp-section">
       <h2>From Standard Japanese</h2>
-      <div class="gp-preformatted">{{ gp.formation_from_standard | newline_to_br }}</div>
+      <div class="gp-html-content">{{ gp.formation_from_standard }}</div>
     </section>
   {%- endif %}
 
   {%- if gp.example %}
-    <section class="gp-example">
+    <section class="gp-section">
       <h2>Examples</h2>
-      <div class="gp-preformatted">{{ gp.example | newline_to_br }}</div>
+      <div class="gp-html-content">{{ gp.example }}</div>
     </section>
   {%- endif %}
 
   {%- if gp.commentary %}
-    <section class="gp-commentary">
+    <section class="gp-section">
       <h2>Notes</h2>
-      <div class="gp-preformatted">{{ gp.commentary | newline_to_br }}</div>
+      <div class="gp-html-content">{{ gp.commentary }}</div>
+    </section>
+  {%- endif %}
+
+  {%- if gp.function_types.size > 0 %}
+    <section class="conv-tags">
+      <h2>Common uses</h2>
+      <ul class="tag-cloud">
+        {%- for ft in gp.function_types %}
+          {%- assign ft_id = ft | split: "_" | last %}
+          {%- assign ft_label = site.data.taxonomy_labels[ft_id] | default: ft %}
+          <li><a href="{{ '/taxonomy/term/' | append: ft_id | append: '/' | relative_url }}">{{ ft_label }}</a></li>
+        {%- endfor %}
+      </ul>
+    </section>
+  {%- endif %}
+
+  {%- if gp.grammar_types.size > 0 %}
+    <section class="conv-tags">
+      <h2>Grammar elements</h2>
+      <ul class="tag-cloud">
+        {%- for gt in gp.grammar_types %}
+          {%- assign gt_id = gt | split: "_" | last %}
+          {%- assign gt_label = site.data.taxonomy_labels[gt_id] | default: gt %}
+          <li><a href="{{ '/taxonomy/term/' | append: gt_id | append: '/' | relative_url }}">{{ gt_label }}</a></li>
+        {%- endfor %}
+      </ul>
     </section>
   {%- endif %}
 

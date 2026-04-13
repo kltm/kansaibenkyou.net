@@ -6,58 +6,11 @@ body: 'Although Kansai-ben has the conditional clause __と__ like in standard J
 
   While Vんと without a downstep? is the normal conditional clause, Vんと with a downstep can mean "do not
   V?" or "without doing V", similar to Vないで(ください) and Vせずに in standard Japanese.'
-example: 'Vないと (conditional clause)
-
-  Standard
-
-  そろそろ行かないと遅刻するよ。
-
-  Kansai-ben
-
-  そろそろ行かんと遅刻するで。
-
-  English
-
-  If you don''t leave soon you''ll be late.
-
-  Vないで (negative imperative)
-
-  Standard
-
-  仕事ばっかりしないでたまには私と遊んでよ。
-
-  Kansai-ben
-
-  仕事ばっかりせんとたまにはうちと遊んでや。
-
-  English
-
-  You shouldn''t just work, you know—every once in a while you should come out with me.
-
-  Vせずに
-
-  Standard
-
-  あいつ、全然仕事せずに携帯ばっかりさわってるよ。
-
-  Kansai-ben
-
-  あいつ、いっこも仕事せんと携帯ばっかりいじっとるわ。
-
-  English
-
-  He''s always fiddling with his cell phone and not doing any work.'
-kansai_vs_standard: 'Standard
-
-  Vないと
-
-  Vないで(ください)
-
-  Vせずに
-
-  Kansai-ben
-
-  Vんと'
+example: <table><caption>Vないと (conditional clause)</caption><tbody><tr><th>Standard</th><td>そろそろ<em>行かないと</em>遅刻するよ。</td></tr><tr><th>Kansai-ben</th><td>そろそろ<em>行かんと</em>遅刻するで。</td></tr><tr><th>English</th><td>If
+  you don't leave soon you'll be late.</td></tr></tbody></table></div><table><caption>Vないで (negative imperative)</caption><tbody><tr><th>Standard</th><td>仕事ばっかりしないでたまには私と遊んでよ。</td></tr><tr><th>Kansai-ben</th><td>仕事ばっかりせんとたまにはうちと遊んでや。</td></tr><tr><th>English</th><td>You
+  shouldn't just work, you know—every once in a while you should come out with me.</td></tr></tbody></table></div><table><caption>Vせずに</caption><tbody><tr><th>Standard</th><td>あいつ、全然仕事<em>せずに</em>携帯ばっかりさわってるよ。</td></tr><tr><th>Kansai-ben</th><td>あいつ、いっこも仕事<em>せんと</em>携帯ばっかりいじっとるわ。</td></tr><tr><th>English</th><td>He's
+  always fiddling with his cell phone and not doing any work.</td></tr></tbody></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vないと<br /> Vないで(ください)<br /> Vせずに</em></td></tr><tr><th>Kansai-ben</th><td><em>Vんと</em></td></tr><tr></tr></table>
 function_types:
 - function_23
 grammar_types:

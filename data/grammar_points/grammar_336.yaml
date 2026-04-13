@@ -3,90 +3,14 @@ drupal_node_id: 336
 title: Vよ
 body: In Kansai-ben, the final う sound of the volitional form? is often omitted (Dropping "う"), so the
   volitional form may become V?(よ).
-example: 'Standard
-
-  明日、学校休もうと思っているんだ。
-
-  Kansai-ben
-
-  明日、学校休も思てるねん。
-
-  English
-
-  I''m thinking about not going to school tomorrow.'
-formation: '食べる (ru-verb?)
-
-  行く
-
-  (u-verb?)
-
-  くる
-
-  (irregular verb?)
-
-  する
-
-  (irregular verb)
-
-  Standard
-
-  食べよう
-
-  行こう
-
-  こよう
-
-  しよう
-
-  Kansai-ben
-
-  食べよ＿
-
-  行こ＿
-
-  こよ＿
-
-  しよ＿'
-formation_from_standard: '食べる (ru-verb?)
-
-  行く
-
-  (u-verb?)
-
-  くる
-
-  (irregular verb?)
-
-  する
-
-  (irregular verb)
-
-  Standard
-
-  食べよう
-
-  行こう
-
-  こよう
-
-  しよう
-
-  Kansai-ben
-
-  食べよ＿
-
-  行こ＿
-
-  こよ＿
-
-  しよ＿'
-kansai_vs_standard: 'Standard
-
-  V?(よ)う
-
-  Kansai-ben
-
-  V(よ)'
+example: <table><tr><th>Standard</th><td>明日、学校<em>休もう</em>と思っているんだ。</td></tr><tr><th>Kansai-ben</th><td>明日、学校<em>休も</em>思てるねん。</td></tr><tr><th>English</th><td>I'm
+  thinking about not going to school tomorrow.</td></tr></table>
+formation: <table class="full-grid-table"><tr><th></th><th>食べる (ru-verb)</th><th>行く<br /> (u-verb)</th><th>くる<br
+  /><span class="nowrap">(irregular verb)</span></th><th>する<br /><span class="nowrap">(irregular verb)</span></th></tr><tr><th>Standard</th><td>食べよ<em>う</em></td><td>行こ<em>う</em></td><td>こよ<em>う</em></td><td>しよ<em>う</em></td></tr><tr><th>Kansai-ben</th><td>食べよ<em>＿</em></td><td>行こ<em>＿</em></td><td>こよ<em>＿</em></td><td>しよ<em>＿</em></td></tr></table>
+formation_from_standard: <table class="full-grid-table"><tr><th></th><th>食べる (ru-verb)</th><th>行く<br />
+  (u-verb)</th><th>くる<br /><span class="nowrap">(irregular verb)</span></th><th>する<br /><span class="nowrap">(irregular
+  verb)</span></th></tr><tr><th>Standard</th><td>食べよ<em>う</em></td><td>行こ<em>う</em></td><td>こよ<em>う</em></td><td>しよ<em>う</em></td></tr><tr><th>Kansai-ben</th><td>食べよ<em>＿</em></td><td>行こ<em>＿</em></td><td>こよ<em>＿</em></td><td>しよ<em>＿</em></td></tr></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>V(よ)う</em></td></tr><tr><th>Kansai-ben</th><td><em>V(よ)</em></td></tr><tr></tr></table>
 function_types:
 - function_141
 grammar_types:

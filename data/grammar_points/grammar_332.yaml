@@ -2,57 +2,16 @@ id: grammar_332
 drupal_node_id: 332
 title: Vたある
 body: Vてある in standard Japanese, when used in the sense of preparation or state, may become Vたある in Kansai-ben
-commentary: 'Describing the state of something
-
-  Vたある in Kansai-ben can also be used like Vている in standard Japanese when describing the state of something.
-
-  Standard
-
-  あ、このパソコンこわれているよ。
-
-  Kansai-ben
-
-  あ、このパソコンこわれたあるで。
-
-  English
-
-  Well, this computer is broken.'
-example: 'Standard
-
-  ここに書いてあるじゃない。ちゃんと見てよ。
-
-  Kansai-ben
-
-  ここに書いたあるやん。ちゃんと見ぃや。
-
-  English
-
-  Look, it''s written here. Take another look.'
-formation: 'Vたある
-
-  V? (ta-form?) +ある'
-formation_from_standard: 'V? (non-past)
-
-  V (past)
-
-  Standard
-
-  書いて　ある
-
-  書いて　あった
-
-  Kansai-ben
-
-  書いた　ある
-
-  書いた　あった'
-kansai_vs_standard: 'Standard
-
-  Vてある
-
-  Kansai-ben
-
-  Vたある'
+commentary: <h2>Describing the state of something</h2><p>Vたある in Kansai-ben can also be used like Vている
+  in standard Japanese when describing the state of something.</p><table><tbody><tr><th>Standard</th><td>あ、このパソコン<em>こわれている</em>よ。</td></tr><tr><th>Kansai-ben</th><td>あ、このパソコン<em>こわれたある</em>で。</td></tr><tr><th>English</th><td>Well,
+  this computer is broken.</td></tr></tbody></table>
+example: <table><tr><th>Standard</th><td>ここに<em>書いてある</em>じゃない。ちゃんと見てよ。</td></tr><tr><th>Kansai-ben</th><td>ここに<em>書いたある</em>やん。ちゃんと見ぃや。</td></tr><tr><th>English</th><td>Look,
+  it's written here. Take another look.</td></tr></table>
+formation: <h2>Vたある</h2><table><tr><td>V (ta-form) +ある</td></tr></table>
+formation_from_standard: <table class="full-grid-table"><tr><th></th><th>V (non-past)</th><th>V (past)</th></tr><tr><th>Standard</th><td>書い<em>て
+  ある</em></td><td>書い<em>て あった</em></td></tr><tr><th>Kansai-ben</th><td>書い<em>た ある</em></td><td>書い<em>た
+  あった</em></td></tr></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vてある</em></td></tr><tr><th>Kansai-ben</th><td><em>Vたある</em></td></tr><tr></tr></table>
 function_types:
 - function_38
 - function_34

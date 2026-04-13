@@ -9,199 +9,24 @@ body: 'Looking from standard Japanese to Kansai-ben, there are some differences 
 
   The second case is for the other verbs. In this case the sound before the う can extend (vowel extension),
   but not necessarily.'
-example: 'The two character case
-
-  -au
-
-  -ou
-
-  -uu
-
-  Standard
-
-  Kansai-ben
-
-  Standard
-
-  Kansai-ben
-
-  Standard
-
-  Kansai-ben
-
-  dictionary form?
-
-  かう
-
-  かう
-
-  (kau)
-
-  よう
-
-  よう
-
-  (you)
-
-  すう
-
-  すう
-
-  (suu)
-
-  te-form?
-
-  かって
-
-  こうて
-
-  (koote)
-
-  よって
-
-  ようて
-
-  (yoote)
-
-  すって
-
-  すうて
-
-  (suute)
-
-  ta-form?
-
-  かった
-
-  こうた
-
-  (koota)
-
-  よった
-
-  ようた
-
-  (yoota)
-
-  すった
-
-  すうた
-
-  (suuta)
-
-  The general case
-
-  -au
-
-  -ou
-
-  -uu
-
-  Standard
-
-  Kansai-ben
-
-  Standard
-
-  Kansai-ben
-
-  Standard
-
-  Kansai-ben
-
-  dictionary form?
-
-  うたう
-
-  うたう
-
-  (utau)
-
-  さそう
-
-  さそう
-
-  (sasou)
-
-  ふるう
-
-  ふるう
-
-  (furuu)
-
-  te-form?
-
-  (long)
-
-  うたって
-
-  うとうて
-
-  (utoote)
-
-  さそって
-
-  さそうて
-
-  (sasoote)
-
-  ふるって
-
-  ふるうて
-
-  (furuute)
-
-  te-form
-
-  (short)
-
-  うとて
-
-  (uto_te)
-
-  さそて
-
-  (saso_te)
-
-  ふるて
-
-  (furu_te)
-
-  ta-form?
-
-  (long)
-
-  うたった
-
-  うとうた
-
-  (utoota)
-
-  さそった
-
-  さそうた
-
-  (sasoota)
-
-  ふるった
-
-  ふるうた
-
-  (furuuta)
-
-  ta-form
-
-  (short)
-
-  うとた
-
-  (uto_ta)
-
-  さそた(saso_ta)
-
-  ふるた
-
-  (furu_ta)'
+example: <table class="full-grid-table"><caption>The two character case</caption><tr><th rowspan="2"></th><th
+  colspan="2">-au</th><th colspan="2">-ou</th><th colspan="2">-uu</th></tr><tr><th>Standard</th><th>Kansai-ben</th><th>Standard</th><th>Kansai-ben</th><th>Standard</th><th>Kansai-ben</th></tr><tr><th><span
+  class="nowrap">dictionary form</span></th><td>かう</td><td>かう<br /> (k<em>a</em>u)</td><td>よう</td><td>よう<br
+  /> (y<em>o</em>u)</td><td>すう</td><td>すう<br /> (s<em>u</em>u)</td></tr><tr><th>te-form</th><td>かって</td><td><span
+  class="nowrap">こうて</span><br /> (k<em>oo</em>te)</td><td>よって</td><td><span class="nowrap">ようて</span><br
+  /> (y<em>oo</em>te)</td><td>すって</td><td><span class="nowrap">すうて</span><br /> (s<em>uu</em>te)</td></tr><tr><th>ta-form</th><td>かった</td><td>こうた<br
+  /> (k<em>oo</em>ta)</td><td>よった</td><td>ようた<br /> (y<em>oo</em>ta)</td><td>すった</td><td>すうた<br /> (s<em>uu</em>ta)</td></tr></table></div><table
+  class="full-grid-table"><caption>The general case</caption><tr><th rowspan="2"></th><th colspan="2">-au</th><th
+  colspan="2">-ou</th><th colspan="2">-uu</th></tr><tr><th>Standard</th><th>Kansai-ben</th><th>Standard</th><th>Kansai-ben</th><th>Standard</th><th>Kansai-ben</th></tr><tr><th><span
+  class="nowrap">dictionary form</span></th><td>うたう</td><td>うたう<br /> (ut<em>a</em>u)</td><td>さそう</td><td>さそう<br
+  /> (sas<em>o</em>u)</td><td>ふるう</td><td>ふるう<br /> (fur<em>u</em>u)</td></tr><tr><th>te-form<br /> (long)</th><td
+  rowspan="2">うたって</td><td><span class="nowrap">うとうて</span><br /> (ut<em>oo</em>te)</td><td rowspan="2">さそって</td><td><span
+  class="nowrap">さそうて</span><br /> (sas<em>oo</em>te)</td><td rowspan="2">ふるって</td><td>ふるうて<br /> (fur<em>uu</em>te)</td></tr><tr><th>te-form<br
+  /> (short)</th><td>うとて<br /> (ut<em>o_</em>te)</td><td>さそて<br /> (sas<em>o_</em>te)</td><td>ふるて<br />
+  (fur<em>u_</em>te)</td></tr><tr><th>ta-form<br /> (long)</th><td rowspan="2">うたった</td><td>うとうた<br />
+  (ut<em>oo</em>ta)</td><td rowspan="2">さそった</td><td>さそうた<br /> (sas<em>oo</em>ta)</td><td rowspan="2">ふるった</td><td><span
+  class="nowrap">ふるうた</span><br /> (fur<em>uu</em>ta)</td></tr><tr><th>ta-form<br /> (short)</th><td>うとた<br
+  /> (ut<em>o_</em>ta)</td><td>さそた(sas<em>o_</em>ta)</td><td>ふるた<br /> (fur<em>u_</em>ta)</td></tr></table>
 function_types:
 - function_137
 grammar_types:

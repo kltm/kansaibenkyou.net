@@ -15,6 +15,17 @@ layout: single
     {%- endif %}
   </header>
 
+  {%- if rc.speakers.size > 0 %}
+    <p class="teaser-meta">
+      <strong>Speakers:</strong>
+      {%- for sp in rc.speakers %}
+        {%- assign sid = sp | split: "_" | last %}
+        {%- assign sp_label = site.data.taxonomy_labels[sid] | default: sp %}
+        <a href="{{ '/taxonomy/term/' | append: sid | append: '/' | relative_url }}">{{ sp_label }}</a>{%- unless forloop.last %}, {% endunless %}
+      {%- endfor %}
+    </p>
+  {%- endif %}
+
   {%- if rc.hint %}
     <section class="rc-hint">
       <h2>Listening hints</h2>

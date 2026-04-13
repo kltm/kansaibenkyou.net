@@ -3,171 +3,30 @@ drupal_node_id: 322
 title: Vな
 body: Like standard Japanese, Vな is also used in Kansai-ben for strong prohibition. However, instead of
   the dictionary form? as in standard Japanese, the stem? form is used.
-commentary: 'Final るand Vんな
-
-  In the verbs that end with る, that final る often changes into ん.
-
-  Standard
-
-  食べるな
-
-  寝るな
-
-  Kansai-ben
-
-  食べんな
-
-  寝んな
-
-  Kansai-ben
-
-  (basic form)
-
-  食べな
-
-  寝ぇな
-
-  Vんな
-
-  Standard
-
-  こんなところで寝るなよ。
-
-  Kansai-ben
-
-  こんなとこで寝んなや。
-
-  English
-
-  You can''t sleep here.
-
-  The function of Vな can depend on the accent
-
-  Vな can have different function depending on the accent.
-
-  Vな with a downstep? = negative imperative (prohibition)
-
-  Vな without a downstep = affirmative imperative (giving advice)
-
-  (LHL) 飲みな
-
-  (LLL) 飲みな
-
-  Standard
-
-  もう、さけ飲むなよ。
-
-  あついからゆっくり飲むんだよ。
-
-  Kansai-ben
-
-  もう、さけ飲みなや。
-
-  [↓]
-
-  あついからゆっくり飲みな。
-
-  [↓]
-
-  English
-
-  You shouldn''t drink anymore.
-
-  It''s hot so drink it slowly.
-
-  L = low pitch?
-
-  H = high pitch
-
-  Other phrases of prohibition: Vたらあかん and Vんとき
-
-  Besides Vな, there are other phrases for prohibition such as Vたらあかん and Vんとき. The differences between
-  these three are in the degree of prohibition.
-
-  Standard
-
-  Kansai-ben
-
-  English
-
-  Vな
-
-  Vな
-
-  Don''t V?
-
-  Vたらだめ
-
-  Vたらあかん
-
-  You shouldn''t...
-
-  V しないで
-
-  from shinaide okinasai
-
-  Vんとき
-
-  Don''t V [fairly low key]
-
-  Vんとき
-
-  Standard
-
-  明日、二日よいになるから、もう飲まないで。
-
-  Kansai-ben
-
-  明日、二日よいになるよって、もう飲まんとき。
-
-  English
-
-  If you don''t stop drinking you''ll have a hangover tomorrow.'
-example: 'With u-verbs and ru-verbs that have stem? with two or more characters.
-
-  Standard
-
-  寝る　な
-
-  する　な
-
-  くる　な
-
-  Kansai-ben
-
-  寝ぇ　な
-
-  しぃ　な
-
-  きぃ　な
-
-  With ru-verbs that have single character stem? and irregular verbs.
-
-  Standard
-
-  行く　な
-
-  食べる　な
-
-  Kansai-ben
-
-  行き　な
-
-  食べ　　な'
-formation: 'u-verbs and ru-verbs that have stem? with two or more characters
-
-  V? (stem)
-
-  ru-verbs that have single character stem and irregular verbs
-
-  V (stem) with the final vowel extended'
-kansai_vs_standard: 'Standard
-
-  V? (dictionary form?) な
-
-  Kansai-ben
-
-  V (stem?) な'
+commentary: '<h2>Final るand Vんな</h2><p>In the verbs that end with る, that final る often changes into ん.</p><table
+  class="full-grid-table"><tbody><tr><th>Standard</th><td>食べ<em>る</em>な</td><td>寝<em>る</em>な</td></tr><tr><th>Kansai-ben</th><td>食べ<em>ん</em>な</td><td>寝<em>ん</em>な</td></tr><tr><th>Kansai-ben<br
+  /> (basic form)</th><td>食べな</td><td>寝ぇな</td></tr></tbody></table><table><caption>Vんな</caption><tbody><tr><th>Standard</th><td>こんなところで<em>寝るな</em>よ。</td></tr><tr><th>Kansai-ben</th><td>こんなとこで<em>寝んな</em>や。</td></tr><tr><th>English</th><td>You
+  can''t sleep here.</td></tr></tbody></table></div><h2>The function of Vな can depend on the accent</h2><p>Vな
+  can have different function depending on the accent.</p><p>Vな with a downstep = negative imperative
+  (prohibition)<br /> Vな without a downstep = affirmative imperative (giving advice)</p><table class="full-grid-table"><tr><th></th><th>
+  (LHL) 飲みな</th><th> (LLL) 飲みな</th></tr><tr><th>Standard</th><td>もう、さけ<em>飲むな</em>よ。</td><td>あついからゆっくり<em>飲むんだよ</em>。</td></tr><tr><th>Kansai-ben</th><td>もう、さけ<em>飲みな</em>や。<br
+  /><p id="audioplayer-1" class="kb-audio"><a href="../external/gr_sakenomi.mp3">[↓]</a></p></td><td>あついからゆっくり<em>飲みな</em>。<br
+  /><p id="audioplayer-2" class="kb-audio"><a href="../external/gr_atsunomi.mp3">[↓]</a></p></td></tr><tr><th>English</th><td>You
+  shouldn''t drink anymore.</td><td>It''s hot so drink it slowly.</td></tr></table><p>L = low pitch<br
+  /> H = high pitch</p></div><h2>Other phrases of prohibition: Vたらあかん and Vんとき</h2><p>Besides Vな, there
+  are other phrases for prohibition such as <a href="324">Vたらあかん</a> and <a href="333">Vんとき</a>. The differences
+  between these three are in the degree of prohibition.</p><table class="full-grid-table"><tr><th>Standard</th><th>Kansai-ben</th><th>English</th></tr><tr><td>Vな</td><td>Vな</td><td>Don''t
+  V</td></tr><tr><td>Vたらだめ</td><td>Vたらあかん</td><td>You shouldn''t...</td></tr><tr><td>V しないで<br /> from
+  shinaide okinasai</td><td>Vんとき</td><td>Don''t V [fairly low key]</td></tr></table><table><caption>Vんとき</caption><tbody><tr><th>Standard</th><td>明日、二日よいになるから、もう<em>飲まないで</em>。</td></tr><tr><th>Kansai-ben</th><td>明日、二日よいになるよって、もう<em>飲まんとき</em>。</td></tr><tr><th>English</th><td>If
+  you don''t stop drinking you''ll have a hangover tomorrow.</td></tr></tbody></table>'
+example: <p>With u-verbs and ru-verbs that have stem with two or more characters.</p><table class="full-grid-table"><tr><th>Standard</th><td>寝<em>る</em><em>な</em></td><td><em>する</em><em>な</em></td><td><em>くる</em><em>な</em></td></tr><tr><th>Kansai-ben</th><td>寝<em>ぇ</em><em>な</em></td><td><em>しぃ</em><em>な</em></td><td><em>きぃ</em><em>な</em></td></tr></table></div><p>With
+  ru-verbs that have single character stem and irregular verbs.</p><table class="full-grid-table"><tr><th>Standard</th><td>行<em>く</em><em>な</em></td><td>食<em>べる</em><em>な</em></td></tr><tr><th>Kansai-ben</th><td>行<em>き</em><em>な</em></td><td>食<em>べ
+  </em><em>な</em></td></tr></table>
+formation: <table><tr><th>u-verbs and ru-verbs that have stem with two or more characters</th><td>V (stem)
+  </td></tr><tr><th>ru-verbs that have single character stem and irregular verbs</th><td><span class="nowrap">V
+  (stem) with the final vowel extended<span></span></span></td></tr><tr></tr></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>V (dictionary form) な</em></td></tr><tr><th>Kansai-ben</th><td><em>V
+  (stem) な</em></td></tr><tr></tr></table>
 function_types:
 - function_41
 - function_29

@@ -3,51 +3,13 @@ drupal_node_id: 318
 title: Vてくれへん／Vてんか
 body: The standard Vてくれない, when used as a request, may become Vてくれへん and Vてんか in Kansai-ben. Vてんか is a
   shortened form of Vてくれへん, and may be used more by older people.
-example: 'Vてくれへん(か)
-
-  Standard
-
-  これ、持ってくれない？
-
-  Kansai-ben
-
-  これ、持ってくれへん(か)？
-
-  English
-
-  Could you hold this for me?
-
-  Vてんか
-
-  Standard
-
-  窓、閉めてくれない？
-
-  Kansai-ben
-
-  窓、閉めてんか。
-
-  English
-
-  Could you close the window?'
-formation: 'Vてくれへん(か)
-
-  V? (te-form? ) +くれへん+ (か)
-
-  Vてんか
-
-  V? (te-form?) +ん+か'
-kansai_vs_standard: 'Standard
-
-  Vてくれない
-
-  Kansai-ben
-
-  Vてくれへん(か)*
-
-  Vてんか
-
-  *The question marker か is often attached.'
+example: <table><caption>Vてくれへん(か)</caption><tbody><tr><th>Standard</th><td>これ、<em>持ってくれない</em>？</td></tr><tr><th>Kansai-ben</th><td>これ、<em>持ってくれへん(か)</em>？</td></tr><tr><th>English</th><td>Could
+  you hold this for me?</td></tr></tbody></table></div><table><caption>Vてんか</caption><tbody><tr><th>Standard</th><td>窓、<em>閉めてくれない</em>？</td></tr><tr><th>Kansai-ben</th><td>窓、<em>閉めてんか</em>。</td></tr><tr><th>English</th><td>Could
+  you close the window?</td></tr></tbody></table>
+formation: <h2>Vてくれへん(か)</h2><table><tr><td>V (te-form ) +くれへん+ (か)</td></tr></table></div><h2>Vてんか</h2><table><tr><td>V
+  (te-form) +ん+か</td></tr></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vてくれない</em></td></tr><tr><th>Kansai-ben</th><td><em>Vてくれへん(か)*<br
+  /> Vてんか</em></td></tr><tr></tr></table><p>*The question marker <a href="308">か</a> is often attached.</p>
 function_types:
 - function_30
 grammar_types:

@@ -2,57 +2,13 @@ id: grammar_305
 drupal_node_id: 305
 title: Particle  “な”
 body: The standard Japanese final particle ね can become な in Kansai-ben.
-commentary: 'Strong requests using Vてぇな
-
-  Extending the final え sound of the て-form of the verb makes the request stronger.
-
-  Vてえな (strong request)
-
-  Standard
-
-  明日、車貸してよね(ー)。
-
-  Kansai-ben
-
-  明日、車貸してぇな(あ)。
-
-  English
-
-  Would you please let me use your car tomorrow?'
-example: 'Demanding agreement
-
-  Standard
-
-  いい天気だね。
-
-  Kansai-ben
-
-  ええ天気やな。
-
-  English
-
-  The weather is nice, isn''t it?
-
-  Request confirmation
-
-  Standard
-
-  明日、車貸してね。
-
-  Kansai-ben
-
-  明日、車貸してな。
-
-  English
-
-  Tomorrow, you''re going to let me use the car, right?'
-kansai_vs_standard: 'Standard
-
-  ＿＿＿ね
-
-  Kansai-ben
-
-  ＿＿＿な'
+commentary: <h2>Strong requests using Vてぇな</h2><p>Extending the final え sound of the て-form of the verb
+  makes the request stronger.</p><table><caption>Vてえな (strong request)</caption><tbody><tr><th>Standard</th><td>明日、車貸してよね(ー)。</td></tr><tr><th>Kansai-ben</th><td>明日、車貸し<em>てぇ<em>な(あ)。</em></em></td></tr><tr><th>English</th><td>Would
+  you please let me use your car tomorrow?</td></tr></tbody></table>
+example: <table><caption>Demanding agreement</caption><tbody><tr><th>Standard</th><td>いい天気だ<em>ね</em>。</td></tr><tr><th>Kansai-ben</th><td>ええ天気や<em>な</em>。</td></tr><tr><th>English</th><td>The
+  weather is nice, isn't it?</td></tr></tbody></table></div><table><caption>Request confirmation</caption><tbody><tr><th>Standard</th><td>明日、車貸して<em>ね</em>。</td></tr><tr><th>Kansai-ben</th><td>明日、車貸して<em>な</em>。</td></tr><tr><th>English</th><td>Tomorrow,
+  you're going to let me use the car, right?</td></tr></tbody></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>＿＿＿ね</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿＿な</em></td></tr><tr></tr></table>
 function_types:
 - function_125
 - function_123

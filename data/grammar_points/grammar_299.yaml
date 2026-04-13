@@ -3,88 +3,15 @@ drupal_node_id: 299
 title: いっこも／なんも
 body: The standard Japanese 全然 and なにも (please see your favorite textbook or teaching resource), when
   used for complete negation, may become いっこも and なんも respectively in Kansai-ben.
-example: 'Standard
-
-  あの人の言っていること全然(なにも)分からないよ。
-
-  Kansai-ben
-
-  あの人の言うてることいっこも(なんも)分かれへんわ。
-
-  English
-
-  I have no idea what that person is saying.
-
-  Standard
-
-  このまんざい、全然(なにも)おもしろくないよ。
-
-  Kansai-ben
-
-  このまんざい、いっこも(なんも)おもろないわ。
-
-  English
-
-  This comedy team isn''t funny at all.
-
-  Standard
-
-  最近、全然(いっこうに)雨降らないねえ。
-
-  Kansai-ben
-
-  最近、いっこも雨降らへんなあ。
-
-  English
-
-  We haven''t had any rain recently.
-
-  Standard
-
-  今日は朝からなにも食べていないんだ。
-
-  Kansai-ben
-
-  今日は朝からなんも食べてへんねん。
-
-  English
-
-  I haven''t eaten anything since this morning.
-
-  Standard
-
-  たんじょうびといってもなにもほしくないよ。
-
-  Kansai-ben
-
-  たんじょうびいうてもなんもほしないわ。
-
-  English
-
-  I don''t want anything for my birthday.'
-kansai_vs_standard: 'Verb
-
-  Adjective
-
-  Standard
-
-  全然Vない
-
-  なにもVない
-
-  全然Aない
-
-  なにもAない
-
-  Kansai-ben
-
-  いっこもVへん
-
-  なんもVへん
-
-  いっこもAない
-
-  なんもAない'
+example: <table><tbody><tr><th>Standard</th><td>あの人の言っていること<em>全然(なにも)<em>分から<em>ない</em>よ。</em></em></td></tr><tr><th>Kansai-ben</th><td>あの人の言うてること<em>いっこも(なんも)</em>分かれ<em>へん</em>わ。</td></tr><tr><th>English</th><td>I
+  have no idea what that person is saying.</td></tr></tbody></table></div><table><tbody><tr><th>Standard</th><td>このまんざい、<em>全然(なにも)</em>おもしろく<em>ない</em>よ。</td></tr><tr><th>Kansai-ben</th><td>このまんざい、<em>いっこも(なんも)</em>おもろ<em>ない</em>わ。</td></tr><tr><th>English</th><td>This
+  comedy team isn't funny at all.</td></tr></tbody></table></div><table><tbody><tr><th>Standard</th><td>最近、<em>全然(いっこうに)</em>雨降ら<em>ない<em>ねえ。</em></em></td></tr><tr><th>Kansai-ben</th><td>最近、<em>いっこも</em>雨降ら<em>へん<em>なあ。</em></em></td></tr><tr><th>English</th><td>We
+  haven't had any rain recently.</td></tr></tbody></table></div><table><tbody><tr><th>Standard</th><td>今日は朝から<em>なにも</em>食べていないんだ。</td></tr><tr><th>Kansai-ben</th><td>今日は朝から<em>なんも</em>食べてへんねん。</td></tr><tr><th>English</th><td>I
+  haven't eaten anything since this morning.</td></tr></tbody></table></div><table><tr><th>Standard</th><td>たんじょうびといっても<em>なにも</em>ほしく<em>ない</em>よ。</td></tr><tr><th>Kansai-ben</th><td>たんじょうびいうても<em>なんも</em>ほし<em>ない</em>わ。</td></tr><tr><th>English</th><td>I
+  don't want anything for my birthday.</td></tr></table>
+kansai_vs_standard: <table class="full-grid-table"><tr><th></th><th>Verb</th><th>Adjective</th></tr><tr><th>Standard</th><td><em>全然Vない<br
+  /> なにもVない</em></td><td><em>全然Aない<br /> なにもAない</em></td></tr><tr><th>Kansai-ben</th><td><em>いっこもVへん<br
+  /> なんもVへん</em></td><td><em>いっこもAない<br /> なんもAない</em></td></tr><tr></tr></table>
 function_types:
 - function_58
 grammar_types:

@@ -4,63 +4,14 @@ title: Vたらあかん／Vんといて／Vんとって
 body: The prohibition expression Vてはいけない can become Vたらあかん in Kansai-ben. Similarly, the Vないで in standard
   Japanese can become either Vんといて or Vんとって in Kansai-ben. Paralleling standard Japanese, Vたらあかん expresses
   strong prohibition while Vんといて and Vんとって express a request for prohibition.
-example: 'Vた(ら)あかん
-
-  Standard
-
-  あぶないから、こっちに来てはいけないよ。
-
-  Kansai-ben
-
-  あぶないよって、こっち来た(ら)あかんで。
-
-  English
-
-  It''s dangerous, so don''t come in.
-
-  Vんといて
-
-  Standard
-
-  これ、私のだから食べないでね。
-
-  Kansai-ben
-
-  これ、私のやから食べんといてや。
-
-  English
-
-  This is mine, so don''t eat it.'
-formation: 'Vたらあかん
-
-  V? (ta-form?) + (ら) +あかん
-
-  Vんといて／Vんとって
-
-  V? (short negative form?) +といて／とって'
-kansai_vs_standard: 'Vたらあかん
-
-  Standard
-
-  Vてはいけない
-
-  Kansai-ben
-
-  Vた(ら)*あかん
-
-  *ら is often omitted.
-
-  Vんといて／Vんとって
-
-  Standard
-
-  Vないで
-
-  Kansai-ben
-
-  Vんといて
-
-  Vんとって'
+example: <table><caption>Vた(ら)あかん</caption><tbody><tr><th>Standard</th><td>あぶないから、こっちに<em>来てはいけない</em>よ。</td></tr><tr><th>Kansai-ben</th><td>あぶないよって、こっち<em>来た(ら)あかん</em>で。</td></tr><tr><th>English</th><td>It's
+  dangerous, so don't come in.</td></tr></tbody></table></div><table><caption>Vんといて</caption><tbody><tr><th>Standard</th><td>これ、私のだから<em>食べないで</em>ね。</td></tr><tr><th>Kansai-ben</th><td>これ、私のやから<em>食べんといて</em>や。</td></tr><tr><th>English</th><td>This
+  is mine, so don't eat it.</td></tr></tbody></table>
+formation: <h2>Vたらあかん</h2><table><tr><td>V (ta-form) + (ら) +あかん</td></tr></table></div><h2>Vんといて／Vんとって</h2><table><tr><td>V
+  (short negative form) +といて／とって</td></tr></table>
+kansai_vs_standard: <h2>Vたらあかん</h2><table><tr><th>Standard</th><td><em>Vてはいけない</em></td></tr><tr><th>Kansai-ben</th><td><em>Vた(ら)*あかん</em></td></tr><tr></tr></table><p>*ら
+  is often omitted.</p></div><h2>Vんといて／Vんとって</h2><table><tr><th>Standard</th><td><em>Vないで</em></td></tr><tr><th>Kansai-ben</th><td><em>Vんといて<br
+  /> Vんとって</em></td></tr><tr></tr></table>
 function_types:
 - function_41
 grammar_types:

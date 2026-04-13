@@ -5,165 +5,19 @@ body: 'In Kansai-ben, the honorific title さん and ちゃん can be used for n
   This usage my originate with the polite words and phrases from court language1.
 
   1. Maeda, I. (1977) Osakaben, Tokyo: Asahi Shinbunsha Asahisensyo'
-example: '〜さん
-
-  Word list (food)
-
-  Standard
-
-  Kansai-ben
-
-  English
-
-  あげ
-
-  おあげさん
-
-  deep fried tofu skin
-
-  いなりずし
-
-  おいなりさん
-
-  inari
-
-  いも
-
-  おいもさん
-
-  potato
-
-  かゆ
-
-  おかいさん
-
-  porridge
-
-  まめ
-
-  おまめさん
-
-  beans
-
-  おかいさん
-
-  Standard
-
-  今日のお昼ごはん、おかゆでいい？
-
-  Kansai-ben
-
-  今日のお昼、おかいさんでええか。
-
-  English
-
-  Can we have porridge for lunch?
-
-  Word list (greetings)
-
-  Standard
-
-  Kansai-ben
-
-  English
-
-  ありがとう
-
-  ありがと(う)さん
-
-  Thank you.
-
-  おせわさま
-
-  おせわさん
-
-  As always, thank you for your help. [Used when meeting in certain social contexts.]
-
-  おはよう
-
-  おはようさん
-
-  Good morning.
-
-  おめでとう
-
-  おめでと(う)さん
-
-  Congratulations.
-
-  ごきげんよう
-
-  ごきげんさん
-
-  Take care.
-
-  ごくろうさま
-
-  ごくろうさん
-
-  Good job, thank you for your work.
-
-  おはようさん
-
-  Standard
-
-  おはよう。今日も寒いねえ。
-
-  Kansai-ben
-
-  おはようさん。今日も寒いなあ。
-
-  English
-
-  Good morning. It sure is cold again today, isn''t it?
-
-  Word list (other)
-
-  Standard
-
-  Kansai-ben
-
-  English
-
-  お日様
-
-  おひぃさん
-
-  the Sun
-
-  かまど
-
-  おくどさん
-
-  kitchen
-
-  〜ちゃん
-
-  Standard
-
-  Kansai-ben
-
-  English
-
-  飴(あめ)
-
-  あめちゃん
-
-  candy
-
-  あめちゃん
-
-  Standard
-
-  あめ食べる？
-
-  Kansai-ben
-
-  あめちゃん食べるかあ？
-
-  English
-
-  Would you like some candy?'
+example: <h2>〜さん</h2><table class="full-grid-table"><caption>Word list (food)</caption><tbody><tr><th>Standard</th><th>Kansai-ben</th><th>English</th></tr><tr><td>あげ</td><td>おあげ<em>さん</em></td><td>deep
+  fried tofu skin</td></tr><tr><td>いなりずし</td><td>おいなり<em>さん</em></td><td>inari</td></tr><tr><td>いも</td><td>おいも<em>さん</em></td><td>potato</td></tr><tr><td>かゆ</td><td>おかい<em>さん</em></td><td>porridge</td></tr><tr><td>まめ</td><td>おまめ<em>さん</em></td><td>beans</td></tr></tbody></table></div><table><caption>おかいさん</caption><tbody><tr><th>Standard</th><td>今日のお昼ごはん、<em>おかゆ</em>でいい？</td></tr><tr><th>Kansai-ben</th><td>今日のお昼、<em>おかいさん</em>でええか。</td></tr><tr><th>English</th><td>Can
+  we have porridge for lunch?</td></tr></tbody></table></div><table class="full-grid-table"><caption>Word
+  list (greetings)</caption><tbody><tr><th>Standard</th><th>Kansai-ben</th><th>English</th></tr><tr><td>ありがとう</td><td><span
+  class="nowrap">ありがと(う)<em>さん</em></span></td><td>Thank you.</td></tr><tr><td>おせわさま</td><td>おせわ<em>さん</em></td><td>As
+  always, thank you for your help. [Used when meeting in certain social contexts.]</td></tr><tr><td>おはよう</td><td>おはよう<em>さん</em></td><td>Good
+  morning.</td></tr><tr><td>おめでとう</td><td>おめでと(う)<em>さん</em></td><td>Congratulations.</td></tr><tr><td>ごきげんよう</td><td>ごきげん<em>さん</em></td><td>Take
+  care.</td></tr><tr><td><span class="nowrap">ごくろうさま</span></td><td>ごくろう<em>さん</em></td><td>Good job,
+  thank you for your work.</td></tr></tbody></table></div><table><caption>おはようさん</caption><tbody><tr><th>Standard</th><td><em>おはよう</em>。今日も寒いねえ。</td></tr><tr><th>Kansai-ben</th><td><em>おはようさん</em>。今日も寒いなあ。</td></tr><tr><th>English</th><td>Good
+  morning. It sure is cold again today, isn't it?</td></tr></tbody></table></div><table class="full-grid-table"><caption>Word
+  list (other)</caption><tbody><tr><th>Standard</th><th>Kansai-ben</th><th>English</th></tr><tr><td>お日様</td><td>おひぃ<em>さん</em></td><td>the
+  Sun</td></tr><tr><td>かまど</td><td>おくど<em>さん</em></td><td>kitchen</td></tr></tbody></table></div><h2>〜ちゃん</h2><table><tr><th>Standard</th><th>Kansai-ben</th><th>English</th></tr><tr><td>飴(あめ)</td><td>あめ<em>ちゃん</em></td><td>candy</td></tr></table></div><table><caption>あめちゃん</caption><tbody><tr><th>Standard</th><td><em>あめ</em>食べる？</td></tr><tr><th>Kansai-ben</th><td><em>あめちゃん</em>食べるかあ？</td></tr><tr><th>English</th><td>Would
+  you like some candy?</td></tr></tbody></table>
 function_types:
 - function_122
 grammar_types:

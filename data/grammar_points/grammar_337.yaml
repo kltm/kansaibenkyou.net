@@ -4,119 +4,16 @@ title: Te-form (i-adjectives)
 body: There are some cases where the te-form? of i-adjectives in Kansai-ben is different from those in
   standard Japanese. Please pay attention to the sound before the final い--when it is [a], [i],  [u],
   or [o] it may change.
-formation: 'When the sound before the final い is [a]
-
-  Replace the [a] with [o] and add うて to the end.
-
-  ら
-
-  や
-
-  ま
-
-  は
-
-  な
-
-  た
-
-  さ
-
-  か
-
-  あ
-
-  ↓
-
-  ↓
-
-  ↓
-
-  ↓
-
-  ↓
-
-  ↓
-
-  ↓
-
-  ↓
-
-  ↓
-
-  ろ
-
-  よ
-
-  も
-
-  ほ
-
-  の
-
-  と
-
-  そ
-
-  こ
-
-  お
-
-  Basic form
-
-  はやい
-
-  いたい
-
-  あかい
-
-  Te-form?
-
-  はようて
-
-  いとうて
-
-  あこうて
-
-  When the sound before the final い is [i]
-
-  There are two cases: -しい becomes -しゅう and -きい becomes  -きゅう before adding the て.
-
-  Basic form
-
-  たのしい
-
-  おおきい
-
-  Te-form?
-
-  たのしいて
-
-  たのしゅうて
-
-  おおきいて
-
-  おおきゅうて
-
-  When the sound before the final い is [u] or [o]
-
-  Replace the final い with an う and add て. It should be noted that the う is often omitted (dropping "う").
-
-  Basic form
-
-  あつい
-
-  おおい
-
-  Te-form?
-
-  あつうて
-
-  あつて
-
-  おおうて
-
-  おおて'
+formation: '<h2>When the sound before the final い is [a]</h2><p>Replace the [a] with [o] and add うて to
+  the end.</p><table><tr><td>ら</td><td>や</td><td>ま</td><td>は</td><td>な</td><td>た</td><td>さ</td><td>か</td><td>あ</td></tr><tr><td>↓</td><td>↓</td><td>↓</td><td>↓</td><td>↓</td><td>↓</td><td>↓</td><td>↓</td><td>↓</td></tr><tr><td>ろ</td><td>よ</td><td>も</td><td>ほ</td><td>の</td><td>と</td><td>そ</td><td>こ</td><td>お</td></tr></table><table
+  class="full-grid-table"><tr><th>Basic form</th><td>は<em>や</em>い</td><td>い<em>た</em>い</td><td>あ<em>か</em>い</td></tr><tr><th>Te-form</th><td>は<em>よう</em>て</td><td>い<em>とう</em>て</td><td>あ<em>こう</em>て</td></tr><tr></tr></table></div><h2>When
+  the sound before the final い is [i]</h2><p>There are two cases: -しい becomes -しゅう and -きい becomes -きゅう
+  before adding the て.</p><table class="full-grid-table"><tr><th>Basic form</th><td>たの<em>しい</em></td><td>おお<em>きい</em></td></tr><tr><th>Te-form</th><td>たの<em>しい</em>て<br
+  /> たの<em>しゅう</em>て</td><td>おお<em>きい</em>て<br /> おお<em>きゅう</em>て</td></tr></table></div><h2>When the
+  sound before the final い is [u] or [o]</h2><p>Replace the final い with an う and add て. It should be
+  noted that the う is often omitted (<a href="350">dropping "う"</a>). </p><table class="full-grid-table"><tr><th>Basic
+  form</th><td>あつ<em>い</em></td><td>おお<em>い</em></td></tr><tr><th>Te-form</th><td>あつ<em>う</em>て<br />
+  あつて</td><td>おお<em>う</em>て<br /> おおて</td></tr></table>'
 function_types:
 - function_137
 grammar_types:

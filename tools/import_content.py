@@ -78,6 +78,31 @@ def extract_title(html: str) -> tuple[str, str]:
     return parts[0].strip(), parts[1].strip() if len(parts) > 1 else ""
 
 
+def extract_html_field(html: str, field_name: str) -> str:
+    """Extract a field's content preserving HTML tables and structure.
+
+    Cleans up Drupal-specific markup (fixes taxonomy links, removes
+    lexicon indicator cruft) but keeps tables, lists, and formatting.
+    """
+    pattern = rf'field-name-{re.escape(field_name)}[^>]*>.*?<div class="field-items">(.*?)</div>\s*</div>'
+    m = re.search(pattern, html, re.DOTALL)
+    if not m:
+        return ""
+    raw = m.group(1)
+    raw = re.sub(r'<div class="field-item[^"]*"[^>]*>', '', raw)
+    raw = re.sub(r'<sup class="lexicon-indicator"[^>]*>.*?</sup>', '', raw, flags=re.DOTALL)
+    raw = re.sub(
+        r'href="[^"]*taxonomy/term/(\d+)\.html"',
+        lambda m: f'href="/taxonomy/term/{m.group(1)}/"',
+        raw,
+    )
+    raw = re.sub(r'href="[^"]*node/(\d+)"', lambda m: f'href="/node/{m.group(1)}/"', raw)
+    raw = re.sub(r'\s+', ' ', raw).strip()
+    raw = re.sub(r'>\s+<', '><', raw)
+    raw = html_mod.unescape(raw)
+    return raw
+
+
 def extract_text_field(html: str, field_name: str, preserve_headings: bool = False) -> str:
     """Extract a text field's content.
 
@@ -191,11 +216,11 @@ def import_grammar_point(node_id: int) -> dict:
     title_ja, title_en = extract_title(html)
 
     body = extract_text_field(html, "body")
-    commentary = extract_text_field(html, "field-gp-commentary")
-    example = extract_text_field(html, "field-gp-example")
-    formation = extract_text_field(html, "field-gp-formation")
-    formation_from_std = extract_text_field(html, "field-gp-formation-from-std")
-    kansai_v_std = extract_text_field(html, "field-gp-kansai-v-std")
+    commentary = extract_html_field(html, "field-gp-commentary")
+    example = extract_html_field(html, "field-gp-example")
+    formation = extract_html_field(html, "field-gp-formation")
+    formation_from_std = extract_html_field(html, "field-gp-formation-from-std")
+    kansai_v_std = extract_html_field(html, "field-gp-kansai-v-std")
     func_ids = extract_term_ids(html, "field-function-type")
     gram_ids = extract_term_ids(html, "field-grammar-type")
 

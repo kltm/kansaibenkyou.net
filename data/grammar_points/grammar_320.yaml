@@ -6,50 +6,14 @@ body: 'Vてもらう in Kansai-ben is the same as standard Japanese, but the pas
   in Kansai-ben, but may become もうた in use.
 
   Please be aware that there is another, completely separate, Vてもうた that expresses repentance and regret.'
-example: 'Vてもろた
-
-  Standard
-
-  これ、彼に買ってもらった服なんだ。
-
-  Kansai-ben
-
-  これ、彼に買うてもろた服やねん。
-
-  English
-
-  My boyfriend bought these clothes for me.'
-formation: 'replace らっ in the standard Vてもらった by ろ or う.
-
-  Standard
-
-  Vて　もらった
-
-  Kansai-ben
-
-  Vて　も ろ た
-
-  Vて　も う た'
-formation_from_standard: 'replace らっ in the standard Vてもらった by ろ or う.
-
-  Standard
-
-  Vて　もらった
-
-  Kansai-ben
-
-  Vて　も ろ た
-
-  Vて　も う た'
-kansai_vs_standard: 'Standard
-
-  Vてもらった
-
-  Kansai-ben
-
-  Vてもろた
-
-  Vてもうた'
+example: <table><caption>Vてもろた</caption><tbody><tr><th>Standard</th><td>これ、彼に<em>買ってもらった</em>服なんだ。</td></tr><tr><th>Kansai-ben</th><td>これ、彼に<em>買うてもろた</em>服やねん。</td></tr><tr><th>English</th><td>My
+  boyfriend bought these clothes for me.</td></tr></tbody></table>
+formation: <p>replace らっ in the standard Vてもらった by ろ or う.</p><table><tr><th>Standard</th><td>Vて も<em>らっ</em>た</td></tr><tr><th>Kansai-ben</th><td>Vて
+  も<em> ろ</em> た<br /> Vて も <em>う</em> た</td></tr></table>
+formation_from_standard: <p>replace らっ in the standard Vてもらった by ろ or う.</p><table><tr><th>Standard</th><td>Vて
+  も<em>らっ</em>た</td></tr><tr><th>Kansai-ben</th><td>Vて も<em> ろ</em> た<br /> Vて も <em>う</em> た</td></tr></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vてもらった</em></td></tr><tr><th>Kansai-ben</th><td><em>Vてもろた<br
+  /> Vてもうた</em></td></tr><tr></tr></table>
 function_types:
 - function_24
 grammar_types:

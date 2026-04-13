@@ -4,63 +4,14 @@ title: Vてもええ／Vてもかめへん／Vてもかまへん／Vてもかま
 body: The standard Japanese expression to give or ask for permission, Vてもいい, can become Vてもええ in Kansai-ben.
   Similarly, The standard Japanese Vてもかまわない can become either Vてもかめへん, Vてもかまへん, or Vてもかまん in Kansai-ben.
   For the differences between the three, please see the usage notes for かめへん, かまへん, and かまん.
-example: 'Vて(も)ええ
-
-  Standard
-
-  このCD持って帰ってもいいよ。
-
-  Kansai-ben
-
-  このCD持って帰って(も)ええよ。
-
-  English
-
-  If you want, you can take this CD home.
-
-  Vてもかめへん
-
-  Standard
-
-  今日、電車できたから、酒を飲んでもいいんだ。
-
-  Kansai-ben
-
-  今日、電車で来たよって、酒飲んでもかめへんねん。
-
-  English
-
-  I took a train, so I can drink today.'
-formation: 'Vて(も)ええ
-
-  V? (te-form?) + (も) +ええ
-
-  Vてもかめへん／Vてもかまへん
-
-  V? (te-form?) +も+かめへん／かまへん'
-kansai_vs_standard: 'Vてもええ
-
-  Standard
-
-  Vてもいい
-
-  Kansai-ben
-
-  Vて(も)*ええ
-
-  *も may be omitted.
-
-  Vてもかめへん／Vてもかまへん
-
-  Standard
-
-  Vてもかまわない
-
-  Kansai-ben
-
-  Vて(も)かめへん
-
-  Vてもかまへん'
+example: <table><caption>Vて(も)ええ</caption><tbody><tr><th>Standard</th><td>このCD<em>持って帰ってもいい</em>よ。</td></tr><tr><th>Kansai-ben</th><td>このCD<em>持って帰って(も)ええ</em>よ。</td></tr><tr><th>English</th><td>If
+  you want, you can take this CD home.</td></tr></tbody></table></div><table><caption>Vてもかめへん</caption><tbody><tr><th>Standard</th><td>今日、電車できたから、酒を<em>飲んでもいい</em>んだ。</td></tr><tr><th>Kansai-ben</th><td>今日、電車で来たよって、酒<em>飲んでもかめへん</em>ねん。</td></tr><tr><th>English</th><td>I
+  took a train, so I can drink today.</td></tr></tbody></table>
+formation: <h2>Vて(も)ええ</h2><table><tr><td>V (te-form) + (も) +ええ</td></tr></table></div><h2>Vてもかめへん／Vてもかまへん</h2><table><tr><td>V
+  (te-form) +も+かめへん／かまへん</td></tr></table>
+kansai_vs_standard: <h2>Vてもええ</h2><table><tr><th>Standard</th><td><em>Vてもいい</em></td></tr><tr><th>Kansai-ben</th><td><em>Vて(も)*ええ</em></td></tr><tr></tr></table><p>*も
+  may be omitted.</p></div><h2>Vてもかめへん／Vてもかまへん</h2><table><tr><th>Standard</th><td><em>Vてもかまわない</em></td></tr><tr><th>Kansai-ben</th><td><em>Vて(も)かめへん<br
+  /> Vてもかまへん</em></td></tr><tr></tr></table>
 function_types:
 - function_28
 grammar_types:

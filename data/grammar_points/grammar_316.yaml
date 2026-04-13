@@ -5,26 +5,10 @@ body: 'The standard conjunctive particle for connecting a reason and a consequen
   in Kansai-ben.
 
   In some regions, especially with older people, use ほいで instead.'
-example: 'ほんで
-
-  Standard
-
-  昨日すごくビール飲んだんだ。それで、今日は二日酔いなんだ。
-
-  Kansai-ben
-
-  昨日めっちゃビール飲んでん。ほんで、今日は二日酔いやねん。
-
-  English
-
-  I had too much beer yesterday. That''s why I have a hangover today.'
-kansai_vs_standard: 'Standard
-
-  (reason)。それで (consequence)。
-
-  Kansai-ben
-
-  (reason)。ほんで (consequence)。'
+example: <table><caption>ほんで</caption><tbody><tr><th>Standard</th><td>昨日すごくビール飲んだんだ。<em>それで</em>、今日は二日酔いなんだ。</td></tr><tr><th>Kansai-ben</th><td>昨日めっちゃビール飲んでん。<em>ほんで</em>、今日は二日酔いやねん。</td></tr><tr><th>English</th><td>I
+  had too much beer yesterday. That's why I have a hangover today.</td></tr></tbody></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>(reason)。それで (consequence)。</em></td></tr><tr><th>Kansai-ben</th><td><em>(reason)。ほんで
+  (consequence)。</em></td></tr><tr></tr></table>
 function_types:
 - function_121
 grammar_types:

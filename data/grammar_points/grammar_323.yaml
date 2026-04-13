@@ -10,93 +10,15 @@ body: 'The standard Japanese expressions for obligation and necessity (see the t
   The second exception is Vんなららん, coming from the standard Japanese Vなくてはならない. It is an expression that
   is very similar to Vなあかん, but it is only used for the speaker''s own actions. In addition, Vんならん is
   somewhat softer than Vなあかん and may have a somewhat older feeling.'
-example: 'Vなあかん
-
-  Standard
-
-  これ、明日までに食べなければいけないよ。
-
-  Kansai-ben
-
-  これ、明日までに食べなあかんで。
-
-  English
-
-  You have to eat this by tomorrow.
-
-  Vんとあかん
-
-  Standard
-
-  朝ご飯は毎日食べなくちゃいけないよ。
-
-  Kansai-ben
-
-  朝ご飯は毎日食べんとあかんで。
-
-  English
-
-  You must eat breakfast everyday.
-
-  Vんならん
-
-  Standard
-
-  明日も仕事あるから、そろそろ寝なきゃなあ。
-
-  Kansa-beni
-
-  明日も仕事あるよって、そろそろ寝んならんなあ。
-
-  English
-
-  I have to go to work tomorrow so I''m going to turn in.'
-formation: 'Vなあかん
-
-  V? (negative stem?) +な+あかん
-
-  Vんとあかん
-
-  V? (short negative form?) +と+あかん
-
-  Vんならん
-
-  V? (short negative form?) +ならん'
-kansai_vs_standard: 'Vなあかん
-
-  Standard
-
-  Vなければならない
-
-  Vなければいけない
-
-  (Vなくちゃならない)
-
-  (Vなくちゃいけない)
-
-  Kansai-ben
-
-  Vなあかん
-
-  Vんとあかん
-
-  Standard
-
-  Vないといけない
-
-  Kansai-ben
-
-  Vんとあかん
-
-  Vんならん
-
-  Standard
-
-  Vなければならない
-
-  Kansai-ben
-
-  Vんならん'
+example: <table><caption>Vなあかん</caption><tbody><tr><th>Standard</th><td>これ、明日までに<em>食べなければいけない</em>よ。</td></tr><tr><th>Kansai-ben</th><td>これ、明日までに<em>食べなあかん</em>で。</td></tr><tr><th>English</th><td>You
+  have to eat this by tomorrow.</td></tr></tbody></table></div><table><caption>Vんとあかん</caption><tbody><tr><th>Standard</th><td>朝ご飯は毎日<em>食べなくちゃいけない</em>よ。</td></tr><tr><th>Kansai-ben</th><td>朝ご飯は毎日<em>食べんとあかん</em>で。</td></tr><tr><th>English</th><td>You
+  must eat breakfast everyday.</td></tr></tbody></table></div><table><caption>Vんならん</caption><tr><th>Standard</th><td>明日も仕事あるから、そろそろ<em>寝なきゃ</em>なあ。</td></tr><tr><th>Kansa-beni</th><td>明日も仕事あるよって、そろそろ<em>寝んならん</em>なあ。</td></tr><tr><th>English</th><td>I
+  have to go to work tomorrow so I'm going to turn in. </td></tr></table>
+formation: <h2>Vなあかん</h2><table><tr><td>V (negative stem) +な+あかん</td></tr></table></div><h2>Vんとあかん</h2><table><tr><td>V
+  (short negative form) +と+あかん</td></tr></table></div><h2>Vんならん</h2><table><tr><td>V (short negative form)
+  +ならん</td></tr></table>
+kansai_vs_standard: <h2>Vなあかん</h2><table><tr><th>Standard</th><td><em>Vなければならない<br /> Vなければいけない<br />
+  (Vなくちゃならない)<br /> (Vなくちゃいけない)</em></td></tr><tr><th>Kansai-ben</th><td><em>Vなあかん</em></td></tr><tr></tr></table></div><h2>Vんとあかん</h2><table><tr><th>Standard</th><td><em>Vないといけない</em></td></tr><tr><th>Kansai-ben</th><td><em>Vんとあかん</em></td></tr><tr></tr></table></div><h2>Vんならん</h2><table><tr><th>Standard</th><td><em>Vなければならない</em></td></tr><tr><th>Kansai-ben</th><td><em>Vんならん</em></td></tr><tr></tr></table>
 function_types:
 - function_29
 - function_20

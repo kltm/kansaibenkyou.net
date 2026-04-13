@@ -2,172 +2,31 @@ id: grammar_319
 drupal_node_id: 319
 title: Vたげる／Vたる
 body: The standard Vてあげる and Vてやる may become Vたげる and Vたる in Kansai-ben.
-commentary: 'When to use たる
-
-  Vたる is commonly used with somebody you''re on good terms with, such as between friends or a parent and
-  a  child.
-
-  Request Vたって and report Vたって
-
-  In Kansai-ben, depending on the intonation, Vたって can be used as either a request or to report something.
-  Vたって with a flat intonation is used as a request; with falling intonation it is used as to report something.
-
-  Vたって
-
-  request
-
-  田中さん、この写真見たって。
-
-  Hey Tanaka, would you look at this picture?
-
-  report
-
-  田中さん、この写真見たって。
-
-  I heard that Tanaka looked at this picture.
-
-  Vたって and requests for the speaker''s own sake
-
-  Unlike the analogous for in standard Japanese, in Kansai-ben Vたって can be used in requests for the speaker''s
-  own sake.
-
-  Vたって
-
-  Standard
-
-  もう許してくださいよ。
-
-  Kansai-ben
-
-  もう許したってや。
-
-  English
-
-  Won''t you forgive me?'
-example: 'Vたげる
-
-  Standard
-
-  この本、貸してあげるよ。
-
-  Kansai-ben
-
-  この本、貸したげるわ。
-
-  English
-
-  You can borrow this book from me.
-
-  Vたる
-
-  Standard
-
-  今日、昼ごはんおごってやるよ。
-
-  Kansai-ben
-
-  今日、昼めしおごったるわ。
-
-  English
-
-  I''ll buy you lunch today.'
-formation: 'Vたげる
-
-  The てあ in the standard Japanese Vてあげる can become た in Kansai-ben.
-
-  Standard
-
-  V?て　あげる
-
-  Kansai-ben
-
-  V　た　げる
-
-  Standard
-
-  書いて　あげる
-
-  Kansai-ben
-
-  書い　た　げる
-
-  Vたる
-
-  The てや in the standard Japanese Vてやる can become た in Kansai-ben.
-
-  Standard
-
-  V?て　やる
-
-  Kansai-ben
-
-  V　た　る
-
-  Standard
-
-  書いて　やる
-
-  Kansai-ben
-
-  書い　た　る'
-formation_from_standard: 'Vたげる
-
-  The てあ in the standard Japanese Vてあげる can become た in Kansai-ben.
-
-  Standard
-
-  V?て　あげる
-
-  Kansai-ben
-
-  V　た　げる
-
-  Standard
-
-  書いて　あげる
-
-  Kansai-ben
-
-  書い　た　げる
-
-  Vたる
-
-  The てや in the standard Japanese Vてやる can become た in Kansai-ben.
-
-  Standard
-
-  V?て　やる
-
-  Kansai-ben
-
-  V　た　る
-
-  Standard
-
-  書いて　やる
-
-  Kansai-ben
-
-  書い　た　る'
-kansai_vs_standard: 'Vたげる
-
-  Standard
-
-  Vてあげる
-
-  Kansai-ben
-
-  Vたげる
-
-  Vたる
-
-  Standard
-
-  Vてやる
-
-  Kansai-ben
-
-  Vたる'
+commentary: <h2>When to use たる</h2><p>Vたる is commonly used with somebody you're on good terms with, such
+  as between friends or a parent and a child.</p></div><h2>Request Vたって and report Vたって</h2><p>In Kansai-ben,
+  depending on the intonation, Vたって can be used as either a request or to report something. Vたって with
+  a flat intonation is used as a request; with falling intonation it is used as to report something.</p><table><caption>Vたって</caption><tbody><tr><th>request</th><td>田中さん、この写真<em>見たって</em>。</td><td>Hey
+  Tanaka, would you look at this picture?</td></tr><tr><th>report</th><td>田中さん、この写真<em>見たって</em>。</td><td>I
+  heard that Tanaka looked at this picture.</td></tr></tbody></table></div><h2>Vたって and requests for the
+  speaker's own sake</h2><p>Unlike the analogous for in standard Japanese, in Kansai-ben Vたって can be used
+  in requests for the speaker's own sake.</p><table><caption>Vたって</caption><tbody><tr><th>Standard</th><td>もう<em>許してください</em>よ。</td></tr><tr><th>Kansai-ben</th><td>もう<em>許したって</em>や。</td></tr><tr><th>English</th><td>Won't
+  you forgive me?</td></tr></tbody></table>
+example: <table><caption>Vたげる</caption><tbody><tr><th>Standard</th><td>この本、<em>貸してあげる</em>よ。</td></tr><tr><th>Kansai-ben</th><td>この本、<em>貸したげる</em>わ。</td></tr><tr><th>English</th><td>You
+  can borrow this book from me.</td></tr></tbody></table></div><table><caption>Vたる</caption><tbody><tr><th>Standard</th><td>今日、昼ごはん<em>おごってやる</em>よ。</td></tr><tr><th>Kansai-ben</th><td>今日、昼めし<em>おごったる</em>わ。</td></tr><tr><th>English</th><td>I'll
+  buy you lunch today.</td></tr></tbody></table>
+formation: <h2>Vたげる</h2><p>The てあ in the standard Japanese Vてあげる can become た in Kansai-ben.</p><table><tr><th>Standard</th><td>V<em>て
+  あ</em>げる</td></tr><tr><th>Kansai-ben</th><td>V<em> た </em>げる</td></tr></table><table><tr><th>Standard</th><td>書い<em>て
+  あ</em>げる</td></tr><tr><th>Kansai-ben</th><td>書い<em> た </em>げる</td></tr></table></div><h2>Vたる</h2><p>The
+  てや in the standard Japanese Vてやる can become た in Kansai-ben.</p><table><tr><th>Standard</th><td>V<em>て
+  や</em>る</td></tr><tr><th>Kansai-ben</th><td>V<em> た </em>る</td></tr></table><table><tr><th>Standard</th><td>書い<em>て
+  や</em>る</td></tr><tr><th>Kansai-ben</th><td>書い<em> た </em>る</td></tr></table>
+formation_from_standard: <h2>Vたげる</h2><p>The てあ in the standard Japanese Vてあげる can become た in Kansai-ben.</p><table><tr><th>Standard</th><td>V<em>て
+  あ</em>げる</td></tr><tr><th>Kansai-ben</th><td>V<em> た </em>げる</td></tr></table><table><tr><th>Standard</th><td>書い<em>て
+  あ</em>げる</td></tr><tr><th>Kansai-ben</th><td>書い<em> た </em>げる</td></tr></table></div><h2>Vたる</h2><p>The
+  てや in the standard Japanese Vてやる can become た in Kansai-ben.</p><table><tr><th>Standard</th><td>V<em>て
+  や</em>る</td></tr><tr><th>Kansai-ben</th><td>V<em> た </em>る</td></tr></table><table><tr><th>Standard</th><td>書い<em>て
+  や</em>る</td></tr><tr><th>Kansai-ben</th><td>書い<em> た </em>る</td></tr></table>
+kansai_vs_standard: <h2>Vたげる</h2><table><tr><th>Standard</th><td><em>Vてあげる</em></td></tr><tr><th>Kansai-ben</th><td><em>Vたげる</em></td></tr><tr></tr></table></div><h2>Vたる</h2><table><tr><th>Standard</th><td><em>Vてやる</em></td></tr><tr><th>Kansai-ben</th><td><em>Vたる</em></td></tr><tr></tr></table>
 function_types:
 - function_24
 grammar_types:
