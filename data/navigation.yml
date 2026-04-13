@@ -1,7 +1,11 @@
-# Top masthead nav — keep this short (5-7 items)
+# Top masthead nav — mirrors the original site's main sections
 main:
+  - title: Home
+    url: /
   - title: Introduction
     url: /intro/
+  - title: Kansai-ben is...?
+    url: /what/
   - title: Example conversations
     url: /example-conversations/
   - title: Grammar
@@ -12,8 +16,12 @@ main:
     url: /pronunciation/
   - title: Real conversations
     url: /real-conversations-list/
+  - title: Resources
+    url: /resources/
   - title: About
     url: /about/
+  - title: Feedback
+    url: /feedback/
 
 # Sidebar nav — full hierarchical navigation
 site-nav:

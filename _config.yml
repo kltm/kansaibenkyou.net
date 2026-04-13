@@ -8,6 +8,12 @@ lang: ja
 baseurl: "/kansaibenkyou.net"
 url: "https://kltm.github.io"
 
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kltm/kansaibenkyou.net"
+
 # Minimal Mistakes theme (via remote_theme for GH Pages compatibility)
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "default"
@@ -28,6 +34,10 @@ kramdown:
   input: GFM
 
 data_dir: data
+
+# Disable RSS feed (we don't have blog posts)
+atom_feed:
+  hide: true
 
 # MM plugins (allowlisted on GH Pages)
 plugins:
