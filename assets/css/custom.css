@@ -383,6 +383,20 @@ table.sortable th[data-sort-dir="desc"]::after {
   border: 1px solid grey;
 }
 
+/* ---- Reduce right-side whitespace (MM's default is very wide) ---- */
+
+.page {
+  padding-right: 0 !important;
+}
+
+.page__inner-wrap {
+  max-width: 100%;
+}
+
+.sidebar.sticky {
+  padding-right: 0;
+}
+
 /* ---- Word entry layout ---- */
 
 .word-entry dl {

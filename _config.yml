@@ -50,10 +50,10 @@ collections:
     permalink: /words/:name/
   grammar_points:
     output: true
-    permalink: /grammar_points/:name/
+    permalink: /grammar-points/:name/
   real_conversations:
     output: true
-    permalink: /real_conversations/:name/
+    permalink: /real-conversations/:name/
   phonology_topics:
     output: true
     permalink: /phonology/:name/
@@ -178,7 +178,7 @@ nav_menu:
       - title: Sound Switching
         url: /phonology/349/
   - title: Real conversations
-    url: /real-conversations-list/
+    url: /real-conversations/
   - title: Resources
     url: /resources/
   - title: About

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Real Conversations
-permalink: /real-conversations-list/
+permalink: /real-conversations/
 sidebar:
   nav: "site-nav"
 ---
@@ -27,7 +27,7 @@ sidebar:
       {%- assign node_id = rc.drupal_node_id %}
       <tr>
         <td>
-          <a href="{{ '/real_conversations/' | append: node_id | append: '/' | relative_url }}">
+          <a href="{{ '/real-conversations/' | append: node_id | append: '/' | relative_url }}">
             {{ rc.title }}
           </a>
         </td>

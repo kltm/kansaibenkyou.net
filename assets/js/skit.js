@@ -6,7 +6,7 @@
   var SHOW_RE = /^show/i;
 
   function renderLinks(li, kind) {
-    var dest = kind === "g" ? "grammar_points" : "words";
+    var dest = kind === "g" ? "grammar-points" : "words";
     var linkClass = kind === "g" ? "conv-link-emph-one" : "conv-link-emph-two";
     var raw = li.textContent;
     if (raw.indexOf("(") === -1) return;

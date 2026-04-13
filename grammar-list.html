@@ -24,7 +24,7 @@ permalink: /grammar-points/
       {%- assign gp = pair[1] %}
       {%- assign node_id = gp.drupal_node_id %}
       <tr>
-        <td><a href="{{ '/grammar_points/' | append: node_id | append: '/' | relative_url }}">{{ gp.title }}</a></td>
+        <td><a href="{{ '/grammar-points/' | append: node_id | append: '/' | relative_url }}">{{ gp.title }}</a></td>
         <td>{{ gp.body | truncate: 80 }}</td>
       </tr>
     {%- endfor %}

@@ -28,7 +28,7 @@ layout: single
         {%- if gp_data %}
           {%- include teaser_grammar.html gp_data=gp_data %}
         {%- else %}
-          <div class="teaser"><a href="{{ '/grammar_points/' | append: gp.node_id | append: '/' | relative_url }}">{{ gp.title }}</a></div>
+          <div class="teaser"><a href="{{ '/grammar-points/' | append: gp.node_id | append: '/' | relative_url }}">{{ gp.title }}</a></div>
         {%- endif %}
       {%- endfor %}
     </section>
@@ -67,7 +67,7 @@ layout: single
         {%- assign rc_key = "real_conversation_" | append: rc.node_id %}
         {%- assign rc_data = site.data.real_conversations[rc_key] %}
         <div class="teaser">
-          <h3><a href="{{ '/real_conversations/' | append: rc.node_id | append: '/' | relative_url }}">{{ rc.title }}</a></h3>
+          <h3><a href="{{ '/real-conversations/' | append: rc.node_id | append: '/' | relative_url }}">{{ rc.title }}</a></h3>
           {%- if rc_data.summary %}
             <p class="teaser-excerpt">{{ rc_data.summary | truncate: 150 }}</p>
           {%- endif %}

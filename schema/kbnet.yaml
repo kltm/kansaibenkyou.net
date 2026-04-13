@@ -284,6 +284,28 @@ classes:
       word_types:
         range: WordType
         multivalued: true
+      suitability:
+        range: SuitabilityIndicator
+        multivalued: true
+        inlined_as_list: true
+        description: >-
+          Sociolinguistic usage indicators (age-specific, female
+          speech, male speech, formal, potentially rude). From the
+          original Drupal field-word-suitability.
+
+  SuitabilityIndicator:
+    description: >-
+      A usage indicator showing who typically uses a word and in
+      what register. Displayed as an icon on the vocabulary list.
+    attributes:
+      icon:
+        required: true
+        description: Icon filename (e.g. i-age.png).
+      label:
+        required: true
+        description: Human-readable label (e.g. age-specific).
+      tooltip:
+        description: Longer tooltip text from the original site.
 
   PhonologyTopic:
     is_a: ContentItem
