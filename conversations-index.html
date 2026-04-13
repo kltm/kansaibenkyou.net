@@ -2,36 +2,48 @@
 layout: single
 title: Example Conversations
 permalink: /example-conversations/
+sidebar:
+  nav: "site-nav"
 ---
 
-<h1>Example Conversations</h1>
-
 <p>
-  Twelve conversations based on real situations you could encounter
-  when starting to live or work in Kansai. Each includes an audio
-  track in Kansai-ben and the text in Kansai-ben, standard Japanese,
-  and English. Use the toggle buttons to switch between these layers.
+  Even with a familiarity of the vocabulary and grammar of Kansai, it may be
+  hard to understand conversations between speakers of the dialect. To help
+  build towards this goal, we have created twelve conversations based on real
+  conversations — each conversation includes an audio track in Kansai-ben
+  and the text in Kansai-ben, standard Japanese, and English. Use the
+  buttons to toggle between all of these.
 </p>
+
+<h2>List of example conversations</h2>
 
 <table class="conversation-list">
   <thead>
     <tr>
       <th>Topic</th>
       <th>Description</th>
+      <th>Characters</th>
     </tr>
   </thead>
   <tbody>
     {%- assign convs = site.data.conversations | sort %}
     {%- for pair in convs %}
       {%- assign c = pair[1] %}
+      {%- assign slug = pair[0] | replace: '_', '-' %}
       <tr>
         <td>
-          <a href="{{ '/example-conversations/' | append: pair[0] | replace: '_', '-' | append: '/' | relative_url }}">
-            {{ c.title }}
-            {%- if c.title_en %}<br><small>{{ c.title_en }}</small>{% endif %}
+          <a href="{{ '/example-conversations/' | append: slug | append: '/' | relative_url }}">
+            {{ c.title }}{% if c.title_en %} / {{ c.title_en }}{% endif %}
           </a>
         </td>
         <td>{{ c.summary }}</td>
+        <td>
+          {%- for char_ref in c.characters %}
+            {%- assign cid = char_ref | split: "_" | last %}
+            {%- assign char_label = site.data.taxonomy_labels[cid] | default: char_ref %}
+            <a href="{{ '/taxonomy/term/' | append: cid | append: '/' | relative_url }}">{{ char_label }}</a>{%- unless forloop.last %}, {% endunless %}
+          {%- endfor %}
+        </td>
       </tr>
     {%- endfor %}
   </tbody>

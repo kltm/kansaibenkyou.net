@@ -193,19 +193,21 @@
   border-color: #3d6186;
 }
 
-/* ---- Page body content (restored from Drupal) ---- */
+/* ---- Page body content images (Drupal float pattern) ---- */
 
+.page__content img[src*="_160"],
 .page-body img {
-  max-width: 160px;
-  height: auto;
+  max-width: 160px !important;
+  height: auto !important;
   border-radius: 4px;
-  margin: 0.5rem 1rem 0.5rem 0;
-  float: left;
+  margin: 0.5rem 1rem 0.5rem 0 !important;
+  float: left !important;
 }
 
+.page__content img[src*="_160"]:nth-of-type(even),
 .page-body img:nth-of-type(even) {
-  float: right;
-  margin: 0.5rem 0 0.5rem 1rem;
+  float: right !important;
+  margin: 0.5rem 0 0.5rem 1rem !important;
 }
 
 /* ---- Index tables (vocab, grammar, conversations) ---- */
