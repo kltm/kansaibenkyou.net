@@ -1,0 +1,13 @@
+/* ==========================================================================
+   Kansaiben skin — blue/cream palette matching the original pixture_reloaded
+   Drupal theme. Conservative choices: use the original's header blue and
+   cream background; keep MM's defaults for everything else.
+   ========================================================================== */
+
+$background-color: #f5f0e8 !default;
+$primary-color: #3d6186 !default;
+$link-color: #2a6496 !default;
+$masthead-link-color: $primary-color !default;
+$masthead-link-color-hover: #1a4a6e !default;
+$navicon-link-color-hover: mix(#fff, $primary-color, 80%) !default;
+$footer-background-color: #3d6186 !default;

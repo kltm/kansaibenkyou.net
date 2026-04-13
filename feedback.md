@@ -4,8 +4,6 @@ title: Feedback
 permalink: /feedback/
 ---
 
-# Feedback
-
 We'd love to hear from you! If you have questions, corrections,
 suggestions, or just want to say hello, please reach out:
 

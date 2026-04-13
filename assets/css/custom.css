@@ -281,18 +281,13 @@ table.sortable th[data-sort-dir="desc"]::after {
   color: #3d6186;
 }
 
-/* ---- Footer override ---- */
+/* ---- Footer ---- */
 
 .page__footer {
-  background: #3d6186 !important;
   color: rgba(255,255,255,0.85) !important;
 }
 
 .page__footer a {
-  color: rgba(255,255,255,0.9) !important;
-}
-
-.page__footer-follow .social-icons a {
   color: rgba(255,255,255,0.9) !important;
 }
 

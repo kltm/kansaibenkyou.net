@@ -16,7 +16,7 @@ footer:
 
 # Minimal Mistakes theme (via remote_theme for GH Pages compatibility)
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "kansaiben"
 
 # GoatCounter analytics
 goatcounter_site: kansaibenkyou
@@ -75,6 +75,8 @@ defaults:
       breadcrumbs: true
       show_date: false
       last_modified_at: false
+      pagination: false
+      classes: wide
   - scope:
       path: ""
       type: "conversations"
