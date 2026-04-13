@@ -13,7 +13,8 @@ header:
 {% if home.body %}
   {% if site.baseurl != "" %}
     {% assign link_prefix = '](' | append: site.baseurl | append: '/' %}
-    {% assign body_fixed = home.body | replace: '](/', link_prefix %}
+    {% assign img_prefix = 'src="' | append: site.baseurl | append: '/' %}
+    {% assign body_fixed = home.body | replace: '](/', link_prefix | replace: 'src="/', img_prefix %}
   {% else %}
     {% assign body_fixed = home.body %}
   {% endif %}
