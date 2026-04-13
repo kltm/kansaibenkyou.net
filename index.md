@@ -18,5 +18,7 @@ header:
   {% else %}
     {% assign body_fixed = home.body %}
   {% endif %}
+  <div class="home-content-box">
   {{ body_fixed | markdownify }}
+  </div>
 {% endif %}

@@ -44,18 +44,12 @@ layout: single
     </section>
   {%- endif %}
 
-  {%- if w.standard_kana or w.standard_kanji %}
-    <section class="word-standard">
-      <h2>Standard Japanese</h2>
-      <dl>
-        {%- if w.standard_kana %}
-          <dt>Kana</dt><dd>{{ w.standard_kana }}</dd>
-        {%- endif %}
-        {%- if w.standard_kanji %}
-          <dt>Kanji</dt><dd>{{ w.standard_kanji }}</dd>
-        {%- endif %}
-      </dl>
-    </section>
+  {%- if w.standard_kana %}
+    <p><strong>Standard:</strong> {{ w.standard_kana }}</p>
+  {%- endif %}
+
+  {%- if w.standard_kanji %}
+    <p><strong>Standard kanji:</strong> {{ w.standard_kanji }}</p>
   {%- endif %}
 
   {%- if w.commentary %}

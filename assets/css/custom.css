@@ -209,15 +209,44 @@
   height: auto;
 }
 
-/* ---- Green content box (all content pages, matching original) ---- */
+/* ---- Green content box (one per page, matching original) ---- */
+/* Apply ONLY to the outermost article element per layout.
+   Do NOT also target nested sections — that causes double boxing. */
 
-.page-body,
-.page-content .e-content,
-.page__content > article {
+.conversation-example,
+.grammar-point,
+.word-entry,
+.real-conversation,
+.phonology-topic,
+.page-content {
   background: #eaf9f2;
   padding: 1.5em;
   border: 1px solid #000;
   margin-bottom: 1em;
+}
+
+/* Home page content box */
+.home-content-box {
+  background: #eaf9f2;
+  padding: 1.5em;
+  border: 1px solid #000;
+  margin-bottom: 1em;
+  overflow: hidden; /* contain floated images */
+}
+
+/* Standalone page content boxes */
+.content-box {
+  background: #eaf9f2;
+  padding: 1.5em;
+  border: 1px solid #000;
+  margin-bottom: 1em;
+}
+
+/* Prevent nested elements from getting their own box */
+.page-content .page-body {
+  background: transparent;
+  padding: 0;
+  border: none;
 }
 
 /* ---- Index tables (vocab, grammar, conversations) ---- */
@@ -393,14 +422,10 @@ table.sortable th[data-sort-dir="desc"]::after {
   border: 1px solid grey;
 }
 
-/* ---- Reduce right-side whitespace (MM's default is very wide) ---- */
+/* ---- Reduce right-side whitespace ---- */
 
 .page {
-  padding-right: 0 !important;
-}
-
-.page__inner-wrap {
-  max-width: 100%;
+  padding-right: 1em !important;
 }
 
 .sidebar.sticky {
