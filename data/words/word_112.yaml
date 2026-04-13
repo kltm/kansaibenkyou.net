@@ -8,3 +8,7 @@ commentary: 'This is mostly used in Kyoto, and often in business settings (i.e.,
 standard_kana: いらっしゃい
 word_types:
 - wordtype_4
+suitability:
+- icon: i-formal.png
+  label: formal
+  tooltip: Indicates special use in formal settings.

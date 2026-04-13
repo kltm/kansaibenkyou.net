@@ -247,6 +247,18 @@
   background: #f8f5ef;
 }
 
+/* Suitability icons in vocabulary list */
+.suitability-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.suitability-cell {
+  white-space: nowrap;
+}
+
 /* Sortable table headers */
 table.sortable th {
   cursor: pointer;

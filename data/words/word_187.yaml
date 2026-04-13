@@ -6,3 +6,7 @@ standard_kana: なぐる／たたく
 standard_kanji: 殴る／叩く
 word_types:
 - wordtype_18
+suitability:
+- icon: i-warning.png
+  label: potentially rude
+  tooltip: Indicates speech that could be upsetting to listeners.

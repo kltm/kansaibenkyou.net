@@ -6,3 +6,7 @@ standard_kana: おこる
 standard_kanji: 熾る
 word_types:
 - wordtype_18
+suitability:
+- icon: i-age.png
+  label: age-specific
+  tooltip: Indicates special use by older speakers.

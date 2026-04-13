@@ -6,3 +6,7 @@ standard_kana: めんどう(な)／むずかしい／こまった
 standard_kanji: 面倒(な)／難しい／困った
 word_types:
 - wordtype_13
+suitability:
+- icon: i-age.png
+  label: age-specific
+  tooltip: Indicates special use by older speakers.

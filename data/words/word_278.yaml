@@ -7,3 +7,7 @@ standard_kana: そうですか
 word_types:
 - wordtype_15
 - wordtype_5
+suitability:
+- icon: i-warning.png
+  label: potentially rude
+  tooltip: Indicates speech that could be upsetting to listeners.

@@ -6,3 +6,7 @@ standard_kana: かえる
 standard_kanji: 帰る
 word_types:
 - wordtype_18
+suitability:
+- icon: i-age.png
+  label: age-specific
+  tooltip: Indicates special use by older speakers.

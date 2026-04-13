@@ -7,3 +7,7 @@ body: 'Let''s beat them up!
 standard_kana: やってしまえ
 word_types:
 - wordtype_5
+suitability:
+- icon: i-warning.png
+  label: potentially rude
+  tooltip: Indicates speech that could be upsetting to listeners.

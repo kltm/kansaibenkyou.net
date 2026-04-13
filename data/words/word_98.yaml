@@ -6,3 +6,7 @@ standard_kana: ばかやろう
 standard_kanji: 馬鹿野郎
 word_types:
 - wordtype_5
+suitability:
+- icon: i-warning.png
+  label: potentially rude
+  tooltip: Indicates speech that could be upsetting to listeners.

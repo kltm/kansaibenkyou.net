@@ -11,3 +11,7 @@ standard_kana: おじさん
 standard_kanji: 叔父さん
 word_types:
 - wordtype_7
+suitability:
+- icon: i-warning.png
+  label: potentially rude
+  tooltip: Indicates speech that could be upsetting to listeners.

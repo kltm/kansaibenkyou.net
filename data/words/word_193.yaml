@@ -10,3 +10,7 @@ standard_kana: おれ
 standard_kanji: 俺
 word_types:
 - wordtype_115
+suitability:
+- icon: i-male.png
+  label: male speech
+  tooltip: Indicates special use by male speakers.

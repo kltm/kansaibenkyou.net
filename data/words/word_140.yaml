@@ -6,3 +6,7 @@ commentary: Also see あんた.
 standard_kana: あなた
 word_types:
 - wordtype_115
+suitability:
+- icon: i-age.png
+  label: age-specific
+  tooltip: Indicates special use by older speakers.

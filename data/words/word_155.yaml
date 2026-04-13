@@ -11,3 +11,7 @@ standard_kana: わたし
 standard_kanji: 私
 word_types:
 - wordtype_115
+suitability:
+- icon: i-female.png
+  label: female speech
+  tooltip: Indicates special use by female speakers.

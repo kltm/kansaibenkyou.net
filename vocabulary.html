@@ -4,8 +4,6 @@ title: Vocabulary
 permalink: /vocabulary/
 ---
 
-<h1>Vocabulary</h1>
-
 <p>
   All Kansai-ben vocabulary currently explained on the site. Click any
   word to see its definition, standard Japanese equivalent, and usage notes.
@@ -16,8 +14,8 @@ permalink: /vocabulary/
     <tr>
       <th>Word</th>
       <th>Meaning</th>
-      <th>Standard (kana)</th>
-      <th>Standard (kanji)</th>
+      <th>Standard</th>
+      <th>Suitability</th>
     </tr>
   </thead>
   <tbody>
@@ -28,8 +26,16 @@ permalink: /vocabulary/
       <tr>
         <td><a href="{{ '/words/' | append: node_id | append: '/' | relative_url }}">{{ w.title }}</a></td>
         <td>{{ w.body | truncate: 60 }}</td>
-        <td>{{ w.standard_kana }}</td>
-        <td>{{ w.standard_kanji }}</td>
+        <td>{{ w.standard_kana }}{% if w.standard_kanji %} ({{ w.standard_kanji }}){% endif %}</td>
+        <td class="suitability-cell">
+          {%- if w.suitability %}
+            {%- for s in w.suitability %}
+              <img src="{{ '/assets/images/' | append: s.icon | relative_url }}"
+                   alt="{{ s.label }}" title="{{ s.tooltip }}"
+                   class="suitability-icon">
+            {%- endfor %}
+          {%- endif %}
+        </td>
       </tr>
     {%- endfor %}
   </tbody>

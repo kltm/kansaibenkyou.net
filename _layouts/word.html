@@ -23,6 +23,16 @@ layout: single
     </p>
   {%- endif %}
 
+  {%- if w.suitability.size > 0 %}
+    <p>
+      {%- for s in w.suitability %}
+        <img src="{{ '/assets/images/' | append: s.icon | relative_url }}"
+             alt="{{ s.label }}" title="{{ s.tooltip }}"
+             class="suitability-icon"> {{ s.label }}
+      {%- endfor %}
+    </p>
+  {%- endif %}
+
   {%- if w.body %}
     <section class="word-definition">
       <h2>Definition</h2>

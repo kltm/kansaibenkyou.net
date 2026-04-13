@@ -6,3 +6,7 @@ commentary: For more information, please see よって in the grammar section.
 standard_kana: から
 word_types:
 - wordtype_15
+suitability:
+- icon: i-age.png
+  label: age-specific
+  tooltip: Indicates special use by older speakers.

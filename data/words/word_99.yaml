@@ -6,3 +6,7 @@ standard_kana: じょうずに／うまく／ちゃんと／しっかりと
 standard_kanji: 上手に／上手く／ちゃんと／しっかりと
 word_types:
 - wordtype_15
+suitability:
+- icon: i-age.png
+  label: age-specific
+  tooltip: Indicates special use by older speakers.

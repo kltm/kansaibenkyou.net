@@ -10,3 +10,7 @@ standard_kana: おかんじょう
 standard_kanji: お勘定
 word_types:
 - wordtype_7
+suitability:
+- icon: i-warning.png
+  label: potentially rude
+  tooltip: Indicates speech that could be upsetting to listeners.

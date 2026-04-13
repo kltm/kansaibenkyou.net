@@ -7,3 +7,7 @@ standard_kana: おおげさ(な)
 standard_kanji: 大袈裟(な)
 word_types:
 - wordtype_12
+suitability:
+- icon: i-age.png
+  label: age-specific
+  tooltip: Indicates special use by older speakers.

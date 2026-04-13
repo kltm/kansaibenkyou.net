@@ -6,3 +6,7 @@ standard_kana: ほうもんする
 standard_kanji: 訪問する
 word_types:
 - wordtype_10
+suitability:
+- icon: i-age.png
+  label: age-specific
+  tooltip: Indicates special use by older speakers.

@@ -6,3 +6,7 @@ standard_kana: あじけない／おいしくない
 standard_kanji: 味気ない／美味しくない
 word_types:
 - wordtype_12
+suitability:
+- icon: i-age.png
+  label: age-specific
+  tooltip: Indicates special use by older speakers.

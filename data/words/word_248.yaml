@@ -7,3 +7,7 @@ standard_kana: びじん
 standard_kanji: 美人
 word_types:
 - wordtype_7
+suitability:
+- icon: i-age.png
+  label: age-specific
+  tooltip: Indicates special use by older speakers.

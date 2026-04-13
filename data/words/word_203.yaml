@@ -11,3 +11,7 @@ standard_kana: わたしのいえ
 standard_kanji: 私の家
 word_types:
 - wordtype_7
+suitability:
+- icon: i-female.png
+  label: female speech
+  tooltip: Indicates special use by female speakers.
