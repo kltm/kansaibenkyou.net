@@ -1,70 +1,27 @@
-# Top masthead nav — mirrors the original site's main sections
-main:
-  - title: Home
-    url: /
-  - title: Introduction
-    url: /intro/
-  - title: Kansai-ben is...?
-    url: /what/
-  - title: Example conversations
-    url: /example-conversations/
-  - title: Grammar
-    url: /grammar/
-  - title: Vocabulary
-    url: /vocabulary/
-  - title: Pronunciation
-    url: /pronunciation/
-  - title: Real conversations
-    url: /real-conversations-list/
-  - title: Resources
-    url: /resources/
-  - title: About
-    url: /about/
-  - title: Feedback
-    url: /feedback/
+# Top masthead — intentionally empty, all nav is in the sidebar
+# (matching the original site's pattern where the masthead was just
+# logo + title, with navigation in the right sidebar)
+main: []
 
-# Sidebar nav — full hierarchical navigation
+# Sidebar nav — flat list matching the original site's 11-item pattern.
+# (Contextual sub-items like Why/How under Introduction were a Drupal
+# menu feature; MM's sidebar doesn't expand contextually, so we keep
+# it flat and clean for now.)
 site-nav:
   - title: Home
     url: /
   - title: Introduction
     url: /intro/
-    children:
-      - title: Why learn Kansai-ben?
-        url: /intro/#why
-      - title: How to learn!
-        url: /intro/#how
   - title: Kansai-ben is...?
     url: /what/
-    children:
-      - title: What is Kansai-ben?
-        url: /what/#what
-      - title: Where is Kansai?
-        url: /what/#where
-      - title: Who speaks Kansai-ben?
-        url: /what/#who
-      - title: When to use Kansai-ben?
-        url: /what/#when
   - title: Example conversations
     url: /example-conversations/
   - title: Grammar
     url: /grammar/
-    children:
-      - title: Grammar point list
-        url: /grammar-points/
-      - title: Common use list
-        url: /common-use-list/
   - title: Vocabulary
     url: /vocabulary/
   - title: Pronunciation
     url: /pronunciation/
-    children:
-      - title: Accent Patterns
-        url: /phonology/353/
-      - title: Vowels
-        url: /phonology/340/
-      - title: Sound Switching
-        url: /phonology/349/
   - title: Real conversations
     url: /real-conversations-list/
   - title: Resources

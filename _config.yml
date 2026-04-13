@@ -21,13 +21,9 @@ minimal_mistakes_skin: "default"
 # GoatCounter analytics
 goatcounter_site: kansaibenkyou
 
-# Author sidebar
+# Author metadata (used in footer, not sidebar)
 author:
   name: Keiko Yukawa
-  bio: >-
-    A learning resource for Kansai-ben, the family of Japanese dialects
-    spoken in the Kansai region.
-  avatar: /assets/images/takkun.png
 
 markdown: kramdown
 kramdown:
