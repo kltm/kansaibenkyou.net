@@ -130,10 +130,17 @@ def extract_text_field(html: str, field_name: str, preserve_headings: bool = Fal
             text, flags=re.DOTALL,
         )
         def fix_img(m):
-            src = m.group(1)
-            src = re.sub(r'\.\./external/', '/assets/images/', src)
+            full_tag = m.group(0)
+            src_m = re.search(r'src="([^"]+)"', full_tag)
+            cls_m = re.search(r'class="([^"]+)"', full_tag)
+            if not src_m:
+                return ''
+            src = re.sub(r'\.\./external/', '/assets/images/', src_m.group(1))
+            cls = cls_m.group(1) if cls_m else ''
+            if cls:
+                return f'\n\n<img src="{src}" class="{cls}" />\n\n'
             return f'\n\n![{src}]({src})\n\n'
-        text = re.sub(r'<img[^>]+src="([^"]+)"[^>]*/?\s*>', fix_img, text)
+        text = re.sub(r'<img[^>]+>', fix_img, text)
         def resolve_node_link(m):
             node_id = m.group(1)
             text = m.group(2)
@@ -143,7 +150,7 @@ def extract_text_field(html: str, field_name: str, preserve_headings: bool = Fal
         text = re.sub(r"<br\s*/?>", "\n", text)
         text = re.sub(r"</(?:p|div|tr|li)>", "\n", text)
         text = re.sub(r"</?(?:td|th)>", "\t", text)
-        text = re.sub(r"<[^>]+>", "", text)
+        text = re.sub(r"<(?!img\b)[^>]+>", "", text)
         text = html_mod.unescape(text)
         lines = [ln.rstrip() for ln in text.splitlines()]
         result_lines: list[str] = []

@@ -153,6 +153,10 @@ classes:
           include kanji. Used for sort and search.
       title_en:
         description: English translation of the title, when applicable.
+      title_romaji:
+        description: >-
+          Romanized reading of the title (auto-generated via pykakasi).
+          Used for search indexing so romaji queries find kana content.
 
   # ----------------------------------------------------------------
   # The 8 content types

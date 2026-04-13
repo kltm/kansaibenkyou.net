@@ -193,21 +193,31 @@
   border-color: #3d6186;
 }
 
-/* ---- Page body content images (Drupal float pattern) ---- */
+/* ---- Drupal image float classes (preserved from original) ---- */
 
-.page__content img[src*="_160"],
-.page-body img {
-  max-width: 160px !important;
-  height: auto !important;
-  border-radius: 4px;
-  margin: 0.5rem 1rem 0.5rem 0 !important;
-  float: left !important;
+.left-image {
+  float: left;
+  margin: 0 1em 0.5em 0;
+  max-width: 220px;
+  height: auto;
 }
 
-.page__content img[src*="_160"]:nth-of-type(even),
-.page-body img:nth-of-type(even) {
-  float: right !important;
-  margin: 0.5rem 0 0.5rem 1rem !important;
+.right-image {
+  float: right;
+  margin: 0 0 0.5em 1em;
+  max-width: 220px;
+  height: auto;
+}
+
+/* ---- Green content box (all content pages, matching original) ---- */
+
+.page-body,
+.page-content .e-content,
+.page__content > article {
+  background: #eaf9f2;
+  padding: 1.5em;
+  border: 1px solid #000;
+  margin-bottom: 1em;
 }
 
 /* ---- Index tables (vocab, grammar, conversations) ---- */
@@ -395,6 +405,20 @@ table.sortable th[data-sort-dir="desc"]::after {
 
 .sidebar.sticky {
   padding-right: 0;
+}
+
+/* ---- Screen-reader only (for Pagefind romaji indexing) ---- */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* ---- Word entry layout ---- */

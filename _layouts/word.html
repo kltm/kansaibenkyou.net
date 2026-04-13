@@ -12,6 +12,10 @@ layout: single
     
   </header>
 
+  {%- if w.title_romaji %}
+    <span class="sr-only" data-pagefind-meta="romaji">{{ w.title_romaji }}</span>
+  {%- endif %}
+
   {%- if w.word_types.size > 0 %}
     <p>
       <strong>Word type:</strong>

@@ -2,7 +2,7 @@ id: page_357
 drupal_node_id: 357
 title: Example conversations
 slug: example-conversations
-body: '![/assets/images/kb-dinner_160.jpg](/assets/images/kb-dinner_160.jpg)
+body: '<img src="/assets/images/kb-dinner_160.jpg" class="left-image" />
 
 
   Even with a familiarity of the vocabulary and grammar of Kansai, it may be hard to understand conversations

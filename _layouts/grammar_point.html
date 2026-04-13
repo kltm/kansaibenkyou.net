@@ -8,6 +8,10 @@ layout: single
 
 <article class="grammar-point">
 
+  {%- if gp.title_romaji %}
+    <span class="sr-only" data-pagefind-meta="romaji">{{ gp.title_romaji }}</span>
+  {%- endif %}
+
   {%- if gp.body %}
     <section class="gp-section gp-body-section">
       <p>{{ gp.body }}</p>

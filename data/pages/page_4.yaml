@@ -2,14 +2,14 @@ id: page_4
 drupal_node_id: 4
 title: Welcome to Kansaibenkyou.net!
 slug: home
-body: '![/assets/images/wiki-takoyaki_160.jpg](/assets/images/wiki-takoyaki_160.jpg)
+body: '<img src="/assets/images/wiki-takoyaki_160.jpg" class="left-image" />
 
 
   This website has been made to ease your frustration with Kansai-ben--the dialect of Japanese spoken
   in Kansai, the south-central region of Japan''s main island Honshu.
 
 
-  ![/assets/images/wiki-dotonbori-02_160.jpg](/assets/images/wiki-dotonbori-02_160.jpg)
+  <img src="/assets/images/wiki-dotonbori-02_160.jpg" class="right-image" />
 
 
   Whether you are living in, working in, visiting, or just thinking about Kansai, Kansaibenkyou.net is
@@ -21,7 +21,7 @@ body: '![/assets/images/wiki-takoyaki_160.jpg](/assets/images/wiki-takoyaki_160.
   life in a major part of Japan.
 
 
-  ![/assets/images/wiki-kinkakuji_160.jpg](/assets/images/wiki-kinkakuji_160.jpg)
+  <img src="/assets/images/wiki-kinkakuji_160.jpg" class="left-image" />
 
 
   While there are materials here for different levels of students and educators, an emphasis is placed
