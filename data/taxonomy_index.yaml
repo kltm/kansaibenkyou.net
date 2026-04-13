@@ -1,6 +1,4 @@
 '10':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 29
     title: よせてもらう
@@ -8,165 +6,138 @@
     title: かぁにかまれる
 '101':
   conversations:
-  - node_id: 271
+  - &id011
+    node_id: 271
     title: 同じアパートの住人と / With a Neighbor
-  - node_id: 274
+  - &id001
+    node_id: 274
     title: 居酒屋で / At an Izakaya
   grammar_points:
-  - node_id: 318
+  - &id069
+    node_id: 318
     title: Vてくれへん／Vてんか
-  words: []
 '102':
   conversations:
-  - node_id: 265
+  - &id002
+    node_id: 265
     title: 歓迎会で / At the Welcome Party
   grammar_points:
-  - node_id: 335
+  - &id065
+    node_id: 335
     title: Vささへん／Vさされる
-  words: []
 '103':
   conversations:
-  - node_id: 266
+  - &id003
+    node_id: 266
     title: 街で / In the City
-  - node_id: 273
+  - &id006
+    node_id: 273
     title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
+  - *id001
   grammar_points:
-  - node_id: 338
+  - &id064
+    node_id: 338
     title: Vやる／Vよる
-  words: []
 '104':
   conversations:
-  - node_id: 264
+  - &id004
+    node_id: 264
     title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
+  - *id002
+  - *id003
   grammar_points:
-  - node_id: 326
+  - &id072
+    node_id: 326
     title: Vてまう
-  words: []
 '105':
   conversations:
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 272
+  - *id003
+  - &id005
+    node_id: 272
     title: 会社で / At a Company
-  - node_id: 275
+  - &id007
+    node_id: 275
     title: お好み焼き屋で / At an Okonomiyaki Restaurant
   grammar_points:
-  - node_id: 327
+  - &id073
+    node_id: 327
     title: Vてしもた／Vても(う)た
-  words: []
 '106':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 268
+  - *id004
+  - *id002
+  - *id003
+  - &id008
+    node_id: 268
     title: 道を聞く / Asking Directions
-  - node_id: 269
+  - &id009
+    node_id: 269
     title: カラオケで / At Karaoke
-  - node_id: 270
+  - &id010
+    node_id: 270
     title: 電車で / On a Train
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id005
+  - *id006
+  - *id007
   grammar_points:
-  - node_id: 296
+  - &id012
+    node_id: 296
     title: Vへん／Vん
-  words: []
 '107':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 272
-    title: 会社で / At a Company
+  - *id004
+  - *id005
   grammar_points:
-  - node_id: 297
+  - &id013
+    node_id: 297
     title: Aない／Aことあれへん／Aん(と)ちゃう
-  words: []
 '109':
   conversations:
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
+  - *id008
+  - *id006
   grammar_points:
-  - node_id: 298
+  - &id014
+    node_id: 298
     title: N(と)ちゃう／Nやない
-  words: []
 '11':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 147
     title: ようさん
 '111':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id005
+  - *id006
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 296
-    title: Vへん／Vん
-  - node_id: 297
-    title: Aない／Aことあれへん／Aん(と)ちゃう
-  - node_id: 298
-    title: N(と)ちゃう／Nやない
-  - node_id: 310
+  - *id012
+  - *id013
+  - *id014
+  - &id067
+    node_id: 310
     title: かいな
-  words: []
 '112':
   conversations:
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
+  - *id008
+  - *id010
   grammar_points:
-  - node_id: 303
+  - &id015
+    node_id: 303
     title: Particles “へ” and “に”
-  words: []
 '113':
   conversations:
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id011
+  - *id007
   grammar_points:
-  - node_id: 303
-    title: Particles “へ” and “に”
-  words: []
+  - *id015
 '115':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 140
     title: あんさん
@@ -189,8 +160,6 @@
   - node_id: 370
     title: あて
 '116':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 199
     title: かんにんする
@@ -200,71 +169,48 @@
     title: べんきょうする
 '117':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
+  - *id002
   grammar_points:
-  - node_id: 307
+  - &id021
+    node_id: 307
     title: Particles “で” and “ど”
-  - node_id: 333
+  - &id070
+    node_id: 333
     title: Vとく／Vんとく
-  words: []
 '118':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
+  - *id004
+  - *id002
+  - *id003
+  - &id016
+    node_id: 267
     title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id008
+  - *id010
+  - *id005
+  - *id006
+  - *id007
   grammar_points:
-  - node_id: 304
+  - &id017
+    node_id: 304
     title: Particle “わ”
-  words: []
 '119':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id005
+  - *id006
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 304
-    title: Particle “わ”
-  words: []
+  - *id017
 '12':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 120
     title: おぼこい
@@ -352,139 +298,93 @@
     title: あじない
 '120':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id016
+  - *id008
+  - *id010
+  - *id011
+  - *id005
+  - *id007
   grammar_points:
-  - node_id: 315
+  - &id092
+    node_id: 315
     title: よって／さかい
-  words: []
 '121':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
+  - *id004
+  - *id008
+  - *id010
+  - *id006
+  - *id001
   grammar_points:
-  - node_id: 316
+  - &id091
+    node_id: 316
     title: ほんで／ほいで
-  words: []
 '122':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id010
+  - *id005
+  - *id007
   grammar_points:
-  - node_id: 313
+  - &id096
+    node_id: 313
     title: Suffix “さん” and “ちゃん”
-  words: []
 '123':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id016
+  - *id008
+  - *id009
+  - *id011
+  - *id005
+  - *id006
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 305
+  - &id018
+    node_id: 305
     title: Particle  “な”
-  words: []
 '125':
   conversations:
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id003
+  - *id007
   grammar_points:
-  - node_id: 305
-    title: Particle  “な”
-  words: []
+  - *id018
 '126':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
+  - *id004
   grammar_points:
-  - node_id: 312
+  - &id095
+    node_id: 312
     title: Prefix “ど”
-  words: []
 '127':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 272
-    title: 会社で / At a Company
+  - *id004
+  - *id003
+  - *id016
+  - *id008
+  - *id005
   grammar_points:
-  - node_id: 302
+  - &id019
+    node_id: 302
     title: Particle omission of “と” and “の”
-  words: []
 '128':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
+  - *id004
+  - *id002
+  - *id003
+  - *id011
+  - *id001
   grammar_points:
-  - node_id: 302
-    title: Particle omission of “と” and “の”
-  words: []
+  - *id019
 '129':
-  conversations: []
   grammar_points:
-  - node_id: 314
+  - &id020
+    node_id: 314
     title: かて／かって
-  words: []
 '13':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 137
     title: さら(な)
@@ -503,112 +403,77 @@
   - node_id: 76
     title: せっしょう(な)
 '130':
-  conversations: []
   grammar_points:
-  - node_id: 314
-    title: かて／かって
-  words: []
+  - *id020
 '131':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id005
+  - *id006
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 306
+  - &id093
+    node_id: 306
     title: Particle “や”
-  - node_id: 307
-    title: Particles “で” and “ど”
-  - node_id: 309
+  - *id021
+  - &id022
+    node_id: 309
     title: ねん／てん／ん／のん／たん
-  - node_id: 311
+  - &id094
+    node_id: 311
     title: やん／やんか／やんけ／がな
-  - node_id: 330
+  - &id063
+    node_id: 330
     title: や／やろ(う)／やったら
-  words: []
 '132':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
+  - *id004
+  - *id002
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id005
+  - *id006
   grammar_points:
-  - node_id: 309
-    title: ねん／てん／ん／のん／たん
-  words: []
+  - *id022
 '136':
-  conversations: []
   grammar_points:
-  - node_id: 139
+  - &id066
+    node_id: 139
     title: V (stem)
-  words: []
 '137':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id008
+  - *id010
+  - *id011
+  - *id005
+  - *id006
+  - *id007
   grammar_points:
-  - node_id: 301
+  - &id079
+    node_id: 301
     title: Te-form and ta-form (verbs)
-  - node_id: 337
+  - &id024
+    node_id: 337
     title: Te-form (i-adjectives)
-  - node_id: 339
+  - &id025
+    node_id: 339
     title: Short forms of verbs
-  words: []
 '138':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 154
     title: くだらん
@@ -618,67 +483,44 @@
     title: ええ
 '139':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
+  - *id004
+  - *id002
+  - *id005
+  - *id006
+  - *id001
   grammar_points:
-  - node_id: 355
+  - &id026
+    node_id: 355
     title: Vはる
-  words: []
 '14':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 38
     title: かいせい
 '140':
   conversations:
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
+  - *id003
+  - *id016
+  - *id008
   grammar_points:
-  - node_id: 336
+  - &id023
+    node_id: 336
     title: Vよ
-  words: []
 '141':
   conversations:
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
+  - *id003
+  - *id016
+  - *id008
   grammar_points:
-  - node_id: 336
-    title: Vよ
-  words: []
+  - *id023
 '142':
   conversations:
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id007
   grammar_points:
-  - node_id: 337
-    title: Te-form (i-adjectives)
-  words: []
+  - *id024
 '145':
-  conversations: []
   grammar_points:
-  - node_id: 339
-    title: Short forms of verbs
-  words: []
+  - *id025
 '15':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 142
     title: あない
@@ -724,7 +566,8 @@
     title: かって
   - node_id: 179
     title: ちと
-  - node_id: 183
+  - &id080
+    node_id: 183
     title: どや
   - node_id: 194
     title: はん
@@ -760,11 +603,14 @@
     title: めちゃめちゃ
   - node_id: 263
     title: めちゃ
-  - node_id: 278
+  - &id081
+    node_id: 278
     title: さよか
-  - node_id: 279
+  - &id076
+    node_id: 279
     title: おはようさん
-  - node_id: 280
+  - &id077
+    node_id: 280
     title: ごくろうさん
   - node_id: 282
     title: きぃきく
@@ -774,7 +620,8 @@
     title: さかい
   - node_id: 286
     title: よって
-  - node_id: 287
+  - &id082
+    node_id: 287
     title: よっしゃ
   - node_id: 288
     title: あんな
@@ -805,8 +652,6 @@
   - node_id: 99
     title: あんじょう
 '16':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 191
     title: なんべん
@@ -823,8 +668,6 @@
   - node_id: 79
     title: なんぼ
 '17':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 149
     title: おる
@@ -843,8 +686,6 @@
   - node_id: 82
     title: パーマあてる
 '18':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 100
     title: いがむ
@@ -906,159 +747,494 @@
     title: とちる
 '19':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
+  - *id004
+  - *id002
+  - *id005
+  - *id006
   grammar_points:
-  - node_id: 355
-    title: Vはる
-  words: []
+  - *id026
+'193':
+  real_conversations:
+  - &id027
+    node_id: 420
+    title: よう日本行きますか？
+  - &id028
+    node_id: 421
+    title: 日課あります？
+  - &id029
+    node_id: 422
+    title: 最近読んだ本
+  - &id030
+    node_id: 423
+    title: 運転なさいます？
+  - &id031
+    node_id: 424
+    title: 子供の時の遊び
+'194':
+  real_conversations:
+  - &id043
+    node_id: 402
+    title: 昨日何食べたん？
+  - &id044
+    node_id: 403
+    title: その服どこで買うたん？
+  - &id045
+    node_id: 404
+    title: かぜひいたらどうやって治す？
+  - &id046
+    node_id: 405
+    title: 料理とくいそうやなぁ。
+  - &id047
+    node_id: 406
+    title: お酒毎日飲む？
+  - &id048
+    node_id: 407
+    title: 朝、コーヒー飲む？
+  - &id049
+    node_id: 408
+    title: その服どこで買うたん？
+  - &id050
+    node_id: 409
+    title: 今日、何時に起きたん？
+  - &id051
+    node_id: 410
+    title: 子供のころ何して遊んだ？
+  - &id052
+    node_id: 411
+    title: 昨日何食べた？
+  - &id053
+    node_id: 412
+    title: 犬とねこどっちが好き？
+  - &id054
+    node_id: 413
+    title: かぜひいたらどうやって治す？
+  - &id055
+    node_id: 415
+    title: 運動してる？
+  - &id056
+    node_id: 416
+    title: しゅみ何？
+  - &id057
+    node_id: 417
+    title: 最近いそがしいの？
+  - &id058
+    node_id: 418
+    title: 子供の時どんな習い事してたん？
+  - &id059
+    node_id: 419
+    title: 大学の時、どの辺で遊んだん？
+  - *id027
+  - *id028
+  - *id029
+  - *id030
+  - *id031
+'195':
+  real_conversations:
+  - &id032
+    node_id: 376
+    title: 梅田までどうやって行くん？
+  - &id033
+    node_id: 377
+    title: 小学校ん時、習いもんしてた？
+  - &id034
+    node_id: 378
+    title: 忘れられへん食べ物
+  - &id035
+    node_id: 379
+    title: 習い事やってる？
+  - &id036
+    node_id: 380
+    title: 実家に帰ったら何やってるん？
+  - &id037
+    node_id: 381
+    title: 初めてアルバイトしたんていつ？
+  - &id038
+    node_id: 382
+    title: 子供ん時、何して遊んだ？
+  - &id039
+    node_id: 383
+    title: 地元のおすすめの場所
+  - &id040
+    node_id: 384
+    title: ひまな時、何してる？
+  - &id041
+    node_id: 385
+    title: 先週末何してたん？
+  - &id042
+    node_id: 386
+    title: 最近どうなん？
+'196':
+  real_conversations:
+  - *id032
+  - *id033
+  - *id034
+  - *id035
+  - *id036
+  - *id037
+  - *id038
+  - *id039
+  - *id040
+  - *id041
+  - *id042
+  - &id060
+    node_id: 399
+    title: やめたいけどやめられへんこと
+  - &id061
+    node_id: 400
+    title: 運動しはります？
+  - &id062
+    node_id: 401
+    title: とくいな料理って何ですか？
+  - *id043
+  - *id044
+  - *id045
+  - *id046
+  - *id047
+  - *id048
+  - *id049
+  - *id050
+  - *id051
+  - *id052
+  - *id053
+  - *id054
+  - *id055
+  - *id056
+  - *id057
+  - *id058
+  - *id059
+  - *id027
+  - *id028
+  - *id029
+  - *id031
+'197':
+  real_conversations:
+  - *id032
+  - *id033
+  - *id034
+  - *id035
+  - *id036
+  - *id037
+  - *id038
+  - *id039
+  - *id040
+  - *id041
+  - *id042
+  - *id043
+  - *id044
+  - *id045
+  - *id046
+  - *id047
+  - *id048
+  - *id049
+  - *id050
+  - *id051
+  - *id052
+  - *id053
+  - *id054
+  - *id055
+  - *id056
+  - *id057
+  - *id058
+  - *id059
+'198':
+  real_conversations:
+  - *id032
+  - *id033
+  - *id034
+  - *id035
+  - *id036
+  - *id037
+  - *id038
+  - *id039
+  - *id040
+  - *id041
+  - *id042
 '20':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id003
+  - *id011
+  - *id005
+  - *id006
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 323
+  - &id068
+    node_id: 323
     title: Vなあかん／Vんとあかん／Vんならん
-  words: []
+'200':
+  real_conversations:
+  - *id060
+  - *id061
+  - *id062
+  - *id043
+  - *id044
+  - *id045
+  - *id046
+  - *id047
+  - *id048
+  - *id055
+  - *id056
+  - *id057
+  - *id058
+  - *id059
+'201':
+  real_conversations:
+  - *id060
+  - *id061
+  - *id062
+  - *id027
+  - *id028
+  - *id029
+  - *id030
+  - *id031
+'202':
+  real_conversations:
+  - *id060
+  - *id061
+  - *id062
+'203':
+  real_conversations:
+  - *id060
+  - *id061
+  - *id062
+  - *id027
+  - *id028
+  - *id029
+  - *id030
+  - *id031
+'204':
+  real_conversations:
+  - *id032
+  - *id033
+  - *id034
+  - *id035
+  - *id036
+  - *id037
+  - *id038
+  - *id039
+  - *id040
+  - *id041
+  - *id042
+'205':
+  real_conversations:
+  - *id032
+  - *id033
+  - *id034
+  - *id035
+  - *id036
+  - *id037
+  - *id038
+  - *id039
+  - *id040
+  - *id041
+  - *id042
+'206':
+  real_conversations:
+  - *id027
+  - *id028
+  - *id029
+  - *id030
+  - *id031
+'207':
+  real_conversations:
+  - *id055
+  - *id056
+  - *id057
+  - *id058
+  - *id059
+'208':
+  real_conversations:
+  - *id055
+  - *id056
+  - *id057
+  - *id058
+  - *id059
+'209':
+  real_conversations:
+  - *id049
+  - *id050
+  - *id051
+  - *id052
+  - *id053
+  - *id054
+'210':
+  real_conversations:
+  - *id049
+  - *id050
+  - *id051
+  - *id052
+  - *id053
+  - *id054
+'211':
+  real_conversations:
+  - *id049
+  - *id050
+  - *id051
+  - *id052
+  - *id053
+  - *id054
+'212':
+  real_conversations:
+  - *id043
+  - *id044
+  - *id045
+  - *id046
+  - *id047
+  - *id048
+'213':
+  real_conversations:
+  - *id043
+  - *id044
+  - *id045
+  - *id046
+  - *id047
+  - *id048
+'214':
+  conversations:
+  - *id004
+  - *id002
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id005
+  - *id007
+'215':
+  conversations:
+  - *id008
+'216':
+  conversations:
+  - *id007
+'217':
+  conversations:
+  - *id007
+'218':
+  conversations:
+  - *id003
+  - *id006
+  - *id001
+'219':
+  conversations:
+  - *id003
+  - *id006
+  - *id001
+'222':
+  conversations:
+  - *id005
+'223':
+  conversations:
+  - *id005
+  - *id006
+'224':
+  conversations:
+  - *id005
+'225':
+  conversations:
+  - *id011
+'226':
+  conversations:
+  - *id010
+'227':
+  conversations:
+  - *id002
+  - *id009
+'228':
+  conversations:
+  - *id009
+'229':
+  conversations:
+  - *id016
 '23':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id003
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 328
+  - &id085
+    node_id: 328
     title: たら
-  - node_id: 329
+  - &id086
+    node_id: 329
     title: Vんと
-  - node_id: 330
-    title: や／やろ(う)／やったら
-  words: []
+  - *id063
+'230':
+  conversations:
+  - *id016
+'231':
+  conversations:
+  - *id002
+'232':
+  conversations:
+  - *id004
 '24':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id009
+  - *id007
   grammar_points:
-  - node_id: 319
+  - &id088
+    node_id: 319
     title: Vたげる／Vたる
-  - node_id: 320
+  - &id089
+    node_id: 320
     title: Vてもろた／Vてもうた
-  words: []
 '25':
   conversations:
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
+  - *id016
+  - *id009
+  - *id006
   grammar_points:
-  - node_id: 334
+  - &id087
+    node_id: 334
     title: ようV／ようVへん／ようVん
-  words: []
 '26':
   conversations:
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
+  - *id003
+  - *id006
+  - *id001
   grammar_points:
-  - node_id: 338
-    title: Vやる／Vよる
-  words: []
+  - *id064
 '27':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
+  - *id002
   grammar_points:
-  - node_id: 335
-    title: Vささへん／Vさされる
-  words: []
+  - *id065
 '28':
   conversations:
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
+  - *id011
+  - *id005
   grammar_points:
-  - node_id: 325
+  - &id097
+    node_id: 325
     title: Vてもええ／Vてもかめへん／Vてもかまへん／Vてもかまん
-  words: []
 '29':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id009
+  - *id010
+  - *id011
+  - *id005
+  - *id006
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 139
-    title: V (stem)
-  - node_id: 310
-    title: かいな
-  - node_id: 322
+  - *id066
+  - *id067
+  - &id078
+    node_id: 322
     title: Vな
-  - node_id: 323
-    title: Vなあかん／Vんとあかん／Vんならん
-  words: []
+  - *id068
 '3':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 10
     title: まぶし
@@ -1114,145 +1290,88 @@
     title: あて
 '30':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id002
+  - *id009
+  - *id011
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 318
-    title: Vてくれへん／Vてんか
-  - node_id: 321
+  - *id069
+  - &id071
+    node_id: 321
     title: Vてみ(ぃ)
-  - node_id: 333
-    title: Vとく／Vんとく
-  words: []
+  - *id070
 '33':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
+  - *id004
+  - *id002
+  - *id016
+  - *id008
+  - *id009
+  - *id005
+  - *id006
+  - *id001
   grammar_points:
-  - node_id: 331
+  - &id074
+    node_id: 331
     title: Vてる／Vとる
-  words: []
 '34':
   conversations:
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id003
+  - *id005
+  - *id007
   grammar_points:
-  - node_id: 332
+  - &id075
+    node_id: 332
     title: Vたある
-  - node_id: 333
-    title: Vとく／Vんとく
-  words: []
+  - *id070
 '35':
   conversations:
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
+  - *id016
+  - *id009
+  - *id001
   grammar_points:
-  - node_id: 321
-    title: Vてみ(ぃ)
-  - node_id: 333
-    title: Vとく／Vんとく
-  words: []
+  - *id071
+  - *id070
 '36':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
+  - *id004
+  - *id002
+  - *id003
   grammar_points:
-  - node_id: 326
-    title: Vてまう
-  words: []
+  - *id072
 '37':
   conversations:
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id003
+  - *id005
+  - *id007
   grammar_points:
-  - node_id: 327
-    title: Vてしもた／Vても(う)た
-  words: []
+  - *id073
 '38':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id003
+  - *id008
+  - *id010
+  - *id011
+  - *id005
+  - *id006
+  - *id007
   grammar_points:
-  - node_id: 331
-    title: Vてる／Vとる
-  - node_id: 332
-    title: Vたある
-  words: []
+  - *id074
+  - *id075
 '39':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id002
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 330
-    title: や／やろ(う)／やったら
-  words: []
+  - *id063
 '4':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 112
     title: おこしやす
@@ -1266,97 +1385,57 @@
     title: まいど
   - node_id: 230
     title: よろしゅうおあがり
-  - node_id: 279
-    title: おはようさん
-  - node_id: 280
-    title: ごくろうさん
+  - *id076
+  - *id077
   - node_id: 81
     title: もうかりまっか
 '41':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
+  - *id002
+  - *id009
+  - *id006
   grammar_points:
-  - node_id: 322
-    title: Vな
-  - node_id: 324
+  - *id078
+  - &id098
+    node_id: 324
     title: Vたらあかん／Vんといて／Vんとって
-  words: []
 '42':
-  conversations: []
   grammar_points:
-  - node_id: 139
-    title: V (stem)
-  words: []
+  - *id066
 '43':
   conversations:
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  grammar_points: []
-  words: []
+  - *id006
 '46':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id005
+  - *id006
+  - *id007
   grammar_points:
-  - node_id: 301
-    title: Te-form and ta-form (verbs)
-  words: []
+  - *id079
 '47':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id005
+  - *id006
+  - *id007
   grammar_points:
-  - node_id: 301
-    title: Te-form and ta-form (verbs)
-  words: []
+  - *id079
 '5':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 129
     title: けったくそわるい
@@ -1368,16 +1447,13 @@
     title: どないしょ
   - node_id: 182
     title: どないする
-  - node_id: 183
-    title: どや
+  - *id080
   - node_id: 198
     title: いてまえ
   - node_id: 201
     title: よろしゅう
-  - node_id: 278
-    title: さよか
-  - node_id: 287
-    title: よっしゃ
+  - *id081
+  - *id082
   - node_id: 341
     title: すんません
   - node_id: 78
@@ -1385,64 +1461,42 @@
   - node_id: 98
     title: あほんだら
 '55':
-  conversations: []
   grammar_points:
-  - node_id: 302
-    title: Particle omission of “と” and “の”
-  words: []
+  - *id019
 '57':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id005
+  - *id006
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 308
+  - &id090
+    node_id: 308
     title: Particles “か”and “け” feeling
-  - node_id: 309
-    title: ねん／てん／ん／のん／たん
-  - node_id: 310
-    title: かいな
-  words: []
+  - *id022
+  - *id067
 '58':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id002
+  - *id010
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 299
+  - &id083
+    node_id: 299
     title: いっこも／なんも
-  - node_id: 300
+  - &id084
+    node_id: 300
     title: どっこも／だぁれも／いっつも
-  words: []
 '6':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 368
     title: うだうだ
@@ -1452,141 +1506,80 @@
     title: ちゃらんぽらん
 '61':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id002
+  - *id010
+  - *id005
+  - *id007
   grammar_points:
-  - node_id: 139
-    title: V (stem)
-  words: []
+  - *id066
 '62':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 269
-    title: カラオケで / At Karaoke
+  - *id002
+  - *id009
   grammar_points:
-  - node_id: 322
-    title: Vな
-  words: []
+  - *id078
 '63':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id002
+  - *id010
+  - *id007
   grammar_points:
-  - node_id: 299
-    title: いっこも／なんも
-  words: []
+  - *id083
 '64':
-  conversations: []
   grammar_points:
-  - node_id: 300
-    title: どっこも／だぁれも／いっつも
-  words: []
+  - *id084
 '65':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id003
+  - *id008
+  - *id010
+  - *id011
+  - *id007
   grammar_points:
-  - node_id: 328
-    title: たら
-  words: []
+  - *id085
 '66':
   conversations:
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
+  - *id011
   grammar_points:
-  - node_id: 329
-    title: Vんと
-  words: []
+  - *id086
 '67':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id005
+  - *id006
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 330
-    title: や／やろ(う)／やったら
-  words: []
+  - *id063
 '68':
   conversations:
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
+  - *id003
+  - *id016
+  - *id008
+  - *id009
+  - *id011
+  - *id001
   grammar_points:
-  - node_id: 330
-    title: や／やろ(う)／やったら
-  words: []
+  - *id063
 '69':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id002
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id007
   grammar_points:
-  - node_id: 330
-    title: や／やろ(う)／やったら
-  words: []
+  - *id063
 '7':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 104
     title: いちびり
@@ -1696,151 +1689,87 @@
     title: あかんたれ
 '70':
   conversations:
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
+  - *id016
+  - *id009
+  - *id006
   grammar_points:
-  - node_id: 334
-    title: ようV／ようVへん／ようVん
-  words: []
+  - *id087
 '71':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id009
+  - *id007
   grammar_points:
-  - node_id: 319
-    title: Vたげる／Vたる
-  words: []
+  - *id088
 '72':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
+  - *id004
+  - *id002
   grammar_points:
-  - node_id: 320
-    title: Vてもろた／Vてもうた
-  words: []
+  - *id089
 '73':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id008
+  - *id010
+  - *id011
+  - *id005
+  - *id006
+  - *id007
   grammar_points:
-  - node_id: 331
-    title: Vてる／Vとる
-  words: []
+  - *id074
 '74':
   conversations:
-  - node_id: 272
-    title: 会社で / At a Company
+  - *id005
   grammar_points:
-  - node_id: 332
-    title: Vたある
-  words: []
+  - *id075
 '75':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id005
+  - *id007
   grammar_points:
-  - node_id: 308
-    title: Particles “か”and “け” feeling
-  words: []
+  - *id090
 '76':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id003
+  - *id016
+  - *id008
+  - *id005
+  - *id007
   grammar_points:
-  - node_id: 302
-    title: Particle omission of “と” and “の”
-  words: []
+  - *id019
 '77':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 269
-    title: カラオケで / At Karaoke
+  - *id004
+  - *id002
+  - *id003
+  - *id009
   grammar_points:
-  - node_id: 302
-    title: Particle omission of “と” and “の”
-  words: []
+  - *id019
 '78':
   conversations:
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id008
+  - *id010
+  - *id007
   grammar_points:
-  - node_id: 303
-    title: Particles “へ” and “に”
-  words: []
+  - *id015
 '79':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 270
-    title: 電車で / On a Train
+  - *id002
+  - *id010
   grammar_points:
-  - node_id: 310
-    title: かいな
-  words: []
+  - *id067
 '8':
-  conversations: []
-  grammar_points: []
   words:
   - node_id: 143
     title: あんま
@@ -1854,269 +1783,150 @@
     title: ほんま
 '80':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id009
+  - *id010
+  - *id005
+  - *id006
   grammar_points:
-  - node_id: 309
-    title: ねん／てん／ん／のん／たん
-  words: []
+  - *id022
 '81':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
+  - *id004
+  - *id008
+  - *id010
+  - *id006
+  - *id001
   grammar_points:
-  - node_id: 316
-    title: ほんで／ほいで
-  words: []
+  - *id091
 '82':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id016
+  - *id008
+  - *id010
+  - *id005
+  - *id007
   grammar_points:
-  - node_id: 315
-    title: よって／さかい
-  words: []
+  - *id092
 '83':
-  conversations: []
   grammar_points:
-  - node_id: 314
-    title: かて／かって
-  words: []
+  - *id020
 '84':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id008
+  - *id009
+  - *id010
+  - *id007
   grammar_points:
-  - node_id: 306
-    title: Particle “や”
-  words: []
+  - *id093
 '85':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id008
+  - *id009
+  - *id005
+  - *id006
+  - *id007
   grammar_points:
-  - node_id: 305
-    title: Particle  “な”
-  words: []
+  - *id018
 '86':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id008
+  - *id010
+  - *id005
+  - *id006
+  - *id007
   grammar_points:
-  - node_id: 307
-    title: Particles “で” and “ど”
-  words: []
+  - *id021
 '87':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 268
-    title: 道を聞く / Asking Directions
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id002
+  - *id003
+  - *id016
+  - *id008
+  - *id009
+  - *id010
+  - *id005
+  - *id006
+  - *id007
   grammar_points:
-  - node_id: 304
-    title: Particle “わ”
-  words: []
+  - *id017
 '88':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id002
+  - *id003
+  - *id009
+  - *id005
+  - *id006
+  - *id007
   grammar_points:
-  - node_id: 311
-    title: やん／やんか／やんけ／がな
-  words: []
+  - *id094
 '91':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
+  - *id004
   grammar_points:
-  - node_id: 312
-    title: Prefix “ど”
-  words: []
+  - *id095
 '92':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 270
-    title: 電車で / On a Train
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id010
+  - *id005
+  - *id007
   grammar_points:
-  - node_id: 313
-    title: Suffix “さん” and “ちゃん”
-  words: []
+  - *id096
 '93':
   conversations:
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 267
-    title: 魚屋で / At a Seafood Stall
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id003
+  - *id016
+  - *id009
+  - *id005
+  - *id007
   grammar_points:
-  - node_id: 333
-    title: Vとく／Vんとく
-  words: []
+  - *id070
 '95':
   conversations:
-  - node_id: 264
-    title: 大家さんと / With the Landlord
-  - node_id: 266
-    title: 街で / In the City
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
+  - *id004
+  - *id003
+  - *id011
+  - *id005
+  - *id006
+  - *id001
+  - *id007
   grammar_points:
-  - node_id: 323
-    title: Vなあかん／Vんとあかん／Vんならん
-  words: []
+  - *id068
 '96':
   conversations:
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 272
-    title: 会社で / At a Company
+  - *id011
+  - *id005
   grammar_points:
-  - node_id: 325
-    title: Vてもええ／Vてもかめへん／Vてもかまへん／Vてもかまん
-  words: []
+  - *id097
 '97':
   conversations:
-  - node_id: 265
-    title: 歓迎会で / At the Welcome Party
-  - node_id: 273
-    title: 会社の昼休み / During Lunch
+  - *id002
+  - *id006
   grammar_points:
-  - node_id: 324
-    title: Vたらあかん／Vんといて／Vんとって
-  words: []
+  - *id098
 '98':
   conversations:
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
+  - *id001
   grammar_points:
-  - node_id: 321
-    title: Vてみ(ぃ)
-  words: []
+  - *id071
 '99':
   conversations:
-  - node_id: 269
-    title: カラオケで / At Karaoke
-  - node_id: 271
-    title: 同じアパートの住人と / With a Neighbor
-  - node_id: 274
-    title: 居酒屋で / At an Izakaya
-  - node_id: 275
-    title: お好み焼き屋で / At an Okonomiyaki Restaurant
-  grammar_points: []
-  words: []
+  - *id009
+  - *id011
+  - *id001
+  - *id007

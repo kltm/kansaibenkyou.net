@@ -52,6 +52,22 @@ layout: single
     </section>
   {%- endif %}
 
+  {%- if term_data.real_conversations.size > 0 %}
+    <section>
+      <h2>Real conversations</h2>
+      {%- for rc in term_data.real_conversations %}
+        {%- assign rc_key = "real_conversation_" | append: rc.node_id %}
+        {%- assign rc_data = site.data.real_conversations[rc_key] %}
+        <div class="teaser">
+          <h3><a href="{{ '/real_conversations/' | append: rc.node_id | append: '/' | relative_url }}">{{ rc.title }}</a></h3>
+          {%- if rc_data.summary %}
+            <p class="teaser-excerpt">{{ rc_data.summary | truncate: 150 }}</p>
+          {%- endif %}
+        </div>
+      {%- endfor %}
+    </section>
+  {%- endif %}
+
   {%- if term_data.words.size > 0 %}
     <section>
       <h2>Vocabulary</h2>
