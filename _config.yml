@@ -73,6 +73,8 @@ defaults:
       sidebar:
         nav: "site-nav"
       breadcrumbs: true
+      show_date: false
+      last_modified_at: false
   - scope:
       path: ""
       type: "conversations"

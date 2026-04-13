@@ -9,8 +9,19 @@ layout: single
 <article class="word-entry">
 
   <header>
-    <h1 class="word-title">{{ w.title }}</h1>
+    
   </header>
+
+  {%- if w.word_types.size > 0 %}
+    <p>
+      <strong>Word type:</strong>
+      {%- for wt in w.word_types %}
+        {%- assign wt_id = wt | split: "_" | last %}
+        {%- assign wt_label = site.data.taxonomy_labels[wt_id] | default: wt %}
+        <a href="{{ '/taxonomy/term/' | append: wt_id | append: '/' | relative_url }}">{{ wt_label }}</a>{%- unless forloop.last %}, {% endunless %}
+      {%- endfor %}
+    </p>
+  {%- endif %}
 
   {%- if w.body %}
     <section class="word-definition">

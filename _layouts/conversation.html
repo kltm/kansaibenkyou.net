@@ -10,15 +10,23 @@ layout: single
 
 <article class="conversation-example">
 
-  <header class="conversation-header">
-    <h2 class="conversation-title">
-      {{ conv.title }}
-      {%- if conv.title_en %} <span class="conversation-title-en">/ {{ conv.title_en }}</span>{% endif -%}
-    </h2>
-    {%- if conv.summary %}
-      <p class="conversation-summary">{{ conv.summary }}</p>
-    {%- endif %}
-  </header>
+  <section>
+    <h2>Description:</h2>
+    <p>{{ conv.summary }}</p>
+  </section>
+
+  {%- if conv.characters.size > 0 %}
+    <section>
+      <h2>Characters:</h2>
+      <p>
+        {%- for char_ref in conv.characters %}
+          {%- assign cid = char_ref | split: "_" | last %}
+          {%- assign char_label = site.data.taxonomy_labels[cid] | default: char_ref %}
+          <a href="{{ '/taxonomy/term/' | append: cid | append: '/' | relative_url }}">{{ char_label }}</a>{%- unless forloop.last %} &nbsp; {% endunless %}
+        {%- endfor %}
+      </p>
+    </section>
+  {%- endif %}
 
   {%- if conv.audio.path %}
     <p class="conversation-audio">

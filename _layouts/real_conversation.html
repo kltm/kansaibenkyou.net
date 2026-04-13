@@ -9,7 +9,6 @@ layout: single
 <article class="real-conversation">
 
   <header>
-    <h1>{{ rc.title }}</h1>
     {%- if rc.summary %}
       <p class="conversation-summary">{{ rc.summary }}</p>
     {%- endif %}
@@ -17,7 +16,7 @@ layout: single
 
   {%- if rc.speakers.size > 0 %}
     <p class="teaser-meta">
-      <strong>Speakers:</strong>
+      <strong>Tags:</strong>
       {%- for sp in rc.speakers %}
         {%- assign sid = sp | split: "_" | last %}
         {%- assign sp_label = site.data.taxonomy_labels[sid] | default: sp %}
