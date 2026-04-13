@@ -110,16 +110,85 @@ Use the `kbnet-readonly` AWS profile. **Never inline-export the keys.**
 - Stage files explicitly by name (`git add path/to/file`), never `git add -A`.
 - Keep `_mothball/`, `*.pem`, `.env*` in `.gitignore`.
 
-## Lessons learned (from initial rebuild session)
+## Lessons learned
 
-1. **Data preservation ≠ site parity.** Porting all 405 Drupal nodes to YAML was necessary but not sufficient. The rendering layer (Views, display modes, taxonomy cross-references) is equally important.
+### The source of truth principle
 
-2. **Drupal's taxonomy system is a cross-referencing engine.** Every taxonomy term page is both a glossary entry AND an aggregation view. The reverse index must cover ALL reference types, not just the ones we happened to import first.
+The most important lesson: **the old site is the living memory**. Every shortcut taken without verifying against the original caused rework. Specific failures:
 
-3. **HTML tables in grammar points are pedagogically critical.** The Kansai vs Standard comparison tables, formation rules, and example sentences MUST preserve their tabular structure. Stripping to plain text destroys the learning utility.
+- Deleted 58 taxonomy term pages because the reverse index showed them as empty. Every single one had content on the original site (glossary definitions). The reverse index being incomplete was our data gap, not evidence to delete.
+- Removed cross-reference links to "fix" broken link checker results. This destroyed the core pedagogical feature — users navigate by following connections between grammar, vocabulary, and conversations.
+- Claimed pages were "at parity" after checking they rendered, without clicking the links. Character taxonomy pages (Mori Atsushi, etc.) were empty shells for multiple commits.
 
-4. **baseurl requires discipline.** With the site at `/kansaibenkyou.net/` on github.io, every link in every context (templates, JS, YAML body content) must use `relative_url` or equivalent. This includes JS-generated links (skit.js, banner-carousel.js).
+**Pattern**: before removing, simplifying, or changing ANYTHING, navigate to the equivalent page on static.kansaibenkyou.net and observe what it does.
 
-5. **Jekyll collection permalink collisions are silent.** If a `_pages/` stub and a standalone `.html` file both claim the same permalink, Jekyll picks one silently. Always check for collisions after adding new pages.
+### Data import pitfalls
 
-6. **The original site's design choices were intentional.** Colors (standard=blue, English=green, grammar=purple, words=brown), the green content box (#eaf9f2), the mutual exclusion of grammar/word toggles — all tested through user feedback. Match them, don't "improve" them.
+1. **HTML stripping destroys structure.** The initial importer stripped all HTML to plain text, losing tables, headings, image classes, and inline formatting. Grammar point comparison tables, page section headings (h2/h3), and image float classes (`left-image`/`right-image`) all required separate re-import passes with structure preservation. Import with the MOST structure first, then simplify if needed — not the other way around.
+
+2. **Drupal has multiple ID namespaces.** Node IDs and taxonomy term IDs are separate sequences. Term 19 (Honorifics) ≠ node 19. The conversation tag clouds reference taxonomy term IDs but were initially linked to grammar_point node URLs — completely wrong targets. Always be explicit about which ID namespace a reference belongs to.
+
+3. **Field discovery requires scanning, not assuming.** The `field-word-suitability` field (usage icons) was missed during initial word import because it wasn't in the initial field enumeration. The only reliable way to know all fields is to scan the actual HTML for `field-name-*` classes across multiple sample nodes.
+
+### baseurl is a pervasive concern
+
+With the site at `/kansaibenkyou.net/` on github.io, EVERY path reference needs the prefix. This affected:
+
+- Liquid templates: use `| relative_url` on every `href` and `src`
+- JavaScript: read baseurl from `<meta name="baseurl">` and prepend to all generated URLs (skit.js link rendering, banner carousel manifest fetch)
+- YAML body content: Markdown links `](/path)` need Liquid replacement in the layout; raw HTML `src="/path"` needs separate replacement
+- Jekyll frontmatter: `header.overlay_image` paths
+
+**Pattern**: after every change, grep the built HTML for paths missing the prefix. When the custom domain is configured, `baseurl` becomes `""` and all replacements become no-ops.
+
+### Jekyll/MM integration patterns
+
+1. **`_layouts/default.html` overrides the ENTIRE theme.** When we switched to Minimal Mistakes, our old `default.html` completely replaced MM's layout — breaking the masthead, sidebar, responsive JS, and everything else. Delete custom `default.html` to let the theme work.
+
+2. **Collection permalink collisions are silent.** A `_pages/357.md` stub and a standalone `conversations-index.html` both claiming `/example-conversations/` — Jekyll picks one with no warning. After adding any page, check for collisions.
+
+3. **MM's blogisms must be explicitly suppressed.** Previous/Next pagination, "Updated" dates, author sidebar boxes — all designed for blogs. Override via empty `_includes/post_pagination.html` and `_includes/page__date.html`. Set `show_date: false` and `classes: wide` in config defaults.
+
+4. **`redirect_to` frontmatter requires a plugin.** Without `jekyll-redirect-from` (not on GH Pages allowlist), use HTML meta refresh redirects instead.
+
+5. **MM's `include_cached` can serve stale content.** If overrides aren't taking effect, the theme may be caching an earlier version of an include.
+
+### CSS specificity with theme frameworks
+
+1. **Custom CSS must use `!important` selectively** to override MM's compiled Sass. The custom skin SCSS (`_sass/minimal-mistakes/skins/_kansaiben.scss`) handles variables; `assets/css/custom.css` handles overrides.
+
+2. **Green content box nesting.** If CSS targets both an `<article>` wrapper AND a nested `<section>`, you get double-boxing. Target only the outermost element per layout. Verify with Playwright: count elements with `backgroundColor === 'rgb(234, 249, 242)'`.
+
+3. **Extract actual colors from the original via Playwright** `getComputedStyle()`, don't guess from screenshots. The original's colors were different from what they appeared (lavender #E3E7F5 not cream, near-black #181818 footer not blue).
+
+### Verification workflow
+
+Run these after EVERY structural change, before committing:
+
+```sh
+# 1. Check for broken links
+python3 tools/check_links.py
+
+# 2. Check for empty destination pages  
+python3 tools/check_empty_pages.py
+
+# 3. Visual verification (if layout changed)
+python3 tools/verify_site.py
+
+# 4. Schema validation
+linkml-validate --schema schema/kbnet.yaml --target-class Word data/words/*.yaml
+```
+
+Also: **follow the links you generate**. Click through from a listing page to the destination and verify it has real content. A link to an empty page is worse than no link.
+
+### URL consistency
+
+All collection URLs use hyphens, no underscores, no `-list` suffix:
+- `/example-conversations/:name/`
+- `/real-conversations/:name/`
+- `/grammar-points/:name/`
+- `/words/:name/`
+- `/phonology/:name/`
+- `/taxonomy/term/:name/`
+
+Update ALL references when changing a URL: config, navigation, layouts, includes, JS, page body content, and the importer's NODE_URL_MAP.
