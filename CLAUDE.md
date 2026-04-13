@@ -1,10 +1,36 @@
 # Kansaibenkyou.net
 
-A modern revival of kansaibenkyou.net, a learning resource for Kansai-ben (関西弁) — the family of Japanese dialects spoken in the Kansai region (Osaka, Kyoto, Hyogo, Nara, Wakayama, Shiga). Authored by Keiko Yukawa. Originally a Drupal 7 site, mothballed in 2016 as a static dump on S3 + CloudFront, and being rebuilt here as a Jekyll site for GitHub Pages under the original `kansaibenkyou.net` domain.
+A modern revival of kansaibenkyou.net, a learning resource for Kansai-ben (関西弁) — the family of Japanese dialects spoken in the Kansai region (Osaka, Kyoto, Hyogo, Nara, Wakayama, Shiga). Authored by Keiko Yukawa. Originally a Drupal 7 site, mothballed in 2016 as a static dump on S3 + CloudFront, and being rebuilt here as a Jekyll site (Minimal Mistakes theme) for GitHub Pages.
+
+## The cardinal rule: the old site is the source of truth
+
+The mothballed original at **https://static.kansaibenkyou.net** is the "living memory" of what this site must be. It is a pedagogical tool for dialect self-study where every link, list, table, summary page, text color, and position was chosen through public feedback to create a smooth learning experience.
+
+**When working on this site:**
+
+1. **Never assume the original had nothing.** Before deleting, simplifying, or "fixing" anything, verify against the original site. An incomplete reverse index or missing data mapping is YOUR problem, not evidence that content should not exist.
+
+2. **Never remove functionality to fix a bug.** Removing links to "fix" broken links, or deleting pages because they appear empty in our data, destroys the site's cross-referencing — the core pedagogical mechanism. Fix the data or the rendering instead.
+
+3. **Always check the original before acting.** If direction is unclear, if you're unsure how something "should be", use the living memory. Do not assume. Navigate to the equivalent page on static.kansaibenkyou.net and observe what it does.
+
+4. **Every page serves a purpose.** This is a learning site where users follow thoughts and connections. Taxonomy term pages are glossary definitions AND cross-reference hubs. Index pages are navigation tables with descriptions and tag links. Grammar point pages have structured comparison tables. None of this is decoration.
+
+5. **Verify the full link chain.** After every change, don't just check that your page renders — follow every link you generate and verify the destination has real content. A link to an empty page is worse than no link at all.
+
+6. **Use `tools/` to verify systematically:**
+   - `tools/check_links.py` — catches 404s (broken links)
+   - `tools/check_empty_pages.py` — catches pages that exist but have no content
+   - `tools/verify_site.py` — Playwright-based visual + functional verification
+   - Run ALL THREE after every structural change, before committing.
+
+7. **A full sitemap of the old site exists** at `data/old_sitemap.yaml`. The new site must match this topology. For every page in the old sitemap, the new site should have an equivalent page that serves the same purpose.
 
 ## Status
 
-Greenfield. The mothballed reference still serves at https://static.kansaibenkyou.net (CloudFront in front of S3 bucket `kb-snapshot`). The revived site target is the bare `kansaibenkyou.net` domain on GitHub Pages.
+Rebuild in progress. Live at https://kltm.github.io/kansaibenkyou.net/ (temporary GH Pages URL; will move to kansaibenkyou.net when DNS is configured). Using Minimal Mistakes theme framework.
+
+The mothballed reference still serves at https://static.kansaibenkyou.net.
 
 ## License & attribution
 
@@ -13,147 +39,87 @@ This repository is **dual-licensed**:
 - **Site content** — lessons, audio, images, text, translations, grammar / vocabulary annotations, conversation scripts, and anything else derived from the original kansaibenkyou.net site — is licensed under **CC BY-SA 3.0**, © Keiko Yukawa. Keiko intends to upgrade this to **CC BY 4.0** *after* the static migration is complete — not before. Preserve the existing license and attribution everywhere it appears in the original content.
 - **Site code** — Jekyll layouts and includes, build tools, importers, schemas, JavaScript, CSS, and any other software written for this repository — is licensed under the **BSD 3-Clause License**, © kltm.
 
-Rule of thumb: anything under `data/`, `assets/audio/`, `assets/banner/`, `assets/images/`, or `_data/` is **content**. Anything under `_layouts/`, `_includes/`, `assets/css/`, `assets/js/`, `schema/`, or `tools/` is **code**. See `LICENSE` for the full text of both.
-
 ## Architecture decisions
 
-- **Static site generator**: Jekyll. Native to GitHub Pages, zero build-action path, well-known to the maintainer. Astro was considered and rejected: its only meaningful win for this project (islands hydration for the conversation widget) is replaceable with ~30 lines of vanilla JS.
-- **Data model**: LinkML schemas in `schema/`, with canonical content authored as YAML in `data/` and validated at build time via `linkml-validate`. Schema patterns mirror the sister project `wrenshoe`.
-- **Audio hosting**: in-repo under `assets/audio/` (~86 MiB total). Revisit only if GitHub Pages bandwidth becomes a real problem.
-- **Mothball archive**: a `_mothball/` subdirectory of this repo holds a 1:1 mirror of the live S3 mothball for offline reference. **Gitignored — never committed**, excluded from the Jekyll build.
-- **Subdomain split**: `wrenshoe.kansaibenkyou.net` will mount the wrenshoe app's kansaiben deck (replacing the original `mobile.kansaibenkyou.net`).
-- **Analytics**: privacy-friendly (Plausible / GoatCounter / similar). No Google Analytics — the original GA was stripped during the 2016 mothballing and is not coming back.
+- **Theme framework**: Minimal Mistakes (via `remote_theme`). Provides grid, sidebar, masthead, breadcrumbs, responsive layout, and typography. Our custom styling lives in `assets/css/custom.css`, loaded after MM's Sass pipeline.
+- **Data model**: LinkML schemas in `schema/`, with canonical content authored as YAML in `data/` and validated at build time via `linkml-validate`.
+- **Audio hosting**: in-repo under `assets/audio/` (~87 MiB total).
+- **Mothball archive**: `_mothball/` subdirectory, **gitignored — never committed**. 1:1 mirror of the live S3 mothball for offline reference.
+- **Search**: Pagefind (static client-side search, indexed in CI via `npx pagefind --site _site`). Search UI at `/search/`.
+- **Analytics**: GoatCounter (privacy-friendly, no cookies). Snippet in layout, activated when `goatcounter_site` is set in `_config.yml`.
 
-## Repository layout
+## The data model
 
-```
-.
-├── CLAUDE.md            # this file
-├── LICENSE              # CC BY-SA 3.0
-├── README.md
-├── _config.yml          # Jekyll config
-├── Gemfile              # Jekyll gems
-├── _layouts/            # Jekyll templates
-├── _data/               # Jekyll data files (rendered from data/*.yaml)
-├── assets/
-│   ├── audio/           # lesson mp3s (mirrored from kb-audio)
-│   ├── banner/          # header carousel images (from kb-image/banner/)
-│   └── images/          # chapter images (from kb-image/)
-├── data/                # canonical YAML content (LinkML-validated)
-│   ├── conversations/
-│   ├── real_conversations/
-│   ├── grammar_points/
-│   ├── words/
-│   ├── phonology_topics/
-│   ├── pages/
-│   └── characters/
-├── schema/              # LinkML schemas
-│   └── kbnet.yaml
-├── tools/               # one-shot scripts, importers, validators
-└── _mothball/           # GITIGNORED — local mirror of the four S3 buckets
-```
+Eight Drupal content types, plus taxonomy terms:
 
-## The data model — ground truth from the Drupal 7 dump
-
-Eight Drupal content types, enumerated by scanning `<article class>` across all 406 nodes in the mothball:
-
-| Type | Count | Fields beyond `body` |
+| Type | Count | Key fields |
 |---|---|---|
-| `page` | 12 | (body only) |
-| `conversation_example` | 12 | description, characters, audio, function types, grammar types |
-| `grammar_point` | 45 | commentary, example, formation, formation-from-standard, kansai-vs-standard, function type, grammar type |
-| `real_conversation` | 36 | audio, description, hint, tags (speakers) |
-| `word` | 280 | commentary, standard (kana), standard kanji, word type |
-| `phonology_topic` | 16 | (body only) |
-| `blog` | 4 | (body only) |
-| `webform` | 1 | the original feedback form — drop, replace with a GitHub Issues link or external form service |
+| `page` | 12 | body (with headings + images preserved as Markdown) |
+| `conversation_example` | 12 | description, characters, audio, stanzas (5 layers), function_types, grammar_types |
+| `grammar_point` | 45 | body, commentary, example, formation, formation_from_standard, kansai_vs_standard (**all preserved as HTML with tables**) |
+| `real_conversation` | 36 | audio, description, hint, speakers |
+| `word` | 280 | body, commentary, standard_kana, standard_kanji, word_types |
+| `phonology_topic` | 16 | body |
+| `blog` | 4 | body |
+| `taxonomy_term` | 207 | label + description (glossary definition) + reverse index (tagged content) |
 
-**The 12 example conversations** are nodes 264–275, lining up exactly with the bazaar `kb.net.shared/01.with_the_landlord.*` through `12.at_an_okonomiyaki_restaurant.*` text files and the `kb-audio/ex_conv_*.mp3` files.
+### The conversation skit toggle widget
 
-**Real conversations** landing page is node 387.
+Matching the original `kb.js` behavior exactly:
 
-**Characters are taxonomy terms** (terms 214–232 in the original Drupal taxonomy), separate from grammar / function-type taxonomy terms (~111–137).
+- **Standard/English**: independent toggles, button text changes "Show" ↔ "Hide"
+- **Grammar/Words**: mutually exclusive — clicking one hides the other AND hides bare Kansai (skit-k). Both replace skit-k, not stack on top.
+- **Colors**: standard=blue, English=green, grammar/word text=grey, grammar links=purple bold (.conv-link-emph-one), word links=brown bold (.conv-link-emph-two)
+- **Animation**: CSS max-height/opacity transition (~250ms) matching jQuery `.show('fast')`
 
-### The "Example conversation" interactive widget
+### Taxonomy cross-referencing
 
-This was the original site's most JS-heavy feature, but it's structurally simple. Each stanza is a `<ul>` of five layered `<li>` elements with class names, plus four toggle buttons:
+The taxonomy system serves TWO purposes:
+1. **Glossary definitions** — 72 terms have lexicon definitions (e.g., "stem" = "The long (masu) verb form without the final 'masu'"). Stored in `data/taxonomy_descriptions.yaml`.
+2. **Content aggregation** — each term page lists all content tagged with that term (grammar points, conversations, real conversations, words). Computed as a reverse index in `data/taxonomy_index.yaml`.
 
-```html
-<ul>
-  <li class="skit-k">Kansai-ben (always shown)</li>
-  <li class="skit-g">Kansai with inline grammar links</li>
-  <li class="skit-w">Kansai with inline word links</li>
-  <li class="skit-s">Standard Japanese</li>
-  <li class="skit-e">English</li>
-</ul>
-```
-
-Buttons `#skit-toggle-s-button`, `-e-button`, `-g-button`, `-w-button` toggle visibility of the corresponding `.skit-*` lines. The full rebuilt widget is ~30 lines of vanilla JS — no jQuery in the new build. Grammar / word links inside `.skit-g` and `.skit-w` lines point to `grammar_point` and `word` nodes respectively.
+The reverse index must cover ALL reference types: function_types, grammar_types, characters (from conversations), speakers (from real conversations), and word_types.
 
 ## Original sources
 
 ### Bazaar dumps (read-only reference)
 
-- `/home/sjcarbon/local/src/bazaar/home/trunk/kansaibenkyou/` — the original Drupal 7 source tree:
-  - `drupal/pixture_reloaded-2.2/` — original child theme (`kb.js`, `audio-player.js`, `kb.css`, `ruby.css`, `template.php`, `templates/`). Parent theme: `adaptivetheme`.
-  - `mobile/` — jQuery-Mobile-based precursor to wrenshoe.
-  - `ruby/`, `text_converter/`, `images/`, `aws/`.
-- `/home/sjcarbon/local/src/bazaar/kb.net.shared/` — per-chapter lesson text, already pre-pivoted by language layer:
-  - `NN.<title>.kansai.txt`, `.standard.txt`, `.english.txt`, `.grammar.txt`, `.word.txt`
+- `/home/sjcarbon/local/src/bazaar/home/trunk/kansaibenkyou/` — the original Drupal 7 source tree
+- `/home/sjcarbon/local/src/bazaar/kb.net.shared/` — per-chapter lesson text files
 
 ### S3 buckets
 
-Use the `kbnet-readonly` AWS profile. **Never inline-export the keys, never echo them into command output, never write them to memory or files.**
-
-```sh
-aws --profile kbnet-readonly s3 ls s3://kb-snapshot/
-```
+Use the `kbnet-readonly` AWS profile. **Never inline-export the keys.**
 
 | Bucket | Size | Role |
 |---|---|---|
-| `kb-snapshot` | 172 MiB / 1789 obj | The mothballed Drupal page dump backing the CloudFront distribution `dcmkoqbweqigt.cloudfront.net` for `static.kansaibenkyou.net`. Includes `redo-lang.pl` and `redo-tax-term-links.pl` post-dump fixup scripts. |
-| `kb-audio` | 86 MiB / 201 obj | Lesson audio. `ex_*` example conversations, `gr_*` grammar, `pho_kb_*` pronunciation. |
-| `kb-image` | 55 MiB / 610 obj | Chapter images at multiple sizes (`_120`, `_160`, original); `banner/` (header carousel pool); `info/` icons. |
-| `kb-mobile` | 1 MiB / 42 obj | Old jQuery Mobile deck. Confirmed redundant with wrenshoe `data/kansaiben.json`. |
-
-`kb-scratch` and `kb-test-01` are effectively empty.
-
-## Sister projects
-
-- **Wrenshoe** (`/home/sjcarbon/local/src/git/wrenshoe/`) — canonical reference for LinkML schema patterns, source attribution conventions, and language-tag handling. Wrenshoe already hosts the `kb_net_vocab` deck (`data/kansaiben.json`) — the modern home for the kansai-ben vocabulary set, attributed to Keiko Yukawa and Seth Carbon under CC BY-SA 3.0.
-- `wrenshoe.kansaibenkyou.net` will be a deployment of the wrenshoe app focused on the kansaiben deck (replacing the original `mobile.kansaibenkyou.net`).
+| `kb-snapshot` | 172 MiB / 1789 obj | Mothballed Drupal page dump |
+| `kb-audio` | 86 MiB / 201 obj | Lesson audio |
+| `kb-image` | 55 MiB / 610 obj | Images + banner carousel pool |
+| `kb-mobile` | 1 MiB / 42 obj | Old mobile deck (redundant with wrenshoe) |
 
 ## Dialect and content handling
 
-- This site teaches **Kansai-ben (関西弁)**, not standard Japanese. Always preserve the distinction between Kansai-ben and standard Japanese (標準語 / hyōjungo). They are not interchangeable, and conflating them would defeat the site's pedagogical purpose.
-- The `Stanza` model represents both layers explicitly (`kansai`, `standard`, `english`), plus the `_with_grammar_links` and `_with_word_links` overlays of the Kansai line.
-- BCP 47 language tags used in this project:
-  - `ja-x-kansai` for Kansai-ben.
-  - `ja` for standard Japanese.
-  - `en` for English translations.
-- Grammar and vocabulary annotations come from the original author and should be treated as authoritative. When porting from the bazaar dumps, **do not "correct" or paraphrase** — preserve the original wording. If something looks wrong, surface it for human review rather than silently fixing it.
+- This site teaches **Kansai-ben**, not standard Japanese. Always preserve the distinction.
+- Grammar and vocabulary annotations come from the original author and should be treated as **authoritative**. Do not "correct" or paraphrase.
+- BCP 47 tags: `ja-x-kansai` for Kansai-ben, `ja` for standard Japanese, `en` for English.
 
 ## Security: never commit secrets
 
-**Never commit, log, echo, or memorize:**
+- Use the `kbnet-readonly` AWS profile — never inline-export keys.
+- Stage files explicitly by name (`git add path/to/file`), never `git add -A`.
+- Keep `_mothball/`, `*.pem`, `.env*` in `.gitignore`.
 
-- AWS access keys or secret access keys. Use the `kbnet-readonly` profile via `aws --profile kbnet-readonly ...` — never inline-export the keys, never paste them into commands or files.
-- Private SSH keys; `.pem`, `.key`, `.p12`, `.pfx` files.
-- Plaintext passwords, API tokens, OAuth secrets, signing keys.
-- `.env`, `.envrc`, or any other dotenv-style files containing the above.
-- Personal data of users or contributors beyond what they have publicly attributed.
+## Lessons learned (from initial rebuild session)
 
-**Always:**
+1. **Data preservation ≠ site parity.** Porting all 405 Drupal nodes to YAML was necessary but not sufficient. The rendering layer (Views, display modes, taxonomy cross-references) is equally important.
 
-- Stage files explicitly by name (`git add path/to/file`) rather than `git add -A` or `git add .` — that prevents accidental inclusion of stray temp files, credentials, or local test artifacts.
-- Keep `_mothball/`, `*.local`, `*.secret`, `*.private`, `*.pem`, and `.env*` patterns in `.gitignore`.
-- If a credential is accidentally committed, treat it as compromised and rotate it immediately, regardless of whether the commit was pushed.
+2. **Drupal's taxonomy system is a cross-referencing engine.** Every taxonomy term page is both a glossary entry AND an aggregation view. The reverse index must cover ALL reference types, not just the ones we happened to import first.
 
-## House rules for code
+3. **HTML tables in grammar points are pedagogically critical.** The Kansai vs Standard comparison tables, formation rules, and example sentences MUST preserve their tabular structure. Stripping to plain text destroys the learning utility.
 
-- Prefer editing existing files over creating new ones.
-- Default to no comments. Only add a comment when the *why* is non-obvious — a hidden constraint, a workaround, a subtle invariant.
-- No backwards-compatibility shims. There is no live deployment of this rebuild yet — change the code freely.
-- For any data porting work: validate against the LinkML schema before committing the YAML.
-- For UI work: actually serve the site locally and verify in a browser before declaring a task done.
-- Stage files explicitly by name in commits (see Security above).
+4. **baseurl requires discipline.** With the site at `/kansaibenkyou.net/` on github.io, every link in every context (templates, JS, YAML body content) must use `relative_url` or equivalent. This includes JS-generated links (skit.js, banner-carousel.js).
+
+5. **Jekyll collection permalink collisions are silent.** If a `_pages/` stub and a standalone `.html` file both claim the same permalink, Jekyll picks one silently. Always check for collisions after adding new pages.
+
+6. **The original site's design choices were intentional.** Colors (standard=blue, English=green, grammar=purple, words=brown), the green content box (#eaf9f2), the mutual exclusion of grammar/word toggles — all tested through user feedback. Match them, don't "improve" them.
