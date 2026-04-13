@@ -247,6 +247,28 @@
   background: #f8f5ef;
 }
 
+/* Sortable table headers */
+table.sortable th {
+  cursor: pointer;
+  user-select: none;
+}
+
+table.sortable th::after {
+  content: " ⇅";
+  font-size: 0.7em;
+  color: #999;
+}
+
+table.sortable th[data-sort-dir="asc"]::after {
+  content: " ↑";
+  color: #3d6186;
+}
+
+table.sortable th[data-sort-dir="desc"]::after {
+  content: " ↓";
+  color: #3d6186;
+}
+
 /* ---- Footer override ---- */
 
 .page__footer {
