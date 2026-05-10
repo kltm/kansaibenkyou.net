@@ -39,3 +39,13 @@ Thumbs.db
 # per-developer Claude Code local overrides (settings.json itself can
 # be committed if/when a shared team config emerges)
 .claude/settings.local.json
+screenshots/
+
+# local audit scratch
+.audit-*/
+.codex
+.codex/
+
+# python bytecode
+__pycache__/
+*.pyc
