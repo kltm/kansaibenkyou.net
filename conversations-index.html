@@ -7,14 +7,14 @@ sidebar:
 ---
 
 <div class="content-box">
-<p>
-  Even with a familiarity of the vocabulary and grammar of Kansai, it may be
-  hard to understand conversations between speakers of the dialect. To help
-  build towards this goal, we have created twelve conversations based on real
-  conversations — each conversation includes an audio track in Kansai-ben
-  and the text in Kansai-ben, standard Japanese, and English. Use the
-  buttons to toggle between all of these.
-</p>
+
+{%- assign intro = site.data.pages.page_357 %}
+{%- if intro.body %}
+  {%- assign href_prefix = 'href="' | append: site.baseurl | append: '/' -%}
+  {%- assign src_prefix = 'src="' | append: site.baseurl | append: '/' -%}
+  {%- assign intro_body = intro.body | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+  <div class="gp-html-content">{{ intro_body }}</div>
+{%- endif %}
 
 <h2>List of example conversations</h2>
 
