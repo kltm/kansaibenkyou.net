@@ -1,12 +1,16 @@
 id: word_41
 drupal_node_id: 41
 title: ほんま
-body: really; truly
-commentary: 'A very common word in Kansai--pretty much the word to symbolize Kansai-ben.
-
-  ほんま can be used as a back-channel? (aizuchi).'
+title_romaji: honma
+body: <p>really; truly</p>
+commentary: <p>A very common word in Kansai--pretty much <em>the</em> word to symbolize Kansai-ben.<br/>
+  ほんま can be used as a back-channel<sup and="" class="lexicon-indicator" contact.="" eye="" title="Verbal
+  and non-verbal responses by a listener, such as "><a class="lexicon-term" href="/taxonomy/term/187/"
+  title='Verbal and non-verbal responses by a listener, such as "へえ〜" and eye contact.'>?</a></sup> (aizuchi).</p>
+example: '<p>A: あんた、どこ行ってたんや。<br/> B: 吉田んとこで勉強してたんや。<br/> A: <strong>ほんま</strong>かいな。<br/> B: <strong>ほんま</strong>や<strong>ほんま</strong>。明日、テストあんねん。</p><p>A:
+  Where were you?<br/> B: I was studying at Yoshida''s.<br/> A: C''mon, really?<br/> B: Really. I have
+  a test tomorrow.</p>'
 standard_kana: ほんとう
 standard_kanji: 本当
 word_types:
 - wordtype_8
-title_romaji: honma

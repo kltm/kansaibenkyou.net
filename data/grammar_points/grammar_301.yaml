@@ -1,32 +1,47 @@
 id: grammar_301
 drupal_node_id: 301
 title: Te-form and ta-form (verbs)
-body: 'Looking from standard Japanese to Kansai-ben, there are some differences in the final vowels of
-  the te-form? and ta-form? when the verb ends with [au], [ou], or [uu] sounds.
-
-  The first case is for verbs where the dictionary form? is just two characters (かう, すう, etc.). In this
-  case the sound before the う extends (vowel extension).
-
-  The second case is for the other verbs. In this case the sound before the う can extend (vowel extension),
-  but not necessarily.'
-example: <table class="full-grid-table"><caption>The two character case</caption><tr><th rowspan="2"></th><th
+title_romaji: Te-form and ta-form (verbs)
+body: '<p>Looking from standard Japanese to Kansai-ben, there are some differences in the final vowels
+  of the te-form<sup class="lexicon-indicator" title="For example: 食べて, 行って, して, and 来て."><a class="lexicon-term"
+  href="/taxonomy/term/171/" title="For example: 食べて, 行って, して, and 来て.">?</a></sup> and ta-form<sup class="lexicon-indicator"
+  title="The short past tense form. For example: 食べた, 行った, した, and 来た."><a class="lexicon-term" href="/taxonomy/term/170/"
+  title="The short past tense form. For example: 食べた, 行った, した, and 来た.">?</a></sup> when the verb ends
+  with [au], [ou], or [uu] sounds.</p><p>The first case is for verbs where the dictionary form<sup class="lexicon-indicator"
+  title="The affirmative short non-past form for a verb."><a class="lexicon-term" href="/taxonomy/term/164/"
+  title="The affirmative short non-past form for a verb.">?</a></sup> is just two characters (かう, すう,
+  etc.). In this case the sound before the う extends (<a href="/phonology/351/">vowel extension</a>).</p><p>The
+  second case is for the other verbs. In this case the sound before the う can extend (<a href="/phonology/351/">vowel
+  extension</a>), but not necessarily.</p>'
+example: '<table class="full-grid-table"><caption>The two character case</caption><tr><th rowspan="2"></th><th
   colspan="2">-au</th><th colspan="2">-ou</th><th colspan="2">-uu</th></tr><tr><th>Standard</th><th>Kansai-ben</th><th>Standard</th><th>Kansai-ben</th><th>Standard</th><th>Kansai-ben</th></tr><tr><th><span
-  class="nowrap">dictionary form</span></th><td>かう</td><td>かう<br /> (k<em>a</em>u)</td><td>よう</td><td>よう<br
-  /> (y<em>o</em>u)</td><td>すう</td><td>すう<br /> (s<em>u</em>u)</td></tr><tr><th>te-form</th><td>かって</td><td><span
-  class="nowrap">こうて</span><br /> (k<em>oo</em>te)</td><td>よって</td><td><span class="nowrap">ようて</span><br
-  /> (y<em>oo</em>te)</td><td>すって</td><td><span class="nowrap">すうて</span><br /> (s<em>uu</em>te)</td></tr><tr><th>ta-form</th><td>かった</td><td>こうた<br
-  /> (k<em>oo</em>ta)</td><td>よった</td><td>ようた<br /> (y<em>oo</em>ta)</td><td>すった</td><td>すうた<br /> (s<em>uu</em>ta)</td></tr></table></div><table
+  class="nowrap">dictionary form<sup class="lexicon-indicator" title="The affirmative short non-past form
+  for a verb."><a class="lexicon-term" href="/taxonomy/term/164/" title="The affirmative short non-past
+  form for a verb.">?</a></sup></span></th><td>かう</td><td>かう<br/> (k<em>a</em>u)</td><td>よう</td><td>よう<br/>
+  (y<em>o</em>u)</td><td>すう</td><td>すう<br/> (s<em>u</em>u)</td></tr><tr><th>te-form<sup class="lexicon-indicator"
+  title="For example: 食べて, 行って, して, and 来て."><a class="lexicon-term" href="/taxonomy/term/171/" title="For
+  example: 食べて, 行って, して, and 来て.">?</a></sup></th><td>かって</td><td><span class="nowrap">こうて</span><br/>
+  (k<em>oo</em>te)</td><td>よって</td><td><span class="nowrap">ようて</span><br/> (y<em>oo</em>te)</td><td>すって</td><td><span
+  class="nowrap">すうて</span><br/> (s<em>uu</em>te)</td></tr><tr><th>ta-form<sup class="lexicon-indicator"
+  title="The short past tense form. For example: 食べた, 行った, した, and 来た."><a class="lexicon-term" href="/taxonomy/term/170/"
+  title="The short past tense form. For example: 食べた, 行った, した, and 来た.">?</a></sup></th><td>かった</td><td>こうた<br/>
+  (k<em>oo</em>ta)</td><td>よった</td><td>ようた<br/> (y<em>oo</em>ta)</td><td>すった</td><td>すうた<br/> (s<em>uu</em>ta)</td></tr></table><table
   class="full-grid-table"><caption>The general case</caption><tr><th rowspan="2"></th><th colspan="2">-au</th><th
   colspan="2">-ou</th><th colspan="2">-uu</th></tr><tr><th>Standard</th><th>Kansai-ben</th><th>Standard</th><th>Kansai-ben</th><th>Standard</th><th>Kansai-ben</th></tr><tr><th><span
-  class="nowrap">dictionary form</span></th><td>うたう</td><td>うたう<br /> (ut<em>a</em>u)</td><td>さそう</td><td>さそう<br
-  /> (sas<em>o</em>u)</td><td>ふるう</td><td>ふるう<br /> (fur<em>u</em>u)</td></tr><tr><th>te-form<br /> (long)</th><td
-  rowspan="2">うたって</td><td><span class="nowrap">うとうて</span><br /> (ut<em>oo</em>te)</td><td rowspan="2">さそって</td><td><span
-  class="nowrap">さそうて</span><br /> (sas<em>oo</em>te)</td><td rowspan="2">ふるって</td><td>ふるうて<br /> (fur<em>uu</em>te)</td></tr><tr><th>te-form<br
-  /> (short)</th><td>うとて<br /> (ut<em>o_</em>te)</td><td>さそて<br /> (sas<em>o_</em>te)</td><td>ふるて<br />
-  (fur<em>u_</em>te)</td></tr><tr><th>ta-form<br /> (long)</th><td rowspan="2">うたった</td><td>うとうた<br />
-  (ut<em>oo</em>ta)</td><td rowspan="2">さそった</td><td>さそうた<br /> (sas<em>oo</em>ta)</td><td rowspan="2">ふるった</td><td><span
-  class="nowrap">ふるうた</span><br /> (fur<em>uu</em>ta)</td></tr><tr><th>ta-form<br /> (short)</th><td>うとた<br
-  /> (ut<em>o_</em>ta)</td><td>さそた(sas<em>o_</em>ta)</td><td>ふるた<br /> (fur<em>u_</em>ta)</td></tr></table>
+  class="nowrap">dictionary form<sup class="lexicon-indicator" title="The affirmative short non-past form
+  for a verb."><a class="lexicon-term" href="/taxonomy/term/164/" title="The affirmative short non-past
+  form for a verb.">?</a></sup></span></th><td>うたう</td><td>うたう<br/> (ut<em>a</em>u)</td><td>さそう</td><td>さそう<br/>
+  (sas<em>o</em>u)</td><td>ふるう</td><td>ふるう<br/> (fur<em>u</em>u)</td></tr><tr><th>te-form<sup class="lexicon-indicator"
+  title="For example: 食べて, 行って, して, and 来て."><a class="lexicon-term" href="/taxonomy/term/171/" title="For
+  example: 食べて, 行って, して, and 来て.">?</a></sup><br/> (long)</th><td rowspan="2">うたって</td><td><span class="nowrap">うとうて</span><br/>
+  (ut<em>oo</em>te)</td><td rowspan="2">さそって</td><td><span class="nowrap">さそうて</span><br/> (sas<em>oo</em>te)</td><td
+  rowspan="2">ふるって</td><td>ふるうて<br/> (fur<em>uu</em>te)</td></tr><tr><th>te-form<br/> (short)</th><td>うとて<br/>
+  (ut<em>o_</em>te)</td><td>さそて<br/> (sas<em>o_</em>te)</td><td>ふるて<br/> (fur<em>u_</em>te)</td></tr><tr><th>ta-form<sup
+  class="lexicon-indicator" title="The short past tense form. For example: 食べた, 行った, した, and 来た."><a class="lexicon-term"
+  href="/taxonomy/term/170/" title="The short past tense form. For example: 食べた, 行った, した, and 来た.">?</a></sup><br/>
+  (long)</th><td rowspan="2">うたった</td><td>うとうた<br/> (ut<em>oo</em>ta)</td><td rowspan="2">さそった</td><td>さそうた<br/>
+  (sas<em>oo</em>ta)</td><td rowspan="2">ふるった</td><td><span class="nowrap">ふるうた</span><br/> (fur<em>uu</em>ta)</td></tr><tr><th>ta-form<br/>
+  (short)</th><td>うとた<br/> (ut<em>o_</em>ta)</td><td>さそた(sas<em>o_</em>ta)</td><td>ふるた<br/> (fur<em>u_</em>ta)</td></tr></table>'
 function_types:
 - function_137
 grammar_types:

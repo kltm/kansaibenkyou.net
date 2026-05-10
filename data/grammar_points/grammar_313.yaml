@@ -1,25 +1,27 @@
 id: grammar_313
 drupal_node_id: 313
 title: Suffix “さん” and “ちゃん”
-body: 'In Kansai-ben, the honorific title さん and ちゃん can be used for non-humans, such as for food or greetings.
-  This usage my originate with the polite words and phrases from court language1.
-
-  1. Maeda, I. (1977) Osakaben, Tokyo: Asahi Shinbunsha Asahisensyo'
+title_romaji: Suffix “san” and “chan”
+body: '<p>In Kansai-ben, the honorific title さん and ちゃん can be used for non-humans, such as for food or
+  greetings. This usage my originate with the polite words and phrases from court language<a class="see-footnote"
+  href="/grammar-points/313/#footnote1_ta4g6gu" id="footnoteref1_ta4g6gu" title="Maeda, I. (1977) Osakaben,
+  Tokyo: Asahi Shinbunsha Asahisensyo">1</a>.</p><ul class="footnotes"><li class="footnote" id="footnote1_ta4g6gu"><a
+  class="footnote-label" href="/grammar-points/313/#footnoteref1_ta4g6gu">1.</a> Maeda, I. (1977) <i>Osakaben</i>,
+  Tokyo: Asahi Shinbunsha Asahisensyo</li></ul>'
 example: <h2>〜さん</h2><table class="full-grid-table"><caption>Word list (food)</caption><tbody><tr><th>Standard</th><th>Kansai-ben</th><th>English</th></tr><tr><td>あげ</td><td>おあげ<em>さん</em></td><td>deep
-  fried tofu skin</td></tr><tr><td>いなりずし</td><td>おいなり<em>さん</em></td><td>inari</td></tr><tr><td>いも</td><td>おいも<em>さん</em></td><td>potato</td></tr><tr><td>かゆ</td><td>おかい<em>さん</em></td><td>porridge</td></tr><tr><td>まめ</td><td>おまめ<em>さん</em></td><td>beans</td></tr></tbody></table></div><table><caption>おかいさん</caption><tbody><tr><th>Standard</th><td>今日のお昼ごはん、<em>おかゆ</em>でいい？</td></tr><tr><th>Kansai-ben</th><td>今日のお昼、<em>おかいさん</em>でええか。</td></tr><tr><th>English</th><td>Can
-  we have porridge for lunch?</td></tr></tbody></table></div><table class="full-grid-table"><caption>Word
-  list (greetings)</caption><tbody><tr><th>Standard</th><th>Kansai-ben</th><th>English</th></tr><tr><td>ありがとう</td><td><span
+  fried tofu skin</td></tr><tr><td>いなりずし</td><td>おいなり<em>さん</em></td><td>inari</td></tr><tr><td>いも</td><td>おいも<em>さん</em></td><td>potato</td></tr><tr><td>かゆ</td><td>おかい<em>さん</em></td><td>porridge</td></tr><tr><td>まめ</td><td>おまめ<em>さん</em></td><td>beans</td></tr></tbody></table><table><caption>おかいさん</caption><tbody><tr><th>Standard</th><td>今日のお昼ごはん、<em>おかゆ</em>でいい？</td></tr><tr><th>Kansai-ben</th><td>今日のお昼、<em>おかいさん</em>でええか。</td></tr><tr><th>English</th><td>Can
+  we have porridge for lunch?</td></tr></tbody></table><table class="full-grid-table"><caption>Word list
+  (greetings)</caption><tbody><tr><th>Standard</th><th>Kansai-ben</th><th>English</th></tr><tr><td>ありがとう</td><td><span
   class="nowrap">ありがと(う)<em>さん</em></span></td><td>Thank you.</td></tr><tr><td>おせわさま</td><td>おせわ<em>さん</em></td><td>As
   always, thank you for your help. [Used when meeting in certain social contexts.]</td></tr><tr><td>おはよう</td><td>おはよう<em>さん</em></td><td>Good
   morning.</td></tr><tr><td>おめでとう</td><td>おめでと(う)<em>さん</em></td><td>Congratulations.</td></tr><tr><td>ごきげんよう</td><td>ごきげん<em>さん</em></td><td>Take
   care.</td></tr><tr><td><span class="nowrap">ごくろうさま</span></td><td>ごくろう<em>さん</em></td><td>Good job,
-  thank you for your work.</td></tr></tbody></table></div><table><caption>おはようさん</caption><tbody><tr><th>Standard</th><td><em>おはよう</em>。今日も寒いねえ。</td></tr><tr><th>Kansai-ben</th><td><em>おはようさん</em>。今日も寒いなあ。</td></tr><tr><th>English</th><td>Good
-  morning. It sure is cold again today, isn't it?</td></tr></tbody></table></div><table class="full-grid-table"><caption>Word
+  thank you for your work.</td></tr></tbody></table><table><caption>おはようさん</caption><tbody><tr><th>Standard</th><td><em>おはよう</em>。今日も寒いねえ。</td></tr><tr><th>Kansai-ben</th><td><em>おはようさん</em>。今日も寒いなあ。</td></tr><tr><th>English</th><td>Good
+  morning. It sure is cold again today, isn't it?</td></tr></tbody></table><table class="full-grid-table"><caption>Word
   list (other)</caption><tbody><tr><th>Standard</th><th>Kansai-ben</th><th>English</th></tr><tr><td>お日様</td><td>おひぃ<em>さん</em></td><td>the
-  Sun</td></tr><tr><td>かまど</td><td>おくど<em>さん</em></td><td>kitchen</td></tr></tbody></table></div><h2>〜ちゃん</h2><table><tr><th>Standard</th><th>Kansai-ben</th><th>English</th></tr><tr><td>飴(あめ)</td><td>あめ<em>ちゃん</em></td><td>candy</td></tr></table></div><table><caption>あめちゃん</caption><tbody><tr><th>Standard</th><td><em>あめ</em>食べる？</td></tr><tr><th>Kansai-ben</th><td><em>あめちゃん</em>食べるかあ？</td></tr><tr><th>English</th><td>Would
+  Sun</td></tr><tr><td>かまど</td><td>おくど<em>さん</em></td><td>kitchen</td></tr></tbody></table><h2>〜ちゃん</h2><table><tr><th>Standard</th><th>Kansai-ben</th><th>English</th></tr><tr><td>飴(あめ)</td><td>あめ<em>ちゃん</em></td><td>candy</td></tr></table><table><caption>あめちゃん</caption><tbody><tr><th>Standard</th><td><em>あめ</em>食べる？</td></tr><tr><th>Kansai-ben</th><td><em>あめちゃん</em>食べるかあ？</td></tr><tr><th>English</th><td>Would
   you like some candy?</td></tr></tbody></table>
 function_types:
 - function_122
 grammar_types:
 - grammar_92
-title_romaji: Suffix “san” and “chan”

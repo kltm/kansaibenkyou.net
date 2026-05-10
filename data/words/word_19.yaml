@@ -1,9 +1,10 @@
 id: word_19
 drupal_node_id: 19
 title: なんばきび
-body: corn
-commentary: なんば is also used.
+title_romaji: nanbakibi
+body: <p>corn</p>
+commentary: <p><a href="/words/18/">なんば</a> is also used.</p>
+example: <p>この<strong>なんばきび</strong>甘うておいしいなあ。<br/> This corn is so good and sweet.</p>
 standard_kana: とうもろこし
 word_types:
 - wordtype_3
-title_romaji: nanbakibi

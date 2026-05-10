@@ -1,12 +1,14 @@
 id: word_292
 drupal_node_id: 292
 title: そやかて
-body: So you say, but... / Yeah, but...
-commentary: 'せやかて and ほやかて are almost identical, with the personal preference deciding which is chosen.
-
-  For more information about the base grammar, please see かて'
+title_romaji: soyakate
+body: <p>So you say, but... / Yeah, but...</p>
+commentary: <p><a href="/words/290/">せやかて</a> and <a href="/words/291/">ほやかて</a> are almost identical,
+  with the personal preference deciding which is chosen.</p><p>For more information about the base grammar,
+  please see <a href="/grammar-points/314/">かて</a></p>
+example: '<p>A: あんた、またカバン買うたんか。<br/> B: <strong>そやかて</strong>安かってんもん。</p><p>A: You really bought another
+  bag?<br/> B: Yeah--it was so cheap.</p>'
 standard_kana: そうはいっても／そうだけど
 standard_kanji: そうは言っても／そうだけど
 word_types:
 - wordtype_15
-title_romaji: soyakate

@@ -1,10 +1,12 @@
 id: word_189
 drupal_node_id: 189
 title: なんぞ
-body: some; any
-commentary: Like 何ぞ, だれか becomes だれぞ, and どこか becomes どこぞ.
+title_romaji: nanzo
+body: <p>some; any</p>
+commentary: <p>Like 何ぞ, だれか becomes <a href="/words/284/">だれぞ</a>, and どこか becomes <a href="/words/294/">どこぞ</a>.</p>
+example: <p><strong>なんぞ</strong>書くもんないか。<br/> Is there anything to write with?</p>
+kanji: 何ぞ
 standard_kana: なにか
 standard_kanji: 何か
 word_types:
 - wordtype_115
-title_romaji: nanzo

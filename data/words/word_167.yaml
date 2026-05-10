@@ -1,11 +1,11 @@
 id: word_167
 drupal_node_id: 167
 title: すんまへん
-body: sorry; excuse me
-commentary: 'すんません is maybe slightly more respectable than すんまへん.
-
-  Also see すんません.'
+title_romaji: sunmahen
+body: <p>sorry; excuse me</p>
+commentary: <p><a href="/words/341/">すんません</a> is maybe slightly more respectable than すんまへん.</p><p>Also
+  see <a href="/words/341/">すんません</a>.</p>
+example: <p><strong>すんまへん</strong>けど、もうちょっと静かにしてもらえんやろか？</p>
 standard_kana: すみません
 word_types:
 - wordtype_5
-title_romaji: sunmahen

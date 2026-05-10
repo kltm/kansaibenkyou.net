@@ -1,10 +1,12 @@
 id: word_178
 drupal_node_id: 178
 title: ちゃう
-body: to be different; to be wrong
-commentary: For further information please see N(と)ちゃう.
+title_romaji: chau
+body: <p>to be different; to be wrong</p>
+commentary: <p>For further information please see <a href="/grammar-points/298/">N(と)ちゃう</a>.</p>
+example: '<p>A: これ、あんたのか？<br/> B: <strong>ちゃう</strong>で、それおとんのや。</p><p>A: Is this yours?<br/> B: Nope,
+  that''s dad''s.</p>'
 standard_kana: ちがう
 standard_kanji: 違う
 word_types:
 - wordtype_18
-title_romaji: chau

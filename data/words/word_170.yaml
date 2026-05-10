@@ -1,8 +1,10 @@
 id: word_170
 drupal_node_id: 170
 title: ほんでも
-body: but
+title_romaji: hondemo
+body: <p>but</p>
+example: '<p>A: たばこやめたら？からだに悪いで。<br/> B: せやなあ。<strong>ほんでも</strong>やめられへんねん。</p><p>A: What if you quit
+  smoking? It''s not good for you.<br/> B: Yeah...but I can''t.</p>'
 standard_kana: それでも
 word_types:
 - wordtype_15
-title_romaji: hondemo

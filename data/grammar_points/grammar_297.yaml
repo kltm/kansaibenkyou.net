@@ -1,35 +1,36 @@
 id: grammar_297
 drupal_node_id: 297
 title: Aない／Aことあれへん／Aん(と)ちゃう
-body: 'There are three negative forms for adjectives in Kansai-ben: Aない, Aことあれへん, and Aん(と)ちゃう.'
+title_romaji: Anai/Akotoarehen/An(to)chau
+body: '<p>There are three negative forms for adjectives in Kansai-ben: Aない, Aことあれへん, and Aん(と)ちゃう.</p>'
 commentary: '<h2>Sound change in the negative form of adjectives</h2><p>In the case where the vowel sound
   right before the final い in an i-Adjective is an [a], that [a] becomes an [o] sound and a ない is added.</p><table><tr><td>わ</td><td>ら</td><td>や</td><td>ま</td><td>は</td><td>な</td><td>た</td><td>さ</td><td>か</td><td>あ</td></tr><tr><td>↓</td><td>↓</td><td>↓</td><td>↓</td><td>↓</td><td>↓</td><td>↓</td><td>↓</td><td>↓</td><td>↓</td></tr><tr><td>を</td><td>ろ</td><td>よ</td><td>も</td><td>ほ</td><td>の</td><td>と</td><td>そ</td><td>こ</td><td>お</td></tr></table><table><tr><th>Standard
   (affirmative)</th><td>は<em>や</em><em>い</em></td></tr><tr><th>Kansai-ben (negative)</th><td>は<em>よ</em><em>ない</em></td></tr></table><p>This
   same sound change can occur with the たい form.</p><table><tr><th>Standard (affirmative)</th><td>行き<em>た</em><em>い</em></td></tr><tr><th>Kansai-ben
-  (negative)</th><td>行き<em>と</em><em>ない</em></td></tr></table></div><h2>Negative form of おもしろい</h2><p>The
-  negative forms of おもしろい are: おもしろない, おもろない, and おもんない. Selection is by region and personal preference.</p>'
-formation: '<h2>Negative form of i-Adjectives</h2><table><caption>Remove the く from くない</caption><tr><th>Standard</th><td>大き<em>く</em>
-  ない</td></tr><tr><th>Kansai-ben</th><td>大き<em>__</em> ない</td></tr></table></div><h2>Negative form of
-  i-Adjectives and na-Adjectives</h2><p>Negative form of i-Adjectives and na-Adjectives: remove the は
-  from 〜ことはない and add あれへん.</p><table class="full-grid-table"><tr><th></th><th>i-Adj</th><th>na-Adj</th></tr><tr><th>Standard</th><td>大きい
-  こと<em> は</em><em> ない</em></td><td>しずかな こと<em> は</em><em> ない</em></td></tr><tr><th>Kansai-ben</th><td>大きい
-  こと<em> __</em><em> あれへん</em></td><td>しずかな こと<em> __</em><em> あれへん</em></td></tr></table></div><p>Negative
-  form of i-Adjectives and na-Adjectives: the の in (な)のとちがう becomes ん and the ちがう becomes ちゃう.</p><table
-  class="full-grid-table"><tr><th></th><th>i-Adj</th><th>na-Adj</th></tr><tr><th>Standard</th><td>大きい<em>
-  の</em> と<em> ちがう</em></td><td>しずかな<em> の</em> と<em> ちがう</em></td></tr><tr><th>Kansai-ben</th><td>大きい<em>
-  ん</em> と<em> ちゃう</em></td><td>しずかな<em> ん</em> と<em> ちゃう</em></td></tr></table>'
+  (negative)</th><td>行き<em>と</em><em>ない</em></td></tr></table><h2>Negative form of おもしろい</h2><p>The negative
+  forms of おもしろい are: おもしろない, おもろない, and おもんない. Selection is by region and personal preference.</p>'
 formation_from_standard: '<h2>Negative form of i-Adjectives</h2><table><caption>Remove the く from くない</caption><tr><th>Standard</th><td>大き<em>く</em>
-  ない</td></tr><tr><th>Kansai-ben</th><td>大き<em>__</em> ない</td></tr></table></div><h2>Negative form of
-  i-Adjectives and na-Adjectives</h2><p>Negative form of i-Adjectives and na-Adjectives: remove the は
-  from 〜ことはない and add あれへん.</p><table class="full-grid-table"><tr><th></th><th>i-Adj</th><th>na-Adj</th></tr><tr><th>Standard</th><td>大きい
-  こと<em> は</em><em> ない</em></td><td>しずかな こと<em> は</em><em> ない</em></td></tr><tr><th>Kansai-ben</th><td>大きい
-  こと<em> __</em><em> あれへん</em></td><td>しずかな こと<em> __</em><em> あれへん</em></td></tr></table></div><p>Negative
-  form of i-Adjectives and na-Adjectives: the の in (な)のとちがう becomes ん and the ちがう becomes ちゃう.</p><table
-  class="full-grid-table"><tr><th></th><th>i-Adj</th><th>na-Adj</th></tr><tr><th>Standard</th><td>大きい<em>
+  ない</td></tr><tr><th>Kansai-ben</th><td>大き<em>__</em> ない</td></tr></table><h2>Negative form of i-Adjectives
+  and na-Adjectives</h2><p>Negative form of i-Adjectives and na-Adjectives: remove the は from 〜ことはない and
+  add あれへん.</p><table class="full-grid-table"><tr><th></th><th>i-Adj<sup class="lexicon-indicator" title="Abbreviation
+  for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term"
+  href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい.">?</a></sup></th><th>na-Adj<sup class="lexicon-indicator" title="Abbreviation
+  for na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな."><a class="lexicon-term"
+  href="/taxonomy/term/180/" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな.">?</a></sup></th></tr><tr><th>Standard</th><td>大きい こと<em> は</em><em> ない</em></td><td>しずかな
+  こと<em> は</em><em> ない</em></td></tr><tr><th>Kansai-ben</th><td>大きい こと<em> __</em><em> あれへん</em></td><td>しずかな
+  こと<em> __</em><em> あれへん</em></td></tr></table><p>Negative form of i-Adjectives and na-Adjectives: the
+  の in (な)のとちがう becomes ん and the ちがう becomes ちゃう.</p><table class="full-grid-table"><tr><th></th><th>i-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an
+  adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></th><th>na-Adj<sup class="lexicon-indicator"
+  title="Abbreviation for na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな."><a
+  class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for na-adjective--and adjective
+  that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup></th></tr><tr><th>Standard</th><td>大きい<em>
   の</em> と<em> ちがう</em></td><td>しずかな<em> の</em> と<em> ちがう</em></td></tr><tr><th>Kansai-ben</th><td>大きい<em>
   ん</em> と<em> ちゃう</em></td><td>しずかな<em> ん</em> と<em> ちゃう</em></td></tr></table>'
 function_types:
 - function_111
 grammar_types:
 - grammar_107
-title_romaji: Anai/Akotoarehen/An(to)chau

@@ -1,12 +1,13 @@
 id: word_44
 drupal_node_id: 44
 title: えぐい
-body: terrible; cruel; awful
-commentary: 'えぐい can be used in a broad set of circumstances.
-
-  While generally a negative term, young people may use it to describe something they like.'
+title_romaji: egui
+body: <p>terrible; cruel; awful</p>
+commentary: <p>えぐい can be used in a broad set of circumstances.</p><p>While generally a negative term,
+  young people may use it to describe something they like.</p>
+example: '<p>A: 今週、毎日テストあんねん。<br/> B:<strong>えぐい</strong>なあ。</p><p>A: This week, we''ll have a test every
+  day.<br/> B: That''s terrible.</p>'
 standard_kana: ひどい
 standard_kanji: 酷い
 word_types:
 - wordtype_12
-title_romaji: egui

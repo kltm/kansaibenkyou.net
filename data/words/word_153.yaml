@@ -1,10 +1,12 @@
 id: word_153
 drupal_node_id: 153
 title: きぃつける
-body: to pay attention to; to be careful
-commentary: Also see 気ぃ.
+title_romaji: kiitsukeru
+body: <p>to pay attention to; to be careful</p>
+commentary: <p>Also see <a href="/words/281/">気ぃ</a>.</p>
+example: <p>車に<strong>気ぃつけや</strong>。<br/> Watch out for cars.</p>
+kanji: 気ぃつける
 standard_kana: きをつける
 standard_kanji: 気をつける
 word_types:
 - wordtype_17
-title_romaji: kiitsukeru

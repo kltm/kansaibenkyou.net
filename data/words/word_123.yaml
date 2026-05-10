@@ -1,10 +1,16 @@
 id: word_123
 drupal_node_id: 123
 title: かなん
-body: irritating; intolerable
-commentary: This is a short form? of かなわん.
+title_romaji: kanan
+body: <p>irritating; intolerable</p>
+commentary: <p>This is a short form<sup class="lexicon-indicator" title="A collective term for the dictionary,
+  simple past tense, and negative form. Also known as the plain form. For example 行く, 行かない, 行った, and 行かなかった."><a
+  class="lexicon-term" href="/taxonomy/term/166/" title="A collective term for the dictionary, simple
+  past tense, and negative form. Also known as the plain form. For example 行く, 行かない, 行った, and 行かなかった.">?</a></sup>
+  of <a href="/words/122/">かなわん</a>.</p>
+example: <p>あいつ、今日も休みやて。<strong>かなん</strong>なあ。<br/> He 's off again today, I can't stand it.</p>
+kanji: 適ん／敵ん
 standard_kana: いやだ／たまらない
 standard_kanji: 嫌だ／堪らない
 word_types:
 - wordtype_12
-title_romaji: kanan

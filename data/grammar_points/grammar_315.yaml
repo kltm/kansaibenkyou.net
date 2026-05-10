@@ -1,31 +1,61 @@
 id: grammar_315
 drupal_node_id: 315
 title: よって／さかい
-body: 'The standard Japanese conjunctions for providing a reason, から and ので, may become よって and さかい in
-  Kansai-ben (with the choice depending on the area or personal background such as age).
-
-  よって is mostly used by older people while さかい is used by a wider range of ages. In addition, younger
-  people may opt to just use から and ので with a Kansai-ben intonation.
-
-  It should also be noted that さかい may become さかいに, さかいで, or さけ, with the difference depending on the
-  region or speaker preference.'
+title_romaji: yotte/sakai
+body: <p>The standard Japanese conjunctions for providing a reason, から and ので, may become よって and さかい
+  in Kansai-ben (with the choice depending on the area or personal background such as age).</p><p>よって
+  is mostly used by older people while さかい is used by a wider range of ages. In addition, younger people
+  may opt to just use から and ので with a Kansai-ben intonation.</p><p>It should also be noted that さかい may
+  become さかいに, さかいで, or さけ, with the difference depending on the region or speaker preference.</p>
 commentary: '<h2>Negative: へんよって, へんさかい</h2><p>Like the standard から and ので, negative marker comes before
   よって and さかい.</p><table><caption>へんよって</caption><tbody><tr><th>Standard</th><td>明日は会社<em>ないから</em>いっぱい寝られるよ。</td></tr><tr><th>Kansai-ben</th><td>明日は会社<em>あらへんよって</em>ごっつう寝られるわ。</td></tr><tr><th>English</th><td>I
-  don''t have work tomorrow, so I can sleep in.</td></tr></tbody></table></div><h2>Polite form (long form):
-  でっさかい, まっさかい</h2><p>Adding です or ます in front of よって and さかい can make the sentence more polite. In the
-  case of さかい, devoicing may occur before さかい. ですさかい may becomes でっさかい and ますさかい may become まっさかい.</p><table><caption>まっさかい</caption><tbody><tr><th>Standard</th><td>３時ごろ<em>出ますので</em>、４時ごろ着くと思いますよ。</td></tr><tr><th>Kansai-ben</th><td>３時ごろ<em>出まっさかい</em>、４時ごろ着くと思いますわ。</td></tr><tr><th>English</th><td>I''ll
+  don''t have work tomorrow, so I can sleep in.</td></tr></tbody></table><h2>Polite form (long form<sup
+  class="lexicon-indicator" title="Also known as the polite form or masu-form. For example: 行きます, 行きません,
+  行きました, and 行きませんでした."><a class="lexicon-term" href="/taxonomy/term/167/" title="Also known as the polite
+  form or masu-form. For example: 行きます, 行きません, 行きました, and 行きませんでした.">?</a></sup>): でっさかい, まっさかい</h2><p>Adding
+  です or ます in front of よって and さかい can make the sentence more polite. In the case of さかい, devoicing<sup
+  as="" class="lexicon-indicator" desu="" in="" is="" japanese.="" pronounced="" standard="" title="When
+  a voiced sound becomes voiceless. For example: the word です ("><a class="lexicon-term" href="/taxonomy/term/184/"
+  title=''When a voiced sound becomes voiceless. For example: the word です ("desu") is pronounced as "des"
+  in standard Japanese. ''>?</a></sup> may occur before さかい. ですさかい may becomes でっさかい and ますさかい may become
+  まっさかい.</p><table><caption>まっさかい</caption><tbody><tr><th>Standard</th><td>３時ごろ<em>出ますので</em>、４時ごろ着くと思いますよ。</td></tr><tr><th>Kansai-ben</th><td>３時ごろ<em>出まっさかい</em>、４時ごろ着くと思いますわ。</td></tr><tr><th>English</th><td>I''ll
   be leaving around three, so I think I''ll get there around four.</td></tr></tbody></table>'
 example: <table><caption>(reason) よって (consequence)</caption><tbody><tr><th>Standard</th><td>このおせんべいおいしい<em>から</em>、食べてみて。</td></tr><tr><th>Kansai-ben</th><td>このおせんべいおいしい<em>よって</em>、食べてみ。</td></tr><tr><th>English</th><td>Try
-  this rice cracker--it's good.</td></tr></tbody></table></div><table><caption>(reason) さかい (consequence)</caption><tbody><tr><th>Standard</th><td>明日、先生のところに行く<em>から</em>、わたしておくよ。</td></tr><tr><th>Kansai-ben</th><td>明日、先生とこ行く<em>さかい</em>、わたしとくわ。</td></tr><tr><th>English</th><td>I'll
+  this rice cracker--it's good.</td></tr></tbody></table><table><caption>(reason) さかい (consequence)</caption><tbody><tr><th>Standard</th><td>明日、先生のところに行く<em>から</em>、わたしておくよ。</td></tr><tr><th>Kansai-ben</th><td>明日、先生とこ行く<em>さかい</em>、わたしとくわ。</td></tr><tr><th>English</th><td>I'll
   be seeing the teacher tomorrow, so I'll give it to them.</td></tr></tbody></table>
-formation: <table><tr><th>V and i-Adj</th><td>short form+よって／さかい</td></tr><tr><th>na-Adj and N</th><td>stem+や+よって／さかい</td></tr></table>
-formation_from_standard: <table class="full-grid-table"><tr><th></th><th>V</th><th>i-Adj</th><th>na-Adj</th><th>N</th></tr><tr><th>Standard</th><td>行く
-  <em>から／ので</em></td><td>大きい <em>から／ので</em></td><td>しずか<em>だ</em><em>から／ので</em></td><td>学生<em>だ</em><em>から／ので</em></td></tr><tr><th>Kansai-ben</th><td>行く
-  <em>よって／さかい</em></td><td>大きい <em>よって／さかい</em></td><td>しずか<em>や</em><em>よって／さかい</em></td><td>学生<em>や</em><em>よって／さかい</em></td></tr></table>
-kansai_vs_standard: <table><tr><th>Standard</th><td><em>(reason) から (consequence)<br /> (reason) ので (consequence)</em></td></tr><tr><th>Kansai-ben</th><td><em>(reason)
-  よって (consequence)<br /> (reason) さかい (consequence)</em></td></tr><tr></tr></table>
+formation: '<table><tr><th>V<sup class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term"
+  href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup> and i-Adj<sup class="lexicon-indicator"
+  title="Abbreviation for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい."><a
+  class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an adjective that
+  ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></th><td>short form<sup class="lexicon-indicator"
+  title="A collective term for the dictionary, simple past tense, and negative form. Also known as the
+  plain form. For example 行く, 行かない, 行った, and 行かなかった."><a class="lexicon-term" href="/taxonomy/term/166/"
+  title="A collective term for the dictionary, simple past tense, and negative form. Also known as the
+  plain form. For example 行く, 行かない, 行った, and 行かなかった.">?</a></sup>+よって／さかい</td></tr><tr><th>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup> and N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup></th><td>stem<sup also="" and="" as="" class="lexicon-indicator"
+  example:="" for="" form.="" is="" known="" masu="" pre-masu="" the="" this="" title="The long (masu)
+  verb form without the final "><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu)
+  verb form without the final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し,
+  and き.''>?</a></sup>+や+よって／さかい</td></tr></table>'
+formation_from_standard: '<table class="full-grid-table"><tr><th></th><th>V<sup class="lexicon-indicator"
+  title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation
+  for verb. ">?</a></sup></th><th>i-Adj<sup class="lexicon-indicator" title="Abbreviation for i-adjective--an
+  adjective that ends with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/"
+  title="Abbreviation for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></th><th>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup></th><th>N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup></th></tr><tr><th>Standard</th><td>行く <em>から／ので</em></td><td>大きい
+  <em>から／ので</em></td><td>しずか<em>だ</em><em>から／ので</em></td><td>学生<em>だ</em><em>から／ので</em></td></tr><tr><th>Kansai-ben</th><td>行く
+  <em>よって／さかい</em></td><td>大きい <em>よって／さかい</em></td><td>しずか<em>や</em><em>よって／さかい</em></td><td>学生<em>や</em><em>よって／さかい</em></td></tr></table>'
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>(reason) から (consequence)<br/> (reason) ので (consequence)</em></td></tr><tr><th>Kansai-ben</th><td><em>(reason)
+  よって (consequence)<br/> (reason) さかい (consequence)</em></td></tr></table>
 function_types:
 - function_120
 grammar_types:
 - grammar_82
-title_romaji: yotte/sakai

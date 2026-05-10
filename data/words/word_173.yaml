@@ -1,9 +1,10 @@
 id: word_173
 drupal_node_id: 173
 title: そない
-body: that sort/kind of...; ...such as that
-commentary: Also see あない, こない, and どない.
+title_romaji: sonai
+body: <p>that sort/kind of...; ...such as that</p>
+commentary: <p>Also see <a href="/words/142/">あない</a>, <a href="/words/157/">こない</a>, and <a href="/words/258/">どない</a><a>.</a></p>
+example: <p><strong>そない</strong>、むちゃなこと言わんといてや。<br/> Don't say things like that.</p>
 standard_kana: そんなに
 word_types:
 - wordtype_15
-title_romaji: sonai

@@ -1,9 +1,11 @@
 id: word_92
 drupal_node_id: 92
 title: がさ
-body: fidgety/restless person
+title_romaji: gasa
+body: <p>fidgety/restless person</p>
+example: <p>うっとこのむすこ、<strong>がさ</strong>で先生にしかられてばっかりやねん。<br/> My son is really fidgety and is always
+  making his teacher angry.</p>
 standard_kana: がさつなひと
 standard_kanji: がさつな人
 word_types:
 - wordtype_7
-title_romaji: gasa

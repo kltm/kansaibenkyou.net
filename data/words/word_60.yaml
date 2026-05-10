@@ -1,9 +1,12 @@
 id: word_60
 drupal_node_id: 60
 title: どんくさい
-body: slow; stupid; dumb
+title_romaji: donkusai
+body: <p>slow; stupid; dumb</p>
+example: <p><strong>どんくさい</strong>やちゃなあ。なんでこんな簡単な問題も分かれへんのや。<br/> You're so dumb--how can you not understand
+  a question this easy?</p>
+kanji: 鈍臭い
 standard_kana: とろい
 standard_kanji: とろい
 word_types:
 - wordtype_12
-title_romaji: donkusai

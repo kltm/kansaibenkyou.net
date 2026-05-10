@@ -1,9 +1,12 @@
 id: word_5
 drupal_node_id: 5
 title: なすび
-body: eggplant
+title_romaji: nasubi
+body: <p>eggplant</p>
+example: <p>この<strong>なすび</strong>のつけもの、うちのおかんが作ってん。うまいで。<br/> This eggplant pickle here, my mom made
+  it. It's great!</p>
+kanji: 茄子
 standard_kana: なす
 standard_kanji: 茄子
 word_types:
 - wordtype_3
-title_romaji: nasubi

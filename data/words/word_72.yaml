@@ -1,12 +1,12 @@
 id: word_72
 drupal_node_id: 72
 title: しんどい
-body: tired; exhausted
-commentary: 'While both しんどい and えらい can mean "tired", しんどい is more commonly used.
-
-  In addition, えらい can express degree, while しんどい can not. For example, one could say えらいしんどい (very tired),
-  but could not say しんどいえらい.'
+title_romaji: shindoi
+body: <p>tired; exhausted</p>
+commentary: <p>While both しんどい and <a href="/words/37/">えらい</a> can mean "tired", しんどい is more commonly
+  used.</p><p>In addition, <a href="/words/37/">えらい</a> can express degree, while しんどい can not. For example,
+  one could say えらいしんどい (very tired), but could not say <strike>しんどいえらい</strike>.</p>
+example: <p>今週、残業ばっかりでめっちゃ<strong>しんどい</strong>わ。<br/> I've been working overtime all week. I'm so exhausted.</p>
 standard_kana: くたびれる
 word_types:
 - wordtype_12
-title_romaji: shindoi

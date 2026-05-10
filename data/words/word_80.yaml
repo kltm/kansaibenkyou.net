@@ -1,10 +1,11 @@
 id: word_80
 drupal_node_id: 80
 title: ぎょうさん
-body: a lot
-commentary: Also see ようさん and ようけ.
+title_romaji: gyousan
+body: <p>a lot</p>
+commentary: <p>Also see <a href="/words/147/">ようさん</a> and <a href="/words/146/">ようけ</a>.</p>
+example: <p>今日は<strong>ぎょうさん</strong>人おるなあ。<br/> Today, there are a lot of people, aren't there.</p>
 standard_kana: たくさん
 standard_kanji: 沢山
 word_types:
 - wordtype_15
-title_romaji: gyousan

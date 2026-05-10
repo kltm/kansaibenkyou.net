@@ -1,9 +1,12 @@
 id: word_243
 drupal_node_id: 243
 title: なんしか
-body: anyhow; at any rate; anyways
+title_romaji: nanshika
+body: <p>anyhow; at any rate; anyways</p>
+example: <p>そのドラマ説明できへんけど<strong>何しか</strong>おもろいねん。いっぺん見てみてや。<br/> I can't explain the drama, but at
+  any rate it's interesting. You should watch it one time.</p>
+kanji: 何しか
 standard_kana: なにしろ
 standard_kanji: 何しろ
 word_types:
 - wordtype_15
-title_romaji: nanshika

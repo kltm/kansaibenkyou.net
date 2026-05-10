@@ -1,12 +1,13 @@
 id: word_222
 drupal_node_id: 222
 title: ちょけ
-body: person who jokes around all the time
-commentary: 'This comes from the verb ちょける.
-
-  Some people may say おちょけ instead.'
+title_romaji: choke
+body: <p>person who jokes around all the time</p>
+commentary: <p>This comes from the verb <a href="/words/221/">ちょける</a>.</p><p>Some people may say <a href="/words/364/">おちょけ</a>
+  instead.</p>
+example: <p>さとしは<strong>ちょけ</strong>やけど、サッカーする時だけはまじめやな。<br/> Satoshi is a real clown; the only time he's
+  serious is when he's playing soccer.</p>
 standard_kana: ふざけたことをする(いう)ひと
 standard_kanji: ふざけたことをする(言う)人
 word_types:
 - wordtype_7
-title_romaji: choke

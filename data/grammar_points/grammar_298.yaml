@@ -1,19 +1,21 @@
 id: grammar_298
 drupal_node_id: 298
 title: N(と)ちゃう／Nやない
-body: 'In Kansai-ben, ちゃう can be used when negating nouns, originally deriving from ちがう.
-
-  Nやない, which corresponds to the standard Nで(は)ない, can be used the same way, but is less common than N?(と)ちゃう.'
-example: '<table><caption>ちゃう</caption><tbody><tr><th>Standard</th><td>A: あれ、あなたの彼氏<em>じゃない</em>？<br />
-  B: <em>違う違う</em>、私の彼氏もっと背が高いよ。</td></tr><tr><th>Kansai-ben</th><td>A: あれ、あんたの彼氏<em>ちゃう</em>？<br /> B:
-  <em>ちゃうちゃう*</em>、うちの彼氏もっと背え高いわ。</td></tr><tr><th>English</th><td>A: Isn''t that your boyfriend?<br />
+title_romaji: N(to)chau/Nyanai
+body: <p>In Kansai-ben, ちゃう can be used when negating nouns, originally deriving from ちがう.<br/> Nやない,
+  which corresponds to the standard Nで(は)ない, can be used the same way, but is less common than N<sup class="lexicon-indicator"
+  title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/" title="Abbreviation
+  for noun. ">?</a></sup>(と)ちゃう.</p>
+example: '<table><caption>ちゃう</caption><tbody><tr><th>Standard</th><td>A: あれ、あなたの彼氏<em>じゃない</em>？<br/>
+  B: <em>違う違う</em>、私の彼氏もっと背が高いよ。</td></tr><tr><th>Kansai-ben</th><td>A: あれ、あんたの彼氏<em>ちゃう</em>？<br/> B:
+  <em>ちゃうちゃう*</em>、うちの彼氏もっと背え高いわ。</td></tr><tr><th>English</th><td>A: Isn''t that your boyfriend?<br/>
   B: No, he''s taller.</td></tr></tbody></table><p>*It should be noted that ちゃう is often repeated twice
   (ちゃうちゃう) in conversation as a response to somebody else''s statement.</p>'
-kansai_vs_standard: <table class="full-grid-table"><tr><th>Standard</th><td>Nで(は)ない<br /> Nじゃない</td><td>学生で(は)ない<br
-  /> 学生じゃない</td></tr><tr><th>Kansai-ben</th><td>Nと<em>ちゃう</em><br /> Nやない</td><td>学生と<em>ちゃう</em><br />
-  学生やない</td></tr><tr></tr><tr><th>English</th><td>...is not N</td><td>...is not a student</td></tr></table>
+kansai_vs_standard: <table class="full-grid-table"><tr><th>Standard</th><td>Nで(は)ない<br/> Nじゃない</td><td>学生で(は)ない<br/>
+  学生じゃない</td></tr><tr><th>Kansai-ben</th><td>Nと<em>ちゃう</em><br/> Nやない</td><td>学生と<em>ちゃう</em><br/> 学生やない</td></tr><tr><th>English</th><td>...is
+  not N<sup class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup></td><td>...is not a student</td></tr></table>
 function_types:
 - function_111
 grammar_types:
 - grammar_109
-title_romaji: N(to)chau/Nyanai

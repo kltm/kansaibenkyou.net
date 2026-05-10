@@ -1,18 +1,15 @@
 id: word_252
 drupal_node_id: 252
 title: かまん
-body: no problem
-commentary: 'This is an abbreviation of かまわん.
-
-  かまわん is the negative form of かまう, which means "to mind".
-
-  かまわん → かまん
-
-  Some people say かめへん or かまへん instead of かまん.
-
-  However, among young people, かまん is more common than かめへん and かまへん.'
+title_romaji: kaman
+body: <p>no problem</p>
+commentary: <p>This is an abbreviation of かまわん.<br/> かまわん is the negative form of かまう, which means "to
+  mind".</p><p>かまわん → かまん</p><p>Some people say <a href="/words/125/">かめへん</a> or <a href="/words/124/">かまへん</a>
+  instead of かまん.<br/> However, among young people, かまん is more common than <a href="/words/125/">かめへん</a>
+  and <a href="/words/124/">かまへん</a>.</p>
+example: <p>今日、あんたとこ行っても<strong>かまん</strong>？<br/> Do you mind if I come over to your place today?</p>
+kanji: 構ん
 standard_kana: かまわない
 standard_kanji: 構わない
 word_types:
 - wordtype_18
-title_romaji: kaman

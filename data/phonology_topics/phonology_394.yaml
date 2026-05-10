@@ -1,46 +1,14 @@
 id: phonology_394
 drupal_node_id: 394
 title: Other
-body: 'Standard
-
-  Kansai-ben
-
-  おめでとう
-
-  [↓]
-
-  おめでとう
-
-  [↓]
-
-  おめでとうございます
-
-  [↓]
-
-  おめでとうございます
-
-  [↓]
-
-  よかったね
-
-  [↓]
-
-  よかったなぁ
-
-  [↓]
-
-  本当
-
-  [↓]
-
-  ほんま
-
-  [↓]
-
-  うそ！
-
-  [↓]
-
-  うそ！
-
-  [↓]'
+body: <table><tbody><tr><th>Standard</th><th>Kansai-ben</th></tr><tr><td>おめでとう<br/><p class="kb-audio"
+  id="audioplayer-28"><a href="/assets/audio/st_omedeto.mp3">[↓]</a></p></td><td>おめでとう<br/><p class="kb-audio"
+  id="audioplayer-66"><a href="/assets/audio/pho_kb_omedetou.mp3">[↓]</a></p></td></tr><tr><td>おめでとうございます<br/><p
+  class="kb-audio" id="audioplayer-29"><a href="/assets/audio/st_omedetogoza.mp3">[↓]</a></p></td><td>おめでとうございます<br/><p
+  class="kb-audio" id="audioplayer-67"><a href="/assets/audio/pho_kb_omedetogoza.mp3">[↓]</a></p></td></tr><tr><td>よかったね<br/><p
+  class="kb-audio" id="audioplayer-30"><a href="/assets/audio/st_yokattane.mp3">[↓]</a></p></td><td>よかったなぁ<br/><p
+  class="kb-audio" id="audioplayer-68"><a href="/assets/audio/pho_kb_yokattana.mp3">[↓]</a></p></td></tr><tr><td>本当<br/><p
+  class="kb-audio" id="audioplayer-31"><a href="/assets/audio/st_honto.mp3">[↓]</a></p></td><td>ほんま<br/><p
+  class="kb-audio" id="audioplayer-69"><a href="/assets/audio/pho_kb_honma.mp3">[↓]</a></p></td></tr><tr><td>うそ！<br/><p
+  class="kb-audio" id="audioplayer-32"><a href="/assets/audio/st_uso.mp3">[↓]</a></p></td><td>うそ！<br/><p
+  class="kb-audio" id="audioplayer-70"><a href="/assets/audio/pho_kb_uso.mp3">[↓]</a></p></td></tr></tbody></table>

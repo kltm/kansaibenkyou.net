@@ -1,10 +1,12 @@
 id: word_295
 drupal_node_id: 295
 title: じぶん
-body: you
-commentary: Like standard Japanese, じぶん can also be used as a first person pronoun such as わたし.
+title_romaji: jibun
+body: <p>you</p>
+commentary: <p>Like standard Japanese, じぶん can also be used as a first person pronoun such as わたし.</p>
+example: <p><strong>自分</strong>名前何ていうん？<br/> What's your name?</p>
+kanji: 自分
 standard_kana: きみ
 standard_kanji: 君
 word_types:
 - wordtype_115
-title_romaji: jibun

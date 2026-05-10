@@ -1,21 +1,20 @@
 id: grammar_320
 drupal_node_id: 320
 title: Vてもろた／Vてもうた
-body: 'Vてもらう in Kansai-ben is the same as standard Japanese, but the past tense from the dictionary form?
-  is different. The standard Japanese Vてもらった becomes Vてもろた or Vてもうた in Kansai-ben. もろた is the base for
-  in Kansai-ben, but may become もうた in use.
-
-  Please be aware that there is another, completely separate, Vてもうた that expresses repentance and regret.'
+title_romaji: Vtemorota/Vtemouta
+body: <p>Vてもらう in Kansai-ben is the same as standard Japanese, but the past tense from the dictionary
+  form<sup class="lexicon-indicator" title="The affirmative short non-past form for a verb."><a class="lexicon-term"
+  href="/taxonomy/term/164/" title="The affirmative short non-past form for a verb.">?</a></sup> is different.
+  The standard Japanese Vてもらった becomes Vてもろた or Vてもうた in Kansai-ben. もろた is the base for in Kansai-ben,
+  but may become もうた in use.</p><p>Please be aware that there is another, completely separate, Vてもうた that
+  expresses <a href="/grammar-points/327/">repentance and regret</a>.</p>
 example: <table><caption>Vてもろた</caption><tbody><tr><th>Standard</th><td>これ、彼に<em>買ってもらった</em>服なんだ。</td></tr><tr><th>Kansai-ben</th><td>これ、彼に<em>買うてもろた</em>服やねん。</td></tr><tr><th>English</th><td>My
   boyfriend bought these clothes for me.</td></tr></tbody></table>
-formation: <p>replace らっ in the standard Vてもらった by ろ or う.</p><table><tr><th>Standard</th><td>Vて も<em>らっ</em>た</td></tr><tr><th>Kansai-ben</th><td>Vて
-  も<em> ろ</em> た<br /> Vて も <em>う</em> た</td></tr></table>
 formation_from_standard: <p>replace らっ in the standard Vてもらった by ろ or う.</p><table><tr><th>Standard</th><td>Vて
-  も<em>らっ</em>た</td></tr><tr><th>Kansai-ben</th><td>Vて も<em> ろ</em> た<br /> Vて も <em>う</em> た</td></tr></table>
-kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vてもらった</em></td></tr><tr><th>Kansai-ben</th><td><em>Vてもろた<br
-  /> Vてもうた</em></td></tr><tr></tr></table>
+  も<em>らっ</em>た</td></tr><tr><th>Kansai-ben</th><td>Vて も<em> ろ</em> た<br/> Vて も <em>う</em> た</td></tr></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vてもらった</em></td></tr><tr><th>Kansai-ben</th><td><em>Vてもろた<br/>
+  Vてもうた</em></td></tr></table>
 function_types:
 - function_24
 grammar_types:
 - grammar_72
-title_romaji: Vtemorota/Vtemouta

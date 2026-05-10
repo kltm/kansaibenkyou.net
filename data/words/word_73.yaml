@@ -1,9 +1,11 @@
 id: word_73
 drupal_node_id: 73
 title: こける
-body: to fall
+title_romaji: kokeru
+body: <p>to fall</p>
+example: <p>昨日、<strong>こけて</strong>足けがしてん。<br/> Yesterday, I fell and hurt my leg.</p>
+kanji: 転ける
 standard_kana: ころぶ
 standard_kanji: 転ぶ
 word_types:
 - wordtype_17
-title_romaji: kokeru

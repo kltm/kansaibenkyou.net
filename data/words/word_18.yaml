@@ -1,9 +1,9 @@
 id: word_18
 drupal_node_id: 18
 title: なんば
-body: corn
-commentary: This word is an abbreviation of なんばきび.
+title_romaji: nanba
+body: <p>corn</p>
+commentary: <p>This word is an abbreviation of <a href="/words/19/">なんばきび</a>.</p>
 standard_kana: とうもろこし
 word_types:
 - wordtype_3
-title_romaji: nanba

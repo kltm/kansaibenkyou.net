@@ -1,10 +1,12 @@
 id: word_226
 drupal_node_id: 226
 title: おなか(が)おおきい
-body: have a full stomach
-commentary: In most areas, such as Kanto, おなかがおおきい implies being pregnant.
+title_romaji: onaka(ga)ookii
+body: <p>have a full stomach</p>
+commentary: <p>In most areas, such as Kanto, おなかがおおきい implies being pregnant.</p>
+example: <p><strong>おなかおおきなった</strong>わ。もう食べられへん。<br/> I'm full. I can't eat anymore</p>
+kanji: お腹(が)大きい
 standard_kana: おなか(が)いっぱい
 standard_kanji: お腹(が)一杯
 word_types:
 - wordtype_15
-title_romaji: onaka(ga)ookii

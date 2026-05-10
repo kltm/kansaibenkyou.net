@@ -1,10 +1,16 @@
 id: word_138
 drupal_node_id: 138
 title: えんりょしい
-body: a person who has the tendency to refuse to accept anything you try to give them.
-commentary: Suffix? "-しい" means a person who tends to do something.
+title_romaji: enryoshii
+body: <p>a person who has the tendency to refuse to accept anything you try to give them.</p>
+commentary: <p>Suffix<sup class="lexicon-indicator" in="" title="Words or morphemes that attach to the
+  end of a word to change its meaning or grammatical function (e.g., "><a class="lexicon-term" href="/taxonomy/term/159/"
+  title='Words or morphemes that attach to the end of a word to change its meaning or grammatical function
+  (e.g., "さん" in 田中さん). '>?</a></sup> "-しい" means a person who tends to do something.</p>
+example: <p>この服、山田さんにあげたかってんけど、あの人<strong>えんりょしい</strong>やからもらってくれへんかったわ。<br/> I wanted to give these
+  clothes to Yamada, but he's the kind of guy who will never take anything you try to give him.</p>
+kanji: 遠慮しい
 standard_kana: えんりょしがちなひと
 standard_kanji: 遠慮しがちな人
 word_types:
 - wordtype_7
-title_romaji: enryoshii

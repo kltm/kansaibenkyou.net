@@ -1,13 +1,14 @@
 id: word_102
 drupal_node_id: 102
 title: いこる
-body: to burn; to catch fire
+title_romaji: ikoru
+body: <p>to burn; to catch fire</p>
+kanji: 熾る
 standard_kana: おこる
 standard_kanji: 熾る
-word_types:
-- wordtype_18
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: ikoru
+word_types:
+- wordtype_18

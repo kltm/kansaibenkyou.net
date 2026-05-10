@@ -1,10 +1,11 @@
 id: word_47
 drupal_node_id: 47
 title: かいらし(い)
-body: cute; pretty; lovely
-commentary: Also see かえらし(い).
+title_romaji: kairashi(i)
+body: <p>cute; pretty; lovely</p>
+commentary: <p>Also see <a href="/words/48/">かえらし(い)</a>.</p>
+example: <p>そのねこ<strong>かいらし</strong>なあ。<br/> That kitten is so cute.</p>
 standard_kana: かわいらしい
 standard_kanji: 可愛らしい
 word_types:
 - wordtype_12
-title_romaji: kairashi(i)

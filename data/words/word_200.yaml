@@ -1,9 +1,11 @@
 id: word_200
 drupal_node_id: 200
 title: よう
-body: often; frequently; well
-commentary: よう often used with potential forms. For further information, please see ようV／ようVへん／ようVん .
+title_romaji: you
+body: <p>often; frequently; well</p>
+commentary: <p>よう often used with potential forms. For further information, please see <a href="/grammar-points/334/">ようV／ようVへん／ようVん
+  </a>.</p>
+example: <p>あんたほんま<strong>よう</strong>食べるなあ。<br/> You sure do eat a lot.</p>
 standard_kana: よく
 word_types:
 - wordtype_15
-title_romaji: you

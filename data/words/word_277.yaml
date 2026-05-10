@@ -1,9 +1,10 @@
 id: word_277
 drupal_node_id: 277
 title: おこのみ
-body: okonomiyaki
+title_romaji: okonomi
+body: <p>okonomiyaki</p>
+kanji: お好み
 standard_kana: おこのみやき
 standard_kanji: お好み焼き
 word_types:
 - wordtype_3
-title_romaji: okonomi

@@ -1,14 +1,19 @@
 id: word_248
 drupal_node_id: 248
 title: べっぴん
-body: beautiful woman or girl
-commentary: The suffix? "さん" is often added.
+title_romaji: beppin
+body: <p>beautiful woman or girl</p>
+commentary: <p>The suffix<sup class="lexicon-indicator" in="" title="Words or morphemes that attach to
+  the end of a word to change its meaning or grammatical function (e.g., "><a class="lexicon-term" href="/taxonomy/term/159/"
+  title='Words or morphemes that attach to the end of a word to change its meaning or grammatical function
+  (e.g., "さん" in 田中さん). '>?</a></sup> "さん" is often added.</p>
+example: <p>あきちゃん、<strong>べっぴん</strong>さんになったなあ。<br/> Aki has become a beauty.</p>
+kanji: 別嬪
 standard_kana: びじん
 standard_kanji: 美人
-word_types:
-- wordtype_7
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: beppin
+word_types:
+- wordtype_7

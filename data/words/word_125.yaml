@@ -1,20 +1,16 @@
 id: word_125
 drupal_node_id: 125
 title: かめへん
-body: no problem; don't worry (about it)
-commentary: 'This is an abbreviation of かまわへん.
-
-  かまわへん is the negative form of かまう, which means "to mind".
-
-  かまわへん→かまへん→かめへん
-
-  Some people say かまへん instead of かめへん.
-
-  However, among young people, かまん is may be more common than かめへん or かまへん.
-
-  The polite form of かめへん is かめしまへん.'
+title_romaji: kamehen
+body: <p>no problem; don't worry (about it)</p>
+commentary: <p>This is an abbreviation of かまわへん.<br/> かまわへん is the negative form of かまう, which means "to
+  mind".</p><p>かまわへん→かまへん→かめへん</p><p>Some people say <a href="/words/124/">かまへん</a> instead of かめへん.<br/>
+  However, among young people, <a href="/words/252/">かまん</a> is may be more common than かめへん or <a href="/words/124/">かまへん</a>.</p><p>The
+  polite form of かめへん is かめしまへん.</p>
+example: '<p>今日、あんたとこ行っても<strong>かめへん</strong>？<br/> Would you mind if I came to your place today?</p><p>A:
+  ここ、座ってもええ？<br/> B: うん、<strong>かめへん</strong>よ。</p><p>A: Is it okay if I sit here?<br/> B: Yeah, no problem.</p>'
+kanji: 構へん
 standard_kana: かまわない
 standard_kanji: 構わない
 word_types:
 - wordtype_18
-title_romaji: kamehen

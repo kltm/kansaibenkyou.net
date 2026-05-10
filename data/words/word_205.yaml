@@ -1,9 +1,10 @@
 id: word_205
 drupal_node_id: 205
 title: そら
-body: that
-commentary: Also see あら and  こら.
+title_romaji: sora
+body: <p>that</p>
+commentary: <p>Also see <a href="/words/206/">あら</a> and <a href="/words/204/">こら</a>.</p>
+example: <p><strong>そら</strong>よかったなあ。<br/> That was good.</p>
 standard_kana: それは
 word_types:
 - wordtype_15
-title_romaji: sora

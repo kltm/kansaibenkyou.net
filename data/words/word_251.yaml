@@ -1,13 +1,16 @@
 id: word_251
 drupal_node_id: 251
 title: いらんこと
-body: unnecessary matter or thing
-commentary: 'いらんこと comes from いらないこと and has a negative feeling. いらない is a negative form of いる which means
-  "to need". Thus, いらんこと literary means "things that are not needed".
-
-  An interfering person may be called いらんことしい in Kansai-ben.'
+title_romaji: irankoto
+body: <p>unnecessary matter or thing</p>
+commentary: <p>いらんこと comes from いらないこと and has a negative feeling. いらない is a negative form of いる which
+  means "to need". Thus, いらんこと literary means "things that are not needed".</p><p>An interfering person
+  may be called いらんことしい in Kansai-ben.</p>
+example: '<p>たかしの前で<strong>いらんこと</strong>言うなよ。あいつまだ何にも知らんねんから。<br/> Don''t say anything in front of Takeshi--he
+  still doesn''t know anything.</p><p>学生A: 先生、今日の宿題何ですか？<br/> 先生: あ、忘れてたわ。A君、おおきに。<br/> 学生B: お前<strong>いらんこと</strong>言うなよ〜！</p><p>Student
+  A: Teacher, what''s today''s homework?<br/> Teacher: Oh yeah, I forgot. Thank you!<br/> Student B: Don''t
+  say things like that!</p>'
 standard_kana: よけいなこと
 standard_kanji: 余計なこと
 word_types:
 - wordtype_7
-title_romaji: irankoto

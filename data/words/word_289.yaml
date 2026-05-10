@@ -1,9 +1,10 @@
 id: word_289
 drupal_node_id: 289
 title: こないだ
-body: the other day
+title_romaji: konaida
+body: <p>the other day</p>
+example: <p><strong>こないだ</strong>はおこってごめんな。<br/> I'm sorry that I was upset the other day.</p>
 standard_kana: このあいだ
 standard_kanji: 此の間
 word_types:
 - wordtype_15
-title_romaji: konaida

@@ -1,18 +1,17 @@
 id: grammar_303
 drupal_node_id: 303
 title: Particles “へ” and “に”
-body: In most Japanese textbooks, the destination particle (i.e., 学校に行く) can be either に or へ. However,
-  in Kansai, most people just use へ. Similarly, while In standard Japanese the objective particle (i.e.,
-  買い物に行く) has to be に, へ can also be used in Kansai-ben. However, for the location partical (i.e., いすの下に),
-  only に can used both in standard Japanese and Kansai-ben.
+title_romaji: Particles “he” and “ni”
+body: <p>In most Japanese textbooks, the destination particle (i.e., 学校<em>に</em>行く) can be either に or
+  へ. However, in Kansai, most people just use へ. Similarly, while In standard Japanese the objective particle
+  (i.e., 買い物<em>に</em>行く) has to be に, へ can also be used in Kansai-ben. However, for the location partical
+  (i.e., いすの下<em>に</em>), only に can used both in standard Japanese and Kansai-ben.</p>
 example: <table><caption>Destination particle へ</caption><tbody><tr><th>Standard</th><td>３時ごろ、学校<em>に</em>行くよ。</td></tr><tr><th>Kansai-ben</th><td>３時ごろ、学校<em>へ</em>行くわ。</td></tr><tr><th>English</th><td>I'm
-  going to school around 3 o'clock.</td></tr></tbody></table></div><table><caption>Objective particle
-  へ</caption><tbody><tr><th>Standard</th><td>買い物<em>に</em>行ってきたんだ。</td></tr><tr><th>Kansai-ben</th><td>買いもん<em>へ</em>行ってきてん。</td></tr><tr><th>English</th><td>I
-  went shopping.</td></tr></tbody></table></div><table><caption>Location particle に</caption><tbody><tr><th>Standard</th><td>いすの下<em>に</em>ねこがいる。</td></tr><tr><th>Kansai-ben</th><td>いすの下<em>に</em>ねこがおる。</td></tr><tr><th>English</th><td>There's
+  going to school around 3 o'clock.</td></tr></tbody></table><table><caption>Objective particle へ</caption><tbody><tr><th>Standard</th><td>買い物<em>に</em>行ってきたんだ。</td></tr><tr><th>Kansai-ben</th><td>買いもん<em>へ</em>行ってきてん。</td></tr><tr><th>English</th><td>I
+  went shopping.</td></tr></tbody></table><table><caption>Location particle に</caption><tbody><tr><th>Standard</th><td>いすの下<em>に</em>ねこがいる。</td></tr><tr><th>Kansai-ben</th><td>いすの下<em>に</em>ねこがおる。</td></tr><tr><th>English</th><td>There's
   a cat under the chair.</td></tr></tbody></table>
 function_types:
 - function_113
 - function_112
 grammar_types:
 - grammar_78
-title_romaji: Particles “he” and “ni”

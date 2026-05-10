@@ -1,10 +1,12 @@
 id: word_227
 drupal_node_id: 227
 title: はんなり
-body: humbly graceful and elegant
-commentary: This word is considered to be very "Kyoto".
+title_romaji: hannari
+body: <p>humbly graceful and elegant</p>
+commentary: <p>This word is considered to be very "Kyoto".</p>
+example: <p>あの娘さん<strong>はんなり</strong>しとるなあ。<br/> That girl has a humble elegant grace. [Obviously better
+  sounding in Japanese.]</p>
 standard_kana: じょうひんではなやか
 standard_kanji: 上品で華やか
 word_types:
 - wordtype_15
-title_romaji: hannari

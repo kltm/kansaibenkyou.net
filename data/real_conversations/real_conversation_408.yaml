@@ -2,9 +2,10 @@ id: real_conversation_408
 drupal_node_id: 408
 title: その服どこで買うたん？
 summary: Nobu asks his wife Fumi where she bought the shirt she's wearing.
-hint: 'アウトレット = outlet mall
+hint: |-
+  アウトレット = outlet mall
 
-  ちょろちょろちょろちょろ = trickle'
+  ちょろちょろちょろちょろ = trickle
 audio:
   path: real_i_sonohuku.mp3
 speakers:

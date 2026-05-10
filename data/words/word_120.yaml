@@ -1,9 +1,11 @@
 id: word_120
 drupal_node_id: 120
 title: おぼこい
-body: childlike; childish
+title_romaji: obokoi
+body: <p>childlike; childish</p>
+example: <p>となりのたくみ君18歳やけど、<strong>おぼこい</strong>なあ。<br/> Even though Takumi next door is 18, he still
+  acts like a boy.</p>
 standard_kana: おさなくてそぼくなようす
 standard_kanji: 幼くて素朴な様子
 word_types:
 - wordtype_12
-title_romaji: obokoi

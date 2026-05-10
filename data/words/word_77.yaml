@@ -1,9 +1,11 @@
 id: word_77
 drupal_node_id: 77
 title: えげつない
-body: mean-spirited; terrible; nasty
+title_romaji: egetsunai
+body: <p>mean-spirited; terrible; nasty</p>
+example: <p>あのおばはん<strong>えげつない</strong>なあ。電車ん中やのに大声でけいたい電話で話してるで。<br/> That old lady is terrible! Talking
+  on her phone in a loud voice like that on the train.</p>
 standard_kana: あくどい／ひどい
 standard_kanji: あくどい／酷い
 word_types:
 - wordtype_12
-title_romaji: egetsunai

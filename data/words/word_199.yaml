@@ -1,9 +1,11 @@
 id: word_199
 drupal_node_id: 199
 title: かんにんする
-body: to forgive
+title_romaji: kanninsuru
+body: <p>to forgive</p>
+example: <p>もう<strong>かんにん</strong>して。<br/> Please forgive me!</p>
+kanji: 堪忍する
 standard_kana: ゆるす
 standard_kanji: 許す
 word_types:
 - wordtype_116
-title_romaji: kanninsuru

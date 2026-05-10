@@ -1,13 +1,10 @@
 id: word_180
 drupal_node_id: 180
 title: どないした
-body: 'What happened?
-
-  What''s wrong?
-
-  So what?'
-commentary: どう in Standard Japanese is どない in Kansai-ben.
+title_romaji: donaishita
+body: <p>What happened?<br/> What's wrong?<br/> So what?</p>
+commentary: <p>どう in Standard Japanese is <a href="/words/258/">どない</a> in Kansai-ben.</p>
+example: <p><strong>どないした</strong>ん？顔色悪いで。<br/> What's wrong? You look pale.</p>
 standard_kana: どうした
 word_types:
 - wordtype_5
-title_romaji: donaishita

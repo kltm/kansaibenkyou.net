@@ -1,12 +1,13 @@
 id: word_57
 drupal_node_id: 57
 title: ずっこい
-body: cunning; sly; play unfair; foul
-commentary: 'This word originally comes from ずるい, and is often used when kids are playing.
-
-  While this word sounds similar to すっこい, there are differences in meaning.'
+title_romaji: zukkoi
+body: <p>cunning; sly; play unfair; foul</p>
+commentary: <p>This word originally comes from ずるい, and is often used when kids are playing.<br/> While
+  this word sounds similar to <a href="/words/362/">すっこい</a>, there are differences in meaning.</p>
+example: <p>おい、おれが先にならんどってんで、入ってくるなよ。<strong>ずっこい</strong>なあ。<br/> Hey, I was already lined-up here! Don't
+  just cut in--that's not fair.</p>
 standard_kana: ずるい
 standard_kanji: 狡い
 word_types:
 - wordtype_12
-title_romaji: zukkoi

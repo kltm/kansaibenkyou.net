@@ -1,7 +1,8 @@
 id: word_230
 drupal_node_id: 230
 title: よろしゅうおあがり
-body: '[set phrase in response to ごちょそうさまでした, literally something like "you ate well".]'
+title_romaji: yoroshuuoagari
+body: <p>[set phrase in response to ごちょそうさまでした, literally something like "you ate well".]</p>
+example: '<p>A: ごちそうさまでした。<br/> B: <strong>よろしゅうおあがり</strong>。</p>'
 word_types:
 - wordtype_4
-title_romaji: yoroshuuoagari

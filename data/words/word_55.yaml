@@ -1,9 +1,12 @@
 id: word_55
 drupal_node_id: 55
 title: しんきくさい
-body: gloomy; dull; annoyed; glum; irritated
+title_romaji: shinkikusai
+body: <p>gloomy; dull; annoyed; glum; irritated</p>
+example: <p>そんな<strong>辛気臭い</strong>顔すんなよ。こっちまで疲れるやん。<br/> Don't get all mister gloomy pants on me. It
+  makes me tired.</p>
+kanji: 辛気臭い
 standard_kana: うっとうしい／いらいらする／じれったい／たいくつ(な)
 standard_kanji: 鬱陶しい／いらいらする／焦れったい／退屈(な)
 word_types:
 - wordtype_12
-title_romaji: shinkikusai

@@ -1,9 +1,11 @@
 id: word_209
 drupal_node_id: 209
 title: そんで
-body: and; and then
-commentary: Some people may use ほんで instead.
+title_romaji: sonde
+body: <p>and; and then</p>
+commentary: <p>Some people may use <a href="/words/168/">ほんで</a> instead.</p>
+example: <p>昨日、まきと買いもん行ってん。<strong>そんで</strong>、このかばん買うてん。<br/> Yesterday, I went shopping with Maki and
+  I bought this bag.</p>
 standard_kana: それで
 word_types:
 - wordtype_15
-title_romaji: sonde

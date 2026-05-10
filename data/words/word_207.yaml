@@ -1,9 +1,11 @@
 id: word_207
 drupal_node_id: 207
 title: いっしょくたにする
-body: to jumble together; to mix up
+title_romaji: isshokutanisuru
+body: <p>to jumble together; to mix up</p>
+example: <p><strong>いっしょくたにせん</strong>と、ちゃんとかたづけや。<br/> Don't jumble them up, put them in order.</p>
+kanji: 一緒くたにする
 standard_kana: ごちゃまぜにする
 standard_kanji: ごちゃ混ぜにする
 word_types:
 - wordtype_116
-title_romaji: isshokutanisuru

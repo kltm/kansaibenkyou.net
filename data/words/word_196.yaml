@@ -1,10 +1,10 @@
 id: word_196
 drupal_node_id: 196
 title: もっかい
-body: once more; one more time; again
-commentary: Also see もっぺん.
+title_romaji: mokkai
+body: <p>once more; one more time; again</p>
+commentary: <p>Also see <a href="/words/195/">もっぺん</a>.</p>
 standard_kana: もういっかい
 standard_kanji: もう一回
 word_types:
 - wordtype_15
-title_romaji: mokkai

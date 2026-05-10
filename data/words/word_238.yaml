@@ -1,14 +1,16 @@
 id: word_238
 drupal_node_id: 238
 title: げす(な)
-body: crude; declasse
-commentary: This word is now very rarely used.
+title_romaji: gesu(na)
+body: <p>crude; declasse</p>
+commentary: <p>This word is now very rarely used.</p>
+example: <p>あの人、いっつも人の悪口ばっかり言うて<strong>げす</strong>な人やわ。<br/> That person is always saying bad mouthing
+  people--very crude.</p>
 standard_kana: げひん(な)
 standard_kanji: 下品(な)
-word_types:
-- wordtype_13
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: gesu(na)
+word_types:
+- wordtype_13

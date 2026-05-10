@@ -1,13 +1,13 @@
 id: word_140
 drupal_node_id: 140
 title: あんさん
-body: you
-commentary: Also see あんた.
+title_romaji: ansan
+body: <p>you</p>
+commentary: <p>Also see <a href="/words/214/">あんた</a>.</p>
 standard_kana: あなた
-word_types:
-- wordtype_115
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: ansan
+word_types:
+- wordtype_115

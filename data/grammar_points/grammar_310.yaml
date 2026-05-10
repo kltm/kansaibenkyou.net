@@ -1,35 +1,50 @@
 id: grammar_310
 drupal_node_id: 310
 title: かいな
-body: The standard Japanese sentence ending か(な), used in questions and strong negatives, may become かい(な)
-  in Kansai-ben. かいな is also used as in back-channel? communication (aizuchi) and imperatives.
+title_romaji: kaina
+body: <p>The standard Japanese sentence ending か(な), used in questions and strong negatives, may become
+  かい(な) in Kansai-ben. かいな is also used as in back-channel<sup and="" class="lexicon-indicator" contact.=""
+  eye="" title="Verbal and non-verbal responses by a listener, such as "><a class="lexicon-term" href="/taxonomy/term/187/"
+  title='Verbal and non-verbal responses by a listener, such as "へえ〜" and eye contact.'>?</a></sup> communication
+  (aizuchi) and imperatives.</p>
 commentary: <h2>Differences in meaning depending on accent</h2><p>The meaning of かいな can change depending
   on the accent.</p><table><caption>LLL = question/suspicion</caption><tbody><tr><th>Standard</th><td>このまんじゅうおいしいの<em>かな</em>。食べてみよう。</td></tr><tr><th>Kansai-ben</th><td>このまんじゅうおいしん<em>かいな</em>。食べてみよ。
-  <p id="audioplayer-1" class="kb-audio"><a href="../external/gr_manjyuq.mp3">[↓]</a></p></td></tr><tr><th>English</th><td>I
-  wonder if this manju tastes good. I'll try it.</td></tr></tbody></table><table><caption>HLL = surprise</caption><tbody><tr><th>Standard</th><td>そのまんじゅうおいしかったの<em>か</em>。安かったのに。</td></tr><tr><th>Kansai-ben</th><td>そのまんじゅうおいしかったん<em>かいな</em>。安かったのに。<br
-  /><p id="audioplayer-2" class="kb-audio"><a href="../external/gr_manjyuodo.mp3">[↓]</a></p></td></tr><tr><th>English</th><td>That
-  manju tasted good? It was so cheap.</td></tr></tbody></table><p>L = low pitch<br /> H = high pitch</p></div><h2>Once
-  more, with feeling</h2><p> かいな without な can strengthen the feeling.</p><table><caption>Imperative (a
-  little stronger)</caption><tbody><tr><th>Standard</th><td>もっと早く起きない<em>か</em>。また遅刻だぞ。</td></tr><tr><th>Kansai-ben</th><td>もっと早よ起きん<em>かい</em>。また遅刻やぞ。</td></tr><tr><th>English</th><td>You
+  <p class="kb-audio" id="audioplayer-1"><a href="/assets/audio/gr_manjyuq.mp3">[↓]</a></p></td></tr><tr><th>English</th><td>I
+  wonder if this manju tastes good. I'll try it.</td></tr></tbody></table><table><caption>HLL = surprise</caption><tbody><tr><th>Standard</th><td>そのまんじゅうおいしかったの<em>か</em>。安かったのに。</td></tr><tr><th>Kansai-ben</th><td>そのまんじゅうおいしかったん<em>かいな</em>。安かったのに。<br/><p
+  class="kb-audio" id="audioplayer-2"><a href="/assets/audio/gr_manjyuodo.mp3">[↓]</a></p></td></tr><tr><th>English</th><td>That
+  manju tasted good? It was so cheap.</td></tr></tbody></table><p>L = low pitch<sup class="lexicon-indicator"
+  title="The relative tone of a sound."><a class="lexicon-term" href="/taxonomy/term/182/" title="The
+  relative tone of a sound.">?</a></sup><br/> H = high pitch</p><h2>Once more, with feeling</h2><p> かいな
+  without な can strengthen the feeling.</p><table><caption>Imperative (a little stronger)</caption><tbody><tr><th>Standard</th><td>もっと早く起きない<em>か</em>。また遅刻だぞ。</td></tr><tr><th>Kansai-ben</th><td>もっと早よ起きん<em>かい</em>。また遅刻やぞ。</td></tr><tr><th>English</th><td>You
   should be getting up earlier. You're going to be late again!</td></tr></tbody></table>
 example: <table><caption>Question</caption><tbody><tr><th>Standard</th><td>あいつ、ほんとうにどこ行ったの<em>かな</em>。</td></tr><tr><th>Kansai-ben</th><td>あいつ、ほんまにどこ行ったん<em>かいな</em>。</td></tr><tr><th>English</th><td>Where
-  on earth did she go?</td></tr></tbody></table></div><table><caption>Strong negative</caption><tbody><tr><th>Standard</th><td>お父さんがそんな事許す<em>ものか</em>。</td></tr><tr><th>Kansai-ben</th><td>お父ちゃんがそんな事許す<em>かい(な)</em>。</td></tr><tr><th>English</th><td>There
-  is no way that my dad is going to forgive me.</td></tr></tbody></table></div><table><caption>Anger</caption><tbody><tr><th>Standard</th><td>こんなまずい飯、食える<em>か</em>！</td></tr><tr><th>Kansai-ben</th><td>こんなまずい飯、食える<em>かい</em>！</td></tr><tr><th>English</th><td>There
-  is no way I'm going to eat food this nasty.</td></tr></tbody></table></div><table><caption>Back-channel
-  (aizuchi)</caption><tbody><tr><th>Standard</th><td>そう<em>か</em>あ。</td></tr><tr><th>Kansai-ben</th><td>そう<em>かい(な)</em>。</td></tr><tr><th>English</th><td>[eye
-  contact, bobbing of head]</td></tr></tbody></table></div><table><caption>Imperative</caption><tbody><tr><th>Standard</th><td>もっと早く起きない<em>か</em>。また遅刻だぞ。</td></tr><tr><th>Kansai-ben</th><td>もっと早よ起きん<em>かいな</em>。また遅刻やぞ。</td></tr><tr><th>English</th><td>You
+  on earth did she go?</td></tr></tbody></table><table><caption>Strong negative</caption><tbody><tr><th>Standard</th><td>お父さんがそんな事許す<em>ものか</em>。</td></tr><tr><th>Kansai-ben</th><td>お父ちゃんがそんな事許す<em>かい(な)</em>。</td></tr><tr><th>English</th><td>There
+  is no way that my dad is going to forgive me.</td></tr></tbody></table><table><caption>Anger</caption><tbody><tr><th>Standard</th><td>こんなまずい飯、食える<em>か</em>！</td></tr><tr><th>Kansai-ben</th><td>こんなまずい飯、食える<em>かい</em>！</td></tr><tr><th>English</th><td>There
+  is no way I'm going to eat food this nasty.</td></tr></tbody></table><table><caption>Back-channel<sup
+  and="" class="lexicon-indicator" contact.="" eye="" title="Verbal and non-verbal responses by a listener,
+  such as "><a class="lexicon-term" href="/taxonomy/term/187/" title='Verbal and non-verbal responses
+  by a listener, such as "へえ〜" and eye contact.'>?</a></sup> (aizuchi)</caption><tbody><tr><th>Standard</th><td>そう<em>か</em>あ。</td></tr><tr><th>Kansai-ben</th><td>そう<em>かい(な)</em>。</td></tr><tr><th>English</th><td>[eye
+  contact, bobbing of head]</td></tr></tbody></table><table><caption>Imperative</caption><tbody><tr><th>Standard</th><td>もっと早く起きない<em>か</em>。また遅刻だぞ。</td></tr><tr><th>Kansai-ben</th><td>もっと早よ起きん<em>かいな</em>。また遅刻やぞ。</td></tr><tr><th>English</th><td>You
   should be getting up earlier. You're going to be late again.</td></tr></tbody></table>
 formation: <table><tr><td>＿＿+(ん)+かい(な)</td></tr></table>
-formation_from_standard: '<table class="full-grid-table"><tr><th></th><th>V</th><th>i-Adj</th><th>na-Adj*</th><th>N*</th></tr><tr><th>Standard</th><td>行く<em>
-  (の)</em><em> かな</em></td><td>大きい<em> (の)</em><em> かな</em></td><td>しずかな<em> (の)</em><em> かな</em></td><td>学生な<em>
-  (の)</em><em> かな</em></td></tr><tr><th>Kansai-ben</th><td>行く<em> (ん)</em><em> かいな</em></td><td>大きい<em>
-  (ん)</em><em> かいな</em></td><td>しずかな<em> (ん)</em><em> かいな</em></td><td>学生な<em> (ん)</em><em> かいな</em></td></tr></table><p>*The
-  standard Japanese past tense <em>だ</em>ったのかな may become <em>や</em>ったんかいな. (Example: 静か<em>や</em>ったんかいな、学生<em>や</em>ったんかいな。)</p>'
-kansai_vs_standard: <table><tr><th>Standard</th><td><em>＿＿＿か(な)</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿＿かい(な)</em></td></tr><tr></tr></table>
+formation_from_standard: '<table class="full-grid-table"><tr><th></th><th>V<sup class="lexicon-indicator"
+  title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation
+  for verb. ">?</a></sup></th><th>i-Adj<sup class="lexicon-indicator" title="Abbreviation for i-adjective--an
+  adjective that ends with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/"
+  title="Abbreviation for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></th><th>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup>*</th><th>N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup>*</th></tr><tr><th>Standard</th><td>行く<em> (の)</em><em> かな</em></td><td>大きい<em>
+  (の)</em><em> かな</em></td><td>しずかな<em> (の)</em><em> かな</em></td><td>学生な<em> (の)</em><em> かな</em></td></tr><tr><th>Kansai-ben</th><td>行く<em>
+  (ん)</em><em> かいな</em></td><td>大きい<em> (ん)</em><em> かいな</em></td><td>しずかな<em> (ん)</em><em> かいな</em></td><td>学生な<em>
+  (ん)</em><em> かいな</em></td></tr></table><p>*The standard Japanese past tense <em>だ</em>ったのかな may become
+  <em>や</em>ったんかいな. (Example: 静か<em>や</em>ったんかいな、学生<em>や</em>ったんかいな。)</p>'
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>＿＿＿か(な)</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿＿かい(な)</em></td></tr></table>
 function_types:
 - function_111
 - function_57
 - function_29
 grammar_types:
 - grammar_79
-title_romaji: kaina

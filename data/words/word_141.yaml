@@ -1,8 +1,10 @@
 id: word_141
 drupal_node_id: 141
 title: おます
-body: to exist (thing)
+title_romaji: omasu
+body: <p>to exist (thing)</p>
+example: '<p>A: すんません、かぜぐすりおますか？<br/> B: いろいろ<strong>おます</strong>けど、どんなん探してはるんですか？</p><p>A: Excuse me,
+  do you have any cold medicine?<br/> B: We have a lot of different kinds. What kind are you looking for?</p>'
 standard_kana: あります
 word_types:
 - wordtype_18
-title_romaji: omasu

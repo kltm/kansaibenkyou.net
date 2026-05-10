@@ -1,9 +1,11 @@
 id: word_118
 drupal_node_id: 118
 title: おない
-body: same aged; in the same cohort
+title_romaji: onai
+body: <p>same aged; in the same cohort</p>
+example: <p>わし、こいつと<strong>おない</strong>やねん。<br/> Me and this guy here are the same age.</p>
+kanji: 同い
 standard_kana: おないどし
 standard_kanji: 同い年
 word_types:
 - wordtype_7
-title_romaji: onai

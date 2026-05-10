@@ -1,9 +1,12 @@
 id: word_134
 drupal_node_id: 134
 title: ごんた
-body: mischievous boy; boy who's hard to handle
+title_romaji: gonta
+body: <p>mischievous boy; boy who's hard to handle</p>
+example: <p>うちの息子、<strong>ごんた</strong>で困ってますねん。<br/> My son, he's a little hard to handle, and I don't
+  know what to do.</p>
+kanji: 権太
 standard_kana: わんぱくぼうず／やんちゃぼうず
 standard_kanji: 腕白坊主／やんちゃ坊主
 word_types:
 - wordtype_7
-title_romaji: gonta

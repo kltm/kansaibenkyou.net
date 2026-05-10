@@ -1,19 +1,16 @@
 id: word_39
 drupal_node_id: 39
 title: あかん
-body: bad; impossible; hopeless; no; cannot
-commentary: '"あかん" is one of the most recognizable Kansai words. One of the the reasons for its ubiquity
-  are its many uses. See examples above.
-
-  あかん can also be used in certain verb constructions, for example:
-
-  週末も仕事せなあかんねん。
-
-  I have to work during weekends.
-
-  See the grammar page for せなあかん for more information.'
+title_romaji: akan
+body: <p>bad; impossible; hopeless; no; cannot</p>
+commentary: <p>"あかん" is one of the most recognizable Kansai words. One of the the reasons for its ubiquity
+  are its many uses. See examples above.</p><p><strong>あかん</strong> can also be used in certain verb constructions,
+  for example:</p><p>週末も仕事せな<strong>あかん</strong>ねん。<br/> I have to work during weekends.</p><p>See the
+  grammar page for せなあかん for more information.</p>
+example: '<p>そんなことしたら<strong>あかん</strong>。<br/> Don''t do that!</p><p>A: テストどうやった？<br/> B: <strong>あかん</strong>かってん。</p><p>A
+  : How was the test?<br/> B: It was no good.</p><p><strong>あかん</strong>、また、ねぼうしてもうた。<br/> Agh! I overslept
+  again.</p><p>週末も仕事せな<strong>あかん</strong>ねん。<br/> I have to work during weekends.</p>'
 standard_kana: だめ
 standard_kanji: 駄目
 word_types:
 - wordtype_138
-title_romaji: akan

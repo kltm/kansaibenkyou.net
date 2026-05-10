@@ -1,12 +1,11 @@
 id: word_45
 drupal_node_id: 45
 title: ええ
-body: good; fine
-commentary: 'Just like いい in standard Japanese, ええ combines with other words to make another word such
-  as かっこええ.
-
-  Moreover, like いい, there are no conjugations such as えかった and えければ--use よかった and よければ.'
+title_romaji: ee
+body: <p>good; fine</p>
+commentary: <p>Just like いい in standard Japanese, ええ combines with other words to make another word such
+  as かっこええ.</p><p>Moreover, like いい, there are no conjugations such as えかった and えければ--use よかった and よければ.</p>
+example: <p>見てみ！あそこに<strong>ええ</strong>男おるで！<br/> Look! There's a nice looking guy over there.</p>
 standard_kana: いい
 word_types:
 - wordtype_138
-title_romaji: ee

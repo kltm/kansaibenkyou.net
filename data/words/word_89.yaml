@@ -1,9 +1,10 @@
 id: word_89
 drupal_node_id: 89
 title: けんけん
-body: hop on one foot
+title_romaji: kenken
+body: <p>hop on one foot</p>
+example: <p>けんけんでどこまで行けるかきょうそうしょうや！<br/> Let's see how far we can get hopping on one foot!</p>
 standard_kana: かたあしとび
 standard_kanji: 片足跳び
 word_types:
 - wordtype_7
-title_romaji: kenken

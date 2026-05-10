@@ -1,9 +1,10 @@
 id: word_14
 drupal_node_id: 14
 title: けつねうどん
-body: udon with deep-fried tofu
-commentary: The original word is きつねうどん--き sounds tend to change into け in Kansai-ben.
+title_romaji: ketsuneudon
+body: <p>udon with deep-fried tofu</p>
+commentary: <p>The original word is <a href="/words/13/">きつねうどん</a>--き sounds tend to change into け in
+  Kansai-ben.</p>
 standard_kana: あげうどん
 word_types:
 - wordtype_3
-title_romaji: ketsuneudon

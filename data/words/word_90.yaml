@@ -1,8 +1,9 @@
 id: word_90
 drupal_node_id: 90
 title: べった
-body: last place
+title_romaji: betta
+body: <p>last place</p>
+example: <p>うちの子、今年もときょうそうで<strong>べった</strong>やってん。<br/> My kid was last again in this year's sprint.</p>
 standard_kana: びり
 word_types:
 - wordtype_7
-title_romaji: betta

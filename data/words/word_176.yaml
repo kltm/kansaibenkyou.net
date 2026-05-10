@@ -1,9 +1,9 @@
 id: word_176
 drupal_node_id: 176
 title: かて
-body: because
-commentary: For further information, please see かて／かって.
+title_romaji: kate
+body: <p>because</p>
+commentary: <p>For further information, please see <a href="/grammar-points/314/">かて／かって</a>.</p>
 standard_kana: (た)って
 word_types:
 - wordtype_15
-title_romaji: kate

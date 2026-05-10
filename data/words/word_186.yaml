@@ -1,13 +1,14 @@
 id: word_186
 drupal_node_id: 186
 title: しばく
-body: to beat someone up
+title_romaji: shibaku
+body: <p>to beat someone up</p>
+example: <p><strong>しばく</strong>ぞ、コラ！<br/> I'm gunna beat you up!</p>
 standard_kana: なぐる
 standard_kanji: 殴る
-word_types:
-- wordtype_18
 suitability:
 - icon: i-warning.png
   label: potentially rude
   tooltip: Indicates speech that could be upsetting to listeners.
-title_romaji: shibaku
+word_types:
+- wordtype_18

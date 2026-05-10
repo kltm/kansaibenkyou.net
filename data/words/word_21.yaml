@@ -1,11 +1,14 @@
 id: word_21
 drupal_node_id: 21
 title: てっちり
-body: blowfish hotpot
-commentary: In Kansai, blowfish is commonly called 鉄 (てつ; iron), which is derived from  鉄砲 (てっぽう; rifle),
-  an oblique reference to the dangerous nature of some parts of the fish.
+title_romaji: tetchiri
+body: <p>blowfish hotpot</p>
+commentary: <p>In Kansai, blowfish is commonly called 鉄 (てつ; iron), which is derived from 鉄砲 (てっぽう; rifle),
+  an oblique reference to the dangerous nature of some parts of the fish.</p>
+example: <p>この店の<strong>てっちり</strong>はやっぱりうまいなあ。<br/> Isn't the <i>tecchiri</i> at this restaurant always
+  so good?</p>
+kanji: 鉄ちり
 standard_kana: ふぐのなべ
 standard_kanji: 河豚の鍋
 word_types:
 - wordtype_3
-title_romaji: tetchiri

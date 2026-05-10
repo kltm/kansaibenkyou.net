@@ -1,10 +1,11 @@
 id: word_212
 drupal_node_id: 212
 title: チャリ
-body: bicycle
-commentary: チャリ is a shortened form for チャリンコ.
+title_romaji: chari
+body: <p>bicycle</p>
+commentary: <p>チャリ is a shortened form for <a href="/words/211/">チャリンコ</a>.</p>
+example: <p><strong>チャリ</strong>で駅まで行くわ。<br/> I'll go to the station by bike.</p>
 standard_kana: じてんしゃ
 standard_kanji: 自転車
 word_types:
 - wordtype_7
-title_romaji: chari

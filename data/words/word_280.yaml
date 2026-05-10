@@ -1,14 +1,19 @@
 id: word_280
 drupal_node_id: 280
 title: ごくろうさん
-body: Thank you for... / You worked hard...
-commentary: 'In Kansai-ben the suffix? さん is often used for greetings. For more information, see Suffix
-  “さん” and “ちゃん”.
-
-  As with ごくろさま, this is usually only used for people below the speaker.'
+title_romaji: gokurousan
+body: <p>Thank you for... / You worked hard...</p>
+commentary: <p>In Kansai-ben the suffix<sup class="lexicon-indicator" in="" title="Words or morphemes
+  that attach to the end of a word to change its meaning or grammatical function (e.g., "><a class="lexicon-term"
+  href="/taxonomy/term/159/" title='Words or morphemes that attach to the end of a word to change its
+  meaning or grammatical function (e.g., "さん" in 田中さん). '>?</a></sup> さん is often used for greetings.
+  For more information, see <a href="/grammar-points/313/">Suffix “さん” and “ちゃん”</a>.</p><p>As with ごくろさま,
+  this is usually only used for people below the speaker.</p>
+example: <p>毎日、暑いのに外で仕事して<strong>ごくろうさん</strong>やなあ。<br/> It's hot outside today, but you're working so
+  hard outside...</p>
+kanji: ご苦労さん
 standard_kana: ごくろうさま
 standard_kanji: ご苦労様
 word_types:
 - wordtype_15
 - wordtype_4
-title_romaji: gokurousan

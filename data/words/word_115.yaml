@@ -1,10 +1,11 @@
 id: word_115
 drupal_node_id: 115
 title: おとん
-body: dad; father
-commentary: The female counterpart is おかん.
+title_romaji: oton
+body: <p>dad; father</p>
+commentary: <p>The female counterpart is <a href="/words/113/">おかん</a>.</p>
+example: <p><strong>おとん</strong>もう仕事行ったんか？<br/> Has dad gone to work yet?</p>
 standard_kana: おとうさん
 standard_kanji: お父さん
 word_types:
 - wordtype_7
-title_romaji: oton

@@ -1,13 +1,14 @@
 id: word_150
 drupal_node_id: 150
 title: おんどれ
-body: you (violent)
+title_romaji: ondore
+body: <p>you (violent)</p>
+example: <p><strong>おんどれ</strong>、しばいたろか！<br/> Do you want me to beat you up?</p>
 standard_kana: おまえ
 standard_kanji: お前
-word_types:
-- wordtype_7
 suitability:
 - icon: i-warning.png
   label: potentially rude
   tooltip: Indicates speech that could be upsetting to listeners.
-title_romaji: ondore
+word_types:
+- wordtype_7

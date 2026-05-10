@@ -1,9 +1,10 @@
 id: word_83
 drupal_node_id: 83
 title: いらう
-body: to touch
+title_romaji: irau
+body: <p>to touch</p>
+example: <p>私のかばん<strong>いらわん</strong>といてよ！<br/> Keep your hands off my bag!</p>
 standard_kana: さわる
 standard_kanji: 触る
 word_types:
 - wordtype_18
-title_romaji: irau

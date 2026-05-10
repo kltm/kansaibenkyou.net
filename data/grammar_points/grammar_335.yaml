@@ -1,33 +1,45 @@
 id: grammar_335
 drupal_node_id: 335
 title: Vささへん／Vさされる
-body: There are some differences between the causative forms of standard Japanese and Kansai-ben. For
-  su-verbs and suru-verbs, whereas the negative causative form is always long form in standard Japanese,
-  the short form can be used in Kansai-ben. This is also true for the short causative passive form in
-  Kansai-ben (while it should not be used in the standard). In general, the causative long form is rarely
-  used in Kansai-ben.
+title_romaji: Vsasahen/Vsasareru
+body: <p>There are some differences between the causative forms of standard Japanese and Kansai-ben. For
+  su-verbs and suru-verbs, <span class="quiet">whereas the negative causative form is always long form
+  in standard Japanese, the short form can be used in Kansai-ben. This is also true for the short causative
+  passive form in Kansai-ben (while it should not be used in the standard). In general, the causative
+  long form is rarely used in Kansai-ben.</span></p>
 commentary: '<h2>考えとく vs. 考えさしてもらう</h2><p>In business, instead of directly saying "no", 考えときます is often
   used to indicate that negotiations are over (loosely) or to indicate that the speaker is not interested.
   However, the causative 考えさせてもらいます is different; in this case, there is a chance that speaker is actually
-  going to respond positively.</p><table><caption>考えときます</caption><tbody><tr><th>Standard</th><td>A: どうですか？<br
-  /> B: そうですね。すみませんが、<em>やめておきます</em>。<br /> A: そうですか。じゃ、またよろしくおねがいします。</td></tr><tr><th>Kansai-ben</th><td>A:
-  どうでっか？<br /> B: うーん。すまんけど、<em>考えとく</em>わ。<br /> A: そうでっか。じゃ、また頼んます。</td></tr><tr><th>English</th><td>A:
-  So, what do you think?<br /> B: Sorry, but I think we''ll pass this time.<br /> A: Ah, that''s too bad.
+  going to respond positively.</p><table><caption>考えときます</caption><tbody><tr><th>Standard</th><td>A: どうですか？<br/>
+  B: そうですね。すみませんが、<em>やめておきます</em>。<br/> A: そうですか。じゃ、またよろしくおねがいします。</td></tr><tr><th>Kansai-ben</th><td>A:
+  どうでっか？<br/> B: うーん。すまんけど、<em>考えとく</em>わ。<br/> A: そうでっか。じゃ、また頼んます。</td></tr><tr><th>English</th><td>A:
+  So, what do you think?<br/> B: Sorry, but I think we''ll pass this time.<br/> A: Ah, that''s too bad.
   Maybe next time?</td></tr></tbody></table><table><caption>考えさせてもらう</caption><tbody><tr><th>Standard</th><td>A:
-  どうですか？<br /> B: そうですね。一週間ほど考えさせてもらいます。<br /> A: そうですか。よろしくおねがいします。</td></tr><tr><th>Kansai-ben</th><td>A:
-  どうでっか？<br /> B: そうやなあ。一週間ほど考えさせてもらうわ。<br /> A: そうでっか。よろしゅうおねがいします。</td></tr><tr><th>English</th><td>A:
-  So, what do you think?<br /> B: Well, we''ll need to think about it for about week.<br /> A: Oh, okay.
+  どうですか？<br/> B: そうですね。一週間ほど考えさせてもらいます。<br/> A: そうですか。よろしくおねがいします。</td></tr><tr><th>Kansai-ben</th><td>A:
+  どうでっか？<br/> B: そうやなあ。一週間ほど考えさせてもらうわ。<br/> A: そうでっか。よろしゅうおねがいします。</td></tr><tr><th>English</th><td>A:
+  So, what do you think?<br/> B: Well, we''ll need to think about it for about week.<br/> A: Oh, okay.
   I hope it will work for you.</td></tr></tbody></table>'
-kansai_vs_standard: <h2>Causative negative short form of su-verbs and suru-verbs</h2><table class="full-grid-table"><tr><th>dictionary
-  form</th><th><span class="quiet">causative short form</span></th><th colspan="2"><span class="quiet">causative
-  negative short form</span></th></tr><tr><th></th><th></th><th>Standard</th><th>Kansai-ben</th></tr><tr><th>食べる</th><td>食べさす</td><td><strike>食べささない</strike></td><td>食べささへん</td></tr><tr><th>話す</th><td>話さす</td><td><strike>話ささない</strike></td><td>話ささへん</td></tr><tr><th>する</th><td>さす</td><td><strike>ささない</strike></td><td>ささへん</td></tr></table></div><h2>Causative
-  passive short form of su-verbs and suru-verbs</h2><table class="full-grid-table"><tr><th>dictionary
-  form</th><th><span class="quiet">causative short form</span></th><th colspan="2"><span class="quiet">causative
-  passive short form</span></th></tr><tr><th></th><th></th><th>Standard</th><th>Kansai-ben</th></tr><tr><th>食べる</th><td>食べさす</td><td><strike>食べさされる</strike></td><td>食べさされる</td></tr><tr><th>話す</th><td>話さす</td><td><strike>話さされる</strike></td><td>話さされる</td></tr><tr><th>する</th><td>さす</td><td><strike>さされる</strike></td><td>さされる</td></tr></table></div><h2>imperative
-  and request with causative</h2><table><tr><th>Standard</th><td>V(causative)[-<em>e</em>]＋てください</td></tr><tr><th>Kansai-ben</th><td>V(causative)[-<em>i</em>]＋てください</td></tr><tr></tr></table><table><tr><th>Standard</th><td>考えさ<em>せ</em>てください。<br
-  /> [kangaesas<em>e</em>]</td></tr><tr><th>Kansai-ben</th><td>考えさ<em>し</em>てください。<br /> [kangaesash<em>i</em>]</td></tr><tr></tr></table>
+kansai_vs_standard: <h2>Causative negative short form<sup class="lexicon-indicator" title="A collective
+  term for the dictionary, simple past tense, and negative form. Also known as the plain form. For example
+  行く, 行かない, 行った, and 行かなかった."><a class="lexicon-term" href="/taxonomy/term/166/" title="A collective term
+  for the dictionary, simple past tense, and negative form. Also known as the plain form. For example
+  行く, 行かない, 行った, and 行かなかった.">?</a></sup> of su-verbs and suru-verbs</h2><table class="full-grid-table"><tr><th>dictionary
+  form<sup class="lexicon-indicator" title="The affirmative short non-past form for a verb."><a class="lexicon-term"
+  href="/taxonomy/term/164/" title="The affirmative short non-past form for a verb.">?</a></sup></th><th><span
+  class="quiet">causative short form</span></th><th colspan="2"><span class="quiet">causative negative
+  short form</span></th></tr><tr><th></th><th></th><th>Standard</th><th>Kansai-ben</th></tr><tr><th>食べる</th><td>食べさす</td><td><strike>食べささない</strike></td><td>食べささへん</td></tr><tr><th>話す</th><td>話さす</td><td><strike>話ささない</strike></td><td>話ささへん</td></tr><tr><th>する</th><td>さす</td><td><strike>ささない</strike></td><td>ささへん</td></tr></table><h2>Causative
+  passive short form<sup class="lexicon-indicator" title="A collective term for the dictionary, simple
+  past tense, and negative form. Also known as the plain form. For example 行く, 行かない, 行った, and 行かなかった."><a
+  class="lexicon-term" href="/taxonomy/term/166/" title="A collective term for the dictionary, simple
+  past tense, and negative form. Also known as the plain form. For example 行く, 行かない, 行った, and 行かなかった.">?</a></sup>
+  of su-verbs and suru-verbs</h2><table class="full-grid-table"><tr><th>dictionary form<sup class="lexicon-indicator"
+  title="The affirmative short non-past form for a verb."><a class="lexicon-term" href="/taxonomy/term/164/"
+  title="The affirmative short non-past form for a verb.">?</a></sup></th><th><span class="quiet">causative
+  short form</span></th><th colspan="2"><span class="quiet">causative passive short form</span></th></tr><tr><th></th><th></th><th>Standard</th><th>Kansai-ben</th></tr><tr><th>食べる</th><td>食べさす</td><td><strike>食べさされる</strike></td><td>食べさされる</td></tr><tr><th>話す</th><td>話さす</td><td><strike>話さされる</strike></td><td>話さされる</td></tr><tr><th>する</th><td>さす</td><td><strike>さされる</strike></td><td>さされる</td></tr></table><h2>imperative
+  and request with causative</h2><table><tr><th>Standard</th><td>V<sup class="lexicon-indicator" title="Abbreviation
+  for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup>(causative)[-<em>e</em>]＋てください</td></tr><tr><th>Kansai-ben</th><td>V(causative)[-<em>i</em>]＋てください</td></tr></table><table><tr><th>Standard</th><td>考えさ<em>せ</em>てください。<br/>
+  [kangaesas<em>e</em>]</td></tr><tr><th>Kansai-ben</th><td>考えさ<em>し</em>てください。<br/> [kangaesash<em>i</em>]</td></tr></table>
 function_types:
 - function_27
 grammar_types:
 - grammar_102
-title_romaji: Vsasahen/Vsasareru

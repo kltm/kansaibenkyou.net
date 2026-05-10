@@ -1,9 +1,12 @@
 id: word_225
 drupal_node_id: 225
 title: どんつき
-body: end (of a street)
+title_romaji: dontsuki
+body: <p>end (of a street)</p>
+example: <p>そこの<strong>どんつき</strong>を左へ曲がったら駅あるわ。<br/> If you turn left at the end of that street, there'll
+  be a station.</p>
+kanji: どん突き
 standard_kana: つきあたり
 standard_kanji: 突き当たり
 word_types:
 - wordtype_7
-title_romaji: dontsuki

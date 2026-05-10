@@ -1,18 +1,18 @@
 id: word_255
 drupal_node_id: 255
 title: おっさん
-body: uncle; middle-aged man
-commentary: 'おっさん is similar to おっちゃん, but has a slightly ruder feel. You probably want to avoid saying
-  おっさん to the person in question. It should not be used with family members. See おっちゃん for further usage
-  notes.
-
-  The female counterpart of おっさん is おばはん.'
+title_romaji: ossan
+body: <p>uncle; middle-aged man</p>
+commentary: <p>おっさん is similar to <a href="/words/256/">おっちゃん</a>, but has a slightly ruder feel. You
+  probably want to avoid saying おっさん to the person in question. It should not be used with family members.
+  See <a href="/words/256/">おっちゃん</a> for further usage notes.</p><p>The female counterpart of おっさん is
+  <a href="/words/254/">おばはん</a>.</p>
+example: <p>あの<strong>おっさん</strong>いっつもあっこにおんなあ。<br/> That older guy is always over there.</p>
 standard_kana: おじさん
 standard_kanji: 叔父さん
-word_types:
-- wordtype_7
 suitability:
 - icon: i-warning.png
   label: potentially rude
   tooltip: Indicates speech that could be upsetting to listeners.
-title_romaji: ossan
+word_types:
+- wordtype_7

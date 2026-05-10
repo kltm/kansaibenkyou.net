@@ -1,9 +1,10 @@
 id: word_87
 drupal_node_id: 87
 title: めくそ
-body: eye booger
+title_romaji: mekuso
+body: <p>eye booger</p>
+kanji: 目くそ
 standard_kana: めやに
 standard_kanji: 目やに
 word_types:
 - wordtype_7
-title_romaji: mekuso

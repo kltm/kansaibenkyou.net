@@ -1,10 +1,13 @@
 id: word_294
 drupal_node_id: 294
 title: どこぞ
-body: anywhere; somewhere
-commentary: Also see なんぞ and だれぞ.
+title_romaji: dokozo
+body: <p>anywhere; somewhere</p>
+commentary: <p>Also see <a href="/words/189/">なんぞ</a> and <a href="/words/284/">だれぞ</a>.</p>
+example: '<p>A: まだ、時間あるなあ。<br/> B: <strong>どこぞ</strong>で休もか？</p><p>A: We have some time.<br/> B: Should
+  we take a break somewhere?</p>'
+kanji: 何処ぞ
 standard_kana: どこか
 standard_kanji: 何処か
 word_types:
 - wordtype_16
-title_romaji: dokozo

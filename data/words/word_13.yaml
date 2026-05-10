@@ -1,10 +1,10 @@
 id: word_13
 drupal_node_id: 13
 title: きつねうどん
-body: udon with deep-fried tofu
-commentary: Some people say けつね instead of きつね. There may be some variations about what constitutes きつね
-  depending on one's exact location.
+title_romaji: kitsuneudon
+body: <p>udon with deep-fried tofu</p>
+commentary: <p>Some people say <a href="/words/14/">けつね</a> instead of きつね. There may be some variations
+  about what constitutes きつね depending on one's exact location.</p>
 standard_kana: あげうどん
 word_types:
 - wordtype_3
-title_romaji: kitsuneudon

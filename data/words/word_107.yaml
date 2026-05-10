@@ -1,10 +1,11 @@
 id: word_107
 drupal_node_id: 107
 title: いわす
-body: to beat someone up; to injure or break (body parts)
-commentary: いわす is not usually used in a figurative sense.
+title_romaji: iwasu
+body: <p>to beat someone up; to injure or break (body parts)</p>
+commentary: <p>いわす is not usually used in a figurative sense.</p>
+example: <p>ひざ<strong>いわして</strong>しもて、歩かれへんねん。<br/> I hurt my knee, so I can't walk.</p>
 standard_kana: やっつける／(からだを)こわす
 standard_kanji: やっつける／(体を)壊す
 word_types:
 - wordtype_18
-title_romaji: iwasu

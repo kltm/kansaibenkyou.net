@@ -1,9 +1,11 @@
 id: word_136
 drupal_node_id: 136
 title: さぶいぼ
-body: goose bumps
+title_romaji: sabuibo
+body: <p>goose bumps</p>
+example: <p>お前、めっちゃ<strong>さぶいぼ</strong>立ってんで。ジャケット着たら？<br/> Hey, you're covered in goosebumps; want a
+  jacket?</p>
 standard_kana: とりはだ
 standard_kanji: 鳥肌
 word_types:
 - wordtype_7
-title_romaji: sabuibo

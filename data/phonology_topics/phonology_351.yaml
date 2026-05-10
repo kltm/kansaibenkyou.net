@@ -1,188 +1,21 @@
 id: phonology_351
 drupal_node_id: 351
 title: Vowel Extension
-body: 'In words that consist of only one mora?, the vowels at the end tend to extend and become two mora.
-  For example:
-
-  Word
-
-  Standard
-
-  Kansai-ben
-
-  [↓]
-
-  [↓]
-
-  胃
-
-  stomach
-
-  い
-
-  いぃ
-
-  絵
-
-  picture
-
-  え
-
-  えぇ
-
-  蚊
-
-  mosquito
-
-  か
-
-  かぁ
-
-  気
-
-  mind
-
-  き
-
-  きぃ
-
-  木
-
-  tree
-
-  き
-
-  きぃ
-
-  毛
-
-  hair
-
-  け
-
-  けぇ
-
-  四
-
-  four
-
-  し
-
-  しぃ
-
-  字
-
-  letter
-
-  じ
-
-  じぃ
-
-  背
-
-  height
-
-  せ
-
-  せぇ
-
-  血
-
-  blood
-
-  ち
-
-  ちぃ
-
-  手
-
-  hand
-
-  て
-
-  てぇ
-
-  戸
-
-  door
-
-  と
-
-  とぉ
-
-  二
-
-  two
-
-  に
-
-  にぃ
-
-  歯
-
-  teeth
-
-  は
-
-  はぁ
-
-  日
-
-  sun
-
-  ひ
-
-  ひぃ
-
-  目
-
-  eye
-
-  め
-
-  めぇ
-
-  Also, for verbs where the stem? consists of one mora, the end vowel sometimes extends depending on the
-  conjugation.
-
-  Word
-
-  Imperative-form
-
-  Negative form
-
-  寝る
-
-  to sleep
-
-  ねぇ
-
-  ねぇへん
-
-  見る
-
-  to watch
-
-  みぃ
-
-  みぃひん
-
-  来る
-
-  to come
-
-  きぃ
-
-  きぃひん
-
-  けぇへん
-
-  する
-
-  to do
-
-  しぃ
-
-  しぃひん
-
-  せぇへん'
+body: '<p>In words that consist of only one mora<sup also="" and="" are="" as="" class="lexicon-indicator"
+  counting="" example:="" for="" has="" hiragana="" like="" mora="" moras="" moras.="" one="" sounds=""
+  things="" title="In Japanese, essentially all of the " two=""><a class="lexicon-term" href="/taxonomy/term/181/"
+  title=''In Japanese, essentially all of the "hiragana sounds" are one mora (with things like しゃ, きょ,
+  and ん also counting as one). For example: いぬ has two moras and かんさいべんきょう has 8 moras. ''>?</a></sup>,
+  the vowels at the end tend to extend and become two mora. For example:</p><table class="full-grid-table"><tr><th
+  colspan="2">Word</th><th>Standard</th><th>Kansai-ben</th></tr><tr><td></td><td></td><td><p class="kb-audio"
+  id="audioplayer-1"><a href="/assets/audio/st_i.mp3">[↓]</a></p></td><td><p class="kb-audio" id="audioplayer-2"><a
+  href="/assets/audio/pho_kb_i.mp3">[↓]</a></p></td></tr><tr><td>胃</td><td>stomach</td><td>い</td><td>いぃ</td></tr><tr><td>絵</td><td>picture</td><td>え</td><td>えぇ</td></tr><tr><td>蚊</td><td>mosquito</td><td>か</td><td>かぁ</td></tr><tr><td>気</td><td>mind</td><td>き</td><td>きぃ</td></tr><tr><td>木</td><td>tree</td><td>き</td><td>きぃ</td></tr><tr><td>毛</td><td>hair</td><td>け</td><td>けぇ</td></tr><tr><td>四</td><td>four</td><td>し</td><td>しぃ</td></tr><tr><td>字</td><td>letter</td><td>じ</td><td>じぃ</td></tr><tr><td>背</td><td>height</td><td>せ</td><td>せぇ</td></tr><tr><td>血</td><td>blood</td><td>ち</td><td>ちぃ</td></tr><tr><td>手</td><td>hand</td><td>て</td><td>てぇ</td></tr><tr><td>戸</td><td>door</td><td>と</td><td>とぉ</td></tr><tr><td>二</td><td>two</td><td>に</td><td>にぃ</td></tr><tr><td>歯</td><td>teeth</td><td>は</td><td>はぁ</td></tr><tr><td>日</td><td>sun</td><td>ひ</td><td>ひぃ</td></tr><tr><td>目</td><td>eye</td><td>め</td><td>めぇ</td></tr></table><p>Also,
+  for verbs where the stem<sup also="" and="" as="" class="lexicon-indicator" example:="" for="" form.=""
+  is="" known="" masu="" pre-masu="" the="" this="" title="The long (masu) verb form without the final
+  "><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu) verb form without the final
+  "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し, and き.''>?</a></sup> consists
+  of one mora, the end vowel sometimes extends depending on the conjugation.</p><table class="full-grid-table"><tr><th
+  colspan="2">Word</th><th><a href="/grammar-points/139/">Imperative-form</a></th><th><a href="/grammar-points/296/">Negative
+  form</a></th></tr><tr><td>寝る</td><td>to sleep</td><td>ねぇ</td><td>ねぇへん</td></tr><tr><td>見る</td><td>to
+  watch</td><td>みぃ</td><td>みぃひん</td></tr><tr><td>来る</td><td>to come</td><td>きぃ</td><td>きぃひん<br/> けぇへん</td></tr><tr><td>する</td><td>to
+  do</td><td>しぃ</td><td>しぃひん<br/> せぇへん</td></tr></table>'

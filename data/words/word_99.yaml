@@ -1,13 +1,14 @@
 id: word_99
 drupal_node_id: 99
 title: あんじょう
-body: well; faithfully; steadily
+title_romaji: anjou
+body: <p>well; faithfully; steadily</p>
+example: <p>あんた<strong>あんじょう</strong>料理するなあ。これおいしいわ。<br/> This is great! You're always such a good cook.</p>
 standard_kana: じょうずに／うまく／ちゃんと／しっかりと
 standard_kanji: 上手に／上手く／ちゃんと／しっかりと
-word_types:
-- wordtype_15
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: anjou
+word_types:
+- wordtype_15

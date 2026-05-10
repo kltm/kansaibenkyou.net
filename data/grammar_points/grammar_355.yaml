@@ -1,28 +1,41 @@
 id: grammar_355
 drupal_node_id: 355
 title: Vはる
-body: While there are several ways to express honorifics in standard Japanese (such as using おVになる／なさる,
+title_romaji: Vharu
+body: <p>While there are several ways to express honorifics in standard Japanese (such as using おVになる／なさる,
   Vれる／られる, and special honorific words like めしあがる), just adding はる to the verb can be used as an honorific
-  in Kansai-ben.
-commentary: <h2>Honorifics in Osaka</h2><p>In Osaka, the affirmative stem form is used instead of the
-  negative stem form.</p><table class="full-grid-table"><tbody><tr><th>Kansai</th><td>V (<em>negative</em>
-  stem) +はる</td><td>行<em>か</em>はる</td></tr><tr><th>Kansai<br /> (Osaka)</th><td>V (<em>affirmative</em>
-  stem) +はる</td><td>行<em>き</em>はる</td></tr></tbody></table></div><h2>Vやはる</h2><p>The honorifics expression
-  of the irregular verbs 来る and する are きはる and しはる respectively. There is also a Vやはる form that can be
-  used with the preceding verbs as well as いる.</p><table class="full-grid-table"><tr><th></th><th>Vはる</th><th>Vやはる</th></tr><tr><th>来る</th><td>きはる</td><td>きやはる</td></tr><tr><th>する</th><td>しはる</td><td>しやはる</td></tr><tr><th>いる</th><td>いはる</td><td>いやはる</td></tr></table></div><h2>Vている
-  + はる</h2><p>When はる is used with the <a href="331">ている form</a>, Vたはる is used instead of Vてはる.</p><table
-  class="full-grid-table"><tr><th></th><th>Vてはる</th><th>Vたはる</th></tr><tr><th>見ている</th><td>見てはる</td><td>見たはる</td></tr></table><p>It
+  in Kansai-ben.</p>
+commentary: '<h2>Honorifics in Osaka</h2><p>In Osaka, the affirmative stem<sup also="" and="" as="" class="lexicon-indicator"
+  example:="" for="" form.="" is="" known="" masu="" pre-masu="" the="" this="" title="The long (masu)
+  verb form without the final "><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu)
+  verb form without the final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し,
+  and き.''>?</a></sup> form is used instead of the negative stem<sup and="" class="lexicon-indicator"
+  example:="" for="" in="" japanese="" kansai-ben.="" nai="" or="" standard="" title="The short negative
+  form without the final "><a class="lexicon-term" href="/taxonomy/term/169/" title=''The short negative
+  form without the final "nai" in standard Japanese or "ん" in Kansai-ben. For example: 食べ, 行か, し, and
+  こ in standard Japanese and 食べ, 行か, せ, and こ in Kansai-ben.''>?</a></sup> form.</p><table class="full-grid-table"><tbody><tr><th>Kansai</th><td>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup> (<em>negative</em> stem) +はる</td><td>行<em>か</em>はる</td></tr><tr><th>Kansai<br/>
+  (Osaka)</th><td>V (<em>affirmative</em> stem) +はる</td><td>行<em>き</em>はる</td></tr></tbody></table><h2>Vやはる</h2><p>The
+  honorifics expression of the irregular verbs 来る and する are きはる and しはる respectively. There is also a
+  Vやはる form that can be used with the preceding verbs as well as いる.</p><table class="full-grid-table"><tr><th></th><th>Vはる</th><th>Vやはる</th></tr><tr><th>来る</th><td>きはる</td><td>きやはる</td></tr><tr><th>する</th><td>しはる</td><td>しやはる</td></tr><tr><th>いる</th><td>いはる</td><td>いやはる</td></tr></table><h2>Vている
+  + はる</h2><p>When はる is used with the <a href="/grammar-points/331/">ている form</a>, Vたはる is used instead
+  of Vてはる.</p><table class="full-grid-table"><tr><th></th><th>Vてはる</th><th>Vたはる</th></tr><tr><th>見ている</th><td>見てはる</td><td>見たはる</td></tr></table><p>It
   should be noted that since おる is used instead of いる in the area of Kobe, there is no Vている, but instead
-  Vておる is used. In addition, in this case, です is used instead of ます.</p><table class="full-grid-table"><tr><th>Kansai</th><td>いてはりますか。</td><td>知ってはりますか</td></tr><tr><th>Kansai<br
-  /> (Kobe)</th><td>おってですか。</td><td>知っとってですか。</td></tr></table></div><h2>Other functions of Vはる</h2><p>Vはる
-  is used not only as an honorific expression, but also can be used to increase politeness or when trying
-  to describe something objectively.</p><table><tr><th>Standard</th><td>あの子、なんで<em>泣いてはる</em>んやろ。</td></tr><tr><th>Kansai</th><td>あの子、どうして<em>泣いている</em>んだろう。</td></tr><tr><th>English</th><td>I
-  wonder why the kid is crying.</td></tr></table>
-formation: <p>V (negative stem) +はる</p>
-kansai_vs_standard: <table class="full-grid-table"><tr><th>Standard</th><td><em>Vになる／なさる<br /> Vれる／られる<br
-  /> special honorific words</em></td><td><em>お食べになる<br /> 食べられる<br /> 召し上がる</em></td></tr><tr><th>Kansai</th><td><em>Vはる</em></td><td><em>食べはる</em></td></tr><tr></tr></table>
+  Vておる is used. In addition, in this case, です is used instead of ます.</p><table class="full-grid-table"><tr><th>Kansai</th><td>いてはりますか。</td><td>知ってはりますか</td></tr><tr><th>Kansai<br/>
+  (Kobe)</th><td>おってですか。</td><td>知っとってですか。</td></tr></table><h2>Other functions of Vはる</h2><p>Vはる is used
+  not only as an honorific expression, but also can be used to increase politeness or when trying to describe
+  something objectively.</p><table><tr><th>Standard</th><td>あの子、なんで<em>泣いてはる</em>んやろ。</td></tr><tr><th>Kansai</th><td>あの子、どうして<em>泣いている</em>んだろう。</td></tr><tr><th>English</th><td>I
+  wonder why the kid is crying.</td></tr></table>'
+formation: '<p>V<sup class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term"
+  href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup> (negative stem<sup and="" class="lexicon-indicator"
+  example:="" for="" in="" japanese="" kansai-ben.="" nai="" or="" standard="" title="The short negative
+  form without the final "><a class="lexicon-term" href="/taxonomy/term/169/" title=''The short negative
+  form without the final "nai" in standard Japanese or "ん" in Kansai-ben. For example: 食べ, 行か, し, and
+  こ in standard Japanese and 食べ, 行か, せ, and こ in Kansai-ben.''>?</a></sup>) +はる</p>'
+kansai_vs_standard: <table class="full-grid-table"><tr><th>Standard</th><td><em>Vになる／なさる<br/> Vれる／られる<br/>
+  special honorific words</em></td><td><em>お食べになる<br/> 食べられる<br/> 召し上がる</em></td></tr><tr><th>Kansai</th><td><em>Vはる</em></td><td><em>食べはる</em></td></tr></table>
 function_types:
 - function_19
 grammar_types:
 - grammar_139
-title_romaji: Vharu

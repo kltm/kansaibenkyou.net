@@ -1,8 +1,9 @@
 id: word_347
 drupal_node_id: 347
 title: どんぐらい
-body: about how much; about how long
+title_romaji: dongurai
+body: <p>about how much; about how long</p>
+example: <p>あと<strong>どんぐらい</strong>で着くん？<br/> After about how long until we arrive?</p>
 standard_kana: どのくらい
 word_types:
 - wordtype_16
-title_romaji: dongurai

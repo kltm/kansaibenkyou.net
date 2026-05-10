@@ -1,66 +1,16 @@
 id: phonology_388
 drupal_node_id: 388
 title: Group H Examples
-body: '(● = high pitch?, ○ = low pitch)
-
-  Standard
-
-  Kansai-ben
-
-  (鼻)
-
-  はな
-
-  ○●
-
-  [↓]
-
-  ●●
-
-  [↓]
-
-  (花)
-
-  はな
-
-  ○●
-
-  [↓]
-
-  ●○
-
-  [↓]
-
-  (明日)
-
-  あした
-
-  ○●●
-
-  [↓]
-
-  ●●●
-
-  [↓]
-
-  (昨日)
-
-  きのう
-
-  ○●○
-
-  [↓]
-
-  ●○○
-
-  [↓]
-
-  アメリカ
-
-  ○●●●
-
-  [↓]
-
-  ●●●●
-
-  [↓]'
+body: <p>(● = high pitch<sup class="lexicon-indicator" title="The relative tone of a sound."><a class="lexicon-term"
+  href="/taxonomy/term/182/" title="The relative tone of a sound.">?</a></sup>, ○ = low pitch)</p><table
+  class="full-grid-table"><tr><th></th><th>Standard</th><th>Kansai-ben</th></tr><tr><td>(鼻)<br/> はな</td><td>○●<br/><p
+  class="kb-audio" id="audioplayer-1"><a href="/assets/audio/st_hananose.mp3">[↓]</a></p></td><td>●●<br/><p
+  class="kb-audio" id="audioplayer-15"><a href="/assets/audio/pho_kb _hananose.mp3">[↓]</a></p></td></tr><tr><td>(花)<br/>
+  はな</td><td>○●<br/><p class="kb-audio" id="audioplayer-2"><a href="/assets/audio/st_hanaflower.mp3">[↓]</a></p></td><td>●○<br/><p
+  class="kb-audio" id="audioplayer-6"><a href="/assets/audio/pho_kb_hanaf.mp3">[↓]</a></p></td></tr><tr><td>(明日)<br/>
+  あした</td><td>○●●<br/><p class="kb-audio" id="audioplayer-3"><a href="/assets/audio/st_ashita.mp3">[↓]</a></p></td><td>●●●<br/><p
+  class="kb-audio" id="audioplayer-7"><a href="/assets/audio/pho_kb_ashita.mp3">[↓]</a></p></td></tr><tr><td>(昨日)<br/>
+  きのう</td><td>○●○<br/><p class="kb-audio" id="audioplayer-4"><a href="/assets/audio/st_kinou.mp3">[↓]</a></p></td><td>●○○<br/><p
+  class="kb-audio" id="audioplayer-8"><a href="/assets/audio/pho_kb_kinou.mp3">[↓]</a></p></td></tr><tr><td><span
+  class="nowrap">アメリカ</span></td><td>○●●●<br/><p class="kb-audio" id="audioplayer-5"><a href="/assets/audio/st_america.mp3">[↓]</a></p></td><td>●●●●<br/><p
+  class="kb-audio" id="audioplayer-9"><a href="/assets/audio/pho_kb_america.mp3">[↓]</a></p></td></tr></table>

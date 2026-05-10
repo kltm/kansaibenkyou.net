@@ -1,18 +1,17 @@
 id: word_155
 drupal_node_id: 155
 title: うち
-body: I (feminine)
-commentary: 'うち is a first person feminine singular pronoun. The plural form is うちら.
-
-  うち can also mean house, home, and family. In that case, うち may be used by both men and women.
-
-  Also see うっとこ.'
+title_romaji: uchi
+body: <p>I (feminine)</p>
+commentary: <p>うち is a first person <em>feminine</em> singular pronoun. The plural form is うちら.</p><p>うち
+  can also mean house, home, and family. In that case, うち may be used by both men and women. </p><p>Also
+  see <a href="/words/203/">うっとこ</a>.</p>
+example: <p><strong>うち</strong>、アメリカ行きたいねん。<br/> I want to go to America.</p>
 standard_kana: わたし
 standard_kanji: 私
-word_types:
-- wordtype_115
 suitability:
 - icon: i-female.png
   label: female speech
   tooltip: Indicates special use by female speakers.
-title_romaji: uchi
+word_types:
+- wordtype_115

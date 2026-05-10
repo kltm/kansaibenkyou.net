@@ -1,9 +1,10 @@
 id: word_59
 drupal_node_id: 59
 title: ちめたい
-body: cold
+title_romaji: chimetai
+body: <p>cold</p>
+example: <p>ああ、<strong>ちめたい</strong>水、おいしいわ。<br/> Oh yeah, this clod water tastes good.</p>
 standard_kana: つめたい
 standard_kanji: 冷たい
 word_types:
 - wordtype_12
-title_romaji: chimetai

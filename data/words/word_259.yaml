@@ -1,13 +1,14 @@
 id: word_259
 drupal_node_id: 259
 title: どもならん
-body: can't be helped; (be resigned)
-commentary: Also see どんならん.
+title_romaji: domonaran
+body: <p>can't be helped; (be resigned)</p>
+commentary: <p>Also see <a href="/words/224/">どんならん</a>.</p>
+example: <p>毎日、雨で<strong>どもならん</strong>なあ。<br/> Raining every day...well, what are you gunna do.</p>
 standard_kana: どうにもならない
-word_types:
-- wordtype_15
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: domonaran
+word_types:
+- wordtype_15

@@ -1,50 +1,19 @@
 id: phonology_392
 drupal_node_id: 392
 title: Gratitude
-body: 'Standard
-
-  Kansai-ben
-
-  ありがとう
-
-  [↓]
-
-  ありがとう1
-
-  [↓]
-
-  ありがとうございます
-
-  [↓]
-
-  ありがとございます
-
-  [↓]
-
-  どうも
-
-  [↓]
-
-  どうも
-
-  [↓]
-
-  こちらこそ
-
-  [↓]
-
-  こちらこそ
-
-  [↓]
-
-  どういたしまして
-
-  [↓]
-
-  どういたしまして2
-
-  [↓]
-
-  1. おおきに is also used.
-
-  2. かまへん is more common.'
+body: <table><tbody><tr><th>Standard</th><th>Kansai-ben</th></tr><tr><td>ありがとう<br/><p class="kb-audio"
+  id="audioplayer-20"><a href="/assets/audio/st_arigatou.mp3">[↓]</a></p></td><td>ありがとう<a class="see-footnote"
+  href="/phonology/392/#footnote1_lgwa8j0" id="footnoteref1_lgwa8j0" title="おおきに is also used.">1</a><br/><p
+  class="kb-audio" id="audioplayer-58"><a href="/assets/audio/pho_kb_arigato.mp3">[↓]</a></p></td></tr><tr><td>ありがとうございます<br/><p
+  class="kb-audio" id="audioplayer-21"><a href="/assets/audio/st_arigatogoza.mp3">[↓]</a></p></td><td>ありがとございます<br/><p
+  class="kb-audio" id="audioplayer-59"><a href="/assets/audio/pho_kb_arigatogoza.mp3">[↓]</a></p></td></tr><tr><td>どうも<br/><p
+  class="kb-audio" id="audioplayer-22"><a href="/assets/audio/st_domo.mp3">[↓]</a></p></td><td>どうも<br/><p
+  class="kb-audio" id="audioplayer-60"><a href="/assets/audio/pho_kb_domo.mp3">[↓]</a></p></td></tr><tr><td>こちらこそ<br/><p
+  class="kb-audio" id="audioplayer-23"><a href="/assets/audio/st_kochirakoso.mp3">[↓]</a></p></td><td>こちらこそ<br/><p
+  class="kb-audio" id="audioplayer-61"><a href="/assets/audio/pho_kb_kochira.mp3">[↓]</a></p></td></tr><tr><td>どういたしまして<br/><p
+  class="kb-audio" id="audioplayer-24"><a href="/assets/audio/st_douitashi.mp3">[↓]</a></p></td><td>どういたしまして<a
+  class="see-footnote" href="/phonology/392/#footnote2_h4fofwr" id="footnoteref2_h4fofwr" title="かまへん
+  is more common.">2</a><br/><p class="kb-audio" id="audioplayer-62"><a href="/assets/audio/pho_kb_doitashi.mp3">[↓]</a></p></td></tr></tbody></table><ul
+  class="footnotes"><li class="footnote" id="footnote1_lgwa8j0"><a class="footnote-label" href="/phonology/392/#footnoteref1_lgwa8j0">1.</a>
+  おおきに is also used.</li><li class="footnote" id="footnote2_h4fofwr"><a class="footnote-label" href="/phonology/392/#footnoteref2_h4fofwr">2.</a>
+  かまへん is more common.</li></ul>

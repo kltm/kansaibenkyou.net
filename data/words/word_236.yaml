@@ -1,9 +1,10 @@
 id: word_236
 drupal_node_id: 236
 title: ほたえる
-body: to be too loud; to be to be meaninglessly noisy
+title_romaji: hotaeru
+body: <p>to be too loud; to be to be meaninglessly noisy</p>
+example: <p>何<strong>ほたえて</strong>んねん。静かにしてえや。<br/> What are you going on about? Be quiet.</p>
 standard_kana: さわぐ
 standard_kanji: 騒ぐ
 word_types:
 - wordtype_17
-title_romaji: hotaeru

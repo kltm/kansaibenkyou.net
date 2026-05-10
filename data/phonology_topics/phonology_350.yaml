@@ -1,25 +1,10 @@
 id: phonology_350
 drupal_node_id: 350
 title: Dropping “う”
-body: 'In Kansai-ben, the long vowel “う” often drops. Typical of this are the te-form? of verbs, i-adjectives,
-  and volitional forms. For example:
-
-  verbs te-form
-
-  i-adjectives te-form
-
-  volitional form
-
-  思うて
-
-  早うて
-
-  行こう
-
-  思　て
-
-  早　て
-
-  行こ
-
-  Besides the above, there are many cases where the “う” drops such as “やろう→やろ,” “そうや→そや,” and “Vてもうた→Vてもた.”'
+body: '<p>In Kansai-ben, the long vowel “う” often drops. Typical of this are the te-form<sup class="lexicon-indicator"
+  title="For example: 食べて, 行って, して, and 来て."><a class="lexicon-term" href="/taxonomy/term/171/" title="For
+  example: 食べて, 行って, して, and 来て.">?</a></sup> of verbs, i-adjectives, and volitional forms. For example:</p><table
+  class="full-grid-table"><tr><th><a href="/grammar-points/301/">verbs te-form</a></th><th><a href="/grammar-points/337/">i-adjectives
+  te-form</a></th><th><a href="/grammar-points/336/">volitional form</a></th></tr><tr><td>思<em>う</em>て</td><td>早<em>う</em>て</td><td>行こ<em>う</em></td></tr><tr><td>思
+  て</td><td>早 て</td><td>行こ </td></tr></table><p>Besides the above, there are many cases where the “う”
+  drops such as “<a href="/grammar-points/330/">やろう→やろ</a>,” “そうや→そや,” and “<a href="/grammar-points/327/">Vてもうた→Vてもた</a>.”</p>'

@@ -1,46 +1,94 @@
 id: grammar_311
 drupal_node_id: 311
 title: やん／やんか／やんけ／がな
-body: 'The standard Japanese endings __じゃないか,  __ではないか, and __じゃん can become __やん, __やんか/やんけ, and __がな
-  respectively in Kansai-ben.
-
-  These Kansai sentence endings can also be used in the same way as __んだよ in standard Japanese.
-
-  There are many uses for these sentence endings; common ones are confirmation, excuses, accusation, notification,
-  and persuasion. The function changes depending on the situation and tone. The __がな ending is used more
-  often by older people.'
+title_romaji: yan/yanka/yanke/gana
+body: <p>The standard Japanese endings __じゃないか, __ではないか, and __じゃん can become __やん, __やんか/やんけ, and __がな
+  respectively in Kansai-ben.<br/> These Kansai sentence endings can also be used in the same way as __んだよ
+  in standard Japanese.<br/> There are many uses for these sentence endings; common ones are confirmation,
+  excuses, accusation, notification, and persuasion. The function changes depending on the situation and
+  tone. The __がな ending is used more often by older people.</p>
 commentary: <h2>Combinations of sentence endings</h2><p>やん, やんか, やんけ, and がな are often attached to other
-  sentence endings for asking and explanations (e.g., <a href="309">ねん, てん, ん, のん and たん</a>). In those
-  cases, they are used in the same way as んだよ in standard Japanese.</p><table><caption>＿＿ねんやん(か)</caption><tbody><tr><th>Standard</th><td>夏休み、ハワイ行く<em>んだよ</em>。</td></tr><tr><th>Kansai-ben</th><td>夏休み、ハワイ行く<em>ねんやん(か)</em>。</td></tr><tr><th>English</th><td>On
+  sentence endings for asking and explanations (e.g., <a href="/grammar-points/309/">ねん, てん, ん, のん and
+  たん</a>). In those cases, they are used in the same way as んだよ in standard Japanese.</p><table><caption>＿＿ねんやん(か)</caption><tbody><tr><th>Standard</th><td>夏休み、ハワイ行く<em>んだよ</em>。</td></tr><tr><th>Kansai-ben</th><td>夏休み、ハワイ行く<em>ねんやん(か)</em>。</td></tr><tr><th>English</th><td>On
   summer vacation, I'm going to Hawaii.</td></tr></tbody></table><table><caption>＿＿たんやん</caption><tbody><tr><th>Standard</th><td>あの人、実は彼女(が)い<em>たんだよ</em>。</td></tr><tr><th>Kansai-ben</th><td>あの人、実は彼女おっ<em>たんやん(か)</em>。</td></tr><tr><th>English</th><td>Actually,
   he has a girlfriend.</td></tr></tbody></table><table><caption>＿＿んやがな</caption><tbody><tr><th>Standard</th><td>明日、まごが来る<em>んだよ</em>。</td></tr><tr><th>Kansai-ben</th><td>明日、まご来る<em>んやがな</em>。</td></tr><tr><th>English</th><td>My
-  grandkid is coming tomorrow.</td></tr></tbody></table></div><h2>Polite Expressions</h2><p>やん, やんか, やんけ,
-  and がな can be used with ですor ます for politeness, but are rarely used in a formal setting.</p><table><caption>＿＿ましたやんか</caption><tbody><tr><th>Standard</th><td>昨日、電話すると<em>言ったじゃないですか</em>。</td></tr><tr><th>Kansai-ben</th><td>昨日、電話する<em>言いましたやんか</em>。</td></tr><tr><th>English</th><td>Didn't
-  I say that I was going to call you yesterday?</td></tr></tbody></table><table><caption>politeness level</caption><tr><th>high</th><td>昨日、電話すると<em>言ったじゃないですか。</em></td></tr><tr><th>↑<br
-  /> ↓</th><td>昨日、電話する<em>言いましたやんか。</em></td></tr><tr><th>low</th><td>昨日、電話する<em>言うたやんか</em>。</td></tr></table>
+  grandkid is coming tomorrow.</td></tr></tbody></table><h2>Polite Expressions</h2><p>やん, やんか, やんけ, and
+  がな can be used with ですor ます for politeness, but are rarely used in a formal setting.</p><table><caption>＿＿ましたやんか</caption><tbody><tr><th>Standard</th><td>昨日、電話すると<em>言ったじゃないですか</em>。</td></tr><tr><th>Kansai-ben</th><td>昨日、電話する<em>言いましたやんか</em>。</td></tr><tr><th>English</th><td>Didn't
+  I say that I was going to call you yesterday?</td></tr></tbody></table><table><caption>politeness level</caption><tr><th>high</th><td>昨日、電話すると<em>言ったじゃないですか。</em></td></tr><tr><th>↑<br/>
+  ↓</th><td>昨日、電話する<em>言いましたやんか。</em></td></tr><tr><th>low</th><td>昨日、電話する<em>言うたやんか</em>。</td></tr></table>
 example: <table><caption>＿＿やんか (confirmation, accusation)</caption><tbody><tr><th>Standard</th><td>さっき、言った<em>じゃない</em>。</td></tr><tr><th>Kansai-ben</th><td>さっき、言うた<em>やんか</em>。</td></tr><tr><th>English</th><td>Didn't
-  I just said that?</td></tr></tbody></table></div><table><caption>＿＿やんか (excuse)</caption><tbody><tr><th>Standard</th><td>だって、あなた教えてくれなかった<em>じゃない</em>。</td></tr><tr><th>Kansai-ben</th><td>だって、あんた教えてくれへんかった<em>やんか</em>。</td></tr><tr><th>English</th><td>It's
-  because you didn't let me know.</td></tr></tbody></table></div><table><caption>＿＿やんか and ＿＿やわ (notification)</caption><tbody><tr><th>Standard</th><td>あ、もうこんな時間<em>じゃない</em>。<br
-  /> あ、もうこんな時間<em>だわ</em>。</td></tr><tr><th>Kansai-ben</th><td>あ、もうこんな時間<em>やんか</em>。<br /> あ、もうこんな時間<em>やわ</em>*。</td></tr><tr><th>English</th><td>Ugh,
+  I just said that?</td></tr></tbody></table><table><caption>＿＿やんか (excuse)</caption><tbody><tr><th>Standard</th><td>だって、あなた教えてくれなかった<em>じゃない</em>。</td></tr><tr><th>Kansai-ben</th><td>だって、あんた教えてくれへんかった<em>やんか</em>。</td></tr><tr><th>English</th><td>It's
+  because you didn't let me know.</td></tr></tbody></table><table><caption>＿＿やんか and ＿＿やわ (notification)</caption><tbody><tr><th>Standard</th><td>あ、もうこんな時間<em>じゃない</em>。<br/>
+  あ、もうこんな時間<em>だわ</em>。</td></tr><tr><th>Kansai-ben</th><td>あ、もうこんな時間<em>やんか</em>。<br/> あ、もうこんな時間<em>やわ</em>*。</td></tr><tr><th>English</th><td>Ugh,
   it's that time already?</td></tr></tbody></table><p>*When やん, やんか, やんけ and がな are used as notification,
-  they are used the same as the final particle <a href="304">わ</a>.</p></div><table><caption>＿＿がな (persuasion)</caption><tbody><tr><th>Standard</th><td>きちんと説明したら分かってくれる<em>んじゃないの</em>。<br
-  /> きちんと説明したら分かってくれる<em>よ</em>。 </td></tr><tr><th>Kansai-ben</th><td>ちゃんと説明したら分かってくれる<em>がな</em>。</td></tr><tr><th>English</th><td>They
+  they are used the same as the final particle <a href="/grammar-points/304/">わ</a>.</p><table><caption>＿＿がな
+  (persuasion)</caption><tbody><tr><th>Standard</th><td>きちんと説明したら分かってくれる<em>んじゃないの</em>。<br/> きちんと説明したら分かってくれる<em>よ</em>。
+  </td></tr><tr><th>Kansai-ben</th><td>ちゃんと説明したら分かってくれる<em>がな</em>。</td></tr><tr><th>English</th><td>They
   would understand if you explained it properly.</td></tr></tbody></table>
-formation: <h2>＿＿やん／やんか／やんけ</h2><table><tr><th>V and i-Adj</th><td><em>short form+やん／やんか／やんけ*<em></em></em></td></tr><tr><th>na-Adj
-  and N</th><td><em>stem+やん／やんか／やんけ*</em></td></tr></table><p>*やんけ is used more often by people in Kawachi
-  (east of Osaka) and Wakayama.</p></div><h2>＿＿がな</h2><table><tr><th>V and i-Adj</th><td><em>short form+がな<em></em></em></td></tr><tr><th>na-Adj
-  and N</th><td><em>stem+やがな</em></td></tr></table>
-formation_from_standard: <h2>＿＿やん／やんか／やんけ</h2><table class="full-grid-table"><tr><th></th><th>V (short-form)</th><th>i-Adj
-  (short-form)</th><th>na-Adj (short-form)</th><th>N (short-form)</th></tr><tr><th>Standard</th><td>行く<em>
-  じゃないか</em></td><td>大きい<em> じゃないか</em></td><td>しずか<em> じゃないか</em></td><td>学生<em> じゃないか</em></td></tr><tr><th>Kansai-ben</th><td>行く<em>
-  やん</em><br /> 行く<em> やんか</em><br /> 行く<em> やんけ</em></td><td>大きい<em> やん</em><br /> 大きい<em> やんか</em><br
-  /> 大きい<em> やんけ</em></td><td>しずか<em> やん</em><br /> しずか<em> やんか</em><br /> しずか<em> やんけ</em></td><td>学生<em>
-  やん</em><br /> 学生<em> やんか</em><br /> 学生<em> やんけ</em></td></tr></table></div><h2>＿＿がな</h2><table class="full-grid-table"><tr><th></th><th>V
-  (short-form)</th><th>i-Adj (short-form)</th><th>na-Adj (short-form)</th><th>N (short-form)</th></tr><tr><th>Standard</th><td>行く<em>
-  じゃないか</em></td><td>大きい<em> じゃないか</em></td><td>しずか<em> じゃないか</em></td><td>学生<em> じゃないか</em></td></tr><tr><th>Kansai-ben</th><td>行く<em>
-  がな</em></td><td>大きい<em> がな</em></td><td>しずか<em> やがな</em></td><td>学生<em> やがな</em></td></tr></table>
+formation: '<h2>＿＿やん／やんか／やんけ</h2><table><tr><th>V<sup class="lexicon-indicator" title="Abbreviation for
+  verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup>
+  and i-Adj<sup class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective that ends
+  with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation
+  for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></th><td><em>short
+  form<sup class="lexicon-indicator" title="A collective term for the dictionary, simple past tense, and
+  negative form. Also known as the plain form. For example 行く, 行かない, 行った, and 行かなかった."><a class="lexicon-term"
+  href="/taxonomy/term/166/" title="A collective term for the dictionary, simple past tense, and negative
+  form. Also known as the plain form. For example 行く, 行かない, 行った, and 行かなかった.">?</a></sup>+やん／やんか／やんけ*</em></td></tr><tr><th>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup> and N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup></th><td><em>stem<sup also="" and="" as="" class="lexicon-indicator"
+  example:="" for="" form.="" is="" known="" masu="" pre-masu="" the="" this="" title="The long (masu)
+  verb form without the final "><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu)
+  verb form without the final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し,
+  and き.''>?</a></sup>+やん／やんか／やんけ*</em></td></tr></table><p>*やんけ is used more often by people in Kawachi
+  (east of Osaka) and Wakayama.</p><h2>＿＿がな</h2><table><tr><th>V<sup class="lexicon-indicator" title="Abbreviation
+  for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup>
+  and i-Adj<sup class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective that ends
+  with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation
+  for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></th><td><em>short
+  form<sup class="lexicon-indicator" title="A collective term for the dictionary, simple past tense, and
+  negative form. Also known as the plain form. For example 行く, 行かない, 行った, and 行かなかった."><a class="lexicon-term"
+  href="/taxonomy/term/166/" title="A collective term for the dictionary, simple past tense, and negative
+  form. Also known as the plain form. For example 行く, 行かない, 行った, and 行かなかった.">?</a></sup>+がな</em></td></tr><tr><th>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup> and N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup></th><td><em>stem<sup also="" and="" as="" class="lexicon-indicator"
+  example:="" for="" form.="" is="" known="" masu="" pre-masu="" the="" this="" title="The long (masu)
+  verb form without the final "><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu)
+  verb form without the final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し,
+  and き.''>?</a></sup>+やがな</em></td></tr></table>'
+formation_from_standard: '<h2>＿＿やん／やんか／やんけ</h2><table class="full-grid-table"><tr><th></th><th>V<sup class="lexicon-indicator"
+  title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation
+  for verb. ">?</a></sup> (short-form)</th><th>i-Adj<sup class="lexicon-indicator" title="Abbreviation
+  for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term"
+  href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい.">?</a></sup> (short-form)</th><th>na-Adj<sup class="lexicon-indicator" title="Abbreviation
+  for na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな."><a class="lexicon-term"
+  href="/taxonomy/term/180/" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな.">?</a></sup> (short-form)</th><th>N<sup class="lexicon-indicator" title="Abbreviation
+  for noun. "><a class="lexicon-term" href="/taxonomy/term/157/" title="Abbreviation for noun. ">?</a></sup>
+  (short-form)</th></tr><tr><th>Standard</th><td>行く<em> じゃないか</em></td><td>大きい<em> じゃないか</em></td><td>しずか<em>
+  じゃないか</em></td><td>学生<em> じゃないか</em></td></tr><tr><th>Kansai-ben</th><td>行く<em> やん</em><br/> 行く<em>
+  やんか</em><br/> 行く<em> やんけ</em></td><td>大きい<em> やん</em><br/> 大きい<em> やんか</em><br/> 大きい<em> やんけ</em></td><td>しずか<em>
+  やん</em><br/> しずか<em> やんか</em><br/> しずか<em> やんけ</em></td><td>学生<em> やん</em><br/> 学生<em> やんか</em><br/>
+  学生<em> やんけ</em></td></tr></table><h2>＿＿がな</h2><table class="full-grid-table"><tr><th></th><th>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup> (short-form)</th><th>i-Adj<sup class="lexicon-indicator"
+  title="Abbreviation for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい."><a
+  class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an adjective that
+  ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup> (short-form)</th><th>na-Adj<sup class="lexicon-indicator"
+  title="Abbreviation for na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな."><a
+  class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for na-adjective--and adjective
+  that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup> (short-form)</th><th>N<sup class="lexicon-indicator"
+  title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/" title="Abbreviation
+  for noun. ">?</a></sup> (short-form)</th></tr><tr><th>Standard</th><td>行く<em> じゃないか</em></td><td>大きい<em>
+  じゃないか</em></td><td>しずか<em> じゃないか</em></td><td>学生<em> じゃないか</em></td></tr><tr><th>Kansai-ben</th><td>行く<em>
+  がな</em></td><td>大きい<em> がな</em></td><td>しずか<em> やがな</em></td><td>学生<em> やがな</em></td></tr></table>'
 function_types:
 - function_131
 grammar_types:
 - grammar_88
-title_romaji: yan/yanka/yanke/gana

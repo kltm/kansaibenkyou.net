@@ -1,18 +1,19 @@
 id: word_254
 drupal_node_id: 254
 title: おばはん
-body: aunt; middle-aged woman
-commentary: 'おばはん is similar to おばちゃん, but has a slightly ruder feel. You probably want to avoid saying
-  おばはん to the person in question. It should not be used with family members. See おばちゃん for further usage
-  notes.
-
-  The male counterpart of おばはん is おっさん.'
+title_romaji: obahan
+body: <p>aunt; middle-aged woman</p>
+commentary: <p>おばはん is similar to <a href="/words/257/">おばちゃん</a>, but has a slightly ruder feel. You
+  probably want to avoid saying おばはん to the person in question. It should not be used with family members.
+  See <a href="/words/257/">おばちゃん</a> for further usage notes.</p><p>The male counterpart of おばはん is <a
+  href="/words/255/">おっさん</a>.</p>
+example: <p>あの<strong>おばはん</strong>はでな服き着てるなあ。<br/> That older lady is wearing such vivid cloths.</p>
+kanji: 叔母はん
 standard_kana: おばさん
 standard_kanji: 叔母さん
-word_types:
-- wordtype_7
 suitability:
 - icon: i-warning.png
   label: potentially rude
   tooltip: Indicates speech that could be upsetting to listeners.
-title_romaji: obahan
+word_types:
+- wordtype_7

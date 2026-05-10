@@ -1,14 +1,15 @@
 id: word_278
 drupal_node_id: 278
 title: さよか
-body: I see... / Is that the way it is...?
-commentary: This word may sound distant or cold depending on how it is said.
+title_romaji: sayoka
+body: <p>I see... / Is that the way it is...?</p>
+commentary: <p>This word may sound distant or cold depending on how it is said.</p>
+example: <p><strong>さよか</strong>、やっぱりあいつのせいやってんな。<br/> I see. I thought it was his fault.</p>
 standard_kana: そうですか
-word_types:
-- wordtype_15
-- wordtype_5
 suitability:
 - icon: i-warning.png
   label: potentially rude
   tooltip: Indicates speech that could be upsetting to listeners.
-title_romaji: sayoka
+word_types:
+- wordtype_15
+- wordtype_5

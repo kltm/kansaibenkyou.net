@@ -1,8 +1,10 @@
 id: word_74
 drupal_node_id: 74
 title: ぼちぼち
-body: alright; soon
+title_romaji: bochibochi
+body: <p>alright; soon</p>
+example: '<p>A: 最近どない？<br/> B: <strong>ぼちぼち</strong>やなあ。</p><p>A: How''s it going?<br/> B: Alright.</p><p><strong>ぼちぼち</strong>行こか。<br/>
+  Should we go soon?</p>'
 standard_kana: まあまあ／そろそろ
 word_types:
 - wordtype_15
-title_romaji: bochibochi

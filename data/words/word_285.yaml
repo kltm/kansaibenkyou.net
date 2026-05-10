@@ -1,9 +1,10 @@
 id: word_285
 drupal_node_id: 285
 title: さかい
-body: so; therefore
-commentary: For more information, please see grammar point for さかい.
+title_romaji: sakai
+body: <p>so; therefore</p>
+commentary: <p>For more information, please see grammar point for <a href="/grammar-points/315/">さかい</a>.</p>
+example: <p>今日、仕事休みや<strong>さかい</strong>、どこぞ行こか。<br/> Today I don't have work, so wanna go somewhere?</p>
 standard_kana: から
 word_types:
 - wordtype_15
-title_romaji: sakai

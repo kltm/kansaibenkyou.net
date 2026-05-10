@@ -1,10 +1,12 @@
 id: word_229
 drupal_node_id: 229
 title: まいど
-body: thank you (literally "every time")
-commentary: A very common word in Kansai. It is usually used when the parties have repeated interaction.
+title_romaji: maido
+body: <p>thank you (literally "every time")</p>
+commentary: <p>A very common word in Kansai. It is usually used when the parties have repeated interaction.</p>
+example: <p><strong>まいど</strong>おおきに。<br/> Thank you as always.</p>
+kanji: 毎度
 standard_kana: いつも
 standard_kanji: 何時も
 word_types:
 - wordtype_4
-title_romaji: maido

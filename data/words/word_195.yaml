@@ -1,11 +1,12 @@
 id: word_195
 drupal_node_id: 195
 title: もっぺん
-body: once more; one more time; again
-commentary: '"へん" is a Kansai-ben counter that takes the same space as the more standard "かい". Also see
-  もっかい.'
+title_romaji: moppen
+body: <p>once more; one more time; again</p>
+commentary: <p>"へん" is a Kansai-ben counter that takes the same space as the more standard "かい". Also
+  see <a href="/words/196/">もっかい</a>.</p>
+example: <p><strong>もっぺん</strong>言うて。<br/> Could you say that again?</p>
 standard_kana: もういっかい
 standard_kanji: もう一回
 word_types:
 - wordtype_15
-title_romaji: moppen

@@ -1,10 +1,10 @@
 id: word_104
 drupal_node_id: 104
 title: いちびり
-body: a person who is very energetic and messes around a lot
-commentary: Also see いちびる.
+title_romaji: ichibiri
+body: <p>a person who is very energetic and messes around a lot</p>
+commentary: <p>Also see <a href="/words/103/">いちびる</a>.</p>
 standard_kana: おちょうしもの
 standard_kanji: お調子者
 word_types:
 - wordtype_7
-title_romaji: ichibiri

@@ -2,7 +2,8 @@ id: real_conversation_424
 drupal_node_id: 424
 title: 子供の時の遊び
 summary: Date talks about what he did when he was a kid.
-hint: '缶蹴り(かんけり) = kick-the-can
+hint: |-
+  缶蹴り(かんけり) = kick-the-can
 
   ドッジボール = dodge ball
 
@@ -18,7 +19,7 @@ hint: '缶蹴り(かんけり) = kick-the-can
 
   服部(はっとり) = an area in northern Osaka
 
-  庄内(しょうない) = an area in northern Osaka'
+  庄内(しょうない) = an area in northern Osaka
 audio:
   path: real_d_asobi.mp3
 speakers:

@@ -1,9 +1,12 @@
 id: word_97
 drupal_node_id: 97
 title: あほほど
-body: way too much; a lot
+title_romaji: ahohodo
+body: <p>way too much; a lot</p>
+example: <p>昨日、カラオケで<strong>あほほど</strong>歌たんで、今日はのど痛いねん。<br/> I sang way to much at karaoke yesterday
+  so my throat hurts today.</p>
+kanji: 阿呆程
 standard_kana: ばかみたいに
 standard_kanji: ばかみたいに
 word_types:
 - wordtype_15
-title_romaji: ahohodo

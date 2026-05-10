@@ -1,13 +1,13 @@
 id: word_281
 drupal_node_id: 281
 title: きぃ
-body: mind; spirit
-commentary: 'This word is often used with other words to make idiomatic phrase (e.g., 気ぃある, 気ぃきく, 気ぃつける,
-  and 気ぃわるい).
-
-  Please see the commentary on vowel extension.'
+title_romaji: kii
+body: <p>mind; spirit</p>
+commentary: <p>This word is often used with other words to make idiomatic phrase (e.g., <a href="/words/283/">気ぃある</a>,
+  <a href="/words/282/">気ぃきく</a>, <a href="/words/153/">気ぃつける</a>, and<a href="/words/128/"> 気ぃわるい</a>).</p><p>Please
+  see the commentary on <a href="/phonology/351/">vowel extension</a>.</p>
+kanji: 気ぃ
 standard_kana: き
 standard_kanji: 気
 word_types:
 - wordtype_7
-title_romaji: kii

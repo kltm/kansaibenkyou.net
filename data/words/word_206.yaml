@@ -1,9 +1,10 @@
 id: word_206
 drupal_node_id: 206
 title: あら
-body: that (over there)
-commentary: Also see こら and そら.
+title_romaji: ara
+body: <p>that (over there)</p>
+commentary: <p>Also see <a href="/words/204/">こら</a> and <a href="/words/205/">そら</a>.</p>
+example: <p><strong>あら</strong>、ほんまにたすかったわ。<br/> That was really helpful.</p>
 standard_kana: あれは
 word_types:
 - wordtype_15
-title_romaji: ara

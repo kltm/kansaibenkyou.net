@@ -2,9 +2,10 @@ id: real_conversation_421
 drupal_node_id: 421
 title: 日課あります？
 summary: Keiko asks Date if he has a daily routine.
-hint: '日課(にっか) = daily routine
+hint: |-
+  日課(にっか) = daily routine
 
-  トレイル = trail'
+  トレイル = trail
 audio:
   path: real_d_nikka.mp3
 speakers:

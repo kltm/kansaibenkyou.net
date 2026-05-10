@@ -1,10 +1,11 @@
 id: word_48
 drupal_node_id: 48
 title: かえらし(い)
-body: cute; pretty; lovely
-commentary: Also see かいらし(い).
+title_romaji: kaerashi(i)
+body: <p>cute; pretty; lovely</p>
+commentary: <p>Also see <a href="/words/47/">かいらし(い)</a>.</p>
+example: <p>あんた<strong>かえらし</strong>なあ。名前何ていうん？<br/> Hey, you're real cute. What's your name?</p>
 standard_kana: かわいらしい
 standard_kanji: 可愛らしい
 word_types:
 - wordtype_12
-title_romaji: kaerashi(i)

@@ -1,84 +1,23 @@
 id: phonology_360
 drupal_node_id: 360
 title: Intonation Differences between Standard Japanese and Kansai-ben. (sentences)
-body: 'Even when we say exactly the same sentences in standard Japanese and Kansai-ben, there is still
+body: <p>Even when we say exactly the same sentences in standard Japanese and Kansai-ben, there is still
   intonation difference. Listen to the sentences below in both standard Japanese and Kansai-ben. You should
-  be able to hear the difference.
-
-  Examples:
-
-  ３時頃もどってくるから、ちょっと留守番してて。
-
-  (Could you look after the house for a little while? I''ll be back around 3:00.)
-
-  Standard
-
-  [↓]
-
-  Kansai-ben
-
-  [↓]
-
-  あ〜、財布、持って来るの忘れた。千円貸して。明日絶対返すから。
-
-  (Oh! I forgot to bring my wallet. Could you lend me 1000yen? I''ll give it back tomorrow.)
-
-  Standard
-
-  [↓]
-
-  Kansai-ben
-
-  [↓]
-
-  部長、二時ごろ、中山商事の森本さんから電話ありましたよ。
-
-  (There was a phone call from Morimoto at Nakayama trading around 2:00.)
-
-  ああ、そう。ありがとう。
-
-  (Oh, I see. Thank you.)
-
-  Standard
-
-  [↓]
-
-  Kansai-ben
-
-  [↓]
-
-  ごめん、まだ準備できてないから先に行ってて。
-
-  (Sorry, I''m not ready yet. Please go ahead.)
-
-  うん、分かった。
-
-  (Okay.)
-
-  Standard
-
-  [↓]
-
-  Kansai-ben
-
-  [↓]
-
-  お昼ごはん、どこで食べる？
-
-  (Where should we eat lunch?)
-
-  う〜ん、じゃあ、先週行ったカレーハウスは？
-
-  (How about Curry House that we went last week?)
-
-  ええ〜、また〜？
-
-  (Again?)
-
-  Standard
-
-  [↓]
-
-  Kansai-ben
-
-  [↓]'
+  be able to hear the difference.</p><h3>Examples:<br/><h3></h3></h3><p>３時頃もどってくるから、ちょっと留守番してて。<br/>(Could
+  you look after the house for a little while? I'll be back around 3:00.)<br/></p><table><tr><th>Standard</th><td><p
+  class="kb-audio" id="audioplayer-1"><a href="/assets/audio/st_sanji.mp3">[↓]</a></p></td></tr><tr><th>Kansai-ben</th><td><p
+  class="kb-audio" id="audioplayer-3"><a href="/assets/audio/pho_kb_3jigoro.mp3">[↓]</a></p></td></tr><table><p><br/>
+  あ〜、財布、持って来るの忘れた。千円貸して。明日絶対返すから。<br/>(Oh! I forgot to bring my wallet. Could you lend me 1000yen? I'll
+  give it back tomorrow.)<br/></p><table><tr><th>Standard</th><td><p class="kb-audio" id="audioplayer-4"><a
+  href="/assets/audio/st_saihu.mp3">[↓]</a></p></td></tr><tr><th>Kansai-ben</th><td><p class="kb-audio"
+  id="audioplayer-2"><a href="/assets/audio/pho_kb_saihu.mp3">[↓]</a></p></td></tr><table><p><br/> 部長、二時ごろ、中山商事の森本さんから電話ありましたよ。<br/>(There
+  was a phone call from Morimoto at Nakayama trading around 2:00.)<br/><br/>ああ、そう。ありがとう。<br/>(Oh, I see.
+  Thank you.)<br/></p><table><tr><th>Standard</th><td><p class="kb-audio" id="audioplayer-5"><a href="/assets/audio/st_butyou.mp3">[↓]</a></p></td></tr><tr><th>Kansai-ben</th><td><p
+  class="kb-audio" id="audioplayer-6"><a href="/assets/audio/pho_kb_butyou.mp3">[↓]</a></p></td></tr><table><p><br/>
+  ごめん、まだ準備できてないから先に行ってて。<br/>(Sorry, I'm not ready yet. Please go ahead.)<br/><br/>うん、分かった。<br/>(Okay.)<br/></p><table><tr><th>Standard</th><td><p
+  class="kb-audio" id="audioplayer-7"><a href="/assets/audio/st_gomenmada.mp3">[↓]</a></p></td></tr><tr><th>Kansai-ben</th><td><p
+  class="kb-audio" id="audioplayer-8"><a href="/assets/audio/pho_kb_gomensa.mp3">[↓]</a></p></td></tr><table><p><br/>
+  お昼ごはん、どこで食べる？<br/>(Where should we eat lunch?)<br/><br/>う〜ん、じゃあ、先週行ったカレーハウスは？<br/>(How about Curry House
+  that we went last week?)<br/><br/>ええ〜、また〜？<br/>(Again?)<br/></p><table><tr><th>Standard</th><td><p class="kb-audio"
+  id="audioplayer-9"><a href="/assets/audio/st_ohirugohan.mp3">[↓]</a></p></td></tr><tr><th>Kansai-ben</th><td><p
+  class="kb-audio" id="audioplayer-10"><a href="/assets/audio/pho_kb_ohiru.mp3">[↓]</a></p></td></tr><table></table></table></table></table></table></table></table></table></table></table>

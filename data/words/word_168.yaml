@@ -1,13 +1,12 @@
 id: word_168
 drupal_node_id: 168
 title: ほんで
-body: and; so that; therefore
-commentary: 'In some regions, especially with older people, use ほいで instead.
-
-  Some people may use そんで instead.
-
-  For more information, please see grammar point for ほんで／ほいで.'
+title_romaji: honde
+body: <p>and; so that; therefore</p>
+commentary: <p>In some regions, especially with older people, use <a href="/words/373/">ほいで</a> instead.</p><p>Some
+  people may use <a href="/words/209/">そんで</a> instead.</p><p>For more information, please see grammar
+  point for <a href="/grammar-points/316/">ほんで／ほいで</a>.</p>
+example: <p>車こわれてしもてん。<strong>ほんで</strong>、歩いてきてん。<br/> My car broke down, so I walked here.</p>
 standard_kana: それで
 word_types:
 - wordtype_15
-title_romaji: honde

@@ -1,10 +1,11 @@
 id: word_201
 drupal_node_id: 201
 title: よろしゅう
-body: thank you (in advance)
-commentary: Like the standard よろしく, this word is often used with other words to make set phrases such
-  as "よろしゅうおねがいします".
+title_romaji: yoroshuu
+body: <p>thank you (in advance)</p>
+commentary: <p>Like the standard よろしく, this word is often used with other words to make set phrases such
+  as "よろしゅうおねがいします".</p>
+example: <p>どうぞ<strong>よろしゅう</strong>たのんます。<br/> Thank you so very much in advance.</p>
 standard_kana: よろしく
 word_types:
 - wordtype_5
-title_romaji: yoroshuu

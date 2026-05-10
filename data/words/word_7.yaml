@@ -1,8 +1,11 @@
 id: word_7
 drupal_node_id: 7
 title: すうどん
-body: (bowl of) plain udon
+title_romaji: suudon
+body: <p>(bowl of) plain udon</p>
+example: <p>今、500円しかないから<strong>すうどん</strong>しか食べられへんわ。<br/> I only have 500 yen, so the only thing I
+  can eat is a plain bowl of udon.</p>
+kanji: 素うどん
 standard_kana: かけうどん
 word_types:
 - wordtype_3
-title_romaji: suudon

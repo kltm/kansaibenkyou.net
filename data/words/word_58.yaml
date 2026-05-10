@@ -1,9 +1,12 @@
 id: word_58
 drupal_node_id: 58
 title: せわしない
-body: restless; nervous
+title_romaji: sewashinai
+body: <p>restless; nervous</p>
+example: <p>あの人、いっつも<strong>せわしない</strong>なあ。座ってるとこ見たことないわ。<br/> That person is always so restless. I've
+  never seen him sitting.</p>
+kanji: 忙しない
 standard_kana: おちつかない
 standard_kanji: 落ち着かない
 word_types:
 - wordtype_12
-title_romaji: sewashinai

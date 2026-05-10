@@ -1,17 +1,18 @@
 id: word_276
 drupal_node_id: 276
 title: おあいそ
-body: check; bill
-commentary: 'This word is now broadly used in Japan, but originally came from Kansai.
-
-  Even though many people still use this word in Kansai, this word could be construed as rude--おあいそ comes
-  from あいそうもなく, which literally means "poor service".'
+title_romaji: oaiso
+body: <p>check; bill</p>
+commentary: <p>This word is now broadly used in Japan, but originally came from Kansai.</p><p>Even though
+  many people still use this word in Kansai, this word could be construed as rude--おあいそ comes from あいそうもなく,
+  which literally means "poor service".</p>
+example: <p><strong>おあいそ</strong>おねがい。<br/> Could I get the check?</p>
+kanji: お愛想
 standard_kana: おかんじょう
 standard_kanji: お勘定
-word_types:
-- wordtype_7
 suitability:
 - icon: i-warning.png
   label: potentially rude
   tooltip: Indicates speech that could be upsetting to listeners.
-title_romaji: oaiso
+word_types:
+- wordtype_7

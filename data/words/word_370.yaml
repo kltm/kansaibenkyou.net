@@ -1,12 +1,12 @@
 id: word_370
 drupal_node_id: 370
 title: あて
-body: I/me
-commentary: Also see わて.
+title_romaji: ate
+body: <p>I/me</p>
+commentary: <p>Also see <a href="/words/202/">わて</a>.</p>
+example: <p><strong>あて</strong>の弟、東京に住んでますねん。<br/> My younger brother is living in Tokyo.</p>
 standard_kana: わたし
 standard_kanji: 私
-word_types:
-- wordtype_115
 suitability:
 - icon: i-female.png
   label: female speech
@@ -14,4 +14,5 @@ suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: ate
+word_types:
+- wordtype_115

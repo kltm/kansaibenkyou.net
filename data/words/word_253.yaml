@@ -1,9 +1,11 @@
 id: word_253
 drupal_node_id: 253
 title: えばる
-body: to be arrogant
+title_romaji: ebaru
+body: <p>to be arrogant</p>
+example: <p>部長いっつも<strong>えばってる</strong>けど、ほんまはやさしい人なんやで。<br/> The boss is always so full of himself,
+  but he really is a nice guy.</p>
 standard_kana: いばる
 standard_kanji: 威張る
 word_types:
 - wordtype_18
-title_romaji: ebaru

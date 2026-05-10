@@ -1,71 +1,15 @@
 id: phonology_352
 drupal_node_id: 352
 title: Palatalization
-body: 'Palatalization is when the flat of the tongue gets close to the roof of the mouth (palate). Since
+body: <p>Palatalization is when the flat of the tongue gets close to the roof of the mouth (palate). Since
   the い sound is pronounced more clearly in Kansai-ben than it is in standard Japanese, it affects the
   consonant right before い (causing palatalization). Below are some examples of palatalization in Kansai-ben,
-  with their standard counterparts for comparison.
-
-  Sound
-
-  Word
-
-  Standard
-
-  Kansai-ben
-
-  し
-
-  四
-
-  (し)
-
-  し
-
-  [↓]
-
-  しぃ
-
-  [↓]
-
-  ち
-
-  血
-
-  (ち)
-
-  ち
-
-  [↓]
-
-  ちぃ
-
-  [↓]
-
-  に
-
-  何
-
-  (なに)
-
-  なに
-
-  [↓]
-
-  なにぃ
-
-  [↓]
-
-  み
-
-  紙
-
-  (かみ)
-
-  かみ
-
-  [↓]
-
-  かみぃ
-
-  [↓]'
+  with their standard counterparts for comparison.</p><table class="full-grid-table"><tr><th>Sound</th><th>Word</th><th>Standard</th><th>Kansai-ben</th></tr><tr><td>し</td><td>四<br/>
+  (<em>し</em>)</td><td>し<br/><p class="kb-audio" id="audioplayer-1"><a href="/assets/audio/st_shi.mp3">[↓]</a></p></td><td>しぃ<br/><p
+  class="kb-audio" id="audioplayer-2"><a href="/assets/audio/pho_kb_shi4.mp3">[↓]</a></p></td></tr><tr><td>ち</td><td>血<br/>
+  (<em>ち</em>)</td><td>ち<br/><p class="kb-audio" id="audioplayer-3"><a href="/assets/audio/st_chi.mp3">[↓]</a></p></td><td>ちぃ<br/><p
+  class="kb-audio" id="audioplayer-4"><a href="/assets/audio/pho_kb_chi.mp3">[↓]</a></p></td></tr><tr><td>に</td><td>何<br/>
+  (な<em>に</em>)</td><td>なに<br/><p class="kb-audio" id="audioplayer-5"><a href="/assets/audio/st_nani.mp3">[↓]</a></p></td><td>なにぃ<br/><p
+  class="kb-audio" id="audioplayer-6"><a href="/assets/audio/pho_kb_nani.mp3">[↓]</a></p></td></tr><tr><td>み</td><td>紙<br/>
+  (か<em>み</em>)</td><td>かみ<br/><p class="kb-audio" id="audioplayer-7"><a href="/assets/audio/st_kami.mp3">[↓]</a></p></td><td>かみぃ<br/><p
+  class="kb-audio" id="audioplayer-8"><a href="/assets/audio/pho_kb_kami.mp3">[↓]</a></p></td></tr></table>

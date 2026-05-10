@@ -1,10 +1,12 @@
 id: word_188
 drupal_node_id: 188
 title: ほる
-body: to throw
-commentary: ほる is sometimes used in the same sense as ほかす.
+title_romaji: horu
+body: <p>to throw</p>
+commentary: <p>ほる is sometimes used in the same sense as <a href="/words/71/">ほかす</a>.</p>
+example: <p>それ、こっち<strong>ほって</strong>。<br/> Could you throw that to me?</p>
+kanji: 放る
 standard_kana: なげる
 standard_kanji: 投げる
 word_types:
 - wordtype_18
-title_romaji: horu

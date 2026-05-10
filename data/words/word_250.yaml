@@ -1,8 +1,10 @@
 id: word_250
 drupal_node_id: 250
 title: マクド
-body: McDonald's™
+title_romaji: makudo
+body: <p>McDonald's™</p>
+example: <p><strong>マクド</strong>のハンバーガー１０個食べて、おなかいたいねん。<br/> I ate ten McDonald's hamburgers and now I
+  have a stomach ache.</p>
 standard_kana: マック(ドナルド)
 word_types:
 - wordtype_7
-title_romaji: makudo

@@ -1,9 +1,11 @@
 id: word_85
 drupal_node_id: 85
 title: ほったらかす
-body: to neglect; to leave alone
+title_romaji: hottarakasu
+body: <p>to neglect; to leave alone</p>
+example: <p>仕事<strong>ほったらかして</strong>、どこ行っとってん！<br/> Where were you when you took off from work?</p><p>あの夫婦、子ども<strong>ほったらかして</strong>パチンコばっかりしてるらしいで。<br/>
+  See that couple over there? They leave their kid alone and play pachinko all the time.</p>
 standard_kana: ほうっておく
 standard_kanji: 放っておく
 word_types:
 - wordtype_18
-title_romaji: hottarakasu

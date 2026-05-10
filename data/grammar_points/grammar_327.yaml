@@ -1,23 +1,26 @@
 id: grammar_327
 drupal_node_id: 327
 title: Vてしもた／Vても(う)た
-body: The Vてしまった of standard Japanese, when used as an expression of completion and/or regret, can become
-  Vてしもた or Vても(う)た in Kansai-ben. As the have very much the same feel, the word choice is left to the
-  speaker.
+title_romaji: Vteshimota/Vtemo(u)ta
+body: <p>The Vてしまった of standard Japanese, when used as an expression of completion and/or regret, can
+  become Vてしもた or Vても(う)た in Kansai-ben. As the have very much the same feel, the word choice is left
+  to the speaker.</p>
 commentary: '<h2>The function of Vてもうた</h2><p>Vてもうた has another function that expresses receiving a favor
-  (see: <a href="320">Vてもろた／Vてもうた</a>). Please compare the different very different meaning and tone of
-  the two:</p><table><caption>Vてもらった (receiving a favor)</caption><tbody><tr><th>Standard</th><td>にんじん、きらいだから田中に<em>食べてもらった</em>よ。</td></tr><tr><th>Kansai-ben</th><td>にんじん、きらいやから田中に<em>食べてもうた</em>わ。</td></tr><tr><th>English</th><td>I
+  (see: <a href="/grammar-points/320/">Vてもろた／Vてもうた</a>). Please compare the different very different meaning
+  and tone of the two:</p><table><caption>Vてもらった (receiving a favor)</caption><tbody><tr><th>Standard</th><td>にんじん、きらいだから田中に<em>食べてもらった</em>よ。</td></tr><tr><th>Kansai-ben</th><td>にんじん、きらいやから田中に<em>食べてもうた</em>わ。</td></tr><tr><th>English</th><td>I
   don''t like carrots so Tanaka ate mine for me.</td></tr></tbody></table><table><caption>Vてしまった (completion/regret)</caption><tbody><tr><th>Standard</th><td>もう、おにぎり全部<em>食べてしまった</em>よ。ひとつも残っていないよ。</td></tr><tr><th>Kansai-ben</th><td>もう、おにぎり全部<em>食べてもうた</em>で。いっこも残ってないわ。</td></tr><tr><th>English</th><td>I
   already ate all the onigiri. There is nothing left.</td></tr></tbody></table>'
 example: <table><caption>Vてしもた</caption><tbody><tr><th>Standard</th><td>あー、おさら<em>割ってしまった</em>。</td></tr><tr><th>Kansai-ben</th><td>あー、おさら<em>割ってしもた</em>。</td></tr><tr><th>English</th><td>Ack!
   I broke a plate.</td></tr></tbody></table>
-formation: <table><tr><td>V (te-form) +しもた／も(う)た</td></tr></table>
+formation: '<table><tr><td>V<sup class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term"
+  href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup> (te-form<sup class="lexicon-indicator"
+  title="For example: 食べて, 行って, して, and 来て."><a class="lexicon-term" href="/taxonomy/term/171/" title="For
+  example: 食べて, 行って, して, and 来て.">?</a></sup>) +しもた／も(う)た</td></tr></table>'
 formation_from_standard: <table><tr><th>Standard</th><td>行って <em>しまった</em></td></tr><tr><th>Kansai-ben</th><td>行って
-  <em>しもた</em><br /> 行って <em>も(う)た</em></td></tr></table>
-kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vてしまった</em></td></tr><tr><th>Kansai-ben</th><td><em>Vてしもた<br
-  /> Vても(う)た</em></td></tr><tr></tr></table>
+  <em>しもた</em><br/> 行って <em>も(う)た</em></td></tr></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vてしまった</em></td></tr><tr><th>Kansai-ben</th><td><em>Vてしもた<br/>
+  Vても(う)た</em></td></tr></table>
 function_types:
 - function_37
 grammar_types:
 - grammar_105
-title_romaji: Vteshimota/Vtemo(u)ta

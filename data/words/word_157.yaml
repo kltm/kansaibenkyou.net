@@ -1,9 +1,10 @@
 id: word_157
 drupal_node_id: 157
 title: こない
-body: this sort/kind of...; ...such as this
-commentary: Also see あない, そない, and どない.
+title_romaji: konai
+body: <p>this sort/kind of...; ...such as this</p>
+commentary: <p>Also see <a href="/words/142/">あない</a>, <a href="/words/173/">そない</a>, and <a href="/words/258/">どない</a>.</p>
+example: <p><strong>こない</strong>かわいいねこ、見たことないわ。<br/> I've never seen a cat this cute before.</p>
 standard_kana: こんなに
 word_types:
 - wordtype_15
-title_romaji: konai

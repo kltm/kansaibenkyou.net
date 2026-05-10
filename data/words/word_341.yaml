@@ -1,11 +1,10 @@
 id: word_341
 drupal_node_id: 341
 title: すんません
-body: sorry; excuse me
-commentary: 'すんません is maybe slightly more respectable than すんまへん.
-
-  Also see すんまへん.'
+title_romaji: sunmasen
+body: <p>sorry; excuse me</p>
+commentary: <p>すんません is maybe slightly more respectable than <a href="/words/167/">すんまへん</a>.</p><p>Also
+  see <a href="/words/167/">すんまへん</a>.</p>
 standard_kana: すみません
 word_types:
 - wordtype_5
-title_romaji: sunmasen

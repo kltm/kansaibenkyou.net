@@ -1,20 +1,14 @@
 id: word_242
 drupal_node_id: 242
 title: とこ
-body: place; location
-commentary: 'とこ is often used with pronouns and other words such as title suffixes. For example:
-
-  うっとこ...my place
-
-  あんたとこ...your place
-
-  おばちゃんとこ...aunt''s place
-
-  先生んとこ...teacher''s place
-
-  The grammar point 〜したところ also becomes 〜したとこ.'
+title_romaji: toko
+body: <p>place; location</p>
+commentary: <p>とこ is often used with pronouns and other words such as title suffixes. For example:</p><p><a
+  href="/words/203/">うっとこ</a>...my place<br/> あんたとこ...your place<br/> おばちゃんとこ...aunt's place<br/> 先生んとこ...teacher's
+  place</p><p>The grammar point 〜したところ also becomes 〜したとこ.</p>
+example: <p>おばあちゃん<strong>とこ</strong>行くさかい、早よ帰っといでや。<br/> We're gunna visit your grandma's so come home
+  early</p>
 standard_kana: ところ
 standard_kanji: 所
 word_types:
 - wordtype_7
-title_romaji: toko

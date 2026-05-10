@@ -1,9 +1,11 @@
 id: word_218
 drupal_node_id: 218
 title: すい
-body: sour
+title_romaji: sui
+body: <p>sour</p>
+example: <p>このみかん<strong>すい</strong>なあ。はずれやなあ。<br/> This orange is sour. I guess it's a miss.</p>
+kanji: 酸い
 standard_kana: すっぱい
 standard_kanji: 酸っぱい
 word_types:
 - wordtype_12
-title_romaji: sui

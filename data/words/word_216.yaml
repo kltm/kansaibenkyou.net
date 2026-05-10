@@ -1,13 +1,14 @@
 id: word_216
 drupal_node_id: 216
 title: じゃまくさい
-body: annoying; a pain; tiresome
-commentary: 'In some areas outside of Kansai, this word can be used in the same sense as the base word
-  じゃま (as in obstruction). However, in Kansai, じゃまくさい takes on the definition here.
-
-  Also see じゃあくさい.'
+title_romaji: jamakusai
+body: <p>annoying; a pain; tiresome</p>
+commentary: <p>In some areas outside of Kansai, this word can be used in the same sense as the base word
+  じゃま (as in obstruction). However, in Kansai, じゃまくさい takes on the definition here.</p><p>Also see <a
+  href="/words/217/">じゃあくさい</a>.</p>
+example: <p>こんなに書類あるんか。<strong>じゃまくさい</strong>なあ。<br/> I can't believe I have this much paperwork. It's
+  such a pain.</p>
 standard_kana: めんどうくさい
 standard_kanji: 面倒臭い
 word_types:
 - wordtype_12
-title_romaji: jamakusai

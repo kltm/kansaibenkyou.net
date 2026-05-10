@@ -1,10 +1,12 @@
 id: word_190
 drupal_node_id: 190
 title: なんも
-body: nothing/not any (used negative verb); everything (used with positive verb)
-commentary: Please also see いっこも/なんも.
+title_romaji: nanmo
+body: <p>nothing/not any (used negative verb); everything (used with positive verb)</p>
+commentary: <p>Please also see <a href="/grammar-points/299/">いっこも/なんも</a>.</p>
+example: <p>れいぞうこに<strong>なんも</strong>食べもんないわ。<br/> There's nothing to eat in the fridge.</p>
+kanji: 何も
 standard_kana: なにも
 standard_kanji: 何も
 word_types:
 - wordtype_115
-title_romaji: nanmo

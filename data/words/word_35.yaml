@@ -1,9 +1,10 @@
 id: word_35
 drupal_node_id: 35
 title: おしピン
-body: thumbtack; pushpin
+title_romaji: oshipin
+body: <p>thumbtack; pushpin</p>
+kanji: 押しピン
 standard_kana: がびょう
 standard_kanji: 画鋲
 word_types:
 - wordtype_7
-title_romaji: oshipin

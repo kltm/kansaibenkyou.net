@@ -1,9 +1,11 @@
 id: word_42
 drupal_node_id: 42
 title: いっつも
-body: always; whenever; never (in a negative sentence)
-commentary: For more information, see いっつも.
+title_romaji: ittsumo
+body: <p>always; whenever; never (in a negative sentence)</p>
+commentary: <p>For more information, see <a href="/grammar-points/300/">いっつも</a>.</p>
+example: <p>ここ、<strong>いっつも</strong>こんでるなあ。<br/> This place is always packed.</p><p>あいつ、<strong>いっつも</strong>けえへんなあ。付き合い悪いやっちゃ。<br/>
+  She never comes out with us. She's Such an unsociable person.</p>
 standard_kana: いつも
 word_types:
 - wordtype_15
-title_romaji: ittsumo

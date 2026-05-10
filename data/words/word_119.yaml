@@ -1,9 +1,11 @@
 id: word_119
 drupal_node_id: 119
 title: おはようおかえり
-body: come home early
-commentary: This expression is a cultural set phrase for when someone is leaving and expected to return.
-  It may be used as a replacement for, or in conjunction with, いってらしゃい.
+title_romaji: ohayouokaeri
+body: <p>come home early</p>
+commentary: <p>This expression is a cultural set phrase for when someone is leaving and expected to return.
+  It may be used as a replacement for, or in conjunction with, いってらしゃい.</p>
+example: '<p>A: いってきます。<br/> B: <strong>おはようおかえり</strong>。</p><p>A: I''m leaving.<br/> B: See you tonight.</p>'
+kanji: お早うお帰り
 word_types:
 - wordtype_4
-title_romaji: ohayouokaeri

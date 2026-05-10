@@ -1,9 +1,10 @@
 id: word_132
 drupal_node_id: 132
 title: こそばい
-body: ticklish; be tickled
-commentary: Also see こちょばい and こしょばい.
+title_romaji: kosobai
+body: <p>ticklish; be tickled</p>
+commentary: <p>Also see <a href="/words/369/">こちょばい</a> and <a href="/words/342/">こしょばい</a>.</p>
+example: <p><strong>こそばい</strong>から足いらわんといて。<br/> Don't touch my legs anymore--they're ticklish.</p>
 standard_kana: くすぐったい
 word_types:
 - wordtype_12
-title_romaji: kosobai

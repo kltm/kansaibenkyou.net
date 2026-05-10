@@ -1,8 +1,9 @@
 id: word_210
 drupal_node_id: 210
 title: あっこ
-body: over there
+title_romaji: akko
+body: <p>over there</p>
+example: <p><strong>あっこ</strong>まで歩いて行こか。<br/> Should we walk over there?</p>
 standard_kana: あそこ
 word_types:
 - wordtype_15
-title_romaji: akko

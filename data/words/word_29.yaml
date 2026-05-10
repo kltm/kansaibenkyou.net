@@ -1,13 +1,15 @@
 id: word_29
 drupal_node_id: 29
 title: よせてもらう
-body: to visit
+title_romaji: yosetemorau
+body: <p>to visit</p>
+example: <p>また、近いうちに<strong>よせてもらいまっさ</strong>。<br/> I'll come to your place soon.</p>
+kanji: 寄せてもらう
 standard_kana: ほうもんする
 standard_kanji: 訪問する
-word_types:
-- wordtype_10
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: yosetemorau
+word_types:
+- wordtype_10

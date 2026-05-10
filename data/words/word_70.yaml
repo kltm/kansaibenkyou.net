@@ -1,10 +1,11 @@
 id: word_70
 drupal_node_id: 70
 title: まっさら(な)
-body: brand new (thing)
-commentary: Also see さら.
+title_romaji: massara(na)
+body: <p>brand new (thing)</p>
+commentary: <p>Also see <a href="/words/137/">さら</a>.</p>
+kanji: 真っ新(な)
 standard_kana: まあたらしい
 standard_kanji: 真新しい
 word_types:
 - wordtype_13
-title_romaji: massara(na)

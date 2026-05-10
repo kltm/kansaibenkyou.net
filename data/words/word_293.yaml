@@ -1,9 +1,12 @@
 id: word_293
 drupal_node_id: 293
 title: なんで
-body: why
+title_romaji: nande
+body: <p>why</p>
+example: '<p>A: ごめん、今日のデート行かれへんわ。<br/> B: <strong>なんで</strong>？</p><p>A: Sorry, but I can''t go out today.<br/>
+  B: Why?</p>'
+kanji: 何で
 standard_kana: なぜ／どうして
 standard_kanji: 何故／どうして
 word_types:
 - wordtype_16
-title_romaji: nande

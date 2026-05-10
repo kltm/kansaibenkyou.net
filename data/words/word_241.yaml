@@ -1,9 +1,12 @@
 id: word_241
 drupal_node_id: 241
 title: しゅむ
-body: to soak in; to penetrate; to absorb into
+title_romaji: shumu
+body: <p>to soak in; to penetrate; to absorb into</p>
+example: <p>この大根、ようだしが<strong>しゅんで</strong>ておいしいなあ。<br/> This daikon, the way the broth is absorbed through,
+  is really delicious.</p>
+kanji: 染む
 standard_kana: しみる
 standard_kanji: 染みる
 word_types:
 - wordtype_18
-title_romaji: shumu

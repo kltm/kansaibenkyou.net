@@ -1,14 +1,13 @@
 id: word_202
 drupal_node_id: 202
 title: わて
-body: I/me
-commentary: 'This word is used more often by older men, but sometimes women as well.
-
-  Also see あて.'
+title_romaji: wate
+body: <p>I/me</p>
+commentary: <p>This word is used more often by older men, but sometimes women as well.<br/> Also see <a
+  href="/words/370/">あて</a>.</p>
+example: <p><strong>わて</strong>、天王寺で仕事してますねん。<br/> I'm working in Tenouji.</p>
 standard_kana: わたし
 standard_kanji: 私
-word_types:
-- wordtype_115
 suitability:
 - icon: i-male.png
   label: male speech
@@ -16,4 +15,5 @@ suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: wate
+word_types:
+- wordtype_115

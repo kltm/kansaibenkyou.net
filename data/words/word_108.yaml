@@ -1,13 +1,13 @@
 id: word_108
 drupal_node_id: 108
 title: ええし
-body: rich family; good family
+title_romaji: eeshi
+body: <p>rich family; good family</p>
 standard_kana: かねもちのいえ／りょうけ
 standard_kanji: 金持ちの家／良家
-word_types:
-- wordtype_7
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: eeshi
+word_types:
+- wordtype_7

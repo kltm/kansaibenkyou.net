@@ -1,9 +1,11 @@
 id: word_145
 drupal_node_id: 145
 title: いっぺん
-body: once; one time
+title_romaji: ippen
+body: <p>once; one time</p>
+example: <p><strong>いっぺん</strong>でええから、ニューヨーク行ってみたいなあ。<br/> Just once I wish I could visit New York.</p>
+kanji: 一遍
 standard_kana: いちど
 standard_kanji: 一度
 word_types:
 - wordtype_15
-title_romaji: ippen

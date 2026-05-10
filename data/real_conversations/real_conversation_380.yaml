@@ -2,7 +2,8 @@ id: real_conversation_380
 drupal_node_id: 380
 title: 実家に帰ったら何やってるん？
 summary: Alisa and Mika talk about what they do when they stay at their parent's house.
-hint: 'とりあえず = right off the bat/for the time being
+hint: |-
+  とりあえず = right off the bat/for the time being
 
   手料理(てりょうり) = home cooking
 
@@ -10,7 +11,7 @@ hint: 'とりあえず = right off the bat/for the time being
 
   サンマ = saury, a kind if fish
 
-  リクエスト = request'
+  リクエスト = request
 audio:
   path: real_m_s_parenthouse.mp3
 speakers:

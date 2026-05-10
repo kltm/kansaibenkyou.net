@@ -1,10 +1,12 @@
 id: word_46
 drupal_node_id: 46
 title: おもろい
-body: interesting; funny
-commentary: The negative form of おもろい is おもろない and おもんない.
+title_romaji: omoroi
+body: <p>interesting; funny</p>
+commentary: <p>The negative form of おもろい is <a href="/grammar-points/297/">おもろない</a> and <a href="/grammar-points/297/">おもんない</a>.</p>
+example: <p>この本、<strong>おもろい</strong>で。読んでみ。<br/> This book is interesting. Give it a read.</p><p>おまえ、<strong>おもろい</strong>やっちゃなあ。<br/>
+  Man, you are such a funny guy.</p>
 standard_kana: おもしろい
 standard_kanji: 面白い
 word_types:
 - wordtype_12
-title_romaji: omoroi

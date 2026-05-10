@@ -1,8 +1,9 @@
 id: word_56
 drupal_node_id: 56
 title: しょうもない
-body: unimportant; boring
+title_romaji: shoumonai
+body: <p>unimportant; boring</p>
+example: <p>そんな<strong>しょうもない</strong>事でなやむなよ。<br/> Don't worry too much about something that unimportant.</p>
 standard_kana: つまらない
 word_types:
 - wordtype_12
-title_romaji: shoumonai

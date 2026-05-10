@@ -1,14 +1,15 @@
 id: word_192
 drupal_node_id: 192
 title: わい
-body: I/me (masculine)
-commentary: Also see わし.
+title_romaji: wai
+body: <p>I/me (masculine)</p>
+commentary: <p>Also see <a href="/words/193/">わし</a>.</p>
+example: <p><strong>わい</strong>のさいふ、どこいったんやろ。<br/> I wonder where my wallet went?</p>
 standard_kana: おれ
 standard_kanji: 俺
-word_types:
-- wordtype_115
 suitability:
 - icon: i-male.png
   label: male speech
   tooltip: Indicates special use by male speakers.
-title_romaji: wai
+word_types:
+- wordtype_115

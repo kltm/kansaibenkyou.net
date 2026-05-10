@@ -1,9 +1,10 @@
 id: word_79
 drupal_node_id: 79
 title: なんぼ
-body: how much; how many; how old
+title_romaji: nanbo
+body: <p>how much; how many; how old</p>
+example: <p>これ、<strong>なんぼ</strong>？<br/> How much for this?</p>
 standard_kana: いくら／いくつ
 standard_kanji: 幾ら／幾つ
 word_types:
 - wordtype_16
-title_romaji: nanbo

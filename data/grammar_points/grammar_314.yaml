@@ -1,50 +1,92 @@
 id: grammar_314
 drupal_node_id: 314
 title: かて／かって
-body: The standard particle も, when used as a marker for supplements (e.g., "I'd also like an apple.")
-  or surprise, may become かて and かって in Kansai-ben.
-commentary: <h2>Euphonic change in i-Adjecive sounds</h2><p>Some people use the standard も instead of
-  かて. When older people use も, <a href="337">a euphonic change</a> often occur in i-adjectives.</p><table
-  class="full-grid-table"><tr><th></th><th>i-Adj (affirmative)</th><th>i-Adj (negative)</th></tr><tr><th>Standard</th><td>大きく<em>て</em><em>も</em></td><td>大きく<em>なくて</em><em>も</em></td></tr><tr><th>Kansai-ben</th><td>大<em>きゅうて</em><em>も</em></td><td>大<em>きゅうのうて</em><em>も</em></td></tr></table></div><h2>そやかて,
+title_romaji: kate/katte
+body: <p>The standard particle も, when used as a marker for supplements (e.g., "I'd also like an apple.")
+  or surprise, may become かて and かって in Kansai-ben.</p>
+commentary: '<h2>Euphonic change in i-Adjecive sounds</h2><p>Some people use the standard も instead of
+  かて. When older people use も, <a href="/grammar-points/337/">a euphonic change</a> often occur in i-adjectives.</p><table
+  class="full-grid-table"><tr><th></th><th>i-Adj<sup class="lexicon-indicator" title="Abbreviation for
+  i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/"
+  title="Abbreviation for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup>
+  (affirmative)</th><th>i-Adj (negative)</th></tr><tr><th>Standard</th><td>大きく<em>て</em><em>も</em></td><td>大きく<em>なくて</em><em>も</em></td></tr><tr><th>Kansai-ben</th><td>大<em>きゅうて</em><em>も</em></td><td>大<em>きゅうのうて</em><em>も</em></td></tr></table><h2>そやかて,
   そうかて, and せやかて</h2><p>The standard conjunctions for showing disagreement (それでも and でも) may become そやかて,
-  そうかて, or せやかて.</p><table><tr><th>Standard</th><td>いつまで食べているんだ。また太るよ。<br /> え〜、<em>でも</em>おいしいんだもん。やめられないよ。</td></tr><tr><th>Kansai-ben</th><td>いつまで食べてんねん。また太るで。<br
-  /> え〜、<em>そやかて</em>おいしいねんもん。やめられへんわ。</td></tr><tr><th>English</th><td>You're still eating? You're gunna
-  get fat.<br /> But it tastes sooo good. I can't stop.</td></tr></table>
-example: <table><caption>V (affirmative) かて</caption><tbody><tr><th>Standard</th><td>ちょっとぐらい<em>練習しても</em>、どうせ負けるよ。</td></tr><tr><th>Kansai-ben</th><td>ちょっとぐらい<em>練習したかて</em>、どうせ負けるわ*。</td></tr><tr><th>English</th><td>It
-  doesn't matter if we practice a little, I know that we're still gonna lose.</td></tr></tbody></table><p>*
-  かて can also express a speaker's resignation, anxiousness, or "so‐what" attitude.</p></div><table><caption>V
-  (negative)かて</caption><tbody><tr><th>Standard</th><td>一日ぐらい<em>食べなくても</em>、死なないよ。</td></tr><tr><th>Kansai-ben</th><td>一日ぐらい食べんかて、死ねへんわ。</td></tr><tr><th>English</th><td>You
-  won't die if you don't eat for a day.</td></tr></tbody></table></div><table><caption>i-Adj (affirmative)
-  かて</caption><tbody><tr><th>Standard</th><td>いくら<em>かわいくても</em>、性格悪かったらだめだよ。</td></tr><tr><th>Kansai-ben</th><td>いくら<em>かわいかったかて</em>、性格悪かったらあかんで。</td></tr><tr><th>English</th><td>It
-  doesn't matter how cute she it if her personality is bad.</td></tr></tbody></table></div><table><caption>i-Adj
-  (negative) かて</caption><tbody><tr><th>Standard</th><td><em>おいしくなくても</em>食べられたらいいじゃない。</td></tr><tr><th>Kansai-ben</th><td><em>おいしなかったかて</em>食べられたらええやん。</td></tr><tr><th>English</th><td>Even
-  if it's not good, you should be happy you can eat at all.</td></tr></tbody></table></div><table><caption>na-Adj
-  (affirmative) かて</caption><tbody><tr><th>Standard</th><td>いくら<em>しずかであったとしても</em>、こんな不便な所はちょっとね。</td></tr><tr><th>Kansai-ben</th><td>いくら<em>しずかやったかて</em>、こんな不便なとこはちょっとな。</td></tr><tr><th>English</th><td>It
-  doesn't matter how quiet it is, the location isn't really very convenient.</td></tr></tbody></table></div><table><caption>na-Adj
-  (negative) かて</caption><tbody><tr><th>Standard</th><td><em>便利じゃなかったとしても</em>、しずかでいいところだね。</td></tr><tr><th>Kansai-ben</th><td><em>便利やなかったかて</em>、しずかでええとこやな。</td></tr><tr><th>English</th><td>Even
-  though it's not convenient, it is really nice and quiet.</td></tr></tbody></table></div><table><caption>Nかて
-  (parallel) </caption><tbody><tr><th>Standard</th><td>アメリカと<em>カナダに*も</em>住んだことあるんだ。</td></tr><tr><th>Kansai-ben</th><td>アメリカと<em>カナダにかて</em>住んだことあんねん。</td></tr><tr><th>English</th><td>I've
+  そうかて, or せやかて.</p><table><tr><th>Standard</th><td>いつまで食べているんだ。また太るよ。<br/> え〜、<em>でも</em>おいしいんだもん。やめられないよ。</td></tr><tr><th>Kansai-ben</th><td>いつまで食べてんねん。また太るで。<br/>
+  え〜、<em>そやかて</em>おいしいねんもん。やめられへんわ。</td></tr><tr><th>English</th><td>You''re still eating? You''re gunna
+  get fat.<br/> But it tastes sooo good. I can''t stop.</td></tr></table>'
+example: '<table><caption>V<sup class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term"
+  href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup> (affirmative) かて</caption><tbody><tr><th>Standard</th><td>ちょっとぐらい<em>練習しても</em>、どうせ負けるよ。</td></tr><tr><th>Kansai-ben</th><td>ちょっとぐらい<em>練習したかて</em>、どうせ負けるわ*。</td></tr><tr><th>English</th><td>It
+  doesn''t matter if we practice a little, I know that we''re still gonna lose.</td></tr></tbody></table><p>*
+  かて can also express a speaker''s resignation, anxiousness, or "so‐what" attitude.</p><table><caption>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup> (negative)かて</caption><tbody><tr><th>Standard</th><td>一日ぐらい<em>食べなくても</em>、死なないよ。</td></tr><tr><th>Kansai-ben</th><td>一日ぐらい食べんかて、死ねへんわ。</td></tr><tr><th>English</th><td>You
+  won''t die if you don''t eat for a day.</td></tr></tbody></table><table><caption>i-Adj<sup class="lexicon-indicator"
+  title="Abbreviation for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい."><a
+  class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an adjective that
+  ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup> (affirmative) かて</caption><tbody><tr><th>Standard</th><td>いくら<em>かわいくても</em>、性格悪かったらだめだよ。</td></tr><tr><th>Kansai-ben</th><td>いくら<em>かわいかったかて</em>、性格悪かったらあかんで。</td></tr><tr><th>English</th><td>It
+  doesn''t matter how cute she it if her personality is bad.</td></tr></tbody></table><table><caption>i-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an
+  adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup> (negative) かて</caption><tbody><tr><th>Standard</th><td><em>おいしくなくても</em>食べられたらいいじゃない。</td></tr><tr><th>Kansai-ben</th><td><em>おいしなかったかて</em>食べられたらええやん。</td></tr><tr><th>English</th><td>Even
+  if it''s not good, you should be happy you can eat at all.</td></tr></tbody></table><table><caption>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup> (affirmative)
+  かて</caption><tbody><tr><th>Standard</th><td>いくら<em>しずかであったとしても</em>、こんな不便な所はちょっとね。</td></tr><tr><th>Kansai-ben</th><td>いくら<em>しずかやったかて</em>、こんな不便なとこはちょっとな。</td></tr><tr><th>English</th><td>It
+  doesn''t matter how quiet it is, the location isn''t really very convenient.</td></tr></tbody></table><table><caption>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup> (negative)
+  かて</caption><tbody><tr><th>Standard</th><td><em>便利じゃなかったとしても</em>、しずかでいいところだね。</td></tr><tr><th>Kansai-ben</th><td><em>便利やなかったかて</em>、しずかでええとこやな。</td></tr><tr><th>English</th><td>Even
+  though it''s not convenient, it is really nice and quiet.</td></tr></tbody></table><table><caption>Nかて
+  (parallel) </caption><tbody><tr><th>Standard</th><td>アメリカと<em>カナダに*も</em>住んだことあるんだ。</td></tr><tr><th>Kansai-ben</th><td>アメリカと<em>カナダにかて</em>住んだことあんねん。</td></tr><tr><th>English</th><td>I''ve
   lived in both America and Canada.</td></tr></tbody></table><p>*Like standard Japanese, かて can be used
-  with other particles such as に, から, で, and と.</p></div><table><caption>Nやったかて (degree)</caption><tbody><tr><th>Standard</th><td><em>学生で(あって)も</em>、割引ないんだよ。</td></tr><tr><th>Kansai-ben</th><td><em>学生やったかて</em>、割引*あらへんのや。</td></tr><tr><th>English</th><td>Even
-  if you're a student, there is no discount.</td></tr></tbody></table><p>*割引 = discount</p>
-formation: <h2>V</h2><table><tr><th>affirmative</th><td>V (ta-form) +かて／かって</td></tr><tr><th>negative</th><td>V
-  (short negative) +かて／かって</td></tr></table></div><h2>i-Adj</h2><table><tr><td>i-Adj (ta-form) +かて／かって</td></tr></table></div><h2>na-Adj</h2><table><tr><td>na-Adj
-  (stem) +やった+かて／かって</td></tr></table></div><h2>N.</h2><table><tr><td>N (stem) +やった+かて／かって</td></tr><tr><td>N
-  (stem) +かて／かって</td></tr></table>
-formation_from_standard: <h2>V</h2><table class="full-grid-table"><tr><th></th><th>V (affirmative) </th><th>V
-  (negative) </th></tr><tr><th>Standard</th><td>食べ<em>て</em><em>も</em></td><td>食べ<em>なくて</em><em>も</em></td></tr><tr><th>Kansai-ben</th><td>食べ<em>た</em><em>かて</em><br
-  /> 食べ<em>た</em><em>かって</em></td><td>食べ<em>ん</em><em>かて</em><br /> 食べ<em>ん</em><em>かって</em></td></tr></table></div><h2>i-Adj</h2><table
-  class="full-grid-table"><tr><th></th><th>i-Adj (affirmative)</th><th>i-Adj (negative)</th></tr><tr><th>Standard</th><td>大きく<em>て</em><em>も</em></td><td>大きく<em>なくて</em><em>も</em></td></tr><tr><th>Kansai-ben</th><td>大き<em>かった</em><em>かて</em><br
-  /> 大き<em>かった</em><em>かって</em></td><td>大き<em>なかった</em><em>かて</em><br /> 大き<em>なかった</em><em>かって</em></td></tr></table></div><h2>na-Adj.</h2><table
-  class="full-grid-table"><tr><th></th><th>na-Adj (affirmative)</th><th>na-Adj (negative)</th></tr><tr><th>Standard</th><td>しずか<em>であって</em><em>も</em></td><td>しずか<em>でなくて</em><em>も</em></td></tr><tr><th>Kansai-ben</th><td>しずか<em>やった</em><em>かて</em></td><td>しずか<em>やなかった</em><em>かて</em><br
-  /> しずか<em>やのうた*</em><em>かて</em></td></tr></table><p>*のうたかて can be old‐fashioned.</p></div><h2>N</h2><table
-  class="full-grid-table"><tr><th></th><th>N+も</th><th>N+で(あって)も</th></tr><tr><th>Standard</th><td>学生
-  <em>も</em></td><td>学生<em>で(あって)</em><em>も</em></td></tr><tr><th>Kansai-ben</th><td>学生 <em>かて</em></td><td>学生<em>やった</em><em>かて</em></td></tr></table>
-kansai_vs_standard: <table><tr><th>Standard</th><td><em>＿＿も</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿かて<br
-  /> ＿＿かって</em></td></tr><tr></tr></table>
+  with other particles such as に, から, で, and と.</p><table><caption>Nやったかて (degree)</caption><tbody><tr><th>Standard</th><td><em>学生で(あって)も</em>、割引ないんだよ。</td></tr><tr><th>Kansai-ben</th><td><em>学生やったかて</em>、割引*あらへんのや。</td></tr><tr><th>English</th><td>Even
+  if you''re a student, there is no discount.</td></tr></tbody></table><p>*割引 = discount</p>'
+formation: '<h2>V<sup class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term"
+  href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup></h2><table><tr><th>affirmative</th><td>V
+  (ta-form<sup class="lexicon-indicator" title="The short past tense form. For example: 食べた, 行った, した,
+  and 来た."><a class="lexicon-term" href="/taxonomy/term/170/" title="The short past tense form. For example:
+  食べた, 行った, した, and 来た.">?</a></sup>) +かて／かって</td></tr><tr><th>negative</th><td>V (short negative) +かて／かって</td></tr></table><h2>i-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an
+  adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></h2><table><tr><td>i-Adj (ta-form<sup
+  class="lexicon-indicator" title="The short past tense form. For example: 食べた, 行った, した, and 来た."><a class="lexicon-term"
+  href="/taxonomy/term/170/" title="The short past tense form. For example: 食べた, 行った, した, and 来た.">?</a></sup>)
+  +かて／かって</td></tr></table><h2>na-Adj<sup class="lexicon-indicator" title="Abbreviation for na-adjective--and
+  adjective that ends with a な. For example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/"
+  title="Abbreviation for na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup></h2><table><tr><td>na-Adj
+  (stem<sup also="" and="" as="" class="lexicon-indicator" example:="" for="" form.="" is="" known=""
+  masu="" pre-masu="" the="" this="" title="The long (masu) verb form without the final "><a class="lexicon-term"
+  href="/taxonomy/term/168/" title=''The long (masu) verb form without the final "masu". This is also
+  known as the pre-masu form. For example: 食べ, 行き, し, and き.''>?</a></sup>) +やった+かて／かって</td></tr></table><h2>N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup>.</h2><table><tr><td>N (stem<sup also="" and="" as="" class="lexicon-indicator"
+  example:="" for="" form.="" is="" known="" masu="" pre-masu="" the="" this="" title="The long (masu)
+  verb form without the final "><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu)
+  verb form without the final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し,
+  and き.''>?</a></sup>) +やった+かて／かって</td></tr><tr><td>N (stem) +かて／かって</td></tr></table>'
+formation_from_standard: '<h2>V<sup class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term"
+  href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup></h2><table class="full-grid-table"><tr><th></th><th>V
+  (affirmative) </th><th>V (negative) </th></tr><tr><th>Standard</th><td>食べ<em>て</em><em>も</em></td><td>食べ<em>なくて</em><em>も</em></td></tr><tr><th>Kansai-ben</th><td>食べ<em>た</em><em>かて</em><br/>
+  食べ<em>た</em><em>かって</em></td><td>食べ<em>ん</em><em>かて</em><br/> 食べ<em>ん</em><em>かって</em></td></tr></table><h2>i-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an
+  adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></h2><table class="full-grid-table"><tr><th></th><th>i-Adj
+  (affirmative)</th><th>i-Adj (negative)</th></tr><tr><th>Standard</th><td>大きく<em>て</em><em>も</em></td><td>大きく<em>なくて</em><em>も</em></td></tr><tr><th>Kansai-ben</th><td>大き<em>かった</em><em>かて</em><br/>
+  大き<em>かった</em><em>かって</em></td><td>大き<em>なかった</em><em>かて</em><br/> 大き<em>なかった</em><em>かって</em></td></tr></table><h2>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup>.</h2><table
+  class="full-grid-table"><tr><th></th><th>na-Adj (affirmative)</th><th>na-Adj (negative)</th></tr><tr><th>Standard</th><td>しずか<em>であって</em><em>も</em></td><td>しずか<em>でなくて</em><em>も</em></td></tr><tr><th>Kansai-ben</th><td>しずか<em>やった</em><em>かて</em></td><td>しずか<em>やなかった</em><em>かて</em><br/>
+  しずか<em>やのうた*</em><em>かて</em></td></tr></table><p>*のうたかて can be old‐fashioned.</p><h2>N<sup class="lexicon-indicator"
+  title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/" title="Abbreviation
+  for noun. ">?</a></sup></h2><table class="full-grid-table"><tr><th></th><th>N+も</th><th>N+で(あって)も</th></tr><tr><th>Standard</th><td>学生
+  <em>も</em></td><td>学生<em>で(あって)</em><em>も</em></td></tr><tr><th>Kansai-ben</th><td>学生 <em>かて</em></td><td>学生<em>やった</em><em>かて</em></td></tr></table>'
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>＿＿も</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿かて<br/>
+  ＿＿かって</em></td></tr></table>
 function_types:
 - function_130
 - function_129
 grammar_types:
 - grammar_83
-title_romaji: kate/katte

@@ -1,8 +1,9 @@
 id: word_368
 drupal_node_id: 368
 title: うだうだ
-body: grumbling; whining; complaining
+title_romaji: udauda
+body: <p>grumbling; whining; complaining</p>
+example: <p><strong>うだうだ</strong>言うてんと、さっさと仕事行き。<br/> Stop whining and hurry up and go to work!</p>
 standard_kana: ぐだぐだ
 word_types:
 - wordtype_6
-title_romaji: udauda

@@ -1,15 +1,14 @@
 id: word_257
 drupal_node_id: 257
 title: おばちゃん
-body: aunt; middle-aged woman
-commentary: 'This phrase is often used when calling for somebody or getting their attention. It should
-  usually be used only with people you have a little history with. It can also be used with family members.
-
-  The male counterpart of おばちゃん is おっちゃん.
-
-  Also see おばはん.'
+title_romaji: obachan
+body: <p>aunt; middle-aged woman</p>
+commentary: <p>This phrase is often used when calling for somebody or getting their attention. It should
+  usually be used only with people you have a little history with. It can also be used with family members.</p><p>The
+  male counterpart of おばちゃん is <a href="/words/256/">おっちゃん</a>.</p><p>Also see <a href="/words/254/">おばはん</a>.</p>
+example: <p><strong>おばちゃん</strong>、その服どこで買うたん？<br/> Hey, here did you buy those cloths?</p>
+kanji: 叔母ちゃん
 standard_kana: おばさん
 standard_kanji: 叔母さん
 word_types:
 - wordtype_7
-title_romaji: obachan

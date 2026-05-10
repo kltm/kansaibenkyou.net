@@ -1,13 +1,16 @@
 id: word_75
 drupal_node_id: 75
 title: なんぎ(な)
-body: hard; difficult; a pain in the neck (when applied to a person)
+title_romaji: nangi(na)
+body: <p>hard; difficult; a pain in the neck (when applied to a person)</p>
+example: <p>うっとこの息子、遊んでばっかりでいっこも仕事せえへん。<strong>なんぎ</strong>やわあ。<br/> My son does nothing but play around
+  and won't work a bit--a real pain to deal with.</p>
+kanji: 難儀(な)
 standard_kana: めんどう(な)／むずかしい／こまった
 standard_kanji: 面倒(な)／難しい／困った
-word_types:
-- wordtype_13
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: nangi(na)
+word_types:
+- wordtype_13

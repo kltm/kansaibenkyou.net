@@ -1,11 +1,12 @@
 id: word_221
 drupal_node_id: 221
 title: ちょける
-body: to joke; to clown
-commentary: 'A person who jokes around all the time is called  ちょけ or  おちょけ.
-
-  Some people may say おちょける instead.'
+title_romaji: chokeru
+body: <p>to joke; to clown</p>
+commentary: <p>A person who jokes around all the time is called <a href="/words/222/">ちょけ</a> or <a href="/words/364/">おちょけ</a>.</p><p>Some
+  people may say <a href="/words/365/">おちょける</a> instead.</p>
+example: <p>うちの子、学校で<strong>ちょけて</strong>ばっかりでいっこも先生の話聞かんのですわ。<br/> My kid is always joking around at
+  school; he never hears what the teacher says.</p>
 standard_kana: ふざける
 word_types:
 - wordtype_17
-title_romaji: chokeru

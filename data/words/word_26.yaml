@@ -1,10 +1,12 @@
 id: word_26
 drupal_node_id: 26
 title: なんきん
-body: pumpkin
-commentary: なんきん can also be used for the actual city of Nanjing (南京).
+title_romaji: nankin
+body: <p>pumpkin</p>
+commentary: <p>なんきん can also be used for the actual city of Nanjing (南京).</p>
+example: <p>この<strong>なんきん</strong>の天ぷらおいしいなあ。<br/> Isn't this pumpkin tempura is great?</p>
+kanji: 南京
 standard_kana: かぼちゃ
 standard_kanji: 南瓜
 word_types:
 - wordtype_3
-title_romaji: nankin

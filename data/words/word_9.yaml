@@ -1,10 +1,10 @@
 id: word_9
 drupal_node_id: 9
 title: まむし
-body: barbecued eel on rice
-commentary: Also see まぶし.
+title_romaji: mamushi
+body: <p>barbecued eel on rice</p>
+commentary: <p>Also see <a href="/words/10/">まぶし</a>.</p>
 standard_kana: うなぎめし
 standard_kanji: 鰻飯
 word_types:
 - wordtype_3
-title_romaji: mamushi

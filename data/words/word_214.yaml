@@ -1,12 +1,11 @@
 id: word_214
 drupal_node_id: 214
 title: あんた
-body: you
-commentary: 'In standard Japanese あなた is rarely used in conversation, however in Kansai-ben it is often
-  used.
-
-  Also see あんたさん.'
+title_romaji: anta
+body: <p>you</p>
+commentary: <p>In standard Japanese あなた is rarely used in conversation, however in Kansai-ben it is often
+  used.</p><p>Also see <a href="/words/140/">あんたさん</a>.</p>
+example: <p><strong>あんた</strong>、昨日どこ行っとったんや？<br/> Where were you yesterday?</p>
 standard_kana: あなた
 word_types:
 - wordtype_115
-title_romaji: anta

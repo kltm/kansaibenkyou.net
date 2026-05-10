@@ -1,9 +1,11 @@
 id: word_51
 drupal_node_id: 51
 title: けったい(な)
-body: strange; odd; weird
+title_romaji: kettai(na)
+body: <p>strange; odd; weird</p>
+example: <p>あんた、<strong>けったいな</strong>服着てるなあ。それどこで買うたんや？<br/> You're wearing some weird clothes. Where
+  did you buy them?</p>
 standard_kana: へん(な)
 standard_kanji: 変(な)
 word_types:
 - wordtype_13
-title_romaji: kettai(na)

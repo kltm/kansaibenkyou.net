@@ -1,27 +1,37 @@
 id: grammar_338
 drupal_node_id: 338
 title: Vやる／Vよる
-body: Vやる and Vよる are used to express a speaker's strong feelings, such as surprise or contempt, when
+title_romaji: Vyaru/Vyoru
+body: <p>Vやる and Vよる are used to express a speaker's strong feelings, such as surprise or contempt, when
   the subject is neither the speaker nor the listener (a third-person subject). There is no such a grammar
-  point in standard Japanese.
+  point in standard Japanese.</p>
 commentary: <h2>やる vs. よる</h2><p>In general, Vやる is used by women and Vよる is used by men, but women could
-  use Vよる if they want to show stronger emotion.</p></div><h2>やる/よる vs. はる</h2><p>You may notice that
-  the usage of Vやる and Vよる is similar to <a href="355">Vはる</a>. However, it should be noted that Vはる is
-  usually used when referring to strangers, people of higher status, or people you respect, while Vやる
-  and Vよる are used for family members, close friends, or inferiors.</p></div><h2>The feelings that Vやる
-  and Vよる can express</h2><p>While Vやる and Vよる can express speaker's feelings such as surprise and contempt,
+  use Vよる if they want to show stronger emotion.</p><h2>やる/よる vs. はる</h2><p>You may notice that the usage
+  of Vやる and Vよる is similar to <a href="/grammar-points/355/">Vはる</a>. However, it should be noted that
+  Vはる is usually used when referring to strangers, people of higher status, or people you respect, while
+  Vやる and Vよる are used for family members, close friends, or inferiors.</p><h2>The feelings that Vやる and
+  Vよる can express</h2><p>While Vやる and Vよる can express speaker's feelings such as surprise and contempt,
   there are cases where they do not imply any strong feelings.</p><table><tr><th>Standard</th><td>昨日、あなたのおばあさん、公園で<em>寝ていた</em>よ。</td></tr><tr><th>Kansai-ben</th><td>昨日、あんたのおばあちゃん、公園で<em>寝てやった</em>で。</td></tr><tr><th>English</th><td>Yesterday,
   your grandma was sleeping in the park.</td></tr></table>
 example: <table><caption>Surprise</caption><tbody><tr><th>Standard</th><td>あいつ、とうとう<em>結婚した</em>よ。</td></tr><tr><th>Kansai-ben</th><td>あいつ、とうとう<em>結婚しよった</em>で。</td></tr><tr><th>English</th><td>He
-  got married finally.</td></tr></tbody></table></div><table><caption>Contempt</caption><tbody><tr><th>Standard</th><td>あいつ、また<em>ふられた</em>らしいよ。</td></tr><tr><th>Kansai-ben</th><td>あいつ、また<em>ふられよった</em>らしいで。</td></tr><tr><th>English</th><td>She
-  was dumped again.</td></tr></tbody></table></div><table><caption>Suspicion</caption><tbody><tr><th>Standard</th><td>あいつ、ここで何<em>していた</em>んだ。</td></tr><tr><th>Kansai-ben</th><td>あいつ、ここで何<em>してやった</em>んや。</td></tr><tr><th>English</th><td>I
+  got married finally.</td></tr></tbody></table><table><caption>Contempt</caption><tbody><tr><th>Standard</th><td>あいつ、また<em>ふられた</em>らしいよ。</td></tr><tr><th>Kansai-ben</th><td>あいつ、また<em>ふられよった</em>らしいで。</td></tr><tr><th>English</th><td>She
+  was dumped again.</td></tr></tbody></table><table><caption>Suspicion</caption><tbody><tr><th>Standard</th><td>あいつ、ここで何<em>していた</em>んだ。</td></tr><tr><th>Kansai-ben</th><td>あいつ、ここで何<em>してやった</em>んや。</td></tr><tr><th>English</th><td>I
   wonder what he was doing here.</td></tr></tbody></table>
-formation: <h2>Dictionary form</h2><table><tr><td>V (stem) +やる／よる</td></tr></table><table><tr><td>行く</td><td>→</td><td>行きやる<br
-  /> 行きよる</td></tr><tr><td>寝る</td><td>→</td><td>寝やる<br /> 寝よる</td></tr><tr><td>来る</td><td>→</td><td>きやる<br
-  /> きよる</td></tr><tr><td>する</td><td>→</td><td>しやる<br /> しよる</td></tr></table></div><h2>Vている／ていた form
-  </h2><table><tr><td>V (te-form) +やる／やった</td></tr></table>
+formation: '<h2>Dictionary form<sup class="lexicon-indicator" title="The affirmative short non-past form
+  for a verb."><a class="lexicon-term" href="/taxonomy/term/164/" title="The affirmative short non-past
+  form for a verb.">?</a></sup></h2><table><tr><td>V<sup class="lexicon-indicator" title="Abbreviation
+  for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup>
+  (stem<sup also="" and="" as="" class="lexicon-indicator" example:="" for="" form.="" is="" known=""
+  masu="" pre-masu="" the="" this="" title="The long (masu) verb form without the final "><a class="lexicon-term"
+  href="/taxonomy/term/168/" title=''The long (masu) verb form without the final "masu". This is also
+  known as the pre-masu form. For example: 食べ, 行き, し, and き.''>?</a></sup>) +やる／よる</td></tr></table><table
+  class="kb-production-table"><tr><td>行く</td><td>→</td><td>行きやる<br/> 行きよる</td></tr><tr><td>寝る</td><td>→</td><td>寝やる<br/>
+  寝よる</td></tr><tr><td>来る</td><td>→</td><td>きやる<br/> きよる</td></tr><tr><td>する</td><td>→</td><td>しやる<br/>
+  しよる</td></tr></table><h2>Vている／ていた form </h2><table><tr><td>V<sup class="lexicon-indicator" title="Abbreviation
+  for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup>
+  (te-form<sup class="lexicon-indicator" title="For example: 食べて, 行って, して, and 来て."><a class="lexicon-term"
+  href="/taxonomy/term/171/" title="For example: 食べて, 行って, して, and 来て.">?</a></sup>) +やる／やった</td></tr></table>'
 function_types:
 - function_26
 grammar_types:
 - grammar_103
-title_romaji: Vyaru/Vyoru

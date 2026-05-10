@@ -1,8 +1,9 @@
 id: word_179
 drupal_node_id: 179
 title: ちと
-body: a little; a small amount
+title_romaji: chito
+body: <p>a little; a small amount</p>
+example: <p><strong>ちと</strong>、待ってくれや。<br/> Could you wait a bit?</p>
 standard_kana: ちょっと
 word_types:
 - wordtype_15
-title_romaji: chito

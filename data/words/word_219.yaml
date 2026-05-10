@@ -1,16 +1,15 @@
 id: word_219
 drupal_node_id: 219
 title: すこい
-body: devious; cunning
-commentary: 'This word has spread outside of Kansai, so you may hear it other places as well.
-
-  こすい and すこい have the same meaning.
-
-  This word has a weaker feeling than すっこい.
-
-  Also see こすい, こっすい, and すっこい'
+title_romaji: sukoi
+body: <p>devious; cunning</p>
+commentary: <p>This word has spread outside of Kansai, so you may hear it other places as well.</p><p><a
+  href="/words/240/">こすい</a> and <a href="/words/219/">すこい</a> have the same meaning.</p><p>This word
+  has a weaker feeling than <a href="/words/362/">すっこい</a>.</p><p>Also see <a href="/words/240/">こすい</a>,
+  <a href="/words/371/">こっすい</a>, and <a href="/words/362/">すっこい</a></p>
+example: '<p>A: あの子、いっつもうちの宿題うつして、自分でいっこもせえへんねん。<br/> B: <strong>すこい</strong>なあ。</p><p>A: She always copies
+  my homework--I don''t think she''s ever done any by herself.<br/> B: Quite a cheater, huh?</p>'
 standard_kana: ずるがしこい
 standard_kanji: 狡賢い
 word_types:
 - wordtype_12
-title_romaji: sukoi

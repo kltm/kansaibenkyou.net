@@ -1,15 +1,15 @@
 id: word_148
 drupal_node_id: 148
 title: おいでやす
-body: welcome
-commentary: 'This is mostly used in Kyoto, and often in business settings (i.e., store).
-
-  Also see おこしやす.'
+title_romaji: oideyasu
+body: <p>welcome</p>
+commentary: <p>This is mostly used in Kyoto, and often in business settings (i.e., store).</p><p>Also
+  see <a href="http://kansaibenkyou.net/node112">おこしやす</a>.</p>
+example: <p>ようこそ<strong>おいでやす</strong>。<br/> Welcome, glad that you came in.</p>
 standard_kana: いらっしゃい
-word_types:
-- wordtype_4
 suitability:
 - icon: i-formal.png
   label: formal
   tooltip: Indicates special use in formal settings.
-title_romaji: oideyasu
+word_types:
+- wordtype_4

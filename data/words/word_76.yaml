@@ -1,9 +1,12 @@
 id: word_76
 drupal_node_id: 76
 title: せっしょう(な)
-body: cruel; heartless; brutal
+title_romaji: sesshou(na)
+body: <p>cruel; heartless; brutal</p>
+example: '<p>A: 私以外の女としゃべったら、別れるで。<br/> B: ええっ!? そんな<strong>殺生な</strong>。</p><p>A: If you talk to any
+  other girl, I''m done with you.<br/> B: What? That''s pretty brutal.</p>'
+kanji: 殺生(な)
 standard_kana: むごい
 standard_kanji: 惨い
 word_types:
 - wordtype_13
-title_romaji: sesshou(na)

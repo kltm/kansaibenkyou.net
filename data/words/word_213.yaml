@@ -1,11 +1,14 @@
 id: word_213
 drupal_node_id: 213
 title: べんきょうする
-body: discount
-commentary: Of course this word is also used as "to study"--the number of people who use this word in
-  the "discount" sense are decreasing.
+title_romaji: benkyousuru
+body: <p>discount</p>
+commentary: <p>Of course this word is also used as "to study"--the number of people who use this word
+  in the "discount" sense are decreasing.</p>
+example: <p>兄ちゃん、<strong>勉強して</strong>や。これ高いわ。<br/> Hey, could you give me a little discount? It's a little
+  expensive.</p>
+kanji: 勉強する
 standard_kana: まける
 standard_kanji: 負ける
 word_types:
 - wordtype_116
-title_romaji: benkyousuru

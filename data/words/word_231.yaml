@@ -1,10 +1,13 @@
 id: word_231
 drupal_node_id: 231
 title: けぇ
-body: hair
-commentary: Please see the commentary on vowel extension.
+title_romaji: kee
+body: <p>hair</p>
+commentary: <p>Please see the commentary on <a href="/phonology/351/">vowel extension</a>.</p>
+example: <p>あんたの<strong>けぇ</strong>きれいやなあ。どのシャンプー使てんの？<br/> Your hair is so beautiful. What shampoo are
+  you using?</p>
+kanji: 毛ぇ
 standard_kana: け
 standard_kanji: 毛
 word_types:
 - wordtype_7
-title_romaji: kee

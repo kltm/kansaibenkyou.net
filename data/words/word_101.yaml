@@ -1,9 +1,11 @@
 id: word_101
 drupal_node_id: 101
 title: いきる
-body: to be livid; to try and come off as strong; to be cocky
+title_romaji: ikiru
+body: <p>to be livid; to try and come off as strong; to be cocky</p>
+example: <p>あいつ、最近、<strong>いきって</strong>んなあ。どうしたんやろ。<br/> I wonder why he's been acting out lately.</p>
+kanji: 熱る
 standard_kana: ちょうしにのる／いきがる
 standard_kanji: 調子に乗る／粋がる
 word_types:
 - wordtype_18
-title_romaji: ikiru

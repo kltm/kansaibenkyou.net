@@ -1,9 +1,10 @@
 id: word_12
 drupal_node_id: 12
 title: おこうこ
-body: pickled radish
+title_romaji: okouko
+body: <p>pickled radish</p>
+kanji: 御香香
 standard_kana: たくあん
 standard_kanji: 沢庵
 word_types:
 - wordtype_3
-title_romaji: okouko

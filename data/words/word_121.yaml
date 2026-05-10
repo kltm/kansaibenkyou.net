@@ -1,13 +1,13 @@
 id: word_121
 drupal_node_id: 121
 title: かしわ
-body: chicken meat
+title_romaji: kashiwa
+body: <p>chicken meat</p>
 standard_kana: とりにく
 standard_kanji: 鶏肉
-word_types:
-- wordtype_3
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: kashiwa
+word_types:
+- wordtype_3

@@ -1,9 +1,11 @@
 id: word_6
 drupal_node_id: 6
 title: つくり
-body: sashimi
+title_romaji: tsukuri
+body: <p>sashimi</p>
+example: <p>魚屋でマグロの<strong>つくり</strong>買うてきて。<br/> I went and bought some sashimi at the fish market.</p>
+kanji: 造り
 standard_kana: さしみ
 standard_kanji: 刺身
 word_types:
 - wordtype_3
-title_romaji: tsukuri

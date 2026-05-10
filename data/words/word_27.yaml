@@ -1,9 +1,11 @@
 id: word_27
 drupal_node_id: 27
 title: はんじかん
-body: half an hour
+title_romaji: hanjikan
+body: <p>half an hour</p>
+example: <p>あと<strong>半時間</strong>でバス来るわ。<br/> The bus will be here in half an hour.</p>
+kanji: 半時間
 standard_kana: 30ぷん
 standard_kanji: 30分
 word_types:
 - wordtype_7
-title_romaji: hanjikan

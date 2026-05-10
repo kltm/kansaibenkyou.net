@@ -1,9 +1,10 @@
 id: word_169
 drupal_node_id: 169
 title: ほな
-body: Alright then
-commentary: Also see ほんなら and ほなら.
+title_romaji: hona
+body: <p>Alright then</p>
+commentary: <p>Also see <a href="/words/171/">ほんなら</a> and <a href="/words/172/">ほなら</a>.</p>
+example: <p><strong>ほな</strong>、ぼちぼち帰るわ。<br/> Alright then, I'm gunna go home soon.</p>
 standard_kana: じゃあ
 word_types:
 - wordtype_15
-title_romaji: hona

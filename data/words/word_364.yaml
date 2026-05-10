@@ -1,12 +1,13 @@
 id: word_364
 drupal_node_id: 364
 title: おちょけ
-body: person who jokes around all the time
-commentary: 'This comes from the verb おちょける.
-
-  Some people may say ちょけ instead.'
+title_romaji: ochoke
+body: <p>person who jokes around all the time</p>
+commentary: <p>This comes from the verb <a href="/words/365/">おちょける</a>.</p><p>Some people may say <a
+  href="/words/222/">ちょけ</a> instead.</p>
+example: <p>さとしは<strong>おちょけ</strong>やけど、サッカーする時だけはまじめやな。<br/> Satoshi is a real clown; the only time
+  he's serious is when he's playing soccer.</p>
 standard_kana: ふざけたことをする(いう)ひと
 standard_kanji: ふざけたことをする(言う)人
 word_types:
 - wordtype_7
-title_romaji: ochoke

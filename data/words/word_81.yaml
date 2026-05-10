@@ -1,13 +1,13 @@
 id: word_81
 drupal_node_id: 81
 title: もうかりまっか
-body: 'How''s business?
-
-  Are you making money?'
-commentary: もうかりまっか is no longer in common usage. The above conversation would not likely be used in real
-  life, but may be used as shorthand for Kansai.
+title_romaji: moukarimakka
+body: <p>How's business?<br/> Are you making money?</p>
+commentary: <p>もうかりまっか is no longer in common usage. The above conversation would not likely be used in
+  real life, but may be used as shorthand for Kansai.</p>
+example: '<p>A: <strong>もうかりまっか</strong>。<br/> B: ぼちぼちでんなあ。</p><p>A: How''s business?<br/> B: It''s alright.</p>'
+kanji: 儲かりまっか
 standard_kana: もうかっていますか
 standard_kanji: 儲かっていますか
 word_types:
 - wordtype_4
-title_romaji: moukarimakka

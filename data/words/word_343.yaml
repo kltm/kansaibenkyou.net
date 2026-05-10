@@ -1,9 +1,11 @@
 id: word_343
 drupal_node_id: 343
 title: そやから
-body: therefore; so; because of that
-commentary: Also see せやから.
+title_romaji: soyakara
+body: <p>therefore; so; because of that</p>
+commentary: <p>Also see <a href="/words/163/">せやから</a>.</p>
+example: <p>今日雨ふるらしいで。<strong>せやから</strong>かさ持って行き。<br/> It looks like it's gonna rain today, so bring
+  your umbrella.</p>
 standard_kana: そうだから
 word_types:
 - wordtype_15
-title_romaji: soyakara

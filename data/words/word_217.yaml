@@ -1,11 +1,13 @@
 id: word_217
 drupal_node_id: 217
 title: じゃあくさい
-body: annoying; a pain; tiresome
-commentary: This word is a slightly abbreviated version of じゃまくさい and has a more non-standard feel to
-  it.
+title_romaji: jaakusai
+body: <p>annoying; a pain; tiresome</p>
+commentary: <p>This word is a slightly abbreviated version of <a href="/words/216/">じゃまくさい</a> and has
+  a more non-standard feel to it.</p>
+example: <p>こんなに書類あるんか。<strong>じゃあくさい</strong>なあ。<br/> I can't believe I have this much paperwork. It's
+  such a pain.</p>
 standard_kana: めんどうくさい
 standard_kanji: 面倒臭い
 word_types:
 - wordtype_12
-title_romaji: jaakusai

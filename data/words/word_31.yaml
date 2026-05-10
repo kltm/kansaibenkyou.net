@@ -1,11 +1,11 @@
 id: word_31
 drupal_node_id: 31
 title: モータープール
-body: parking lot
-commentary: Not many people actually say this anymore, but you may see signs that contain "モータープール" in
-  Kansai.
+title_romaji: mootaapuuru
+body: <p>parking lot</p>
+commentary: <p>Not many people actually say this anymore, but you may see signs that contain "モータープール"
+  in Kansai.</p>
 standard_kana: ちゅうしゃじょう
 standard_kanji: 駐車場
 word_types:
 - wordtype_7
-title_romaji: mootaapuuru

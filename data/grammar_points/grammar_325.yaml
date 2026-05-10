@@ -1,19 +1,26 @@
 id: grammar_325
 drupal_node_id: 325
 title: Vてもええ／Vてもかめへん／Vてもかまへん／Vてもかまん
-body: The standard Japanese expression to give or ask for permission, Vてもいい, can become Vてもええ in Kansai-ben.
+title_romaji: Vtemoee/Vtemokamehen/Vtemokamahen/Vtemokaman
+body: <p>The standard Japanese expression to give or ask for permission, Vてもいい, can become Vてもええ in Kansai-ben.
   Similarly, The standard Japanese Vてもかまわない can become either Vてもかめへん, Vてもかまへん, or Vてもかまん in Kansai-ben.
-  For the differences between the three, please see the usage notes for かめへん, かまへん, and かまん.
+  For the differences between the three, please see the usage notes for <a href="/words/125/">かめへん</a>,
+  <a href="/words/124/">かまへん</a>, and <a href="/words/252/">かまん</a>.</p>
 example: <table><caption>Vて(も)ええ</caption><tbody><tr><th>Standard</th><td>このCD<em>持って帰ってもいい</em>よ。</td></tr><tr><th>Kansai-ben</th><td>このCD<em>持って帰って(も)ええ</em>よ。</td></tr><tr><th>English</th><td>If
-  you want, you can take this CD home.</td></tr></tbody></table></div><table><caption>Vてもかめへん</caption><tbody><tr><th>Standard</th><td>今日、電車できたから、酒を<em>飲んでもいい</em>んだ。</td></tr><tr><th>Kansai-ben</th><td>今日、電車で来たよって、酒<em>飲んでもかめへん</em>ねん。</td></tr><tr><th>English</th><td>I
+  you want, you can take this CD home.</td></tr></tbody></table><table><caption>Vてもかめへん</caption><tbody><tr><th>Standard</th><td>今日、電車できたから、酒を<em>飲んでもいい</em>んだ。</td></tr><tr><th>Kansai-ben</th><td>今日、電車で来たよって、酒<em>飲んでもかめへん</em>ねん。</td></tr><tr><th>English</th><td>I
   took a train, so I can drink today.</td></tr></tbody></table>
-formation: <h2>Vて(も)ええ</h2><table><tr><td>V (te-form) + (も) +ええ</td></tr></table></div><h2>Vてもかめへん／Vてもかまへん</h2><table><tr><td>V
-  (te-form) +も+かめへん／かまへん</td></tr></table>
-kansai_vs_standard: <h2>Vてもええ</h2><table><tr><th>Standard</th><td><em>Vてもいい</em></td></tr><tr><th>Kansai-ben</th><td><em>Vて(も)*ええ</em></td></tr><tr></tr></table><p>*も
-  may be omitted.</p></div><h2>Vてもかめへん／Vてもかまへん</h2><table><tr><th>Standard</th><td><em>Vてもかまわない</em></td></tr><tr><th>Kansai-ben</th><td><em>Vて(も)かめへん<br
-  /> Vてもかまへん</em></td></tr><tr></tr></table>
+formation: '<h2>Vて(も)ええ</h2><table><tr><td>V<sup class="lexicon-indicator" title="Abbreviation for verb.
+  "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup> (te-form<sup
+  class="lexicon-indicator" title="For example: 食べて, 行って, して, and 来て."><a class="lexicon-term" href="/taxonomy/term/171/"
+  title="For example: 食べて, 行って, して, and 来て.">?</a></sup>) + (も) +ええ</td></tr></table><h2>Vてもかめへん／Vてもかまへん</h2><table><tr><td>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup> (te-form<sup class="lexicon-indicator" title="For example:
+  食べて, 行って, して, and 来て."><a class="lexicon-term" href="/taxonomy/term/171/" title="For example: 食べて, 行って,
+  して, and 来て.">?</a></sup>) +も+かめへん／かまへん</td></tr></table>'
+kansai_vs_standard: <h2>Vてもええ</h2><table><tr><th>Standard</th><td><em>Vてもいい</em></td></tr><tr><th>Kansai-ben</th><td><em>Vて(も)*ええ</em></td></tr></table><p>*も
+  may be omitted.</p><h2>Vてもかめへん／Vてもかまへん</h2><table><tr><th>Standard</th><td><em>Vてもかまわない</em></td></tr><tr><th>Kansai-ben</th><td><em>Vて(も)かめへん<br/>
+  Vてもかまへん</em></td></tr></table>
 function_types:
 - function_28
 grammar_types:
 - grammar_96
-title_romaji: Vtemoee/Vtemokamehen/Vtemokamahen/Vtemokaman

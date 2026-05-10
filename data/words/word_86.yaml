@@ -1,9 +1,10 @@
 id: word_86
 drupal_node_id: 86
 title: とちる
-body: to fail; to make a mistake
+title_romaji: tochiru
+body: <p>to fail; to make a mistake</p>
+example: <p>あ、また<strong>とちって</strong>もうた。<br/> Ugh, I totally failed again.</p>
 standard_kana: しっぱいする
 standard_kanji: 失敗する
 word_types:
 - wordtype_18
-title_romaji: tochiru

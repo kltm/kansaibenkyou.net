@@ -1,9 +1,11 @@
 id: word_239
 drupal_node_id: 239
 title: こえる
-body: to get fat
+title_romaji: koeru
+body: <p>to get fat</p>
+example: <p>そんなに食べたら<strong>こえる</strong>で。<br/> If you keep eating like that, you're gunna get fat.</p>
+kanji: 肥える
 standard_kana: ふとる
 standard_kanji: 太る
 word_types:
 - wordtype_17
-title_romaji: koeru

@@ -1,10 +1,12 @@
 id: word_130
 drupal_node_id: 130
 title: ごあさって
-body: three days after tomorrow
-commentary: In Kanto, やのあさって is used instead.
+title_romaji: goasatte
+body: <p>three days after tomorrow</p>
+commentary: <p>In Kanto, やのあさって is used instead.</p>
+example: <p><strong>ごあさって</strong>って何日や？<br/> What day is three days after tomorrow?</p>
+kanji: 五明後日
 standard_kana: しあさってのつぎのひ
 standard_kanji: 明々後日の次の日
 word_types:
 - wordtype_7
-title_romaji: goasatte

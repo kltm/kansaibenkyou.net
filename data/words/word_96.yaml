@@ -1,9 +1,9 @@
 id: word_96
 drupal_node_id: 96
 title: あて
-body: food eaten with alcoholic drinks; bar snacks
+title_romaji: ate
+body: <p>food eaten with alcoholic drinks; bar snacks</p>
 standard_kana: さけのさかな
 standard_kanji: 酒の肴
 word_types:
 - wordtype_3
-title_romaji: ate

@@ -1,10 +1,13 @@
 id: word_283
 drupal_node_id: 283
 title: きぃある
-body: to be interested in
-commentary: Also see 気ぃ.
+title_romaji: kiiaru
+body: <p>to be interested in</p>
+commentary: <p>Also see <a href="/words/281/">気ぃ</a>.</p>
+example: <p>あの人ずっとあんたのこと見てるで。あんたに<strong>気ぃある</strong>んとちゃう？<br/> That guy has been looking at you the
+  while time. He must be interested in you.</p>
+kanji: 気ぃある
 standard_kana: きがある
 standard_kanji: 気がある
 word_types:
 - wordtype_15
-title_romaji: kiiaru

@@ -1,10 +1,11 @@
 id: word_113
 drupal_node_id: 113
 title: おかん
-body: mom; mother
-commentary: The male counterpart is おとん.
+title_romaji: okan
+body: <p>mom; mother</p>
+commentary: <p>The male counterpart is <a href="/words/115/">おとん</a>.</p>
+example: <p>うちの<strong>おかん</strong>昔はきれいやったらしいわ。<br/> I heard that my mom used to be pretty.</p>
 standard_kana: おかあさん
 standard_kanji: お母さん
 word_types:
 - wordtype_7
-title_romaji: okan

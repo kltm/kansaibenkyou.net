@@ -1,9 +1,10 @@
 id: word_71
 drupal_node_id: 71
 title: ほかす
-body: to throw away
+title_romaji: hokasu
+body: <p>to throw away</p>
+example: <p>このゴミ<strong>ほかし</strong>といて。<br/> Could you throw this trash away?</p>
 standard_kana: すてる
 standard_kanji: 捨てる
 word_types:
 - wordtype_18
-title_romaji: hokasu

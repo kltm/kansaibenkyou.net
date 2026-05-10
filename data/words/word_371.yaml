@@ -1,14 +1,14 @@
 id: word_371
 drupal_node_id: 371
 title: こっすい
-body: devious; cunning
-commentary: 'This word has a stronger feeling than こすい.
-
-  こっすい and すっこい have the same meaning.
-
-  Also see こすい, すこい, and すっこい'
+title_romaji: kossui
+body: <p>devious; cunning</p>
+commentary: <p>This word has a stronger feeling than <a href="/words/240/">こすい</a>.</p><p><a href="/words/371/">こっすい</a>
+  and <a href="/words/362/">すっこい</a> have the same meaning.</p><p>Also see <a href="/words/240/">こすい</a>,
+  <a href="/words/219/">すこい</a>, and <a href="/words/362/">すっこい</a></p>
+example: '<p>A: あの子、いっつもうちの宿題うつして、自分でいっこもせえへんねん。<br/> B: <strong>こっすい</strong>なあ。</p><p>A: She always
+  copies my homework--I don''t think she''s ever done any by herself.<br/> B: Quite a cheater, huh?</p>'
 standard_kana: ずるがしこい
 standard_kanji: 狡賢い
 word_types:
 - wordtype_12
-title_romaji: kossui

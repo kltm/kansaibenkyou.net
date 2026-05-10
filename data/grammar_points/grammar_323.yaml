@@ -1,27 +1,35 @@
 id: grammar_323
 drupal_node_id: 323
 title: Vなあかん／Vんとあかん／Vんならん
-body: 'The standard Japanese expressions for obligation and necessity (see the table below) mostly become
-  Vなあかん in Kansai-ben. However, there are two exceptions that need to be mentioned.
-
-  The first exception is Vんとあかん, coming from the standard Japanese Vないといけない. Vなあかん and Vんとあかん have pretty
-  much the same meaning.
-
-  The second exception is Vんなららん, coming from the standard Japanese Vなくてはならない. It is an expression that
-  is very similar to Vなあかん, but it is only used for the speaker''s own actions. In addition, Vんならん is
-  somewhat softer than Vなあかん and may have a somewhat older feeling.'
+title_romaji: Vnaakan/Vntoakan/Vnnaran
+body: <p>The standard Japanese expressions for obligation and necessity (see the table below) mostly become
+  Vなあかん in Kansai-ben. However, there are two exceptions that need to be mentioned.</p><p>The first exception
+  is Vんとあかん, coming from the standard Japanese Vないといけない. Vなあかん and Vんとあかん have pretty much the same meaning.</p><p>The
+  second exception is Vんなららん, coming from the standard Japanese Vなくてはならない. It is an expression that is
+  very similar to Vなあかん, but it is only used for the speaker's own actions. In addition, Vんならん is somewhat
+  softer than Vなあかん and may have a somewhat older feeling.</p>
 example: <table><caption>Vなあかん</caption><tbody><tr><th>Standard</th><td>これ、明日までに<em>食べなければいけない</em>よ。</td></tr><tr><th>Kansai-ben</th><td>これ、明日までに<em>食べなあかん</em>で。</td></tr><tr><th>English</th><td>You
-  have to eat this by tomorrow.</td></tr></tbody></table></div><table><caption>Vんとあかん</caption><tbody><tr><th>Standard</th><td>朝ご飯は毎日<em>食べなくちゃいけない</em>よ。</td></tr><tr><th>Kansai-ben</th><td>朝ご飯は毎日<em>食べんとあかん</em>で。</td></tr><tr><th>English</th><td>You
-  must eat breakfast everyday.</td></tr></tbody></table></div><table><caption>Vんならん</caption><tr><th>Standard</th><td>明日も仕事あるから、そろそろ<em>寝なきゃ</em>なあ。</td></tr><tr><th>Kansa-beni</th><td>明日も仕事あるよって、そろそろ<em>寝んならん</em>なあ。</td></tr><tr><th>English</th><td>I
+  have to eat this by tomorrow.</td></tr></tbody></table><table><caption>Vんとあかん</caption><tbody><tr><th>Standard</th><td>朝ご飯は毎日<em>食べなくちゃいけない</em>よ。</td></tr><tr><th>Kansai-ben</th><td>朝ご飯は毎日<em>食べんとあかん</em>で。</td></tr><tr><th>English</th><td>You
+  must eat breakfast everyday.</td></tr></tbody></table><table><caption>Vんならん</caption><tr><th>Standard</th><td>明日も仕事あるから、そろそろ<em>寝なきゃ</em>なあ。</td></tr><tr><th>Kansa-beni</th><td>明日も仕事あるよって、そろそろ<em>寝んならん</em>なあ。</td></tr><tr><th>English</th><td>I
   have to go to work tomorrow so I'm going to turn in. </td></tr></table>
-formation: <h2>Vなあかん</h2><table><tr><td>V (negative stem) +な+あかん</td></tr></table></div><h2>Vんとあかん</h2><table><tr><td>V
-  (short negative form) +と+あかん</td></tr></table></div><h2>Vんならん</h2><table><tr><td>V (short negative form)
-  +ならん</td></tr></table>
-kansai_vs_standard: <h2>Vなあかん</h2><table><tr><th>Standard</th><td><em>Vなければならない<br /> Vなければいけない<br />
-  (Vなくちゃならない)<br /> (Vなくちゃいけない)</em></td></tr><tr><th>Kansai-ben</th><td><em>Vなあかん</em></td></tr><tr></tr></table></div><h2>Vんとあかん</h2><table><tr><th>Standard</th><td><em>Vないといけない</em></td></tr><tr><th>Kansai-ben</th><td><em>Vんとあかん</em></td></tr><tr></tr></table></div><h2>Vんならん</h2><table><tr><th>Standard</th><td><em>Vなければならない</em></td></tr><tr><th>Kansai-ben</th><td><em>Vんならん</em></td></tr><tr></tr></table>
+formation: '<h2>Vなあかん</h2><table><tr><td>V<sup class="lexicon-indicator" title="Abbreviation for verb.
+  "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup> (negative
+  stem<sup and="" class="lexicon-indicator" example:="" for="" in="" japanese="" kansai-ben.="" nai=""
+  or="" standard="" title="The short negative form without the final "><a class="lexicon-term" href="/taxonomy/term/169/"
+  title=''The short negative form without the final "nai" in standard Japanese or "ん" in Kansai-ben. For
+  example: 食べ, 行か, し, and こ in standard Japanese and 食べ, 行か, せ, and こ in Kansai-ben.''>?</a></sup>) +な+あかん</td></tr></table><h2>Vんとあかん</h2><table><tr><td>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup> (short negative form<sup class="lexicon-indicator" form=""
+  in="" japanese.="" nai="" standard="" title="Also known as the "><a class="lexicon-term" href="/taxonomy/term/165/"
+  title=''Also known as the "nai" form in standard Japanese. ''>?</a></sup>) +と+あかん</td></tr></table><h2>Vんならん</h2><table><tr><td>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup> (short negative form<sup class="lexicon-indicator" form=""
+  in="" japanese.="" nai="" standard="" title="Also known as the "><a class="lexicon-term" href="/taxonomy/term/165/"
+  title=''Also known as the "nai" form in standard Japanese. ''>?</a></sup>) +ならん</td></tr></table>'
+kansai_vs_standard: <h2>Vなあかん</h2><table><tr><th>Standard</th><td><em>Vなければならない<br/> Vなければいけない<br/> (Vなくちゃならない)<br/>
+  (Vなくちゃいけない)</em></td></tr><tr><th>Kansai-ben</th><td><em>Vなあかん</em></td></tr></table><h2>Vんとあかん</h2><table><tr><th>Standard</th><td><em>Vないといけない</em></td></tr><tr><th>Kansai-ben</th><td><em>Vんとあかん</em></td></tr></table><h2>Vんならん</h2><table><tr><th>Standard</th><td><em>Vなければならない</em></td></tr><tr><th>Kansai-ben</th><td><em>Vんならん</em></td></tr></table>
 function_types:
 - function_29
 - function_20
 grammar_types:
 - grammar_95
-title_romaji: Vnaakan/Vntoakan/Vnnaran

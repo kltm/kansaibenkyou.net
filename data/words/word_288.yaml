@@ -1,8 +1,9 @@
 id: word_288
 drupal_node_id: 288
 title: あんな
-body: Guess what? / Listen...
+title_romaji: anna
+body: <p>Guess what? / Listen...</p>
+example: <p><strong>あんな</strong>、うち、仕事やめよ思てんねん。<br/> Guess what? I'm thinking about quitting my job.</p>
 standard_kana: あのね
 word_types:
 - wordtype_15
-title_romaji: anna

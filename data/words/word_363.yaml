@@ -1,9 +1,11 @@
 id: word_363
 drupal_node_id: 363
 title: そやさかい
-body: so; because of (that); therefore
-commentary: Also see せやさかい and the grammar point for さかい.
+title_romaji: soyasakai
+body: <p>so; because of (that); therefore</p>
+commentary: <p>Also see <a href="/words/175/">せやさかい</a> and the grammar point for <a href="/grammar-points/315/">さかい</a>.</p>
+example: '<p>A: あ〜、眠いわあ。<br/> B: <strong>そやさかい</strong>、昨日早よ寝えって言うたやん。</p><p>A: Ahhh...I''m tired.<br/>
+  B: Because of that, I told you yesterday that you should go to bed early.</p>'
 standard_kana: そうだから
 word_types:
 - wordtype_15
-title_romaji: soyasakai

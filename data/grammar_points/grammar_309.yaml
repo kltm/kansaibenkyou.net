@@ -1,74 +1,191 @@
 id: grammar_309
 drupal_node_id: 309
 title: ねん／てん／ん／のん／たん
-body: 'In Kansai-ben, ねん, てん, ん, のん, and たん are used in queries, asking for reasons, and giving explanations.
-
-  The standard sentence endings のだ and んだ may become ねん and てん in Kansai-ben. The main difference between
-  the two is that while ねん is mainly used in the non-past tense, てん is always used in the past tense.
-
-  Similarly, the standard sentence ending の may become ん, のん, or たん in Kansai-ben. It should be noted
-  that ん and のん have essentially the same meaning, with the difference decided by region or speaker preference.
-  Again, similar to the above, while ん and のん are used in the non-past tense, たん is only used in the past-tense
-  (the た in たん is considered to be a part in ta-form? of the verbs, adjectives, and nouns that comes in
-  front of たん).
-
-  It should be highlighted that just like their counterparts in standard Japanese, ねん and てん are used
-  to express a more emphatic feeling than ん, のん, and たん.
-
-  It should also be noted that the てん mentioned here is not related to the てる／てん of verb conjugation.'
+title_romaji: nen/ten/n/non/tan
+body: '<p>In Kansai-ben, ねん, てん, ん, のん, and たん are used in queries, asking for reasons, and giving explanations.</p><p>The
+  standard sentence endings のだ and んだ may become ねん and てん in Kansai-ben. The main difference between
+  the two is that while ねん is mainly used in the non-past tense, てん is always used in the past tense.</p><p>Similarly,
+  the standard sentence ending の may become ん, のん, or たん in Kansai-ben. It should be noted that ん and
+  のん have essentially the same meaning, with the difference decided by region or speaker preference. Again,
+  similar to the above, while ん and のん are used in the non-past tense, たん is only used in the past-tense
+  (the た in たん is considered to be a part in ta-form<sup class="lexicon-indicator" title="The short past
+  tense form. For example: 食べた, 行った, した, and 来た."><a class="lexicon-term" href="/taxonomy/term/170/" title="The
+  short past tense form. For example: 食べた, 行った, した, and 来た.">?</a></sup> of the verbs, adjectives, and
+  nouns that comes in front of たん).</p><p>It should be highlighted that just like their counterparts in
+  standard Japanese, ねん and てん are used to express a more emphatic feeling than ん, のん, and たん. </p><p>It
+  should also be noted that the てん mentioned here is not related to the <a href="/phonology/351/">てる／てん</a>
+  of verb conjugation.</p>'
 commentary: <h2>Past tense + ねん</h2><p>ねん can also used with the past tense. In that case, just add ねん
   to the past tense of words.</p><table><caption>＿＿ねん (past)</caption><tbody><tr><th>Standard</th><td>昨日、テストあった<em>んだ</em>。</td></tr><tr><th>Kansai-ben</th><td>昨日、テストあった<em>ねん</em>。</td></tr><tr><th>English</th><td>We
-  had a quiz yesterday.</td></tr></tbody></table></div><h2>When to use ねん, てん, ん, のん, and たん</h2><table
-  class="full-grid-table"><tr><th></th><th>WH - question</th><th>Yes/No question</th><th>Response sentence</th></tr><tr><th>＿＿ねん</th><td>どこ行く<em>ねん</em>？</td><td>×</td><td>コンビニ行く<em>ねん</em>。</td></tr><tr><th>＿＿てん</th><td>いつ、大阪来<em>てん</em>？</td><td>×</td><td>昨日、大阪来<em>てん</em>。</td></tr><tr><th>＿＿ん</th><td>だれ、来る<em>ん</em>？</td><td>田中も来る<em>ん</em>？</td><td>田中も来る<em>ん</em><em>や</em>。*</td></tr><tr><th>＿＿のん</th><td>何、食べてん<em>のん</em>？</td><td>まだ、食べてん<em>のん</em>？</td><td>×</td></tr><tr><th>＿＿たん</th><td>どこ、行っ<em>たん</em>？</td><td>学校へ行っ<em>たん</em>？</td><td>学校へ行っ<em>たん</em><em>や</em>。*</td></tr></table><p>×
-  should not be used<br /> * can only be used with final particles such as <a href="306">や</a>.</p>
+  had a quiz yesterday.</td></tr></tbody></table><h2>When to use ねん, てん, ん, のん, and たん</h2><table class="full-grid-table"><tr><th></th><th>WH
+  - question</th><th>Yes/No question</th><th>Response sentence</th></tr><tr><th>＿＿ねん</th><td>どこ行く<em>ねん</em>？</td><td>×</td><td>コンビニ行く<em>ねん</em>。</td></tr><tr><th>＿＿てん</th><td>いつ、大阪来<em>てん</em>？</td><td>×</td><td>昨日、大阪来<em>てん</em>。</td></tr><tr><th>＿＿ん</th><td>だれ、来る<em>ん</em>？</td><td>田中も来る<em>ん</em>？</td><td>田中も来る<em>ん</em><em>や</em>。*</td></tr><tr><th>＿＿のん</th><td>何、食べてん<em>のん</em>？</td><td>まだ、食べてん<em>のん</em>？</td><td>×</td></tr><tr><th>＿＿たん</th><td>どこ、行っ<em>たん</em>？</td><td>学校へ行っ<em>たん</em>？</td><td>学校へ行っ<em>たん</em><em>や</em>。*</td></tr></table><p>×
+  should not be used<br/> * can only be used with final particles such as <a href="/grammar-points/306/">や</a>.</p>
 example: <table><caption>＿＿ねん (non-past)</caption><tbody><tr><th>Standard</th><td>明日、テストある<em>んだ</em>。</td></tr><tr><th>Kansai-ben</th><td>明日、テストある<em>ねん</em>。</td></tr><tr><th>English</th><td>We'll
-  have a quiz tomorrow.</td></tr></tbody></table></div><table><caption>＿＿てん (past)</caption><tbody><tr><th>Standard</th><td>昨日の晩ご飯、カレーだっ<em>たんだ</em>。</td></tr><tr><th>Kansai-ben</th><td>昨日の晩ご飯、カレーやっ<em>てん</em>。</td></tr><tr><th>English</th><td>We
-  had curry for dinner last night.</td></tr></tbody></table></div><table><caption>＿＿ん</caption><tbody><tr><th>Standard</th><td>どうする<em>の</em>？</td></tr><tr><th>Kansai-ben</th><td>どうする<em>ん</em>？</td></tr><tr><th>English</th><td>What
-  are you going to do?</td></tr></tbody></table></div><table><caption>＿＿のん</caption><tbody><tr><th>Standard</th><td>どこ行く<em>の</em>？</td></tr><tr><th>Kansai-ben</th><td>どこ行く<em>のん</em>？</td></tr><tr><th>English</th><td>Where
-  are you going?</td></tr></tbody></table></div><table><caption>＿＿たん</caption><tbody><tr><th>Standard</th><td>昨日、学校行っ<em>たの</em>？</td></tr><tr><th>Kansai-ben</th><td>昨日、学校行っ<em>たん</em>？</td></tr><tr><th>English</th><td>Did
+  have a quiz tomorrow.</td></tr></tbody></table><table><caption>＿＿てん (past)</caption><tbody><tr><th>Standard</th><td>昨日の晩ご飯、カレーだっ<em>たんだ</em>。</td></tr><tr><th>Kansai-ben</th><td>昨日の晩ご飯、カレーやっ<em>てん</em>。</td></tr><tr><th>English</th><td>We
+  had curry for dinner last night.</td></tr></tbody></table><table><caption>＿＿ん</caption><tbody><tr><th>Standard</th><td>どうする<em>の</em>？</td></tr><tr><th>Kansai-ben</th><td>どうする<em>ん</em>？</td></tr><tr><th>English</th><td>What
+  are you going to do?</td></tr></tbody></table><table><caption>＿＿のん</caption><tbody><tr><th>Standard</th><td>どこ行く<em>の</em>？</td></tr><tr><th>Kansai-ben</th><td>どこ行く<em>のん</em>？</td></tr><tr><th>English</th><td>Where
+  are you going?</td></tr></tbody></table><table><caption>＿＿たん</caption><tbody><tr><th>Standard</th><td>昨日、学校行っ<em>たの</em>？</td></tr><tr><th>Kansai-ben</th><td>昨日、学校行っ<em>たん</em>？</td></tr><tr><th>English</th><td>Did
   you go to school yesterday?</td></tr></tbody></table>
-formation: <h2>＿＿ねん</h2><table><tr><th>V and i-Adj</th><td>short form+ねん</td></tr><tr><th>na-Adj and N</th><td>stem+やねん</td></tr></table></div><h2>＿＿てん</h2><table><tr><th>V
-  and i-Adj</th><td>ta-form without the final た+てん</td></tr><tr><th>na-Adj and N</th><td>stem+やってん</td></tr></table></div><h2>＿＿ん</h2><table><tr><th>V,
-  i-Adj, na-Adj, and N</th><td>short form+ん</td></tr></table></div><h2>＿＿のん</h2><table><tr><th>V and i-Adj</th><td>short
-  form+のん</td></tr><tr><th>na-Adj and N</th><td>stem+や+のん</td></tr></table></div><h2>＿＿たん</h2><table><tr><th>V
-  and i-Adj</th><td>ta-form+ん</td></tr><tr><th>na-Adj and N</th><td>stem+やった+ん</td></tr></table>
+formation: '<h2>＿＿ねん</h2><table><tr><th>V<sup class="lexicon-indicator" title="Abbreviation for verb.
+  "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup> and
+  i-Adj<sup class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective that ends with
+  an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation
+  for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></th><td>short
+  form<sup class="lexicon-indicator" title="A collective term for the dictionary, simple past tense, and
+  negative form. Also known as the plain form. For example 行く, 行かない, 行った, and 行かなかった."><a class="lexicon-term"
+  href="/taxonomy/term/166/" title="A collective term for the dictionary, simple past tense, and negative
+  form. Also known as the plain form. For example 行く, 行かない, 行った, and 行かなかった.">?</a></sup>+ねん</td></tr><tr><th>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup> and N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup></th><td>stem<sup also="" and="" as="" class="lexicon-indicator"
+  example:="" for="" form.="" is="" known="" masu="" pre-masu="" the="" this="" title="The long (masu)
+  verb form without the final "><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu)
+  verb form without the final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し,
+  and き.''>?</a></sup>+やねん</td></tr></table><h2>＿＿てん</h2><table><tr><th>V<sup class="lexicon-indicator"
+  title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation
+  for verb. ">?</a></sup> and i-Adj<sup class="lexicon-indicator" title="Abbreviation for i-adjective--an
+  adjective that ends with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/"
+  title="Abbreviation for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></th><td>ta-form<sup
+  class="lexicon-indicator" title="The short past tense form. For example: 食べた, 行った, した, and 来た."><a class="lexicon-term"
+  href="/taxonomy/term/170/" title="The short past tense form. For example: 食べた, 行った, した, and 来た.">?</a></sup>
+  without the final た+てん</td></tr><tr><th>na-Adj<sup class="lexicon-indicator" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな."><a class="lexicon-term"
+  href="/taxonomy/term/180/" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな.">?</a></sup> and N<sup class="lexicon-indicator" title="Abbreviation for noun.
+  "><a class="lexicon-term" href="/taxonomy/term/157/" title="Abbreviation for noun. ">?</a></sup></th><td>stem<sup
+  also="" and="" as="" class="lexicon-indicator" example:="" for="" form.="" is="" known="" masu="" pre-masu=""
+  the="" this="" title="The long (masu) verb form without the final "><a class="lexicon-term" href="/taxonomy/term/168/"
+  title=''The long (masu) verb form without the final "masu". This is also known as the pre-masu form.
+  For example: 食べ, 行き, し, and き.''>?</a></sup>+やってん</td></tr></table><h2>＿＿ん</h2><table><tr><th>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup>, i-Adj<sup class="lexicon-indicator" title="Abbreviation
+  for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term"
+  href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい.">?</a></sup>, na-Adj<sup class="lexicon-indicator" title="Abbreviation for na-adjective--and
+  adjective that ends with a な. For example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/"
+  title="Abbreviation for na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup>,
+  and N<sup class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup></th><td>short form<sup class="lexicon-indicator" title="A
+  collective term for the dictionary, simple past tense, and negative form. Also known as the plain form.
+  For example 行く, 行かない, 行った, and 行かなかった."><a class="lexicon-term" href="/taxonomy/term/166/" title="A
+  collective term for the dictionary, simple past tense, and negative form. Also known as the plain form.
+  For example 行く, 行かない, 行った, and 行かなかった.">?</a></sup>+ん</td></tr></table><h2>＿＿のん</h2><table><tr><th>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup> and i-Adj<sup class="lexicon-indicator" title="Abbreviation
+  for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term"
+  href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい.">?</a></sup></th><td>short form<sup class="lexicon-indicator" title="A collective
+  term for the dictionary, simple past tense, and negative form. Also known as the plain form. For example
+  行く, 行かない, 行った, and 行かなかった."><a class="lexicon-term" href="/taxonomy/term/166/" title="A collective term
+  for the dictionary, simple past tense, and negative form. Also known as the plain form. For example
+  行く, 行かない, 行った, and 行かなかった.">?</a></sup>+のん</td></tr><tr><th>na-Adj<sup class="lexicon-indicator" title="Abbreviation
+  for na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな."><a class="lexicon-term"
+  href="/taxonomy/term/180/" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな.">?</a></sup> and N<sup class="lexicon-indicator" title="Abbreviation for noun.
+  "><a class="lexicon-term" href="/taxonomy/term/157/" title="Abbreviation for noun. ">?</a></sup></th><td>stem<sup
+  also="" and="" as="" class="lexicon-indicator" example:="" for="" form.="" is="" known="" masu="" pre-masu=""
+  the="" this="" title="The long (masu) verb form without the final "><a class="lexicon-term" href="/taxonomy/term/168/"
+  title=''The long (masu) verb form without the final "masu". This is also known as the pre-masu form.
+  For example: 食べ, 行き, し, and き.''>?</a></sup>+や+のん</td></tr></table><h2>＿＿たん</h2><table><tr><th>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup> and i-Adj<sup class="lexicon-indicator" title="Abbreviation
+  for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term"
+  href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい.">?</a></sup></th><td>ta-form<sup class="lexicon-indicator" title="The short past
+  tense form. For example: 食べた, 行った, した, and 来た."><a class="lexicon-term" href="/taxonomy/term/170/" title="The
+  short past tense form. For example: 食べた, 行った, した, and 来た.">?</a></sup>+ん</td></tr><tr><th>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup> and N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup></th><td>stem<sup also="" and="" as="" class="lexicon-indicator"
+  example:="" for="" form.="" is="" known="" masu="" pre-masu="" the="" this="" title="The long (masu)
+  verb form without the final "><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu)
+  verb form without the final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し,
+  and き.''>?</a></sup>+やった+ん</td></tr></table>'
 formation_from_standard: '<h2>＿＿ねん</h2><table class="full-grid-table"><tr><th></th><th>verbs that end
-  with る*</th><th>verbs that do not end with る<br /> (including the past tense of verbs that end with
-  る)</th><th>i-Adj</th><th>na-Adj</th><th>N</th></tr><tr><th>Standard</th><td><span class="nowrap">帰<em>る</em><em>
-  のだ</em></span><br /> 帰<em>る</em><em> んだ</em></td><td>行く<em> のだ</em><br /> 行く<em> んだ</em></td><td><span
-  class="nowrap">大きい<em> のだ</em><span><br /> 大きい<em> んだ</em></span></span></td><td><span class="nowrap">しずか<em>な</em><em>
-  のだ</em></span><br /> しずか<em>な</em><em> んだ</em></td><td><span class="nowrap">学生<em>な</em><em> のだ</em></span><br
-  /> 学生<em>な</em><em> んだ</em></td></tr><tr><th>Kansai-ben</th><td>帰<em>ん</em><em> ねん</em><br /> 帰<em>る</em><em>
-  ねん</em></td><td>行く<em> ねん</em></td><td>大きい<em> ねん</em></td><td>しずか<em>や</em><em> ねん</em></td><td>学生<em>や</em><em>
-  ねん</em></td></tr></table><p>*These are not only ru-verbs but also u-verbs end with る. (Example: 帰る、取る)</p></div><h2>＿＿てん</h2><table
-  class="full-grid-table"><tr><th></th><th>V (ta-form)</th><th>i-Adj (ta-form)</th><th>na-Adj (ta-form)</th><th>N
-  (ta-form)</th></tr><tr><th>Standard</th><td>行っ<em>た のだ</em><br /> 行っ<em>た んだ</em></td><td>大きかっ<em>た
-  のだ</em><br /> 大きかっ<em>た んだ</em></td><td>しずか<em>だ</em>っ<em>た のだ</em><br /> しずか<em>だ</em>っ<em>た んだ</em></td><td>学生<em>だ</em>っ<em>た
-  のだ</em><br /> 学生<em>だ</em>っ<em>た んだ</em></td></tr><tr><th>Kansai-ben</th><td>行っ<em>て ん</em></td><td>大きかっ<em>て
-  ん</em></td><td>しずか<em>や</em>っ<em>て ん</em></td><td>学生<em>や</em>っ<em>て ん</em></td></tr></table></div><h2>＿＿ん</h2><table
-  class="full-grid-table"><tr><th></th><th>V (ta-form)</th><th>i-Adj (ta-form)</th><th>na-Adj (ta-form)</th><th>N
-  (ta-form)</th></tr><tr><th>Standard</th><td>行く<em> の</em></td><td>大きい<em> の</em></td><td>しずかな<em> の</em></td><td>学生な<em>
-  の</em></td></tr><tr><th>Kansai-ben</th><td>行く<em> ん</em></td><td>大きい<em> ん</em></td><td><span class="nowrap">しずかな*<em>
-  ん</em><span></span></span></td><td>学生な<em> ん</em><br /></td></tr></table><p>*with a na-Adj.+の, the な
-  part can become や. (Example: しずか<em>やの</em>)</p></div><h2>＿＿のん</h2><table class="full-grid-table"><tr><th></th><th>verbs
-  that end with る*</th><th>verbs that do not end with る<br /> (including the past tense of verbs that
-  end with る)</th><th>i-Adj</th><th>na-Adj</th><th>N</th></tr><tr><th>Standard</th><td>帰<em>る</em><em>
-  の</em></td><td>行く<em> の</em></td><td><span class="nowrap">大きい<em> の</em></span></td><td><span class="nowrap">しずか<em>な</em><em>
+  with る*</th><th>verbs that do not end with る<br/> (including the past tense of verbs that end with る)</th><th>i-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an
+  adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></th><th>na-Adj<sup class="lexicon-indicator"
+  title="Abbreviation for na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな."><a
+  class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for na-adjective--and adjective
+  that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup></th><th>N<sup class="lexicon-indicator"
+  title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/" title="Abbreviation
+  for noun. ">?</a></sup></th></tr><tr><th>Standard</th><td><span class="nowrap">帰<em>る</em><em> のだ</em></span><br/>
+  帰<em>る</em><em> んだ</em></td><td>行く<em> のだ</em><br/> 行く<em> んだ</em></td><td><span class="nowrap">大きい<em>
+  のだ</em><span><br/> 大きい<em> んだ</em></span></span></td><td><span class="nowrap">しずか<em>な</em><em> のだ</em></span><br/>
+  しずか<em>な</em><em> んだ</em></td><td><span class="nowrap">学生<em>な</em><em> のだ</em></span><br/> 学生<em>な</em><em>
+  んだ</em></td></tr><tr><th>Kansai-ben</th><td>帰<em>ん</em><em> ねん</em><br/> 帰<em>る</em><em> ねん</em></td><td>行く<em>
+  ねん</em></td><td>大きい<em> ねん</em></td><td>しずか<em>や</em><em> ねん</em></td><td>学生<em>や</em><em> ねん</em></td></tr></table><p>*These
+  are not only ru-verbs but also u-verbs end with る. (Example: 帰る、取る)</p><h2>＿＿てん</h2><table class="full-grid-table"><tr><th></th><th>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup> (ta-form<sup class="lexicon-indicator" title="The short
+  past tense form. For example: 食べた, 行った, した, and 来た."><a class="lexicon-term" href="/taxonomy/term/170/"
+  title="The short past tense form. For example: 食べた, 行った, した, and 来た.">?</a></sup>)</th><th>i-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an
+  adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup> (ta-form)</th><th>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup> (ta-form)</th><th>N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup> (ta-form)</th></tr><tr><th>Standard</th><td>行っ<em>た のだ</em><br/>
+  行っ<em>た んだ</em></td><td>大きかっ<em>た のだ</em><br/> 大きかっ<em>た んだ</em></td><td>しずか<em>だ</em>っ<em>た のだ</em><br/>
+  しずか<em>だ</em>っ<em>た んだ</em></td><td>学生<em>だ</em>っ<em>た のだ</em><br/> 学生<em>だ</em>っ<em>た んだ</em></td></tr><tr><th>Kansai-ben</th><td>行っ<em>て
+  ん</em></td><td>大きかっ<em>て ん</em></td><td>しずか<em>や</em>っ<em>て ん</em></td><td>学生<em>や</em>っ<em>て ん</em></td></tr></table><h2>＿＿ん</h2><table
+  class="full-grid-table"><tr><th></th><th>V<sup class="lexicon-indicator" title="Abbreviation for verb.
+  "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup> (ta-form<sup
+  class="lexicon-indicator" title="The short past tense form. For example: 食べた, 行った, した, and 来た."><a class="lexicon-term"
+  href="/taxonomy/term/170/" title="The short past tense form. For example: 食べた, 行った, した, and 来た.">?</a></sup>)</th><th>i-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an
+  adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup> (ta-form)</th><th>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup> (ta-form)</th><th>N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup> (ta-form)</th></tr><tr><th>Standard</th><td>行く<em> の</em></td><td>大きい<em>
+  の</em></td><td>しずかな<em> の</em></td><td>学生な<em> の</em></td></tr><tr><th>Kansai-ben</th><td>行く<em> ん</em></td><td>大きい<em>
+  ん</em></td><td><span class="nowrap">しずかな*<em> ん</em></span></td><td>学生な<em> ん</em><br/></td></tr></table><p>*with
+  a na-Adj.+の, the な part can become や. (Example: しずか<em>やの</em>)</p><h2>＿＿のん</h2><table class="full-grid-table"><tr><th></th><th>verbs
+  that end with る*</th><th>verbs that do not end with る<br/> (including the past tense of verbs that end
+  with る)</th><th>i-Adj<sup class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective
+  that ends with an い. For example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/"
+  title="Abbreviation for i-adjective--an adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup></th><th>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup></th><th>N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup></th></tr><tr><th>Standard</th><td>帰<em>る</em><em> の</em></td><td>行く<em>
+  の</em></td><td><span class="nowrap">大きい<em> の</em></span></td><td><span class="nowrap">しずか<em>な</em><em>
   の</em></span></td><td><span class="nowrap">学生<em>な</em><em> の</em></span></td></tr><tr><th>Kansai-ben</th><td>帰<em>ん</em><em>
-  のん</em><br /> 帰<em>る</em><em> のん</em></td><td>行く<em> のん</em></td><td>大きい<em> のん</em></td><td><span class="nowrap">しずか<em>や</em><em>
+  のん</em><br/> 帰<em>る</em><em> のん</em></td><td>行く<em> のん</em></td><td>大きい<em> のん</em></td><td><span class="nowrap">しずか<em>や</em><em>
   のん</em></span></td><td><span class="nowrap">学生<em>や</em><em> のん</em></span></td></tr></table><p>*These
-  are not only ru-verbs but also u-verbs end with る. (Example: 帰る、取る)</p></div><h2>＿＿たん</h2><table class="full-grid-table"><tr><th></th><th>V
-  (ta-form)</th><th>i-Adj (ta-form)</th><th>na-Adj (ta-form)</th><th>N (ta-form)</th></tr><tr><th>Standard</th><td>行っ<em>た</em><em>
+  are not only ru-verbs but also u-verbs end with る. (Example: 帰る、取る)</p><h2>＿＿たん</h2><table class="full-grid-table"><tr><th></th><th>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup> (ta-form<sup class="lexicon-indicator" title="The short
+  past tense form. For example: 食べた, 行った, した, and 来た."><a class="lexicon-term" href="/taxonomy/term/170/"
+  title="The short past tense form. For example: 食べた, 行った, した, and 来た.">?</a></sup>)</th><th>i-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for i-adjective--an adjective that ends with an い. For
+  example: 大きい, 高い, 新しい."><a class="lexicon-term" href="/taxonomy/term/179/" title="Abbreviation for i-adjective--an
+  adjective that ends with an い. For example: 大きい, 高い, 新しい.">?</a></sup> (ta-form)</th><th>na-Adj<sup
+  class="lexicon-indicator" title="Abbreviation for na-adjective--and adjective that ends with a な. For
+  example: 静かな, 便利な, きれいな."><a class="lexicon-term" href="/taxonomy/term/180/" title="Abbreviation for
+  na-adjective--and adjective that ends with a な. For example: 静かな, 便利な, きれいな.">?</a></sup> (ta-form)</th><th>N<sup
+  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
+  title="Abbreviation for noun. ">?</a></sup> (ta-form)</th></tr><tr><th>Standard</th><td>行っ<em>た</em><em>
   の</em></td><td>大きかっ<em>た</em><em> の</em></td><td>しずか<em>だ</em>っ<em>た の</em></td><td>学生<em>だ</em>っ<em>た
   の</em></td></tr><tr><th>Kansai-ben</th><td>行っ<em>た ん</em></td><td>大きかっ<em>た ん</em></td><td>しずか<em>や</em>っ<em>た
-  ん</em></td><td>学生<em>や</em>っ<em>た ん</em><br /></td></tr></table>'
-kansai_vs_standard: <h2>ねん／てん</h2><table><tr><th>Standard</th><td><em>＿＿＿のだ<br /> ＿＿＿んだ</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿＿ねん<br
-  /> ＿＿＿てん</em></td></tr><tr></tr></table></div><h2>ん／のん／たん</h2><table><tr><th>Standard</th><td><em>＿＿＿の</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿＿ん<br
-  /> ＿＿＿のん<br /> ＿＿＿たん</em></td></tr><tr></tr></table>
+  ん</em></td><td>学生<em>や</em>っ<em>た ん</em><br/></td></tr></table>'
+kansai_vs_standard: <h2>ねん／てん</h2><table><tr><th>Standard</th><td><em>＿＿＿のだ<br/> ＿＿＿んだ</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿＿ねん<br/>
+  ＿＿＿てん</em></td></tr></table><h2>ん／のん／たん</h2><table><tr><th>Standard</th><td><em>＿＿＿の</em></td></tr><tr><th>Kansai-ben</th><td><em>＿＿＿ん<br/>
+  ＿＿＿のん<br/> ＿＿＿たん</em></td></tr></table>
 function_types:
 - function_131
 - function_132
 - function_57
 grammar_types:
 - grammar_80
-title_romaji: nen/ten/n/non/tan

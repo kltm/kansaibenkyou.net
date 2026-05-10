@@ -1,15 +1,14 @@
 id: word_111
 drupal_node_id: 111
 title: えんりょのかたまり
-body: that one last piece of food at the table that everyone refuses to eat because they don't want to
-  be the rude one.
-commentary: '"えんりょ" means to reserve.
-
-  "かたまり" means lump.
-
-  The literary means of "えんりょのかたまり" is a lump of reserve.'
+title_romaji: enryonokatamari
+body: <p>that one last piece of food at the table that everyone refuses to eat because they don't want
+  to be the rude one.</p>
+commentary: <p>"えんりょ" means to reserve.<br/> "かたまり" means lump.<br/> The literary means of "えんりょのかたまり"
+  is a lump of reserve.</p>
+example: <p>だれかこの<strong>えんりょのかたまり</strong>食べてぇな。<br/> Will someone just finish this last one please?</p>
+kanji: 遠慮の塊
 standard_kana: のこりもの(たべもの)
 standard_kanji: 残り物(食べ物)
 word_types:
 - wordtype_7
-title_romaji: enryonokatamari

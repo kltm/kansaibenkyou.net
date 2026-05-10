@@ -1,15 +1,15 @@
 id: word_373
 drupal_node_id: 373
 title: ほいで
-body: and; so that; therefore
-commentary: 'Other people use ほんで or そんで instead.
-
-  For more information, please see grammar point for ほんで／ほいで.'
+title_romaji: hoide
+body: <p>and; so that; therefore</p>
+commentary: <p>Other people use <a href="/words/168/">ほんで</a> or <a href="/words/209/">そんで</a> instead.</p><p>For
+  more information, please see grammar point for <a href="/grammar-points/316/">ほんで／ほいで</a>.</p>
+example: <p>車こわれてしもてん。<strong>ほいで</strong>、歩いてきたんや。<br/> My car broke down, so I walked here.</p>
 standard_kana: それで
-word_types:
-- wordtype_15
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: hoide
+word_types:
+- wordtype_15

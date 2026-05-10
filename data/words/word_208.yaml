@@ -1,10 +1,11 @@
 id: word_208
 drupal_node_id: 208
 title: ここんとこ
-body: recently; these days
-commentary: This word derives from ここのところ.
+title_romaji: kokontoko
+body: <p>recently; these days</p>
+commentary: <p>This word derives from ここのところ.</p>
+example: <p><strong>ここんとこ</strong>、ようひえまんなあ。<br/> It's been really cold recently.</p>
 standard_kana: さいきん
 standard_kanji: 最近
 word_types:
 - wordtype_8
-title_romaji: kokontoko

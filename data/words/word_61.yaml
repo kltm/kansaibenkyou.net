@@ -1,9 +1,11 @@
 id: word_61
 drupal_node_id: 61
 title: ぬくい
-body: warm
+title_romaji: nukui
+body: <p>warm</p>
+example: <p>最近<strong>ぬく</strong>なってきましたなあ。<br/> It's getting warm these days.</p>
+kanji: 温い
 standard_kana: あたたかい
 standard_kanji: 暖かい
 word_types:
 - wordtype_12
-title_romaji: nukui

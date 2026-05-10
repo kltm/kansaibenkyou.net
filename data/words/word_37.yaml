@@ -1,13 +1,14 @@
 id: word_37
 drupal_node_id: 37
 title: えらい
-body: great; very/really; tired
-commentary: 'Like the standard Japanese usage, えらい means "great" in Kansai-ben. However, in Kansai-ben,
-  えらい also has meanings such as "very" and "tired".
-
-  Also see しんどい.'
+title_romaji: erai
+body: <p>great; very/really; tired</p>
+commentary: <p>Like the standard Japanese usage, えらい means "great" in Kansai-ben. However, in Kansai-ben,
+  えらい also has meanings such as "very" and "tired".</p><p>Also see <a href="/words/72/">しんどい</a>.</p>
+example: <p>① great<br/> あの子、ほんまに<strong>えらい</strong>なあ。<br/> That kid is really great.</p><p>② very<br/>
+  今日は<strong>えらい</strong>寒いなあ。<br/> Today is very cold.</p><p>③ tiring<br/> 今日の仕事は<strong>えらかった</strong>なあ。<br/>
+  Today's work was very tiring.</p>
 standard_kana: すぐれている; とても; つかれている
 standard_kanji: 優れている; とても; 疲れている
 word_types:
 - wordtype_12
-title_romaji: erai

@@ -1,48 +1,13 @@
 id: phonology_390
 drupal_node_id: 390
 title: Downstep examples
-body: '(● = high pitch?, ○ = low pitch)
-
-  Standard
-
-  Kansai-ben
-
-  nasal
-
-  こんど
-
-  (今度)
-
-  ●○○
-
-  [↓]
-
-  ○●○
-
-  [↓]
-
-  long vowel
-
-  ちゅうごく
-
-  (中国)
-
-  ●○○○
-
-  [↓]
-
-  ○●○○
-
-  [↓]
-
-  long consonant
-
-  そうっと
-
-  ○●●●
-
-  [↓]
-
-  ○○●○
-
-  [↓]'
+body: <p>(● = high pitch<sup class="lexicon-indicator" title="The relative tone of a sound."><a class="lexicon-term"
+  href="/taxonomy/term/182/" title="The relative tone of a sound.">?</a></sup>, ○ = low pitch)</p><table
+  class="full-grid-table"><tr><th></th><th></th><th>Standard</th><th>Kansai-ben</th></tr><tr><th>nasal</th><td><span
+  class="nowrap">こんど</span><br/> (今度)</td><td>●○○<br/><p class="kb-audio" id="audioplayer-19"><a href="/assets/audio/st_kondo.mp3">[↓]</a></p></td><td>○●○<br/><p
+  class="kb-audio" id="audioplayer-24"><a href="/assets/audio/pho_kb_kondo.mp3">[↓]</a></p></td></tr><tr><th>long
+  vowel</th><td><span class="nowrap">ちゅうごく</span><br/> (中国)</td><td>●○○○<br/><p class="kb-audio" id="audioplayer-20"><a
+  href="/assets/audio/st_chuugoku.mp3">[↓]</a></p></td><td>○●○○<br/><p class="kb-audio" id="audioplayer-21"><a
+  href="/assets/audio/pho_kb_chugoku.mp3">[↓]</a></p></td></tr><tr><th>long consonant</th><td>そうっと</td><td>○●●●<br/><p
+  class="kb-audio" id="audioplayer-22"><a href="/assets/audio/st_sotto.mp3">[↓]</a></p></td><td>○○●○<br/><p
+  class="kb-audio" id="audioplayer-23"><a href="/assets/audio/pho_kb_sotto.mp3">[↓]</a></p></td></tr></table>

@@ -1,10 +1,10 @@
 id: word_30
 drupal_node_id: 30
 title: カッターシャツ
-body: dress shirt
-commentary: Some people say just カッター. However カッター could also mean a small blade, so pay attention to
-  the context.
+title_romaji: kattaashatsu
+body: <p>dress shirt</p>
+commentary: <p>Some people say just カッター. However カッター could also mean a small blade, so pay attention
+  to the context.</p>
 standard_kana: ワイシャツ
 word_types:
 - wordtype_7
-title_romaji: kattaashatsu

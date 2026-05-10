@@ -1,20 +1,23 @@
 id: grammar_321
 drupal_node_id: 321
 title: Vてみ(ぃ)
-body: The standard Japanese Vてみなさい, when used as an imperative, may become Vてみ in Kansai-ben. Vてみ can
-  be also used to make a suggestion.
+title_romaji: Vtemi(i)
+body: <p>The standard Japanese Vてみなさい, when used as an imperative, may become Vてみ in Kansai-ben. Vてみ can
+  be also used to make a suggestion.</p>
 commentary: <h2>When (not) to use Vてみ(ぃ)</h2><p>Vてみ(ぃ) should not be used with people who are in a superior
-  or respected position.</p></div><h2>Stirring up trouble with Vてみ(ぃ)</h2><p>When Vてみ(ぃ) is pronounced
-  with a rising tone, it can be perceived as a challenge, something along the lines of "just try and see".</p><table><caption>Challenging</caption><tbody><tr><th>Standard</th><td>なぐれるものなら<em>なぐってみろよ</em>。</td></tr><tr><th>Kansai-ben</th><td>なぐれるもんなら<em>なぐってみぃ</em>。</td></tr><tr><th>English</th><td>Do
+  or respected position.</p><h2>Stirring up trouble with Vてみ(ぃ)</h2><p>When Vてみ(ぃ) is pronounced with
+  a rising tone, it can be perceived as a challenge, something along the lines of "just try and see".</p><table><caption>Challenging</caption><tbody><tr><th>Standard</th><td>なぐれるものなら<em>なぐってみろよ</em>。</td></tr><tr><th>Kansai-ben</th><td>なぐれるもんなら<em>なぐってみぃ</em>。</td></tr><tr><th>English</th><td>Do
   you think you can punch me? (Try and see.)</td></tr></tbody></table>
 example: <table><tr><th>Standard</th><td>これ、おいしいよ。<em>食べてみれば</em>？</td></tr><tr><th>Kansai-ben</th><td>これ、おいしいで。<em>食べてみぃ</em>。</td></tr><tr><th>English</th><td>This
   is good. Try some.</td></tr></table>
-formation: <table><tr><td>V (te-form) +み(ぃ)</td></tr></table>
-kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vてみなさい<br /> Vてみれば？</em></td></tr><tr><th>Kansai-ben</th><td><em>Vてみ(ぃ)*</em></td></tr><tr></tr></table><p>*<a
-  href="351">Vowel extension</a> often occurs with the final み.</p>
+formation: '<table><tr><td>V<sup class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term"
+  href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup> (te-form<sup class="lexicon-indicator"
+  title="For example: 食べて, 行って, して, and 来て."><a class="lexicon-term" href="/taxonomy/term/171/" title="For
+  example: 食べて, 行って, して, and 来て.">?</a></sup>) +み(ぃ)</td></tr></table>'
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vてみなさい<br/> Vてみれば？</em></td></tr><tr><th>Kansai-ben</th><td><em>Vてみ(ぃ)*</em></td></tr></table><p>*<a
+  href="/phonology/351/">Vowel extension</a> often occurs with the final み.</p>
 function_types:
 - function_35
 - function_30
 grammar_types:
 - grammar_98
-title_romaji: Vtemi(i)

@@ -1,54 +1,16 @@
 id: phonology_395
 drupal_node_id: 395
 title: Numbers
-body: 'Standard
-
-  Kansai-ben
-
-  1~10
-
-  [↓]
-
-  1~10
-
-  [↓]
-
-  1個〜10個
-
-  [↓]
-
-  1個〜10個
-
-  [↓]
-
-  1人〜10人
-
-  [↓]
-
-  1人〜10人
-
-  [↓]
-
-  1匹〜10匹
-
-  [↓]
-
-  1匹〜10匹
-
-  [↓]
-
-  1時〜12時
-
-  [↓]
-
-  1時〜12時
-
-  [↓]
-
-  1月〜12月
-
-  [↓]
-
-  1月〜12月
-
-  [↓]'
+body: <table><tbody><tr><th>Standard</th><th>Kansai-ben</th></tr><tr><td>1~10<br/><p class="kb-audio"
+  id="audioplayer-33"><a href="/assets/audio/st_1_10.mp3">[↓]</a></p></td><td>1~10<br/><p class="kb-audio"
+  id="audioplayer-71"><a href="/assets/audio/pho_kb_1.mp3">[↓]</a></p></td></tr><tr><td>1個〜10個<br/><p
+  class="kb-audio" id="audioplayer-34"><a href="/assets/audio/st_1ko_10ko.mp3">[↓]</a></p></td><td>1個〜10個<br/><p
+  class="kb-audio" id="audioplayer-72"><a href="/assets/audio/pho_kb_1ko.mp3">[↓]</a></p></td></tr><tr><td>1人〜10人<br/><p
+  class="kb-audio" id="audioplayer-35"><a href="/assets/audio/st_1ri_10nin.mp3">[↓]</a></p></td><td>1人〜10人<br/><p
+  class="kb-audio" id="audioplayer-73"><a href="/assets/audio/pho_kb_hitori.mp3">[↓]</a></p></td></tr><tr><td>1匹〜10匹<br/><p
+  class="kb-audio" id="audioplayer-36"><a href="/assets/audio/st_1piki_10piki.mp3">[↓]</a></p></td><td>1匹〜10匹<br/><p
+  class="kb-audio" id="audioplayer-74"><a href="/assets/audio/pho_kb_1piki.mp3">[↓]</a></p></td></tr><tr><td>1時〜12時<br/><p
+  class="kb-audio" id="audioplayer-37"><a href="/assets/audio/st_1ji_12ji.mp3">[↓]</a></p></td><td>1時〜12時<br/><p
+  class="kb-audio" id="audioplayer-75"><a href="/assets/audio/pho_kb_1ji.mp3">[↓]</a></p></td></tr><tr><td>1月〜12月<br/><p
+  class="kb-audio" id="audioplayer-38"><a href="/assets/audio/st_1gatsu_12gastu.mp3">[↓]</a></p></td><td>1月〜12月<br/><p
+  class="kb-audio" id="audioplayer-76"><a href="/assets/audio/pho_kb_1gatu.mp3">[↓]</a></p></td></tr></tbody></table>

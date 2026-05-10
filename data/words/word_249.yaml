@@ -1,9 +1,11 @@
 id: word_249
 drupal_node_id: 249
 title: ぼんさん
-body: a Buddhist priest
+title_romaji: bonsan
+body: <p>a Buddhist priest</p>
+example: <p>お寺の<strong>ぼんさん</strong>まだかいな。<br/> The priest isn't here yet, is he?</p>
+kanji: 坊さん
 standard_kana: おぼうさん
 standard_kanji: お坊さん
 word_types:
 - wordtype_7
-title_romaji: bonsan

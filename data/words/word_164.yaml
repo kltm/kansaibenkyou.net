@@ -1,9 +1,11 @@
 id: word_164
 drupal_node_id: 164
 title: せやけど
-body: I know (that) but... / by the way...
-commentary: Also see そやけど or ほやけど.
+title_romaji: seyakedo
+body: <p>I know (that) but... / by the way...</p>
+commentary: <p>Also see <a href="/words/165/">そやけど</a> or <a href="/words/166/">ほやけど</a>.</p>
+example: '<p>A: たこやき食べたいなあ。<br/> B: <strong>そやけど</strong>お好み焼きもええなあ。</p><p>A: I feel like eating takoyaki.<br/>
+  B: Yeah, but okonomiyaki sounds good too.</p>'
 standard_kana: そうだけど／だけど／それにしても
 word_types:
 - wordtype_15
-title_romaji: seyakedo

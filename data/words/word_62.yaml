@@ -1,10 +1,12 @@
 id: word_62
 drupal_node_id: 62
 title: ねちっこい
-body: persistent; stubborn; sticky
-commentary: ねちっこい is stronger than ねちこい.
+title_romaji: nechikkoi
+body: <p>persistent; stubborn; sticky</p>
+commentary: <p>ねちっこい is stronger than <a href="/words/260/">ねちこい</a>.</p>
+example: <p>あの人、<strong>ねちっこい</strong>性格やなあ。まだあの事言うてんのか。<br/> She just doesn't stop--is she still talking
+  about that?</p>
 standard_kana: しつこい／ねばっている
 standard_kanji: しつこい／粘っている
 word_types:
 - wordtype_12
-title_romaji: nechikkoi

@@ -1,10 +1,12 @@
 id: word_228
 drupal_node_id: 228
 title: ひらう
-body: to pick up
-commentary: This word is also used outside of Kansai, but is not considered standard.
+title_romaji: hirau
+body: <p>to pick up</p>
+commentary: <p>This word is also used outside of Kansai, but is not considered standard.</p>
+example: <p>そのゴミを<strong>ひらって</strong>くれへん？<br/> Could you pick that garbage up for me.</p>
+kanji: 拾う
 standard_kana: ひろう
 standard_kanji: 拾う
 word_types:
 - wordtype_18
-title_romaji: hirau

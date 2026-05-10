@@ -1,9 +1,12 @@
 id: word_159
 drupal_node_id: 159
 title: しゃあない
-body: can't be helped; hopeless; there's no way
+title_romaji: shaanai
+body: <p>can't be helped; hopeless; there's no way</p>
+example: '<p>A: これ買うて。<br/> B: <strong>しゃあないなあ</strong>、これで最後やで。</p><p>A: Could you buy this for me?<br/>
+  B: Whatever. This is the last one.</p><p>お前、またテスト０点やったんか。まあ、わしのむすこやから<strong>しゃあない</strong>わな。</p><p>Hey,
+  you got another zero on a test? Well, you''re my son so there''s nothing that can be done about it.</p>'
 standard_kana: しかたない
 standard_kanji: 仕方ない
 word_types:
 - wordtype_12
-title_romaji: shaanai

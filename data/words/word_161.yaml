@@ -1,9 +1,13 @@
 id: word_161
 drupal_node_id: 161
 title: そや
-body: like you said; oh yeah...; well...
-commentary: Also see せや.
+title_romaji: soya
+body: <p>like you said; oh yeah...; well...</p>
+commentary: <p>Also see <a href="/words/162/">せや</a>.</p>
+example: '<p>A: どこ行く？<br/> B: <strong>そや</strong>なあ。映画はどや？</p><p>A: Where should we go?<br/> B: Well,
+  how about going to a movie?</p><p>A: あんた、もう飲まんほうがええで。<br/> B: <strong>そやそや</strong>、もうやめとき。<br/> C:
+  <strong>そや</strong>なあ。そろそろ帰ろか。</p><p>A: You should stop drinking.<br/> B: Yeah, I think so too.<br/>
+  C: Yeah, like you said. Shall we go?</p>'
 standard_kana: そうだ
 word_types:
 - wordtype_15
-title_romaji: soya

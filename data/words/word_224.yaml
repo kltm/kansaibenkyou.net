@@ -1,13 +1,15 @@
 id: word_224
 drupal_node_id: 224
 title: どんならん
-body: can't be helped; (be resigned)
-commentary: Also see どもならん.
+title_romaji: donnaran
+body: <p>can't be helped; (be resigned)</p>
+commentary: <p>Also see <a href="/words/259/">どもならん</a>.</p>
+example: <p>うちのむすこいっこも勉強せんで<strong>どんならん</strong>わ。<br/> My son won't study at all. I don't know what
+  to do.</p>
 standard_kana: どうにもならない
-word_types:
-- wordtype_15
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: donnaran
+word_types:
+- wordtype_15

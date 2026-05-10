@@ -1,9 +1,10 @@
 id: word_181
 drupal_node_id: 181
 title: どないしょ
-body: What should I/we do?
-commentary: どう in Standard Japanese is どない in Kansai-ben.
+title_romaji: donaisho
+body: <p>What should I/we do?</p>
+commentary: <p>どう in Standard Japanese is <a href="/words/258/">どない</a> in Kansai-ben.</p>
+example: <p><strong>どないしょ</strong>。お金いっこもないわ。<br/> What should I do? I don't have any money.</p>
 standard_kana: どうしよう
 word_types:
 - wordtype_5
-title_romaji: donaisho

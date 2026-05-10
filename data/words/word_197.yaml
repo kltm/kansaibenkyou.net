@@ -1,10 +1,11 @@
 id: word_197
 drupal_node_id: 197
 title: もん
-body: '"thing"'
-commentary: Used as a general replacement for もの.
+title_romaji: mon
+body: <p>"thing"</p>
+commentary: <p>Used as a general replacement for もの.</p>
+example: <p>買い<strong>もん</strong><br/> shopping</p>
 standard_kana: もの
 standard_kanji: 物
 word_types:
 - wordtype_7
-title_romaji: mon

@@ -1,14 +1,12 @@
 id: word_198
 drupal_node_id: 198
 title: いてまえ
-body: 'Let''s beat them up!
-
-  Let''s get ''em!'
+title_romaji: itemae
+body: <p>Let's beat them up!<br/> Let's get 'em!</p>
 standard_kana: やってしまえ
-word_types:
-- wordtype_5
 suitability:
 - icon: i-warning.png
   label: potentially rude
   tooltip: Indicates speech that could be upsetting to listeners.
-title_romaji: itemae
+word_types:
+- wordtype_5

@@ -1,34 +1,15 @@
 id: phonology_393
 drupal_node_id: 393
 title: Apologies
-body: 'Standard
-
-  Kansai-ben
-
-  ごめん
-
-  [↓]
-
-  ごめん1
-
-  [↓]
-
-  ごめんなさい
-
-  [↓]
-
-  ごめんなさい
-
-  [↓]
-
-  すみません
-
-  [↓]
-
-  すみません2
-
-  [↓]
-
-  1. かんにん is also used.
-
-  2. すんません, すんまへん, すまん, and すまんなぁ are more common.'
+body: <table><tbody><tr><th>Standard</th><th>Kansai-ben</th></tr><tr><td>ごめん<br/><p class="kb-audio" id="audioplayer-25"><a
+  href="/assets/audio/st_gomen.mp3">[↓]</a></p></td><td>ごめん<a class="see-footnote" href="/phonology/393/#footnote1_d6hhdqr"
+  id="footnoteref1_d6hhdqr" title="かんにん is also used.">1</a><br/><p class="kb-audio" id="audioplayer-63"><a
+  href="/assets/audio/pho_kb_gomen.mp3">[↓]</a></p></td></tr><tr><td>ごめんなさい<br/><p class="kb-audio" id="audioplayer-26"><a
+  href="/assets/audio/st_gomennasai.mp3">[↓]</a></p></td><td>ごめんなさい<br/><p class="kb-audio" id="audioplayer-64"><a
+  href="/assets/audio/pho_kb_gomennasai.mp3">[↓]</a></p></td></tr><tr><td>すみません<br/><p class="kb-audio"
+  id="audioplayer-27"><a href="/assets/audio/st_sumimasen.mp3">[↓]</a></p></td><td>すみません<a class="see-footnote"
+  href="/phonology/393/#footnote2_48n2p6d" id="footnoteref2_48n2p6d" title="すんません, すんまへん, すまん, and すまんなぁ
+  are more common.">2</a><br/><p class="kb-audio" id="audioplayer-65"><a href="/assets/audio/pho_kb_sumimasen.mp3">[↓]</a></p></td></tr></tbody></table><ul
+  class="footnotes"><li class="footnote" id="footnote1_d6hhdqr"><a class="footnote-label" href="/phonology/393/#footnoteref1_d6hhdqr">1.</a>
+  かんにん is also used.</li><li class="footnote" id="footnote2_48n2p6d"><a class="footnote-label" href="/phonology/393/#footnoteref2_48n2p6d">2.</a>
+  すんません, すんまへん, すまん, and すまんなぁ are more common.</li></ul>

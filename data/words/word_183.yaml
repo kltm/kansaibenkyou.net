@@ -1,9 +1,11 @@
 id: word_183
 drupal_node_id: 183
 title: どや
-body: How about...?
+title_romaji: doya
+body: <p>How about...?</p>
+example: '<p>A: あけみのたんじょうびプレゼント、何がええかなあ。<br/> B: ネックレスは<strong>どや</strong>？欲しがってたで。</p><p>A: What would
+  be good for Akemi''s birthday present?<br/> B: How about a necklace? I think she wants one.</p>'
 standard_kana: どうだ
 word_types:
 - wordtype_15
 - wordtype_5
-title_romaji: doya

@@ -1,9 +1,9 @@
 id: word_172
 drupal_node_id: 172
 title: ほなら
-body: well then; so
-commentary: Also see ほな and ほんなら.
+title_romaji: honara
+body: <p>well then; so</p>
+commentary: <p>Also see <a href="/words/169/">ほな</a> and <a href="/words/171/">ほんなら</a>.</p>
 standard_kana: それじゃ
 word_types:
 - wordtype_15
-title_romaji: honara

@@ -1,13 +1,15 @@
 id: word_286
 drupal_node_id: 286
 title: よって
-body: so; therefore
-commentary: For more information, please see よって in the grammar section.
+title_romaji: yotte
+body: <p>so; therefore</p>
+commentary: <p>For more information, please see <a href="/grammar-points/315/">よって</a> in the grammar
+  section.</p>
+example: <p>これ安かった<strong>よって</strong>買うてん。<br/> It was cheap so I bought it.</p>
 standard_kana: から
-word_types:
-- wordtype_15
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: yotte
+word_types:
+- wordtype_15

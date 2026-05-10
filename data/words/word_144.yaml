@@ -1,9 +1,10 @@
 id: word_144
 drupal_node_id: 144
 title: あんまし
-body: not very; too much
-commentary: Some people say あんま instead of あんまし.
+title_romaji: anmashi
+body: <p>not very; too much</p>
+commentary: <p>Some people say <a href="/words/143/">あんま</a> instead of あんまし.</p>
+example: <p>その映画、<strong>あんまし</strong>おもんなかったわ。<br/> That movie wasn't that interesting.</p>
 standard_kana: あんまり
 word_types:
 - wordtype_8
-title_romaji: anmashi

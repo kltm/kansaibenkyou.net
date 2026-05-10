@@ -1,9 +1,13 @@
 id: word_194
 drupal_node_id: 194
 title: はん
-body: Mr./Ms./Mrs. (respect title suffix? for a person)
-commentary: はん may be considered less respectful than さん.
+title_romaji: han
+body: <p>Mr./Ms./Mrs. (respect title suffix<sup class="lexicon-indicator" in="" title="Words or morphemes
+  that attach to the end of a word to change its meaning or grammatical function (e.g., "><a class="lexicon-term"
+  href="/taxonomy/term/159/" title='Words or morphemes that attach to the end of a word to change its
+  meaning or grammatical function (e.g., "さん" in 田中さん). '>?</a></sup> for a person)</p>
+commentary: <p>はん may be considered less respectful than さん.</p>
+example: <p>すずき<strong>はん</strong><br/> 田中<strong>はん</strong></p>
 standard_kana: さん
 word_types:
 - wordtype_15
-title_romaji: han

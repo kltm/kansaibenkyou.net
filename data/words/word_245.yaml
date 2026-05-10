@@ -1,10 +1,10 @@
 id: word_245
 drupal_node_id: 245
 title: ぱちる
-body: to steal
-commentary: Also see ぱくる.
+title_romaji: pachiru
+body: <p>to steal</p>
+commentary: <p>Also see <a href="/words/244/">ぱくる</a>.</p>
 standard_kana: ぬすむ
 standard_kanji: 盗む
 word_types:
 - wordtype_18
-title_romaji: pachiru

@@ -1,10 +1,11 @@
 id: word_211
 drupal_node_id: 211
 title: チャリンコ
-body: bicycle
-commentary: Also see チャリ.
+title_romaji: charinko
+body: <p>bicycle</p>
+commentary: <p>Also see <a href="/words/212/">チャリ</a>.</p>
+example: <p>兄ちゃん、こない遠いとこまで<strong>チャリンコ</strong>で来たんか。<br/> Hey, you got all the way here by bike?</p>
 standard_kana: じてんしゃ
 standard_kanji: 自転車
 word_types:
 - wordtype_7
-title_romaji: charinko

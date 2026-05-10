@@ -1,13 +1,14 @@
 id: word_215
 drupal_node_id: 215
 title: わや
-body: incoherent; messed-up
+title_romaji: waya
+body: <p>incoherent; messed-up</p>
+example: <p>さっぱり<strong>わや</strong>やなぁ。<br/> This is a complete disaster, isn't it.</p>
 standard_kana: めちゃくちゃ(な)
 standard_kanji: 目茶苦茶(な)
-word_types:
-- wordtype_15
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: waya
+word_types:
+- wordtype_15

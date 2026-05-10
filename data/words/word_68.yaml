@@ -1,9 +1,10 @@
 id: word_68
 drupal_node_id: 68
 title: いけず(な)
-body: mean; spiteful
+title_romaji: ikezu(na)
+body: <p>mean; spiteful</p>
+example: <p>そんな<strong>いけずな</strong>こと言わんと、これ買うてえなあ。<br/> C'mon, don't be so mean, just buy this for me...</p>
 standard_kana: いじわる(な)
 standard_kanji: 意地悪(な)
 word_types:
 - wordtype_13
-title_romaji: ikezu(na)

@@ -1,9 +1,10 @@
 id: word_109
 drupal_node_id: 109
 title: えずく
-body: to feel nauseous
+title_romaji: ezuku
+body: <p>to feel nauseous</p>
+kanji: 嘔吐く
 standard_kana: はきけをもよおす／はく
 standard_kanji: 吐き気を催す／吐く
 word_types:
 - wordtype_18
-title_romaji: ezuku

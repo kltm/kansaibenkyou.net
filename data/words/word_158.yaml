@@ -1,8 +1,9 @@
 id: word_158
 drupal_node_id: 158
 title: さいなら
-body: Good-bye.
+title_romaji: sainara
+body: <p>Good-bye.</p>
+example: <p>ほな、<strong>さいなら</strong>。<br/> Well then, good-bye.</p>
 standard_kana: さようなら
 word_types:
 - wordtype_4
-title_romaji: sainara

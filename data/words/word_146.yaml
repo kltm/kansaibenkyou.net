@@ -1,9 +1,10 @@
 id: word_146
 drupal_node_id: 146
 title: ようけ
-body: a lot; many
-commentary: Also see the similar ようさん and ぎょうさん.
+title_romaji: youke
+body: <p>a lot; many</p>
+commentary: <p>Also see the similar <a href="/words/147/">ようさん</a> and <a href="/words/80/">ぎょうさん</a>.</p>
+example: <p><strong>ようけ</strong>人おるなあ。<br/> There are so many people.</p>
 standard_kana: たくさん／いっぱい
 word_types:
 - wordtype_15
-title_romaji: youke

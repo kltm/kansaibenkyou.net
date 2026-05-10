@@ -1,10 +1,12 @@
 id: word_261
 drupal_node_id: 261
 title: ぱちもん
-body: fake; forgery
-commentary: Also see ばったもん.
+title_romaji: pachimon
+body: <p>fake; forgery</p>
+commentary: <p>Also see <a href="/words/246/">ばったもん</a>.</p>
+example: '<p>A: このヴィトンのかばん１０００円やってん。<br/> B: そら<strong>ばちもん</strong>や。</p><p>A: This Vuitton bag was only
+  1000 yen.<br/> B: It''s fake.</p>'
 standard_kana: にせもの
 standard_kanji: 偽物
 word_types:
 - wordtype_7
-title_romaji: pachimon

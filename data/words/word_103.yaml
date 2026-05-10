@@ -1,10 +1,12 @@
 id: word_103
 drupal_node_id: 103
 title: いちびる
-body: to mess around too much; to be unable to sit still
-commentary: Also see いちびり.
+title_romaji: ichibiru
+body: <p>to mess around too much; to be unable to sit still</p>
+commentary: <p>Also see <a href="/words/104/">いちびり</a>.</p>
+example: <p>あいつ、最近、<strong>いちびってる</strong>なあ。<br/> Man, he really hasn't been able to stop screwing around
+  lately, has he.</p>
 standard_kana: ちょうしにのる／ふざける
 standard_kanji: 調子に乗る／ふざける
 word_types:
 - wordtype_18
-title_romaji: ichibiru

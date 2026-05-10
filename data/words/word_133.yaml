@@ -1,10 +1,12 @@
 id: word_133
 drupal_node_id: 133
 title: ごつい
-body: big; large; strong; great
-commentary: When you want more emphasis, use ごっつい instead.
+title_romaji: gotsui
+body: <p>big; large; strong; great</p>
+commentary: <p>When you want more emphasis, use <a href="/words/52/">ごっつい</a> instead.</p>
+example: <p>お前のにいちゃん、<strong>ごつい</strong>なあ。何かスポーツやってんか？<br/> Your older brother is buff. What kind of
+  sports does he do?</p>
 standard_kana: でかい／つよい／すごい
 standard_kanji: でかい／強い／凄い
 word_types:
 - wordtype_12
-title_romaji: gotsui

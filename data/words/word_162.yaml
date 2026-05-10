@@ -1,9 +1,13 @@
 id: word_162
 drupal_node_id: 162
 title: せや
-body: like you said; oh yeah...; well...
-commentary: Also see そや.
+title_romaji: seya
+body: <p>like you said; oh yeah...; well...</p>
+commentary: <p>Also see <a href="/words/161/">そや</a>.</p>
+example: '<p>A: お前、ほんまにこのケーキ自分で作ったんか？<br/> B: <strong>せや</strong>。</p><p>A: Hey, did you really made this
+  cake by yourself?<br/> B: Sure did.</p><p>A: あんた、もう飲まんほうがええで。<br/> B: <strong>せやせや</strong>、もうやめとき。<br/>
+  C: <strong>せや</strong>なあ。そろそろ帰ろか。</p><p>A: You should stop drinking.<br/> B: Yeah, I think so too.<br/>
+  C: Yeah, like you said. Shall we go?</p>'
 standard_kana: そうだ
 word_types:
 - wordtype_15
-title_romaji: seya

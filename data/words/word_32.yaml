@@ -1,10 +1,10 @@
 id: word_32
 drupal_node_id: 32
 title: レーコー
-body: iced coffee
-commentary: While this is no longer a common word in Japan, you may hear this word from older people in
-  Kansai.
+title_romaji: reekoo
+body: <p>iced coffee</p>
+commentary: <p>While this is no longer a common word in Japan, you may hear this word from older people
+  in Kansai.</p>
 standard_kana: アイスコーヒー
 word_types:
 - wordtype_3
-title_romaji: reekoo

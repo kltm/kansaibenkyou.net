@@ -1,56 +1,14 @@
 id: phonology_389
 drupal_node_id: 389
 title: Group L Examples
-body: '(● = high pitch?, ○ = low pitch)
-
-  Standard
-
-  Kansai-ben
-
-  (雨)
-
-  あめ
-
-  ●○
-
-  [↓]
-
-  ○●
-
-  [↓]
-
-  (兎)
-
-  うさぎ
-
-  ○●●
-
-  [↓]
-
-  ○○●
-
-  [↓]
-
-  (薬)
-
-  くすり
-
-  ○●●
-
-  [↓]
-
-  ○●○
-
-  [↓]
-
-  (地下鉄)
-
-  ちかてつ
-
-  ○●●●
-
-  [↓]
-
-  ○●○○
-
-  [↓]'
+body: <p>(● = high pitch<sup class="lexicon-indicator" title="The relative tone of a sound."><a class="lexicon-term"
+  href="/taxonomy/term/182/" title="The relative tone of a sound.">?</a></sup>, ○ = low pitch)</p><table
+  class="full-grid-table"><tr><th></th><th>Standard</th><th>Kansai-ben</th></tr><tr><td>(雨)<br/> あめ</td><td>●○<br/><p
+  class="kb-audio" id="audioplayer-10"><a href="/assets/audio/st_ame.mp3">[↓]</a></p></td><td>○●<br/><p
+  class="kb-audio" id="audioplayer-14"><a href="/assets/audio/pho_kb_ame.mp3">[↓]</a></p></td></tr><tr><td>(兎)<br/>
+  うさぎ</td><td>○●●<br/><p class="kb-audio" id="audioplayer-11"><a href="/assets/audio/st_usagi.mp3">[↓]</a></p></td><td>○○●<br/><p
+  class="kb-audio" id="audioplayer-16"><a href="/assets/audio/pho_kb_usagi1.mp3">[↓]</a></p></td></tr><tr><td>(薬)<br/>
+  くすり</td><td>○●●<br/><p class="kb-audio" id="audioplayer-12"><a href="/assets/audio/st_kusuri.mp3">[↓]</a></p></td><td>○●○<br/><p
+  class="kb-audio" id="audioplayer-17"><a href="/assets/audio/pho_kb_kusuri.mp3">[↓]</a></p></td></tr><tr><td>(地下鉄)<br/>
+  ちかてつ</td><td>○●●●<br/><p class="kb-audio" id="audioplayer-13"><a href="/assets/audio/st_chikatetu.mp3">[↓]</a></p></td><td>○●○○<br/><p
+  class="kb-audio" id="audioplayer-18"><a href="/assets/audio/pho_kb_chikatetu.mp3">[↓]</a></p></td></tr></table>

@@ -1,9 +1,11 @@
 id: word_220
 drupal_node_id: 220
 title: たく
-body: to stew; to simmer
+title_romaji: taku
+body: <p>to stew; to simmer</p>
+example: <p>この魚、<strong>たいて</strong>食べたらおいしいで。<br/> If you eat this fish stewed it's really great.</p>
+kanji: 炊く
 standard_kana: にる
 standard_kanji: 煮る
 word_types:
 - wordtype_18
-title_romaji: taku

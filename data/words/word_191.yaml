@@ -1,9 +1,12 @@
 id: word_191
 drupal_node_id: 191
 title: なんべん
-body: how many (times)
+title_romaji: nanben
+body: <p>how many (times)</p>
+example: <p>あいつ、<strong>なんべん</strong>起こしても起きへんわ。<br/> I tried to wake him up a million times, but he's
+  still asleep.</p>
+kanji: 何遍
 standard_kana: なんど
 standard_kanji: 何度
 word_types:
 - wordtype_16
-title_romaji: nanben

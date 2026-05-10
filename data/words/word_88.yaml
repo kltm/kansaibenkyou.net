@@ -1,8 +1,11 @@
 id: word_88
 drupal_node_id: 88
 title: めばちこ
-body: sty
+title_romaji: mebachiko
+body: <p>sty</p>
+example: '<p>A: どうしたん、その目ぇ。<br/> B: <strong>めばちこ</strong>できてしもてん。</p><p>A: What happened to your eye?<br/>
+  B: I got a sty.</p>'
+kanji: 目ばちこ
 standard_kana: ものもらい
 word_types:
 - wordtype_7
-title_romaji: mebachiko

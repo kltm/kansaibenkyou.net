@@ -1,13 +1,14 @@
 id: word_127
 drupal_node_id: 127
 title: かんてき
-body: small cylindrical grill
+title_romaji: kanteki
+body: <p>small cylindrical grill</p>
+example: <p><strong>かんてき</strong>で焼いた魚はうまいなあ。<br/> Fish cooked on the little grill are great.</p>
 standard_kana: しちりん
 standard_kanji: 七輪
-word_types:
-- wordtype_7
 suitability:
 - icon: i-age.png
   label: age-specific
   tooltip: Indicates special use by older speakers.
-title_romaji: kanteki
+word_types:
+- wordtype_7

@@ -1,20 +1,26 @@
 id: grammar_332
 drupal_node_id: 332
 title: Vたある
-body: Vてある in standard Japanese, when used in the sense of preparation or state, may become Vたある in Kansai-ben
+title_romaji: Vtaaru
+body: <p>Vてある in standard Japanese, when used in the sense of preparation or state, may become Vたある in
+  Kansai-ben</p>
 commentary: <h2>Describing the state of something</h2><p>Vたある in Kansai-ben can also be used like Vている
   in standard Japanese when describing the state of something.</p><table><tbody><tr><th>Standard</th><td>あ、このパソコン<em>こわれている</em>よ。</td></tr><tr><th>Kansai-ben</th><td>あ、このパソコン<em>こわれたある</em>で。</td></tr><tr><th>English</th><td>Well,
   this computer is broken.</td></tr></tbody></table>
 example: <table><tr><th>Standard</th><td>ここに<em>書いてある</em>じゃない。ちゃんと見てよ。</td></tr><tr><th>Kansai-ben</th><td>ここに<em>書いたある</em>やん。ちゃんと見ぃや。</td></tr><tr><th>English</th><td>Look,
   it's written here. Take another look.</td></tr></table>
-formation: <h2>Vたある</h2><table><tr><td>V (ta-form) +ある</td></tr></table>
-formation_from_standard: <table class="full-grid-table"><tr><th></th><th>V (non-past)</th><th>V (past)</th></tr><tr><th>Standard</th><td>書い<em>て
-  ある</em></td><td>書い<em>て あった</em></td></tr><tr><th>Kansai-ben</th><td>書い<em>た ある</em></td><td>書い<em>た
-  あった</em></td></tr></table>
-kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vてある</em></td></tr><tr><th>Kansai-ben</th><td><em>Vたある</em></td></tr><tr></tr></table>
+formation: '<h2>Vたある</h2><table><tr><td>V<sup class="lexicon-indicator" title="Abbreviation for verb.
+  "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup> (ta-form<sup
+  class="lexicon-indicator" title="The short past tense form. For example: 食べた, 行った, した, and 来た."><a class="lexicon-term"
+  href="/taxonomy/term/170/" title="The short past tense form. For example: 食べた, 行った, した, and 来た.">?</a></sup>)
+  +ある</td></tr></table>'
+formation_from_standard: <table class="full-grid-table"><tr><th></th><th>V<sup class="lexicon-indicator"
+  title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation
+  for verb. ">?</a></sup> (non-past)</th><th>V (past)</th></tr><tr><th>Standard</th><td>書い<em>て ある</em></td><td>書い<em>て
+  あった</em></td></tr><tr><th>Kansai-ben</th><td>書い<em>た ある</em></td><td>書い<em>た あった</em></td></tr></table>
+kansai_vs_standard: <table><tr><th>Standard</th><td><em>Vてある</em></td></tr><tr><th>Kansai-ben</th><td><em>Vたある</em></td></tr></table>
 function_types:
 - function_38
 - function_34
 grammar_types:
 - grammar_74
-title_romaji: Vtaaru

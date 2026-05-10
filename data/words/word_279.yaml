@@ -1,12 +1,16 @@
 id: word_279
 drupal_node_id: 279
 title: おはようさん
-body: Good morning.
-commentary: In Kansai-ben, the suffix? さん is often used for greetings. For more information, see Suffix
-  “さん” and “ちゃん”.
+title_romaji: ohayousan
+body: <p>Good morning.</p>
+commentary: <p>In Kansai-ben, the suffix<sup class="lexicon-indicator" in="" title="Words or morphemes
+  that attach to the end of a word to change its meaning or grammatical function (e.g., "><a class="lexicon-term"
+  href="/taxonomy/term/159/" title='Words or morphemes that attach to the end of a word to change its
+  meaning or grammatical function (e.g., "さん" in 田中さん). '>?</a></sup> さん is often used for greetings.
+  For more information, see <a href="/grammar-points/313/">Suffix “さん” and “ちゃん”</a>.</p>
+kanji: お早うさん
 standard_kana: おはよう
 standard_kanji: お早う
 word_types:
 - wordtype_15
 - wordtype_4
-title_romaji: ohayousan

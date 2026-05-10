@@ -1,9 +1,11 @@
 id: word_151
 drupal_node_id: 151
 title: かいもん
-body: shopping
+title_romaji: kaimon
+body: <p>shopping</p>
+example: <p><strong>買いもん</strong>行くけど、何かほしいもんない？<br/> I'm gunna go shopping, is there anything you want?</p>
+kanji: 買いもん
 standard_kana: かいもの
 standard_kanji: 買い物
 word_types:
 - wordtype_7
-title_romaji: kaimon

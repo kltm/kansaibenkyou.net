@@ -1,11 +1,11 @@
 id: word_20
 drupal_node_id: 20
 title: てっさ
-body: blowfish sashimi
-commentary: Blowfish is commonly called 鉄(てつ; iron) which is derived from 鉄砲(てっぽう; rifle), an oblique
-  reference to the dangerous nature of some parts of the fish.
+title_romaji: tessa
+body: <p>blowfish sashimi</p>
+commentary: <p>Blowfish is commonly called 鉄(てつ; iron) which is derived from 鉄砲(てっぽう; rifle), an oblique
+  reference to the dangerous nature of some parts of the fish.</p>
 standard_kana: ふぐのさしみ
 standard_kanji: 河豚の刺身
 word_types:
 - wordtype_3
-title_romaji: tessa

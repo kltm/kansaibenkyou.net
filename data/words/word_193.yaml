@@ -1,17 +1,16 @@
 id: word_193
 drupal_node_id: 193
 title: わし
-body: I/me (masculine)
-commentary: 'While this is generally a masculine word, there are some pockets where it is both a masculine
-  and feminine word.
-
-  Also see わい.'
+title_romaji: washi
+body: <p>I/me (masculine)</p>
+commentary: <p>While this is generally a masculine word, there are some pockets where it is both a masculine
+  and feminine word.</p><p>Also see <a href="/words/192/">わい</a>.</p>
+example: <p>こいつ<strong>わし</strong>のむすこやねん。<br/> This is my son.</p>
 standard_kana: おれ
 standard_kanji: 俺
-word_types:
-- wordtype_115
 suitability:
 - icon: i-male.png
   label: male speech
   tooltip: Indicates special use by male speakers.
-title_romaji: washi
+word_types:
+- wordtype_115

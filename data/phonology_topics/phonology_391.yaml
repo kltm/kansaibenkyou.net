@@ -1,164 +1,49 @@
 id: phonology_391
 drupal_node_id: 391
 title: Greetings
-body: 'Standard
-
-  Kansai-ben
-
-  おはよう
-
-  [↓]
-
-  おはよう
-
-  [↓]
-
-  おはようございます
-
-  [↓]
-
-  おはようございます
-
-  [↓]
-
-  こんにちは
-
-  [↓]
-
-  こんにちは
-
-  [↓]
-
-  こんばんは
-
-  [↓]
-
-  こんばんは
-
-  [↓]
-
-  さようなら
-
-  [↓]
-
-  さよなら1
-
-  [↓]
-
-  はじめまして
-
-  [↓]
-
-  はじめまして 2
-
-  [↓]
-
-  どうぞよろしく
-
-  [↓]
-
-  どうぞよろしく
-
-  [↓]
-
-  しつれいします
-
-  [↓]
-
-  しつれいします
-
-  [↓]
-
-  おじゃまします
-
-  [↓]
-
-  おじゃまします
-
-  [↓]
-
-  いってきます
-
-  [↓]
-
-  いってきます
-
-  [↓]
-
-  いってらっしゃい
-
-  [↓]
-
-  いってらっしゃい
-
-  [↓]
-
-  ただいま
-
-  [↓]
-
-  ただいま
-
-  [↓]
-
-  おかえり
-
-  [↓]
-
-  おかえり
-
-  [↓]
-
-  おかえりなさい
-
-  [↓]
-
-  おかえりなさい
-
-  [↓]
-
-  いただきます
-
-  [↓]
-
-  いただきます
-
-  [↓]
-
-  ごちそうさま
-
-  [↓]
-
-  ごちそうさま
-
-  [↓]
-
-  ごちそうさまでした
-
-  [↓]
-
-  ごちそうさまでした3
-
-  [↓]
-
-  おやすみ
-
-  [↓]
-
-  おやすみ
-
-  [↓]
-
-  おやすみなさい
-
-  [↓]
-
-  おやすみなさい
-
-  [↓]
-
-  1. さいなら is also used.
-
-  2. おはつにお目にかかります is often used as well.
-
-  3. ごちそうさんでした and ごっつぉーさん are often used as well.'
+body: <table><tbody><tr><th>Standard</th><th>Kansai-ben</th></tr><tr><td>おはよう<br/><p class="kb-audio"
+  id="audioplayer-1"><a href="/assets/audio/st_ohayo.mp3">[↓]</a></p></td><td>おはよう<br/><p class="kb-audio"
+  id="audioplayer-39"><a href="/assets/audio/pho_kb_ohayo.mp3">[↓]</a></p></td></tr><tr><td>おはようございます<br/><p
+  class="kb-audio" id="audioplayer-2"><a href="/assets/audio/st_ohayogoza.mp3">[↓]</a></p></td><td>おはようございます<br/><p
+  class="kb-audio" id="audioplayer-40"><a href="/assets/audio/pho_kb_ohayogoza.mp3">[↓]</a></p></td></tr><tr><td>こんにちは<br/><p
+  class="kb-audio" id="audioplayer-3"><a href="/assets/audio/st_konnichi.mp3">[↓]</a></p></td><td>こんにちは<br/><p
+  class="kb-audio" id="audioplayer-41"><a href="/assets/audio/pho_kb_konnichiwa.mp3">[↓]</a></p></td></tr><tr><td>こんばんは<br/><p
+  class="kb-audio" id="audioplayer-4"><a href="/assets/audio/st_konban.mp3">[↓]</a></p></td><td>こんばんは<br/><p
+  class="kb-audio" id="audioplayer-42"><a href="/assets/audio/pho_kb_konban.mp3">[↓]</a></p></td></tr><tr><td>さようなら<br/><p
+  class="kb-audio" id="audioplayer-5"><a href="/assets/audio/st_sayounara.mp3">[↓]</a></p></td><td>さよなら<a
+  class="see-footnote" href="/phonology/391/#footnote1_0jsghmq" id="footnoteref1_0jsghmq" title="さいなら
+  is also used.">1</a><br/><p class="kb-audio" id="audioplayer-43"><a href="/assets/audio/pho_kb_sayonara.mp3">[↓]</a></p></td></tr><tr><td>はじめまして<br/><p
+  class="kb-audio" id="audioplayer-6"><a href="/assets/audio/st_hajime.mp3">[↓]</a></p></td><td>はじめまして
+  <a class="see-footnote" href="/phonology/391/#footnote2_cbt5l8s" id="footnoteref2_cbt5l8s" title="おはつにお目にかかります
+  is often used as well.">2</a><br/><p class="kb-audio" id="audioplayer-44"><a href="/assets/audio/pho_kb_hajime.mp3">[↓]</a></p></td></tr><tr><td>どうぞよろしく<br/><p
+  class="kb-audio" id="audioplayer-7"><a href="/assets/audio/st_douzoyo.mp3">[↓]</a></p></td><td>どうぞよろしく<br/><p
+  class="kb-audio" id="audioplayer-45"><a href="/assets/audio/pho_kb_douzoyo.mp3">[↓]</a></p></td></tr><tr><td>しつれいします<br/><p
+  class="kb-audio" id="audioplayer-8"><a href="/assets/audio/st_shiturei.mp3">[↓]</a></p></td><td>しつれいします<br/><p
+  class="kb-audio" id="audioplayer-46"><a href="/assets/audio/pho_kb_shiturei.mp3">[↓]</a></p></td></tr><tr><td>おじゃまします<br/><p
+  class="kb-audio" id="audioplayer-9"><a href="/assets/audio/st_ojyama.mp3">[↓]</a></p></td><td>おじゃまします<br/><p
+  class="kb-audio" id="audioplayer-47"><a href="/assets/audio/pho_kb_ojyama.mp3">[↓]</a></p></td></tr><tr><td>いってきます<br/><p
+  class="kb-audio" id="audioplayer-10"><a href="/assets/audio/st_ittekimasu.mp3">[↓]</a></p></td><td>いってきます<br/><p
+  class="kb-audio" id="audioplayer-48"><a href="/assets/audio/pho_kb_ittekinasu.mp3">[↓]</a></p></td></tr><tr><td>いってらっしゃい<br/><p
+  class="kb-audio" id="audioplayer-11"><a href="/assets/audio/st_itterassyai.mp3">[↓]</a></p></td><td>いってらっしゃい<br/><p
+  class="kb-audio" id="audioplayer-49"><a href="/assets/audio/pho_kb_itterassyai.mp3">[↓]</a></p></td></tr><tr><td>ただいま<br/><p
+  class="kb-audio" id="audioplayer-12"><a href="/assets/audio/st_tadaima.mp3">[↓]</a></p></td><td>ただいま<br/><p
+  class="kb-audio" id="audioplayer-50"><a href="/assets/audio/pho_kb_tadaima.mp3">[↓]</a></p></td></tr><tr><td>おかえり<br/><p
+  class="kb-audio" id="audioplayer-13"><a href="/assets/audio/st_okaeri.mp3">[↓]</a></p></td><td>おかえり<br/><p
+  class="kb-audio" id="audioplayer-51"><a href="/assets/audio/pho_kb_okaeri.mp3">[↓]</a></p></td></tr><tr><td>おかえりなさい<br/><p
+  class="kb-audio" id="audioplayer-14"><a href="/assets/audio/st_okaerinasai.mp3">[↓]</a></p></td><td>おかえりなさい<br/><p
+  class="kb-audio" id="audioplayer-52"><a href="/assets/audio/pho_kb_okaerinasai.mp3">[↓]</a></p></td></tr><tr><td>いただきます<br/><p
+  class="kb-audio" id="audioplayer-15"><a href="/assets/audio/st_itadakimasu.mp3">[↓]</a></p></td><td>いただきます<br/><p
+  class="kb-audio" id="audioplayer-53"><a href="/assets/audio/pho_kb_itadakimasu.mp3">[↓]</a></p></td></tr><tr><td>ごちそうさま<br/><p
+  class="kb-audio" id="audioplayer-16"><a href="/assets/audio/st_gochisousama.mp3">[↓]</a></p></td><td>ごちそうさま<br/><p
+  class="kb-audio" id="audioplayer-54"><a href="/assets/audio/pho_kb_gotisou.mp3">[↓]</a></p></td></tr><tr><td>ごちそうさまでした<br/><p
+  class="kb-audio" id="audioplayer-17"><a href="/assets/audio/st_gochideshita.mp3">[↓]</a></p></td><td>ごちそうさまでした<a
+  class="see-footnote" href="/phonology/391/#footnote3_zdijk1q" id="footnoteref3_zdijk1q" title="ごちそうさんでした
+  and ごっつぉーさん are often used as well.">3</a><br/><p class="kb-audio" id="audioplayer-55"><a href="/assets/audio/pho_kb_gotisousamade.mp3">[↓]</a></p></td></tr><tr><td>おやすみ<br/><p
+  class="kb-audio" id="audioplayer-18"><a href="/assets/audio/st_oyasumi.mp3">[↓]</a></p></td><td>おやすみ<br/><p
+  class="kb-audio" id="audioplayer-56"><a href="/assets/audio/pho_kb_oyasumi.mp3">[↓]</a></p></td></tr><tr><td>おやすみなさい<br/><p
+  class="kb-audio" id="audioplayer-19"><a href="/assets/audio/st_oyasuminasai.mp3">[↓]</a></p></td><td>おやすみなさい<br/><p
+  class="kb-audio" id="audioplayer-57"><a href="/assets/audio/pho_kb_oyasuminasa.mp3">[↓]</a></p></td></tr></tbody></table><ul
+  class="footnotes"><li class="footnote" id="footnote1_0jsghmq"><a class="footnote-label" href="/phonology/391/#footnoteref1_0jsghmq">1.</a>
+  さいなら is also used.</li><li class="footnote" id="footnote2_cbt5l8s"><a class="footnote-label" href="/phonology/391/#footnoteref2_cbt5l8s">2.</a>
+  おはつにお目にかかります is often used as well.</li><li class="footnote" id="footnote3_zdijk1q"><a class="footnote-label"
+  href="/phonology/391/#footnoteref3_zdijk1q">3.</a> ごちそうさんでした and ごっつぉーさん are often used as well.</li></ul>

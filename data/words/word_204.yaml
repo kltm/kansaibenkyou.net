@@ -1,9 +1,10 @@
 id: word_204
 drupal_node_id: 204
 title: こら
-body: this
-commentary: Also see あら and  そら.
+title_romaji: kora
+body: <p>this</p>
+commentary: <p>Also see <a href="/words/206/">あら</a> and <a href="/words/205/">そら</a>.</p>
+example: <p><strong>こら</strong>あかんわ。<br/> This is no good.</p>
 standard_kana: これは
 word_types:
 - wordtype_15
-title_romaji: kora

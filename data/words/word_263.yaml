@@ -1,12 +1,12 @@
 id: word_263
 drupal_node_id: 263
 title: めちゃ
-body: very; extremely
-commentary: 'This short phrasing is more common among young people.
-
-  Also see めっちゃ and めちゃめちゃ.'
+title_romaji: mecha
+body: <p>very; extremely</p>
+commentary: <p>This short phrasing is more common among young people.<br/> Also see <a href="/words/160/">めっちゃ</a>
+  and <a href="/words/262/">めちゃめちゃ</a>.</p>
+example: <p>この本、<strong>めちゃ</strong>おもろいで。読んでみぃ。<br/> This book is really good. You should read it.</p>
 standard_kana: すごく
 standard_kanji: 凄く
 word_types:
 - wordtype_15
-title_romaji: mecha

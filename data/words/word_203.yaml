@@ -1,18 +1,17 @@
 id: word_203
 drupal_node_id: 203
 title: うっとこ
-body: my house
-commentary: 'うっとこ comes from うちのところ. の is often omitted. うち also means "I/me (feminine)" in Kansai-ben.
-
-  うち(わたし) ＋ の ＋ とこ(ところ) → うっとこ
-
-  Since うち is largely a feminine expression, うっとこ also tends to be, but there may be exceptions,'
+title_romaji: uttoko
+body: <p>my house</p>
+commentary: <p>うっとこ comes from うちのところ. <a href="/grammar-points/302/">の</a> is often omitted. <a href="/words/155/">うち</a>
+  also means "I/me (feminine)" in Kansai-ben.</p><p>うち(わたし) ＋ の ＋ とこ(ところ) → うっとこ</p><p>Since うち is largely
+  a feminine expression, うっとこ also tends to be, but there may be exceptions,</p>
+example: <p><strong>うっとこ</strong>でテレビ見いひん？<br/> Why don't we watch TV at my place?</p>
 standard_kana: わたしのいえ
 standard_kanji: 私の家
-word_types:
-- wordtype_7
 suitability:
 - icon: i-female.png
   label: female speech
   tooltip: Indicates special use by female speakers.
-title_romaji: uttoko
+word_types:
+- wordtype_7

@@ -1,9 +1,12 @@
 id: word_287
 drupal_node_id: 287
 title: よっしゃ
-body: Great! / Well done! / Good. / I see.
+title_romaji: yossha
+body: <p>Great! / Well done! / Good. / I see.</p>
+example: '<p>A: 金本がホームランを打ちました。<br/> B: <strong>よっしゃあ</strong>！！</p><p>A: Kanemoto hit a home run.<br/>
+  B: Yes!</p><p>A: お父ちゃん、おなかすいた〜。<br/> B: <strong>よっしゃ</strong>、何ぞ作ったろ。</p><p>A: Dad, I''m hungry...<br/>
+  B: Okay. I''ll cook something.</p>'
 standard_kana: よし
 word_types:
 - wordtype_15
 - wordtype_5
-title_romaji: yossha

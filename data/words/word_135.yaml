@@ -1,9 +1,10 @@
 id: word_135
 drupal_node_id: 135
 title: さし
-body: ruler
+title_romaji: sashi
+body: <p>ruler</p>
+example: <p><strong>さし</strong>使て真っすぐ線引いてや。<br/> Use a ruler and draw a straight line.</p>
 standard_kana: ものさし／じょうぎ
 standard_kanji: 物差し／定規
 word_types:
 - wordtype_7
-title_romaji: sashi

@@ -1,9 +1,10 @@
 id: word_258
 drupal_node_id: 258
 title: どない
-body: how; what sort/kind of...
-commentary: Also see あない, こない, and そない.
+title_romaji: donai
+body: <p>how; what sort/kind of...</p>
+commentary: <p>Also see <a href="/words/142/">あない</a>, <a href="/words/157/">こない</a>, and <a href="/words/173/">そない</a>.</p>
+example: <p>梅田まで <strong>どない</strong>して行く？<br/> How should we get to Umeda?</p>
 standard_kana: どう
 word_types:
 - wordtype_16
-title_romaji: donai

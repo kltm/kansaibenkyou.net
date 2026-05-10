@@ -1,10 +1,13 @@
 id: word_128
 drupal_node_id: 128
 title: きぃわるい
-body: unpleasant; disturbing
-commentary: Also see 気ぃ.
+title_romaji: kiiwarui
+body: <p>unpleasant; disturbing</p>
+commentary: <p>Also see <a href="/words/281/">気ぃ</a>.</p>
+example: <p>あの人、いっつも人の悪口ばっかり言うて<strong>気ぃ悪い</strong>わ。<br/> That guy is always talking smack, it's really
+  unpleasant.</p>
+kanji: 気ぃ悪い
 standard_kana: かんじがわるい
 standard_kanji: 感じが悪い
 word_types:
 - wordtype_12
-title_romaji: kiiwarui

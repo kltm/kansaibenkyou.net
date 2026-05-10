@@ -1,10 +1,12 @@
 id: word_122
 drupal_node_id: 122
 title: かなわん
-body: irritating; intolerable
-commentary: Some say かなん instead.
+title_romaji: kanawan
+body: <p>irritating; intolerable</p>
+commentary: <p>Some say <a href="/words/123/">かなん</a> instead.</p>
+example: <p>あいつ、今日も休みやて。<strong>かなわん</strong>なあ。<br/> He 's off again today, I can't stand it.</p>
+kanji: 適わん／敵わん
 standard_kana: いやだ／たまらない
 standard_kanji: 嫌だ／堪らない
 word_types:
 - wordtype_12
-title_romaji: kanawan

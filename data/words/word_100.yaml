@@ -1,9 +1,12 @@
 id: word_100
 drupal_node_id: 100
 title: いがむ
-body: to tilt; to be not straight; to twist
+title_romaji: igamu
+body: <p>to tilt; to be not straight; to twist</p>
+example: <p>この線、<strong>いがんでる</strong>わ。もうちょっと真っすぐ書いて。<br/> This line isn't straight enough, please draw
+  it again.</p>
+kanji: 歪む
 standard_kana: かたむく／ずれる
 standard_kanji: 傾く／ずれる
 word_types:
 - wordtype_18
-title_romaji: igamu

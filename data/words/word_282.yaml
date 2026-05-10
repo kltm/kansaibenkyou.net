@@ -1,10 +1,13 @@
 id: word_282
 drupal_node_id: 282
 title: きぃきく
-body: to be sensible
-commentary: Also see 気ぃ.
+title_romaji: kiikiku
+body: <p>to be sensible</p>
+commentary: <p>Also see <a href="/words/281/">気ぃ</a>.</p>
+example: <p>あんた、<strong>よう気ぃきく</strong>なあ。うっとこで働けへんか？<br/> You're such a sensible person. Would you like
+  to work at my place?</p>
+kanji: 気ぃ利く
 standard_kana: きがきく
 standard_kanji: 気が利く
 word_types:
 - wordtype_15
-title_romaji: kiikiku
