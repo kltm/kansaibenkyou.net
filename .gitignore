@@ -49,3 +49,8 @@ screenshots/
 # python bytecode
 __pycache__/
 *.pyc
+
+# bundler lockfile — GH Pages ignores it and resolves via the
+# github-pages gem server-side; committing would pin transitive
+# deps GH Pages then overrides
+Gemfile.lock
