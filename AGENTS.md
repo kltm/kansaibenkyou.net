@@ -42,6 +42,37 @@ Three derived rules that must not be violated:
 This is the rule that has been violated most often. Treat it as
 non-negotiable.
 
+### What "parity with the mothball" does NOT mean
+
+The mothball is authoritative for **structure and pedagogy** — page
+existence, cross-reference links, field presence (Useful Expressions,
+Commentary, etc.), table captions, headings, image float classes,
+audio widgets, speaker labels on a conversation, the existence of an
+intro paragraph or empty-state sentence.
+
+The mothball is **NOT** an authority on:
+
+- **Dialect transcription.** Kansai-ben is regional spoken Japanese.
+  There is no single "correct" rendering of `そや` vs `せや`,
+  `シャケ` vs `サケ`, `かんじょう` vs `おあいそ`, `そうか` vs `そうかい`.
+  These are transcription / wording choices by the author. The current
+  YAML is the current authoritative version. Do NOT "correct" current
+  YAML toward the mothball for these. The 2016 mothball is a snapshot
+  in time, not a higher authority than the live data.
+- **Editorial wording choices.** Hiragana ↔ kanji decisions, formality
+  register shifts (`がんばりや` → `がんばり`), punctuation preferences
+  (`娘。` → `娘`), and similar polish are the author's call. Do not
+  revert.
+- **Backlog content.** A label-only taxonomy term that was empty on
+  the old site is *already at parity* when it renders the same way on
+  the new site. Don't generate fill-in work for slots that were never
+  filled originally.
+
+In short: compare to the mothball to find **structural regressions
+and logical bugs** (a wrong speaker label that breaks a callback; a
+dropped field; a broken cross-reference). Don't compare to it to
+"correct" the language being taught.
+
 ## How to take a goal-shaped task
 
 When the user (or another agent) hands off a task, expect these four
