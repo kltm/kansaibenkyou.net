@@ -11,14 +11,10 @@ header:
 
 {% assign home = site.data.pages.page_4 %}
 {% if home.body %}
-  {% if site.baseurl != "" %}
-    {% assign link_prefix = '](' | append: site.baseurl | append: '/' %}
-    {% assign img_prefix = 'src="' | append: site.baseurl | append: '/' %}
-    {% assign body_fixed = home.body | replace: '](/', link_prefix | replace: 'src="/', img_prefix %}
-  {% else %}
-    {% assign body_fixed = home.body %}
-  {% endif %}
+  {%- assign href_prefix = 'href="' | append: site.baseurl | append: '/' -%}
+  {%- assign src_prefix = 'src="' | append: site.baseurl | append: '/' -%}
+  {%- assign body_fixed = home.body | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
   <div class="home-content-box">
-  {{ body_fixed | markdownify }}
+  {{ body_fixed }}
   </div>
 {% endif %}
