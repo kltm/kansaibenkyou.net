@@ -28,25 +28,24 @@ commentary: '<h3>Verb negation in Osaka</h3><p>In the Osaka area, vowel assimila
   when a vowel sound in a word exerts influence on the preceding vowel sound and makes it similar to itself.
   "><a class="lexicon-term" href="/taxonomy/term/185/" title="For our purposes, when a vowel sound in
   a word exerts influence on the preceding vowel sound and makes it similar to itself. ">?</a></sup></h3><p>For
-  ru-verbs which have a stem<sup also="" and="" as="" class="lexicon-indicator" example:="" for="" form.=""
-  is="" known="" masu="" pre-masu="" the="" this="" title="The long (masu) verb form without the final
-  "><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu) verb form without the final
-  "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し, and き.''>?</a></sup> the ends
-  with [i], vowel assimilation can occur. In the case, the Kansai-ben "standard" へん becomes ひん. A couple
-  of examples (with romaji for clarity):</p><table class="kb-production-table"><tr><td>__<em>i</em>-h<em>e</em>n<sup
-  class="lexicon-indicator" title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/"
-  title="Abbreviation for noun. ">?</a></sup></td><td>→</td><td>__<em>i</em>-h<em>i</em>n</td></tr></table><table
-  class="kb-production-table"><tr><td>起き<em>へん</em> (ok<em>i</em>-h<em>e</em>n)</td><td>→</td><td>起き<em>ひん</em>
-  (ok<em>i</em>-h<em>i</em>n)</td></tr></table><p>Also, if the stem ends with an [i], it changes into
-  an [e]:</p><table class="kb-production-table"><tr><td>__<em>i</em>-hen</td><td>→</td><td>__<em>e</em>-hen</td></tr></table><table
+  ru-verbs which have a stem<sup class="lexicon-indicator" title=''The long (masu) verb form without the
+  final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し, and き.''><a class="lexicon-term"
+  href="/taxonomy/term/168/" title=''The long (masu) verb form without the final "masu". This is also
+  known as the pre-masu form. For example: 食べ, 行き, し, and き.''>?</a></sup> the ends with [i], vowel assimilation
+  can occur. In the case, the Kansai-ben "standard" へん becomes ひん. A couple of examples (with romaji for
+  clarity):</p><table class="kb-production-table"><tr><td>__<em>i</em>-h<em>e</em>n<sup class="lexicon-indicator"
+  title="Abbreviation for noun. "><a class="lexicon-term" href="/taxonomy/term/157/" title="Abbreviation
+  for noun. ">?</a></sup></td><td>→</td><td>__<em>i</em>-h<em>i</em>n</td></tr></table><table class="kb-production-table"><tr><td>起き<em>へん</em>
+  (ok<em>i</em>-h<em>e</em>n)</td><td>→</td><td>起き<em>ひん</em> (ok<em>i</em>-h<em>i</em>n)</td></tr></table><p>Also,
+  if the stem ends with an [i], it changes into an [e]:</p><table class="kb-production-table"><tr><td>__<em>i</em>-hen</td><td>→</td><td>__<em>e</em>-hen</td></tr></table><table
   class="kb-production-table"><tr><td>起<em>き</em>へん (ok<em>i</em>-hen)</td><td>→</td><td>起<em>け</em>へん
   (ok<em>e</em>-hen)</td></tr></table><p>Using the different transformations described, a standard Japanese
   verb can end up having a fair number Kansai-ben analogs. For example, the standard Japanese 起きない can
   variously become: 起きへん, 起きひん, 起けへん, and 起きん.</p><h3>The negative form of verbs and vowel extension</h3><p>For
-  ru-verbs with one character in their stem<sup also="" and="" as="" class="lexicon-indicator" example:=""
-  for="" form.="" is="" known="" masu="" pre-masu="" the="" this="" title="The long (masu) verb form without
-  the final "><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu) verb form without
-  the final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し, and き.''>?</a></sup>,
+  ru-verbs with one character in their stem<sup class="lexicon-indicator" title=''The long (masu) verb
+  form without the final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し, and
+  き.''><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu) verb form without the
+  final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し, and き.''>?</a></sup>,
   the sound before へん and ひん can be extended. For a more detailed description see the <a href="/phonology/351/">vowel
   extension</a> page, but as an example with out Kansai-ben-style negative non-past verbs we have:</p><table
   class="kb-production-table"><tr><td>見ない (minai)</td><td>→</td><td>見<em>い</em>へん (mi<em>i</em>-hen)、見<em>い</em>ひん
@@ -87,10 +86,10 @@ formation_from_standard: '<h3>non-past tense</h3><h4>u-verb<sup class="lexicon-i
   verbs. Also known as Ichidan or Group 2 verbs. For example: 食べる, 寝る, and 着る."><a class="lexicon-term"
   href="/taxonomy/term/160/" title="Verbs that ends with る but are not u-verbs (such as 走る and 帰る) or
   irregular verbs. Also known as Ichidan or Group 2 verbs. For example: 食べる, 寝る, and 着る.">?</a></sup></h4><p>
-  Add へん or ん to the stem<sup also="" and="" as="" class="lexicon-indicator" example:="" for="" form.=""
-  is="" known="" masu="" pre-masu="" the="" this="" title="The long (masu) verb form without the final
-  "><a class="lexicon-term" href="/taxonomy/term/168/" title=''The long (masu) verb form without the final
-  "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し, and き.''>?</a></sup>.</p><table><tr><th>Standard</th><td>V<em>ない</em></td></tr><tr><th>Kansai-ben</th><td>V<em>へん</em><br/>
+  Add へん or ん to the stem<sup class="lexicon-indicator" title=''The long (masu) verb form without the
+  final "masu". This is also known as the pre-masu form. For example: 食べ, 行き, し, and き.''><a class="lexicon-term"
+  href="/taxonomy/term/168/" title=''The long (masu) verb form without the final "masu". This is also
+  known as the pre-masu form. For example: 食べ, 行き, し, and き.''>?</a></sup>.</p><table><tr><th>Standard</th><td>V<em>ない</em></td></tr><tr><th>Kansai-ben</th><td>V<em>へん</em><br/>
   V<em>ん</em></td></tr></table><table class="kb-production-table"><tr><td>食べ<em>ない</em></td><td>→</td><td>食べ<em>へん</em>,
   食べ<em>ん</em></td></tr><tr><td>起き<em>ない</em></td><td>→</td><td>起き<em>へん</em>, 起き<em>ん</em></td></tr></table><h4>irregular
   verb<sup class="lexicon-indicator" title="Suru-verbs (e.g., する, 勉強する) and 来る."><a class="lexicon-term"

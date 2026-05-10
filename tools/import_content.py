@@ -90,6 +90,8 @@ CONTENT_TYPE_CLASSES = {
     "pages": "article-type-page",
 }
 
+ATTR_ASSIGN_RE = re.compile(r"[A-Za-z_:][-A-Za-z0-9_:.]*\s*=")
+
 # Old-site relative paths that appear inside page / page-body HTML
 # (e.g. <a href="../grammar-point-list">). These must be rewritten to
 # the canonical new-site URLs so the cross-reference weave survives
@@ -162,8 +164,56 @@ def build_node_url_map() -> dict[int, str]:
 # ---------------------------------------------------------------------------
 
 
+def escape_inner_title_quotes(html: str) -> str:
+    """Escape raw inner double quotes inside title="..." attributes.
+
+    A handful of Drupal-rendered lexicon markers in the mothball use
+    title="... "quoted text" ..." instead of &quot;. BeautifulSoup/lxml
+    treats the first inner quote as the end of the attribute, which
+    produces bogus attributes like `in=""` and mangles the <sup> tag.
+    Normalize that original-data quirk before parsing the DOM.
+    """
+    pieces: list[str] = []
+    pos = 0
+
+    while True:
+        start = html.find('title="', pos)
+        if start == -1:
+            pieces.append(html[pos:])
+            return "".join(pieces)
+
+        value_start = start + len('title="')
+        pieces.append(html[pos:value_start])
+        cursor = value_start
+
+        while True:
+            quote = html.find('"', cursor)
+            if quote == -1:
+                pieces.append(html[cursor:])
+                return "".join(pieces)
+
+            boundary = quote + 1
+            while boundary < len(html) and html[boundary].isspace():
+                boundary += 1
+
+            if (
+                boundary >= len(html)
+                or html.startswith("/>", boundary)
+                or html[boundary] == ">"
+                or ATTR_ASSIGN_RE.match(html, boundary)
+            ):
+                pieces.append(html[cursor:quote + 1])
+                pos = quote + 1
+                break
+
+            pieces.append(html[cursor:quote])
+            pieces.append("&quot;")
+            cursor = quote + 1
+
+
 def parse_node(node_id: int) -> BeautifulSoup:
     html = (NODE_DIR / str(node_id)).read_text(errors="replace")
+    html = escape_inner_title_quotes(html)
     return BeautifulSoup(html, "lxml")
 
 
@@ -339,6 +389,18 @@ def romaji_from(ja: str) -> str:
         return ""
     parts = _KAKASI.convert(ja)
     return "".join(p.get("hepburn", "") for p in parts).strip()
+
+
+def existing_yaml_string(path: Path, key: str) -> str:
+    """Return an existing scalar string value from a generated YAML file."""
+    if not path.exists():
+        return ""
+    try:
+        data = yaml.safe_load(path.read_text()) or {}
+    except Exception:
+        return ""
+    value = data.get(key, "")
+    return value.strip() if isinstance(value, str) else ""
 
 
 def extract_html_field(soup: BeautifulSoup, field_name: str,
@@ -528,6 +590,11 @@ def import_word(node_id: int, node_url_map: dict[int, str]) -> dict:
     title_ja, title_romaji = extract_title(soup)
     if not title_romaji:
         title_romaji = romaji_from(title_ja)
+    if not title_romaji:
+        title_romaji = existing_yaml_string(
+            REPO / "data" / "words" / f"word_{node_id}.yaml",
+            "title_romaji",
+        )
 
     entry: dict = {
         "id": f"word_{node_id}",
@@ -577,6 +644,11 @@ def import_grammar_point(node_id: int, node_url_map: dict[int, str]) -> dict:
     title_ja, title_romaji = extract_title(soup)
     if not title_romaji:
         title_romaji = romaji_from(title_ja)
+    if not title_romaji:
+        title_romaji = existing_yaml_string(
+            REPO / "data" / "grammar_points" / f"grammar_{node_id}.yaml",
+            "title_romaji",
+        )
 
     # Grammar bodies carry inline anchors + lexicon-indicator glossary
     # pointers that must survive; extract as HTML, not flattened text.

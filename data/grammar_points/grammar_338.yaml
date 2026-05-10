@@ -21,16 +21,16 @@ formation: '<h2>Dictionary form<sup class="lexicon-indicator" title="The affirma
   for a verb."><a class="lexicon-term" href="/taxonomy/term/164/" title="The affirmative short non-past
   form for a verb.">?</a></sup></h2><table><tr><td>V<sup class="lexicon-indicator" title="Abbreviation
   for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup>
-  (stem<sup also="" and="" as="" class="lexicon-indicator" example:="" for="" form.="" is="" known=""
-  masu="" pre-masu="" the="" this="" title="The long (masu) verb form without the final "><a class="lexicon-term"
-  href="/taxonomy/term/168/" title=''The long (masu) verb form without the final "masu". This is also
-  known as the pre-masu form. For example: 食べ, 行き, し, and き.''>?</a></sup>) +やる／よる</td></tr></table><table
-  class="kb-production-table"><tr><td>行く</td><td>→</td><td>行きやる<br/> 行きよる</td></tr><tr><td>寝る</td><td>→</td><td>寝やる<br/>
-  寝よる</td></tr><tr><td>来る</td><td>→</td><td>きやる<br/> きよる</td></tr><tr><td>する</td><td>→</td><td>しやる<br/>
-  しよる</td></tr></table><h2>Vている／ていた form </h2><table><tr><td>V<sup class="lexicon-indicator" title="Abbreviation
-  for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation for verb. ">?</a></sup>
-  (te-form<sup class="lexicon-indicator" title="For example: 食べて, 行って, して, and 来て."><a class="lexicon-term"
-  href="/taxonomy/term/171/" title="For example: 食べて, 行って, して, and 来て.">?</a></sup>) +やる／やった</td></tr></table>'
+  (stem<sup class="lexicon-indicator" title=''The long (masu) verb form without the final "masu". This
+  is also known as the pre-masu form. For example: 食べ, 行き, し, and き.''><a class="lexicon-term" href="/taxonomy/term/168/"
+  title=''The long (masu) verb form without the final "masu". This is also known as the pre-masu form.
+  For example: 食べ, 行き, し, and き.''>?</a></sup>) +やる／よる</td></tr></table><table class="kb-production-table"><tr><td>行く</td><td>→</td><td>行きやる<br/>
+  行きよる</td></tr><tr><td>寝る</td><td>→</td><td>寝やる<br/> 寝よる</td></tr><tr><td>来る</td><td>→</td><td>きやる<br/>
+  きよる</td></tr><tr><td>する</td><td>→</td><td>しやる<br/> しよる</td></tr></table><h2>Vている／ていた form </h2><table><tr><td>V<sup
+  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
+  title="Abbreviation for verb. ">?</a></sup> (te-form<sup class="lexicon-indicator" title="For example:
+  食べて, 行って, して, and 来て."><a class="lexicon-term" href="/taxonomy/term/171/" title="For example: 食べて, 行って,
+  して, and 来て.">?</a></sup>) +やる／やった</td></tr></table>'
 function_types:
 - function_26
 grammar_types:

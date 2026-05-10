@@ -39,14 +39,15 @@ kansai_vs_standard: '<h2>Ability potential</h2><table class="full-grid-table"><t
   href="/grammar-points/296/">Negative</a></th></tr><tr><th>Standard</th><td><em>V<sup class="lexicon-indicator"
   title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation
   for verb. ">?</a></sup> (potential) </em></td><td><em>V (potential) ない</em></td></tr><tr><th>Kansai-ben</th><td><em>ようV
-  (dictionary) </em></td><td><em>ようV (negative stem<sup and="" class="lexicon-indicator" example:="" for=""
-  in="" japanese="" kansai-ben.="" nai="" or="" standard="" title="The short negative form without the
-  final "><a class="lexicon-term" href="/taxonomy/term/169/" title=''The short negative form without the
-  final "nai" in standard Japanese or "ん" in Kansai-ben. For example: 食べ, 行か, し, and こ in standard Japanese
-  and 食べ, 行か, せ, and こ in Kansai-ben.''>?</a></sup>) へん<br/> ようV (negative stem) ん</em></td></tr></table><h2>Situational
-  potential</h2><table class="full-grid-table"><tr><th></th><th>Affirmative</th><th><a href="/grammar-points/296/">Negative</a></th></tr><tr><th>Standard</th><td><em>V<sup
-  class="lexicon-indicator" title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/"
-  title="Abbreviation for verb. ">?</a></sup> (potential) </em></td><td><em>V (potential) ない</em></td></tr><tr><th>Kansai-ben</th><td><em>V
+  (dictionary) </em></td><td><em>ようV (negative stem<sup class="lexicon-indicator" title=''The short negative
+  form without the final "nai" in standard Japanese or "ん" in Kansai-ben. For example: 食べ, 行か, し, and
+  こ in standard Japanese and 食べ, 行か, せ, and こ in Kansai-ben.''><a class="lexicon-term" href="/taxonomy/term/169/"
+  title=''The short negative form without the final "nai" in standard Japanese or "ん" in Kansai-ben. For
+  example: 食べ, 行か, し, and こ in standard Japanese and 食べ, 行か, せ, and こ in Kansai-ben.''>?</a></sup>) へん<br/>
+  ようV (negative stem) ん</em></td></tr></table><h2>Situational potential</h2><table class="full-grid-table"><tr><th></th><th>Affirmative</th><th><a
+  href="/grammar-points/296/">Negative</a></th></tr><tr><th>Standard</th><td><em>V<sup class="lexicon-indicator"
+  title="Abbreviation for verb. "><a class="lexicon-term" href="/taxonomy/term/155/" title="Abbreviation
+  for verb. ">?</a></sup> (potential) </em></td><td><em>V (potential) ない</em></td></tr><tr><th>Kansai-ben</th><td><em>V
   (potential)</em></td><td><em>V (potential) へん<br/> V (potential) ん</em></td></tr></table>'
 function_types:
 - function_25

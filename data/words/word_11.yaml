@@ -3,11 +3,11 @@ drupal_node_id: 11
 title: おかい
 title_romaji: okai
 body: <p>rice porridge</p>
-commentary: <p>Some people add the suffix<sup class="lexicon-indicator" in="" title="Words or morphemes
-  that attach to the end of a word to change its meaning or grammatical function (e.g., "><a class="lexicon-term"
-  href="/taxonomy/term/159/" title='Words or morphemes that attach to the end of a word to change its
-  meaning or grammatical function (e.g., "さん" in 田中さん). '>?</a></sup><em>-san</em> to this word. For more
-  discussion, see <a href="/grammar-points/313/">Suffix “さん” and “ちゃん”</a></p>
+commentary: <p>Some people add the suffix<sup class="lexicon-indicator" title='Words or morphemes that
+  attach to the end of a word to change its meaning or grammatical function (e.g., "さん" in 田中さん). '><a
+  class="lexicon-term" href="/taxonomy/term/159/" title='Words or morphemes that attach to the end of
+  a word to change its meaning or grammatical function (e.g., "さん" in 田中さん). '>?</a></sup><em>-san</em>
+  to this word. For more discussion, see <a href="/grammar-points/313/">Suffix “さん” and “ちゃん”</a></p>
 standard_kana: おかゆ
 standard_kanji: お粥
 word_types:

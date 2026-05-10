@@ -3,10 +3,11 @@ drupal_node_id: 110
 title: えらいさん
 title_romaji: eraisan
 body: <p>negative term for person who has high status.</p>
-commentary: <p>Sometimes people add an honorable prefix<sup class="lexicon-indicator" in="" title="Words
-  or morphemes that attach to the beginning of a word to change its meaning or grammatical (e.g., "><a
-  class="lexicon-term" href="/taxonomy/term/158/" title='Words or morphemes that attach to the beginning
-  of a word to change its meaning or grammatical (e.g., "大" in 大好き). '>?</a></sup> (おえらいさん) to this word.</p>
+commentary: <p>Sometimes people add an honorable prefix<sup class="lexicon-indicator" title='Words or
+  morphemes that attach to the beginning of a word to change its meaning or grammatical (e.g., "大" in
+  大好き). '><a class="lexicon-term" href="/taxonomy/term/158/" title='Words or morphemes that attach to
+  the beginning of a word to change its meaning or grammatical (e.g., "大" in 大好き). '>?</a></sup> (おえらいさん)
+  to this word.</p>
 example: <p>あの<strong>えらいさん</strong>自分のむすだけしょしんさせたらしいで。<br/> I heard that the Boss's son is the only one
   receiving a promotion...</p>
 kanji: 偉いさん
