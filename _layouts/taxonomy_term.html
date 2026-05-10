@@ -16,19 +16,17 @@ layout: single
   {%- endif %}
 
   {%- comment -%}
-    Only show the "no content" fallback when BOTH the glossary
-    definition is empty AND every content group is empty. A term with
-    a definition is a legitimate glossary page even without tagged
-    content — this was the regression that led to 58 term-page
-    deletions last cycle.
+    Match the old site: description-only glossary terms should say
+    there is currently no classified content, while label-only backlog
+    terms should remain bare until they are backfilled.
   {%- endcomment -%}
   {%- assign has_any_content = false -%}
   {%- if term_data.grammar_points.size > 0 or term_data.conversations.size > 0 or term_data.real_conversations.size > 0 or term_data.words.size > 0 -%}
     {%- assign has_any_content = true -%}
   {%- endif -%}
-  {%- unless term_desc or has_any_content %}
+  {%- if term_desc and has_any_content == false %}
     <p>There is currently no content classified with this term.</p>
-  {%- endunless %}
+  {%- endif %}
 
   {%- if term_data.grammar_points.size > 0 %}
     <section>
