@@ -383,29 +383,6 @@ table.sortable th[data-sort-dir="desc"]::after {
   color: #3d6186;
 }
 
-/* ---- Banner strip (below masthead on inner pages) ---- */
-
-.site-banner {
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 140px;
-  background: #2c4a66;
-}
-
-.site-banner__img {
-  width: 100%;
-  height: 140px;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-
-.site-banner__img[src]:not([src=""]) {
-  opacity: 1;
-}
-
 /* ---- Footer (compact, matching original) ---- */
 
 .page__footer {
@@ -549,29 +526,31 @@ table.sortable th[data-sort-dir="desc"]::after {
 }
 
 /* ---- Word entry metadata (Word type / Standard / Usage) ----
-   Compact two-column definition list sitting between the definition
-   (body) and the example / commentary sections. Mirrors the old
-   site's inline-label field treatment. */
+   Inline label/value paragraphs sit between the definition (body)
+   and the example / commentary sections. Keep the labels compact,
+   textbook-like, and visually tied to the green content box. */
 
-.word-entry .word-meta {
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  column-gap: 0.8rem;
-  row-gap: 0.25rem;
-  margin: 0.8rem 0 1rem;
-  padding: 0.5rem 0;
-  border-top: 1px solid #d4cfc5;
-  border-bottom: 1px solid #d4cfc5;
+.word-entry .word-field,
+.real-conversation .conv-tags-inline {
+  margin: 0.35rem 0;
+  font-size: 0.98rem;
+  line-height: 1.45;
 }
 
-.word-entry .word-meta dt {
+.word-entry .word-field strong,
+.real-conversation .conv-tags-inline strong {
   font-weight: 600;
-  color: #3c4a3c;
-  margin: 0;
+  color: #2a3a2a;
+  margin-right: 0.2rem;
 }
 
-.word-entry .word-meta dd {
-  margin: 0;
+.word-entry .word-example,
+.word-entry .word-commentary {
+  margin: 0.15rem 0 0.6rem;
+}
+
+.real-conversation .conv-tags-inline {
+  margin-bottom: 0.75rem;
 }
 
 .word-entry .word-body {
@@ -584,9 +563,10 @@ table.sortable th[data-sort-dir="desc"]::after {
    heading, no section break, same font — matching the old site's
    treatment. */
 .word-entry .word-commentary {
-  margin: 0.4rem 0 0.2rem;
+  margin: 0.15rem 0 0.6rem;
 }
 
+.word-entry .word-example p,
 .word-entry .word-commentary p {
   margin: 0.2rem 0;
 }
@@ -704,17 +684,3 @@ table.sortable th[data-sort-dir="desc"]::after {
 .term-definition p {
   margin: 0;
 }
-
-/* ---- Word entry layout ---- */
-
-.word-entry dl {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.25rem 1rem;
-}
-
-.word-entry dt {
-  font-weight: 600;
-}
-
-.word-entry dd { margin: 0; }
