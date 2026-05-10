@@ -8,28 +8,31 @@ layout: single
 
 <article class="real-conversation">
 
-  <header>
-    {%- if rc.summary %}
-      <p class="conversation-summary">{{ rc.summary }}</p>
-    {%- endif %}
-  </header>
+  {%- if rc.summary %}
+    <section class="rc-summary">
+      {%- assign summary_paras = rc.summary | split: "
+
+" -%}
+      {%- for para in summary_paras -%}
+        {%- assign trimmed = para | strip -%}
+        {%- if trimmed != "" %}<p class="conversation-summary">{{ trimmed }}</p>{% endif -%}
+      {%- endfor %}
+    </section>
+  {%- endif %}
 
   {%- if rc.speakers.size > 0 %}
-    <p class="teaser-meta">
-      <strong>Tags:</strong>
+    {%- comment -%}
+      Author's original label was "Tags:" — a mixed pool of demographic +
+      speaker names (young, female, casual, friends, plus participant
+      names). "Speakers" narrows the semantics incorrectly.
+    {%- endcomment -%}
+    <p class="conv-tags-inline"><strong>Tags:</strong>
       {%- for sp in rc.speakers %}
         {%- assign sid = sp | split: "_" | last %}
         {%- assign sp_label = site.data.taxonomy_labels[sid] | default: sp %}
         <a href="{{ '/taxonomy/term/' | append: sid | append: '/' | relative_url }}">{{ sp_label }}</a>{%- unless forloop.last %}, {% endunless %}
       {%- endfor %}
     </p>
-  {%- endif %}
-
-  {%- if rc.hint %}
-    <section class="rc-hint">
-      <h2>Listening hints</h2>
-      <div class="gp-preformatted">{{ rc.hint | newline_to_br }}</div>
-    </section>
   {%- endif %}
 
   {%- if rc.audio.path %}
@@ -39,6 +42,23 @@ layout: single
         <a href="{{ '/assets/audio/' | append: rc.audio.path | relative_url }}">Download audio</a>
       </audio>
     </p>
+  {%- endif %}
+
+  {%- if rc.hint %}
+    {%- comment -%}
+      Author's original label was "Hints:" — not "Listening hints".
+      Preserve the author's voice per the cardinal rule.
+    {%- endcomment -%}
+    <section class="rc-hint">
+      <p><strong>Hints:</strong></p>
+      {%- assign hint_paras = rc.hint | split: "
+
+" -%}
+      {%- for para in hint_paras -%}
+        {%- assign trimmed = para | strip -%}
+        {%- if trimmed != "" %}<p>{{ trimmed }}</p>{% endif -%}
+      {%- endfor %}
+    </section>
   {%- endif %}
 
 </article>

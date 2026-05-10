@@ -6,13 +6,19 @@ layout: single
   <p class="error">No data for <code>{{ page.data_id }}</code>.</p>
 {%- else -%}
 
+{%- assign href_prefix = 'href="' | append: site.baseurl | append: '/' -%}
+{%- assign src_prefix = 'src="' | append: site.baseurl | append: '/' -%}
+{%- assign pt_body = pt.body | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+
 <article class="phonology-topic">
 
-  
+  {%- if pt.title_romaji %}
+    <span class="sr-only" data-pagefind-meta="romaji">{{ pt.title_romaji }}</span>
+  {%- endif %}
 
   {%- if pt.body %}
     <section class="pt-body">
-      <div class="gp-preformatted">{{ pt.body | newline_to_br }}</div>
+      <div class="gp-html-content">{{ pt_body }}</div>
     </section>
   {%- endif %}
 

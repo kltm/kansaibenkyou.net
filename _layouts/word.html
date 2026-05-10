@@ -6,19 +6,30 @@ layout: single
   <p class="error">No word data for <code>{{ page.data_id }}</code>.</p>
 {%- else -%}
 
-<article class="word-entry">
+{%- assign href_prefix = 'href="' | append: site.baseurl | append: '/' -%}
+{%- assign src_prefix = 'src="' | append: site.baseurl | append: '/' -%}
+{%- assign w_body = w.body | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+{%- assign w_commentary = w.commentary | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+{%- assign w_example = w.example | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
 
-  <header>
-    
-  </header>
+<article class="word-entry">
 
   {%- if w.title_romaji %}
     <span class="sr-only" data-pagefind-meta="romaji">{{ w.title_romaji }}</span>
   {%- endif %}
 
+  {%- if w.body %}
+    <div class="word-body gp-html-content">{{ w_body }}</div>
+  {%- endif %}
+
+  {%- comment -%}
+    Inline bold-label fields matching the old Drupal "field-label-inline"
+    rendering: each on its own line, label + colon + value, no grid, no
+    borders. Two agents independently flagged the previous <dl> grid
+    as a foreign body.
+  {%- endcomment -%}
   {%- if w.word_types.size > 0 %}
-    <p>
-      <strong>Word type:</strong>
+    <p class="word-field"><strong>Word type:</strong>
       {%- for wt in w.word_types %}
         {%- assign wt_id = wt | split: "_" | last %}
         {%- assign wt_label = site.data.taxonomy_labels[wt_id] | default: wt %}
@@ -27,36 +38,39 @@ layout: single
     </p>
   {%- endif %}
 
-  {%- if w.suitability.size > 0 %}
-    <p>
-      {%- for s in w.suitability %}
-        <img src="{{ '/assets/images/' | append: s.icon | relative_url }}"
-             alt="{{ s.label }}" title="{{ s.tooltip }}"
-             class="suitability-icon"> {{ s.label }}
-      {%- endfor %}
-    </p>
-  {%- endif %}
-
-  {%- if w.body %}
-    <section class="word-definition">
-      <h2>Definition</h2>
-      <p>{{ w.body }}</p>
-    </section>
+  {%- if w.kanji %}
+    <p class="word-field"><strong>Kanji:</strong> {{ w.kanji }}</p>
   {%- endif %}
 
   {%- if w.standard_kana %}
-    <p><strong>Standard:</strong> {{ w.standard_kana }}</p>
+    <p class="word-field"><strong>Standard:</strong> {{ w.standard_kana }}</p>
   {%- endif %}
 
   {%- if w.standard_kanji %}
-    <p><strong>Standard kanji:</strong> {{ w.standard_kanji }}</p>
+    <p class="word-field"><strong>Standard kanji:</strong> {{ w.standard_kanji }}</p>
+  {%- endif %}
+
+  {%- if w.example %}
+    <p class="word-field"><strong>Example:</strong></p>
+    <div class="gp-html-content word-example">{{ w_example }}</div>
   {%- endif %}
 
   {%- if w.commentary %}
-    <section class="word-commentary">
-      <h2>Notes</h2>
-      <p>{{ w.commentary }}</p>
-    </section>
+    <p class="word-field"><strong>Commentary:</strong></p>
+    <div class="gp-html-content word-commentary">{{ w_commentary }}</div>
+  {%- endif %}
+
+  {%- if w.suitability.size > 0 %}
+    <p class="word-field word-suitability"><strong>Usage:</strong>
+      {%- for s in w.suitability %}
+        <span class="suitability-chip">
+          <img src="{{ '/assets/images/' | append: s.icon | relative_url }}"
+               alt="{{ s.label }}" title="{{ s.tooltip | default: s.label }}"
+               class="suitability-icon">
+          {{ s.label }}
+        </span>{%- unless forloop.last %} {% endunless %}
+      {%- endfor %}
+    </p>
   {%- endif %}
 
 </article>

@@ -280,6 +280,17 @@ classes:
         description: Definition / English meaning.
       commentary:
         description: Additional usage notes.
+      example:
+        description: >-
+          Example sentence(s) using this word, typically bilingual
+          (Kansai-ben + English). Imported from Drupal
+          field-word-example.
+      kanji:
+        description: >-
+          Kanji spelling of the Kansai-ben word (when applicable).
+          Imported from Drupal field-word-kanji. Distinct from
+          standard_kanji, which holds the standard-Japanese kanji
+          equivalent.
       standard_kana:
         description: Standard Japanese equivalent in kana.
       standard_kanji:

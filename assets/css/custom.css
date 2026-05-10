@@ -51,6 +51,7 @@
   vertical-align: top;
   padding: 0.5rem 0.5rem 0.5rem 0.75rem;
   font-weight: 600;
+  color: #222;
   white-space: nowrap;
   width: 1%;
 }
@@ -157,15 +158,75 @@
   margin-top: 0.3rem;
 }
 
+/* ---- Typography scale for content pages ----
+   MM is blog-oriented with a very large H1. The old learning site used
+   a compact scale where H1 sat close to the body text and subsection
+   headings (H2 inside a section) were clearly subordinate to the
+   layout's section H2. We tighten MM's scale here so a grammar /
+   word / conversation page reads as a textbook chapter, not a blog
+   post. Applied site-wide; the content article wrappers are wide
+   enough that the smaller H1 still reads as a title. */
+
+.page__title {
+  font-size: 1.45rem;
+  line-height: 1.2;
+  margin-bottom: 0.2rem;
+}
+
+/* Content-page H2s are *major section headings* (Formation, Example,
+   Commentary) — keep a subtle underline as a visual marker. No
+   decorative rule under conv-tags h2 or other sub-section headings. */
+.grammar-point > section > h2,
+.word-entry > section > h2,
+.conversation-example > section > h2,
+.real-conversation > section > h2,
+.phonology-topic > section > h2,
+.taxonomy-term > section > h2,
+.page-content > section > h2 {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.35rem;
+  font-weight: 600;
+  padding-bottom: 0;
+  color: #2a3a2a;
+  border-bottom: none;
+}
+
+.grammar-point h3,
+.word-entry h3,
+.conversation-example h3,
+.real-conversation h3,
+.phonology-topic h3,
+.taxonomy-term h3,
+.page-content h3 {
+  font-size: 1.05rem;
+  margin: 0.8rem 0 0.25rem;
+  font-weight: 600;
+  color: #2a3a2a;
+}
+
 /* ---- Tag clouds (conversation common uses / grammar elements) ---- */
 
-.conv-tags { margin-top: 1.5rem; }
+.conv-tags {
+  margin-top: 0.8rem;
+  margin-bottom: 0.6rem;
+}
 
 .conv-tags h2 {
   font-size: 1rem;
-  border-bottom: 1px solid #d4cfc5;
-  padding-bottom: 0.3rem;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.2rem;
+  padding: 0;
+  border-bottom: none;
+  font-weight: 600;
+  color: #3c4a3c;
+  display: inline-block;
+}
+
+.conv-tags h2::after {
+  content: ":";
+}
+
+.conv-tags .tag-cloud {
+  margin-bottom: 0;
 }
 
 .tag-cloud {
@@ -220,17 +281,19 @@
 .phonology-topic,
 .page-content {
   background: #eaf9f2;
-  padding: 1.5em;
-  border: 1px solid #000;
-  margin-bottom: 1em;
+  padding: 1rem 1.2rem;
+  border: 1px solid #999;
+  margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 /* Home page content box */
 .home-content-box {
   background: #eaf9f2;
-  padding: 1.5em;
-  border: 1px solid #000;
-  margin-bottom: 1em;
+  padding: 1rem 1.2rem;
+  border: 1px solid #999;
+  margin-bottom: 1rem;
+  line-height: 1.5;
   overflow: hidden; /* contain floated images */
 }
 
@@ -385,41 +448,210 @@ table.sortable th[data-sort-dir="desc"]::after {
 }
 
 .gp-html-content {
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
+
+/* ---- Unified table outline ----
+   All tables inside authored grammar / word / conversation content use
+   the same border color on both th and td so a page that mixes
+   class-less tables with `.full-grid-table` tables (e.g. grammar 311)
+   doesn't look like two different visual systems. */
 
 .gp-html-content table {
   border-collapse: collapse;
   width: auto;
-  margin: 0.75rem 0;
+  margin: 0.9rem 0;
+}
+
+.gp-html-content table th,
+.gp-html-content table td {
+  border: 1px solid #bbb;
+  padding: 0.35rem 0.6rem;
+  text-align: left;
+  background: #fff;
 }
 
 .gp-html-content table th {
-  background: #fff;
-  border: 1px solid grey;
-  padding: 0.35rem 0.6rem;
-  text-align: left;
-  color: #556655;
-}
-
-.gp-html-content table td {
-  background: #fff;
-  border: 1px solid #ddd;
-  padding: 0.35rem 0.6rem;
-  text-align: left;
+  color: #3c4a3c;
+  background: #f4f7f0;
 }
 
 .gp-html-content table caption {
-  font-size: 0.9em;
-  font-weight: 100;
-  text-align: center;
-  margin-bottom: 0.3rem;
+  font-size: 1em;
+  font-weight: 600;
+  color: #333;
+  text-align: left;
+  padding-bottom: 0.15rem;
+  margin-bottom: 0.25rem;
 }
 
-.gp-html-content table.full-grid-table td,
-.gp-html-content table.full-grid-table th {
-  border: 1px solid grey;
+/* ---- Production-rule tables ----
+   Tables that contain a pure-arrow <td> (e.g. "行かない → 行かへん") are
+   visual production rules, not data tables. Render them borderless
+   with generous gaps so the arrow reads as "transforms to". Flag
+   applied by the importer via class "kb-production-table". Data
+   tables with row labels — including the politeness-level table
+   which has `↑↓` in a <th> — keep full borders. */
+
+.gp-html-content table.kb-production-table {
+  margin: 0.4rem 0;
+}
+
+.gp-html-content table.kb-production-table th,
+.gp-html-content table.kb-production-table td {
+  border: none;
+  background: transparent;
+  padding: 0.2rem 0.8rem;
+  vertical-align: middle;
+}
+
+.gp-html-content table.kb-production-table th {
+  color: #3c4a3c;
+  font-weight: 600;
+}
+
+.gp-html-content table.kb-production-table td:nth-child(2) {
+  color: #6a6a6a;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+}
+
+.gp-html-content table.kb-production-table caption {
+  font-weight: 500;
+  color: #555;
+  font-size: 0.9em;
+}
+
+/* ---- Lexicon indicator (the `?` glossary pointer) ----
+   Small superscript `?` that links to the taxonomy term page for that
+   concept. Keep it visible but unobtrusive so it doesn't compete with
+   the surrounding prose. Matches the old site's visual weight. */
+
+.lexicon-indicator {
+  font-size: 0.7em;
+  vertical-align: super;
+  line-height: 0;
+  margin-left: 0.1em;
+}
+
+.lexicon-indicator a.lexicon-term {
+  color: #9989a1;
+  text-decoration: none;
+  padding: 0 0.15em;
+  border-radius: 2px;
+  background: #f2eff5;
+}
+
+.lexicon-indicator a.lexicon-term:hover {
+  color: #fff;
+  background: #a67fba;
+}
+
+/* ---- Word entry metadata (Word type / Standard / Usage) ----
+   Compact two-column definition list sitting between the definition
+   (body) and the example / commentary sections. Mirrors the old
+   site's inline-label field treatment. */
+
+.word-entry .word-meta {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 0.8rem;
+  row-gap: 0.25rem;
+  margin: 0.8rem 0 1rem;
+  padding: 0.5rem 0;
+  border-top: 1px solid #d4cfc5;
+  border-bottom: 1px solid #d4cfc5;
+}
+
+.word-entry .word-meta dt {
+  font-weight: 600;
+  color: #3c4a3c;
+  margin: 0;
+}
+
+.word-entry .word-meta dd {
+  margin: 0;
+}
+
+.word-entry .word-body {
+  font-size: 1.05rem;
+  margin: 0.3rem 0 0.6rem;
+}
+
+/* Commentary on a word page is short prose (often one sentence: "Also
+   see まむし."). Render it inline with the rest of the entry — no
+   heading, no section break, same font — matching the old site's
+   treatment. */
+.word-entry .word-commentary {
+  margin: 0.4rem 0 0.2rem;
+}
+
+.word-entry .word-commentary p {
+  margin: 0.2rem 0;
+}
+
+.word-entry .suitability-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2em;
+  margin-right: 0.6em;
+  white-space: nowrap;
+}
+
+.word-entry .suitability-icon {
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
+}
+
+/* ---- Real-conversation listening hint ----
+   Tighten default MM paragraph leading; the old site's hints are
+   compact expository prose, not blog paragraphs. */
+
+.rc-hint p {
+  line-height: 1.45;
+  margin: 0.3rem 0;
+}
+
+/* ---- Phonology / pages inline figure alignment ----
+   Drupal authored left-image / right-image float classes. Ensure
+   they clear cleanly before the next section so the next heading
+   doesn't wrap around a half-finished paragraph. */
+
+.phonology-topic .gp-html-content::after,
+.page-content .page-body::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ---- Nested headings inside authored content ----
+   Drupal pages emitted their own <h2>s inside fields like commentary
+   ("Combinations of sentence endings" / "Polite Expressions"). On the
+   new site those become subsections of the layout-level <h2> ("Commentary").
+   Demote their visual weight so the outline reads correctly. */
+
+.gp-html-content h2 {
+  font-size: 1.15rem;
+  margin: 1.2rem 0 0.3rem;
+  font-weight: 600;
+  color: #3c4a3c;
+  border-bottom: none;
+}
+
+.gp-html-content h3 {
+  font-size: 1.05rem;
+  margin: 1rem 0 0.25rem;
+  font-weight: 600;
+  color: #3c4a3c;
+}
+
+.gp-html-content h4 {
+  font-size: 1rem;
+  margin: 0.8rem 0 0.2rem;
+  font-weight: 600;
+  color: #3c4a3c;
 }
 
 /* ---- Reduce right-side whitespace ---- */
@@ -444,6 +676,33 @@ table.sortable th[data-sort-dir="desc"]::after {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* Romaji titles are indexed for Pagefind via an sr-only span; we no
+   longer show a visible subtitle (too disruptive alongside kana). */
+
+/* ---- Taxonomy term definition lede ----
+   Dictionary-style gloss at the top of a taxonomy term page. The old
+   site's term pages opened with this blurb before the cross-reference
+   listings; keep it prominent so the term page reads as "glossary +
+   hub," not just "tag archive." */
+
+/* The term definition is plain prose — the old site used no callout
+   box for its glossary blurbs. A thin hairline below separates it
+   from the reverse-index listings that follow. Both audit agents
+   flagged the earlier boxed/bordered treatment as "admonition-
+   pattern, not glossary-pattern." */
+
+.term-definition {
+  margin: 0 0 1rem;
+  padding: 0 0 0.6rem;
+  border-bottom: 1px solid #d4cfc5;
+  color: #222;
+  font-size: 1.02rem;
+}
+
+.term-definition p {
+  margin: 0;
 }
 
 /* ---- Word entry layout ---- */

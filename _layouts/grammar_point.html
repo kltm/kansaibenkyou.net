@@ -6,53 +6,36 @@ layout: single
   <p class="error">No grammar point data for <code>{{ page.data_id }}</code>.</p>
 {%- else -%}
 
+{%- comment -%}
+Imported HTML fields carry absolute hrefs like `/grammar-points/309/` and
+`src="/assets/audio/gr_sakenomi.mp3"`. On GH Pages the site lives at
+/kansaibenkyou.net/, so every such absolute needs the baseurl prefix. We do
+the rewrite here (as in _layouts/page_content.html) rather than at import
+time so the data remains baseurl-agnostic.
+{%- endcomment -%}
+{%- assign href_prefix = 'href="' | append: site.baseurl | append: '/' -%}
+{%- assign src_prefix = 'src="' | append: site.baseurl | append: '/' -%}
+{%- assign gp_body = gp.body | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+{%- assign gp_commentary = gp.commentary | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+{%- assign gp_example = gp.example | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+{%- assign gp_formation = gp.formation | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+{%- assign gp_formation_from_standard = gp.formation_from_standard | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+{%- assign gp_kansai_vs_standard = gp.kansai_vs_standard | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+
 <article class="grammar-point">
 
   {%- if gp.title_romaji %}
     <span class="sr-only" data-pagefind-meta="romaji">{{ gp.title_romaji }}</span>
   {%- endif %}
 
-  {%- if gp.body %}
-    <section class="gp-section gp-body-section">
-      <p>{{ gp.body }}</p>
-    </section>
-  {%- endif %}
-
-  {%- if gp.kansai_vs_standard %}
-    <section class="gp-section">
-      <h2>Kansai-ben vs. Standard</h2>
-      <div class="gp-html-content">{{ gp.kansai_vs_standard }}</div>
-    </section>
-  {%- endif %}
-
-  {%- if gp.formation %}
-    <section class="gp-section">
-      <h2>Formation</h2>
-      <div class="gp-html-content">{{ gp.formation }}</div>
-    </section>
-  {%- endif %}
-
-  {%- if gp.formation_from_standard %}
-    <section class="gp-section">
-      <h2>From Standard Japanese</h2>
-      <div class="gp-html-content">{{ gp.formation_from_standard }}</div>
-    </section>
-  {%- endif %}
-
-  {%- if gp.example %}
-    <section class="gp-section">
-      <h2>Examples</h2>
-      <div class="gp-html-content">{{ gp.example }}</div>
-    </section>
-  {%- endif %}
-
-  {%- if gp.commentary %}
-    <section class="gp-section">
-      <h2>Notes</h2>
-      <div class="gp-html-content">{{ gp.commentary }}</div>
-    </section>
-  {%- endif %}
-
+  {%- comment -%}
+    Tag clouds at the TOP of the page match the old site's pedagogical
+    layout: "what is this grammar for" (Common uses / function type) and
+    "what is this grammar" (Grammar elements) are wayfinding, not
+    after-the-fact metadata. See _layouts/conversation.html for the
+    deliberately asymmetric placement on conversation pages (tags at the
+    bottom there — the skit is the primary artifact).
+  {%- endcomment -%}
   {%- if gp.function_types.size > 0 %}
     <section class="conv-tags">
       <h2>Common uses</h2>
@@ -76,6 +59,47 @@ layout: single
           <li><a href="{{ '/taxonomy/term/' | append: gt_id | append: '/' | relative_url }}">{{ gt_label }}</a></li>
         {%- endfor %}
       </ul>
+    </section>
+  {%- endif %}
+
+  {%- if gp.body %}
+    <section class="gp-section gp-body-section">
+      <div class="gp-html-content">{{ gp_body }}</div>
+    </section>
+  {%- endif %}
+
+  {%- if gp.kansai_vs_standard %}
+    <section class="gp-section">
+      <h2>Kansai-ben vs. Standard</h2>
+      <div class="gp-html-content">{{ gp_kansai_vs_standard }}</div>
+    </section>
+  {%- endif %}
+
+  {%- if gp.formation %}
+    <section class="gp-section">
+      <h2>Formation</h2>
+      <div class="gp-html-content">{{ gp_formation }}</div>
+    </section>
+  {%- endif %}
+
+  {%- if gp.formation_from_standard %}
+    <section class="gp-section">
+      <h2>From Standard Japanese</h2>
+      <div class="gp-html-content">{{ gp_formation_from_standard }}</div>
+    </section>
+  {%- endif %}
+
+  {%- if gp.example %}
+    <section class="gp-section">
+      <h2>Examples</h2>
+      <div class="gp-html-content">{{ gp_example }}</div>
+    </section>
+  {%- endif %}
+
+  {%- if gp.commentary %}
+    <section class="gp-section">
+      <h2>Commentary</h2>
+      <div class="gp-html-content">{{ gp_commentary }}</div>
     </section>
   {%- endif %}
 

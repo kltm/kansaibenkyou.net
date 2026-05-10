@@ -6,20 +6,23 @@ layout: single
   <p class="error">No data for <code>{{ page.data_id }}</code>.</p>
 {%- else -%}
 
+{%- comment -%}
+Page bodies are now emitted as HTML by the importer, preserving the
+original Drupal structure (anchor links, definition lists, tables,
+headings, images) so the page's cross-references survive the
+transplant. The importer writes absolute paths like `href="/about/"`
+and `src="/assets/images/foo.jpg"` — we prepend baseurl here at
+render time so the data stays baseurl-agnostic.
+{%- endcomment -%}
+{%- assign href_prefix = 'href="' | append: site.baseurl | append: '/' -%}
+{%- assign src_prefix = 'src="' | append: site.baseurl | append: '/' -%}
+{%- assign body = pg.body | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+
 <article class="page-content">
 
-  
-
   {%- if pg.body %}
-    {%- assign body_fixed = pg.body %}
-    {%- if site.baseurl != "" %}
-      {%- assign link_prefix = '](' | append: site.baseurl | append: '/' %}
-      {%- assign body_fixed = body_fixed | replace: '](/', link_prefix %}
-      {%- assign img_prefix = 'src="' | append: site.baseurl | append: '/' %}
-      {%- assign body_fixed = body_fixed | replace: 'src="/', img_prefix %}
-    {%- endif %}
     <section class="page-body">
-      {{ body_fixed | markdownify }}
+      {{ body }}
     </section>
   {%- endif %}
 
