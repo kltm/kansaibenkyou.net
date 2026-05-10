@@ -56,7 +56,21 @@ def main() -> None:
         if "_screenshots" in str(html_file):
             continue
         content = html_file.read_text(errors="replace")
+        # Strip <script> blocks before extracting refs — they often
+        # contain JS-concatenated pseudo-URLs like `' + url + '` that
+        # are not real links.
+        content = re.sub(r'<script[^>]*>.*?</script>', '', content,
+                         flags=re.DOTALL)
         page = str(html_file.relative_to(SITE))
+
+        # Compute the served URL of this page, so relative hrefs can be
+        # resolved. For index.html files, the served URL is the parent
+        # directory with a trailing slash.
+        if html_file.name == "index.html":
+            page_url = base + "/" + str(html_file.parent.relative_to(SITE)) + "/"
+            page_url = page_url.replace("//", "/")
+        else:
+            page_url = base + "/" + page
 
         for ref in re.findall(r'(?:href|src)="([^"]+)"', content):
             checked += 1
@@ -65,8 +79,14 @@ def main() -> None:
             if any(p in ref for p in SKIP_PATTERNS):
                 continue
             clean = ref.split("#")[0].split("?")[0]
-            if not clean or not clean.startswith("/"):
+            if not clean:
                 continue
+            if not clean.startswith("/"):
+                # Relative href — resolve against the current page URL.
+                # This catches bare-ID hrefs like `href="309"` inherited
+                # from the Drupal source, which silently 404 on the new
+                # site.
+                clean = urljoin(page_url, clean)
             candidates = [clean, clean.rstrip("/") + "/",
                           clean + "index.html",
                           clean.rstrip("/") + "/index.html"]

@@ -17,7 +17,7 @@ Options:
     --no-build   Skip the jekyll build step (use an existing _site/).
     --page PATH  Verify a single page instead of the default set.
                  PATH is relative to the site root, e.g.
-                 "/conversations/01-with-the-landlord/".
+                 "/example-conversations/01-with-the-landlord/".
 """
 
 from __future__ import annotations
@@ -75,7 +75,7 @@ def screenshot(page: Page, name: str) -> Path:
     return path
 
 
-def verify_conversation(page: Page, path: str = "/conversations/01-with-the-landlord/") -> list[str]:
+def verify_conversation(page: Page, path: str = "/example-conversations/01-with-the-landlord/") -> list[str]:
     """Verify a conversation page. Returns a list of failure messages (empty = pass)."""
     failures: list[str] = []
     url = f"http://127.0.0.1:{PORT}{path}"
@@ -108,7 +108,7 @@ def verify_conversation(page: Page, path: str = "/conversations/01-with-the-land
         failures.append("skit-s (standard) should be hidden by default")
 
     # Toggle "Show standard" and verify it becomes visible.
-    btn_s = page.locator(".skit-toggle[data-layer='s']")
+    btn_s = page.locator(".skit-toggle.skit-toggle-s")
     btn_s.click()
     page.wait_for_timeout(200)
     screenshot(page, f"{slug}_02_standard_on")
@@ -116,13 +116,13 @@ def verify_conversation(page: Page, path: str = "/conversations/01-with-the-land
         failures.append("skit-s not visible after clicking Show standard")
 
     # Toggle "Show English".
-    btn_e = page.locator(".skit-toggle[data-layer='e']")
+    btn_e = page.locator(".skit-toggle.skit-toggle-e")
     btn_e.click()
     page.wait_for_timeout(200)
     screenshot(page, f"{slug}_03_standard_and_english")
 
     # Toggle "Show grammar" — verify (NNN ...) markers are gone.
-    btn_g = page.locator(".skit-toggle[data-layer='g']")
+    btn_g = page.locator(".skit-toggle.skit-toggle-g")
     btn_g.click()
     page.wait_for_timeout(200)
     screenshot(page, f"{slug}_04_grammar_on")
@@ -147,7 +147,7 @@ def verify_conversation(page: Page, path: str = "/conversations/01-with-the-land
         print(f"  grammar links rendered: {n_links}")
 
     # Toggle "Show words".
-    btn_w = page.locator(".skit-toggle[data-layer='w']")
+    btn_w = page.locator(".skit-toggle.skit-toggle-w")
     btn_w.click()
     page.wait_for_timeout(200)
     screenshot(page, f"{slug}_05_all_on")
