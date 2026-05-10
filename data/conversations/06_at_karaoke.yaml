@@ -10,29 +10,29 @@ characters:
 audio:
   path: ex_conv_karaoke.mp3
 stanzas:
-- speaker: 坂上
+- speaker: 木村
   kansai: お前、次、何か歌て。
   standard: お前、次、何か歌って。
   english: You sing something next.
   kansai_grammar: お前、次、何か(301歌て)。
-- speaker: 木村
+- speaker: 坂上
   kansai: おれ、もうよう歌わんわ。さっきから歌い過ぎてのど痛いねん。
   standard: おれ、もう歌えないよ。さっきから歌い過ぎてのど痛いんだ。
   english: I can't sing anymore. My throat hurts I've been singing so much.
   kansai_grammar: おれ、もう(334よう歌わん)(304わ)。さっきから歌い過ぎてのど痛い(309ねん)。
-- speaker: 坂上
+- speaker: 木村
   kansai: 何言うてんねん。今日、お前いっぺんしか歌てへんやないか。
   standard: 何言ってんだよ。今日、お前一回しか歌っていないじゃないか。
   english: What are you talking about? You only sang once today.
   kansai_grammar: 何言う(309てんねん)。今日、お前いっぺんしか(296歌てへん)やないか。
   kansai_word: 何言うてんねん。今日、お前(145いっぺん)しか歌てへんやないか。
-- speaker: 木村
+- speaker: 坂上
   kansai: ちゃうねん、お前ら歌てる時に一緒に歌ててん。あかん、、、のど痛い、、、死ぬ、、、
   standard: ちがうんだよ、お前たちが歌っている時に一緒に歌ってたんだよ。だめだ、、、のどが痛い、、、死ぬ、、、
   english: No, when you were singing, I was singing with you too. I can't do it...it hurts...I gunna die...
   kansai_grammar: ちゃう(309ねん)、お前ら(331歌てる)時に一緒に(296歌て)(309てん)。あかん、、、のど痛い、、、死ぬ、、、
   kansai_word: (178ちゃう)ねん、お前ら歌てる時に一緒に歌ててん。(39あかん)、、、のど痛い、、、死ぬ、、、
-- speaker: 坂上
+- speaker: 木村
   kansai: あかんたれやなあ。ほな、森、お前歌い。
   standard: 弱虫だなあ。じゃ、森、お前歌って。
   english: You're such a wuss. Mori, you sing then.
