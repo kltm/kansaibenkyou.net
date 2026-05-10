@@ -6,6 +6,14 @@ layout: single
   <p class="error">No data for <code>{{ page.data_id }}</code>.</p>
 {%- else -%}
 
+{%- comment -%}
+Imported HTML fields carry absolute href/src values from the old site.
+Rewrite them at render time so the data stays baseurl-agnostic.
+{%- endcomment -%}
+{%- assign href_prefix = 'href="' | append: site.baseurl | append: '/' -%}
+{%- assign src_prefix = 'src="' | append: site.baseurl | append: '/' -%}
+{%- assign rc_useful_expressions = rc.useful_expressions | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+
 <article class="real-conversation">
 
   {%- if rc.summary %}
@@ -58,6 +66,13 @@ layout: single
         {%- assign trimmed = para | strip -%}
         {%- if trimmed != "" %}<p>{{ trimmed }}</p>{% endif -%}
       {%- endfor %}
+    </section>
+  {%- endif %}
+
+  {%- if rc.useful_expressions %}
+    <section class="rc-useful-expressions conv-useful-expr">
+      <p><strong>Useful expressions:</strong></p>
+      <div class="rc-html-content">{{ rc_useful_expressions }}</div>
     </section>
   {%- endif %}
 

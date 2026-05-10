@@ -2,6 +2,7 @@ id: real_conversation_401
 drupal_node_id: 401
 title: とくいな料理って何ですか？
 summary: Keiko asks Yuko about what she likes to cook.
+useful_expressions: <p>う〜ん、何やろ〜。<br/> Well.../Let me think about that...</p>
 audio:
   path: real_y_tokui.mp3
 speakers:

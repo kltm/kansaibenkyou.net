@@ -2,6 +2,8 @@ id: real_conversation_409
 drupal_node_id: 409
 title: 今日、何時に起きたん？
 summary: Fumi asks her husband what time he got up.
+useful_expressions: <p>うそぉ〜！ ほんまに？<br/> No way! Really?</p><p>だいたいそんなもんやったで。<br/> Usually something like
+  that.</p><p>どんな感じやねん。<br/> What are you talking about.</p>
 audio:
   path: real_i_asananji2.mp3
 speakers:

@@ -2,6 +2,8 @@ id: real_conversation_411
 drupal_node_id: 411
 title: 昨日何食べた？
 summary: Nobu and his wife Fumi talk about what they ate yesterday.
+useful_expressions: <p>覚えてへんの？<br/> You don't remember that?</p><p>覚えてへんなぁ。<br/> No I don't.</p><p>ちゃうやろ！本気で言ってんの？<br/>
+  No! Are you serious?</p>
 audio:
   path: real_i_kinounani.mp3
 speakers:

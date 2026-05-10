@@ -2,6 +2,8 @@ id: real_conversation_407
 drupal_node_id: 407
 title: 朝、コーヒー飲む？
 summary: Shinichi and Sachiko talk about what they drink in the morning.
+useful_expressions: <p>お茶の方がええと思えへん？<br/> Don't you think tea is better?</p><p>朝はコーヒーやろ。<br/> In the morning,
+  coffee is better.</p>
 audio:
   path: real_y_coffee.mp3
 speakers:

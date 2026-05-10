@@ -2,6 +2,7 @@ id: real_conversation_400
 drupal_node_id: 400
 title: 運動しはります？
 summary: Keiko asks Yuko if she exercises.
+useful_expressions: <p>そんなんはしぃひんけど、、、<br/> I don't do anything like that, but...</p>
 audio:
   path: real_y_sports.mp3
 speakers:

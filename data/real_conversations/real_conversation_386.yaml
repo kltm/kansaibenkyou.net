@@ -2,6 +2,8 @@ id: real_conversation_386
 drupal_node_id: 386
 title: 最近どうなん？
 summary: Alisa and Mika talk about what they've been doing recently.
+useful_expressions: <p>最近どうなん？<br/> まあ〜、ぼちぼち、、、</p><p>How's it going?<br/> Well...it's alright/you know
+  how it is</p>
 audio:
   path: real_m_s_what.mp3
 speakers:

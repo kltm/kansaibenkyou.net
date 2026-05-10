@@ -704,6 +704,9 @@ def import_real_conversation(node_id: int, node_url_map: dict[int, str]) -> dict
 
     desc = extract_text_field(soup, "field-real-conv-desc")
     hint = extract_text_field(soup, "field-real-conv-hint")
+    useful_expressions = extract_html_field(
+        soup, "field-real-conv-expr", node_url_map
+    )
 
     audio_field = find_field(soup, "field-real-conv-audio")
     audio_path = ""
@@ -728,6 +731,8 @@ def import_real_conversation(node_id: int, node_url_map: dict[int, str]) -> dict
         entry["summary"] = desc
     if hint:
         entry["hint"] = hint
+    if useful_expressions:
+        entry["useful_expressions"] = useful_expressions
     if audio_path:
         entry["audio"] = {"path": audio_path}
     if speaker_ids:

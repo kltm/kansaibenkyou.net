@@ -231,6 +231,11 @@ classes:
         description: >-
           Listening hint, vocabulary preview, or focus instructions
           for the listener.
+      useful_expressions:
+        range: string
+        description: >-
+          Useful expressions imported from Drupal
+          `field-real-conv-expr`.
       audio:
         range: AudioRef
         inlined: true
