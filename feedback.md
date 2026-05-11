@@ -4,6 +4,8 @@ title: Feedback
 permalink: /feedback/
 ---
 
+<div class="content-box" markdown="1">
+
 We'd love to hear from you! If you have questions, corrections,
 suggestions, or just want to say hello, please reach out:
 
@@ -11,3 +13,5 @@ suggestions, or just want to say hello, please reach out:
 - **General contact**: see the [About]({{ "/about/" | relative_url }}) page
 
 Thank you for helping improve Kansaibenkyou.net!
+
+</div>

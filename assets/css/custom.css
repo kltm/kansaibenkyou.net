@@ -279,6 +279,7 @@
 .word-entry,
 .real-conversation,
 .phonology-topic,
+.taxonomy-term,
 .page-content {
   background: #eaf9f2;
   padding: 1rem 1.2rem;
