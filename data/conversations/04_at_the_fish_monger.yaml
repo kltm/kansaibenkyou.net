@@ -14,11 +14,11 @@ stanzas:
   standard: いらっしゃい。今日は何にしましょう。
   english: Welcome! What would you like today?
 - speaker: 花子
-  kansai: せやなあ。今日、寒いさかいなべしよ思てるんやけど、何かええんない？
+  kansai: せやなあ。今日、寒いさかいなべしよ思てんねんけど、何かええんない？
   standard: そうだねえ。今日、寒いからなべしようと思ってるんだけど、何かいいのない？
   english: Well, it's cold today, so I'm thinking about hot pot. Would you have anything good for that?
-  kansai_grammar: せやなあ。今日、寒い(315さかい)なべ(336しよ)(302思てる)ん(330や)けど、何かええ(309ん)ない？
-  kansai_word: (162せや)なあ。今日、寒い(285さかい)なべしよ思てるんやけど、何か(45ええ)んない？
+  kansai_grammar: せやなあ。今日、寒い(315さかい)なべ(336しよ)(331思てん)(309ねん)けど、何かええ(309ん)ない？
+  kansai_word: (162せや)なあ。今日、寒い(285さかい)なべしよ思てんねんけど、何か(45ええ)んない？
 - speaker: 店員
   kansai: なべするんやったら、てっちりどないでっか？今日ええフグあるで。
   standard: なべするんだったら、てっちりどうですか？今日いいフグあるよ。
@@ -42,17 +42,17 @@ stanzas:
   kansai_grammar: あかん、あかん、(302うっとこ)びんぼう(330や)(315さかい)そんな高いもん(334よう買わん)(304わ)。何か他のもんない(309ん)？
   kansai_word: (39あかん)、(39あかん)、(203うっとこ)びんぼうや(285さかい)そんな高い(197もん)よう買わんわ。何か他の(197もん)ないん？
 - speaker: 店員
-  kansai: そやなあ。ほな、このサケどないでっか？安いで。これ、九百八十円。
+  kansai: そやなあ。ほな、このシャケどないでっか？安いで。これ、九百八十円。
   standard: そうだねえ。じゃあ、このサケどうですか？安いよ。これ、九百八十円。
   english: Well, how about the salmon then? It's not too expensive--this one is 980 yen.
-  kansai_grammar: そやなあ。ほな、このサケどないでっか？安い(307で)。これ、九百八十円。
-  kansai_word: (161そや)なあ。(169ほな)、このサケ(258どない)でっか？安いで。これ、九百八十円。
+  kansai_grammar: そやなあ。ほな、このシャケどないでっか？安い(307で)。これ、九百八十円。
+  kansai_word: (161そや)なあ。(169ほな)、このシャケ(258どない)でっか？安いで。これ、九百八十円。
 - speaker: 花子
-  kansai: ああ、それええなあ。ほんなら、それもらうわ。それから、ホタテある？
-  standard: ああ、それいいねえ。じゃあ、それもらうよ。それから、ホタテある？
+  kansai: ほぉー、それええなあ。ほんなら、それもらうわ。それから、ホタテある？
+  standard: へぇー、それいいねえ。じゃあ、それもらうよ。それから、ホタテある？
   english: Oh, that'll do it--I'll take it. Do you have any scallops?
-  kansai_grammar: ああ、それええなあ。ほんなら、それもらう(304わ)。それから、ホタテある？
-  kansai_word: ああ、それ(45ええ)なあ。(171ほんなら)、それもらうわ。それから、ホタテある？
+  kansai_grammar: ほぉー、それええなあ。ほんなら、それもらう(304わ)。それから、ホタテある？
+  kansai_word: ほぉー、それ(45ええ)なあ。(171ほんなら)、それもらうわ。それから、ホタテある？
 - speaker: 店員
   kansai: ええのありまっせ。一つ二百円やけどなんぼしましょ？
   standard: いいのありますよ。一つ二百円だけどいくつしましょう？
@@ -65,26 +65,27 @@ stanzas:
   english: Well, could you give me five?
   kansai_word: (162せや)なあ、(171ほんなら)五つちょうだい。
 - speaker: 店員
-  kansai: はいよ。ほんなら、サケとホタテで千九百八十円やけど、おくさん、いっつも来てくれるよって、ちょっと勉強しとくわ。せやな、千九百円でええわ。
+  kansai: はいよ。ほんなら、シャケとホタテで千九百八十円やけど、おくさん、いっつも来てくれるよって、ちょっと勉強しとくわ。せやな、千九百円でええわ。
   standard: はい。じゃあ、サケとホタテで千九百八十円だけど、おくさん、いつも来てくれるから、ちょっと負けておくよ。そうだな、千九百円でいいよ。
   english: Sure. Okay, it comes to 1980 yen for the salmon and scallops, but you're in here all the time
     so I'll take a little off. Let's make it 1900 yen.
-  kansai_grammar: はいよ。ほんなら、サケとホタテで千九百八十円(330や)けど、おくさん、いっつも来てくれる(315よって)、ちょっと(333勉強しとく)(304わ)。せやな、千九百円でええ(304わ)。
-  kansai_word: はいよ。(171ほんなら)、サケとホタテで千九百八十円やけど、おくさん、(42いっつも)来てくれる(286よって)、ちょっと(213勉強しとく)わ。(162せやな)、千九百円で(45ええ)わ。
+  kansai_grammar: はいよ。ほんなら、シャケとホタテで千九百八十円(330や)けど、おくさん、いっつも来てくれる(315よって)、ちょっと(333勉強しとく)(304わ)。せやな、千九百円でええ(304わ)。
+  kansai_word: はいよ。(171ほんなら)、シャケとホタテで千九百八十円やけど、おくさん、(42いっつも)来てくれる(286よって)、ちょっと(213勉強しとく)わ。(162せやな)、千九百円で(45ええ)わ。
 - speaker: 花子
-  kansai: わ、うれしいわあ。ありがとう。
-  standard: わ、うれしいなあ。ありがとう。
+  kansai: ほんまぁ、うれしいわあ。ありがとう。
+  standard: ほんとう、うれしいなあ。ありがとう。
   english: Great! Thanks.
-  kansai_grammar: わ、うれしい(304わあ)。ありがとう。
+  kansai_grammar: ほんまぁ、うれしい(304わあ)。ありがとう。
+  kansai_word: (41ほんま)ぁ、うれしいわあ。ありがとう。
 - speaker: ''
   kansai: (Hanako pays ¥2000.)
   standard: (Hanako pays ¥2000.)
   english: (Hanako pays ¥2000.)
 - speaker: 店員
-  kansai: ほんなら、これ、百円のおつりと、サケとホタテ。
+  kansai: ほんなら、これ、百円のおつりと、シャケとホタテ。
   standard: じゃあ、これ、百円のおつりと、サケとホタテ。
   english: Here, your change is 100 yen. And here are your salmon and scallops.
-  kansai_word: (171ほんなら)、これ、百円のおつりと、サケとホタテ。
+  kansai_word: (171ほんなら)、これ、百円のおつりと、シャケとホタテ。
 - speaker: 花子
   kansai: おおきに。また来るわな。
   standard: ありがとう。また来るわね。

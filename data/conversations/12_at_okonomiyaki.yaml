@@ -46,11 +46,11 @@ stanzas:
   english: Is water okay? Beer maybe?
   kansai_word: お水で(45ええ)？ビールにする？
 - speaker: あつし
-  kansai: どないする？　お前飲むか？
-  standard: どうする？　お前飲む？
+  kansai: どないする？ お前飲むか？
+  standard: どうする？ お前飲む？
   english: What do you want to do? Drink?
-  kansai_grammar: どないする？　お前飲む(308か)？
-  kansai_word: (182どないする)？　お前飲むか？
+  kansai_grammar: どないする？ お前飲む(308か)？
+  kansai_word: (182どないする)？ お前飲むか？
 - speaker: 友達
   kansai: せやなあ、今日、まだ仕事せなあかんから、やめとくわ。
   standard: そうだなあ、今日、まだ仕事しなくちゃいけないから、やめておくよ。
@@ -122,11 +122,10 @@ stanzas:
   standard: (Atsushi and his friend finish their okonomiyaki.)
   english: (Atsushi and his friend finish their okonomiyaki.)
 - speaker: あつし
-  kansai: おばちゃん、おあいそ頼むわ。
+  kansai: おばちゃん、かんじょう頼むわ。
   standard: おばさん、おあいそ頼むよ。
   english: Check please.
-  kansai_grammar: おばちゃん、おあいそ頼む(304わ)。
-  kansai_word: おばちゃん、(276おあいそ)頼むわ。
+  kansai_grammar: おばちゃん、かんじょう頼む(304わ)。
 - speaker: 店員
   kansai: はいよ。一緒でええか？
   standard: はい。一緒でいい？

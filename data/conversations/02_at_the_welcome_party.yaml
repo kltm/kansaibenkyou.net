@@ -27,11 +27,11 @@ stanzas:
   standard: (Drinking begins...)
   english: (Drinking begins...)
 - speaker: 部長
-  kansai: おお、お前、ええ飲みっぷりやんか。その調子で仕事もがんばり。
+  kansai: おお、お前、ええ飲みっぷりやんか。その調子で仕事もがんばりや。
   standard: おお、お前、いい飲みっぷりじゃない。その調子で仕事もがんばりなさい。
   english: You're a good drinker. I hope you work as well as you can throw them back.
-  kansai_grammar: おお、お前、ええ飲みっぷり(311やんか)。その調子で仕事も(139がんばり)。
-  kansai_word: おお、お前、(45ええ)飲みっぷりやんか。その調子で仕事もがんばり。
+  kansai_grammar: おお、お前、ええ飲みっぷり(311やんか)。その調子で仕事も(139がんばり)(306や)。
+  kansai_word: おお、お前、(45ええ)飲みっぷりやんか。その調子で仕事もがんばりや。
 - speaker: 木村
   kansai: あれ？部長、いっこも飲んでないですやん。部長が飲まんと、おれら飲みにくいですやん。
   standard: あれ？部長、全然飲んでないじゃないですか。部長が飲まないと、おれたち飲みにくいじゃないですか。
@@ -58,10 +58,10 @@ stanzas:
   kansai_grammar: そうか。まあぼちぼち分かってくる(304わ)。うち、仕事はえらいけど、皆仲ええから(305な)、困ったことあったら何でも(139聞き)(306や)、木村に。
   kansai_word: そうか。まあ(74ぼちぼち)分かってくるわ。(155うち)、仕事は(37えらい)けど、皆仲(45ええ)からな、困ったことあったら何でも聞きや、木村に。
 - speaker: 木村
-  kansai: 部長、なんでおれですの？
+  kansai: 部長、なんでおれですのん？
   standard: 部長、どうしておれなんですか？
   english: Hey, why me?
-  kansai_word: 部長、(293なんで)おれですの？
+  kansai_word: 部長、(293なんで)おれですのん？
 - speaker: 部長
   kansai: お前、いっつもひまやろ。
   standard: お前、いつもひまだろ。
@@ -107,12 +107,12 @@ stanzas:
   kansai_grammar: わし、そんなとこ行ったことない(304わ)。スナックって何(330や)？そらうまい(309ん)(308か)？
   kansai_word: (193わし)、そんな(242とこ)行ったことないわ。スナックって何や？(205そら)うまいんか？
 - speaker: 木村
-  kansai: あほくさ。森、ほんまにこない会社でええんか？部長こんなんやで。
+  kansai: あほくさ。森、ほんまにこないな会社でええんか？部長こんなんやで。
   standard: ばからしい。森、本当にこんな会社でいいの？部長こんなんだよ。
   english: Whatever. Mori, are you really sure that you want work at this kind of company? This is our
     department manager.
-  kansai_grammar: あほくさ。森、ほんまにこない会社でええん(338か)？部長こんなん(330や)(307で)。
-  kansai_word: (43あほくさ)。森、ほんまに(157こない)会社で(45ええ)んか？部長こんなんやで。
+  kansai_grammar: あほくさ。森、ほんまにこないな会社でええん(338か)？部長こんなん(330や)(307で)。
+  kansai_word: (43あほくさ)。森、ほんまにこないな会社で(45ええ)んか？部長こんなんやで。
 - speaker: 部長
   kansai: お前、いらんこと言いな。今日の飲み代、払いたいんか？
   standard: お前、よけいなこと言うな。今日の飲み代、払いたいのか？

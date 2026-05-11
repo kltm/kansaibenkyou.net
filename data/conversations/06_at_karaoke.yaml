@@ -105,11 +105,11 @@ stanzas:
   standard: (The music starts.)
   english: (The music starts.)
 - speaker: 森
-  kansai: うわっ！これ「モーニング娘」やないですか。しゃあないなあ。
-  standard: うわっ！これ「モーニング娘」じゃないですか。仕方ないなあ。
+  kansai: うわっ！これ「モーニング娘。」やないですか。しゃあないなあ。
+  standard: うわっ！これ「モーニング娘。」じゃないですか。仕方ないなあ。
   english: Hey! Isn't this Morning Musume? Oh well...
-  kansai_grammar: うわっ！これ(298「モーニング娘」やない)ですか。しゃあないなあ。
-  kansai_word: うわっ！これ「モーニング娘」やないですか。(159しゃあない)なあ。
+  kansai_grammar: うわっ！これ(298「モーニング娘。」やない)ですか。しゃあないなあ。
+  kansai_word: うわっ！これ「モーニング娘。」やないですか。(159しゃあない)なあ。
 - speaker: ''
   kansai: (Mori sings.)
   standard: (Mori sings.)

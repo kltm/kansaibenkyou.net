@@ -25,11 +25,11 @@ stanzas:
   standard: いや、僕もすぐ降りるので、座ってください。
   english: I'm also getting off soon--please go ahead and sit.
 - speaker: おじいさん
-  kansai: そうかい。すんまへんなあ。ほな、座らせてもらおかな。
+  kansai: そうか。すんまへんなあ。ほな、座らせてもらおかな。
   standard: そうですか。すみませんねえ。それじゃあ、座らせてもらおうかな。
   english: Really? Thank you then, I'll have a seat.
-  kansai_grammar: そう(310かい)。すんまへん(305なあ)。ほな、(336座らせてもらお)かな。
-  kansai_word: そうかい。(167すんまへん)なあ。(169ほな)、座らせてもらおかな。
+  kansai_grammar: そう(308か)。すんまへん(305なあ)。ほな、(336座らせてもらお)かな。
+  kansai_word: そうか。(167すんまへん)なあ。(169ほな)、座らせてもらおかな。
 - speaker: ''
   kansai: (Atsushi gives up his seat to the old man.)
   standard: (Atsushi gives up his seat to the old man.)
@@ -58,13 +58,13 @@ stanzas:
   english: No, I'm going in to work today.
   kansai_grammar: いや、今日は仕事で行くんです(304わ)。
 - speaker: おじいさん
-  kansai: そうかい。暑いのに、ご苦労さんやなあ。ほやけど、昔は高槻もいなかやってんけど、今は駅のまわりにマンションやらホテルやら大っきい建物いっぱい建ってにぎやかになったわ。まあ、兄ちゃんら昔の高槻いうても知らんやろなあ。
+  kansai: そうか。暑いのに、ご苦労さんやなあ。ほやけど、昔は高槻もいなかやってんけど、今は駅のまわりにマンションやらホテルやら大っきい建物いっぱい建ってにぎやかになったわ。まあ、兄ちゃんら昔の高槻いうても知らんやろなあ。
   standard: そう。暑いのに、ご苦労さまだねえ。それにしても、昔は高槻もいなかだったけど、今は駅のまわりにマンションやらホテルやら大きい建物がいっぱい建ってにぎやかになったよ。まあ、お兄さんは昔の高槻といっても知らないだろうねえ。
   english: Oh. Tough in this kind of heat. You know, Takastuki used to be rural, but now it's a busy town
     with all sorts of big apartments, hotels, and things around the station. Well, you probably don't
     know much about the old Takastuki...
-  kansai_grammar: そう(310かい)。暑いのに、(313ご苦労さん)(330や)なあ。ほやけど、昔は高槻もいなかやっ(309てん)けど、今は駅のまわりにマンションやらホテルやら大っきい建物いっぱい建ってにぎやかになった(304わ)。まあ、兄ちゃんら昔の高槻(301いうて)も(296知らん)(330やろ)なあ。
-  kansai_word: そうかい。暑いのに、(280ご苦労さん)やなあ。(166ほやけど)、昔は高槻もいなかやってんけど、今は駅のまわりにマンションやらホテルやら大っきい建物いっぱい建ってにぎやかになったわ。まあ、兄ちゃんら昔の高槻いうても知らんやろなあ。
+  kansai_grammar: そう(308か)。暑いのに、(313ご苦労さん)(330や)なあ。ほやけど、昔は高槻もいなかやっ(309てん)けど、今は駅のまわりにマンションやらホテルやら大っきい建物いっぱい建ってにぎやかになった(304わ)。まあ、兄ちゃんら昔の高槻(301いうて)も(296知らん)(330やろ)なあ。
+  kansai_word: そうか。暑いのに、(280ご苦労さん)やなあ。(166ほやけど)、昔は高槻もいなかやってんけど、今は駅のまわりにマンションやらホテルやら大っきい建物いっぱい建ってにぎやかになったわ。まあ、兄ちゃんら昔の高槻いうても知らんやろなあ。
 - speaker: あつし
   kansai: そうですねえ。昔は駅のまわりも静かやったんですか？
   standard: そうですねえ。昔は駅のまわりも静かだったんですか？

@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Bazaar text + mothball HTML → ConversationExample YAML porter.
+"""Mothball HTML conversation node → ConversationExample YAML importer.
 
-Reads the five per-layer bazaar text files for each example
-conversation (kansai/standard/english/grammar/word) and extracts
-metadata (title, summary, audio, characters, function and grammar
-type tags) from the corresponding mothball Drupal node HTML. Outputs
-a ConversationExample YAML conforming to schema/kbnet.yaml.
+Reads every example-conversation stanza directly from the mothball Drupal
+HTML under `_mothball/snapshot/node/<id>`, including the five rendered
+layers (kansai / standard / english / grammar / word) plus stage-direction
+rows. Outputs ConversationExample YAML conforming to schema/kbnet.yaml.
 
 Usage
 -----
@@ -29,63 +28,65 @@ import sys
 from pathlib import Path
 
 import yaml
+from bs4.element import NavigableString, Tag
+
+from import_content import (
+    extract_text_field,
+    extract_title,
+    find_field,
+    get_field_items,
+    parse_node,
+)
 
 REPO = Path(__file__).resolve().parent.parent
-BAZAAR = Path("/home/sjcarbon/local/src/bazaar/kb.net.shared")
-MOTHBALL_NODES = REPO / "_mothball" / "snapshot" / "node"
-LAYERS = ("kansai", "standard", "english", "grammar", "word")
+TAXONOMY_TERM_RE = re.compile(r"taxonomy/term/(\d+)")
+NODE_ID_RE = re.compile(r"(?:^|/)(\d+)(?:/)?$")
+WHITESPACE_RE = re.compile(r"\s+")
 
 CHAPTERS: list[tuple[int, int, str]] = [
-    (1,  264, "01.with_the_landlord"),
-    (2,  265, "02.at_the_welcome_party"),
-    (3,  266, "03.at_the_shops"),
-    (4,  267, "04.at_the_fish_monger"),
-    (5,  268, "05.asking_directions"),
-    (6,  269, "06.at_karaoke"),
-    (7,  270, "07.on_a_train"),
-    (8,  271, "08.with_a_neighbor"),
-    (9,  272, "09.at_work"),
+    (1, 264, "01.with_the_landlord"),
+    (2, 265, "02.at_the_welcome_party"),
+    (3, 266, "03.at_the_shops"),
+    (4, 267, "04.at_the_fish_monger"),
+    (5, 268, "05.asking_directions"),
+    (6, 269, "06.at_karaoke"),
+    (7, 270, "07.on_a_train"),
+    (8, 271, "08.with_a_neighbor"),
+    (9, 272, "09.at_work"),
     (10, 273, "10.on_a_break"),
     (11, 274, "11.at_a_pub"),
     (12, 275, "12.at_okonomiyaki"),
 ]
 
 
-def extract_metadata(node_id: int) -> dict:
-    """Parse metadata from a mothball Drupal conversation node HTML."""
-    raw = (MOTHBALL_NODES / str(node_id)).read_text(
-        encoding="utf-8", errors="replace"
-    )
+def normalize_text(value: str) -> str:
+    return WHITESPACE_RE.sub(" ", html_mod.unescape(value)).strip()
 
-    m = re.search(r"<title>(.+?) \| Kansaibenkyou", raw)
-    full_title = html_mod.unescape(m.group(1)) if m else ""
-    parts = full_title.split(" / ", 1)
-    title_ja = parts[0].strip()
-    title_en = parts[1].strip() if len(parts) > 1 else ""
 
-    m = re.search(
-        r'field-name-field-conv-exp-desc.*?field-item even">(.*?)\n',
-        raw, re.DOTALL,
-    )
-    desc = html_mod.unescape(re.sub(r"<[^>]+>", "", m.group(1))).strip() if m else ""
+def extract_term_ids(soup, field_name: str) -> list[str]:
+    field = find_field(soup, field_name)
+    if field is None:
+        return []
+    term_ids: list[str] = []
+    for anchor in field.find_all("a", href=True):
+        match = TAXONOMY_TERM_RE.search(anchor["href"])
+        if match:
+            term_ids.append(match.group(1))
+    return term_ids
 
-    m = re.search(
-        r'field-name-field-conv-exp-audio.*?href="[^"]*?/([^/"]+\.mp3)"',
-        raw, re.DOTALL,
-    )
-    audio = m.group(1) if m else ""
 
-    def extract_term_ids(field_name: str) -> list[str]:
-        section = re.search(
-            rf"field-name-{field_name}(.*?)</section>", raw, re.DOTALL,
-        )
-        if not section:
-            return []
-        return re.findall(r"taxonomy/term/(\d+)", section.group(1))
+def extract_metadata(soup) -> dict:
+    """Parse metadata from a mothball Drupal conversation node DOM."""
+    title_ja, title_en = extract_title(soup)
+    desc = extract_text_field(soup, "field-conv-exp-desc")
 
-    char_ids = extract_term_ids("field-conv-exp-tags")
-    func_ids = extract_term_ids("field-function-type")
-    gram_ids = extract_term_ids("field-grammar-type")
+    audio_field = find_field(soup, "field-conv-exp-audio")
+    audio_link = audio_field.find("a", href=True) if audio_field else None
+    audio = audio_link["href"].rsplit("/", 1)[-1] if audio_link else ""
+
+    char_ids = extract_term_ids(soup, "field-conv-exp-tags")
+    func_ids = extract_term_ids(soup, "field-function-type")
+    gram_ids = extract_term_ids(soup, "field-grammar-type")
 
     return {
         "title": title_ja,
@@ -98,76 +99,110 @@ def extract_metadata(node_id: int) -> dict:
     }
 
 
-def parse_layer(path: Path) -> list[tuple[str, str]]:
-    """Parse a bazaar layer text file into [(speaker, text), ...].
+def annotation_from_tag(tag: Tag) -> str:
+    href = tag.get("href", "")
+    text = "".join(stringify_node(child) for child in tag.children)
+    match = NODE_ID_RE.search(href)
+    if match:
+        return f"({match.group(1)}{text})"
+    return text
 
-    Lines without a ``|`` separator are treated as stage directions
-    (e.g. ``(Drinking begins...)``). These get an empty-string speaker.
 
-    Handles a known data errata in the bazaar files where a ``(NNN``
-    annotation marker appears before the ``|`` separator instead of
-    after it (e.g. ``のり子(166|ほやけど)`` should be
-    ``のり子|(166ほやけど)``).
-    """
-    rows: list[tuple[str, str]] = []
-    for raw in path.read_text(encoding="utf-8").splitlines():
-        line = raw.rstrip()
-        if not line:
-            continue
-        speaker, sep, text = line.partition("|")
-        if not sep:
-            rows.append(("", line))
-        else:
-            m = re.match(r"^(.+?)(\(\d+)$", speaker)
-            if m:
-                speaker = m.group(1)
-                text = m.group(2) + text
-            rows.append((speaker, text))
-    return rows
+def stringify_node(node) -> str:
+    if isinstance(node, NavigableString):
+        return str(node)
+    if not isinstance(node, Tag):
+        return str(node)
+    if node.name == "a":
+        return annotation_from_tag(node)
+    if node.name == "br":
+        return "\n"
+    return "".join(stringify_node(child) for child in node.children)
+
+
+def strip_speaker_punctuation(text: str) -> str:
+    return text.strip().rstrip("：:")
+
+
+def extract_stanza_row(row: Tag) -> tuple[str, dict[str, str]]:
+    if row.select_one("li.skit-k"):
+        speaker_cell = row.select_one("td.skit-name")
+        speaker = strip_speaker_punctuation(
+            speaker_cell.get_text(" ", strip=True) if speaker_cell else ""
+        )
+
+        line_map: dict[str, str] = {}
+        for css_class, field_name in (
+            ("skit-k", "kansai"),
+            ("skit-s", "standard"),
+            ("skit-e", "english"),
+            ("skit-g", "kansai_grammar"),
+            ("skit-w", "kansai_word"),
+        ):
+            line = row.select_one(f"li.{css_class}")
+            if line is None:
+                raise ValueError(
+                    f"missing {css_class} stanza layer for speaker {speaker!r}"
+                )
+            line_map[field_name] = normalize_text(stringify_node(line))
+
+        return speaker, line_map
+
+    cells = row.find_all("td", recursive=False)
+    if len(cells) == 1:
+        stage_text = normalize_text(cells[0].get_text(" ", strip=True))
+        return "", {
+            "kansai": stage_text,
+            "standard": stage_text,
+            "english": stage_text,
+            "kansai_grammar": "",
+            "kansai_word": "",
+        }
+
+    raise ValueError("unexpected conversation stanza row structure")
+
+
+def extract_stanzas(soup) -> list[dict]:
+    body_field = find_field(soup, "body")
+    body_items = get_field_items(body_field)
+    if not body_items:
+        return []
+
+    table = body_items[0].select_one("#skit-template table")
+    if table is None:
+        return []
+
+    stanzas: list[dict] = []
+    for row in table.find_all("tr"):
+        speaker, line_map = extract_stanza_row(row)
+        stanza: dict = {
+            "speaker": speaker,
+            "kansai": line_map["kansai"],
+            "standard": line_map["standard"],
+            "english": line_map["english"],
+        }
+        if (
+            line_map["kansai_grammar"]
+            and line_map["kansai_grammar"] != line_map["kansai"]
+        ):
+            stanza["kansai_grammar"] = line_map["kansai_grammar"]
+        if (
+            line_map["kansai_word"]
+            and line_map["kansai_word"] != line_map["kansai"]
+        ):
+            stanza["kansai_word"] = line_map["kansai_word"]
+        stanzas.append(stanza)
+
+    return stanzas
 
 
 def build_conversation(
-    ch_num: int, node_id: int, base: str
+    _ch_num: int, node_id: int, base: str
 ) -> tuple[dict, Path]:
-    """Build a ConversationExample dict from bazaar text + mothball HTML."""
-    meta = extract_metadata(node_id)
-
-    layer_rows: dict[str, list[tuple[str, str]]] = {
-        layer: parse_layer(BAZAAR / f"{base}.{layer}.txt")
-        for layer in LAYERS
-    }
-
-    n = len(layer_rows["kansai"])
-    for layer, rows in layer_rows.items():
-        if len(rows) != n:
-            raise ValueError(
-                f"ch{ch_num} layer {layer!r} has {len(rows)} stanzas, "
-                f"expected {n} (from kansai layer)"
-            )
-    for i in range(n):
-        speakers = {layer: rows[i][0] for layer, rows in layer_rows.items()}
-        if len(set(speakers.values())) > 1:
-            raise ValueError(
-                f"ch{ch_num} row {i + 1}: speakers differ: {speakers}"
-            )
-
-    stanzas: list[dict] = []
-    for i in range(n):
-        speaker = layer_rows["kansai"][i][0]
-        kansai = layer_rows["kansai"][i][1]
-        stanza: dict = {
-            "speaker": speaker,
-            "kansai": kansai,
-            "standard": layer_rows["standard"][i][1],
-            "english": layer_rows["english"][i][1],
-        }
-        grammar_text = layer_rows["grammar"][i][1]
-        word_text = layer_rows["word"][i][1]
-        if grammar_text != kansai:
-            stanza["kansai_grammar"] = grammar_text
-        if word_text != kansai:
-            stanza["kansai_word"] = word_text
-        stanzas.append(stanza)
+    """Build a ConversationExample dict from mothball HTML."""
+    soup = parse_node(node_id)
+    meta = extract_metadata(soup)
+    stanzas = extract_stanzas(soup)
 
     conv: dict = {
         "id": f"conversation_{node_id}",

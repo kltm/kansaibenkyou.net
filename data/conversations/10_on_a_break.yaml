@@ -88,7 +88,7 @@ stanzas:
   kansai: どっちもせんぱいにそっくりや！
   standard: どっちもせんぱいにそっくりだ！
   english: They're both dead ringers you!
-  kansai_grammar: どっちもせんぱいにそっくり(306や)！
+  kansai_grammar: どっちもせんぱいにそっくり(330や)！
 - speaker: 夏子
   kansai: ちょっと、笑たらあかん言うたやんか。
   standard: ちょっと、笑ったらだめって言ったじゃない。
@@ -132,11 +132,11 @@ stanzas:
   kansai_grammar: ああ、こないだ、入って来た子おる(311やん)。あの子けっこうええ(311やん)。
   kansai_word: ああ、こないだ、入って来た子(149おる)やん。あの子けっこう(45ええ)やん。
 - speaker: のり子
-  kansai: 森くんですか？　あんまタイプとちゃうねんなあ。
-  standard: 森くんですか？　あんまりタイプじゃないんだよねえ。
+  kansai: 森くんですか？ あんまタイプとちゃうねんなあ。
+  standard: 森くんですか？ あんまりタイプじゃないんだよねえ。
   english: Are you talking about Mori? Not really my type.
-  kansai_grammar: 森くんですか？　あんま(298タイプとちゃう)(309ねん)なあ。
-  kansai_word: 森くんですか？　(143あんま)タイプと(178ちゃう)ねんなあ。
+  kansai_grammar: 森くんですか？ あんま(298タイプとちゃう)(309ねん)なあ。
+  kansai_word: 森くんですか？ (143あんま)タイプと(178ちゃう)ねんなあ。
 - speaker: じゅん子
   kansai: ほな、あんたどんなんがええん？
   standard: じゃあ、どんなのがいいの？
