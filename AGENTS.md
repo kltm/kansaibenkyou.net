@@ -42,36 +42,35 @@ Three derived rules that must not be violated:
 This is the rule that has been violated most often. Treat it as
 non-negotiable.
 
-### What "parity with the mothball" does NOT mean
+### What "parity with the mothball" means in full
 
-The mothball is authoritative for **structure and pedagogy** — page
-existence, cross-reference links, field presence (Useful Expressions,
-Commentary, etc.), table captions, headings, image float classes,
-audio widgets, speaker labels on a conversation, the existence of an
-intro paragraph or empty-state sentence.
+The mothball is authoritative for **everything** that was published —
+not just structure (field presence, cross-reference links, table
+captions, speaker labels) but also the actual text content of every
+field. The 2016 site was Keiko's published work, vetted with public
+feedback, and frozen in that state. **There have been no
+post-publication human edits to the text content** — sjcarbon
+confirmed this explicitly. So any divergence between current YAML in
+`data/` and the corresponding mothball HTML is a regression with
+exactly one of two origins:
 
-The mothball is **NOT** an authority on:
+1. **Importer artifact** — the BS4 parse or some normalization step
+   in `tools/import_content.py` mangled or transformed the text.
+2. **Earlier "cleanup" mistake** — some prior pass (script, tool, or
+   well-meaning hand-edit) substituted text that didn't need to change.
 
-- **Dialect transcription.** Kansai-ben is regional spoken Japanese.
-  There is no single "correct" rendering of `そや` vs `せや`,
-  `シャケ` vs `サケ`, `かんじょう` vs `おあいそ`, `そうか` vs `そうかい`.
-  These are transcription / wording choices by the author. The current
-  YAML is the current authoritative version. Do NOT "correct" current
-  YAML toward the mothball for these. The 2016 mothball is a snapshot
-  in time, not a higher authority than the live data.
-- **Editorial wording choices.** Hiragana ↔ kanji decisions, formality
-  register shifts (`がんばりや` → `がんばり`), punctuation preferences
-  (`娘。` → `娘`), and similar polish are the author's call. Do not
-  revert.
-- **Backlog content.** A label-only taxonomy term that was empty on
-  the old site is *already at parity* when it renders the same way on
-  the new site. Don't generate fill-in work for slots that were never
-  filled originally.
+Both are bugs. Both should be reverted to match the mothball. This
+applies to `そや` vs `せや`, `シャケ` vs `サケ`,
+`かんじょう` vs `おあいそ`, hiragana ↔ kanji choices, punctuation,
+and every other text-level difference. Kansai-ben is regional spoken
+Japanese — there are many valid renderings — but the site's job is to
+present *Keiko's recorded, published version* of it, not to "improve"
+it. The mothball is what was recorded and published; the YAML must
+match.
 
-In short: compare to the mothball to find **structural regressions
-and logical bugs** (a wrong speaker label that breaks a callback; a
-dropped field; a broken cross-reference). Don't compare to it to
-"correct" the language being taught.
+(Caveat for backlog: a taxonomy term that had no content on the old
+site is at parity when it has no content on the new site. Don't
+generate fill-in work for slots that were already empty.)
 
 ## How to take a goal-shaped task
 
