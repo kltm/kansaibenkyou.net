@@ -16,7 +16,16 @@ render time so the data stays baseurl-agnostic.
 {%- endcomment -%}
 {%- assign href_prefix = 'href="' | append: site.baseurl | append: '/' -%}
 {%- assign src_prefix = 'src="' | append: site.baseurl | append: '/' -%}
-{%- assign body = pg.body | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix -%}
+{%- comment -%}
+  Upgrade insecure third-party embed URLs to HTTPS at render time so
+  modern browsers don't silently block mixed content on the GH Pages
+  HTTPS site. The mothball YAML keeps the original http:// URLs
+  verbatim (it's the SoT and matches static.kansaibenkyou.net); this
+  rewrite is layout-side only. youtube.com is the only host currently
+  embedded in any page body, but the pattern generalises if others
+  appear later.
+{%- endcomment -%}
+{%- assign body = pg.body | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix | replace: 'src="http://www.youtube.com', 'src="https://www.youtube.com' | replace: 'src="http://youtube.com', 'src="https://www.youtube.com' -%}
 
 <article class="page-content">
 
