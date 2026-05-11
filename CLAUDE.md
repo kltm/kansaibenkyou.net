@@ -4,7 +4,12 @@ A modern revival of kansaibenkyou.net, a learning resource for Kansai-ben (関�
 
 ## The cardinal rule: the old site is the source of truth
 
-The mothballed original at **https://static.kansaibenkyou.net** is the "living memory" of what this site must be. It is a pedagogical tool for dialect self-study where every link, list, table, summary page, text color, and position was chosen through public feedback to create a smooth learning experience.
+The mothballed original at **https://static.kansaibenkyou.net** (mirrored locally under `_mothball/`) is the "living memory" of what this site must be. It is a pedagogical tool for dialect self-study where every link, list, table, summary page, text color, position — **and the text content of every field** — was chosen through public feedback to create a smooth learning experience.
+
+**There have been no post-publication human edits.** The 2016 mothball captured the final state of Keiko's edits in Drupal. Any divergence between the mothball and current `data/**/*.yaml` is therefore a regression — either an importer artifact or an earlier "cleanup" mistake — and should be reverted toward the mothball. This applies to:
+
+- Structural elements (links, tables, headings, image classes, audio widgets, speaker labels, field presence)
+- **Text content too** — every kana/kanji/romaji character of every published field. The mothball is not just a structural reference; it is the authoritative text. Do NOT normalize `そや`/`せや`, `シャケ`/`サケ`, `かんじょう`/`おあいそ` or similar dialect renderings toward anything other than the mothball.
 
 **When working on this site:**
 
@@ -21,10 +26,21 @@ The mothballed original at **https://static.kansaibenkyou.net** is the "living m
 6. **Use `tools/` to verify systematically:**
    - `tools/check_links.py` — catches 404s (broken links)
    - `tools/check_empty_pages.py` — catches pages that exist but have no content
+   - `tools/check_source_fidelity.py` — counts pedagogical constructs (links, lexicon-indicators, audio widgets, headings, definition lists, etc.) in the mothball HTML and flags any decrease in the YAML
+   - `tools/check_text_drift.py` — verbatim text comparison of every imported field against the mothball; exit 1 on any divergence beyond whitespace / HTML-entity normalization
+   - `tools/check_taxonomy_coverage.py` — internal taxonomy consistency
    - `tools/verify_site.py` — Playwright-based visual + functional verification
-   - Run ALL THREE after every structural change, before committing.
+   - `tools/visual_ab.py` — paired old-vs-new screenshots for human visual review
+   - Run the data-level checks after every change. Run the visual ones when layout / CSS shifts.
 
-7. **A full sitemap of the old site exists** at `data/old_sitemap.yaml`. The new site must match this topology. For every page in the old sitemap, the new site should have an equivalent page that serves the same purpose.
+7. **A full sitemap of the old site exists** at `data/old_sitemap.yaml`. The new site must match this topology. For every page in the old sitemap, the new site should have an equivalent page that serves the same purpose. (Caveat: `data/old_sitemap.yaml` reports `has_tagged_content: True` on 25 "Page not found" 404-template terms — confirmed Drupal cruft, leave deleted.)
+
+### Three known intentional divergences from mothball
+
+`tools/check_text_drift.py` will always report these — they are not regressions:
+
+- **`data/words/word_112.yaml` and `data/words/word_148.yaml`** commentary fields: mothball uses `http://kansaibenkyou.net/node112` (old-domain absolute URL). New site uses `/words/112/` and `/words/148/` so cross-references actually resolve.
+- **`data/pages/page_357.yaml`** body: mothball ended with a static `<table>` of all 12 conversations. New site renders that list dynamically from `site.data.conversations` in `conversations-index.html`, so the YAML keeps only the three intro paragraphs + the kb-dinner image.
 
 ## Status
 
@@ -82,10 +98,12 @@ The reverse index must cover ALL reference types: function_types, grammar_types,
 
 ## Original sources
 
-### Bazaar dumps (read-only reference)
+### Bazaar dumps — historical reference only, NOT a source
 
 - `/home/sjcarbon/local/src/bazaar/home/trunk/kansaibenkyou/` — the original Drupal 7 source tree
 - `/home/sjcarbon/local/src/bazaar/kb.net.shared/` — per-chapter lesson text files
+
+⚠️ **These files stop in September 2011.** Keiko continued editing in Drupal for five more years; everything after that lives only in the 2016 mothball at static.kansaibenkyou.net. The bazaar files are pre-publication working drafts and are *obsolete* for any text-content question. An earlier version of `tools/import_conversation.py` read from `kb.net.shared/*.txt` and produced 55 line-level drifts vs the mothball (シャケ→サケ, そや→せや, かんじょう→おあいそ, etc.) — all reverted in commit `70d1fcc`. **Never re-introduce bazaar as a content source.** Use only `_mothball/snapshot/node/<id>` for canonical text.
 
 ### S3 buckets
 
@@ -141,6 +159,25 @@ With the site at `/kansaibenkyou.net/` on github.io, EVERY path reference needs 
 
 **Pattern**: after every change, grep the built HTML for paths missing the prefix. When the custom domain is configured, `baseurl` becomes `""` and all replacements become no-ops.
 
+### Render-side rewrites > YAML modification
+
+Per the cardinal rule, YAML must match the mothball verbatim. Any transformation that arises from the difference between Drupal-2016 and GitHub-Pages-now belongs at the rendering layer, not in the data. Examples already in place:
+
+- **baseurl prefixing** of `href="/..."` and `src="/..."` — Liquid `replace` chain in each content-type layout (`_layouts/page_content.html`, `grammar_point.html`, `word.html`, `real_conversation.html`, `phonology_topic.html`).
+- **`http://` → `https://`** on third-party embeds (YouTube on `/intro/`) — same Liquid `replace` chain. Modern browsers block mixed content; original was HTTP because the 2016 site ran over HTTP.
+- **`<p class="kb-audio"><a href="...mp3">[↓]</a></p>` → `<audio controls>`** — DOM rewrite in `assets/js/kb-audio.js`, loaded site-wide via `_includes/head/custom.html`. Replaces the Flash-era audio stubs with native HTML5 controls. YAML keeps the mothball markup verbatim.
+- **page_357 intro extraction** — `conversations-index.html` renders `site.data.pages.page_357.body` (intro paragraphs + image only; the static table that followed in the mothball is rendered dynamically from `site.data.conversations`).
+
+**When in doubt**: keep the YAML matching the mothball; apply the transformation in the layout, an include, a Liquid filter, or a small render-side JS. Never re-encode the difference into the data.
+
+### Page layout patterns
+
+- **Data-backed pages** (anything with a corresponding `data/**/*.yaml`): use `layout: page_content` (or the content-type-specific layout like `word`, `grammar_point`, `real_conversation`). These layouts emit `<article class="page-content">` / `<article class="word-entry">` / etc., and CSS in `assets/css/custom.css` gives those a green content box automatically.
+- **Index / non-data pages** (feedback, search, vocabulary index, grammar-points index, common-use-list, example-conversations index, real-conversations index): use `layout: single` and wrap the body in `<div class="content-box">`. The `.content-box` CSS rule provides the same green box look.
+- **The taxonomy_term layout** emits `<article class="taxonomy-term">`, which is included in the box-rule selector group so every term page gets the box automatically.
+
+If a new page is missing the box, check which of the three patterns above it should be following.
+
 ### Jekyll/MM integration patterns
 
 1. **`_layouts/default.html` overrides the ENTIRE theme.** When we switched to Minimal Mistakes, our old `default.html` completely replaced MM's layout — breaking the masthead, sidebar, responsive JS, and everything else. Delete custom `default.html` to let the theme work.
@@ -166,20 +203,48 @@ With the site at `/kansaibenkyou.net/` on github.io, EVERY path reference needs 
 Run these after EVERY structural change, before committing:
 
 ```sh
-# 1. Check for broken links
+# Build the site (RUBYOPT= prefix needed on sjcarbon's box — the
+# shell sets RUBYOPT=rubygems which Ruby mis-parses)
+RUBYOPT= bundle exec jekyll build --quiet
+
+# 1. Broken links
 python3 tools/check_links.py
 
-# 2. Check for empty destination pages  
+# 2. Empty destination pages
 python3 tools/check_empty_pages.py
 
-# 3. Visual verification (if layout changed)
-python3 tools/verify_site.py
+# 3. Structural fidelity vs mothball (counts tags / features)
+python3 tools/check_source_fidelity.py
 
-# 4. Schema validation
+# 4. Text-level fidelity vs mothball (every character of every field)
+python3 tools/check_text_drift.py
+
+# 5. Taxonomy reverse-index consistency
+python3 tools/check_taxonomy_coverage.py
+
+# 6. Visual verification (if layout changed)
+python3 tools/verify_site.py
+# or: python3 tools/visual_ab.py  # paired old/new screenshots
+
+# 7. Schema validation
 linkml-validate --schema schema/kbnet.yaml --target-class Word data/words/*.yaml
 ```
 
+Expected baseline as of 2026-05-10 push: 0 broken links across ~24,500 refs, 0 layout-empty pages, 0 source-fidelity regressions, 0 text-drift beyond the three documented intentional divergences (words 112/148 and page_357 — see cardinal-rule section), 23 label-only taxonomy backlog terms (same state as the old site — never-filled slots, leave as-is).
+
 Also: **follow the links you generate**. Click through from a listing page to the destination and verify it has real content. A link to an empty page is worse than no link.
+
+### 2026-04-14 three-agent audit — disposition
+
+A coordinated audit ran three codex agents in parallel (parity, self-audit, cohesion). Reports at `.audit-2026-04-14/` (gitignored). Findings have been triaged; do not re-investigate the following:
+
+- **"25 missing taxonomy term pages"** — all 25 are Drupal 404 cruft (`Page not found` template). Leave deleted. `data/old_sitemap.yaml` reports `has_tagged_content: True` on these as a false positive — do not trust that field.
+- **"Missing reverse-index links to grammar_327 from term 24, words 124/125/252 from terms 28/96"** — verified incorrect against mothball. The actual taxonomy refs are `function_37`+`grammar_105` for grammar_327, and `wordtype_18` for words 124/125/252. The current `data/taxonomy_index.yaml` matches the mothball.
+- **"23 backlog taxonomy terms need glossary definitions"** — all 23 were also empty on the old site (no description, no tagged content). They are never-filled slots, not lost content. Parity is already met.
+- **"Script fidelity drift in example conversations"** — root cause was `tools/import_conversation.py` reading from 2011 bazaar drafts instead of mothball. Fixed in commit `70d1fcc` by switching to mothball as source; 55 drifts → 0.
+- **"06-at-karaoke speaker swap"** — real regression (5-stanza 木村/坂上 swap that broke internal callback logic). Fixed in commit `587cb66`, then naturally preserved when the importer was rewritten.
+
+All Tier 1 audit items closed across commits `850e4fd..29027d3`. Remaining deferred items (per sjcarbon, not bugs): no news/feed block restoration, no blog content restoration, no in-site feedback webform (feedback page is a GitHub Issues link).
 
 ### URL consistency
 
