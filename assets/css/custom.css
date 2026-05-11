@@ -312,6 +312,26 @@
   border: none;
 }
 
+/* Inline audio players injected by assets/js/kb-audio.js — replace the
+   legacy <p class="kb-audio"><a href="...mp3">[↓]</a></p> stubs from the
+   Drupal era. Used in phonology tables (one per cell) and inline in
+   grammar / word pages.
+
+   Native <audio controls> needs ~160px to render usable controls
+   (play button + scrubber + time). Default browser sizing is ~300px,
+   which is too wide for our table cells. We pin to 180px and let the
+   table cell flex around it (max-width: 100% so it shrinks on mobile
+   rather than overflowing). */
+audio.kb-audio-inline {
+  display: inline-block;
+  width: 180px;
+  min-width: 160px;
+  max-width: 100%;
+  height: 32px;
+  vertical-align: middle;
+  margin: 0.25em 0;
+}
+
 /* ---- Index tables (vocab, grammar, conversations) ---- */
 
 .vocab-table,
