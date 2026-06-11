@@ -1,0 +1,94 @@
+# Remediation map for rotted external links. Last checked: 2026-06-11.
+#
+# The mothball is the source of truth for YAML content, so the original
+# URLs stay in data/pages/*.yaml verbatim; this map is applied at render
+# time by _layouts/page_content.html, which rewrites each matching href
+# and tags the anchor with class="kb-linkrot" + data-kb-note. CSS in
+# assets/css/custom.css appends the note as a visible " [note]" suffix.
+#
+# Fields:
+#   url         — exact href value as it appears in the mothball YAML
+#   action      — replace (point at replacement) | deactivate (unlink, keep text)
+#   replacement — new href: live relocation or web.archive.org snapshot
+#   note        — short visible annotation, rendered as " [note]" after the link
+#   reason      — why the original is unusable (maintainer-facing)
+#
+# Wayback snapshots were chosen as the capture closest to the 2016
+# mothball that still shows the real site (some hosts were parked or
+# "under construction" before they died, so a few snapshots are older).
+
+- url: http://www6.ninjal.ac.jp/siryokan_data/hogendanwa_db/list04.htm
+  action: replace
+  replacement: https://mmsrv.ninjal.ac.jp/hogendanwa_db/list04/index.html
+  note: link updated, 2026
+  reason: >-
+    www6.ninjal.ac.jp was retired (host no longer resolves). The same
+    database page — 日本のふるさとことば集成〜近畿〜, with the サンプル
+    audio — now lives at NINJAL's mmsrv host; title matches the
+    original verbatim.
+
+- url: http://homepage2.nifty.com/GANSO_hirokun/kouza00.html
+  action: replace
+  replacement: https://web.archive.org/web/20240913102849/http://hirokun.o.oo7.jp/kouza00.html
+  note: archive.org copy, 2024
+  reason: >-
+    @nifty's homepage2 service closed in late 2016 and the site's
+    relocation host (hirokun.o.oo7.jp / LaCoocan) shut down around
+    October 2025. The original URL was never captured by the Wayback
+    Machine; this snapshot is the relocated copy of the same
+    関西弁基礎講座 table of contents (51 lecture links).
+
+- url: http://www.osakaben.jp/
+  action: replace
+  replacement: https://web.archive.org/web/20150624154936/http://www.osakaben.jp/
+  note: archive.org copy, 2015
+  reason: >-
+    Domain no longer resolves, and was already parked ("This website is
+    for sale!") by mid-2016. The 2015-06 capture is the last real
+    全国大阪弁普及協会 (NAPOD) site.
+
+- url: http://www.geocities.jp/immanuel_wa/hoby/osakaben/osakaben.htm
+  action: replace
+  replacement: https://web.archive.org/web/20160526220105/http://www.geocities.jp/immanuel_wa/hoby/osakaben/osakaben.htm
+  note: archive.org copy, 2016
+  reason: >-
+    Yahoo! Geocities Japan closed in March 2019. The 2016-05 capture
+    shows the full わたさんの大阪弁アクセント講座 page.
+
+- url: http://www.kansai.gr.jp/
+  action: replace
+  replacement: https://web.archive.org/web/20120112174518/http://www.kansai.gr.jp/
+  note: archive.org copy, 2012
+  reason: >-
+    Domain no longer resolves. The site showed only a 準備中 placeholder
+    from early 2016 onward; the 2012-01 capture is the last full
+    "Kansai Window" portal. Appears twice on the resources page (both
+    occurrences rewritten).
+
+- url: http://www.kansai.gr.jp/ku/index.html
+  action: replace
+  replacement: https://web.archive.org/web/20110903063117/http://www.kansai.gr.jp/ku/index.html
+  note: archive.org copy, 2011
+  reason: >-
+    Kansai Unity (関西広域機構) page; last working capture is 2011-09 —
+    it was already gone well before the 2016 mothball. Appears twice on
+    the resources page (both occurrences rewritten).
+
+- url: http://www.kansai-japan.net/en/
+  action: replace
+  replacement: https://web.archive.org/web/20160601135516/http://www.kansai-japan.net/en/
+  note: archive.org copy, 2016
+  reason: >-
+    Domain hijacked — now serves an Osaka hostess-club ad site on a 404
+    page. Do not re-link the live domain. The 2016-06 capture is the
+    real "Welcome! KANSAI" visitor site.
+
+- url: http://www.japaneselifestyle.com.au/travel/kansai.htm
+  action: replace
+  replacement: https://web.archive.org/web/20120301171845/http://www.japaneselifestyle.com.au/travel/kansai.htm
+  note: archive.org copy, 2012
+  reason: >-
+    Domain now serves a ~1 KB FingerprintJS fingerprinting + tracking
+    redirect page. Do not re-link the live domain. Last real capture of
+    the KANSAI travel guide is 2012-03. Appears twice on the resources
+    page (both occurrences rewritten).

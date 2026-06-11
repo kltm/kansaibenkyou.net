@@ -705,3 +705,25 @@ table.sortable th[data-sort-dir="desc"]::after {
 .term-definition p {
   margin: 0;
 }
+
+/* ---- Link-rot notes (data/link_rot.yaml) ----
+   External links whose hosts died or were hijacked after the 2016
+   mothball are rewritten at render time (page_content layout) to a
+   relocated official URL or an archive.org snapshot, and tagged with
+   kb-linkrot + a data-kb-note. The note renders as a small bracketed
+   suffix so readers know they're getting an archived/relocated copy. */
+
+a.kb-linkrot::after {
+  content: " [" attr(data-kb-note) "]";
+  font-size: 0.8em;
+  color: #6f6f6f;
+}
+
+/* Deactivated link: anchor keeps its text but loses its href, so it
+   renders unclickable; mute the link styling explicitly in case the
+   theme styles bare <a> elements. */
+a.kb-linkrot-dead {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}

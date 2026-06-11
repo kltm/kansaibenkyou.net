@@ -167,6 +167,7 @@ Per the cardinal rule, YAML must match the mothball verbatim. Any transformation
 - **`http://` → `https://`** on third-party embeds (YouTube on `/intro/`) — same Liquid `replace` chain. Modern browsers block mixed content; original was HTTP because the 2016 site ran over HTTP.
 - **`<p class="kb-audio"><a href="...mp3">[↓]</a></p>` → `<audio controls>`** — DOM rewrite in `assets/js/kb-audio.js`, loaded site-wide via `_includes/head/custom.html`. Replaces the Flash-era audio stubs with native HTML5 controls. YAML keeps the mothball markup verbatim.
 - **page_357 intro extraction** — `conversations-index.html` renders `site.data.pages.page_357.body` (intro paragraphs + image only; the static table that followed in the mothball is rendered dynamically from `site.data.conversations`).
+- **Link-rot remediation on `/resources/`** — `data/link_rot.yaml` maps external URLs whose hosts have died or been hijacked since 2016 to a relocated official URL or a web.archive.org snapshot (verified real-content captures, not parked/placeholder ones). Applied by the Liquid loop in `_layouts/page_content.html`; CSS (`a.kb-linkrot::after`) renders each entry's note as a visible " [note]" suffix. A `deactivate` action (unlink in place, keep text) is also supported. YAML keeps the mothball URLs verbatim; re-check the live links when revisiting (last checked 2026-06-11).
 
 **When in doubt**: keep the YAML matching the mothball; apply the transformation in the layout, an include, a Liquid filter, or a small render-side JS. Never re-encode the difference into the data.
 

@@ -26,6 +26,25 @@ render time so the data stays baseurl-agnostic.
   appear later.
 {%- endcomment -%}
 {%- assign body = pg.body | default: "" | replace: 'href="/', href_prefix | replace: 'src="/', src_prefix | replace: 'src="http://www.youtube.com', 'src="https://www.youtube.com' | replace: 'src="http://youtube.com', 'src="https://www.youtube.com' -%}
+{%- comment -%}
+  Link-rot remediation (data/link_rot.yaml): external links whose hosts
+  have died or been hijacked since the 2016 mothball are rewritten at
+  render time to a relocated official URL or a web.archive.org
+  snapshot ("replace"), or unlinked in place ("deactivate"). The
+  anchor is tagged kb-linkrot + data-kb-note so custom.css appends a
+  visible " [note]" suffix. The YAML keeps the original URLs verbatim
+  (mothball is the SoT).
+{%- endcomment -%}
+{%- for rot in site.data.link_rot -%}
+  {%- if rot.action == "deactivate" -%}
+    {%- capture rot_old -%}<a href="{{ rot.url }}">{%- endcapture -%}
+    {%- capture rot_new -%}<a class="kb-linkrot kb-linkrot-dead" data-kb-note="{{ rot.note }}">{%- endcapture -%}
+  {%- else -%}
+    {%- capture rot_old -%}href="{{ rot.url }}"{%- endcapture -%}
+    {%- capture rot_new -%}href="{{ rot.replacement }}" class="kb-linkrot" data-kb-note="{{ rot.note }}"{%- endcapture -%}
+  {%- endif -%}
+  {%- assign body = body | replace: rot_old, rot_new -%}
+{%- endfor -%}
 
 <article class="page-content">
 
