@@ -12,11 +12,11 @@ body: <h2>Development</h2><p>This page is a discussion of the nuts and bolts dev
   to provide hover text and easy definitions for technical vocabulary</li><li><a href="http://drupal.org/project/views">Views</a>,
   to help aggregate content and expose it to the user in intuitive ways</li><li><a href="http://drupal.org/project/google_analytics">Google
   Analytics</a>, to help track page usage</li></ul><p>In addition to these Drupal modules, this site makes
-  use of the <a href="http://wpaudioplayer.com/standalone/">standalone</a> version of the <a href="http://wpaudioplayer.com/">WordPress
+  use of the <a href="https://web.archive.org/web/20160102184658/http://wpaudioplayer.com/standalone/" class="kb-linkrot" data-kb-note="archive.org copy, 2016">standalone</a> version of the <a href="https://web.archive.org/web/20160112025358/http://wpaudioplayer.com/" class="kb-linkrot" data-kb-note="archive.org copy, 2016">WordPress
   Audio Player</a> for audio playback. There is also custom JavaScript and CSS files delivered through
   a slightly modified version of the theme to generally tweak the user interface and provide the text
   highlight and line expansion features on the <a href="/example-conversations/">conversation example</a>
-  pages (kb.js and kb.css in the source).</p><p>All audio on this site was captured using a <a href="http://www.zoomh2.net/h2">Zoom
+  pages (kb.js and kb.css in the source).</p><p>All audio on this site was captured using a <a href="https://web.archive.org/web/20110806194950/http://www.zoomh2.net/h2" class="kb-linkrot" data-kb-note="archive.org copy, 2011">Zoom
   H2 Handy Recorder</a> in <a href="http://en.wikipedia.org/wiki/WAV">WAV</a> format. The audio was edited
   and encoded using <a href="http://www.apple.com/ilife/garageband/">GarageBand</a> on a <a href="http://en.wikipedia.org/wiki/MacBook">MacBook</a>.</p><p>All
   media delivery on this site is handled through the Amazon <a href="http://aws.amazon.com/cloudfront/">CloudFront</a>

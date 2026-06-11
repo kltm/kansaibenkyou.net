@@ -35,12 +35,18 @@ The mothballed original at **https://static.kansaibenkyou.net** (mirrored locall
 
 7. **A full sitemap of the old site exists** at `data/old_sitemap.yaml`. The new site must match this topology. For every page in the old sitemap, the new site should have an equivalent page that serves the same purpose. (Caveat: `data/old_sitemap.yaml` reports `has_tagged_content: True` on 25 "Page not found" 404-template terms — confirmed Drupal cruft, leave deleted.)
 
-### Three known intentional divergences from mothball
+### Policy amendment (2026-06-11): mutating fixes for provably bad content
+
+Keiko has green-lit fixing **provably bad or malicious** data directly in the YAML — dead hosts, hijacked/squatted domains, and the like. The bar is "provably bad", not "could be improved": text content, dialect renderings, and pedagogy still follow the mothball verbatim. When applying such a fix, record provenance (original URL, replacement, reason) in `data/link_rot.yaml` and add the affected file to the documented-divergences list below so drift triage doesn't revert it.
+
+### Known intentional divergences from mothball
 
 `tools/check_text_drift.py` will always report these — they are not regressions:
 
 - **`data/words/word_112.yaml` and `data/words/word_148.yaml`** commentary fields: mothball uses `http://kansaibenkyou.net/node112` (old-domain absolute URL). New site uses `/words/112/` and `/words/148/` so cross-references actually resolve.
 - **`data/pages/page_357.yaml`** body: mothball ended with a static `<table>` of all 12 conversations. New site renders that list dynamically from `site.data.conversations` in `conversations-index.html`, so the YAML keeps only the three intro paragraphs + the kb-dinner image.
+- **`data/pages/page_3.yaml`** body (`/resources/`): 7 external URLs (11 anchors) whose hosts died or were hijacked after 2016 now point at a relocated official page (NINJAL) or verified web.archive.org snapshots, each tagged `class="kb-linkrot" data-kb-note="..."` (CSS renders the note as a visible " [note]" suffix). Full provenance in `data/link_rot.yaml`.
+- **`data/pages/page_398.yaml`** body (`/development/`): same treatment for `wpaudioplayer.com` (×2 — domain squatted) and `www.zoomh2.net` (dead). Provenance in `data/link_rot.yaml`.
 
 ## Status
 
@@ -167,7 +173,7 @@ Per the cardinal rule, YAML must match the mothball verbatim. Any transformation
 - **`http://` → `https://`** on third-party embeds (YouTube on `/intro/`) — same Liquid `replace` chain. Modern browsers block mixed content; original was HTTP because the 2016 site ran over HTTP.
 - **`<p class="kb-audio"><a href="...mp3">[↓]</a></p>` → `<audio controls>`** — DOM rewrite in `assets/js/kb-audio.js`, loaded site-wide via `_includes/head/custom.html`. Replaces the Flash-era audio stubs with native HTML5 controls. YAML keeps the mothball markup verbatim.
 - **page_357 intro extraction** — `conversations-index.html` renders `site.data.pages.page_357.body` (intro paragraphs + image only; the static table that followed in the mothball is rendered dynamically from `site.data.conversations`).
-- **Link-rot remediation on `/resources/`** — `data/link_rot.yaml` maps external URLs whose hosts have died or been hijacked since 2016 to a relocated official URL or a web.archive.org snapshot (verified real-content captures, not parked/placeholder ones). Applied by the Liquid loop in `_layouts/page_content.html`; CSS (`a.kb-linkrot::after`) renders each entry's note as a visible " [note]" suffix. A `deactivate` action (unlink in place, keep text) is also supported. YAML keeps the mothball URLs verbatim; re-check the live links when revisiting (last checked 2026-06-11).
+- **Exception — link rot is fixed in the data, not at render time.** Under the 2026-06-11 mutating-fixes policy, dead/hijacked external URLs are rewritten directly in the page YAML (tagged `kb-linkrot` + `data-kb-note`; CSS `a.kb-linkrot::after` renders the visible " [note]" suffix). `data/link_rot.yaml` is the provenance record, not an active rewrite map. Render-side rewriting remains the rule for everything that is *not* provably bad (baseurl, https upgrades, audio widgets).
 
 **When in doubt**: keep the YAML matching the mothball; apply the transformation in the layout, an include, a Liquid filter, or a small render-side JS. Never re-encode the difference into the data.
 
@@ -231,7 +237,7 @@ python3 tools/verify_site.py
 linkml-validate --schema schema/kbnet.yaml --target-class Word data/words/*.yaml
 ```
 
-Expected baseline as of 2026-05-10 push: 0 broken links across ~24,500 refs, 0 layout-empty pages, 0 source-fidelity regressions, 0 text-drift beyond the three documented intentional divergences (words 112/148 and page_357 — see cardinal-rule section), 23 label-only taxonomy backlog terms (same state as the old site — never-filled slots, leave as-is).
+Expected baseline as of 2026-06-11: 0 broken links across ~24,500 refs, 0 layout-empty pages, 0 source-fidelity regressions, 0 text-drift beyond the five documented intentional divergences (words 112/148, page_357, and the link-rot fixes in pages 3/398 — see cardinal-rule section), 23 label-only taxonomy backlog terms (same state as the old site — never-filled slots, leave as-is).
 
 Also: **follow the links you generate**. Click through from a listing page to the destination and verify it has real content. A link to an empty page is worse than no link.
 
