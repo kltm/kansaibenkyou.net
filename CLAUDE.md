@@ -68,7 +68,7 @@ This repository is **dual-licensed**:
 - **Audio hosting**: in-repo under `assets/audio/` (~87 MiB total).
 - **Mothball archive**: `_mothball/` subdirectory, **gitignored — never committed**. 1:1 mirror of the live S3 mothball for offline reference.
 - **Search**: Pagefind (static client-side search, indexed in CI via `npx pagefind --site _site`). Search UI at `/search/`.
-- **Analytics**: Google Analytics 4 via Minimal Mistakes' built-in `google-gtag` provider (`analytics:` block in `_config.yml`). Measurement ID `G-38LKKSF2EE` — the same property the mothball front page at static.kansaibenkyou.net reports to, kept for stat continuity across the migration. MM emits the snippet only when `JEKYLL_ENV=production` (set by `actions/jekyll-build-pages` in CI), so local builds are analytics-free. History: an earlier GoatCounter integration (chosen 2026-04, snippet lost in the MM theme migration, account never registered) was abandoned 2026-06-11 in favor of GA4 — sjcarbon was uncomfortable loading JS from a single-maintainer remote.
+- **Analytics**: Google Analytics 4 via Minimal Mistakes' built-in `google-gtag` provider (`analytics:` block in `_config.yml`). Measurement ID `G-38LKKSF2EE` (GA account 268053544, property 375759528) — the same property the mothball reports to, kept for stat continuity across the migration. The mothball's traffic comes through its tagged front page, which apex `kansaibenkyou.net` (301) and `www` both still serve — but only the front page is tagged there, so historical numbers undercount deep-page visits; the new site tags every page. MM emits the snippet only when `JEKYLL_ENV=production` (set by `actions/jekyll-build-pages` in CI), so local builds are analytics-free. To separate old-vs-new traffic in GA, segment by Hostname (static.kansaibenkyou.net / www.kansaibenkyou.net vs kltm.github.io, later the apex). History: an earlier GoatCounter integration (chosen 2026-04, snippet lost in the MM theme migration, account never registered) was abandoned 2026-06-11 in favor of GA4 — sjcarbon was uncomfortable loading JS from a single-maintainer remote.
 
 ## The data model
 
@@ -121,6 +121,18 @@ Use the `kbnet-readonly` AWS profile. **Never inline-export the keys.**
 | `kb-audio` | 86 MiB / 201 obj | Lesson audio |
 | `kb-image` | 55 MiB / 610 obj | Images + banner carousel pool |
 | `kb-mobile` | 1 MiB / 42 obj | Old mobile deck (redundant with wrenshoe) |
+
+**The AWS account is being wound down (2026-06-11 plan).** The account holds
+more than these four buckets (six `wrenshoe-*` course decks, scratch/test
+cruft, and a stopped 2011 Drupal EC2 server); full inventory and the
+wind-down sequence live in `personal-workspace/kbnet/notes/aws-universe.md`.
+What matters for THIS repo: after the GH Pages launch, the mothball will be
+served temporarily as **`legacy.kansaibenkyou.net`** from a different AWS
+account, and `static.kansaibenkyou.net` will eventually go away — at that
+point every reference to `static.kansaibenkyou.net` in this repo
+(`tools/visual_ab.py` base URL, this file, AGENTS.md) must switch to
+`legacy.`. The local `_mothball/` mirror is unaffected and remains the
+day-to-day comparison source.
 
 ## Dialect and content handling
 
