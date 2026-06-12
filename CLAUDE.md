@@ -68,7 +68,7 @@ This repository is **dual-licensed**:
 - **Audio hosting**: in-repo under `assets/audio/` (~87 MiB total).
 - **Mothball archive**: `_mothball/` subdirectory, **gitignored — never committed**. 1:1 mirror of the live S3 mothball for offline reference.
 - **Search**: Pagefind (static client-side search, indexed in CI via `npx pagefind --site _site`). Search UI at `/search/`.
-- **Analytics**: GoatCounter (privacy-friendly, no cookies). Snippet in layout, activated when `goatcounter_site` is set in `_config.yml`.
+- **Analytics**: Google Analytics 4 via Minimal Mistakes' built-in `google-gtag` provider (`analytics:` block in `_config.yml`). Measurement ID `G-38LKKSF2EE` — the same property the mothball front page at static.kansaibenkyou.net reports to, kept for stat continuity across the migration. MM emits the snippet only when `JEKYLL_ENV=production` (set by `actions/jekyll-build-pages` in CI), so local builds are analytics-free. History: an earlier GoatCounter integration (chosen 2026-04, snippet lost in the MM theme migration, account never registered) was abandoned 2026-06-11 in favor of GA4 — sjcarbon was uncomfortable loading JS from a single-maintainer remote.
 
 ## The data model
 
