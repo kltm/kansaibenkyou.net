@@ -249,9 +249,19 @@ python3 tools/verify_site.py
 linkml-validate --schema schema/kbnet.yaml --target-class Word data/words/*.yaml
 ```
 
-Expected baseline as of 2026-06-11: 0 broken links across ~24,500 refs, 0 layout-empty pages, 0 source-fidelity regressions, 0 text-drift beyond the five documented intentional divergences (words 112/148, page_357, and the link-rot fixes in pages 3/398 — see cardinal-rule section), 23 label-only taxonomy backlog terms (same state as the old site — never-filled slots, leave as-is).
+Expected baseline as of 2026-06-11: 0 broken links across ~24,500 refs (internal refs only — see external-link-rot section below), 0 layout-empty pages, 0 source-fidelity regressions, 0 text-drift beyond the five documented intentional divergences (words 112/148, page_357, and the link-rot fixes in pages 3/398 — see cardinal-rule section), 23 label-only taxonomy backlog terms (same state as the old site — never-filled slots, leave as-is).
 
 Also: **follow the links you generate**. Click through from a listing page to the destination and verify it has real content. A link to an empty page is worse than no link.
+
+### External link rot (2026-06-11 audit)
+
+All external links in `data/` were checked and fixed on 2026-06-11 (provenance: `data/link_rot.yaml`). Lessons for the next sweep:
+
+- **`check_links.py` validates internal refs only** — every `http(s)://` URL is in its `SKIP_PREFIXES`. A green "0 broken links" says nothing about external links; they rot invisibly. To re-sweep: `grep -rhoE 'href="https?://[^"]*"' data/ | sort -u`, then curl each.
+- **A 200 status is not "safe".** Two domains (kansai-japan.net, wpaudioplayer.com) were hijacked/squatted and served unrelated content — hostess-club ads, a FingerprintJS tracking-redirect page, an SEO blog — with healthy status codes. Always check the final redirect URL and page title/content, not just the code.
+- **Wayback's availability API (`archive.org/wayback/available`) misses snapshots that exist.** Query the CDX API directly (`web.archive.org/cdx/search/cdx?url=...`). CDX rate-limits by returning *silent empty results* — retry with a sleep before concluding "never archived".
+- **A snapshot near the mothball date may capture a corpse.** osakaben.jp was already "website for sale" by 2016-06; kansai.gr.jp showed only 準備中 from early 2016. Verify each capture's title/content and walk back to the last *real* one before linking it.
+- New rot follows the mutating-fixes policy (cardinal-rule section): fix the URL in the YAML, tag the anchor `kb-linkrot` + `data-kb-note`, add provenance to `data/link_rot.yaml`, and list the file in the documented-divergences section.
 
 ### 2026-04-14 three-agent audit — disposition
 
