@@ -109,30 +109,31 @@ The reverse index must cover ALL reference types: function_types, grammar_types,
 - `/home/sjcarbon/local/src/bazaar/home/trunk/kansaibenkyou/` — the original Drupal 7 source tree
 - `/home/sjcarbon/local/src/bazaar/kb.net.shared/` — per-chapter lesson text files
 
-⚠️ **These files stop in September 2011.** Keiko continued editing in Drupal for five more years; everything after that lives only in the 2016 mothball at static.kansaibenkyou.net. The bazaar files are pre-publication working drafts and are *obsolete* for any text-content question. An earlier version of `tools/import_conversation.py` read from `kb.net.shared/*.txt` and produced 55 line-level drifts vs the mothball (シャケ→サケ, そや→せや, かんじょう→おあいそ, etc.) — all reverted in commit `70d1fcc`. **Never re-introduce bazaar as a content source.** Use only `_mothball/snapshot/node/<id>` for canonical text.
+⚠️ **These files stop in September 2011.** Keiko continued editing in Drupal for five more years; everything after that lives only in the 2016 mothball (the local `_mothball/` mirror, served at `legacy.kansaibenkyou.net`). The bazaar files are pre-publication working drafts and are *obsolete* for any text-content question. An earlier version of `tools/import_conversation.py` read from `kb.net.shared/*.txt` and produced 55 line-level drifts vs the mothball (シャケ→サケ, そや→せや, かんじょう→おあいそ, etc.) — all reverted in commit `70d1fcc`. **Never re-introduce bazaar as a content source.** Use only `_mothball/snapshot/node/<id>` for canonical text.
 
-### S3 buckets
+### S3 buckets — archived; the kb AWS account is CLOSED (2026-06-21)
 
-Use the `kbnet-readonly` AWS profile. **Never inline-export the keys.**
+The original Drupal dump lived in the `kb-*` S3 buckets (below) in AWS account
+`742092360882`, reached via the `kbnet-readonly` profile. **That account was
+wound down and closed 2026-06-21 — the profile and buckets no longer exist; do
+not reach for `kbnet-readonly`.** All 12 buckets were archived first to
+**`gs-kbnet-archive`** in the genkisugi account (`161327179028`), and the 2011
+Drupal DB volume is preserved as a snapshot there too.
 
-| Bucket | Size | Role |
+| Bucket (now `gs-kbnet-archive/<name>/`) | Size | Role |
 |---|---|---|
 | `kb-snapshot` | 172 MiB / 1789 obj | Mothballed Drupal page dump |
 | `kb-audio` | 86 MiB / 201 obj | Lesson audio |
 | `kb-image` | 55 MiB / 610 obj | Images + banner carousel pool |
 | `kb-mobile` | 1 MiB / 42 obj | Old mobile deck (redundant with wrenshoe) |
 
-**The AWS account is being wound down (2026-06-11 plan).** The account holds
-more than these four buckets (six `wrenshoe-*` course decks, scratch/test
-cruft, and a stopped 2011 Drupal EC2 server); full inventory and the
-wind-down sequence live in `personal-workspace/kbnet/notes/aws-universe.md`.
-What matters for THIS repo (done 2026-06-21): the mothball is now served as
-**`legacy.kansaibenkyou.net`** from the genkisugi AWS account, and the
-repo's served-URL references (`tools/visual_ab.py` base URL, this file,
-AGENTS.md, README.md) have been switched from `static.` to `legacy.`. The
-kb account is being torn down (`static.kansaibenkyou.net` retired). The local
-`_mothball/` mirror is unaffected and remains the day-to-day comparison
-source. Wind-down state: `personal-workspace/kbnet/notes/`.
+The mothball is now served as **`legacy.kansaibenkyou.net`** from genkisugi
+(byte-identical re-host); the repo's served-URL references (`tools/visual_ab.py`,
+this file, AGENTS.md, README.md) point there instead of the retired `static.`.
+The local **`_mothball/`** mirror is unaffected and remains the day-to-day
+comparison source. Full wind-down record:
+`personal-workspace/kbnet/notes/` (`aws-universe.md`, `phase-d-results.md`,
+`legacy-infra.md`).
 
 ## Dialect and content handling
 
@@ -142,7 +143,7 @@ source. Wind-down state: `personal-workspace/kbnet/notes/`.
 
 ## Security: never commit secrets
 
-- Use the `kbnet-readonly` AWS profile — never inline-export keys.
+- This repo no longer touches AWS (the kb account is closed; the site is on GH Pages). Any incidental AWS work happens in `personal-workspace/kbnet/` against genkisugi — never inline-export keys there.
 - Stage files explicitly by name (`git add path/to/file`), never `git add -A`.
 - Keep `_mothball/`, `*.pem`, `.env*` in `.gitignore`.
 
