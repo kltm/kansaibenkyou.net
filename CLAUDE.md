@@ -50,7 +50,7 @@ Keiko has green-lit fixing **provably bad or malicious** data directly in the YA
 
 ## Status
 
-Rebuild in progress. Live at https://kltm.github.io/kansaibenkyou.net/ (temporary GH Pages URL; will move to kansaibenkyou.net when DNS is configured). Using Minimal Mistakes theme framework.
+Rebuild complete and going live at https://kansaibenkyou.net/ (custom domain set via the repo `CNAME` file; `baseurl` is now `""`). The temporary `kltm.github.io/kansaibenkyou.net/` URL no longer renders correctly — with `baseurl=""` the site only works served from a domain root, which is the custom domain. Using Minimal Mistakes theme framework.
 
 The mothballed reference still serves at https://static.kansaibenkyou.net.
 

@@ -14,9 +14,10 @@ a static dump on S3 + CloudFront, being rebuilt as a Jekyll site
 (Minimal Mistakes theme) for GitHub Pages. The mothballed reference
 still serves at https://static.kansaibenkyou.net.
 
-The new site lives at https://kltm.github.io/kansaibenkyou.net/
-during the rebuild and will move to kansaibenkyou.net when DNS is
-configured.
+The new site goes live at https://kansaibenkyou.net/ (custom domain
+via the repo CNAME file; baseurl is now ""). The old temporary
+kltm.github.io/kansaibenkyou.net/ URL no longer renders correctly,
+since baseurl="" requires serving from a domain root.
 
 ## Cardinal rule: the old site is the source of truth
 

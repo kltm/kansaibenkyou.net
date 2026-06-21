@@ -5,8 +5,8 @@ description: >-
   dialects spoken in the Kansai region. Authored by Keiko Yukawa.
 logo: /assets/images/takkun.png
 lang: ja
-baseurl: "/kansaibenkyou.net"
-url: "https://kltm.github.io"
+baseurl: ""
+url: "https://kansaibenkyou.net"
 
 footer:
   links:
