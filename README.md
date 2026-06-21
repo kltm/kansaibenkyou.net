@@ -9,8 +9,9 @@ Drupal 7 site, mothballed in 2016) as a Jekyll-based static site. The
 canonical content lives as YAML in `data/`, validated against LinkML
 schemas in `schema/`, and rendered by Jekyll templates in `_layouts/`.
 
-The original mothballed site is still available at
-<https://static.kansaibenkyou.net> while the rebuild is in progress.
+The original mothballed site is preserved at
+<https://legacy.kansaibenkyou.net> for old-vs-new comparison (re-hosted
+after the original kb AWS account was wound down).
 
 ## License
 

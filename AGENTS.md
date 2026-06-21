@@ -12,7 +12,7 @@ A modern revival of kansaibenkyou.net (a Kansai-ben learning resource
 authored by Keiko Yukawa). Originally Drupal 7, mothballed in 2016 as
 a static dump on S3 + CloudFront, being rebuilt as a Jekyll site
 (Minimal Mistakes theme) for GitHub Pages. The mothballed reference
-still serves at https://static.kansaibenkyou.net.
+still serves at https://legacy.kansaibenkyou.net.
 
 The new site goes live at https://kansaibenkyou.net/ (custom domain
 via the repo CNAME file; baseurl is now ""). The old temporary
@@ -21,7 +21,7 @@ since baseurl="" requires serving from a domain root.
 
 ## Cardinal rule: the old site is the source of truth
 
-The mothballed original at **https://static.kansaibenkyou.net** (with
+The mothballed original at **https://legacy.kansaibenkyou.net** (with
 a local mirror under `_mothball/` — gitignored) is the living memory
 of what this site must be. Every link, list, table, summary page, and
 position was chosen through public feedback to create a smooth
@@ -36,7 +36,7 @@ Three derived rules that must not be violated:
    site's core pedagogical mechanism. Fix the data or the rendering.
 3. **No parity claim without a comparison artifact.** "It renders" is
    not parity. A claim that page X on the new site matches page X on
-   the old site requires (a) the URL on `static.kansaibenkyou.net`,
+   the old site requires (a) the URL on `legacy.kansaibenkyou.net`,
    (b) the URL or path on the new site, and (c) a specific list of
    what was checked.
 
@@ -148,7 +148,7 @@ tools/                              importer + verification scripts
   check_*.py                        the verification suite
   visual_ab.py                      paired screenshots
 
-_mothball/                          local mirror of static.kansaibenkyou.net
+_mothball/                          local mirror of legacy.kansaibenkyou.net
                                     (gitignored — never committed)
 ```
 

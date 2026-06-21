@@ -4,7 +4,7 @@
 For each representative page — one per content type — this script
 captures two screenshots with Playwright:
 
-    * the old site at https://static.kansaibenkyou.net/...
+    * the old site at https://legacy.kansaibenkyou.net/...
     * the local new site at http://127.0.0.1:4000/kansaibenkyou.net/...
 
 Screenshots land in `_site/_screenshots/ab/` with a matching pair of
@@ -39,7 +39,9 @@ REPO = Path(__file__).resolve().parent.parent
 # doesn't wipe it between captures.
 OUT = REPO / "screenshots" / "ab"
 
-OLD_BASE = "https://static.kansaibenkyou.net"
+# The 2016 mothball, re-hosted in genkisugi after the kb AWS account was
+# wound down (static.kansaibenkyou.net retired). Byte-identical content.
+OLD_BASE = "https://legacy.kansaibenkyou.net"
 NEW_BASE = "http://127.0.0.1:4000/kansaibenkyou.net"
 
 # Representative page per content type. Picked to exercise the
@@ -149,7 +151,7 @@ def write_index(pairs: list[tuple[str, str, str, str]]) -> None:
 </head>
 <body>
 <h1>Visual A/B: old vs new site</h1>
-<p>Left column: <a href="{OLD_BASE}">static.kansaibenkyou.net</a>.
+<p>Left column: <a href="{OLD_BASE}">legacy.kansaibenkyou.net</a>.
 Right column: local new-site build at
 <code>{NEW_BASE}</code>. Typography, palette, and chrome are expected to
 differ; look for <strong>pedagogical features</strong> present on the left

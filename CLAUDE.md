@@ -4,7 +4,7 @@ A modern revival of kansaibenkyou.net, a learning resource for Kansai-ben (関�
 
 ## The cardinal rule: the old site is the source of truth
 
-The mothballed original at **https://static.kansaibenkyou.net** (mirrored locally under `_mothball/`) is the "living memory" of what this site must be. It is a pedagogical tool for dialect self-study where every link, list, table, summary page, text color, position — **and the text content of every field** — was chosen through public feedback to create a smooth learning experience.
+The mothballed original at **https://legacy.kansaibenkyou.net** (re-hosted in genkisugi after the kb account wind-down; mirrored locally under `_mothball/`) is the "living memory" of what this site must be. It is a pedagogical tool for dialect self-study where every link, list, table, summary page, text color, position — **and the text content of every field** — was chosen through public feedback to create a smooth learning experience.
 
 **There have been no post-publication human edits.** The 2016 mothball captured the final state of Keiko's edits in Drupal. Any divergence between the mothball and current `data/**/*.yaml` is therefore a regression — either an importer artifact or an earlier "cleanup" mistake — and should be reverted toward the mothball. This applies to:
 
@@ -17,7 +17,7 @@ The mothballed original at **https://static.kansaibenkyou.net** (mirrored locall
 
 2. **Never remove functionality to fix a bug.** Removing links to "fix" broken links, or deleting pages because they appear empty in our data, destroys the site's cross-referencing — the core pedagogical mechanism. Fix the data or the rendering instead.
 
-3. **Always check the original before acting.** If direction is unclear, if you're unsure how something "should be", use the living memory. Do not assume. Navigate to the equivalent page on static.kansaibenkyou.net and observe what it does.
+3. **Always check the original before acting.** If direction is unclear, if you're unsure how something "should be", use the living memory. Do not assume. Navigate to the equivalent page on legacy.kansaibenkyou.net and observe what it does.
 
 4. **Every page serves a purpose.** This is a learning site where users follow thoughts and connections. Taxonomy term pages are glossary definitions AND cross-reference hubs. Index pages are navigation tables with descriptions and tag links. Grammar point pages have structured comparison tables. None of this is decoration.
 
@@ -52,7 +52,7 @@ Keiko has green-lit fixing **provably bad or malicious** data directly in the YA
 
 Rebuild complete and going live at https://kansaibenkyou.net/ (custom domain set via the repo `CNAME` file; `baseurl` is now `""`). The temporary `kltm.github.io/kansaibenkyou.net/` URL no longer renders correctly — with `baseurl=""` the site only works served from a domain root, which is the custom domain. Using Minimal Mistakes theme framework.
 
-The mothballed reference still serves at https://static.kansaibenkyou.net.
+The mothballed reference is preserved at https://legacy.kansaibenkyou.net — re-hosted in the genkisugi AWS account after the kb account wind-down, byte-identical to the retired static.kansaibenkyou.net.
 
 ## License & attribution
 
@@ -68,7 +68,7 @@ This repository is **dual-licensed**:
 - **Audio hosting**: in-repo under `assets/audio/` (~87 MiB total).
 - **Mothball archive**: `_mothball/` subdirectory, **gitignored — never committed**. 1:1 mirror of the live S3 mothball for offline reference.
 - **Search**: Pagefind (static client-side search, indexed in CI via `npx pagefind --site _site`). Search UI at `/search/`.
-- **Analytics**: Google Analytics 4 via Minimal Mistakes' built-in `google-gtag` provider (`analytics:` block in `_config.yml`). Measurement ID `G-38LKKSF2EE` (GA account 268053544, property 375759528, stream 5201875217) — the same property the mothball reports to, kept for stat continuity across the migration. The mothball's traffic comes through its tagged front page, which apex `kansaibenkyou.net` (301) and `www` both still serve — but only the front page is tagged there, so historical numbers undercount deep-page visits; the new site tags every page. MM emits the snippet only when `JEKYLL_ENV=production` (set by `actions/jekyll-build-pages` in CI), so local builds are analytics-free. To separate old-vs-new traffic in GA, segment by Hostname (static.kansaibenkyou.net / www.kansaibenkyou.net vs kltm.github.io, later the apex). History: an earlier GoatCounter integration (chosen 2026-04, snippet lost in the MM theme migration, account never registered) was abandoned 2026-06-11 in favor of GA4 — sjcarbon was uncomfortable loading JS from a single-maintainer remote.
+- **Analytics**: Google Analytics 4 via Minimal Mistakes' built-in `google-gtag` provider (`analytics:` block in `_config.yml`). Measurement ID `G-38LKKSF2EE` (GA account 268053544, property 375759528, stream 5201875217) — the same property the mothball reports to, kept for stat continuity across the migration. The mothball's traffic comes through its tagged front page, which apex `kansaibenkyou.net` (301) and `www` both still serve — but only the front page is tagged there, so historical numbers undercount deep-page visits; the new site tags every page. MM emits the snippet only when `JEKYLL_ENV=production` (set by `actions/jekyll-build-pages` in CI), so local builds are analytics-free. To separate old-vs-new traffic in GA, segment by Hostname: the new site is `kansaibenkyou.net` (apex; earlier `kltm.github.io`), and the re-hosted mothball — which still carries the same gtag — reports as `legacy.kansaibenkyou.net` (the retired `static.`/`www.kansaibenkyou.net` mothball hostnames are gone). History: an earlier GoatCounter integration (chosen 2026-04, snippet lost in the MM theme migration, account never registered) was abandoned 2026-06-11 in favor of GA4 — sjcarbon was uncomfortable loading JS from a single-maintainer remote.
 
 ## The data model
 
@@ -126,13 +126,13 @@ Use the `kbnet-readonly` AWS profile. **Never inline-export the keys.**
 more than these four buckets (six `wrenshoe-*` course decks, scratch/test
 cruft, and a stopped 2011 Drupal EC2 server); full inventory and the
 wind-down sequence live in `personal-workspace/kbnet/notes/aws-universe.md`.
-What matters for THIS repo: after the GH Pages launch, the mothball will be
-served temporarily as **`legacy.kansaibenkyou.net`** from a different AWS
-account, and `static.kansaibenkyou.net` will eventually go away — at that
-point every reference to `static.kansaibenkyou.net` in this repo
-(`tools/visual_ab.py` base URL, this file, AGENTS.md) must switch to
-`legacy.`. The local `_mothball/` mirror is unaffected and remains the
-day-to-day comparison source.
+What matters for THIS repo (done 2026-06-21): the mothball is now served as
+**`legacy.kansaibenkyou.net`** from the genkisugi AWS account, and the
+repo's served-URL references (`tools/visual_ab.py` base URL, this file,
+AGENTS.md, README.md) have been switched from `static.` to `legacy.`. The
+kb account is being torn down (`static.kansaibenkyou.net` retired). The local
+`_mothball/` mirror is unaffected and remains the day-to-day comparison
+source. Wind-down state: `personal-workspace/kbnet/notes/`.
 
 ## Dialect and content handling
 
@@ -156,7 +156,7 @@ The most important lesson: **the old site is the living memory**. Every shortcut
 - Removed cross-reference links to "fix" broken link checker results. This destroyed the core pedagogical feature — users navigate by following connections between grammar, vocabulary, and conversations.
 - Claimed pages were "at parity" after checking they rendered, without clicking the links. Character taxonomy pages (Mori Atsushi, etc.) were empty shells for multiple commits.
 
-**Pattern**: before removing, simplifying, or changing ANYTHING, navigate to the equivalent page on static.kansaibenkyou.net and observe what it does.
+**Pattern**: before removing, simplifying, or changing ANYTHING, navigate to the equivalent page on legacy.kansaibenkyou.net and observe what it does.
 
 ### Data import pitfalls
 

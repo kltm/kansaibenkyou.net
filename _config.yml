@@ -19,7 +19,7 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "kansaiben"
 
 # Google Analytics 4 — same property (G-38LKKSF2EE) that the mothball
-# front page at static.kansaibenkyou.net reports to, so stats continue
+# front page (now re-hosted as legacy.kansaibenkyou.net) reports to, so stats continue
 # across the migration. Minimal Mistakes emits the gtag.js snippet only
 # when JEKYLL_ENV=production (actions/jekyll-build-pages sets that in
 # CI); local builds stay analytics-free.
